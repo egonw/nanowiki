@@ -12,4 +12,6 @@ WHERE { [] w:Property-3AHas_Zeta_potential ?zeta }
 data = sparql.remote(endpoint, query)
 zetas = data[,"zeta"]
 
+pdf(file="zetaPotentialHistogram.pdf")
 hist(zetas, breaks=40)
+dev.off()
