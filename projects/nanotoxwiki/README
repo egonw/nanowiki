@@ -1,2 +1,2 @@
-mysqldump -u root -p wikidb > backup.sql.txt
+mysqldump -u root -p wikidb --default-character-set=latin1 > backup.sql.txt
 
