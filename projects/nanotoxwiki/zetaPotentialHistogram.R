@@ -13,5 +13,8 @@ data = sparql.remote(endpoint, query)
 zetas = data[,"zeta"]
 
 pdf(file="zetaPotentialHistogram.pdf")
-hist(zetas, breaks=40)
+hist(
+  zetas, breaks=40,
+  main="Distribution of zetas"
+)
 dev.off()

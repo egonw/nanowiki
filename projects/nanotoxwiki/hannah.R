@@ -4,14 +4,18 @@ endpoint = "http://127.0.0.1/mediawiki/index.php/Special:SPARQLEndpoint"
 
 query = "
 PREFIX w: <http://127.0.0.1/mediawiki/index.php/Special:URIResolver/>
+PREFIX cat: <http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Category-3A>
+PREFIX prop: <http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Property-3A>
 
-SELECT ?size ?min ?max
+SELECT ?nm ?comp ?dose ?value
 WHERE {
-  ?s a <http://semantic-mediawiki.org/swivt/1.0#Subject> .
-  ?s w:Property-3AHas_Size_Units ?units .
-  OPTIONAL { ?s w:Property-3AHas_Size ?size }
-  OPTIONAL { ?s w:Property-3AHas_Size_Min ?min }
-  OPTIONAL { ?s w:Property-3AHas_Size_Max ?max }
+  ?study ?p w:Karlsson2008 .
+  ?nm ?q ?study ;
+      prop:Has_Chemical_Composition ?comp ;
+      a cat:NanoMaterials .
+  ?m prop:Has_Entity ?nm ;
+     prop:Has_Dose ?dose ;
+     prop:Has_Endpoint_Value ?value .
 }
 "
 
