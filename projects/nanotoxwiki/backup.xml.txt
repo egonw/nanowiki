@@ -3146,6 +3146,345 @@ You can browse this data via one of the following categories:
 [[Category:NanoMaterials]]__NOEDITSECTION____NOTOC__
 &lt;/includeonly&gt;</text>
     </revision>
+    <revision>
+      <id>868</id>
+      <timestamp>2011-10-10T17:42:15Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">&lt;noinclude&gt;
+&lt;pre&gt;
+{{NanoMaterial
+|Has Identifier=
+|Has Label=
+|Has Chemical Composition=
+|Has Chemical Coating=
+|Image=
+|Has NM Type=
+|Has Size=
+|Has Size Min=
+|Has Size Max=
+|Has Size Error=
+|Has Size Units=
+|Has Zeta potential=
+|Has Zeta Units=
+|Has Zeta Error=
+}}
+&lt;/pre&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: right; table-layout:fixed; word-wrap: break-word;&quot;
+! colspan=2 style=&quot;text-align: center;background-color: #ddd;&quot; | Nanomaterial
+|-
+! colspan=2 style=&quot;text-align: center; font-size: 125%&quot; | {{{Name|{{PAGENAME}}}}}
+{{#if:{{{Image|}}}|
+{{!}}-
+{{!}} Image
+{{!}} {{{Image}}}
+}}
+|-
+{{#if:{{{Has Label|}}}|
+{{!}}-
+{{!}} Label
+{{!}} {{{Has Label}}} 
+}}
+|-
+{{#if:{{{Has Identifier|}}}|
+{{!}}-
+{{!}} Identifier
+{{!}} {{{Has Identifier}}} 
+}}
+|-
+{{#if:{{{Has Chemical Composition|}}}|
+{{!}}-
+{{!}} Chemical Composition
+{{!}} {{{Has Chemical Composition}}} 
+}}
+|-
+{{#if:{{{Has Chemical Coating|}}}|
+{{!}}-
+{{!}} Chemical Coating
+{{!}} {{{Has Chemical Coating}}} 
+}}
+|-
+! colspan=2 style=&quot;text-align: center;background-color: #ddd;&quot; | Properties
+|-
+{{#if:{{{Has Size|}}}|
+{{!}}-
+{{!}} Size
+{{!}} {{{Has Size}}} {{#if:{{{Has Size Error|}}}|± {{{Has Size Error}}}}} {{#if:{{{Has Size Units|}}}|{{{Has Size Units}}}}}
+}}
+{{#if:{{{Has Size Min|}}}|
+{{!}}-
+{{!}} Size
+{{!}} {{{Has Size Min}}} - {{{Has Size Max}}} {{#if:{{{Has Size Units|}}}|{{{Has Size Units}}}}}
+}}
+{{#if:{{{Has NM Type|}}}|
+{{!}}-
+{{!}} Type
+{{!}} {{{Has NM Type}}} 
+}}
+{{#if:{{{Has Zeta potential|}}}|
+{{!}}-
+{{!}} Zeta potential
+{{!}} {{{Has Zeta potential}}} {{#if:{{{Has Zeta Error|}}}|± {{{Has Zeta Error}}}}} {{#if:{{{Has Zeta Units|}}}|{{{Has Zeta Units}}}}}
+}}
+|}
+&lt;br&gt;
+= Measurements =
+{{#ask: [[Category:Measurements]] [[Has Entity::{{PAGENAME}}]]
+| ?Has Endpoint Value
+| format=jqplotbar
+| sort=Has Endpoint Value
+| order=ascending
+| height=250
+| width=600
+}}
+{{#ask: [[Category:Measurements]] [[Has Entity::{{PAGENAME}}]]
+| ?Has Entity #
+| ?Has Dose #
+| ?Has Endpoint Value #
+| sort=Has Endpoint Value
+| order=ascending
+| format = template
+| template = MeasurementDetails
+| introtemplate = MeasurementDetailsHeader
+| outrotemplate = MeasurementDetailsFooter
+}}
+{{#if:{{{Has Size|}}} |
+{{#set:
+|Has Size={{{Has Size|}}}
+}}
+| }}
+{{#if:{{{Has Size Min|}}} |
+{{#set:
+|Has Size Min={{{Has Size Min|}}}
+}}
+| }}
+{{#if:{{{Has Size Max|}}} |
+{{#set:
+|Has Size Max={{{Has Size Max|}}}
+}}
+| }}
+{{#if:{{{Has Size Error|}}} |
+{{#set:
+|Has Size Error={{{Has Size Error|}}}
+}}
+| }}
+{{#if:{{{Has Size Units|}}} |
+{{#set:
+|Has Size Units={{{Has Size Units|}}}
+}}
+| }}
+{{#if:{{{Has Label|}}} |
+{{#set:
+|Has Label={{{Has Label|}}}
+}}
+| }}
+{{#if:{{{Has Identifier|}}} |
+{{#set:
+|Has Identifier={{{Has Identifier|}}}
+}}
+| }}
+{{#if:{{{Has Chemical Composition|}}} |
+{{#set:
+|Has Chemical Composition={{{Has Chemical Composition|}}}
+}}
+| }}
+{{#if:{{{Has NM Type|}}} |
+{{#set:
+|Has NM Type={{{Has NM Type|}}}
+}}
+[[Category:{{{Has NM Type|}}}s]]
+| }}
+{{#if:{{{Has Zeta potential|}}} |
+{{#set:
+|Has Zeta potential={{{Has Zeta potential|}}}
+}}
+| }}
+{{#if:{{{Has Zeta Units|}}} |
+{{#set:
+|Has Zeta Units={{{Has Zeta Units|}}}
+}}
+| }}
+{{#if:{{{Has Zeta Error|}}} |
+{{#set:
+|Has Zeta Error={{{Has Zeta Error|}}}
+}}
+| }}
+{{#set: |SubclassOf=http://egonw.github.com/resource/NM000001 }}
+[[Category:NanoMaterials]]__NOEDITSECTION____NOTOC__
+&lt;/includeonly&gt;</text>
+    </revision>
+    <revision>
+      <id>869</id>
+      <timestamp>2011-10-10T18:13:28Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">&lt;noinclude&gt;
+&lt;pre&gt;
+{{NanoMaterial
+|Has Identifier=
+|Has Label=
+|Has Chemical Composition=
+|Has Chemical Coating=
+|Image=
+|Has NM Type=
+|Has Size=
+|Has Size Min=
+|Has Size Max=
+|Has Size Error=
+|Has Size Units=
+|Has Zeta potential=
+|Has Zeta Units=
+|Has Zeta Error=
+}}
+&lt;/pre&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: right; table-layout:fixed; word-wrap: break-word;&quot;
+! colspan=2 style=&quot;text-align: center;background-color: #ddd;&quot; | Nanomaterial
+|-
+! colspan=2 style=&quot;text-align: center; font-size: 125%&quot; | {{{Name|{{PAGENAME}}}}}
+{{#if:{{{Image|}}}|
+{{!}}-
+{{!}} Image
+{{!}} {{{Image}}}
+}}
+|-
+{{#if:{{{Has Label|}}}|
+{{!}}-
+{{!}} Label
+{{!}} {{{Has Label}}} 
+}}
+|-
+{{#if:{{{Has Identifier|}}}|
+{{!}}-
+{{!}} Identifier
+{{!}} {{{Has Identifier}}} 
+}}
+|-
+{{#if:{{{Has Chemical Composition|}}}|
+{{!}}-
+{{!}} Chemical Composition
+{{!}} {{{Has Chemical Composition}}} 
+}}
+|-
+{{#if:{{{Has Chemical Coating|}}}|
+{{!}}-
+{{!}} Chemical Coating
+{{!}} {{{Has Chemical Coating}}} 
+}}
+|-
+! colspan=2 style=&quot;text-align: center;background-color: #ddd;&quot; | Properties
+|-
+{{#if:{{{Has Size|}}}|
+{{!}}-
+{{!}} Size
+{{!}} {{{Has Size}}} {{#if:{{{Has Size Error|}}}|± {{{Has Size Error}}}}} {{#if:{{{Has Size Units|}}}|{{{Has Size Units}}}}}
+}}
+{{#if:{{{Has Size Min|}}}|
+{{!}}-
+{{!}} Size
+{{!}} {{{Has Size Min}}} - {{{Has Size Max}}} {{#if:{{{Has Size Units|}}}|{{{Has Size Units}}}}}
+}}
+{{#if:{{{Has NM Type|}}}|
+{{!}}-
+{{!}} Type
+{{!}} {{{Has NM Type}}} 
+}}
+{{#if:{{{Has Zeta potential|}}}|
+{{!}}-
+{{!}} Zeta potential
+{{!}} {{{Has Zeta potential}}} {{#if:{{{Has Zeta Error|}}}|± {{{Has Zeta Error}}}}} {{#if:{{{Has Zeta Units|}}}|{{{Has Zeta Units}}}}}
+}}
+|}
+&lt;br&gt;
+= Measurements =
+{{#ask: [[Category:Measurements]] [[Has Entity::{{PAGENAME}}]]
+| ?Has Endpoint Value
+| format=jqplotbar
+| sort=Has Endpoint Value
+| order=ascending
+| height=250
+| width=600
+}}
+{{#ask: [[Category:Measurements]] [[Has Entity::{{PAGENAME}}]]
+| ?Has Entity #
+| ?Has Dose #
+| ?Has Endpoint Value #
+| sort=Has Endpoint Value
+| order=ascending
+| format = template
+| template = MeasurementDetails
+| introtemplate = MeasurementDetailsHeader
+| outrotemplate = MeasurementDetailsFooter
+}}
+{{#if:{{{Has Size|}}} |
+{{#set:
+|Has Size={{{Has Size|}}}
+}}
+| }}
+{{#if:{{{Has Size Min|}}} |
+{{#set:
+|Has Size Min={{{Has Size Min|}}}
+}}
+| }}
+{{#if:{{{Has Size Max|}}} |
+{{#set:
+|Has Size Max={{{Has Size Max|}}}
+}}
+| }}
+{{#if:{{{Has Size Error|}}} |
+{{#set:
+|Has Size Error={{{Has Size Error|}}}
+}}
+| }}
+{{#if:{{{Has Size Units|}}} |
+{{#set:
+|Has Size Units={{{Has Size Units|}}}
+}}
+| }}
+{{#if:{{{Has Label|}}} |
+{{#set:
+|Has Label={{{Has Label|}}}
+}}
+| }}
+{{#if:{{{Has Identifier|}}} |
+{{#set:
+|Has Identifier={{{Has Identifier|}}}
+}}
+| }}
+{{#if:{{{Has Chemical Composition|}}} |
+{{#set:
+|Has Chemical Composition={{{Has Chemical Composition|}}}
+}}
+| }}
+{{#if:{{{Has NM Type|}}} |
+{{#set:
+|Has NM Type={{{Has NM Type|}}}
+}}
+[[Category:{{{Has NM Type|}}}s]]
+| }}
+{{#if:{{{Has Zeta potential|}}} |
+{{#set:
+|Has Zeta potential={{{Has Zeta potential|}}}
+}}
+| }}
+{{#if:{{{Has Zeta Units|}}} |
+{{#set:
+|Has Zeta Units={{{Has Zeta Units|}}}
+}}
+| }}
+{{#if:{{{Has Zeta Error|}}} |
+{{#set:
+|Has Zeta Error={{{Has Zeta Error|}}}
+}}
+| }}
+[[Category:NanoMaterials]]__NOEDITSECTION____NOTOC__
+&lt;/includeonly&gt;</text>
+    </revision>
   </page>
   <page>
     <title>TestNM</title>
@@ -11166,6 +11505,94 @@ ranging from 15 to 90 nm, were purchased from Sigma-Aldrich&quot;</text>
 &quot;All 17 nanosized metal oxides (Table 1), with sizes
 ranging from 15 to 90 nm, were purchased from Sigma-Aldrich&quot;</text>
     </revision>
+    <revision>
+      <id>862</id>
+      <timestamp>2011-10-09T19:00:38Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Study
+|Has Source=Puzyn2011
+|Has Identifier=1
+|Has Entities=MetalOxides
+|Has Endpoint=LogReciprocalEC50
+|Has Study Type=Regression
+|Has Object Count=17
+|Has R2=0.85
+|Has Q2=0.77
+|Has RMSEP=0.19
+}}
+
+= Plot = 
+
+{{#ask: [[Category:Measurements]] [[Has Study::{{PAGENAME}}]] [[Has Endpoint::LogReciprocalEC50]]
+| ?Has Endpoint Value
+| format=jqplotbar
+| height=250
+| width=600
+}}
+{{#ask: [[Category:Measurements]] [[Has Study::{{PAGENAME}}]] [[Has Endpoint::LogReciprocalEC50]]
+| ?Has Entity #
+| ?Has Dose #
+| ?Has Endpoint Value #
+| format = template
+| template = MeasurementDetails
+| introtemplate = MeasurementDetailsHeader
+| outrotemplate = MeasurementDetailsFooter
+}}
+
+= Data Source =
+
+&quot;All 17 nanosized metal oxides (Table 1), with sizes
+ranging from 15 to 90 nm, were purchased from Sigma-Aldrich&quot;
+
+This study uses the [[Uses descriptor::IonozationEnthalpy]] descriptor.</text>
+    </revision>
+    <revision>
+      <id>866</id>
+      <timestamp>2011-10-09T19:02:02Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Study
+|Has Source=Puzyn2011
+|Has Identifier=1
+|Has Entities=MetalOxides
+|Has Endpoint=LogReciprocalEC50
+|Has Study Type=Regression
+|Has Object Count=17
+|Has R2=0.85
+|Has Q2=0.77
+|Has RMSEP=0.19
+}}
+
+= Plot = 
+
+{{#ask: [[Category:Measurements]] [[Has Study::{{PAGENAME}}]] [[Has Endpoint::LogReciprocalEC50]]
+| ?Has Endpoint Value
+| format=jqplotbar
+| height=250
+| width=600
+}}
+{{#ask: [[Category:Measurements]] [[Has Study::{{PAGENAME}}]] [[Has Endpoint::LogReciprocalEC50]]
+| ?Has Entity #
+| ?Has Dose #
+| ?Has Endpoint Value #
+| format = template
+| template = MeasurementDetails
+| introtemplate = MeasurementDetailsHeader
+| outrotemplate = MeasurementDetailsFooter
+}}
+
+= Data Source =
+
+&quot;All 17 nanosized metal oxides (Table 1), with sizes
+ranging from 15 to 90 nm, were purchased from Sigma-Aldrich&quot;
+
+This study uses the [[Uses Descriptor::IonozationEnthalpy]] descriptor.</text>
+    </revision>
   </page>
   <page>
     <title>Property:Has Object Count</title>
@@ -11374,6 +11801,26 @@ The allowed value for this property is:
 * [[Allows value::CarbonNanoparticle]]
 * [[Allows value::Alloy]]
 * [[Allows value::Graphene]]</text>
+    </revision>
+    <revision>
+      <id>870</id>
+      <timestamp>2011-10-10T18:18:06Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">This is a property of type [[Has type::Page]].
+
+The allowed value for this property is:
+* [[Allows value::Metal]]
+* [[Allows value::MetalOxide]]
+* [[Allows value::CarbonNanotube]]
+* [[Allows value::CarbonNanoparticle]]
+* [[Allows value::Alloy]]
+* [[Allows value::Graphene]]
+
+{{#set: |Equivalent URI=http://www.w3.org/2000/01/rdf-schema#subClassOf }}
+{{#set: |Original URI=http://www.w3.org/2000/01/rdf-schema#subClassOf }}</text>
     </revision>
   </page>
   <page>
@@ -11669,6 +12116,34 @@ Observed Value [[Has Endpoint Value::3.45]] at unknown dose.
  |offset=0
  |limit=250
 }}</text>
+    </revision>
+    <revision>
+      <id>871</id>
+      <timestamp>2011-10-10T18:19:39Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">Metal Oxide are nanoparticles with a metal oxide core, possibly with a coating.
+
+{{#ask: [[Category:MetalOxides]]
+ | ? Has Identifier #
+ | ? Has Label #
+ | ? Has Size #
+ | ? Has NM Type #
+ | ? Has Zeta potential #
+ | ? Has Chemical Composition #
+ |format = template
+ |template = NMsFrontTemplate
+ |introtemplate = NMsFrontHeader
+ |outrotemplate = NMsFrontFooter
+ |sort = Has Identifier
+ |offset=0
+ |limit=250
+}}
+
+{{#set: |Equivalent URI=http://egonw.github.com/resource/NM_000100 }}
+{{#set: |Original URI=http://egonw.github.com/resource/NM_000100 }}</text>
     </revision>
   </page>
   <page>
@@ -14472,6 +14947,151 @@ allowing the application of statistical methods.
 | ? Has Q2
 | ? Has RMSEP
 }}
+[[Category:Descriptors]]__NOEDITSECTION____NOTOC__
+&lt;/includeonly&gt;</text>
+    </revision>
+    <revision>
+      <id>857</id>
+      <timestamp>2011-10-09T18:42:09Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">&lt;noinclude&gt;
+[[:Category:Descriptors]] describing some chemical entity in a nominal or numerical manner,
+allowing the application of statistical methods.
+&lt;pre&gt;
+{{Descriptor
+|NM=
+}}
+&lt;/pre&gt;
+The NM field indicates the Nanomaterial Ontology identifier for this descriptor; only the 6 digits should be given.
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: right; table-layout:fixed; word-wrap: break-word;&quot;
+! colspan=2 style=&quot;text-align: center; font-size: 125%&quot; | {{{Name|{{PAGENAME}} }}}
+|-
+|}
+&lt;br&gt;
+{{#ask: [[Category:Studies]] [[Uses Descriptor::{{PAGENAME}}]]
+| ? Has Study Type
+| ? Has Object Count
+| ? Has R2
+| ? Has Q2
+| ? Has RMSEP
+}}
+{{#if:{{{NM|}}} |
+  {{#set: |Equivalent URI=http://egonw.github.com/resource/NM_{{{Has Source|}}} }}
+  {{#set: |Original URI=http://egonw.github.com/resource/NM_{{{Has Source|}}} }}
+| }}
+[[Category:Descriptors]]__NOEDITSECTION____NOTOC__
+&lt;/includeonly&gt;</text>
+    </revision>
+    <revision>
+      <id>860</id>
+      <timestamp>2011-10-09T18:43:47Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">&lt;noinclude&gt;
+[[:Category:Descriptors]] describing some chemical entity in a nominal or numerical manner,
+allowing the application of statistical methods.
+&lt;pre&gt;
+{{Descriptor
+|NM=
+}}
+&lt;/pre&gt;
+The NM field indicates the Nanomaterial Ontology identifier for this descriptor; only the 6 digits should be given.
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: right; table-layout:fixed; word-wrap: break-word;&quot;
+! colspan=2 style=&quot;text-align: center; font-size: 125%&quot; | {{{Name|{{PAGENAME}} }}}
+|-
+|}
+&lt;br&gt;
+{{#ask: [[Category:Studies]] [[Uses Descriptor::{{PAGENAME}}]]
+| ? Has Study Type
+| ? Has Object Count
+| ? Has R2
+| ? Has Q2
+| ? Has RMSEP
+}}
+{{#if:{{{NM|}}} |
+  {{#set: |Equivalent URI=http://egonw.github.com/resource/NM_{{{NM|}}} }}
+  {{#set: |Original URI=http://egonw.github.com/resource/NM_{{{NM|}}} }}
+| }}
+[[Category:Descriptors]]__NOEDITSECTION____NOTOC__
+&lt;/includeonly&gt;</text>
+    </revision>
+    <revision>
+      <id>864</id>
+      <timestamp>2011-10-09T19:01:26Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">&lt;noinclude&gt;
+[[:Category:Descriptors]] describing some chemical entity in a nominal or numerical manner,
+allowing the application of statistical methods.
+&lt;pre&gt;
+{{Descriptor
+|NM=
+}}
+&lt;/pre&gt;
+The NM field indicates the Nanomaterial Ontology identifier for this descriptor; only the 6 digits should be given.
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: right; table-layout:fixed; word-wrap: break-word;&quot;
+! colspan=2 style=&quot;text-align: center; font-size: 125%&quot; | {{{Name|{{PAGENAME}} }}}
+|-
+|}
+&lt;br&gt;
+{{#ask: [[Category:Studies]] [[Uses descriptor::{{PAGENAME}}]]
+| ? Has Study Type
+| ? Has Object Count
+| ? Has R2
+| ? Has Q2
+| ? Has RMSEP
+}}
+{{#if:{{{NM|}}} |
+  {{#set: |Equivalent URI=http://egonw.github.com/resource/NM_{{{NM|}}} }}
+  {{#set: |Original URI=http://egonw.github.com/resource/NM_{{{NM|}}} }}
+| }}
+[[Category:Descriptors]]__NOEDITSECTION____NOTOC__
+&lt;/includeonly&gt;</text>
+    </revision>
+    <revision>
+      <id>865</id>
+      <timestamp>2011-10-09T19:01:47Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Undo revision 864 by [[Special:Contributions/Egonw|Egonw]] ([[User talk:Egonw|Talk]])</comment>
+      <text xml:space="preserve">&lt;noinclude&gt;
+[[:Category:Descriptors]] describing some chemical entity in a nominal or numerical manner,
+allowing the application of statistical methods.
+&lt;pre&gt;
+{{Descriptor
+|NM=
+}}
+&lt;/pre&gt;
+The NM field indicates the Nanomaterial Ontology identifier for this descriptor; only the 6 digits should be given.
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: right; table-layout:fixed; word-wrap: break-word;&quot;
+! colspan=2 style=&quot;text-align: center; font-size: 125%&quot; | {{{Name|{{PAGENAME}} }}}
+|-
+|}
+&lt;br&gt;
+{{#ask: [[Category:Studies]] [[Uses Descriptor::{{PAGENAME}}]]
+| ? Has Study Type
+| ? Has Object Count
+| ? Has R2
+| ? Has Q2
+| ? Has RMSEP
+}}
+{{#if:{{{NM|}}} |
+  {{#set: |Equivalent URI=http://egonw.github.com/resource/NM_{{{NM|}}} }}
+  {{#set: |Original URI=http://egonw.github.com/resource/NM_{{{NM|}}} }}
+| }}
 [[Category:Descriptors]]__NOEDITSECTION____NOTOC__
 &lt;/includeonly&gt;</text>
     </revision>
@@ -22936,7 +23556,7 @@ The allowed value for this property is:
     </revision>
   </page>
   <page>
-    <title>IonozationEnthalpy</title>
+    <title>IonizationEnthalpy</title>
     <id>259</id>
     <revision>
       <id>747</id>
@@ -22947,6 +23567,30 @@ The allowed value for this property is:
       </contributor>
       <comment>Created page with &quot;{{Descriptor}}&quot;</comment>
       <text xml:space="preserve">{{Descriptor}}</text>
+    </revision>
+    <revision>
+      <id>867</id>
+      <timestamp>2011-10-10T07:22:30Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Descriptor
+|NM=001001
+}}</text>
+    </revision>
+    <revision>
+      <id>872</id>
+      <timestamp>2011-10-10T18:20:39Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <comment>moved [[IonozationEnthalpy]] to [[IonizationEnthalpy]]</comment>
+      <text xml:space="preserve">{{Descriptor
+|NM=001001
+}}</text>
     </revision>
   </page>
   <page>
@@ -23443,6 +24087,89 @@ The allowed value for this property is:
       </contributor>
       <comment>Created page with &quot;Organic compounds.&quot;</comment>
       <text xml:space="preserve">Organic compounds.</text>
+    </revision>
+  </page>
+  <page>
+    <title>Molecular Weight</title>
+    <id>289</id>
+    <revision>
+      <id>856</id>
+      <timestamp>2011-10-09T18:25:35Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Descriptor |NM=000100 }}&quot;</comment>
+      <text xml:space="preserve">{{Descriptor
+|NM=000100
+}}</text>
+    </revision>
+    <revision>
+      <id>861</id>
+      <timestamp>2011-10-09T18:50:07Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Descriptor
+|NM=001000
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Original URI</title>
+    <id>290</id>
+    <revision>
+      <id>858</id>
+      <timestamp>2011-10-09T18:42:57Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{#set:Has type=URL}}&quot;</comment>
+      <text xml:space="preserve">{{#set:Has type=URL}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Equivalent URI</title>
+    <id>291</id>
+    <revision>
+      <id>859</id>
+      <timestamp>2011-10-09T18:43:02Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{#set:Has type=URL}}&quot;</comment>
+      <text xml:space="preserve">{{#set:Has type=URL}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Uses descriptor</title>
+    <id>292</id>
+    <revision>
+      <id>863</id>
+      <timestamp>2011-10-09T19:00:56Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;This is a property of type [[Has type::Page]].&quot;</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Page]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>IonozationEnthalpy</title>
+    <id>293</id>
+    <revision>
+      <id>873</id>
+      <timestamp>2011-10-10T18:20:40Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>moved [[IonozationEnthalpy]] to [[IonizationEnthalpy]]</comment>
+      <text xml:space="preserve">#REDIRECT [[IonizationEnthalpy]]</text>
     </revision>
   </page>
 </mediawiki>
