@@ -408,6 +408,80 @@ You can browse this data via one of the following categories:
 ** cd ~/var/Projects/hg/kirepos/projects/nanotoxwiki
 ** mysqldump -u root -p wikidb --default-character-set=latin1 &gt; backup.sql.txt</text>
     </revision>
+    <revision>
+      <id>926</id>
+      <timestamp>2011-10-13T09:03:42Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>/* Backups */</comment>
+      <text xml:space="preserve">Egon's Lab Notebook.
+
+== Nanomaterial Database ==
+
+Database containing QSAR studies from literature with assay data from cell line experiments.
+You can browse this data via one of the following categories:
+
+* [[:Category:NanoMaterials|Nanomaterials]] ({{#ask: [[Category:NanoMaterials]] | format=count}}),
+** [[:Category:MetalOxides|Metal oxides]] ({{#ask: [[Category:MetalOxides]] | format=count}}) 
+* [[:Category:Studies|Studies]] ({{#ask: [[Category:Studies]] | format=count}}), [[:Category:Measurements|Measurements]] ({{#ask: [[Category:Measurements]] | format=count}}),
+** [[:Category:NanoMaterials|NanoMaterials]] ({{#ask: [[Category:Studies]] [[Has Entities::!Compounds]] | format=count}}), of which Metal oxides ({{#ask: [[Category:Studies]] [[Has Entities::MetalOxides]] | format=count}}),
+** [[:Category:Compounds|Compounds]] ({{#ask: [[Category:Studies]] [[Has Entities::Compounds]] | format=count}})
+* [[:Category:Papers|Papers]] ({{#ask: [[Category:Papers]] | format=count}}) , [[:Category:PapersToRead|To Read]] ({{#ask: [[Category:PapersToRead]] | format=count}})
+* [[:Category:Descriptors|Descriptors]] ({{#ask: [[Category:Descriptors]] | format=count}}),
+* [[:Category:Endpoints|Endpoints]] ({{#ask: [[Category:Endpoints]] | format=count}}),
+* [[:Category:Toxicity|Toxicity]] ({{#ask: [[Category:Toxicity]] | format=count}}),
+* [[:Category:CellLines|Cell lines]] ({{#ask: [[Category:CellLines]] | format=count}}).
+
+== Backups ==
+
+* [[Special:ExportRDF|Export RDF]] (does not work)
+* dumpBackup.php
+** cd ~/var/Projects/hg/kirepos/projects/nanotoxwiki
+** sudo php /usr/share/mediawiki/maintenance/dumpBackup.php --conf /etc/mediawiki/LocalSettings.php --full &gt; backup.sql.txt
+** (this required adding an /etc/mediawiki/AdminSettings.php with db account info, '''wrapped''' in ''&lt;?php ?&gt;'')
+* see ~/var/Projects/hg/kirepos/projects/nanotoxwiki/README
+** cd ~/var/Projects/hg/kirepos/projects/nanotoxwiki
+** mysqldump -u root -p wikidb --default-character-set=latin1 &gt; backup.sql.txt</text>
+    </revision>
+    <revision>
+      <id>927</id>
+      <timestamp>2011-10-13T09:05:43Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>/* Backups */</comment>
+      <text xml:space="preserve">Egon's Lab Notebook.
+
+== Nanomaterial Database ==
+
+Database containing QSAR studies from literature with assay data from cell line experiments.
+You can browse this data via one of the following categories:
+
+* [[:Category:NanoMaterials|Nanomaterials]] ({{#ask: [[Category:NanoMaterials]] | format=count}}),
+** [[:Category:MetalOxides|Metal oxides]] ({{#ask: [[Category:MetalOxides]] | format=count}}) 
+* [[:Category:Studies|Studies]] ({{#ask: [[Category:Studies]] | format=count}}), [[:Category:Measurements|Measurements]] ({{#ask: [[Category:Measurements]] | format=count}}),
+** [[:Category:NanoMaterials|NanoMaterials]] ({{#ask: [[Category:Studies]] [[Has Entities::!Compounds]] | format=count}}), of which Metal oxides ({{#ask: [[Category:Studies]] [[Has Entities::MetalOxides]] | format=count}}),
+** [[:Category:Compounds|Compounds]] ({{#ask: [[Category:Studies]] [[Has Entities::Compounds]] | format=count}})
+* [[:Category:Papers|Papers]] ({{#ask: [[Category:Papers]] | format=count}}) , [[:Category:PapersToRead|To Read]] ({{#ask: [[Category:PapersToRead]] | format=count}})
+* [[:Category:Descriptors|Descriptors]] ({{#ask: [[Category:Descriptors]] | format=count}}),
+* [[:Category:Endpoints|Endpoints]] ({{#ask: [[Category:Endpoints]] | format=count}}),
+* [[:Category:Toxicity|Toxicity]] ({{#ask: [[Category:Toxicity]] | format=count}}),
+* [[:Category:CellLines|Cell lines]] ({{#ask: [[Category:CellLines]] | format=count}}).
+
+== Backups ==
+
+* [[Special:ExportRDF|Export RDF]] (does not work)
+* dumpBackup.php
+** cd ~/var/Projects/hg/kirepos/projects/nanotoxwiki
+** sudo php /usr/share/mediawiki/maintenance/dumpBackup.php --conf /etc/mediawiki/LocalSettings.php --full &gt; backup.xml.txt
+** (this required adding an /etc/mediawiki/AdminSettings.php with db account info, '''wrapped''' in ''&lt;?php ?&gt;'')
+* see ~/var/Projects/hg/kirepos/projects/nanotoxwiki/README
+** cd ~/var/Projects/hg/kirepos/projects/nanotoxwiki
+** mysqldump -u root -p wikidb --default-character-set=latin1 &gt; backup.sql.txt</text>
+    </revision>
   </page>
   <page>
     <title>MediaWiki:Smw uri blacklist</title>
@@ -11593,6 +11667,224 @@ ranging from 15 to 90 nm, were purchased from Sigma-Aldrich&quot;
 
 This study uses the [[Uses Descriptor::IonozationEnthalpy]] descriptor.</text>
     </revision>
+    <revision>
+      <id>893</id>
+      <timestamp>2011-10-11T09:34:43Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Study
+|Has Source=Puzyn2011
+|Has Identifier=1
+|Has Entities=MetalOxides
+|Has Endpoint=LogReciprocalEC50
+|Has Study Type=Regression
+|Has Object Count=17
+|Has R2=0.85
+|Has Q2=0.77
+|Has RMSEP=0.19
+}}
+
+= Plot = 
+
+{{#ask: [[Category:Measurements]] [[Has Study::{{PAGENAME}}]] [[Has Endpoint::LogReciprocalEC50]]
+| ?Has Endpoint Value
+| format=jqplotbar
+| height=250
+| width=600
+}}
+{{#ask: [[Category:Measurements]] [[Has Study::{{PAGENAME}}]] [[Has Endpoint::LogReciprocalEC50]]
+| ?Has Entity #
+| ?Has Dose #
+| ?Has Endpoint Value #
+| format = template
+| template = MeasurementDetails
+| introtemplate = MeasurementDetailsHeader
+| outrotemplate = MeasurementDetailsFooter
+}}
+
+= Data Source =
+
+&quot;All 17 nanosized metal oxides (Table 1), with sizes
+ranging from 15 to 90 nm, were purchased from Sigma-Aldrich&quot;
+
+This study uses the [[Uses Descriptor::Ionozation Enthalpy]] descriptor.</text>
+    </revision>
+    <revision>
+      <id>894</id>
+      <timestamp>2011-10-11T09:34:57Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Study
+|Has Source=Puzyn2011
+|Has Identifier=1
+|Has Entities=MetalOxides
+|Has Endpoint=LogReciprocalEC50
+|Has Study Type=Regression
+|Has Object Count=17
+|Has R2=0.85
+|Has Q2=0.77
+|Has RMSEP=0.19
+}}
+
+= Plot = 
+
+{{#ask: [[Category:Measurements]] [[Has Study::{{PAGENAME}}]] [[Has Endpoint::LogReciprocalEC50]]
+| ?Has Endpoint Value
+| format=jqplotbar
+| height=250
+| width=600
+}}
+{{#ask: [[Category:Measurements]] [[Has Study::{{PAGENAME}}]] [[Has Endpoint::LogReciprocalEC50]]
+| ?Has Entity #
+| ?Has Dose #
+| ?Has Endpoint Value #
+| format = template
+| template = MeasurementDetails
+| introtemplate = MeasurementDetailsHeader
+| outrotemplate = MeasurementDetailsFooter
+}}
+
+= Data Source =
+
+&quot;All 17 nanosized metal oxides (Table 1), with sizes
+ranging from 15 to 90 nm, were purchased from Sigma-Aldrich&quot;
+
+This study uses the [[Uses Descriptor::Ionization Enthalpy]] descriptor.</text>
+    </revision>
+    <revision>
+      <id>916</id>
+      <timestamp>2011-10-11T09:53:13Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Study
+|Has Source=Puzyn2011
+|Has Identifier=1
+|Has Entities=MetalOxides
+|Has Endpoint=LogReciprocalEC50
+|Has Study Type=Regression
+|Has Object Count=17
+|Has R2=0.85
+|Has Q2=0.77
+|Has RMSEP=0.19
+}}
+
+This study uses the descriptors below, but only [[Uses Descriptor::Ionization Enthalpy]] was found important:
+[[Uses Descriptor::Heat of Formation]].
+
+= Plot = 
+
+{{#ask: [[Category:Measurements]] [[Has Study::{{PAGENAME}}]] [[Has Endpoint::LogReciprocalEC50]]
+| ?Has Endpoint Value
+| format=jqplotbar
+| height=250
+| width=600
+}}
+{{#ask: [[Category:Measurements]] [[Has Study::{{PAGENAME}}]] [[Has Endpoint::LogReciprocalEC50]]
+| ?Has Entity #
+| ?Has Dose #
+| ?Has Endpoint Value #
+| format = template
+| template = MeasurementDetails
+| introtemplate = MeasurementDetailsHeader
+| outrotemplate = MeasurementDetailsFooter
+}}
+
+= Data Source =
+
+&quot;All 17 nanosized metal oxides (Table 1), with sizes
+ranging from 15 to 90 nm, were purchased from Sigma-Aldrich&quot;</text>
+    </revision>
+    <revision>
+      <id>917</id>
+      <timestamp>2011-10-11T09:53:32Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Study
+|Has Source=Puzyn2011
+|Has Identifier=1
+|Has Entities=MetalOxides
+|Has Endpoint=LogReciprocalEC50
+|Has Study Type=Regression
+|Has Object Count=17
+|Has R2=0.85
+|Has Q2=0.77
+|Has RMSEP=0.19
+}}
+
+= Descriptors = 
+
+This study uses the descriptors below, but only [[Uses Descriptor::Ionization Enthalpy]] was found important:
+[[Uses Descriptor::Heat of Formation]].
+
+= Plot = 
+
+{{#ask: [[Category:Measurements]] [[Has Study::{{PAGENAME}}]] [[Has Endpoint::LogReciprocalEC50]]
+| ?Has Endpoint Value
+| format=jqplotbar
+| height=250
+| width=600
+}}
+{{#ask: [[Category:Measurements]] [[Has Study::{{PAGENAME}}]] [[Has Endpoint::LogReciprocalEC50]]
+| ?Has Entity #
+| ?Has Dose #
+| ?Has Endpoint Value #
+| format = template
+| template = MeasurementDetails
+| introtemplate = MeasurementDetailsHeader
+| outrotemplate = MeasurementDetailsFooter
+}}
+
+= Data Source =
+
+&quot;All 17 nanosized metal oxides (Table 1), with sizes
+ranging from 15 to 90 nm, were purchased from Sigma-Aldrich&quot;</text>
+    </revision>
+    <revision>
+      <id>918</id>
+      <timestamp>2011-10-11T09:54:21Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Study
+|Has Source=Puzyn2011
+|Has Identifier=1
+|Has Entities=MetalOxides
+|Has Endpoint=LogReciprocalEC50
+|Has Study Type=Regression
+|Has Object Count=17
+|Has R2=0.85
+|Has Q2=0.77
+|Has RMSEP=0.19
+}}
+
+= Descriptors = 
+
+This study uses the descriptors below, but only [[Uses Descriptor::Ionization Enthalpy]] was found important:
+[[Uses Descriptor::Heat of Formation]].
+
+= Plot = 
+
+{{#ask: [[Category:Measurements]] [[Has Study::{{PAGENAME}}]] [[Has Endpoint::LogReciprocalEC50]]
+| ?Has Endpoint Value
+| format=jqplotbar
+| height=250
+| width=600
+}}
+
+= Data Source =
+
+&quot;All 17 nanosized metal oxides (Table 1), with sizes
+ranging from 15 to 90 nm, were purchased from Sigma-Aldrich&quot;</text>
+    </revision>
   </page>
   <page>
     <title>Property:Has Object Count</title>
@@ -11616,7 +11908,7 @@ This study uses the [[Uses Descriptor::IonozationEnthalpy]] descriptor.</text>
     </revision>
   </page>
   <page>
-    <title>LogReciprocalEC50</title>
+    <title>Log Reciprocal EC50</title>
     <id>22</id>
     <revision>
       <id>47</id>
@@ -11657,6 +11949,25 @@ bacterial viability by 50%).</text>
       <contributor>
         <ip>127.0.0.1</ip>
       </contributor>
+      <text xml:space="preserve">{{Endpoint
+|Description=Log 1/EC_50
+|Has Assay Type=In Vitro
+}}
+
+The cytotoxicity of the nanoparticles was expressed in terms of the logarithmic
+values of molar 1/EC50
+(the effective concentration of a given oxide that reduces
+bacterial viability by 50%).</text>
+    </revision>
+    <revision>
+      <id>912</id>
+      <timestamp>2011-10-11T09:40:10Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <comment>moved [[LogReciprocalEC50]] to [[Log Reciprocal EC50]]</comment>
       <text xml:space="preserve">{{Endpoint
 |Description=Log 1/EC_50
 |Has Assay Type=In Vitro
@@ -15095,6 +15406,100 @@ The NM field indicates the Nanomaterial Ontology identifier for this descriptor;
 [[Category:Descriptors]]__NOEDITSECTION____NOTOC__
 &lt;/includeonly&gt;</text>
     </revision>
+    <revision>
+      <id>924</id>
+      <timestamp>2011-10-11T10:15:40Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">&lt;noinclude&gt;
+[[:Category:Descriptors]] describing some chemical entity in a nominal or numerical manner,
+allowing the application of statistical methods.
+&lt;pre&gt;
+{{Descriptor
+|NM=
+}}
+&lt;/pre&gt;
+The NM field indicates the Nanomaterial Ontology identifier for this descriptor; only the 6 digits should be given.
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: right; table-layout:fixed; word-wrap: break-word;&quot;
+! colspan=2 style=&quot;text-align: center; font-size: 125%&quot; | {{{Name|{{PAGENAME}} }}}
+|-
+|}
+&lt;br&gt;
+= Predictive? =
+{{#ask: [[Category:Relationships]] [[Has Descriptor::{{PAGENAME}}]]
+| ? Has Relation
+| ? Has End point
+| ? Has Source
+| sort=Has Relation, Has End point
+}}
+= Used in Studies =
+{{#ask: [[Category:Studies]] [[Uses Descriptor::{{PAGENAME}}]]
+| ? Has Study Type
+| ? Has Object Count
+| ? Has R2
+| ? Has Q2
+| ? Has RMSEP
+}}
+{{#if:{{{NM|}}} |
+  {{#set: |Equivalent URI=http://egonw.github.com/resource/NM_{{{NM|}}} }}
+  {{#set: |Original URI=http://egonw.github.com/resource/NM_{{{NM|}}} }}
+| }}
+[[Category:Descriptors]]__NOEDITSECTION____NOTOC__
+&lt;/includeonly&gt;</text>
+    </revision>
+    <revision>
+      <id>925</id>
+      <timestamp>2011-10-13T09:02:37Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">&lt;noinclude&gt;
+[[:Category:Descriptors]] describing some chemical entity in a nominal or numerical manner,
+allowing the application of statistical methods.
+&lt;pre&gt;
+{{Descriptor
+|NM=
+|CHEMINF=
+}}
+&lt;/pre&gt;
+The NM field indicates the Nanomaterial Ontology identifier for this descriptor; only the 6 digits should be given.
+The CHEMINF field does the same but then for the CHEMINF ontology.
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: right; table-layout:fixed; word-wrap: break-word;&quot;
+! colspan=2 style=&quot;text-align: center; font-size: 125%&quot; | {{{Name|{{PAGENAME}} }}}
+|-
+|}
+&lt;br&gt;
+= Predictive? =
+{{#ask: [[Category:Relationships]] [[Has Descriptor::{{PAGENAME}}]]
+| ? Has Relation
+| ? Has End point
+| ? Has Source
+| sort=Has Relation, Has End point
+}}
+= Used in Studies =
+{{#ask: [[Category:Studies]] [[Uses Descriptor::{{PAGENAME}}]]
+| ? Has Study Type
+| ? Has Object Count
+| ? Has R2
+| ? Has Q2
+| ? Has RMSEP
+}}
+{{#if:{{{NM|}}} |
+  {{#set: |Equivalent URI=http://egonw.github.com/resource/NM_{{{NM|}}} }}
+  {{#set: |Original URI=http://egonw.github.com/resource/NM_{{{NM|}}} }}
+| }}
+{{#if:{{{CHEMINF|}}} |
+  {{#set: |Equivalent URI=http://semanticscience.org/resource/CHEMINF_{{{CHEMINF|}}} }}
+  {{#set: |Original URI=http://semanticscience.org/resource/CHEMINF_{{{CHEMINF|}}} }}
+| }}
+[[Category:Descriptors]]__NOEDITSECTION____NOTOC__
+&lt;/includeonly&gt;</text>
+    </revision>
   </page>
   <page>
     <title>Property:Uses Descriptor</title>
@@ -15825,7 +16230,7 @@ The NM field indicates the Nanomaterial Ontology identifier for this descriptor;
     </revision>
   </page>
   <page>
-    <title>NegativeLogGI50</title>
+    <title>Negative Log GI50</title>
     <id>94</id>
     <revision>
       <id>249</id>
@@ -15835,6 +16240,22 @@ The NM field indicates the Nanomaterial Ontology identifier for this descriptor;
         <id>2</id>
       </contributor>
       <comment>Created page with &quot;{{Endpoint |Description=-log(GI_50) |Has Assay Type=In Vitro }}  [[Category:GI50]]&quot;</comment>
+      <text xml:space="preserve">{{Endpoint
+|Description=-log(GI_50)
+|Has Assay Type=In Vitro
+}}
+
+[[Category:GI50]]</text>
+    </revision>
+    <revision>
+      <id>910</id>
+      <timestamp>2011-10-11T09:39:56Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <comment>moved [[NegativeLogGI50]] to [[Negative Log GI50]]</comment>
       <text xml:space="preserve">{{Endpoint
 |Description=-log(GI_50)
 |Has Assay Type=In Vitro
@@ -17325,7 +17746,7 @@ Studies 17 nanomaterials: [[HannaK1]], [[HannaK2]], [[HannaK3]], [[HannaK4]], [[
     </revision>
   </page>
   <page>
-    <title>PercentageNonViableCells</title>
+    <title>Percentage Non-Viable Cells</title>
     <id>118</id>
     <revision>
       <id>294</id>
@@ -17334,6 +17755,22 @@ Studies 17 nanomaterials: [[HannaK1]], [[HannaK2]], [[HannaK3]], [[HannaK4]], [[
         <ip>127.0.0.1</ip>
       </contributor>
       <comment>Created page with &quot;{{Endpoint |Description=Percentage Non-viable Cells |Has Assay Type=In Vitro }}  How many cells are still viable after a given amount of time.&quot;</comment>
+      <text xml:space="preserve">{{Endpoint
+|Description=Percentage Non-viable Cells
+|Has Assay Type=In Vitro
+}}
+
+How many cells are still viable after a given amount of time.</text>
+    </revision>
+    <revision>
+      <id>907</id>
+      <timestamp>2011-10-11T09:39:01Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <comment>moved [[PercentageNonViableCells]] to [[Percentage Non-Viable Cells]]</comment>
       <text xml:space="preserve">{{Endpoint
 |Description=Percentage Non-viable Cells
 |Has Assay Type=In Vitro
@@ -20174,6 +20611,26 @@ predominant) independently of their surface modiﬁers&quot;
       <text xml:space="preserve">{{Paper
 |Has Year=2005
 |Has DOI=10.1021/nn1013484
+}}
+
+[[Category:PapersToRead]]
+
+
+&lt;pdf height=&quot;300&quot;&gt;3/35/Weissleder2005.pdf&lt;/pdf&gt;
+
+&lt;pdf height=&quot;300&quot;&gt;2/28/Weissleder2005_Supp1.pdf&lt;/pdf&gt;</text>
+    </revision>
+    <revision>
+      <id>876</id>
+      <timestamp>2011-10-11T05:46:13Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Paper
+|Has Year=2005
+|Has DOI=10.1021/nn1013484
+|Relationships extracted=Yes
 }}
 
 [[Category:PapersToRead]]
@@ -23503,9 +23960,24 @@ predominant) independently of their surface modiﬁers&quot;
 | ? Has Source
 }}</text>
     </revision>
+    <revision>
+      <id>921</id>
+      <timestamp>2011-10-11T10:09:05Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{#ask: [[Category:Relationships]]
+| ? Has Descriptor
+| ? Has Relation
+| ? Has End point
+| ? Has Source
+| sort=Has Relation, Has End point
+}}</text>
+    </revision>
   </page>
   <page>
-    <title>IonozationPotential</title>
+    <title>Ionization Potential</title>
     <id>256</id>
     <revision>
       <id>740</id>
@@ -23515,6 +23987,17 @@ predominant) independently of their surface modiﬁers&quot;
         <id>2</id>
       </contributor>
       <comment>Created page with &quot;{{Descriptor}}&quot;</comment>
+      <text xml:space="preserve">{{Descriptor}}</text>
+    </revision>
+    <revision>
+      <id>896</id>
+      <timestamp>2011-10-11T09:35:40Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <comment>moved [[IonozationPotential]] to [[Ionization Potential]]</comment>
       <text xml:space="preserve">{{Descriptor}}</text>
     </revision>
   </page>
@@ -23556,7 +24039,7 @@ The allowed value for this property is:
     </revision>
   </page>
   <page>
-    <title>IonizationEnthalpy</title>
+    <title>Ionization Enthalpy</title>
     <id>259</id>
     <revision>
       <id>747</id>
@@ -23588,6 +24071,19 @@ The allowed value for this property is:
       </contributor>
       <minor/>
       <comment>moved [[IonozationEnthalpy]] to [[IonizationEnthalpy]]</comment>
+      <text xml:space="preserve">{{Descriptor
+|NM=001001
+}}</text>
+    </revision>
+    <revision>
+      <id>891</id>
+      <timestamp>2011-10-11T09:27:18Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <comment>moved [[IonizationEnthalpy]] to [[Ionization Enthalpy]]</comment>
       <text xml:space="preserve">{{Descriptor
 |NM=001001
 }}</text>
@@ -23711,7 +24207,7 @@ The allowed value for this property is:
     </revision>
   </page>
   <page>
-    <title>SurfaceModificationClass</title>
+    <title>Surface Modification Class</title>
     <id>267</id>
     <revision>
       <id>763</id>
@@ -23733,9 +24229,21 @@ The allowed value for this property is:
       <text xml:space="preserve">
 {{Descriptor}}</text>
     </revision>
+    <revision>
+      <id>905</id>
+      <timestamp>2011-10-11T09:38:42Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <comment>moved [[SurfaceModificationClass]] to [[Surface Modification Class]]</comment>
+      <text xml:space="preserve">
+{{Descriptor}}</text>
+    </revision>
   </page>
   <page>
-    <title>BioAssayProfile</title>
+    <title>Bioassay Profile</title>
     <id>268</id>
     <revision>
       <id>765</id>
@@ -23745,6 +24253,17 @@ The allowed value for this property is:
         <id>2</id>
       </contributor>
       <comment>Created page with &quot;{{Descriptor}}&quot;</comment>
+      <text xml:space="preserve">{{Descriptor}}</text>
+    </revision>
+    <revision>
+      <id>914</id>
+      <timestamp>2011-10-11T09:40:38Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <comment>moved [[BioAssayProfile]] to [[Bioassay Profile]]</comment>
       <text xml:space="preserve">{{Descriptor}}</text>
     </revision>
   </page>
@@ -23890,6 +24409,24 @@ The allowed value for this property is:
 
 {{#set:|Used in Study=Liu2011}}</text>
     </revision>
+    <revision>
+      <id>878</id>
+      <timestamp>2011-10-11T06:00:34Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Identifier=82
+|Has Label=Al2O3
+|Has Chemical Composition=Al2O3
+|Has NM Type=MetalOxide
+|Has Size=12
+|Has Size Units=nm
+}}
+
+{{#set:|Used in Study=Liu2011Cytotox}}</text>
+    </revision>
   </page>
   <page>
     <title>Liu2011 02</title>
@@ -23912,6 +24449,24 @@ The allowed value for this property is:
 }}
 
 {{#set:|Used in Study=Liu2011}}</text>
+    </revision>
+    <revision>
+      <id>879</id>
+      <timestamp>2011-10-11T06:00:59Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Identifier=83
+|Has Label=CeO2
+|Has Chemical Composition=CeO2
+|Has NM Type=MetalOxide
+|Has Size=10
+|Has Size Units=nm
+}}
+
+{{#set:|Used in Study=Liu2011Cytotox}}</text>
     </revision>
   </page>
   <page>
@@ -23936,6 +24491,24 @@ The allowed value for this property is:
 
 {{#set:|Used in Study=Liu2011}}</text>
     </revision>
+    <revision>
+      <id>880</id>
+      <timestamp>2011-10-11T06:01:20Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Identifier=84
+|Has Label=Co3O4
+|Has Chemical Composition=Co3O4
+|Has NM Type=MetalOxide
+|Has Size=10
+|Has Size Units=nm
+}}
+
+{{#set:|Used in Study=Liu2011Cytotox}}</text>
+    </revision>
   </page>
   <page>
     <title>Liu2011 04</title>
@@ -23958,6 +24531,24 @@ The allowed value for this property is:
 }}
 
 {{#set:|Used in Study=Liu2011}}</text>
+    </revision>
+    <revision>
+      <id>881</id>
+      <timestamp>2011-10-11T06:01:37Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Identifier=85
+|Has Label=TiO2
+|Has Chemical Composition=TiO2
+|Has NM Type=MetalOxide
+|Has Size=18
+|Has Size Units=nm
+}}
+
+{{#set:|Used in Study=Liu2011Cytotox}}</text>
     </revision>
   </page>
   <page>
@@ -23982,6 +24573,24 @@ The allowed value for this property is:
 
 {{#set:|Used in Study=Liu2011}}</text>
     </revision>
+    <revision>
+      <id>882</id>
+      <timestamp>2011-10-11T06:02:33Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Identifier=86
+|Has Label=ZnO
+|Has Chemical Composition=ZnO
+|Has NM Type=MetalOxide
+|Has Size=10
+|Has Size Units=nm
+}}
+
+{{#set:|Used in Study=Liu2011Cytotox}}</text>
+    </revision>
   </page>
   <page>
     <title>Liu2011 06</title>
@@ -24004,6 +24613,24 @@ The allowed value for this property is:
 }}
 
 {{#set:|Used in Study=Liu2011}}</text>
+    </revision>
+    <revision>
+      <id>883</id>
+      <timestamp>2011-10-11T06:02:44Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Identifier=87
+|Has Label=CuO
+|Has Chemical Composition=CuO
+|Has NM Type=MetalOxide
+|Has Size=10
+|Has Size Units=nm
+}}
+
+{{#set:|Used in Study=Liu2011Cytotox}}</text>
     </revision>
   </page>
   <page>
@@ -24028,6 +24655,24 @@ The allowed value for this property is:
 
 {{#set:|Used in Study=Liu2011}}</text>
     </revision>
+    <revision>
+      <id>884</id>
+      <timestamp>2011-10-11T06:02:56Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Identifier=88
+|Has Label=SiO2
+|Has Chemical Composition=SiO2
+|Has NM Type=MetalOxide
+|Has Size=19
+|Has Size Units=nm
+}}
+
+{{#set:|Used in Study=Liu2011Cytotox}}</text>
+    </revision>
   </page>
   <page>
     <title>Liu2011 08</title>
@@ -24051,6 +24696,24 @@ The allowed value for this property is:
 
 {{#set:|Used in Study=Liu2011}}</text>
     </revision>
+    <revision>
+      <id>885</id>
+      <timestamp>2011-10-11T06:03:09Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Identifier=89
+|Has Label=Fe3O4
+|Has Chemical Composition=Fe3O4
+|Has NM Type=MetalOxide
+|Has Size=8
+|Has Size Units=nm
+}}
+
+{{#set:|Used in Study=Liu2011Cytotox}}</text>
+    </revision>
   </page>
   <page>
     <title>Liu2011 09</title>
@@ -24073,6 +24736,24 @@ The allowed value for this property is:
 }}
 
 {{#set:|Used in Study=Liu2011}}</text>
+    </revision>
+    <revision>
+      <id>886</id>
+      <timestamp>2011-10-11T06:03:21Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Identifier=83
+|Has Label=WO3
+|Has Chemical Composition=WO3
+|Has NM Type=MetalOxide
+|Has Size=10
+|Has Size Units=nm
+}}
+
+{{#set:|Used in Study=Liu2011Cytotox}}</text>
     </revision>
   </page>
   <page>
@@ -24170,6 +24851,424 @@ The allowed value for this property is:
       </contributor>
       <comment>moved [[IonozationEnthalpy]] to [[IonizationEnthalpy]]</comment>
       <text xml:space="preserve">#REDIRECT [[IonizationEnthalpy]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Weissleder146</title>
+    <id>294</id>
+    <revision>
+      <id>874</id>
+      <timestamp>2011-10-11T05:42:40Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Study |Has Identifier=8 |Has Source=Weissleder2005 |Has Entities=Nanomaterials |Has Endpoint=Cellular uptake |Has Study Type=Descriptive |Has Object Count=146 }}&quot;</comment>
+      <text xml:space="preserve">{{Study
+|Has Identifier=8
+|Has Source=Weissleder2005
+|Has Entities=Nanomaterials
+|Has Endpoint=Cellular uptake
+|Has Study Type=Descriptive
+|Has Object Count=146
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Weissleder146 R1</title>
+    <id>295</id>
+    <revision>
+      <id>875</id>
+      <timestamp>2011-10-11T05:44:47Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Relationship |Descriptor=SurfaceModificationClass |Relation=CorrelatesWith |End point=BioAssayProfile |Has Source=Weissleder2005 }}&quot;</comment>
+      <text xml:space="preserve">{{Relationship
+|Descriptor=SurfaceModificationClass
+|Relation=CorrelatesWith
+|End point=BioAssayProfile
+|Has Source=Weissleder2005
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Liu2011Cytotox</title>
+    <id>296</id>
+    <revision>
+      <id>877</id>
+      <timestamp>2011-10-11T05:56:38Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Study |Has Identifier=9 |Has Source=Liu2011 |Has Entities=MetalOxides |Has Study Type=Classification |Has Object Count=14 |Has EA=100 }}&quot;</comment>
+      <text xml:space="preserve">{{Study
+|Has Identifier=9
+|Has Source=Liu2011
+|Has Entities=MetalOxides
+|Has Study Type=Classification
+|Has Object Count=14
+|Has EA=100
+}}</text>
+    </revision>
+    <revision>
+      <id>887</id>
+      <timestamp>2011-10-11T06:04:24Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Study
+|Has Identifier=9
+|Has Source=Liu2011
+|Has Entities=MetalOxides
+|Has Study Type=Classification
+|Has Object Count=9
+|Has EA=100
+}}</text>
+    </revision>
+    <revision>
+      <id>888</id>
+      <timestamp>2011-10-11T06:16:08Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Study
+|Has Identifier=9
+|Has Source=Liu2011
+|Has Entities=MetalOxides
+|Has Study Type=Classification
+|Has Object Count=9
+|Has EA=100
+}}
+
+{{#set:|Uses Descriptor=[[MetalAtomCount]]}}
+{{#set:|Uses Descriptor=[[OxygenAtomCount]]}}</text>
+    </revision>
+    <revision>
+      <id>902</id>
+      <timestamp>2011-10-11T09:37:43Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Study
+|Has Identifier=9
+|Has Source=Liu2011
+|Has Entities=MetalOxides
+|Has Study Type=Classification
+|Has Object Count=9
+|Has EA=100
+}}
+
+{{#set:|Uses Descriptor=[[Metal Atom Count]]}}
+{{#set:|Uses Descriptor=[[Oxygen Atom Count]]}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Metal Atom Count</title>
+    <id>297</id>
+    <revision>
+      <id>889</id>
+      <timestamp>2011-10-11T06:17:04Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Descriptor |NM=001002 }}&quot;</comment>
+      <text xml:space="preserve">{{Descriptor
+|NM=001002
+}}</text>
+    </revision>
+    <revision>
+      <id>898</id>
+      <timestamp>2011-10-11T09:36:01Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <comment>moved [[MetalAtomCount]] to [[Meta lAtom Count]]</comment>
+      <text xml:space="preserve">{{Descriptor
+|NM=001002
+}}</text>
+    </revision>
+    <revision>
+      <id>900</id>
+      <timestamp>2011-10-11T09:36:12Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <comment>moved [[Meta lAtom Count]] to [[Metal Atom Count]]</comment>
+      <text xml:space="preserve">{{Descriptor
+|NM=001002
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Oxygen Atom Count</title>
+    <id>298</id>
+    <revision>
+      <id>890</id>
+      <timestamp>2011-10-11T06:17:14Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Descriptor |NM=001003 }}&quot;</comment>
+      <text xml:space="preserve">{{Descriptor
+|NM=001003
+}}</text>
+    </revision>
+    <revision>
+      <id>903</id>
+      <timestamp>2011-10-11T09:37:57Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <comment>moved [[OxygenAtomCount]] to [[Oxygen Atom Count]]</comment>
+      <text xml:space="preserve">{{Descriptor
+|NM=001003
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>IonizationEnthalpy</title>
+    <id>299</id>
+    <revision>
+      <id>892</id>
+      <timestamp>2011-10-11T09:27:18Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>moved [[IonizationEnthalpy]] to [[Ionization Enthalpy]]</comment>
+      <text xml:space="preserve">#REDIRECT [[Ionization Enthalpy]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Heat of Formation</title>
+    <id>300</id>
+    <revision>
+      <id>895</id>
+      <timestamp>2011-10-11T09:35:10Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Descriptor |NM=001004 }}&quot;</comment>
+      <text xml:space="preserve">{{Descriptor
+|NM=001004
+}}</text>
+    </revision>
+    <revision>
+      <id>922</id>
+      <timestamp>2011-10-11T10:12:09Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Descriptor
+|NM=001004
+}}
+
+{{#ask: [[Category:Relationships]] [[Has Descriptor::{{PAGENAME}}]]
+| ? Has Relation
+| ? Has End point
+| ? Has Source
+| sort=Has Relation, Has End point
+}}</text>
+    </revision>
+    <revision>
+      <id>923</id>
+      <timestamp>2011-10-11T10:15:01Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Descriptor
+|NM=001004
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>IonozationPotential</title>
+    <id>301</id>
+    <revision>
+      <id>897</id>
+      <timestamp>2011-10-11T09:35:40Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>moved [[IonozationPotential]] to [[Ionization Potential]]</comment>
+      <text xml:space="preserve">#REDIRECT [[Ionization Potential]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>MetalAtomCount</title>
+    <id>302</id>
+    <revision>
+      <id>899</id>
+      <timestamp>2011-10-11T09:36:01Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>moved [[MetalAtomCount]] to [[Meta lAtom Count]]</comment>
+      <text xml:space="preserve">#REDIRECT [[Meta lAtom Count]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Meta lAtom Count</title>
+    <id>303</id>
+    <revision>
+      <id>901</id>
+      <timestamp>2011-10-11T09:36:12Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>moved [[Meta lAtom Count]] to [[Metal Atom Count]]</comment>
+      <text xml:space="preserve">#REDIRECT [[Metal Atom Count]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>OxygenAtomCount</title>
+    <id>304</id>
+    <revision>
+      <id>904</id>
+      <timestamp>2011-10-11T09:37:57Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>moved [[OxygenAtomCount]] to [[Oxygen Atom Count]]</comment>
+      <text xml:space="preserve">#REDIRECT [[Oxygen Atom Count]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>SurfaceModificationClass</title>
+    <id>305</id>
+    <revision>
+      <id>906</id>
+      <timestamp>2011-10-11T09:38:42Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>moved [[SurfaceModificationClass]] to [[Surface Modification Class]]</comment>
+      <text xml:space="preserve">#REDIRECT [[Surface Modification Class]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>PercentageNonViableCells</title>
+    <id>306</id>
+    <revision>
+      <id>908</id>
+      <timestamp>2011-10-11T09:39:01Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>moved [[PercentageNonViableCells]] to [[Percentage Non-Viable Cells]]</comment>
+      <text xml:space="preserve">#REDIRECT [[Percentage Non-Viable Cells]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Description</title>
+    <id>307</id>
+    <revision>
+      <id>909</id>
+      <timestamp>2011-10-11T09:39:32Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;This is a property of type [[Has type::String]].&quot;</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::String]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>NegativeLogGI50</title>
+    <id>308</id>
+    <revision>
+      <id>911</id>
+      <timestamp>2011-10-11T09:39:56Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>moved [[NegativeLogGI50]] to [[Negative Log GI50]]</comment>
+      <text xml:space="preserve">#REDIRECT [[Negative Log GI50]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>LogReciprocalEC50</title>
+    <id>309</id>
+    <revision>
+      <id>913</id>
+      <timestamp>2011-10-11T09:40:10Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>moved [[LogReciprocalEC50]] to [[Log Reciprocal EC50]]</comment>
+      <text xml:space="preserve">#REDIRECT [[Log Reciprocal EC50]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>BioAssayProfile</title>
+    <id>310</id>
+    <revision>
+      <id>915</id>
+      <timestamp>2011-10-11T09:40:38Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>moved [[BioAssayProfile]] to [[Bioassay Profile]]</comment>
+      <text xml:space="preserve">#REDIRECT [[Bioassay Profile]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Puzyn2011 R2</title>
+    <id>311</id>
+    <revision>
+      <id>919</id>
+      <timestamp>2011-10-11T10:07:38Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Relationship |Descriptor=Heat of Formation |Relation=DoesNotCorrelateWith |End point=LogReciprocalEC50 |Has Source=Puzyn2011 }}&quot;</comment>
+      <text xml:space="preserve">{{Relationship
+|Descriptor=Heat of Formation
+|Relation=DoesNotCorrelateWith
+|End point=LogReciprocalEC50
+|Has Source=Puzyn2011
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>DoesNotCorrelateWith</title>
+    <id>312</id>
+    <revision>
+      <id>920</id>
+      <timestamp>2011-10-11T10:07:58Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Relation}}&quot;</comment>
+      <text xml:space="preserve">{{Relation}}</text>
     </revision>
   </page>
 </mediawiki>
