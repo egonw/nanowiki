@@ -17520,6 +17520,22 @@ A classification-based cytotoxicity nanostructure-activity relationship (nanoSAR
 
 [[Category:PapersToRead]]</text>
     </revision>
+    <revision>
+      <id>940</id>
+      <timestamp>2011-10-13T10:04:32Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Paper
+|Has Year=2011
+|Has DOI= 10.1021/nn103265h
+}}
+
+Abstract: &quot;Two-dimensional graphitic carbon is a new material with many emerging applications, and studying its chemical properties is an important goal. Here, we reported a new phenomenon—the enzymatic oxidation of a single layer of graphitic carbon by horseradish peroxidase (HRP). In the presence of low concentrations of hydrogen peroxide (40 μM), HRP catalyzed the oxidation of graphene oxide, which resulted in the formation of holes on its basal plane. During the same period of analysis, HRP failed to oxidize chemically reduced graphene oxide (RGO). The enzymatic oxidation was characterized by Raman, ultraviolet-visible, electron paramagnetic resonance, Fourier transform infrared spectroscopy, transmission electron microscopy, atomic force microscopy, sodium dodecyl sulfate-polyacrylamide gel electrophoresis, and gas chromatography−mass spectrometry. Computational docking studies indicated that HRP was preferentially bound to the basal plane rather than the edge for both graphene oxide and RGO. Owing to the more dynamic nature of HRP on graphene oxide, the heme active site of HRP was in closer proximity to graphene oxide compared to RGO, thereby facilitating the oxidation of the basal plane of graphene oxide. We also studied the electronic properties of the reduced intermediate product, holey reduced graphene oxide (hRGO), using field-effect transistor (FET) measurements. While RGO exhibited a V-shaped transfer characteristic similar to a single layer of graphene that was attributed to its zero band gap, hRGO demonstrated a p-type semiconducting behavior with a positive shift in the Dirac points. This p-type behavior rendered hRGO, which can be conceptualized as interconnected graphene nanoribbons, as a potentially attractive material for FET sensors.&quot;
+
+[[Category:PapersToRead]]</text>
+    </revision>
   </page>
   <page>
     <title>Hu2010</title>
@@ -24176,7 +24192,7 @@ The allowed value for this property is:
     </revision>
   </page>
   <page>
-    <title>NegativelyCorrelatesWith</title>
+    <title>Negatively Correlates With</title>
     <id>265</id>
     <revision>
       <id>754</id>
@@ -24186,6 +24202,17 @@ The allowed value for this property is:
         <id>2</id>
       </contributor>
       <comment>Created page with &quot;{{Relation}}&quot;</comment>
+      <text xml:space="preserve">{{Relation}}</text>
+    </revision>
+    <revision>
+      <id>937</id>
+      <timestamp>2011-10-13T09:29:05Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <comment>moved [[NegativelyCorrelatesWith]] to [[Negatively Correlates With]]</comment>
       <text xml:space="preserve">{{Relation}}</text>
     </revision>
   </page>
@@ -24320,7 +24347,7 @@ The allowed value for this property is:
     </revision>
   </page>
   <page>
-    <title>CorrelatesWith</title>
+    <title>Correlates With</title>
     <id>272</id>
     <revision>
       <id>769</id>
@@ -24330,6 +24357,17 @@ The allowed value for this property is:
         <id>2</id>
       </contributor>
       <comment>Created page with &quot;{{Relation}}&quot;</comment>
+      <text xml:space="preserve">{{Relation}}</text>
+    </revision>
+    <revision>
+      <id>933</id>
+      <timestamp>2011-10-13T09:28:29Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <comment>moved [[CorrelatesWith]] to [[Correlates With]]</comment>
       <text xml:space="preserve">{{Relation}}</text>
     </revision>
   </page>
@@ -25258,7 +25296,7 @@ The allowed value for this property is:
     </revision>
   </page>
   <page>
-    <title>DoesNotCorrelateWith</title>
+    <title>Does Not Correlate With</title>
     <id>312</id>
     <revision>
       <id>920</id>
@@ -25269,6 +25307,247 @@ The allowed value for this property is:
       </contributor>
       <comment>Created page with &quot;{{Relation}}&quot;</comment>
       <text xml:space="preserve">{{Relation}}</text>
+    </revision>
+    <revision>
+      <id>935</id>
+      <timestamp>2011-10-13T09:28:49Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <comment>moved [[DoesNotCorrelateWith]] to [[Does Not Correlate With]]</comment>
+      <text xml:space="preserve">{{Relation}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>HOMO</title>
+    <id>313</id>
+    <revision>
+      <id>928</id>
+      <timestamp>2011-10-13T09:11:37Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Descriptor |CHEMINF=000291 }}&quot;</comment>
+      <text xml:space="preserve">{{Descriptor
+|CHEMINF=000291
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>LUMO</title>
+    <id>314</id>
+    <revision>
+      <id>929</id>
+      <timestamp>2011-10-13T09:11:53Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Descriptor |CHEMINF=000292 }}&quot;</comment>
+      <text xml:space="preserve">{{Descriptor
+|CHEMINF=000292
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Puzyn2011 R3</title>
+    <id>315</id>
+    <revision>
+      <id>930</id>
+      <timestamp>2011-10-13T09:22:40Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Relationship |Descriptor=HOMO |Relation=DoesNotCorrelateWith |End point=LogReciprocalEC50 |Has Source=Puzyn2011 }}&quot;</comment>
+      <text xml:space="preserve">{{Relationship
+|Descriptor=HOMO
+|Relation=DoesNotCorrelateWith
+|End point=LogReciprocalEC50
+|Has Source=Puzyn2011
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Puzyn2011 R4</title>
+    <id>316</id>
+    <revision>
+      <id>931</id>
+      <timestamp>2011-10-13T09:22:57Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Relationship |Descriptor=LUMO |Relation=DoesNotCorrelateWith |End point=LogReciprocalEC50 |Has Source=Puzyn2011 }}&quot;</comment>
+      <text xml:space="preserve">{{Relationship
+|Descriptor=LUMO
+|Relation=DoesNotCorrelateWith
+|End point=LogReciprocalEC50
+|Has Source=Puzyn2011
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Karlsson2008 R1</title>
+    <id>317</id>
+    <revision>
+      <id>932</id>
+      <timestamp>2011-10-13T09:25:37Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Relationship |Descriptor=ParticleClass |Relation=CorrelatesWith |End point=Percentage Non-Viable Cells |Has Source=Puzyn2011 }}&quot;</comment>
+      <text xml:space="preserve">{{Relationship
+|Descriptor=ParticleClass
+|Relation=CorrelatesWith
+|End point=Percentage Non-Viable Cells
+|Has Source=Puzyn2011
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>CorrelatesWith</title>
+    <id>318</id>
+    <revision>
+      <id>934</id>
+      <timestamp>2011-10-13T09:28:29Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>moved [[CorrelatesWith]] to [[Correlates With]]</comment>
+      <text xml:space="preserve">#REDIRECT [[Correlates With]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>DoesNotCorrelateWith</title>
+    <id>319</id>
+    <revision>
+      <id>936</id>
+      <timestamp>2011-10-13T09:28:49Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>moved [[DoesNotCorrelateWith]] to [[Does Not Correlate With]]</comment>
+      <text xml:space="preserve">#REDIRECT [[Does Not Correlate With]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>NegativelyCorrelatesWith</title>
+    <id>320</id>
+    <revision>
+      <id>938</id>
+      <timestamp>2011-10-13T09:29:05Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>moved [[NegativelyCorrelatesWith]] to [[Negatively Correlates With]]</comment>
+      <text xml:space="preserve">#REDIRECT [[Negatively Correlates With]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Positively Correlates With</title>
+    <id>321</id>
+    <revision>
+      <id>939</id>
+      <timestamp>2011-10-13T09:30:14Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Relation}}&quot;</comment>
+      <text xml:space="preserve">{{Relation}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Liu2011 R1</title>
+    <id>322</id>
+    <revision>
+      <id>941</id>
+      <timestamp>2011-10-14T08:47:55Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Relationship |Descriptor=Metal Atom Count |Relation=DoesNotCorrelateWith |End point=Cytotoxicity |Has Source=Liu2011 }}&quot;</comment>
+      <text xml:space="preserve">{{Relationship
+|Descriptor=Metal Atom Count
+|Relation=DoesNotCorrelateWith
+|End point=Cytotoxicity
+|Has Source=Liu2011
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Liu2011 R2</title>
+    <id>323</id>
+    <revision>
+      <id>942</id>
+      <timestamp>2011-10-14T08:48:09Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Relationship |Descriptor=Oxygen Atom Count |Relation=DoesNotCorrelateWith |End point=Cytotoxicity |Has Source=Liu2011 }}&quot;</comment>
+      <text xml:space="preserve">{{Relationship
+|Descriptor=Oxygen Atom Count
+|Relation=DoesNotCorrelateWith
+|End point=Cytotoxicity
+|Has Source=Liu2011
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>File:Jugan2011.pdf</title>
+    <id>324</id>
+    <revision>
+      <id>943</id>
+      <timestamp>2011-10-14T12:55:42Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" />
+    </revision>
+  </page>
+  <page>
+    <title>Jugan2011</title>
+    <id>325</id>
+    <revision>
+      <id>944</id>
+      <timestamp>2011-10-14T12:56:14Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Paper |Has Year=2011 |Has DOI=10.3109/17435390.2011.587903 }}  == Abstract ==  Titanium dioxide nanoparticles (TiO2-NPs) are produced in large quantities, raising concerns abou…&quot;</comment>
+      <text xml:space="preserve">{{Paper
+|Has Year=2011
+|Has DOI=10.3109/17435390.2011.587903
+}}
+
+== Abstract ==
+
+Titanium dioxide nanoparticles (TiO2-NPs) are produced in large quantities, raising concerns about their impact for
+human health. The aim of this study was to deeply characterize TiO2-NPs genotoxic potential to lung cells, and to link
+genotoxicity to physicochemical characteristics, e.g., size, speciﬁc surface area, crystalline phase. A549 cells were exposed
+to a panel of TiO2-NPs with diameters ranging from 12 to 140 nm, either anatase or rutile. A set of complementary
+techniques (comet and micronucleus assays, gamma-H2AX immunostaining, 8-oxoGuanine analysis, H2-DCFDA,
+glutathione content, antioxidant enzymes activities) allowed us to demonstrate that small and spherical TiO2-NPs,
+both anatase and rutile, induce single-strand breaks and oxidative lesions to DNA, together with a general oxidative
+stress. Additionally we show that these NPs impair cell ability to repair DNA, by inactivation of both NER and BER
+pathways. This study thus conﬁrms the genotoxic potential of TiO2-NPs, which may preclude their mutagenicity and
+carcinogenicity.
+
+&lt;pdf height=&quot;300&quot;&gt;9/9c/Jugan2011.pdf&lt;/pdf&gt;
+
+[[Category:PapersToRead]]</text>
     </revision>
   </page>
 </mediawiki>
