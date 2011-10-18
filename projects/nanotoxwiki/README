@@ -1,2 +1,6 @@
-mysqldump -u root -p wikidb --default-character-set=latin1 > backup.sql.txt
-sudo php /usr/share/mediawiki/maintenance/dumpBackup.php --conf /etc/mediawiki/LocalSettings.php --full > backup.xml.txt
+> mysqldump -u root -p wikidb --default-character-set=latin1 > backup.sql.txt
+> sudo bash
+# php /usr/share/mediawiki/maintenance/dumpBackup.php --conf /etc/mediawiki/LocalSettings.php --full > backup.xml.txt
+# export MW_INSTALL_PATH=/usr/share/mediawiki
+# php /usr/share/mediawiki-extensions/SemanticMediaWiki/maintenance/SMW_dumpRDF.php --conf /etc/mediawiki/LocalSettings.php > backup.rdf.txt
+
