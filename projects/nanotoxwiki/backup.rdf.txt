@@ -18,7 +18,7 @@
 	xmlns:property="&property;">
 
 	<owl:Ontology rdf:about="">
-		<swivt:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T08:32:02+02:00</swivt:creationDate>
+		<swivt:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T11:45:55+02:00</swivt:creationDate>
 		<owl:imports rdf:resource="http://semantic-mediawiki.org/swivt/1.0"/>
 	</owl:Ontology>
 	<swivt:Subject rdf:about="&wiki;Main_Page">
@@ -1185,12 +1185,12 @@
 		<rdf:type rdf:resource="&wiki;Category-3AStudies"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
 		<property:Has_Endpoint rdf:resource="&wiki;Percentage_Non-2DViable_Cells"/>
-		<property:Has_Entities rdf:resource="&wiki;Nanomaterials"/>
+		<property:Has_Entities rdf:resource="&wiki;NanoMaterials"/>
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2</property:Has_Identifier>
 		<property:Has_Object_Count rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8</property:Has_Object_Count>
 		<property:Has_Source rdf:resource="&wiki;Karlsson2008"/>
 		<property:Has_Study_Type rdf:resource="&wiki;Descriptive"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-06-15T07:44:57</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-26T05:11:23</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Descriptive">
 		<rdfs:label>Descriptive</rdfs:label>
@@ -1725,6 +1725,7 @@
 		<property:Has_Zeta_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Zeta_Units>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-39.9</property:Has_Zeta_potential>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-06-15T08:39:11</swivt:wikiPageModificationDate>
+		<property:Used_in_Study rdf:resource="&wiki;Karlsson2008CytotoxFollowup"/>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Metal">
 		<rdfs:label>Metal</rdfs:label>
@@ -1757,6 +1758,7 @@
 		<property:Has_Zeta_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Zeta_Units>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4</property:Has_Zeta_potential>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-06-15T08:39:38</swivt:wikiPageModificationDate>
+		<property:Used_in_Study rdf:resource="&wiki;Karlsson2008CytotoxFollowup"/>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;HannaK11">
 		<rdfs:label>HannaK11</rdfs:label>
@@ -1775,6 +1777,7 @@
 		<property:Has_Zeta_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Zeta_Units>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">30.2</property:Has_Zeta_potential>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-06-15T08:39:54</swivt:wikiPageModificationDate>
+		<property:Used_in_Study rdf:resource="&wiki;Karlsson2008CytotoxFollowup"/>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;HannaK12">
 		<rdfs:label>HannaK12</rdfs:label>
@@ -1793,6 +1796,7 @@
 		<property:Has_Zeta_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Zeta_Units>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">30.3</property:Has_Zeta_potential>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-06-15T08:40:07</swivt:wikiPageModificationDate>
+		<property:Used_in_Study rdf:resource="&wiki;Karlsson2008CytotoxFollowup"/>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;HannaK13">
 		<rdfs:label>HannaK13</rdfs:label>
@@ -1811,13 +1815,14 @@
 		<property:Has_Zeta_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Zeta_Units>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-11</property:Has_Zeta_potential>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-06-15T08:52:47</swivt:wikiPageModificationDate>
+		<property:Used_in_Study rdf:resource="&wiki;Karlsson2008CytotoxFollowup"/>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;MetalOxides">
 		<rdfs:label>MetalOxides</rdfs:label>
 		<swivt:page rdf:resource="&wikiurl;MetalOxides"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/MetalOxides"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-06-13T15:04:59</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-06-28T08:40:20</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<owl:DatatypeProperty rdf:about="&property;Has_Size_Max">
 		<rdfs:label>Has Size Max</rdfs:label>
@@ -1874,6 +1879,10 @@
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/HannaK10_M1"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Dose rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20</property:Has_Dose>
+		<property:Has_Dose_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">μg/cm²</property:Has_Dose_Units>
+		<property:Has_Endpoint rdf:resource="&wiki;DNA_Damage"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">15.597</property:Has_Endpoint_Value>
 		<property:Has_Entity rdf:resource="&wiki;HannaK10"/>
 		<property:Has_Study rdf:resource="&wiki;Karlsson2008CytotoxFollowup"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-06-15T10:53:44</swivt:wikiPageModificationDate>
@@ -1884,10 +1893,10 @@
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Karlsson2008CytotoxFollowup"/>
 		<rdf:type rdf:resource="&wiki;Category-3AStudies"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
-		<property:Has_Entities rdf:resource="&wiki;MetalOxides"/>
+		<property:Has_Entities rdf:resource="&wiki;NanoMaterials"/>
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3</property:Has_Identifier>
 		<property:Has_Study_Type rdf:resource="&wiki;Descriptive"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-09-29T04:35:49</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T08:05:59</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;HannaK11_M1">
 		<rdfs:label>HannaK11 M1</rdfs:label>
@@ -1895,6 +1904,10 @@
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/HannaK11_M1"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Dose rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20</property:Has_Dose>
+		<property:Has_Dose_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">μg/cm²</property:Has_Dose_Units>
+		<property:Has_Endpoint rdf:resource="&wiki;DNA_Damage"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">14.616</property:Has_Endpoint_Value>
 		<property:Has_Entity rdf:resource="&wiki;HannaK11"/>
 		<property:Has_Study rdf:resource="&wiki;Karlsson2008CytotoxFollowup"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-06-15T10:54:52</swivt:wikiPageModificationDate>
@@ -1905,6 +1918,10 @@
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/HannaK12_M1"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Dose rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20</property:Has_Dose>
+		<property:Has_Dose_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">μg/cm²</property:Has_Dose_Units>
+		<property:Has_Endpoint rdf:resource="&wiki;DNA_Damage"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">31.598</property:Has_Endpoint_Value>
 		<property:Has_Entity rdf:resource="&wiki;HannaK12"/>
 		<property:Has_Study rdf:resource="&wiki;Karlsson2008CytotoxFollowup"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-06-15T10:55:02</swivt:wikiPageModificationDate>
@@ -1915,6 +1932,10 @@
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/HannaK13_M1"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Dose rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20</property:Has_Dose>
+		<property:Has_Dose_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">μg/cm²</property:Has_Dose_Units>
+		<property:Has_Endpoint rdf:resource="&wiki;DNA_Damage"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8.291</property:Has_Endpoint_Value>
 		<property:Has_Entity rdf:resource="&wiki;HannaK13"/>
 		<property:Has_Study rdf:resource="&wiki;Karlsson2008CytotoxFollowup"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-06-15T10:55:15</swivt:wikiPageModificationDate>
@@ -3370,7 +3391,7 @@
 		<rdf:type rdf:resource="&wiki;Category-3AStudies"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
 		<property:Has_Endpoint rdf:resource="&wiki;Cellular_uptake"/>
-		<property:Has_Entities rdf:resource="&wiki;Nanomaterials"/>
+		<property:Has_Entities rdf:resource="&wiki;NanoMaterials"/>
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8</property:Has_Identifier>
 		<property:Has_Object_Count rdf:datatype="http://www.w3.org/2001/XMLSchema#double">146</property:Has_Object_Count>
 		<property:Has_Source rdf:resource="&wiki;Weissleder2005"/>
@@ -3701,6 +3722,146 @@
 		<property:Has_Study_Type rdf:resource="&wiki;Classification"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-26T05:09:44</swivt:wikiPageModificationDate>
 	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;HannaK14">
+		<rdfs:label>HannaK14</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;HannaK14"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/HannaK14"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
+		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MnO2</property:Has_Chemical_Composition>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">90</property:Has_Identifier>
+		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MnO2</property:Has_Label>
+		<property:Has_NM_Type rdf:resource="&wiki;MetalOxide"/>
+		<property:Has_Size_Max rdf:datatype="http://www.w3.org/2001/XMLSchema#double">800</property:Has_Size_Max>
+		<property:Has_Size_Min rdf:datatype="http://www.w3.org/2001/XMLSchema#double">300</property:Has_Size_Min>
+		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T07:32:44</swivt:wikiPageModificationDate>
+		<property:Used_in_Study rdf:resource="&wiki;Karlsson2008CytotoxFollowup"/>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;HannaK14_M1">
+		<rdfs:label>HannaK14 M1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;HannaK14_M1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/HannaK14_M1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Dose rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20</property:Has_Dose>
+		<property:Has_Dose_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">μg/cm²</property:Has_Dose_Units>
+		<property:Has_Endpoint rdf:resource="&wiki;DNA_Damage"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">16.085</property:Has_Endpoint_Value>
+		<property:Has_Entity rdf:resource="&wiki;HannaK14"/>
+		<property:Has_Study rdf:resource="&wiki;Karlsson2008CytotoxFollowup"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T07:36:55</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;HannaK14_M2">
+		<rdfs:label>HannaK14 M2</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;HannaK14_M2"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/HannaK14_M2"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Dose rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40</property:Has_Dose>
+		<property:Has_Dose_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">μg/cm²</property:Has_Dose_Units>
+		<property:Has_Endpoint rdf:resource="&wiki;DNA_Damage"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">18.849</property:Has_Endpoint_Value>
+		<property:Has_Entity rdf:resource="&wiki;HannaK14"/>
+		<property:Has_Study rdf:resource="&wiki;Karlsson2008CytotoxFollowup"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T08:06:56</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;DNA_Damage">
+		<rdfs:label>DNA Damage</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;DNA_Damage"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/DNA_Damage"/>
+		<rdf:type rdf:resource="&wiki;Category-3ADNA_Damage"/>
+		<rdf:type rdf:resource="&wiki;Category-3AEndpoints"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DNA Damage</property:Description>
+		<property:Has_Assay_Type rdf:resource="&wiki;In_Vitro"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T08:46:08</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;HannaK9_M1">
+		<rdfs:label>HannaK9 M1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;HannaK9_M1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/HannaK9_M1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Dose rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20</property:Has_Dose>
+		<property:Has_Dose_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">μg/cm²</property:Has_Dose_Units>
+		<property:Has_Endpoint rdf:resource="&wiki;DNA_Damage"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">9.273</property:Has_Endpoint_Value>
+		<property:Has_Entity rdf:resource="&wiki;HannaK9"/>
+		<property:Has_Study rdf:resource="&wiki;Karlsson2008CytotoxFollowup"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T09:00:14</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;HannaK9_M2">
+		<rdfs:label>HannaK9 M2</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;HannaK9_M2"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/HannaK9_M2"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Dose rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40</property:Has_Dose>
+		<property:Has_Dose_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">μg/cm²</property:Has_Dose_Units>
+		<property:Has_Endpoint rdf:resource="&wiki;DNA_Damage"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.732</property:Has_Endpoint_Value>
+		<property:Has_Entity rdf:resource="&wiki;HannaK9"/>
+		<property:Has_Study rdf:resource="&wiki;Karlsson2008CytotoxFollowup"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T09:00:31</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;HannaK10_M2">
+		<rdfs:label>HannaK10 M2</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;HannaK10_M2"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/HannaK10_M2"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Dose rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40</property:Has_Dose>
+		<property:Has_Dose_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">μg/cm²</property:Has_Dose_Units>
+		<property:Has_Endpoint rdf:resource="&wiki;DNA_Damage"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">23.619</property:Has_Endpoint_Value>
+		<property:Has_Entity rdf:resource="&wiki;HannaK10"/>
+		<property:Has_Study rdf:resource="&wiki;Karlsson2008CytotoxFollowup"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T09:02:09</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;HannaK11_M2">
+		<rdfs:label>HannaK11 M2</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;HannaK11_M2"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/HannaK11_M2"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Dose rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40</property:Has_Dose>
+		<property:Has_Dose_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">μg/cm²</property:Has_Dose_Units>
+		<property:Has_Endpoint rdf:resource="&wiki;DNA_Damage"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">12.302</property:Has_Endpoint_Value>
+		<property:Has_Entity rdf:resource="&wiki;HannaK11"/>
+		<property:Has_Study rdf:resource="&wiki;Karlsson2008CytotoxFollowup"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T09:03:16</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;HannaK12_M2">
+		<rdfs:label>HannaK12 M2</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;HannaK12_M2"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/HannaK12_M2"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Dose rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40</property:Has_Dose>
+		<property:Has_Dose_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">μg/cm²</property:Has_Dose_Units>
+		<property:Has_Endpoint rdf:resource="&wiki;DNA_Damage"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">29.918</property:Has_Endpoint_Value>
+		<property:Has_Entity rdf:resource="&wiki;HannaK12"/>
+		<property:Has_Study rdf:resource="&wiki;Karlsson2008CytotoxFollowup"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T09:04:12</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;HannaK13_M2">
+		<rdfs:label>HannaK13 M2</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;HannaK13_M2"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/HannaK13_M2"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Dose rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40</property:Has_Dose>
+		<property:Has_Dose_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">μg/cm²</property:Has_Dose_Units>
+		<property:Has_Endpoint rdf:resource="&wiki;DNA_Damage"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8.937</property:Has_Endpoint_Value>
+		<property:Has_Entity rdf:resource="&wiki;HannaK13"/>
+		<property:Has_Study rdf:resource="&wiki;Karlsson2008CytotoxFollowup"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T09:38:16</swivt:wikiPageModificationDate>
+	</swivt:Subject>
 	<owl:DatatypeProperty rdf:about="&swivt;creationDate" />
 	<owl:ObjectProperty rdf:about="&swivt;page" />
 	<owl:DatatypeProperty rdf:about="&swivt;wikiNamespace" />
@@ -3709,5 +3870,6 @@
 	<owl:Class rdf:about="&wiki;Category-3ACellular_uptake" />
 	<owl:Class rdf:about="&wiki;Category-3AAlloys" />
 	<owl:Class rdf:about="&wiki;Category-3AROS_Concentration" />
+	<owl:Class rdf:about="&wiki;Category-3ADNA_Damage" />
 	<!-- Created by Semantic MediaWiki, http://semantic-mediawiki.org/ -->
 </rdf:RDF>

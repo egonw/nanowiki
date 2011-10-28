@@ -17920,6 +17920,44 @@ Studies 17 nanomaterials: [[HannaK1]], [[HannaK2]], [[HannaK3]], [[HannaK4]], [[
 | outrotemplate = MeasurementDetailsFooter
 }}</text>
     </revision>
+    <revision>
+      <id>957</id>
+      <timestamp>2011-10-28T06:52:17Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Study
+|Has Identifier=2
+|Has Source=Karlsson2008
+|Has Entities=NanoMaterials
+|Has Endpoint=PercentageNonViableCells
+|Has Study Type=Descriptive
+|Has Object Count=8
+}}
+
+= Plot = 
+
+{{#ask: [[Category:Measurements]] [[Has Study::{{PAGENAME}}]] [[Has Endpoint::PercentageNonViableCells]]
+| ?Has Endpoint Value
+| format=jqplotbar
+| sort=Has Endpoint Value
+| order=ascending
+| height=250
+| width=600
+}}
+{{#ask: [[Category:Measurements]] [[Has Study::{{PAGENAME}}]] [[Has Endpoint::PercentageNonViableCells]]
+| ?Has Entity #
+| ?Has Dose #
+| ?Has Endpoint Value #
+| sort=Has Endpoint Value
+| order=ascending
+| format = template
+| template = MeasurementDetails
+| introtemplate = MeasurementDetailsHeader
+| outrotemplate = MeasurementDetailsFooter
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Descriptive</title>
@@ -20001,6 +20039,27 @@ Shows the label of a NanoMaterial.
 |Has Zeta Units=mV
 }}</text>
     </revision>
+    <revision>
+      <id>958</id>
+      <timestamp>2011-10-28T07:04:01Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=Ag
+|Has Identifier=26
+|Has Chemical Composition=Ag
+|Has NM Type=Metal
+|Has Size Min=7
+|Has Size Max=516
+|Has Size Units=nm
+|Has Zeta potential=-39.9
+|Has Zeta Units=mV
+}}
+
+{{#set:|Used in Study=Karlsson2008CytotoxFollowup}}</text>
+    </revision>
   </page>
   <page>
     <title>Metal</title>
@@ -20106,6 +20165,27 @@ Shows the label of a NanoMaterial.
 |Has Zeta Units=mV
 }}</text>
     </revision>
+    <revision>
+      <id>959</id>
+      <timestamp>2011-10-28T07:04:16Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=CeO2
+|Has Identifier=27
+|Has Chemical Composition=CeO2
+|Has NM Type=MetalOxide
+|Has Size Min=4
+|Has Size Max=25
+|Has Size Units=nm
+|Has Zeta potential=4.0
+|Has Zeta Units=mV
+}}
+
+{{#set:|Used in Study=Karlsson2008CytotoxFollowup}}</text>
+    </revision>
   </page>
   <page>
     <title>HannaK11</title>
@@ -20159,6 +20239,27 @@ Shows the label of a NanoMaterial.
 |Has Zeta Units=mV
 }}</text>
     </revision>
+    <revision>
+      <id>960</id>
+      <timestamp>2011-10-28T07:04:29Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=Co3O4
+|Has Identifier=28
+|Has Chemical Composition=Co3O4
+|Has NM Type=MetalOxide
+|Has Size Min=9
+|Has Size Max=62
+|Has Size Units=nm
+|Has Zeta potential=30.2
+|Has Zeta Units=mV
+}}
+
+{{#set:|Used in Study=Karlsson2008CytotoxFollowup}}</text>
+    </revision>
   </page>
   <page>
     <title>HannaK12</title>
@@ -20211,6 +20312,27 @@ Shows the label of a NanoMaterial.
 |Has Zeta potential=30.3
 |Has Zeta Units=mV
 }}</text>
+    </revision>
+    <revision>
+      <id>961</id>
+      <timestamp>2011-10-28T07:04:42Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=NiO
+|Has Identifier=29
+|Has Chemical Composition=NiO
+|Has NM Type=MetalOxide
+|Has Size Min=2
+|Has Size Max=67
+|Has Size Units=nm
+|Has Zeta potential=30.3
+|Has Zeta Units=mV
+}}
+
+{{#set:|Used in Study=Karlsson2008CytotoxFollowup}}</text>
     </revision>
   </page>
   <page>
@@ -20301,6 +20423,27 @@ Shows the label of a NanoMaterial.
 |Has Zeta Units=mV
 }}</text>
     </revision>
+    <revision>
+      <id>962</id>
+      <timestamp>2011-10-28T07:05:16Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=SiO2
+|Has Identifier=30
+|Has Chemical Composition=SiO2
+|Has NM Type=MetalOxide
+|Has Size Min=5
+|Has Size Max=15
+|Has Size Units=nm
+|Has Zeta potential=-11.0
+|Has Zeta Units=mV
+}}
+
+{{#set:|Used in Study=Karlsson2008CytotoxFollowup}}</text>
+    </revision>
   </page>
   <page>
     <title>MetalOxides</title>
@@ -20345,6 +20488,29 @@ Shows the label of a NanoMaterial.
  |outrotemplate = NMsFrontFooter
  |offset=0
  |limit=250
+}}</text>
+    </revision>
+    <revision>
+      <id>954</id>
+      <timestamp>2011-10-28T06:49:03Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{#ask: [[Category:MetalOxides]]
+ | ? Has Identifier #
+ | ? Has Label #
+ | ? Has Size #
+ | ? Has NM Type #
+ | ? Has Zeta potential #
+ | ? Has Chemical Composition #
+ |format = template
+ |template = NMsFrontTemplate
+ |introtemplate = NMsFrontHeader
+ |outrotemplate = NMsFrontFooter
+ |offset=0
+ |limit=250
+ |sort=Has Identifier
 }}</text>
     </revision>
   </page>
@@ -20476,6 +20642,22 @@ Shows the label of a NanoMaterial.
 |Has Study=Karlsson2008CytotoxFollowup
 }}</text>
     </revision>
+    <revision>
+      <id>976</id>
+      <timestamp>2011-10-28T09:01:36Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=HannaK10
+|Has Study=Karlsson2008CytotoxFollowup
+|Has Endpoint Value=15.597
+|Has Dose=20
+|Has Dose Units=μg/cm²
+|Has Endpoint=DNA Damage
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Karlsson2008CytotoxFollowup</title>
@@ -20505,6 +20687,85 @@ Shows the label of a NanoMaterial.
 |Has Study Type=Descriptive
 }}</text>
     </revision>
+    <revision>
+      <id>956</id>
+      <timestamp>2011-10-28T06:51:39Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Study
+|Has Identifier=3
+|Has Entities=NanoMaterials
+|Has Study Type=Descriptive
+}}</text>
+    </revision>
+    <revision>
+      <id>968</id>
+      <timestamp>2011-10-28T08:05:59Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Study
+|Has Identifier=3
+|Has Entities=NanoMaterials
+|Has Study Type=Descriptive
+}}
+
+{{#ask: [[Category:Measurements]] [[Has Study::{{PAGENAME}}]] [[Has Endpoint::PercentageNonViableCells]]
+| ?Has Endpoint Value
+| format=jqplotbar
+| sort=Has Endpoint Value
+| order=ascending
+| height=250
+| width=600
+}}
+{{#ask: [[Category:Measurements]] [[Has Study::{{PAGENAME}}]] [[Has Endpoint::PercentageNonViableCells]]
+| ?Has Entity #
+| ?Has Dose #
+| ?Has Endpoint Value #
+| sort=Has Endpoint Value
+| order=ascending
+| format = template
+| template = MeasurementDetails
+| introtemplate = MeasurementDetailsHeader
+| outrotemplate = MeasurementDetailsFooter
+}}</text>
+    </revision>
+    <revision>
+      <id>969</id>
+      <timestamp>2011-10-28T08:06:40Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Study
+|Has Identifier=3
+|Has Entities=NanoMaterials
+|Has Study Type=Descriptive
+}}
+
+{{#ask: [[Category:Measurements]] [[Has Study::{{PAGENAME}}]] [[Has Endpoint::DNA Damage]]
+| ?Has Endpoint Value
+| format=jqplotbar
+| sort=Has Endpoint Value
+| order=ascending
+| height=250
+| width=600
+}}
+{{#ask: [[Category:Measurements]] [[Has Study::{{PAGENAME}}]] [[Has Endpoint::DNA Damage]]
+| ?Has Entity #
+| ?Has Dose #
+| ?Has Endpoint Value #
+| sort=Has Endpoint Value
+| order=ascending
+| format = template
+| template = MeasurementDetails
+| introtemplate = MeasurementDetailsHeader
+| outrotemplate = MeasurementDetailsFooter
+}}</text>
+    </revision>
   </page>
   <page>
     <title>HannaK11 M1</title>
@@ -20519,6 +20780,22 @@ Shows the label of a NanoMaterial.
       <text xml:space="preserve">{{Measurement
 |Has Entity=HannaK11
 |Has Study=Karlsson2008CytotoxFollowup
+}}</text>
+    </revision>
+    <revision>
+      <id>978</id>
+      <timestamp>2011-10-28T09:02:59Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=HannaK11
+|Has Study=Karlsson2008CytotoxFollowup
+|Has Endpoint Value=14.616
+|Has Dose=20
+|Has Dose Units=μg/cm²
+|Has Endpoint=DNA Damage
 }}</text>
     </revision>
   </page>
@@ -20537,6 +20814,22 @@ Shows the label of a NanoMaterial.
 |Has Study=Karlsson2008CytotoxFollowup
 }}</text>
     </revision>
+    <revision>
+      <id>980</id>
+      <timestamp>2011-10-28T09:03:51Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=HannaK12
+|Has Study=Karlsson2008CytotoxFollowup
+|Has Endpoint Value=31.598
+|Has Dose=20
+|Has Dose Units=μg/cm²
+|Has Endpoint=DNA Damage
+}}</text>
+    </revision>
   </page>
   <page>
     <title>HannaK13 M1</title>
@@ -20551,6 +20844,22 @@ Shows the label of a NanoMaterial.
       <text xml:space="preserve">{{Measurement
 |Has Entity=HannaK13
 |Has Study=Karlsson2008CytotoxFollowup
+}}</text>
+    </revision>
+    <revision>
+      <id>982</id>
+      <timestamp>2011-10-28T09:37:53Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=HannaK13
+|Has Study=Karlsson2008CytotoxFollowup
+|Has Endpoint Value=8.291
+|Has Dose=20
+|Has Dose Units=μg/cm²
+|Has Endpoint=DNA Damage
 }}</text>
     </revision>
   </page>
@@ -25087,6 +25396,22 @@ The allowed value for this property is:
 |Has Object Count=146
 }}</text>
     </revision>
+    <revision>
+      <id>955</id>
+      <timestamp>2011-10-28T06:51:25Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Study
+|Has Identifier=8
+|Has Source=Weissleder2005
+|Has Entities=NanoMaterials
+|Has Endpoint=Cellular uptake
+|Has Study Type=Descriptive
+|Has Object Count=146
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Weissleder146 R1</title>
@@ -25763,6 +26088,300 @@ carcinogenicity.
 |Has Endpoint=DNADamage
 |Has Study Type=Classification
 |Has Object Count=8
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>HannaK14</title>
+    <id>328</id>
+    <revision>
+      <id>963</id>
+      <timestamp>2011-10-28T07:07:21Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{NanoMaterial |Has Label=MnO2 |Has Identifier=90 |Has Chemical Composition=MnO2 |Has NM Type=MetalOxide }}  {{#set:|Used in Study=Karlsson2008CytotoxFollowup}}&quot;</comment>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=MnO2
+|Has Identifier=90
+|Has Chemical Composition=MnO2
+|Has NM Type=MetalOxide
+}}
+
+{{#set:|Used in Study=Karlsson2008CytotoxFollowup}}</text>
+    </revision>
+    <revision>
+      <id>964</id>
+      <timestamp>2011-10-28T07:32:44Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=MnO2
+|Has Identifier=90
+|Has Chemical Composition=MnO2
+|Has NM Type=MetalOxide
+|Has Size Min=300
+|Has Size Max=800
+|Has Size Units=nm
+}}
+
+{{#set:|Used in Study=Karlsson2008CytotoxFollowup}}</text>
+    </revision>
+    <revision>
+      <id>965</id>
+      <timestamp>2011-10-28T07:33:29Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=MnO2
+|Has Identifier=90
+|Has Chemical Composition=MnO2
+|Has NM Type=MetalOxide
+|Has Size Min=300
+|Has Size Max=800
+|Has Size Units=nm
+}}
+
+Particles of size down to 35 nm have been observed in clusters.
+
+{{#set:|Used in Study=Karlsson2008CytotoxFollowup}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>HannaK14 M1</title>
+    <id>329</id>
+    <revision>
+      <id>966</id>
+      <timestamp>2011-10-28T07:36:55Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=HannaK14 |Has Endpoint Value=16.085 |Has Dose=20 |Has Dose Units=μg/cm² |Has Endpoint=DNA Damage |Has Study=Karlsson2008CytotoxFollowUp }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=HannaK14
+|Has Endpoint Value=16.085
+|Has Dose=20
+|Has Dose Units=μg/cm²
+|Has Endpoint=DNA Damage
+|Has Study=Karlsson2008CytotoxFollowUp
+}}</text>
+    </revision>
+    <revision>
+      <id>971</id>
+      <timestamp>2011-10-28T08:07:05Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=HannaK14
+|Has Endpoint Value=16.085
+|Has Dose=20
+|Has Dose Units=μg/cm²
+|Has Endpoint=DNA Damage
+|Has Study=Karlsson2008CytotoxFollowup
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>HannaK14 M2</title>
+    <id>330</id>
+    <revision>
+      <id>967</id>
+      <timestamp>2011-10-28T07:37:13Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=HannaK14 |Has Endpoint Value=18.849 |Has Dose=40 |Has Dose Units=μg/cm² |Has Endpoint=DNA Damage |Has Study=Karlsson2008CytotoxFollowUp }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=HannaK14
+|Has Endpoint Value=18.849
+|Has Dose=40
+|Has Dose Units=μg/cm²
+|Has Endpoint=DNA Damage
+|Has Study=Karlsson2008CytotoxFollowUp
+}}</text>
+    </revision>
+    <revision>
+      <id>970</id>
+      <timestamp>2011-10-28T08:06:56Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=HannaK14
+|Has Endpoint Value=18.849
+|Has Dose=40
+|Has Dose Units=μg/cm²
+|Has Endpoint=DNA Damage
+|Has Study=Karlsson2008CytotoxFollowyp
+}}</text>
+    </revision>
+    <revision>
+      <id>972</id>
+      <timestamp>2011-10-28T08:07:43Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=HannaK14
+|Has Endpoint Value=18.849
+|Has Dose=40
+|Has Dose Units=μg/cm²
+|Has Endpoint=DNA Damage
+|Has Study=Karlsson2008CytotoxFollowup
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>DNA Damage</title>
+    <id>331</id>
+    <revision>
+      <id>973</id>
+      <timestamp>2011-10-28T08:46:08Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Endpoint |Description=DNA Damage |Has Assay Type=In Vitro }}&quot;</comment>
+      <text xml:space="preserve">{{Endpoint
+|Description=DNA Damage
+|Has Assay Type=In Vitro
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>HannaK9 M1</title>
+    <id>332</id>
+    <revision>
+      <id>974</id>
+      <timestamp>2011-10-28T09:00:14Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=HannaK9 |Has Endpoint Value=9.273 |Has Dose=20 |Has Dose Units=μg/cm² |Has Endpoint=DNA Damage |Has Study=Karlsson2008CytotoxFollowup }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=HannaK9
+|Has Endpoint Value=9.273
+|Has Dose=20
+|Has Dose Units=μg/cm²
+|Has Endpoint=DNA Damage
+|Has Study=Karlsson2008CytotoxFollowup
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>HannaK9 M2</title>
+    <id>333</id>
+    <revision>
+      <id>975</id>
+      <timestamp>2011-10-28T09:00:31Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=HannaK9 |Has Endpoint Value=10.732 |Has Dose=40 |Has Dose Units=μg/cm² |Has Endpoint=DNA Damage |Has Study=Karlsson2008CytotoxFollowup }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=HannaK9
+|Has Endpoint Value=10.732
+|Has Dose=40
+|Has Dose Units=μg/cm²
+|Has Endpoint=DNA Damage
+|Has Study=Karlsson2008CytotoxFollowup
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>HannaK10 M2</title>
+    <id>334</id>
+    <revision>
+      <id>977</id>
+      <timestamp>2011-10-28T09:02:09Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=HannaK10 |Has Study=Karlsson2008CytotoxFollowup |Has Endpoint Value=23.619 |Has Dose=40 |Has Dose Units=μg/cm² |Has Endpoint=DNA Damage }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=HannaK10
+|Has Study=Karlsson2008CytotoxFollowup
+|Has Endpoint Value=23.619
+|Has Dose=40
+|Has Dose Units=μg/cm²
+|Has Endpoint=DNA Damage
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>HannaK11 M2</title>
+    <id>335</id>
+    <revision>
+      <id>979</id>
+      <timestamp>2011-10-28T09:03:16Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=HannaK11 |Has Study=Karlsson2008CytotoxFollowup |Has Endpoint Value=12.302 |Has Dose=40 |Has Dose Units=μg/cm² |Has Endpoint=DNA Damage }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=HannaK11
+|Has Study=Karlsson2008CytotoxFollowup
+|Has Endpoint Value=12.302
+|Has Dose=40
+|Has Dose Units=μg/cm²
+|Has Endpoint=DNA Damage
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>HannaK12 M2</title>
+    <id>336</id>
+    <revision>
+      <id>981</id>
+      <timestamp>2011-10-28T09:04:12Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=HannaK12 |Has Study=Karlsson2008CytotoxFollowup |Has Endpoint Value=29.918 |Has Dose=40 |Has Dose Units=μg/cm² |Has Endpoint=DNA Damage }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=HannaK12
+|Has Study=Karlsson2008CytotoxFollowup
+|Has Endpoint Value=29.918
+|Has Dose=40
+|Has Dose Units=μg/cm²
+|Has Endpoint=DNA Damage
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>HannaK13 M2</title>
+    <id>337</id>
+    <revision>
+      <id>983</id>
+      <timestamp>2011-10-28T09:38:16Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=HannaK13 |Has Study=Karlsson2008CytotoxFollowup |Has Endpoint Value=8.937 |Has Dose=40 |Has Dose Units=μg/cm² |Has Endpoint=DNA Damage }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=HannaK13
+|Has Study=Karlsson2008CytotoxFollowup
+|Has Endpoint Value=8.937
+|Has Dose=40
+|Has Dose Units=μg/cm²
+|Has Endpoint=DNA Damage
 }}</text>
     </revision>
   </page>
