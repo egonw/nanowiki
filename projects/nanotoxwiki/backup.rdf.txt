@@ -18,7 +18,7 @@
 	xmlns:property="&property;">
 
 	<owl:Ontology rdf:about="">
-		<swivt:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-18T13:01:00+02:00</swivt:creationDate>
+		<swivt:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T08:32:02+02:00</swivt:creationDate>
 		<owl:imports rdf:resource="http://semantic-mediawiki.org/swivt/1.0"/>
 	</owl:Ontology>
 	<swivt:Subject rdf:about="&wiki;Main_Page">
@@ -938,6 +938,8 @@
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">31</property:Has_Zeta_potential>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-06-15T08:36:14</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Karlsson2008Cytotox"/>
+		<property:Used_in_Study rdf:resource="&wiki;WillighagenS1"/>
+		<property:Used_in_Study rdf:resource="&wiki;WillighagenS2"/>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;HannaK2">
 		<rdfs:label>HannaK2</rdfs:label>
@@ -957,6 +959,8 @@
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.9</property:Has_Zeta_potential>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-06-15T08:36:27</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Karlsson2008Cytotox"/>
+		<property:Used_in_Study rdf:resource="&wiki;WillighagenS1"/>
+		<property:Used_in_Study rdf:resource="&wiki;WillighagenS2"/>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;HannaK3">
 		<rdfs:label>HannaK3</rdfs:label>
@@ -976,6 +980,8 @@
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">26.9</property:Has_Zeta_potential>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-06-15T08:36:52</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Karlsson2008Cytotox"/>
+		<property:Used_in_Study rdf:resource="&wiki;WillighagenS1"/>
+		<property:Used_in_Study rdf:resource="&wiki;WillighagenS2"/>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;HannaK4">
 		<rdfs:label>HannaK4</rdfs:label>
@@ -995,6 +1001,8 @@
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">34.2</property:Has_Zeta_potential>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-06-15T08:37:31</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Karlsson2008Cytotox"/>
+		<property:Used_in_Study rdf:resource="&wiki;WillighagenS1"/>
+		<property:Used_in_Study rdf:resource="&wiki;WillighagenS2"/>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;HannaK5">
 		<rdfs:label>HannaK5</rdfs:label>
@@ -1014,6 +1022,8 @@
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-17.3</property:Has_Zeta_potential>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-06-15T08:37:51</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Karlsson2008Cytotox"/>
+		<property:Used_in_Study rdf:resource="&wiki;WillighagenS1"/>
+		<property:Used_in_Study rdf:resource="&wiki;WillighagenS2"/>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;HannaK6">
 		<rdfs:label>HannaK6</rdfs:label>
@@ -1033,6 +1043,8 @@
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.8</property:Has_Zeta_potential>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-06-15T08:38:25</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Karlsson2008Cytotox"/>
+		<property:Used_in_Study rdf:resource="&wiki;WillighagenS1"/>
+		<property:Used_in_Study rdf:resource="&wiki;WillighagenS2"/>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;HannaK7">
 		<rdfs:label>HannaK7</rdfs:label>
@@ -1173,7 +1185,7 @@
 		<rdf:type rdf:resource="&wiki;Category-3AStudies"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
 		<property:Has_Endpoint rdf:resource="&wiki;Percentage_Non-2DViable_Cells"/>
-		<property:Has_Entities rdf:resource="&wiki;MetalOxides"/>
+		<property:Has_Entities rdf:resource="&wiki;Nanomaterials"/>
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2</property:Has_Identifier>
 		<property:Has_Object_Count rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8</property:Has_Object_Count>
 		<property:Has_Source rdf:resource="&wiki;Karlsson2008"/>
@@ -3662,6 +3674,32 @@
 		<property:Has_DOI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.3109/17435390.2011.587903</property:Has_DOI>
 		<property:Has_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011</property:Has_Year>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-14T12:56:14</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;WillighagenS1">
+		<rdfs:label>WillighagenS1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;WillighagenS1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/WillighagenS1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AStudies"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Percentage_Non-2DViable_Cells"/>
+		<property:Has_Entities rdf:resource="&wiki;MetalOxides"/>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10</property:Has_Identifier>
+		<property:Has_Object_Count rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8</property:Has_Object_Count>
+		<property:Has_Study_Type rdf:resource="&wiki;Classification"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-26T05:09:13</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;WillighagenS2">
+		<rdfs:label>WillighagenS2</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;WillighagenS2"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/WillighagenS2"/>
+		<rdf:type rdf:resource="&wiki;Category-3AStudies"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;DNADamage"/>
+		<property:Has_Entities rdf:resource="&wiki;MetalOxides"/>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10</property:Has_Identifier>
+		<property:Has_Object_Count rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8</property:Has_Object_Count>
+		<property:Has_Study_Type rdf:resource="&wiki;Classification"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-26T05:09:44</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<owl:DatatypeProperty rdf:about="&swivt;creationDate" />
 	<owl:ObjectProperty rdf:about="&swivt;page" />

@@ -16520,6 +16520,29 @@ The CHEMINF field does the same but then for the CHEMINF ontology.
 
 {{#set:|Used in Study=Karlsson2008Cytotox}}</text>
     </revision>
+    <revision>
+      <id>950</id>
+      <timestamp>2011-10-26T05:14:17Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=CuO
+|Has Identifier=18
+|Has Chemical Composition=CuO
+|Has NM Type=MetalOxide
+|Has Size Min=20
+|Has Size Max=40
+|Has Size Units=nm
+|Has Zeta potential=31.0
+|Has Zeta Units=mV
+}}
+
+{{#set:|Used in Study=Karlsson2008Cytotox}}
+{{#set:|Used in Study=WillighagenS1}}
+{{#set:|Used in Study=WillighagenS2}}</text>
+    </revision>
   </page>
   <page>
     <title>HannaK2</title>
@@ -16617,6 +16640,29 @@ The CHEMINF field does the same but then for the CHEMINF ontology.
 
 {{#set:|Used in Study=Karlsson2008Cytotox}}</text>
     </revision>
+    <revision>
+      <id>949</id>
+      <timestamp>2011-10-26T05:14:02Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=TiO2
+|Has Identifier=19
+|Has Chemical Composition=TiO2
+|Has NM Type=MetalOxide
+|Has Size Min=20
+|Has Size Max=100
+|Has Size Units=nm
+|Has Zeta potential=5.9
+|Has Zeta Units=mV
+}}
+
+{{#set:|Used in Study=Karlsson2008Cytotox}}
+{{#set:|Used in Study=WillighagenS1}}
+{{#set:|Used in Study=WillighagenS2}}</text>
+    </revision>
   </page>
   <page>
     <title>HannaK3</title>
@@ -16701,6 +16747,29 @@ The CHEMINF field does the same but then for the CHEMINF ontology.
 }}
 
 {{#set:|Used in Study=Karlsson2008Cytotox}}</text>
+    </revision>
+    <revision>
+      <id>951</id>
+      <timestamp>2011-10-26T05:15:09Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=ZnO
+|Has Identifier=20
+|Has Chemical Composition=ZnO
+|Has NM Type=MetalOxide
+|Has Size Min=20
+|Has Size Max=200
+|Has Size Units=nm
+|Has Zeta potential=26.9
+|Has Zeta Units=mV
+}}
+
+{{#set:|Used in Study=Karlsson2008Cytotox}}
+{{#set:|Used in Study=WillighagenS1}}
+{{#set:|Used in Study=WillighagenS2}}</text>
     </revision>
   </page>
   <page>
@@ -16787,6 +16856,29 @@ The CHEMINF field does the same but then for the CHEMINF ontology.
 
 {{#set:|Used in Study=Karlsson2008Cytotox}}</text>
     </revision>
+    <revision>
+      <id>952</id>
+      <timestamp>2011-10-26T05:15:19Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=CuZnFe2O4
+|Has Identifier=21
+|Has Chemical Composition=CuZnFe2O4
+|Has NM Type=MetalOxide
+|Has Size Min=10
+|Has Size Max=100
+|Has Size Units=nm
+|Has Zeta potential=34.2
+|Has Zeta Units=mV
+}}
+
+{{#set:|Used in Study=Karlsson2008Cytotox}}
+{{#set:|Used in Study=WillighagenS1}}
+{{#set:|Used in Study=WillighagenS2}}</text>
+    </revision>
   </page>
   <page>
     <title>HannaK5</title>
@@ -16872,6 +16964,29 @@ The CHEMINF field does the same but then for the CHEMINF ontology.
 
 {{#set:|Used in Study=Karlsson2008Cytotox}}</text>
     </revision>
+    <revision>
+      <id>953</id>
+      <timestamp>2011-10-26T05:15:32Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=Fe2O3
+|Has Identifier=22
+|Has Chemical Composition=Fe2O3
+|Has NM Type=MetalOxide
+|Has Size Min=30
+|Has Size Max=60
+|Has Size Units=nm
+|Has Zeta potential=-17.3
+|Has Zeta Units=mV
+}}
+
+{{#set:|Used in Study=Karlsson2008Cytotox}}
+{{#set:|Used in Study=WillighagenS1}}
+{{#set:|Used in Study=WillighagenS2}}</text>
+    </revision>
   </page>
   <page>
     <title>HannaK6</title>
@@ -16956,6 +17071,29 @@ The CHEMINF field does the same but then for the CHEMINF ontology.
 }}
 
 {{#set:|Used in Study=Karlsson2008Cytotox}}</text>
+    </revision>
+    <revision>
+      <id>948</id>
+      <timestamp>2011-10-26T05:13:25Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=Fe3O4
+|Has Identifier=23
+|Has Chemical Composition=Fe3O4
+|Has NM Type=MetalOxide
+|Has Size Min=20
+|Has Size Max=30
+|Has Size Units=nm
+|Has Zeta potential=1.8
+|Has Zeta Units=mV
+}}
+
+{{#set:|Used in Study=Karlsson2008Cytotox}}
+{{#set:|Used in Study=WillighagenS1}}
+{{#set:|Used in Study=WillighagenS2}}</text>
     </revision>
   </page>
   <page>
@@ -17717,6 +17855,44 @@ Studies 17 nanomaterials: [[HannaK1]], [[HannaK2]], [[HannaK3]], [[HannaK4]], [[
 |Has Identifier=2
 |Has Source=Karlsson2008
 |Has Entities=MetalOxides
+|Has Endpoint=PercentageNonViableCells
+|Has Study Type=Descriptive
+|Has Object Count=8
+}}
+
+= Plot = 
+
+{{#ask: [[Category:Measurements]] [[Has Study::{{PAGENAME}}]] [[Has Endpoint::PercentageNonViableCells]]
+| ?Has Endpoint Value
+| format=jqplotbar
+| sort=Has Endpoint Value
+| order=ascending
+| height=250
+| width=600
+}}
+{{#ask: [[Category:Measurements]] [[Has Study::{{PAGENAME}}]] [[Has Endpoint::PercentageNonViableCells]]
+| ?Has Entity #
+| ?Has Dose #
+| ?Has Endpoint Value #
+| sort=Has Endpoint Value
+| order=ascending
+| format = template
+| template = MeasurementDetails
+| introtemplate = MeasurementDetailsHeader
+| outrotemplate = MeasurementDetailsFooter
+}}</text>
+    </revision>
+    <revision>
+      <id>947</id>
+      <timestamp>2011-10-26T05:11:23Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Study
+|Has Identifier=2
+|Has Source=Karlsson2008
+|Has Entities=Nanomaterials
 |Has Endpoint=PercentageNonViableCells
 |Has Study Type=Descriptive
 |Has Object Count=8
@@ -25548,6 +25724,46 @@ carcinogenicity.
 &lt;pdf height=&quot;300&quot;&gt;9/9c/Jugan2011.pdf&lt;/pdf&gt;
 
 [[Category:PapersToRead]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>WillighagenS1</title>
+    <id>326</id>
+    <revision>
+      <id>945</id>
+      <timestamp>2011-10-26T05:09:13Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Study |Has Identifier=10 |Has Entities=MetalOxides |Has Endpoint=PercentageNonViableCells |Has Study Type=Classification |Has Object Count=8 }}&quot;</comment>
+      <text xml:space="preserve">{{Study
+|Has Identifier=10
+|Has Entities=MetalOxides
+|Has Endpoint=PercentageNonViableCells
+|Has Study Type=Classification
+|Has Object Count=8
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>WillighagenS2</title>
+    <id>327</id>
+    <revision>
+      <id>946</id>
+      <timestamp>2011-10-26T05:09:44Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Study |Has Identifier=10 |Has Entities=MetalOxides |Has Endpoint=DNADamage |Has Study Type=Classification |Has Object Count=8 }}&quot;</comment>
+      <text xml:space="preserve">{{Study
+|Has Identifier=10
+|Has Entities=MetalOxides
+|Has Endpoint=DNADamage
+|Has Study Type=Classification
+|Has Object Count=8
+}}</text>
     </revision>
   </page>
 </mediawiki>
