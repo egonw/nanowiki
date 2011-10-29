@@ -482,6 +482,44 @@ You can browse this data via one of the following categories:
 ** cd ~/var/Projects/hg/kirepos/projects/nanotoxwiki
 ** mysqldump -u root -p wikidb --default-character-set=latin1 &gt; backup.sql.txt</text>
     </revision>
+    <revision>
+      <id>1000</id>
+      <timestamp>2011-10-28T11:04:17Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">Egon's Lab Notebook.
+
+== Nanomaterial Database ==
+
+Database containing QSAR studies from literature with assay data from cell line experiments.
+You can browse this data via one of the following categories:
+
+* [[:Category:NanoMaterials|Nanomaterials]] ({{#ask: [[Category:NanoMaterials]] | format=count}}),
+** [[:Category:MetalOxides|Metal oxides]] ({{#ask: [[Category:MetalOxides]] | format=count}})
+** [[:Category:Coatings|Coatings]] ({{#ask: [[Category:Coatings]] | format=count}})
+** [[:Category:Coating_Parts|Coating Parts]] ({{#ask: [[Category:Coating_Parts]] | format=count}})
+* [[:Category:Studies|Studies]] ({{#ask: [[Category:Studies]] | format=count}}), [[:Category:Measurements|Measurements]] ({{#ask: [[Category:Measurements]] | format=count}}),
+** [[:Category:NanoMaterials|NanoMaterials]] ({{#ask: [[Category:Studies]] [[Has Entities::!Compounds]] | format=count}}), of which Metal oxides ({{#ask: [[Category:Studies]] [[Has Entities::MetalOxides]] | format=count}}),
+** [[:Category:Compounds|Compounds]] ({{#ask: [[Category:Studies]] [[Has Entities::Compounds]] | format=count}})
+* [[:Category:Papers|Papers]] ({{#ask: [[Category:Papers]] | format=count}}) , [[:Category:PapersToRead|To Read]] ({{#ask: [[Category:PapersToRead]] | format=count}})
+* [[:Category:Descriptors|Descriptors]] ({{#ask: [[Category:Descriptors]] | format=count}}),
+* [[:Category:Endpoints|Endpoints]] ({{#ask: [[Category:Endpoints]] | format=count}}),
+* [[:Category:Toxicity|Toxicity]] ({{#ask: [[Category:Toxicity]] | format=count}}),
+* [[:Category:CellLines|Cell lines]] ({{#ask: [[Category:CellLines]] | format=count}}).
+
+== Backups ==
+
+* [[Special:ExportRDF|Export RDF]] (does not work)
+* dumpBackup.php
+** cd ~/var/Projects/hg/kirepos/projects/nanotoxwiki
+** sudo php /usr/share/mediawiki/maintenance/dumpBackup.php --conf /etc/mediawiki/LocalSettings.php --full &gt; backup.xml.txt
+** (this required adding an /etc/mediawiki/AdminSettings.php with db account info, '''wrapped''' in ''&lt;?php ?&gt;'')
+* see ~/var/Projects/hg/kirepos/projects/nanotoxwiki/README
+** cd ~/var/Projects/hg/kirepos/projects/nanotoxwiki
+** mysqldump -u root -p wikidb --default-character-set=latin1 &gt; backup.sql.txt</text>
+    </revision>
   </page>
   <page>
     <title>MediaWiki:Smw uri blacklist</title>
@@ -3559,6 +3597,180 @@ You can browse this data via one of the following categories:
 [[Category:NanoMaterials]]__NOEDITSECTION____NOTOC__
 &lt;/includeonly&gt;</text>
     </revision>
+    <revision>
+      <id>1005</id>
+      <timestamp>2011-10-28T11:43:15Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">&lt;noinclude&gt;
+&lt;pre&gt;
+{{NanoMaterial
+|Has Identifier=
+|Has Label=
+|Has Chemical Composition=
+|Has Chemical Coating=
+|Image=
+|Has NM Type=
+|Has Size=
+|Has Size Min=
+|Has Size Max=
+|Has Size Error=
+|Has Size Units=
+|Has Zeta potential=
+|Has Zeta Units=
+|Has Zeta Error=
+}}
+&lt;/pre&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: right; table-layout:fixed; word-wrap: break-word;&quot;
+! colspan=2 style=&quot;text-align: center;background-color: #ddd;&quot; | Nanomaterial
+|-
+! colspan=2 style=&quot;text-align: center; font-size: 125%&quot; | {{{Name|{{PAGENAME}}}}}
+{{#if:{{{Image|}}}|
+{{!}}-
+{{!}} Image
+{{!}} {{{Image}}}
+}}
+|-
+{{#if:{{{Has Label|}}}|
+{{!}}-
+{{!}} Label
+{{!}} {{{Has Label}}} 
+}}
+|-
+{{#if:{{{Has Identifier|}}}|
+{{!}}-
+{{!}} Identifier
+{{!}} {{{Has Identifier}}} 
+}}
+|-
+{{#if:{{{Has Chemical Composition|}}}|
+{{!}}-
+{{!}} Chemical Composition
+{{!}} {{{Has Chemical Composition}}} 
+}}
+|-
+{{#if:{{{Has Chemical Coating|}}}|
+{{!}}-
+{{!}} Chemical Coating
+{{!}} {{{Has Chemical Coating}}} 
+}}
+|-
+! colspan=2 style=&quot;text-align: center;background-color: #ddd;&quot; | Properties
+|-
+{{#if:{{{Has Size|}}}|
+{{!}}-
+{{!}} Size
+{{!}} {{{Has Size}}} {{#if:{{{Has Size Error|}}}|± {{{Has Size Error}}}}} {{#if:{{{Has Size Units|}}}|{{{Has Size Units}}}}}
+}}
+{{#if:{{{Has Size Min|}}}|
+{{!}}-
+{{!}} Size
+{{!}} {{{Has Size Min}}} - {{{Has Size Max}}} {{#if:{{{Has Size Units|}}}|{{{Has Size Units}}}}}
+}}
+{{#if:{{{Has NM Type|}}}|
+{{!}}-
+{{!}} Type
+{{!}} {{{Has NM Type}}} 
+}}
+{{#if:{{{Has Zeta potential|}}}|
+{{!}}-
+{{!}} Zeta potential
+{{!}} {{{Has Zeta potential}}} {{#if:{{{Has Zeta Error|}}}|± {{{Has Zeta Error}}}}} {{#if:{{{Has Zeta Units|}}}|{{{Has Zeta Units}}}}}
+}}
+|}
+&lt;br&gt;
+= Measurements =
+{{#ask: [[Category:Measurements]] [[Has Entity::{{PAGENAME}}]]
+| ?Has Endpoint Value
+| format=jqplotbar
+| sort=Has Endpoint Value
+| order=ascending
+| height=250
+| width=600
+}}
+{{#ask: [[Category:Measurements]] [[Has Entity::{{PAGENAME}}]]
+| ?Has Entity #
+| ?Has Dose #
+| ?Has Endpoint Value #
+| sort=Has Endpoint Value
+| order=ascending
+| format = template
+| template = MeasurementDetails
+| introtemplate = MeasurementDetailsHeader
+| outrotemplate = MeasurementDetailsFooter
+}}
+{{#if:{{{Has Size|}}} |
+{{#set:
+|Has Size={{{Has Size|}}}
+}}
+| }}
+{{#if:{{{Has Size Min|}}} |
+{{#set:
+|Has Size Min={{{Has Size Min|}}}
+}}
+| }}
+{{#if:{{{Has Size Max|}}} |
+{{#set:
+|Has Size Max={{{Has Size Max|}}}
+}}
+| }}
+{{#if:{{{Has Size Error|}}} |
+{{#set:
+|Has Size Error={{{Has Size Error|}}}
+}}
+| }}
+{{#if:{{{Has Size Units|}}} |
+{{#set:
+|Has Size Units={{{Has Size Units|}}}
+}}
+| }}
+{{#if:{{{Has Label|}}} |
+{{#set:
+|Has Label={{{Has Label|}}}
+}}
+| }}
+{{#if:{{{Has Identifier|}}} |
+{{#set:
+|Has Identifier={{{Has Identifier|}}}
+}}
+| }}
+{{#if:{{{Has Chemical Composition|}}} |
+{{#set:
+|Has Chemical Composition={{{Has Chemical Composition|}}}
+}}
+| }}
+{{#if:{{{Has Chemical Coating|}}} |
+{{#set:
+|Has Chemical Coating={{{Has Chemical Coating|}}}
+}}
+| }}
+{{#if:{{{Has NM Type|}}} |
+{{#set:
+|Has NM Type={{{Has NM Type|}}}
+}}
+[[Category:{{{Has NM Type|}}}s]]
+| }}
+{{#if:{{{Has Zeta potential|}}} |
+{{#set:
+|Has Zeta potential={{{Has Zeta potential|}}}
+}}
+| }}
+{{#if:{{{Has Zeta Units|}}} |
+{{#set:
+|Has Zeta Units={{{Has Zeta Units|}}}
+}}
+| }}
+{{#if:{{{Has Zeta Error|}}} |
+{{#set:
+|Has Zeta Error={{{Has Zeta Error|}}}
+}}
+| }}
+[[Category:NanoMaterials]]__NOEDITSECTION____NOTOC__
+&lt;/includeonly&gt;</text>
+    </revision>
   </page>
   <page>
     <title>TestNM</title>
@@ -3714,6 +3926,32 @@ You can browse this data via one of the following categories:
  | ? Has NM Type #
  | ? Has Zeta potential #
  | ? Has Chemical Composition #
+ |format = template
+ |template = NMsFrontTemplate
+ |introtemplate = NMsFrontHeader
+ |outrotemplate = NMsFrontFooter
+ |sort = Has Identifier
+ |offset=0
+ |limit=250
+}}</text>
+    </revision>
+    <revision>
+      <id>1017</id>
+      <timestamp>2011-10-28T12:00:51Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">A list of nanomaterials:
+
+{{#ask: [[Category:NanoMaterials]]
+ | ? Has Identifier #
+ | ? Has Label #
+ | ? Has Size #
+ | ? Has NM Type #
+ | ? Has Zeta potential #
+ | ? Has Chemical Composition #
+ | ? Has Chemical Coating #
  |format = template
  |template = NMsFrontTemplate
  |introtemplate = NMsFrontHeader
@@ -3950,6 +4188,19 @@ This database contains the following nanomaterials:
       <text xml:space="preserve">&lt;includeonly&gt;
 {| class=&quot;wikitable sortable&quot;
  ! Identifier !! Nanomaterial !! Size !! Type !! Zeta
+ |-
+&lt;/includeonly&gt;</text>
+    </revision>
+    <revision>
+      <id>1019</id>
+      <timestamp>2011-10-28T12:17:40Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">&lt;includeonly&gt;
+{| class=&quot;wikitable sortable&quot;
+ ! Identifier !! Nanomaterial !! Size !! Type !! Zeta !! Composition !! Coating
  |-
 &lt;/includeonly&gt;</text>
     </revision>
@@ -4314,6 +4565,23 @@ This database contains the following nanomaterials:
 || {{{4}}} 
 || {{{5}}}
 || {{{6}}}
+ |-
+&lt;/includeonly&gt;</text>
+    </revision>
+    <revision>
+      <id>1018</id>
+      <timestamp>2011-10-28T12:01:20Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">&lt;includeonly&gt;
+ | {{{2}}}
+|| {{{3}}} ({{{1}}})
+|| {{{4}}} 
+|| {{{5}}}
+|| {{{6}}}
+|| {{{7}}}
  |-
 &lt;/includeonly&gt;</text>
     </revision>
@@ -21405,6 +21673,53 @@ predominant) independently of their surface modiﬁers&quot;
 
 [[Has alternative Identifier::NP3]]</text>
     </revision>
+    <revision>
+      <id>1015</id>
+      <timestamp>2011-10-28T11:57:50Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=CLIO-NH2
+|Has Identifier=33
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=&amp;1.NH2 1=&quot;cross-linked dextran&quot;
+|Has NM Type=MetalOxide
+|Has Size=74
+|Has Size Units=nm
+|Has Zeta potential=5.9
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP3]]</text>
+    </revision>
+    <revision>
+      <id>1016</id>
+      <timestamp>2011-10-28T12:00:14Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Undo revision 1015 by [[Special:Contributions/Egonw|Egonw]] ([[User talk:Egonw|Talk]])</comment>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=CLIO-47-NH2 no 9
+|Has Identifier=33
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=CLIO-NH2
+|Has NM Type=MetalOxide
+|Has Size=74
+|Has Size Units=nm
+|Has Zeta potential=5.9
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP3]]</text>
+    </revision>
   </page>
   <page>
     <title>Property:Has alternative Identifier</title>
@@ -21458,6 +21773,52 @@ predominant) independently of their surface modiﬁers&quot;
 |Has Identifier=31
 |Has Chemical Composition=Fe3O4
 |Has Chemical Coating=&amp;1.&amp;2.COOH 1=&quot;cross-linked dextran&quot; 2=&quot;FITC
+|Has NM Type=MetalOxide
+|Has Size=36
+|Has Size Units=nm
+|Has Zeta potential=-19.9
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP1]]</text>
+    </revision>
+    <revision>
+      <id>1007</id>
+      <timestamp>2011-10-28T11:44:17Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=Carboxyl-CLIO-FITC-NH2 no. 3
+|Has Identifier=31
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=Shaw51 01 C
+|Has NM Type=MetalOxide
+|Has Size=36
+|Has Size Units=nm
+|Has Zeta potential=-19.9
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP1]]</text>
+    </revision>
+    <revision>
+      <id>1010</id>
+      <timestamp>2011-10-28T11:54:01Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=Carboxyl-CLIO-FITC-NH2 no. 3
+|Has Identifier=31
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=CLIO-FITC-COOH
 |Has NM Type=MetalOxide
 |Has Size=36
 |Has Size Units=nm
@@ -21541,6 +21902,29 @@ predominant) independently of their surface modiﬁers&quot;
 
 [[Has alternative Identifier::NP2]]</text>
     </revision>
+    <revision>
+      <id>1012</id>
+      <timestamp>2011-10-28T11:55:36Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=CLIO-47 no. 3
+|Has Identifier=32
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=CLIO-FITC
+|Has NM Type=MetalOxide
+|Has Size=30
+|Has Size Units=nm
+|Has Zeta potential=-9.22
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP2]]</text>
+    </revision>
   </page>
   <page>
     <title>Shaw51 04</title>
@@ -21613,6 +21997,29 @@ predominant) independently of their surface modiﬁers&quot;
 
 [[Has alternative Identifier::NP4]]</text>
     </revision>
+    <revision>
+      <id>1022</id>
+      <timestamp>2011-10-28T12:43:59Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=CLIO-48-NH2 no. 14
+|Has Identifier=34
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=CLIO-NH2
+|Has NM Type=MetalOxide
+|Has Size=74
+|Has Size Units=nm
+|Has Zeta potential=-2.72
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP4]]</text>
+    </revision>
   </page>
   <page>
     <title>Shaw51 05</title>
@@ -21663,6 +22070,29 @@ predominant) independently of their surface modiﬁers&quot;
 
 [[Has alternative Identifier::NP5]]</text>
     </revision>
+    <revision>
+      <id>1025</id>
+      <timestamp>2011-10-28T12:57:39Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=CLIO-AF488 no. 10
+|Has Identifier=35
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=CLIO-AF488
+|Has NM Type=MetalOxide
+|Has Size=27
+|Has Size Units=nm
+|Has Zeta potential=-3.34
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP5]]</text>
+    </revision>
   </page>
   <page>
     <title>Shaw51 06</title>
@@ -21702,6 +22132,29 @@ predominant) independently of their surface modiﬁers&quot;
 |Has Identifier=36
 |Has Chemical Composition=Fe3O4
 |Has Chemical Coating=&amp;1.&amp;2 1=&quot;cross-linked dextran&quot; 2=&quot;Alexa Fluor 750&quot;
+|Has NM Type=MetalOxide
+|Has Size=29
+|Has Size Units=nm
+|Has Zeta potential=1.95
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP6]]</text>
+    </revision>
+    <revision>
+      <id>1028</id>
+      <timestamp>2011-10-28T13:06:14Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=CLIO-AF750 no. 3
+|Has Identifier=36
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=CLIO-AF750
 |Has NM Type=MetalOxide
 |Has Size=29
 |Has Size Units=nm
@@ -21785,6 +22238,29 @@ predominant) independently of their surface modiﬁers&quot;
 
 [[Has alternative Identifier::NP7]]</text>
     </revision>
+    <revision>
+      <id>1031</id>
+      <timestamp>2011-10-28T13:21:36Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=CLIO-bentri-FITC
+|Has Identifier=37
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=CLIO-FITC-RCOOH
+|Has NM Type=MetalOxide
+|Has Size=38
+|Has Size Units=nm
+|Has Zeta potential=-10.1
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP7]]</text>
+    </revision>
   </page>
   <page>
     <title>Shaw51 08</title>
@@ -21824,6 +22300,29 @@ predominant) independently of their surface modiﬁers&quot;
 |Has Identifier=38
 |Has Chemical Composition=Fe3O4
 |Has Chemical Coating=&amp;1 1=&quot;biotin&quot;
+|Has NM Type=MetalOxide
+|Has Size=33
+|Has Size Units=nm
+|Has Zeta potential=-19.5
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP8]]</text>
+    </revision>
+    <revision>
+      <id>1036</id>
+      <timestamp>2011-10-28T13:22:48Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=CLIO-Biotin no.2
+|Has Identifier=38
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=BiotinCoating
 |Has NM Type=MetalOxide
 |Has Size=33
 |Has Size Units=nm
@@ -21885,6 +22384,29 @@ predominant) independently of their surface modiﬁers&quot;
 
 [[Has alternative Identifier::NP9]]</text>
     </revision>
+    <revision>
+      <id>1038</id>
+      <timestamp>2011-10-28T13:24:37Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=CLIO-COOH-FITC no.1
+|Has Identifier=39
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=FITC-COOH
+|Has NM Type=MetalOxide
+|Has Size=36
+|Has Size Units=nm
+|Has Zeta potential=-14.0
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP9]]</text>
+    </revision>
   </page>
   <page>
     <title>Shaw51 10</title>
@@ -21924,6 +22446,52 @@ predominant) independently of their surface modiﬁers&quot;
 |Has Identifier=40
 |Has Chemical Composition=Fe3O4
 |Has Chemical Coating=&amp;1.&amp;2 1=&quot;cross-linked-dextran&quot; 2=&quot;Cy3.5&quot;
+|Has NM Type=MetalOxide
+|Has Size=31
+|Has Size Units=nm
+|Has Zeta potential=3.24
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP10]]</text>
+    </revision>
+    <revision>
+      <id>1041</id>
+      <timestamp>2011-10-28T13:40:43Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=CLIO-Cy3.5 no. 2
+|Has Identifier=40
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=CLIO-Cy35
+|Has NM Type=MetalOxide
+|Has Size=31
+|Has Size Units=nm
+|Has Zeta potential=3.24
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP10]]</text>
+    </revision>
+    <revision>
+      <id>1042</id>
+      <timestamp>2011-10-28T13:40:59Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=CLIO-Cy3.5 no. 2
+|Has Identifier=40
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=CLIO-CY35
 |Has NM Type=MetalOxide
 |Has Size=31
 |Has Size Units=nm
@@ -21985,6 +22553,29 @@ predominant) independently of their surface modiﬁers&quot;
 
 [[Has alternative Identifier::NP11]]</text>
     </revision>
+    <revision>
+      <id>1045</id>
+      <timestamp>2011-10-28T13:44:23Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=CLIO- Cy5.5-Protamine no. 3
+|Has Identifier=41
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=CLIO-FITC-Protamine
+|Has NM Type=MetalOxide
+|Has Size=31
+|Has Size Units=nm
+|Has Zeta potential=-9.46
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP11]]</text>
+    </revision>
   </page>
   <page>
     <title>Shaw51 12</title>
@@ -22024,6 +22615,29 @@ predominant) independently of their surface modiﬁers&quot;
 |Has Identifier=42
 |Has Chemical Composition=Fe3O4
 |Has Chemical Coating=&amp;1.&amp;2.&amp;3 1=&quot;cross-linked dextran&quot; 2=&quot;Cy5.5&quot; 3=&quot;tat&quot;
+|Has NM Type=MetalOxide
+|Has Size=31
+|Has Size Units=nm
+|Has Zeta potential=3.64
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP12]]</text>
+    </revision>
+    <revision>
+      <id>1048</id>
+      <timestamp>2011-10-28T14:03:01Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=CLIO-Cy5.5-tat no. 3
+|Has Identifier=42
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=CLIO-CY35-Tat
 |Has NM Type=MetalOxide
 |Has Size=31
 |Has Size Units=nm
@@ -22081,6 +22695,27 @@ predominant) independently of their surface modiﬁers&quot;
 
 [[Has alternative Identifier::NP13]]</text>
     </revision>
+    <revision>
+      <id>1051</id>
+      <timestamp>2011-10-28T14:07:06Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=CLIO-Cy5.5-X no. 1
+|Has Identifier=43
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=CLIO-CY55
+|Has NM Type=MetalOxide
+|Has Zeta potential=3.09
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP13]]</text>
+    </revision>
   </page>
   <page>
     <title>Shaw51 14</title>
@@ -22120,6 +22755,29 @@ predominant) independently of their surface modiﬁers&quot;
 |Has Identifier=44
 |Has Chemical Composition=Fe3O4
 |Has Chemical Coating=&amp;1.&amp;2 1=&quot;cross-linked dextran&quot; 2=&quot;Cy5&quot;
+|Has NM Type=MetalOxide
+|Has Size=28
+|Has Size Units=nm
+|Has Zeta potential=2.34
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP14]]</text>
+    </revision>
+    <revision>
+      <id>1054</id>
+      <timestamp>2011-10-28T14:08:00Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=CLIO-Cy5 no. 2
+|Has Identifier=44
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=CLIO-CY5
 |Has NM Type=MetalOxide
 |Has Size=28
 |Has Size Units=nm
@@ -22181,6 +22839,29 @@ predominant) independently of their surface modiﬁers&quot;
 
 [[Has alternative Identifier::NP15]]</text>
     </revision>
+    <revision>
+      <id>1057</id>
+      <timestamp>2011-10-28T14:08:41Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=CLIO-Cy7 no. 2
+|Has Identifier=45
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=CLIO-CY7
+|Has NM Type=MetalOxide
+|Has Size=24
+|Has Size Units=nm
+|Has Zeta potential=-11.7
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP15]]</text>
+    </revision>
   </page>
   <page>
     <title>Shaw51 16</title>
@@ -22220,6 +22901,29 @@ predominant) independently of their surface modiﬁers&quot;
 |Has Identifier=46
 |Has Chemical Composition=Fe3O4
 |Has Chemical Coating=&amp;1.&amp;2 1=&quot;cross-linked dextran&quot; 2=&quot;FITC&quot;
+|Has NM Type=MetalOxide
+|Has Size=37
+|Has Size Units=nm
+|Has Zeta potential=0.766
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP16]]</text>
+    </revision>
+    <revision>
+      <id>1058</id>
+      <timestamp>2011-10-28T15:11:01Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=CLIO-FITC no. 4
+|Has Identifier=46
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=CLIO-FITC
 |Has NM Type=MetalOxide
 |Has Size=37
 |Has Size Units=nm
@@ -22281,6 +22985,29 @@ predominant) independently of their surface modiﬁers&quot;
 
 [[Has alternative Identifier::NP17]]</text>
     </revision>
+    <revision>
+      <id>1063</id>
+      <timestamp>2011-10-28T15:15:01Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=CLIO-GLU-FITC
+|Has Identifier=47
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=CLIO-FITC-GlutamicAcid
+|Has NM Type=MetalOxide
+|Has Size=38
+|Has Size Units=nm
+|Has Zeta potential=-20.7
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP17]]</text>
+    </revision>
   </page>
   <page>
     <title>Shaw51 18</title>
@@ -22331,6 +23058,29 @@ predominant) independently of their surface modiﬁers&quot;
 
 [[Has alternative Identifier::NP18]]</text>
     </revision>
+    <revision>
+      <id>1066</id>
+      <timestamp>2011-10-28T15:31:55Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=CLIO-GLY
+|Has Identifier=48
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=CLIO-Glycine
+|Has NM Type=MetalOxide
+|Has Size=38
+|Has Size Units=nm
+|Has Zeta potential=-9.08
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP18]]</text>
+    </revision>
   </page>
   <page>
     <title>Shaw51 19</title>
@@ -22370,6 +23120,29 @@ predominant) independently of their surface modiﬁers&quot;
 |Has Identifier=49
 |Has Chemical Composition=Fe3O4
 |Has Chemical Coating=&amp;1.&amp;2.&amp;3 1=&quot;cross-linked dextran&quot; 2=&quot;rhodamine&quot; 3=&quot;protamine&quot;
+|Has NM Type=MetalOxide
+|Has Size=31
+|Has Size Units=nm
+|Has Zeta potential=-3.61
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP19]]</text>
+    </revision>
+    <revision>
+      <id>1069</id>
+      <timestamp>2011-10-28T15:39:47Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=CLIO-Rhodamine-Protamine no. 1
+|Has Identifier=49
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=CLIO-Rhodamine-Protamine
 |Has NM Type=MetalOxide
 |Has Size=31
 |Has Size Units=nm
@@ -22453,6 +23226,29 @@ predominant) independently of their surface modiﬁers&quot;
 
 [[Has alternative Identifier::NP20]]</text>
     </revision>
+    <revision>
+      <id>1075</id>
+      <timestamp>2011-10-28T16:06:28Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=CLIO-SIA-FITC
+|Has Identifier=50
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=CLIO-FTIC-SI
+|Has NM Type=MetalOxide
+|Has Size=38
+|Has Size Units=nm
+|Has Zeta potential=-9.34
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP20]]</text>
+    </revision>
   </page>
   <page>
     <title>Shaw51 21</title>
@@ -22492,6 +23288,29 @@ predominant) independently of their surface modiﬁers&quot;
 |Has Identifier=51
 |Has Chemical Composition=Fe3O4
 |Has Chemical Coating=&amp;1.&amp;2 1=&quot;cross-linked dextran&quot; 2=&quot;tat peptide&quot;
+|Has NM Type=MetalOxide
+|Has Size=28
+|Has Size Units=nm
+|Has Zeta potential=-9.23
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP21]]</text>
+    </revision>
+    <revision>
+      <id>1078</id>
+      <timestamp>2011-10-29T11:10:25Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=CLIO-tat no. 26
+|Has Identifier=51
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=CLIO-TatPeptide
 |Has NM Type=MetalOxide
 |Has Size=28
 |Has Size Units=nm
@@ -22553,6 +23372,29 @@ predominant) independently of their surface modiﬁers&quot;
 
 [[Has alternative Identifier::NP22]]</text>
     </revision>
+    <revision>
+      <id>1081</id>
+      <timestamp>2011-10-29T11:12:40Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=CLIO-VT680 no. 7
+|Has Identifier=52
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=CLIO-VT680
+|Has NM Type=MetalOxide
+|Has Size=36
+|Has Size Units=nm
+|Has Zeta potential=-21.9
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP22]]</text>
+    </revision>
   </page>
   <page>
     <title>Shaw51 23</title>
@@ -22592,6 +23434,29 @@ predominant) independently of their surface modiﬁers&quot;
 |Has Identifier=53
 |Has Chemical Composition=Fe3O4
 |Has Chemical Coating=&amp;1.&amp;2.&amp;3 1=&quot;cross-linked dextran&quot; 2=&quot;VT680&quot; 3=&quot;protamine&quot;
+|Has NM Type=MetalOxide
+|Has Size=31
+|Has Size Units=nm
+|Has Zeta potential=-6.11
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP23]]</text>
+    </revision>
+    <revision>
+      <id>1083</id>
+      <timestamp>2011-10-29T11:29:48Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=CLIO-VT680-protamine no. 2
+|Has Identifier=53
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=CLIO-VT680-Protamine
 |Has NM Type=MetalOxide
 |Has Size=31
 |Has Size Units=nm
@@ -22649,6 +23514,27 @@ predominant) independently of their surface modiﬁers&quot;
 
 [[Has alternative Identifier::NP24]]</text>
     </revision>
+    <revision>
+      <id>1086</id>
+      <timestamp>2011-10-29T11:34:53Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=Feridex IV
+|Has Identifier=54
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=DextranCoating
+|Has NM Type=MetalOxide
+|Has Zeta potential=-18.4
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP24]]</text>
+    </revision>
   </page>
   <page>
     <title>Shaw51 25</title>
@@ -22686,6 +23572,27 @@ predominant) independently of their surface modiﬁers&quot;
 |Has Identifier=55
 |Has Chemical Composition=Fe
 |Has Chemical Coating=&amp;1 1=&quot;sucrose&quot;
+|Has NM Type=Metal
+|Has Zeta potential=-0.877
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP25]]</text>
+    </revision>
+    <revision>
+      <id>1089</id>
+      <timestamp>2011-10-29T11:36:22Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=Ferrum Hausmann
+|Has Identifier=55
+|Has Chemical Composition=Fe
+|Has Chemical Coating=SucroseCoating
 |Has NM Type=Metal
 |Has Zeta potential=-0.877
 }}
@@ -22735,6 +23642,30 @@ predominant) independently of their surface modiﬁers&quot;
 |Has Identifier=56
 |Has Chemical Composition=Fe3O4
 |Has Chemical Coating=&amp;1.COOH 1=&quot;PVA&quot;
+|Has NM Type=MetalOxide
+|Has Size Min=20
+|Has Size Max=60
+|Has Size Units=nm
+|Has Zeta potential=-12.0
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP26]]</text>
+    </revision>
+    <revision>
+      <id>1092</id>
+      <timestamp>2011-10-29T11:44:58Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=PNP02
+|Has Identifier=56
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=PVA-COOH
 |Has NM Type=MetalOxide
 |Has Size Min=20
 |Has Size Max=60
@@ -22799,6 +23730,30 @@ predominant) independently of their surface modiﬁers&quot;
 
 [[Has alternative Identifier::NP27]]</text>
     </revision>
+    <revision>
+      <id>1097</id>
+      <timestamp>2011-10-29T11:48:42Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=PNP03
+|Has Identifier=57
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=ED-PVA
+|Has NM Type=MetalOxide
+|Has Size Min=20
+|Has Size Max=60
+|Has Size Units=nm
+|Has Zeta potential=-3.77
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP27]]</text>
+    </revision>
   </page>
   <page>
     <title>Shaw51 28</title>
@@ -22851,6 +23806,30 @@ predominant) independently of their surface modiﬁers&quot;
 
 [[Has alternative Identifier::NP28]]</text>
     </revision>
+    <revision>
+      <id>1103</id>
+      <timestamp>2011-10-29T12:13:59Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=PNP04
+|Has Identifier=58
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=PVA-ED-VT680
+|Has NM Type=MetalOxide
+|Has Size Min=20
+|Has Size Max=60
+|Has Size Units=nm
+|Has Zeta potential=-7.57
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP28]]</text>
+    </revision>
   </page>
   <page>
     <title>Shaw51 29</title>
@@ -22891,6 +23870,30 @@ predominant) independently of their surface modiﬁers&quot;
 |Has Identifier=59
 |Has Chemical Composition=Fe3O4
 |Has Chemical Coating=&amp;1.&amp;2.&amp;3 1=&quot;PVA&quot; 2=&quot;rhodamine&quot; 3=&quot;protamine&quot;
+|Has NM Type=MetalOxide
+|Has Size Min=20
+|Has Size Max=60
+|Has Size Units=nm
+|Has Zeta potential=0.25
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP29]]</text>
+    </revision>
+    <revision>
+      <id>1105</id>
+      <timestamp>2011-10-29T12:14:38Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=PNP10
+|Has Identifier=59
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=PVA-Rhodamine-Protamine
 |Has NM Type=MetalOxide
 |Has Size Min=20
 |Has Size Max=60
@@ -23005,6 +24008,29 @@ predominant) independently of their surface modiﬁers&quot;
 
 [[Has alternative Identifier::NP31]]</text>
     </revision>
+    <revision>
+      <id>1110</id>
+      <timestamp>2011-10-29T12:18:45Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=PNP22
+|Has Identifier=61
+|Has Chemical Composition=Fe2O3
+|Has Chemical Coating=COOH-PVA
+|Has NM Type=MetalOxide
+|Has Size=20
+|Has Size Units=nm
+|Has Zeta potential=-12.3
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP31]]</text>
+    </revision>
   </page>
   <page>
     <title>Shaw51 32</title>
@@ -23044,6 +24070,29 @@ predominant) independently of their surface modiﬁers&quot;
 |Has Identifier=62
 |Has Chemical Composition=Fe2O3
 |Has Chemical Coating=&amp;1.&amp;2 1=&quot;PVA&quot; 2=&quot;ethylene diamine&quot;
+|Has NM Type=MetalOxide
+|Has Size=20
+|Has Size Units=nm
+|Has Zeta potential=-4.22
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP32]]</text>
+    </revision>
+    <revision>
+      <id>1112</id>
+      <timestamp>2011-10-29T12:19:27Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=PNP23
+|Has Identifier=62
+|Has Chemical Composition=Fe2O3
+|Has Chemical Coating=PVA-ED
 |Has NM Type=MetalOxide
 |Has Size=20
 |Has Size Units=nm
@@ -23101,6 +24150,27 @@ predominant) independently of their surface modiﬁers&quot;
 
 [[Has alternative Identifier::NP33]]</text>
     </revision>
+    <revision>
+      <id>1115</id>
+      <timestamp>2011-10-29T12:21:00Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=PNP24
+|Has Identifier=63
+|Has Chemical Composition=Fe2O3
+|Has Chemical Coating=PVA-AminoSPARK680
+|Has NM Type=MetalOxide
+|Has Zeta potential=-7.15
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP33]]</text>
+    </revision>
   </page>
   <page>
     <title>Shaw51 34</title>
@@ -23140,6 +24210,29 @@ predominant) independently of their surface modiﬁers&quot;
 |Has Identifier=64
 |Has Chemical Composition=Fe2O3
 |Has Chemical Coating=&amp;1.&amp;2.&amp;3.&amp;4 1=&quot;PVA&quot; 2=&quot;PEG&quot; 3=&quot;ethylene diamine&quot; 4=&quot;AminoSPARK680&quot;
+|Has NM Type=MetalOxide
+|Has Size=20
+|Has Size Units=nm
+|Has Zeta potential=-4.30
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP34]]</text>
+    </revision>
+    <revision>
+      <id>1118</id>
+      <timestamp>2011-10-29T12:22:43Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=PNP26
+|Has Identifier=64
+|Has Chemical Composition=Fe2O3
+|Has Chemical Coating=PVA-PEG-ED-AminoSPARK680
 |Has NM Type=MetalOxide
 |Has Size=20
 |Has Size Units=nm
@@ -23201,6 +24294,29 @@ predominant) independently of their surface modiﬁers&quot;
 
 [[Has alternative Identifier::NP35]]</text>
     </revision>
+    <revision>
+      <id>1122</id>
+      <timestamp>2011-10-29T12:25:34Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=PNP27
+|Has Identifier=65
+|Has Chemical Composition=Fe2O3
+|Has Chemical Coating=PVA-ED-SuccAminoSPARK680
+|Has NM Type=MetalOxide
+|Has Size=20
+|Has Size Units=nm
+|Has Zeta potential=-12.1
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP35]]</text>
+    </revision>
   </page>
   <page>
     <title>Shaw51 36</title>
@@ -23240,6 +24356,29 @@ predominant) independently of their surface modiﬁers&quot;
 |Has Identifier=62
 |Has Chemical Composition=Fe2O3
 |Has Chemical Coating=&amp;1.&amp;2.&amp;3 1=&quot;PVA&quot; 2=&quot;PEG&quot; 3=&quot;AngioSPARK680-IVM&quot;
+|Has NM Type=MetalOxide
+|Has Size=20
+|Has Size Units=nm
+|Has Zeta potential=-15.6
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP36]]</text>
+    </revision>
+    <revision>
+      <id>1125</id>
+      <timestamp>2011-10-29T12:26:39Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=PNP28
+|Has Identifier=62
+|Has Chemical Composition=Fe2O3
+|Has Chemical Coating=PVA-PEG-AminoSPARK680IVM
 |Has NM Type=MetalOxide
 |Has Size=20
 |Has Size Units=nm
@@ -23301,6 +24440,29 @@ predominant) independently of their surface modiﬁers&quot;
 
 [[Has alternative Identifier::NP37]]</text>
     </revision>
+    <revision>
+      <id>1128</id>
+      <timestamp>2011-10-29T12:27:58Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=PNP29
+|Has Identifier=67
+|Has Chemical Composition=Fe2O3
+|Has Chemical Coating=PVA-15merPeptide
+|Has NM Type=MetalOxide
+|Has Size=20
+|Has Size Units=nm
+|Has Zeta potential=-16.1
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP37]]</text>
+    </revision>
   </page>
   <page>
     <title>Shaw51 38</title>
@@ -23340,6 +24502,29 @@ predominant) independently of their surface modiﬁers&quot;
 |Has Identifier=68
 |Has Chemical Composition=Fe2O3
 |Has Chemical Coating=&amp;1.&amp;2.&amp;3 1=&quot;PVA&quot; 2=&quot;Protamine&quot; 3=&quot;rhodamine&quot;
+|Has NM Type=MetalOxide
+|Has Size=20
+|Has Size Units=nm
+|Has Zeta potential=-4.70
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP38]]</text>
+    </revision>
+    <revision>
+      <id>1130</id>
+      <timestamp>2011-10-29T12:29:14Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=PNP30
+|Has Identifier=68
+|Has Chemical Composition=Fe2O3
+|Has Chemical Coating=PVA-Protamine-Rhodamine
 |Has NM Type=MetalOxide
 |Has Size=20
 |Has Size Units=nm
@@ -23401,6 +24586,29 @@ predominant) independently of their surface modiﬁers&quot;
 
 [[Has alternative Identifier::NP39]]</text>
     </revision>
+    <revision>
+      <id>1134</id>
+      <timestamp>2011-10-29T12:30:50Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=PNP31
+|Has Identifier=69
+|Has Chemical Composition=Fe2O3
+|Has Chemical Coating=PVA-Arg7COOH
+|Has NM Type=MetalOxide
+|Has Size=20
+|Has Size Units=nm
+|Has Zeta potential=-6.47
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP39]]</text>
+    </revision>
   </page>
   <page>
     <title>Shaw51 40</title>
@@ -23440,6 +24648,29 @@ predominant) independently of their surface modiﬁers&quot;
 |Has Identifier=70
 |Has Chemical Composition=Fe2O3
 |Has Chemical Coating=&amp;1.&amp;2.&amp;3 1=&quot;PVA&quot; 2=&quot;ethylene diamine&quot; 3=&quot;VT750&quot;
+|Has NM Type=MetalOxide
+|Has Size=20
+|Has Size Units=nm
+|Has Zeta potential=-6.54
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP40]]</text>
+    </revision>
+    <revision>
+      <id>1137</id>
+      <timestamp>2011-10-29T12:33:07Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=PNP34
+|Has Identifier=70
+|Has Chemical Composition=Fe2O3
+|Has Chemical Coating=PVA-ED-VT750
 |Has NM Type=MetalOxide
 |Has Size=20
 |Has Size Units=nm
@@ -23501,6 +24732,29 @@ predominant) independently of their surface modiﬁers&quot;
 
 [[Has alternative Identifier::NP41]]</text>
     </revision>
+    <revision>
+      <id>1139</id>
+      <timestamp>2011-10-29T12:33:49Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=PNP38
+|Has Identifier=71
+|Has Chemical Composition=Fe2O3
+|Has Chemical Coating=PVA-PEG-ED-VT750
+|Has NM Type=MetalOxide
+|Has Size=20
+|Has Size Units=nm
+|Has Zeta potential=-10.8
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP41]]</text>
+    </revision>
   </page>
   <page>
     <title>Shaw51 42</title>
@@ -23540,6 +24794,29 @@ predominant) independently of their surface modiﬁers&quot;
 |Has Identifier=72
 |Has Chemical Composition=Fe2O3
 |Has Chemical Coating=&amp;1.&amp;2 1=&quot;PVA&quot; 2=&quot;D-arg7-COOH&quot;
+|Has NM Type=MetalOxide
+|Has Size=20
+|Has Size Units=nm
+|Has Zeta potential=-7.70
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP42]]</text>
+    </revision>
+    <revision>
+      <id>1142</id>
+      <timestamp>2011-10-29T12:35:31Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=PNP51
+|Has Identifier=72
+|Has Chemical Composition=Fe2O3
+|Has Chemical Coating=PVA-DArg7COOH
 |Has NM Type=MetalOxide
 |Has Size=20
 |Has Size Units=nm
@@ -23601,6 +24878,29 @@ predominant) independently of their surface modiﬁers&quot;
 
 [[Has alternative Identifier::NP43]]</text>
     </revision>
+    <revision>
+      <id>1143</id>
+      <timestamp>2011-10-29T12:35:48Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=PNP54
+|Has Identifier=73
+|Has Chemical Composition=Fe2O3
+|Has Chemical Coating=PVA-ED-AminoSPARK680
+|Has NM Type=MetalOxide
+|Has Size=20
+|Has Size Units=nm
+|Has Zeta potential=-6.75
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP43]]</text>
+    </revision>
   </page>
   <page>
     <title>Shaw51 44</title>
@@ -23639,6 +24939,28 @@ predominant) independently of their surface modiﬁers&quot;
 |Has Identifier=74
 |Has Chemical Composition=Fe2O3
 |Has Chemical Coating=&amp;1.&amp;2 1=&quot;PVA&quot; 2=&quot;PEG&quot;
+|Has NM Type=MetalOxide
+|Has Size=20
+|Has Size Units=nm
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP44]]</text>
+    </revision>
+    <revision>
+      <id>1145</id>
+      <timestamp>2011-10-29T12:37:51Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=PNP55
+|Has Identifier=74
+|Has Chemical Composition=Fe2O3
+|Has Chemical Coating=PVA-PEG
 |Has NM Type=MetalOxide
 |Has Size=20
 |Has Size Units=nm
@@ -23721,6 +25043,29 @@ predominant) independently of their surface modiﬁers&quot;
 
 [[Has alternative Identifier::NP45]]</text>
     </revision>
+    <revision>
+      <id>1148</id>
+      <timestamp>2011-10-29T12:38:57Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=MION-47 no. 35
+|Has Identifier=75
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=DextranCoating
+|Has NM Type=MetalOxide
+|Has Size=20
+|Has Size Units=nm
+|Has Zeta potential=-13.6
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP45]]</text>
+    </revision>
   </page>
   <page>
     <title>Shaw51 46</title>
@@ -23760,6 +25105,29 @@ predominant) independently of their surface modiﬁers&quot;
 |Has Identifier=76
 |Has Chemical Composition=Fe3O4
 |Has Chemical Coating=&amp;1 1=&quot;Arabino-galactan&quot;
+|Has NM Type=MetalOxide
+|Has Size=33
+|Has Size Units=nm
+|Has Zeta potential=-14.5
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP46]]</text>
+    </revision>
+    <revision>
+      <id>1151</id>
+      <timestamp>2011-10-29T12:39:56Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=MION-48 no. 24
+|Has Identifier=76
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=ArabinoGalactanCoating
 |Has NM Type=MetalOxide
 |Has Size=33
 |Has Size Units=nm
@@ -23865,6 +25233,29 @@ predominant) independently of their surface modiﬁers&quot;
 
 [[Has alternative Identifier::NP47]]</text>
     </revision>
+    <revision>
+      <id>1152</id>
+      <timestamp>2011-10-29T12:40:34Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=MION-AG no. 1
+|Has Identifier=77
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=ArabinoGalactanCoating
+|Has NM Type=MetalOxide
+|Has Size=28
+|Has Size Units=nm
+|Has Zeta potential=-9.23
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP47]]</text>
+    </revision>
   </page>
   <page>
     <title>Shaw51 48</title>
@@ -23926,6 +25317,29 @@ predominant) independently of their surface modiﬁers&quot;
 |Has Identifier=78
 |Has Chemical Composition=Fe3O4
 |Has Chemical Coating=&amp;1 1=&quot;carboxymethyl-dextran&quot;
+|Has NM Type=MetalOxide
+|Has Size=25
+|Has Size Units=nm
+|Has Zeta potential=-37.00
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP48]]</text>
+    </revision>
+    <revision>
+      <id>1155</id>
+      <timestamp>2011-10-29T12:42:00Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=MION-CM no. 1
+|Has Identifier=78
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=Carboxymethyl Dextran
 |Has NM Type=MetalOxide
 |Has Size=25
 |Has Size Units=nm
@@ -24023,6 +25437,27 @@ predominant) independently of their surface modiﬁers&quot;
 
 [[Has alternative Identifier::NP49]]</text>
     </revision>
+    <revision>
+      <id>1158</id>
+      <timestamp>2011-10-29T12:44:04Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=Qdot-NH2-PEG
+|Has Identifier=79
+|Has Chemical Composition=CdSe
+|Has Chemical Coating=AmphPolymer-PEG
+|Has NM Type=Alloy
+|Has Zeta potential=-11.3
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP49]]</text>
+    </revision>
   </page>
   <page>
     <title>Shaw51 50</title>
@@ -24080,6 +25515,27 @@ predominant) independently of their surface modiﬁers&quot;
 |Has Identifier=80
 |Has Chemical Composition=CdSe
 |Has Chemical Coating=&amp;1.COOH 1=&quot;Amphiphilic polymer&quot;
+|Has NM Type=Alloy
+|Has Zeta potential=-16.8
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP50]]</text>
+    </revision>
+    <revision>
+      <id>1160</id>
+      <timestamp>2011-10-29T12:44:45Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=Qdot-carboxyl
+|Has Identifier=80
+|Has Chemical Composition=CdSe
+|Has Chemical Coating=COOH-AmphPolymer
 |Has NM Type=Alloy
 |Has Zeta potential=-16.8
 }}
@@ -24166,6 +25622,27 @@ predominant) independently of their surface modiﬁers&quot;
 |Has Identifier=81
 |Has Chemical Composition=CdSe
 |Has Chemical Coating=&amp;1.COOH 1=&quot;Amphiphilic polymer&quot;
+|Has NM Type=Alloy
+|Has Zeta potential=-16.8
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP51]]</text>
+    </revision>
+    <revision>
+      <id>1161</id>
+      <timestamp>2011-10-29T12:44:55Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=Qdot-carboxyl (repeat)
+|Has Identifier=81
+|Has Chemical Composition=CdSe
+|Has Chemical Coating=COOH-AmphPolymer
 |Has NM Type=Alloy
 |Has Zeta potential=-16.8
 }}
@@ -26383,6 +27860,1975 @@ Particles of size down to 35 nm have been observed in clusters.
 |Has Dose Units=μg/cm²
 |Has Endpoint=DNA Damage
 }}</text>
+    </revision>
+  </page>
+  <page>
+    <title>CLIO-FITC-COOH</title>
+    <id>338</id>
+    <revision>
+      <id>984</id>
+      <timestamp>2011-10-28T10:16:41Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Coating}}  {{#set:|Has Chemical=cross-linked dextran}} {{#set:|Has Chemical=FITC}} {{#set:|Has Chemical=COOH}}&quot;</comment>
+      <text xml:space="preserve">{{Coating}}
+
+{{#set:|Has Chemical=cross-linked dextran}}
+{{#set:|Has Chemical=FITC}}
+{{#set:|Has Chemical=COOH}}</text>
+    </revision>
+    <revision>
+      <id>1008</id>
+      <timestamp>2011-10-28T11:53:33Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <comment>moved [[Shaw51 01 C]] to [[CLIO-FITC-COOH]]:&amp;#32;The name reflects the coating, not the origin.</comment>
+      <text xml:space="preserve">{{Coating}}
+
+{{#set:|Has Chemical=cross-linked dextran}}
+{{#set:|Has Chemical=FITC}}
+{{#set:|Has Chemical=COOH}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Coating</title>
+    <id>339</id>
+    <revision>
+      <id>985</id>
+      <timestamp>2011-10-28T10:18:03Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;&lt;noinclude&gt; &lt;pre&gt; {{Coating }} &lt;/pre&gt; &lt;/noinclude&gt;&lt;includeonly&gt; {| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear…&quot;</comment>
+      <text xml:space="preserve">&lt;noinclude&gt;
+&lt;pre&gt;
+{{Coating
+}}
+&lt;/pre&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: right; table-layout:fixed; word-wrap: break-word;&quot;
+! colspan=2 style=&quot;text-align: center; font-size: 125%&quot; | {{{Name|{{PAGENAME}} }}}
+|-
+|}
+&lt;br&gt;
+[[Category:Coatings]]__NOEDITSECTION____NOTOC__
+&lt;/includeonly&gt;</text>
+    </revision>
+    <revision>
+      <id>987</id>
+      <timestamp>2011-10-28T10:38:00Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">&lt;noinclude&gt;
+&lt;pre&gt;
+{{Coating
+}}
+&lt;/pre&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: right; table-layout:fixed; word-wrap: break-word;&quot;
+! colspan=2 style=&quot;text-align: center; font-size: 125%&quot; | {{{Name|{{PAGENAME}} }}}
+|-
+|}
+&lt;br&gt;
+= Components =
+{{#ask: [[Category:CoatingParts]] [[Part of::{{PAGENAME}}]]
+| sort=Has Relation, Has End point
+}}
+[[Category:Coatings]]__NOEDITSECTION____NOTOC__
+&lt;/includeonly&gt;</text>
+    </revision>
+    <revision>
+      <id>992</id>
+      <timestamp>2011-10-28T10:54:09Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">&lt;noinclude&gt;
+&lt;pre&gt;
+{{Coating
+}}
+&lt;/pre&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: right; table-layout:fixed; word-wrap: break-word;&quot;
+! colspan=2 style=&quot;text-align: center; font-size: 125%&quot; | {{{Name|{{PAGENAME}} }}}
+|-
+|}
+&lt;br&gt;
+= Components =
+{{#ask: [[Category:CoatingParts]] [[Part of::{{PAGENAME}}]]
+| Has SMILES
+}}
+[[Category:Coatings]]__NOEDITSECTION____NOTOC__
+&lt;/includeonly&gt;</text>
+    </revision>
+    <revision>
+      <id>995</id>
+      <timestamp>2011-10-28T10:54:43Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">&lt;noinclude&gt;
+&lt;pre&gt;
+{{Coating
+}}
+&lt;/pre&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: right; table-layout:fixed; word-wrap: break-word;&quot;
+! colspan=2 style=&quot;text-align: center; font-size: 125%&quot; | {{{Name|{{PAGENAME}} }}}
+|-
+|}
+&lt;br&gt;
+= Components =
+{{#ask: [[Category:CoatingParts]] [[Part of::{{PAGENAME}}]]
+| ? Has SMILES
+}}
+[[Category:Coatings]]__NOEDITSECTION____NOTOC__
+&lt;/includeonly&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:CoatingPart</title>
+    <id>340</id>
+    <revision>
+      <id>986</id>
+      <timestamp>2011-10-28T10:36:07Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;&lt;noinclude&gt; &lt;pre&gt; {{CoatingPart }} &lt;/pre&gt; &lt;/noinclude&gt;&lt;includeonly&gt; {| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; c…&quot;</comment>
+      <text xml:space="preserve">&lt;noinclude&gt;
+&lt;pre&gt;
+{{CoatingPart
+}}
+&lt;/pre&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: right; table-layout:fixed; word-wrap: break-word;&quot;
+! colspan=2 style=&quot;text-align: center; font-size: 125%&quot; | {{{Name|{{PAGENAME}} }}}
+|-
+|}
+&lt;br&gt;
+[[Category:CoatingParts]]__NOEDITSECTION____NOTOC__
+&lt;/includeonly&gt;</text>
+    </revision>
+    <revision>
+      <id>988</id>
+      <timestamp>2011-10-28T10:47:28Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">&lt;noinclude&gt;
+&lt;pre&gt;
+{{CoatingPart
+|SMILES=
+}}
+&lt;/pre&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: right; table-layout:fixed; word-wrap: break-word;&quot;
+! colspan=2 style=&quot;text-align: center; font-size: 125%&quot; | {{{Name|{{PAGENAME}} }}}
+|-
+{{#if:{{{Has SMILES|}}}|
+{{!}}-
+{{!}} SMILES
+{{!}} {{{Has SMILES}}} 
+}}
+|}
+&lt;br&gt;
+{{#if:{{{Has SMILES|}}} |
+{{#set:
+|Has SMILES={{{Has SMILES|}}}
+}}
+| }}
+[[Category:CoatingParts]]__NOEDITSECTION____NOTOC__
+&lt;/includeonly&gt;</text>
+    </revision>
+    <revision>
+      <id>990</id>
+      <timestamp>2011-10-28T10:53:41Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">&lt;noinclude&gt;
+&lt;pre&gt;
+{{CoatingPart
+|SMILES=
+}}
+&lt;/pre&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: right; table-layout:fixed; word-wrap: break-word;&quot;
+! colspan=2 style=&quot;text-align: center; font-size: 125%&quot; | {{{Name|{{PAGENAME}} }}}
+|-
+{{#if:{{{Has SMILES|}}}|
+{{!}}-
+{{!}} SMILES
+{{!}} {{{Has SMILES}}} 
+}}
+|}
+&lt;br&gt;
+{{#if:{{{Has SMILES|}}} |
+{{#set:
+|Has SMILES={{{Has SMILES|}}}
+}}
+| }}
+[[Category:Coating_Parts]]__NOEDITSECTION____NOTOC__
+&lt;/includeonly&gt;</text>
+    </revision>
+    <revision>
+      <id>998</id>
+      <timestamp>2011-10-28T11:01:38Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">&lt;noinclude&gt;
+&lt;pre&gt;
+{{CoatingPart
+|SMILES=
+}}
+&lt;/pre&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: right; table-layout:fixed; word-wrap: break-word;&quot;
+! colspan=2 style=&quot;text-align: center; font-size: 125%&quot; | {{{Name|{{PAGENAME}} }}}
+|-
+{{#if:{{{SMILES|}}}|
+{{!}}-
+{{!}} SMILES
+{{!}} {{{SMILES}}} 
+}}
+|}
+&lt;br&gt;
+{{#if:{{{SMILES|}}} |
+{{#set:
+|Has SMILES={{{SMILES|}}}
+}}
+| }}
+[[Category:Coating_Parts]]__NOEDITSECTION____NOTOC__
+&lt;/includeonly&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>COOH</title>
+    <id>341</id>
+    <revision>
+      <id>989</id>
+      <timestamp>2011-10-28T10:53:28Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{CoatingPart |SMILES=COOH }}&quot;</comment>
+      <text xml:space="preserve">{{CoatingPart
+|SMILES=COOH
+}}</text>
+    </revision>
+    <revision>
+      <id>1020</id>
+      <timestamp>2011-10-28T12:25:56Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{CoatingPart
+|SMILES=O=CO[H]
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Category:Coating Parts</title>
+    <id>342</id>
+    <revision>
+      <id>991</id>
+      <timestamp>2011-10-28T10:54:00Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;Coating components.&quot;</comment>
+      <text xml:space="preserve">Coating components.</text>
+    </revision>
+    <revision>
+      <id>993</id>
+      <timestamp>2011-10-28T10:54:16Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">Coating components.
+
+{{#ask: [[Category:CoatingParts]] [[Part of::{{PAGENAME}}]]
+| Has SMILES
+}}</text>
+    </revision>
+    <revision>
+      <id>994</id>
+      <timestamp>2011-10-28T10:54:34Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">Coating components.
+
+{{#ask: [[Category:CoatingParts]] [[Part of::{{PAGENAME}}]]
+| ? Has SMILES
+}}</text>
+    </revision>
+    <revision>
+      <id>996</id>
+      <timestamp>2011-10-28T10:55:00Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">Coating components.
+
+{{#ask: [[Category:Coating_Parts]] [[Part of::{{PAGENAME}}]]
+| ? Has SMILES
+}}</text>
+    </revision>
+    <revision>
+      <id>997</id>
+      <timestamp>2011-10-28T11:01:05Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">Coating components.
+
+{{#ask: [[Category:Coating_Parts]]
+| ? Has SMILES
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Has SMILES</title>
+    <id>343</id>
+    <revision>
+      <id>999</id>
+      <timestamp>2011-10-28T11:02:58Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;This is a property of type [[Has type::String]].&quot;</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::String]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Category:Coatings</title>
+    <id>344</id>
+    <revision>
+      <id>1001</id>
+      <timestamp>2011-10-28T11:04:44Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;Coating components.  {{#ask: [[Category:Coatings]] }}&quot;</comment>
+      <text xml:space="preserve">Coating components.
+
+{{#ask: [[Category:Coatings]] }}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Has Chemical</title>
+    <id>345</id>
+    <revision>
+      <id>1002</id>
+      <timestamp>2011-10-28T11:19:07Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;This is a property of type [[Has type::Page]].&quot;</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Page]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Cross-linked dextran</title>
+    <id>346</id>
+    <revision>
+      <id>1003</id>
+      <timestamp>2011-10-28T11:19:36Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{CoatingPart }}&quot;</comment>
+      <text xml:space="preserve">{{CoatingPart
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>FITC</title>
+    <id>347</id>
+    <revision>
+      <id>1004</id>
+      <timestamp>2011-10-28T11:19:43Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{CoatingPart }}&quot;</comment>
+      <text xml:space="preserve">{{CoatingPart
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Has Chemical Coating</title>
+    <id>348</id>
+    <revision>
+      <id>1006</id>
+      <timestamp>2011-10-28T11:43:44Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;This is a property of type [[Has type::Page]].&quot;</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Page]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 01 C</title>
+    <id>349</id>
+    <revision>
+      <id>1009</id>
+      <timestamp>2011-10-28T11:53:33Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>moved [[Shaw51 01 C]] to [[CLIO-FITC-COOH]]:&amp;#32;The name reflects the coating, not the origin.</comment>
+      <text xml:space="preserve">#REDIRECT [[CLIO-FITC-COOH]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>CLIO-FITC</title>
+    <id>350</id>
+    <revision>
+      <id>1011</id>
+      <timestamp>2011-10-28T11:55:03Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Coating}}  {{#set:|Has Chemical=cross-linked dextran}} {{#set:|Has Chemical=FITC}}&quot;</comment>
+      <text xml:space="preserve">{{Coating}}
+
+{{#set:|Has Chemical=cross-linked dextran}}
+{{#set:|Has Chemical=FITC}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>NH2</title>
+    <id>351</id>
+    <revision>
+      <id>1013</id>
+      <timestamp>2011-10-28T11:56:30Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{CoatingPart |SMILES=NH2 }}&quot;</comment>
+      <text xml:space="preserve">{{CoatingPart
+|SMILES=NH2
+}}</text>
+    </revision>
+    <revision>
+      <id>1021</id>
+      <timestamp>2011-10-28T12:26:08Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{CoatingPart
+|SMILES=HNH
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>CLIO-NH2</title>
+    <id>352</id>
+    <revision>
+      <id>1014</id>
+      <timestamp>2011-10-28T11:57:09Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Coating}}  {{#set:|Has Chemical=cross-linked dextran}} {{#set:|Has Chemical=NH2}}&quot;</comment>
+      <text xml:space="preserve">{{Coating}}
+
+{{#set:|Has Chemical=cross-linked dextran}}
+{{#set:|Has Chemical=NH2}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>AlexaFluor488</title>
+    <id>353</id>
+    <revision>
+      <id>1023</id>
+      <timestamp>2011-10-28T12:44:53Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{CoatingPart }}&quot;</comment>
+      <text xml:space="preserve">{{CoatingPart
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>CLIO-AF488</title>
+    <id>354</id>
+    <revision>
+      <id>1024</id>
+      <timestamp>2011-10-28T12:46:04Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Coating}}  {{#set:|Has Chemical=cross-linked dextran}} {{#set:|Has Chemical=AlexaFluor488}}&quot;</comment>
+      <text xml:space="preserve">{{Coating}}
+
+{{#set:|Has Chemical=cross-linked dextran}}
+{{#set:|Has Chemical=AlexaFluor488}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>AlexaFluor750</title>
+    <id>355</id>
+    <revision>
+      <id>1026</id>
+      <timestamp>2011-10-28T13:05:43Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{CoatingPart }}&quot;</comment>
+      <text xml:space="preserve">{{CoatingPart
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>CLIO-AF750</title>
+    <id>356</id>
+    <revision>
+      <id>1027</id>
+      <timestamp>2011-10-28T13:05:56Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Coating}}  {{#set:|Has Chemical=cross-linked dextran}} {{#set:|Has Chemical=AlexaFluor750}}&quot;</comment>
+      <text xml:space="preserve">{{Coating}}
+
+{{#set:|Has Chemical=cross-linked dextran}}
+{{#set:|Has Chemical=AlexaFluor750}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>CLIO-FITC-RCOOH</title>
+    <id>357</id>
+    <revision>
+      <id>1029</id>
+      <timestamp>2011-10-28T13:14:50Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Coating}}  {{#set:|Has Chemical=cross-linked dextran}} {{#set:|Has Chemical=FITC}} {{#set:|Has Chemical=RCOOH}}&quot;</comment>
+      <text xml:space="preserve">{{Coating}}
+
+{{#set:|Has Chemical=cross-linked dextran}}
+{{#set:|Has Chemical=FITC}}
+{{#set:|Has Chemical=RCOOH}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>RCOOH</title>
+    <id>358</id>
+    <revision>
+      <id>1030</id>
+      <timestamp>2011-10-28T13:15:07Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{CoatingPart |SMILES=O=CO[H] }}&quot;</comment>
+      <text xml:space="preserve">{{CoatingPart
+|SMILES=O=CO[H]
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Biotin</title>
+    <id>359</id>
+    <revision>
+      <id>1032</id>
+      <timestamp>2011-10-28T13:22:02Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{CoatingPart }}&quot;</comment>
+      <text xml:space="preserve">{{CoatingPart
+}}</text>
+    </revision>
+    <revision>
+      <id>1033</id>
+      <timestamp>2011-10-28T13:22:20Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <comment>moved [[BiotinCoating]] to [[Biotin]]</comment>
+      <text xml:space="preserve">{{CoatingPart
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>BiotinCoating</title>
+    <id>360</id>
+    <revision>
+      <id>1034</id>
+      <timestamp>2011-10-28T13:22:20Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>moved [[BiotinCoating]] to [[Biotin]]</comment>
+      <text xml:space="preserve">#REDIRECT [[Biotin]]</text>
+    </revision>
+    <revision>
+      <id>1035</id>
+      <timestamp>2011-10-28T13:22:35Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Coating}}
+
+{{#set:|Has Chemical=cross-linked dextran}}
+{{#set:|Has Chemical=FITC}}
+{{#set:|Has Chemical=RCOOH}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>FITC-COOH</title>
+    <id>361</id>
+    <revision>
+      <id>1037</id>
+      <timestamp>2011-10-28T13:24:25Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Coating}}  {{#set:|Has Chemical=FITC}} {{#set:|Has Chemical=COOH}}&quot;</comment>
+      <text xml:space="preserve">{{Coating}}
+
+{{#set:|Has Chemical=FITC}}
+{{#set:|Has Chemical=COOH}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>CLIO-CY35</title>
+    <id>362</id>
+    <revision>
+      <id>1039</id>
+      <timestamp>2011-10-28T13:38:13Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Coating}}  {{#set:|Has Chemical=cross-linked dextran}} {{#set:|Has Chemical=Cy3.5}}&quot;</comment>
+      <text xml:space="preserve">{{Coating}}
+
+{{#set:|Has Chemical=cross-linked dextran}}
+{{#set:|Has Chemical=Cy3.5}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Cy3.5</title>
+    <id>363</id>
+    <revision>
+      <id>1040</id>
+      <timestamp>2011-10-28T13:38:45Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{CoatingPart }}&quot;</comment>
+      <text xml:space="preserve">{{CoatingPart
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>CLIO-FITC-Protamine</title>
+    <id>364</id>
+    <revision>
+      <id>1043</id>
+      <timestamp>2011-10-28T13:43:52Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Coating}}  {{#set:|Has Chemical=cross-linked dextran}} {{#set:|Has Chemical=FITC}} {{#set:|Has Chemical=Protamine}}&quot;</comment>
+      <text xml:space="preserve">{{Coating}}
+
+{{#set:|Has Chemical=cross-linked dextran}}
+{{#set:|Has Chemical=FITC}}
+{{#set:|Has Chemical=Protamine}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Protamine</title>
+    <id>365</id>
+    <revision>
+      <id>1044</id>
+      <timestamp>2011-10-28T13:44:06Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{CoatingPart }}&quot;</comment>
+      <text xml:space="preserve">{{CoatingPart
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>CLIO-CY35-Tat</title>
+    <id>366</id>
+    <revision>
+      <id>1046</id>
+      <timestamp>2011-10-28T13:46:36Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Coating}}  {{#set:|Has Chemical=cross-linked dextran}} {{#set:|Has Chemical=Cy3.5}} {{#set:|Has Chemical=Tat}}&quot;</comment>
+      <text xml:space="preserve">{{Coating}}
+
+{{#set:|Has Chemical=cross-linked dextran}}
+{{#set:|Has Chemical=Cy3.5}}
+{{#set:|Has Chemical=Tat}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Tat</title>
+    <id>367</id>
+    <revision>
+      <id>1047</id>
+      <timestamp>2011-10-28T13:46:55Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{CoatingPart }}&quot;</comment>
+      <text xml:space="preserve">{{CoatingPart
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Cy5.5</title>
+    <id>368</id>
+    <revision>
+      <id>1049</id>
+      <timestamp>2011-10-28T14:06:15Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{CoatingPart }}&quot;</comment>
+      <text xml:space="preserve">{{CoatingPart
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>CLIO-CY55</title>
+    <id>369</id>
+    <revision>
+      <id>1050</id>
+      <timestamp>2011-10-28T14:06:37Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Coating}}  {{#set:|Has Chemical=cross-linked dextran}} {{#set:|Has Chemical=Cy5.5}}&quot;</comment>
+      <text xml:space="preserve">{{Coating}}
+
+{{#set:|Has Chemical=cross-linked dextran}}
+{{#set:|Has Chemical=Cy5.5}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Cy5</title>
+    <id>370</id>
+    <revision>
+      <id>1052</id>
+      <timestamp>2011-10-28T14:07:27Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{CoatingPart }}&quot;</comment>
+      <text xml:space="preserve">{{CoatingPart
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>CLIO-CY5</title>
+    <id>371</id>
+    <revision>
+      <id>1053</id>
+      <timestamp>2011-10-28T14:07:38Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Coating}}  {{#set:|Has Chemical=cross-linked dextran}} {{#set:|Has Chemical=Cy5}}&quot;</comment>
+      <text xml:space="preserve">{{Coating}}
+
+{{#set:|Has Chemical=cross-linked dextran}}
+{{#set:|Has Chemical=Cy5}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Cy7</title>
+    <id>372</id>
+    <revision>
+      <id>1055</id>
+      <timestamp>2011-10-28T14:08:15Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{CoatingPart }}&quot;</comment>
+      <text xml:space="preserve">{{CoatingPart
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>CLIO-CY7</title>
+    <id>373</id>
+    <revision>
+      <id>1056</id>
+      <timestamp>2011-10-28T14:08:27Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Coating}}  {{#set:|Has Chemical=cross-linked dextran}} {{#set:|Has Chemical=Cy7}}&quot;</comment>
+      <text xml:space="preserve">{{Coating}}
+
+{{#set:|Has Chemical=cross-linked dextran}}
+{{#set:|Has Chemical=Cy7}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Glutamic Acid</title>
+    <id>374</id>
+    <revision>
+      <id>1059</id>
+      <timestamp>2011-10-28T15:12:20Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{CoatingPart |SMILES=C(CC(=O)O)C(C(=O)O)N }}&quot;</comment>
+      <text xml:space="preserve">{{CoatingPart
+|SMILES=C(CC(=O)O)C(C(=O)O)N
+}}</text>
+    </revision>
+    <revision>
+      <id>1060</id>
+      <timestamp>2011-10-28T15:12:28Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <comment>moved [[GlutamicAcid]] to [[Glutamic Acid]]</comment>
+      <text xml:space="preserve">{{CoatingPart
+|SMILES=C(CC(=O)O)C(C(=O)O)N
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>GlutamicAcid</title>
+    <id>375</id>
+    <revision>
+      <id>1061</id>
+      <timestamp>2011-10-28T15:12:28Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>moved [[GlutamicAcid]] to [[Glutamic Acid]]</comment>
+      <text xml:space="preserve">#REDIRECT [[Glutamic Acid]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>CLIO-FITC-GlutamicAcid</title>
+    <id>376</id>
+    <revision>
+      <id>1062</id>
+      <timestamp>2011-10-28T15:14:28Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Coating}}  {{#set:|Has Chemical=cross-linked dextran}} {{#set:|Has Chemical=FITC}} {{#set:|Has Chemical=Glutamic Acid}}&quot;</comment>
+      <text xml:space="preserve">{{Coating}}
+
+{{#set:|Has Chemical=cross-linked dextran}}
+{{#set:|Has Chemical=FITC}}
+{{#set:|Has Chemical=Glutamic Acid}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Glycine</title>
+    <id>377</id>
+    <revision>
+      <id>1064</id>
+      <timestamp>2011-10-28T15:29:48Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{CoatingPart |SMILES=C(C(=O)O)N }}&quot;</comment>
+      <text xml:space="preserve">{{CoatingPart
+|SMILES=C(C(=O)O)N
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>CLIO-Glycine</title>
+    <id>378</id>
+    <revision>
+      <id>1065</id>
+      <timestamp>2011-10-28T15:30:36Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Coating}}  {{#set:|Has Chemical=cross-linked dextran}} {{#set:|Has Chemical=Glycine}}&quot;</comment>
+      <text xml:space="preserve">{{Coating}}
+
+{{#set:|Has Chemical=cross-linked dextran}}
+{{#set:|Has Chemical=Glycine}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Rhodamine</title>
+    <id>379</id>
+    <revision>
+      <id>1067</id>
+      <timestamp>2011-10-28T15:32:26Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{CoatingPart }}&quot;</comment>
+      <text xml:space="preserve">{{CoatingPart
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>CLIO-Rhodamine-Protamine</title>
+    <id>380</id>
+    <revision>
+      <id>1068</id>
+      <timestamp>2011-10-28T15:39:23Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Coating}}  {{#set:|Has Chemical=cross-linked dextran}} {{#set:|Has Chemical=Rhodamine}} {{#set:|Has Chemical=Protamine}}&quot;</comment>
+      <text xml:space="preserve">{{Coating}}
+
+{{#set:|Has Chemical=cross-linked dextran}}
+{{#set:|Has Chemical=Rhodamine}}
+{{#set:|Has Chemical=Protamine}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Succinimidyl Iodoacatate</title>
+    <id>381</id>
+    <revision>
+      <id>1070</id>
+      <timestamp>2011-10-28T15:51:27Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{CoatingPart |SMILES=C1CC(=O)N(C1=O)OC(=O)CI }}&quot;</comment>
+      <text xml:space="preserve">{{CoatingPart
+|SMILES=C1CC(=O)N(C1=O)OC(=O)CI
+}}</text>
+    </revision>
+    <revision>
+      <id>1071</id>
+      <timestamp>2011-10-28T16:04:59Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <comment>moved [[SuccinimidylIodoacatate]] to [[Succinimidyl Iodoacatate]]</comment>
+      <text xml:space="preserve">{{CoatingPart
+|SMILES=C1CC(=O)N(C1=O)OC(=O)CI
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>SuccinimidylIodoacatate</title>
+    <id>382</id>
+    <revision>
+      <id>1072</id>
+      <timestamp>2011-10-28T16:04:59Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>moved [[SuccinimidylIodoacatate]] to [[Succinimidyl Iodoacatate]]</comment>
+      <text xml:space="preserve">#REDIRECT [[Succinimidyl Iodoacatate]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>CLIO-FTIC-SI</title>
+    <id>383</id>
+    <revision>
+      <id>1073</id>
+      <timestamp>2011-10-28T16:05:53Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Coating}}  {{#set:|Has Chemical=cross-linked dextran}} {{#set:|Has Chemical=FTIC}} {{#set:|Has Chemical=Succinimidyl Iodoacatate}}&quot;</comment>
+      <text xml:space="preserve">{{Coating}}
+
+{{#set:|Has Chemical=cross-linked dextran}}
+{{#set:|Has Chemical=FTIC}}
+{{#set:|Has Chemical=Succinimidyl Iodoacatate}}</text>
+    </revision>
+    <revision>
+      <id>1074</id>
+      <timestamp>2011-10-28T16:06:08Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Coating}}
+
+{{#set:|Has Chemical=cross-linked dextran}}
+{{#set:|Has Chemical=FITC}}
+{{#set:|Has Chemical=Succinimidyl Iodoacatate}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Tat Peptide</title>
+    <id>384</id>
+    <revision>
+      <id>1076</id>
+      <timestamp>2011-10-29T11:08:48Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{CoatingPart }}&quot;</comment>
+      <text xml:space="preserve">{{CoatingPart
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>CLIO-TatPeptide</title>
+    <id>385</id>
+    <revision>
+      <id>1077</id>
+      <timestamp>2011-10-29T11:09:17Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Coating}}  {{#set:|Has Chemical=cross-linked dextran}} {{#set:|Has Chemical=Tat Peptide}}&quot;</comment>
+      <text xml:space="preserve">{{Coating}}
+
+{{#set:|Has Chemical=cross-linked dextran}}
+{{#set:|Has Chemical=Tat Peptide}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>VT680</title>
+    <id>386</id>
+    <revision>
+      <id>1079</id>
+      <timestamp>2011-10-29T11:11:40Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{CoatingPart }}&quot;</comment>
+      <text xml:space="preserve">{{CoatingPart
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>CLIO-VT680</title>
+    <id>387</id>
+    <revision>
+      <id>1080</id>
+      <timestamp>2011-10-29T11:11:55Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Coating}}  {{#set:|Has Chemical=cross-linked dextran}} {{#set:|Has Chemical=VT680}}&quot;</comment>
+      <text xml:space="preserve">{{Coating}}
+
+{{#set:|Has Chemical=cross-linked dextran}}
+{{#set:|Has Chemical=VT680}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>CLIO-VT680-Protamine</title>
+    <id>388</id>
+    <revision>
+      <id>1082</id>
+      <timestamp>2011-10-29T11:13:12Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Coating}}  {{#set:|Has Chemical=cross-linked dextran}} {{#set:|Has Chemical=VT680}} {{#set:|Has Chemical=Protamine}}&quot;</comment>
+      <text xml:space="preserve">{{Coating}}
+
+{{#set:|Has Chemical=cross-linked dextran}}
+{{#set:|Has Chemical=VT680}}
+{{#set:|Has Chemical=Protamine}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>DextranCoating</title>
+    <id>389</id>
+    <revision>
+      <id>1084</id>
+      <timestamp>2011-10-29T11:30:26Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Coating}}  {{#set:|Has Chemical=Dextran}}&quot;</comment>
+      <text xml:space="preserve">{{Coating}}
+
+{{#set:|Has Chemical=Dextran}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Dextran</title>
+    <id>390</id>
+    <revision>
+      <id>1085</id>
+      <timestamp>2011-10-29T11:30:36Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{CoatingPart }}&quot;</comment>
+      <text xml:space="preserve">{{CoatingPart
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Sucrose</title>
+    <id>391</id>
+    <revision>
+      <id>1087</id>
+      <timestamp>2011-10-29T11:35:55Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{CoatingPart }}&quot;</comment>
+      <text xml:space="preserve">{{CoatingPart
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>SucroseCoating</title>
+    <id>392</id>
+    <revision>
+      <id>1088</id>
+      <timestamp>2011-10-29T11:36:09Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Coating}}  {{#set:|Has Chemical=Sucrose}}&quot;</comment>
+      <text xml:space="preserve">{{Coating}}
+
+{{#set:|Has Chemical=Sucrose}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>PVA-COOH</title>
+    <id>393</id>
+    <revision>
+      <id>1090</id>
+      <timestamp>2011-10-29T11:44:21Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Coating}}  {{#set:|Has Chemical=PVA}} {{#set:|Has Chemical=COOH}}&quot;</comment>
+      <text xml:space="preserve">{{Coating}}
+
+{{#set:|Has Chemical=PVA}}
+{{#set:|Has Chemical=COOH}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>PVA</title>
+    <id>394</id>
+    <revision>
+      <id>1091</id>
+      <timestamp>2011-10-29T11:44:33Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{CoatingPart }}&quot;</comment>
+      <text xml:space="preserve">{{CoatingPart
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Ethylene Diamine</title>
+    <id>395</id>
+    <revision>
+      <id>1093</id>
+      <timestamp>2011-10-29T11:47:40Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{CoatingPart |SMILES=NCCN }}&quot;</comment>
+      <text xml:space="preserve">{{CoatingPart
+|SMILES=NCCN
+}}</text>
+    </revision>
+    <revision>
+      <id>1094</id>
+      <timestamp>2011-10-29T11:47:49Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <comment>moved [[Ethylene-Diamine]] to [[Ethylene Diamine]]</comment>
+      <text xml:space="preserve">{{CoatingPart
+|SMILES=NCCN
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Ethylene-Diamine</title>
+    <id>396</id>
+    <revision>
+      <id>1095</id>
+      <timestamp>2011-10-29T11:47:49Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>moved [[Ethylene-Diamine]] to [[Ethylene Diamine]]</comment>
+      <text xml:space="preserve">#REDIRECT [[Ethylene Diamine]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>ED-PVA</title>
+    <id>397</id>
+    <revision>
+      <id>1096</id>
+      <timestamp>2011-10-29T11:48:23Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Coating}}  {{#set:|Has Chemical=Ethylene Diamine}} {{#set:|Has Chemical=PVA}}&quot;</comment>
+      <text xml:space="preserve">{{Coating}}
+
+{{#set:|Has Chemical=Ethylene Diamine}}
+{{#set:|Has Chemical=PVA}}</text>
+    </revision>
+    <revision>
+      <id>1098</id>
+      <timestamp>2011-10-29T12:11:53Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <comment>moved [[ED-VPA]] to [[ED-PVA]]</comment>
+      <text xml:space="preserve">{{Coating}}
+
+{{#set:|Has Chemical=Ethylene Diamine}}
+{{#set:|Has Chemical=PVA}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>ED-VPA</title>
+    <id>398</id>
+    <revision>
+      <id>1099</id>
+      <timestamp>2011-10-29T12:11:53Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>moved [[ED-VPA]] to [[ED-PVA]]</comment>
+      <text xml:space="preserve">#REDIRECT [[ED-PVA]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>PVA-ED-VT680</title>
+    <id>399</id>
+    <revision>
+      <id>1100</id>
+      <timestamp>2011-10-29T12:12:30Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Coating}}  {{#set:|Has Chemical=Ethylene Diamine}} {{#set:|Has Chemical=PVA}} {{#set:|Has Chemical=VT680}}&quot;</comment>
+      <text xml:space="preserve">{{Coating}}
+
+{{#set:|Has Chemical=Ethylene Diamine}}
+{{#set:|Has Chemical=PVA}}
+{{#set:|Has Chemical=VT680}}</text>
+    </revision>
+    <revision>
+      <id>1101</id>
+      <timestamp>2011-10-29T12:13:47Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <comment>moved [[ED-PVA-VT680]] to [[PVA-ED-VT680]]</comment>
+      <text xml:space="preserve">{{Coating}}
+
+{{#set:|Has Chemical=Ethylene Diamine}}
+{{#set:|Has Chemical=PVA}}
+{{#set:|Has Chemical=VT680}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>ED-PVA-VT680</title>
+    <id>400</id>
+    <revision>
+      <id>1102</id>
+      <timestamp>2011-10-29T12:13:47Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>moved [[ED-PVA-VT680]] to [[PVA-ED-VT680]]</comment>
+      <text xml:space="preserve">#REDIRECT [[PVA-ED-VT680]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>PVA-Rhodamine-Protamine</title>
+    <id>401</id>
+    <revision>
+      <id>1104</id>
+      <timestamp>2011-10-29T12:14:26Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Coating}}  {{#set:|Has Chemical=PVA}} {{#set:|Has Chemical=Rhodamine}} {{#set:|Has Chemical=Protamine}}&quot;</comment>
+      <text xml:space="preserve">{{Coating}}
+
+{{#set:|Has Chemical=PVA}}
+{{#set:|Has Chemical=Rhodamine}}
+{{#set:|Has Chemical=Protamine}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>PVA-ArgCOOH</title>
+    <id>402</id>
+    <revision>
+      <id>1106</id>
+      <timestamp>2011-10-29T12:16:46Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Coating}}  {{#set:|Has Chemical=PVA}} {{#set:|Has Chemical=LArgCOOH}}&quot;</comment>
+      <text xml:space="preserve">{{Coating}}
+
+{{#set:|Has Chemical=PVA}}
+{{#set:|Has Chemical=LArgCOOH}}</text>
+    </revision>
+    <revision>
+      <id>1108</id>
+      <timestamp>2011-10-29T12:17:42Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Coating}}
+
+{{#set:|Has Chemical=PVA}}
+{{#set:|Has Chemical=L-Arginine-COOH}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>L-Arginine-COOH</title>
+    <id>403</id>
+    <revision>
+      <id>1107</id>
+      <timestamp>2011-10-29T12:17:07Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{CoatingPart }}&quot;</comment>
+      <text xml:space="preserve">{{CoatingPart
+}}</text>
+    </revision>
+    <revision>
+      <id>1132</id>
+      <timestamp>2011-10-29T12:30:16Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{CoatingPart
+}}
+
+COOH in the 8 position.</text>
+    </revision>
+  </page>
+  <page>
+    <title>COOH-PVA</title>
+    <id>404</id>
+    <revision>
+      <id>1109</id>
+      <timestamp>2011-10-29T12:18:35Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Coating}}  {{#set:|Has Chemical=COOH}} {{#set:|Has Chemical=PVA}}&quot;</comment>
+      <text xml:space="preserve">{{Coating}}
+
+{{#set:|Has Chemical=COOH}}
+{{#set:|Has Chemical=PVA}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>PVA-ED</title>
+    <id>405</id>
+    <revision>
+      <id>1111</id>
+      <timestamp>2011-10-29T12:19:16Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Coating}}  {{#set:|Has Chemical=Ethylene Diamine}} {{#set:|Has Chemical=PVA}}&quot;</comment>
+      <text xml:space="preserve">{{Coating}}
+
+{{#set:|Has Chemical=Ethylene Diamine}}
+{{#set:|Has Chemical=PVA}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Amino SPARK680</title>
+    <id>406</id>
+    <revision>
+      <id>1113</id>
+      <timestamp>2011-10-29T12:20:12Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{CoatingPart }}&quot;</comment>
+      <text xml:space="preserve">{{CoatingPart
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>PVA-AminoSPARK680</title>
+    <id>407</id>
+    <revision>
+      <id>1114</id>
+      <timestamp>2011-10-29T12:20:48Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Coating}}  {{#set:|Has Chemical=PVA}} {{#set:|Has Chemical=Amino SPARK680}}&quot;</comment>
+      <text xml:space="preserve">{{Coating}}
+
+{{#set:|Has Chemical=PVA}}
+{{#set:|Has Chemical=Amino SPARK680}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>PEG</title>
+    <id>408</id>
+    <revision>
+      <id>1116</id>
+      <timestamp>2011-10-29T12:21:22Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{CoatingPart }}&quot;</comment>
+      <text xml:space="preserve">{{CoatingPart
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>PVA-PEG-ED-AminoSPARK680</title>
+    <id>409</id>
+    <revision>
+      <id>1117</id>
+      <timestamp>2011-10-29T12:21:57Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Coating}}  {{#set:|Has Chemical=PVA}} {{#set:|Has Chemical=PEG}} {{#set:|Has Chemical=ED}} {{#set:|Has Chemical=Amino SPARK680}}&quot;</comment>
+      <text xml:space="preserve">{{Coating}}
+
+{{#set:|Has Chemical=PVA}}
+{{#set:|Has Chemical=PEG}}
+{{#set:|Has Chemical=ED}}
+{{#set:|Has Chemical=Amino SPARK680}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Succinylated Amino SPARK680</title>
+    <id>410</id>
+    <revision>
+      <id>1119</id>
+      <timestamp>2011-10-29T12:23:35Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{CoatingPart }}&quot;</comment>
+      <text xml:space="preserve">{{CoatingPart
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>PVA-ED-SuccAminoSPARK680</title>
+    <id>411</id>
+    <revision>
+      <id>1120</id>
+      <timestamp>2011-10-29T12:24:31Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Coating}}  {{#set:|Has Chemical=PVA}} {{#set:|Has Chemical=ED}} {{#set:|Has Chemical=Succinylated Amino SPARK680}}&quot;</comment>
+      <text xml:space="preserve">{{Coating}}
+
+{{#set:|Has Chemical=PVA}}
+{{#set:|Has Chemical=ED}}
+{{#set:|Has Chemical=Succinylated Amino SPARK680}}</text>
+    </revision>
+    <revision>
+      <id>1121</id>
+      <timestamp>2011-10-29T12:24:56Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Coating}}
+
+{{#set:|Has Chemical=PVA}}
+{{#set:|Has Chemical=Ethylene Diamine}}
+{{#set:|Has Chemical=Succinylated Amino SPARK680}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Amino SPARK680 IVM</title>
+    <id>412</id>
+    <revision>
+      <id>1123</id>
+      <timestamp>2011-10-29T12:25:58Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{CoatingPart }}&quot;</comment>
+      <text xml:space="preserve">{{CoatingPart
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>PVA-PEG-AminoSPARK680IVM</title>
+    <id>413</id>
+    <revision>
+      <id>1124</id>
+      <timestamp>2011-10-29T12:26:25Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Coating}}  {{#set:|Has Chemical=PVA}} {{#set:|Has Chemical=PEG}} {{#set:|Has Chemical=Amino SPARK680 IVM}}&quot;</comment>
+      <text xml:space="preserve">{{Coating}}
+
+{{#set:|Has Chemical=PVA}}
+{{#set:|Has Chemical=PEG}}
+{{#set:|Has Chemical=Amino SPARK680 IVM}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>15-mer Peptide</title>
+    <id>414</id>
+    <revision>
+      <id>1126</id>
+      <timestamp>2011-10-29T12:27:17Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{CoatingPart }}&quot;</comment>
+      <text xml:space="preserve">{{CoatingPart
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>PVA-15Peptide</title>
+    <id>415</id>
+    <revision>
+      <id>1127</id>
+      <timestamp>2011-10-29T12:27:48Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Coating}}  {{#set:|Has Chemical=PVA}} {{#set:|Has Chemical=15-mer Peptide}}&quot;</comment>
+      <text xml:space="preserve">{{Coating}}
+
+{{#set:|Has Chemical=PVA}}
+{{#set:|Has Chemical=15-mer Peptide}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>PVA-Protamine-Rhodamine</title>
+    <id>416</id>
+    <revision>
+      <id>1129</id>
+      <timestamp>2011-10-29T12:28:52Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Coating}}  {{#set:|Has Chemical=PVA}} {{#set:|Has Chemical=Protamine}} {{#set:|Has Chemical=Rhodamine}}&quot;</comment>
+      <text xml:space="preserve">{{Coating}}
+
+{{#set:|Has Chemical=PVA}}
+{{#set:|Has Chemical=Protamine}}
+{{#set:|Has Chemical=Rhodamine}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>PVA-Arg7COOH</title>
+    <id>417</id>
+    <revision>
+      <id>1131</id>
+      <timestamp>2011-10-29T12:29:59Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Coating}}  {{#set:|Has Chemical=PVA}} {{#set:|Has Chemical=L-Arginine-7-COOH}}&quot;</comment>
+      <text xml:space="preserve">{{Coating}}
+
+{{#set:|Has Chemical=PVA}}
+{{#set:|Has Chemical=L-Arginine-7-COOH}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>L-Arginine-7-COOH</title>
+    <id>418</id>
+    <revision>
+      <id>1133</id>
+      <timestamp>2011-10-29T12:30:37Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{CoatingPart }}  COOH in the 7 position. See also [[L-Arginine-COOH]].&quot;</comment>
+      <text xml:space="preserve">{{CoatingPart
+}}
+
+COOH in the 7 position. See also [[L-Arginine-COOH]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>VT750</title>
+    <id>419</id>
+    <revision>
+      <id>1135</id>
+      <timestamp>2011-10-29T12:32:22Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{CoatingPart }}&quot;</comment>
+      <text xml:space="preserve">{{CoatingPart
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>PVA-ED-VT750</title>
+    <id>420</id>
+    <revision>
+      <id>1136</id>
+      <timestamp>2011-10-29T12:32:49Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Coating}}  {{#set:|Has Chemical=Ethylene Diamine}} {{#set:|Has Chemical=PVA}} {{#set:|Has Chemical=VT750}}&quot;</comment>
+      <text xml:space="preserve">{{Coating}}
+
+{{#set:|Has Chemical=Ethylene Diamine}}
+{{#set:|Has Chemical=PVA}}
+{{#set:|Has Chemical=VT750}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>PVA-PEG-ED-VT750</title>
+    <id>421</id>
+    <revision>
+      <id>1138</id>
+      <timestamp>2011-10-29T12:33:35Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Coating}}  {{#set:|Has Chemical=PVA}} {{#set:|Has Chemical=PEG}} {{#set:|Has Chemical=Ethylene Diamine}} {{#set:|Has Chemical=VT750}}&quot;</comment>
+      <text xml:space="preserve">{{Coating}}
+
+{{#set:|Has Chemical=PVA}}
+{{#set:|Has Chemical=PEG}}
+{{#set:|Has Chemical=Ethylene Diamine}}
+{{#set:|Has Chemical=VT750}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>D-Arginine-7-COOH</title>
+    <id>422</id>
+    <revision>
+      <id>1140</id>
+      <timestamp>2011-10-29T12:34:29Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{CoatingPart }}  COOH in the 7 position. See also [[L-Arginine-7-COOH]].&quot;</comment>
+      <text xml:space="preserve">{{CoatingPart
+}}
+
+COOH in the 7 position. See also [[L-Arginine-7-COOH]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>PVA-DArg7COOH</title>
+    <id>423</id>
+    <revision>
+      <id>1141</id>
+      <timestamp>2011-10-29T12:35:17Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Coating}}  {{#set:|Has Chemical=PVA}} {{#set:|Has Chemical=D-Arginine-7-COOH}}&quot;</comment>
+      <text xml:space="preserve">{{Coating}}
+
+{{#set:|Has Chemical=PVA}}
+{{#set:|Has Chemical=D-Arginine-7-COOH}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>PVA-ED-AminoSPARK680</title>
+    <id>424</id>
+    <revision>
+      <id>1144</id>
+      <timestamp>2011-10-29T12:36:24Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Coating}}  {{#set:|Has Chemical=PVA}} {{#set:|Has Chemical=ED}} {{#set:|Has Chemical=Amino SPARK680}}&quot;</comment>
+      <text xml:space="preserve">{{Coating}}
+
+{{#set:|Has Chemical=PVA}}
+{{#set:|Has Chemical=ED}}
+{{#set:|Has Chemical=Amino SPARK680}}</text>
+    </revision>
+    <revision>
+      <id>1146</id>
+      <timestamp>2011-10-29T12:38:09Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Coating}}
+
+{{#set:|Has Chemical=PVA}}
+{{#set:|Has Chemical=Ethylene Diamine}}
+{{#set:|Has Chemical=Amino SPARK680}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>PVA-PEG</title>
+    <id>425</id>
+    <revision>
+      <id>1147</id>
+      <timestamp>2011-10-29T12:38:31Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Coating}}  {{#set:|Has Chemical=PVA}} {{#set:|Has Chemical=PEG}}&quot;</comment>
+      <text xml:space="preserve">{{Coating}}
+
+{{#set:|Has Chemical=PVA}}
+{{#set:|Has Chemical=PEG}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>ArabinoGalactanCoating</title>
+    <id>426</id>
+    <revision>
+      <id>1149</id>
+      <timestamp>2011-10-29T12:39:29Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Coating}}  {{#set:|Has Chemical=Arabino Galactan}}&quot;</comment>
+      <text xml:space="preserve">{{Coating}}
+
+{{#set:|Has Chemical=Arabino Galactan}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Arabino Galactan</title>
+    <id>427</id>
+    <revision>
+      <id>1150</id>
+      <timestamp>2011-10-29T12:39:43Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{CoatingPart }}&quot;</comment>
+      <text xml:space="preserve">{{CoatingPart
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>CarboxymethylDextranCoating</title>
+    <id>428</id>
+    <revision>
+      <id>1153</id>
+      <timestamp>2011-10-29T12:41:22Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Coating}}  {{#set:|Has Chemical=Carboxymethyl Dextran}}&quot;</comment>
+      <text xml:space="preserve">{{Coating}}
+
+{{#set:|Has Chemical=Carboxymethyl Dextran}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Carboxymethyl Dextran</title>
+    <id>429</id>
+    <revision>
+      <id>1154</id>
+      <timestamp>2011-10-29T12:41:46Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{CoatingPart }}&quot;</comment>
+      <text xml:space="preserve">{{CoatingPart
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Amphiphillic Polymer</title>
+    <id>430</id>
+    <revision>
+      <id>1156</id>
+      <timestamp>2011-10-29T12:42:53Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{CoatingPart }}&quot;</comment>
+      <text xml:space="preserve">{{CoatingPart
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>AmphPolymer-PEG</title>
+    <id>431</id>
+    <revision>
+      <id>1157</id>
+      <timestamp>2011-10-29T12:43:56Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Coating}}  {{#set:|Has Chemical=Amphiphillic Polymer}} {{#set:|Has Chemical=PEG}}&quot;</comment>
+      <text xml:space="preserve">{{Coating}}
+
+{{#set:|Has Chemical=Amphiphillic Polymer}}
+{{#set:|Has Chemical=PEG}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>COOH-AmphPolymer</title>
+    <id>432</id>
+    <revision>
+      <id>1159</id>
+      <timestamp>2011-10-29T12:44:32Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Coating}}  {{#set:|Has Chemical=COOH}} {{#set:|Has Chemical=Amphiphillic Polymer}}&quot;</comment>
+      <text xml:space="preserve">{{Coating}}
+
+{{#set:|Has Chemical=COOH}}
+{{#set:|Has Chemical=Amphiphillic Polymer}}</text>
     </revision>
   </page>
 </mediawiki>

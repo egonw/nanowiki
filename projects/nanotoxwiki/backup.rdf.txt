@@ -18,7 +18,7 @@
 	xmlns:property="&property;">
 
 	<owl:Ontology rdf:about="">
-		<swivt:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T11:45:55+02:00</swivt:creationDate>
+		<swivt:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-29T15:18:35+02:00</swivt:creationDate>
 		<owl:imports rdf:resource="http://semantic-mediawiki.org/swivt/1.0"/>
 	</owl:Ontology>
 	<swivt:Subject rdf:about="&wiki;Main_Page">
@@ -26,7 +26,7 @@
 		<swivt:page rdf:resource="&wikiurl;Main_Page"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Main_Page"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-13T09:03:42</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-13T09:05:43</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;TestNM">
 		<rdfs:label>TestNM</rdfs:label>
@@ -40,7 +40,7 @@
 		<swivt:page rdf:resource="&wikiurl;Category:NanoMaterials"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Category:NanoMaterials"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</swivt:wikiNamespace>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-06-15T10:44:06</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T12:00:51</swivt:wikiPageModificationDate>
 	</owl:Class>
 	<swivt:Subject rdf:about="&wiki;NanoMaterial">
 		<rdfs:label>NanoMaterial</rdfs:label>
@@ -172,7 +172,7 @@
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/MetalOxide"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
 		<owl:sameAs rdf:resource="http://egonw.github.com/resource/NM_000100"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-09-28T20:06:52</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-10T18:19:39</swivt:wikiPageModificationDate>
 		<property:Original_URI rdf:resource="http://egonw.github.com/resource/NM_000100"/>
 	</swivt:Subject>
 	<owl:Class rdf:about="&wiki;Category-3AMetalOxides">
@@ -936,7 +936,7 @@
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
 		<property:Has_Zeta_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Zeta_Units>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">31</property:Has_Zeta_potential>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-06-15T08:36:14</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-26T05:14:17</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Karlsson2008Cytotox"/>
 		<property:Used_in_Study rdf:resource="&wiki;WillighagenS1"/>
 		<property:Used_in_Study rdf:resource="&wiki;WillighagenS2"/>
@@ -957,7 +957,7 @@
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
 		<property:Has_Zeta_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Zeta_Units>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.9</property:Has_Zeta_potential>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-06-15T08:36:27</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-26T05:14:02</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Karlsson2008Cytotox"/>
 		<property:Used_in_Study rdf:resource="&wiki;WillighagenS1"/>
 		<property:Used_in_Study rdf:resource="&wiki;WillighagenS2"/>
@@ -978,7 +978,7 @@
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
 		<property:Has_Zeta_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Zeta_Units>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">26.9</property:Has_Zeta_potential>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-06-15T08:36:52</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-26T05:15:09</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Karlsson2008Cytotox"/>
 		<property:Used_in_Study rdf:resource="&wiki;WillighagenS1"/>
 		<property:Used_in_Study rdf:resource="&wiki;WillighagenS2"/>
@@ -999,7 +999,7 @@
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
 		<property:Has_Zeta_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Zeta_Units>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">34.2</property:Has_Zeta_potential>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-06-15T08:37:31</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-26T05:15:19</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Karlsson2008Cytotox"/>
 		<property:Used_in_Study rdf:resource="&wiki;WillighagenS1"/>
 		<property:Used_in_Study rdf:resource="&wiki;WillighagenS2"/>
@@ -1020,7 +1020,7 @@
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
 		<property:Has_Zeta_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Zeta_Units>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-17.3</property:Has_Zeta_potential>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-06-15T08:37:51</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-26T05:15:32</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Karlsson2008Cytotox"/>
 		<property:Used_in_Study rdf:resource="&wiki;WillighagenS1"/>
 		<property:Used_in_Study rdf:resource="&wiki;WillighagenS2"/>
@@ -1041,7 +1041,7 @@
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
 		<property:Has_Zeta_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Zeta_Units>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.8</property:Has_Zeta_potential>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-06-15T08:38:25</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-26T05:13:25</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Karlsson2008Cytotox"/>
 		<property:Used_in_Study rdf:resource="&wiki;WillighagenS1"/>
 		<property:Used_in_Study rdf:resource="&wiki;WillighagenS2"/>
@@ -1724,7 +1724,7 @@
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
 		<property:Has_Zeta_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Zeta_Units>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-39.9</property:Has_Zeta_potential>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-06-15T08:39:11</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T07:04:01</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Karlsson2008CytotoxFollowup"/>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Metal">
@@ -1757,7 +1757,7 @@
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
 		<property:Has_Zeta_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Zeta_Units>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4</property:Has_Zeta_potential>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-06-15T08:39:38</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T07:04:16</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Karlsson2008CytotoxFollowup"/>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;HannaK11">
@@ -1776,7 +1776,7 @@
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
 		<property:Has_Zeta_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Zeta_Units>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">30.2</property:Has_Zeta_potential>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-06-15T08:39:54</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T07:04:29</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Karlsson2008CytotoxFollowup"/>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;HannaK12">
@@ -1795,7 +1795,7 @@
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
 		<property:Has_Zeta_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Zeta_Units>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">30.3</property:Has_Zeta_potential>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-06-15T08:40:07</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T07:04:42</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Karlsson2008CytotoxFollowup"/>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;HannaK13">
@@ -1814,7 +1814,7 @@
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
 		<property:Has_Zeta_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Zeta_Units>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-11</property:Has_Zeta_potential>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-06-15T08:52:47</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T07:05:16</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Karlsson2008CytotoxFollowup"/>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;MetalOxides">
@@ -1822,7 +1822,7 @@
 		<swivt:page rdf:resource="&wikiurl;MetalOxides"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/MetalOxides"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-06-28T08:40:20</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T06:49:03</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<owl:DatatypeProperty rdf:about="&property;Has_Size_Max">
 		<rdfs:label>Has Size Max</rdfs:label>
@@ -2033,6 +2033,7 @@
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
 		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Coating rdf:resource="&wiki;CLIO-2DNH2"/>
 		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fe3O4</property:Has_Chemical_Composition>
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">33</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CLIO-47-NH2 no 9</property:Has_Label>
@@ -2041,7 +2042,7 @@
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.9</property:Has_Zeta_potential>
 		<property:Has_alternative_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NP3</property:Has_alternative_Identifier>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-09-29T19:14:40</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T11:57:50</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Shaw51"/>
 		<property:Used_in_Study rdf:resource="&wiki;InVitro2010Fourches2"/>
 	</swivt:Subject>
@@ -2059,6 +2060,7 @@
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
 		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Coating rdf:resource="&wiki;CLIO-2DFITC-2DCOOH"/>
 		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fe3O4</property:Has_Chemical_Composition>
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">31</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carboxyl-CLIO-FITC-NH2 no. 3</property:Has_Label>
@@ -2067,7 +2069,7 @@
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-19.9</property:Has_Zeta_potential>
 		<property:Has_alternative_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NP1</property:Has_alternative_Identifier>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-09-29T19:04:40</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T11:54:01</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Shaw51"/>
 		<property:Used_in_Study rdf:resource="&wiki;InVitro2010Fourches2"/>
 	</swivt:Subject>
@@ -2078,6 +2080,7 @@
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
 		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Coating rdf:resource="&wiki;CLIO-2DFITC"/>
 		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fe3O4</property:Has_Chemical_Composition>
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">32</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CLIO-47 no. 3</property:Has_Label>
@@ -2097,6 +2100,7 @@
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
 		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Coating rdf:resource="&wiki;CLIO-2DNH2"/>
 		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fe3O4</property:Has_Chemical_Composition>
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">34</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CLIO-48-NH2 no. 14</property:Has_Label>
@@ -2116,6 +2120,7 @@
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
 		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Coating rdf:resource="&wiki;CLIO-2DAF488"/>
 		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fe3O4</property:Has_Chemical_Composition>
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">35</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CLIO-AF488 no. 10</property:Has_Label>
@@ -2135,6 +2140,7 @@
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
 		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Coating rdf:resource="&wiki;CLIO-2DAF750"/>
 		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fe3O4</property:Has_Chemical_Composition>
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">36</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CLIO-AF750 no. 3</property:Has_Label>
@@ -2154,6 +2160,7 @@
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
 		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Coating rdf:resource="&wiki;CLIO-2DFITC-2DRCOOH"/>
 		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fe3O4</property:Has_Chemical_Composition>
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">37</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CLIO-bentri-FITC</property:Has_Label>
@@ -2173,6 +2180,7 @@
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
 		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Coating rdf:resource="&wiki;BiotinCoating"/>
 		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fe3O4</property:Has_Chemical_Composition>
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">38</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CLIO-Biotin no.2</property:Has_Label>
@@ -2192,6 +2200,7 @@
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
 		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Coating rdf:resource="&wiki;FITC-2DCOOH"/>
 		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fe3O4</property:Has_Chemical_Composition>
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">39</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CLIO-COOH-FITC no.1</property:Has_Label>
@@ -2211,6 +2220,7 @@
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
 		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Coating rdf:resource="&wiki;CLIO-2DCY35"/>
 		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fe3O4</property:Has_Chemical_Composition>
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CLIO-Cy3.5 no. 2</property:Has_Label>
@@ -2219,7 +2229,7 @@
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.24</property:Has_Zeta_potential>
 		<property:Has_alternative_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NP10</property:Has_alternative_Identifier>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-09-29T19:16:14</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T13:40:43</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Shaw51"/>
 		<property:Used_in_Study rdf:resource="&wiki;InVitro2010Fourches2"/>
 	</swivt:Subject>
@@ -2230,6 +2240,7 @@
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
 		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Coating rdf:resource="&wiki;CLIO-2DFITC-2DProtamine"/>
 		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fe3O4</property:Has_Chemical_Composition>
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">41</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CLIO- Cy5.5-Protamine no. 3</property:Has_Label>
@@ -2249,6 +2260,7 @@
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
 		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Coating rdf:resource="&wiki;CLIO-2DCY35-2DTat"/>
 		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fe3O4</property:Has_Chemical_Composition>
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">42</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CLIO-Cy5.5-tat no. 3</property:Has_Label>
@@ -2268,6 +2280,7 @@
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
 		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Coating rdf:resource="&wiki;CLIO-2DCY55"/>
 		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fe3O4</property:Has_Chemical_Composition>
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">43</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CLIO-Cy5.5-X no. 1</property:Has_Label>
@@ -2285,6 +2298,7 @@
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
 		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Coating rdf:resource="&wiki;CLIO-2DCY5"/>
 		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fe3O4</property:Has_Chemical_Composition>
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">44</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CLIO-Cy5 no. 2</property:Has_Label>
@@ -2304,6 +2318,7 @@
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
 		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Coating rdf:resource="&wiki;CLIO-2DCY7"/>
 		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fe3O4</property:Has_Chemical_Composition>
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">45</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CLIO-Cy7 no. 2</property:Has_Label>
@@ -2323,6 +2338,7 @@
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
 		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Coating rdf:resource="&wiki;CLIO-2DFITC"/>
 		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fe3O4</property:Has_Chemical_Composition>
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">46</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CLIO-FITC no. 4</property:Has_Label>
@@ -2342,6 +2358,7 @@
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
 		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Coating rdf:resource="&wiki;CLIO-2DFITC-2DGlutamicAcid"/>
 		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fe3O4</property:Has_Chemical_Composition>
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">47</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CLIO-GLU-FITC</property:Has_Label>
@@ -2361,6 +2378,7 @@
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
 		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Coating rdf:resource="&wiki;CLIO-2DGlycine"/>
 		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fe3O4</property:Has_Chemical_Composition>
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">48</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CLIO-GLY</property:Has_Label>
@@ -2380,6 +2398,7 @@
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
 		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Coating rdf:resource="&wiki;CLIO-2DRhodamine-2DProtamine"/>
 		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fe3O4</property:Has_Chemical_Composition>
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">49</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CLIO-Rhodamine-Protamine no. 1</property:Has_Label>
@@ -2399,6 +2418,7 @@
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
 		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Coating rdf:resource="&wiki;CLIO-2DFTIC-2DSI"/>
 		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fe3O4</property:Has_Chemical_Composition>
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">50</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CLIO-SIA-FITC</property:Has_Label>
@@ -2418,6 +2438,7 @@
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
 		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Coating rdf:resource="&wiki;CLIO-2DTatPeptide"/>
 		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fe3O4</property:Has_Chemical_Composition>
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">51</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CLIO-tat no. 26</property:Has_Label>
@@ -2437,6 +2458,7 @@
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
 		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Coating rdf:resource="&wiki;CLIO-2DVT680"/>
 		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fe3O4</property:Has_Chemical_Composition>
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">52</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CLIO-VT680 no. 7</property:Has_Label>
@@ -2456,6 +2478,7 @@
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
 		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Coating rdf:resource="&wiki;CLIO-2DVT680-2DProtamine"/>
 		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fe3O4</property:Has_Chemical_Composition>
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CLIO-VT680-protamine no. 2</property:Has_Label>
@@ -2475,6 +2498,7 @@
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
 		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Coating rdf:resource="&wiki;DextranCoating"/>
 		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fe3O4</property:Has_Chemical_Composition>
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">54</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Feridex IV</property:Has_Label>
@@ -2492,6 +2516,7 @@
 		<rdf:type rdf:resource="&wiki;Category-3AMetals"/>
 		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Coating rdf:resource="&wiki;SucroseCoating"/>
 		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fe</property:Has_Chemical_Composition>
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">55</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ferrum Hausmann</property:Has_Label>
@@ -2509,6 +2534,7 @@
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
 		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Coating rdf:resource="&wiki;PVA-2DCOOH"/>
 		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fe3O4</property:Has_Chemical_Composition>
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PNP02</property:Has_Label>
@@ -2529,6 +2555,7 @@
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
 		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Coating rdf:resource="&wiki;ED-2DPVA"/>
 		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fe3O4</property:Has_Chemical_Composition>
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">57</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PNP03</property:Has_Label>
@@ -2549,6 +2576,7 @@
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
 		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Coating rdf:resource="&wiki;PVA-2DED-2DVT680"/>
 		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fe3O4</property:Has_Chemical_Composition>
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">58</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PNP04</property:Has_Label>
@@ -2569,6 +2597,7 @@
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
 		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Coating rdf:resource="&wiki;PVA-2DRhodamine-2DProtamine"/>
 		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fe3O4</property:Has_Chemical_Composition>
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">59</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PNP10</property:Has_Label>
@@ -2589,6 +2618,7 @@
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
 		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Coating rdf:resource="&wiki;-261.-262_1-3D-22PVA-22_2-3D-22L-2Darg8-2DCOOH-22"/>
 		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fe3O4</property:Has_Chemical_Composition>
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">60</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PNP12</property:Has_Label>
@@ -2609,6 +2639,7 @@
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
 		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Coating rdf:resource="&wiki;COOH-2DPVA"/>
 		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fe2O3</property:Has_Chemical_Composition>
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">61</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PNP22</property:Has_Label>
@@ -2628,6 +2659,7 @@
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
 		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Coating rdf:resource="&wiki;PVA-2DED"/>
 		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fe2O3</property:Has_Chemical_Composition>
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">62</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PNP23</property:Has_Label>
@@ -2647,6 +2679,7 @@
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
 		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Coating rdf:resource="&wiki;PVA-2DAminoSPARK680"/>
 		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fe2O3</property:Has_Chemical_Composition>
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">63</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PNP24</property:Has_Label>
@@ -2664,6 +2697,7 @@
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
 		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Coating rdf:resource="&wiki;PVA-2DPEG-2DED-2DAminoSPARK680"/>
 		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fe2O3</property:Has_Chemical_Composition>
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">64</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PNP26</property:Has_Label>
@@ -2683,6 +2717,7 @@
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
 		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Coating rdf:resource="&wiki;PVA-2DED-2DSuccAminoSPARK680"/>
 		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fe2O3</property:Has_Chemical_Composition>
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">65</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PNP27</property:Has_Label>
@@ -2702,6 +2737,7 @@
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
 		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Coating rdf:resource="&wiki;PVA-2DPEG-2DAminoSPARK680IVM"/>
 		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fe2O3</property:Has_Chemical_Composition>
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">62</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PNP28</property:Has_Label>
@@ -2721,6 +2757,7 @@
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
 		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Coating rdf:resource="&wiki;PVA-2D15merPeptide"/>
 		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fe2O3</property:Has_Chemical_Composition>
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">67</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PNP29</property:Has_Label>
@@ -2740,6 +2777,7 @@
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
 		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Coating rdf:resource="&wiki;PVA-2DProtamine-2DRhodamine"/>
 		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fe2O3</property:Has_Chemical_Composition>
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">68</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PNP30</property:Has_Label>
@@ -2759,6 +2797,7 @@
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
 		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Coating rdf:resource="&wiki;PVA-2DArg7COOH"/>
 		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fe2O3</property:Has_Chemical_Composition>
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">69</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PNP31</property:Has_Label>
@@ -2778,6 +2817,7 @@
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
 		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Coating rdf:resource="&wiki;PVA-2DED-2DVT750"/>
 		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fe2O3</property:Has_Chemical_Composition>
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">70</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PNP34</property:Has_Label>
@@ -2797,6 +2837,7 @@
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
 		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Coating rdf:resource="&wiki;PVA-2DPEG-2DED-2DVT750"/>
 		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fe2O3</property:Has_Chemical_Composition>
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">71</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PNP38</property:Has_Label>
@@ -2816,6 +2857,7 @@
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
 		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Coating rdf:resource="&wiki;PVA-2DDArg7COOH"/>
 		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fe2O3</property:Has_Chemical_Composition>
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">72</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PNP51</property:Has_Label>
@@ -2835,6 +2877,7 @@
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
 		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Coating rdf:resource="&wiki;PVA-2DED-2DAminoSPARK680"/>
 		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fe2O3</property:Has_Chemical_Composition>
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">73</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PNP54</property:Has_Label>
@@ -2854,6 +2897,7 @@
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
 		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Coating rdf:resource="&wiki;PVA-2DPEG"/>
 		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fe2O3</property:Has_Chemical_Composition>
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">74</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PNP55</property:Has_Label>
@@ -2872,6 +2916,7 @@
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
 		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Coating rdf:resource="&wiki;DextranCoating"/>
 		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fe3O4</property:Has_Chemical_Composition>
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">75</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MION-47 no. 35</property:Has_Label>
@@ -2891,6 +2936,7 @@
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
 		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Coating rdf:resource="&wiki;ArabinoGalactanCoating"/>
 		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fe3O4</property:Has_Chemical_Composition>
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">76</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MION-48 no. 24</property:Has_Label>
@@ -2910,6 +2956,7 @@
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
 		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Coating rdf:resource="&wiki;ArabinoGalactanCoating"/>
 		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fe3O4</property:Has_Chemical_Composition>
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">77</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MION-AG no. 1</property:Has_Label>
@@ -2929,6 +2976,7 @@
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
 		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Coating rdf:resource="&wiki;Carboxymethyl_Dextran"/>
 		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fe3O4</property:Has_Chemical_Composition>
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">78</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MION-CM no. 1</property:Has_Label>
@@ -2948,6 +2996,7 @@
 		<rdf:type rdf:resource="&wiki;Category-3AAlloys"/>
 		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Coating rdf:resource="&wiki;AmphPolymer-2DPEG"/>
 		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CdSe</property:Has_Chemical_Composition>
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">79</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Qdot-NH2-PEG</property:Has_Label>
@@ -2965,6 +3014,7 @@
 		<rdf:type rdf:resource="&wiki;Category-3AAlloys"/>
 		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Coating rdf:resource="&wiki;COOH-2DAmphPolymer"/>
 		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CdSe</property:Has_Chemical_Composition>
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">80</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Qdot-carboxyl</property:Has_Label>
@@ -2982,6 +3032,7 @@
 		<rdf:type rdf:resource="&wiki;Category-3AAlloys"/>
 		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Coating rdf:resource="&wiki;COOH-2DAmphPolymer"/>
 		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CdSe</property:Has_Chemical_Composition>
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">81</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Qdot-carboxyl (repeat)</property:Has_Label>
@@ -3011,7 +3062,7 @@
 		<swivt:page rdf:resource="&wikiurl;NanoMaterials"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/NanoMaterials"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-06-28T08:39:43</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-06-28T08:40:37</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;File-3APuzyn2011_Supp1.pdf">
 		<rdfs:label>File:Puzyn2011 Supp1.pdf</rdfs:label>
@@ -3736,7 +3787,7 @@
 		<property:Has_Size_Max rdf:datatype="http://www.w3.org/2001/XMLSchema#double">800</property:Has_Size_Max>
 		<property:Has_Size_Min rdf:datatype="http://www.w3.org/2001/XMLSchema#double">300</property:Has_Size_Min>
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T07:32:44</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T07:33:29</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Karlsson2008CytotoxFollowup"/>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;HannaK14_M1">
@@ -3861,6 +3912,832 @@
 		<property:Has_Entity rdf:resource="&wiki;HannaK13"/>
 		<property:Has_Study rdf:resource="&wiki;Karlsson2008CytotoxFollowup"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T09:38:16</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;CLIO-2DFITC-2DCOOH">
+		<rdfs:label>CLIO-FITC-COOH</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;CLIO-FITC-COOH"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/CLIO-FITC-COOH"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;COOH">
+		<rdfs:label>COOH</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;COOH"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/COOH"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoating_Parts"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O=CO[H]</property:Has_SMILES>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T10:53:28</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<owl:Class rdf:about="&wiki;Category-3ACoating_Parts">
+		<rdfs:label>Coating Parts</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Category:Coating_Parts"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Category:Coating_Parts"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</swivt:wikiNamespace>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T11:01:05</swivt:wikiPageModificationDate>
+	</owl:Class>
+	<owl:DatatypeProperty rdf:about="&property;Has_SMILES">
+		<rdfs:label>Has SMILES</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Property:Has_SMILES"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Property:Has_SMILES"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">102</swivt:wikiNamespace>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T11:02:58</swivt:wikiPageModificationDate>
+	</owl:DatatypeProperty>
+	<owl:Class rdf:about="&wiki;Category-3ACoatings">
+		<rdfs:label>Coatings</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Category:Coatings"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Category:Coatings"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</swivt:wikiNamespace>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T11:04:44</swivt:wikiPageModificationDate>
+	</owl:Class>
+	<owl:ObjectProperty rdf:about="&property;Has_Chemical">
+		<rdfs:label>Has Chemical</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Property:Has_Chemical"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Property:Has_Chemical"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">102</swivt:wikiNamespace>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T11:19:07</swivt:wikiPageModificationDate>
+	</owl:ObjectProperty>
+	<swivt:Subject rdf:about="&wiki;Cross-2Dlinked_dextran">
+		<rdfs:label>Cross-linked dextran</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Cross-linked_dextran"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Cross-linked_dextran"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoating_Parts"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T11:19:36</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;FITC">
+		<rdfs:label>FITC</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;FITC"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/FITC"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoating_Parts"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T11:19:43</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<owl:ObjectProperty rdf:about="&property;Has_Chemical_Coating">
+		<rdfs:label>Has Chemical Coating</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Property:Has_Chemical_Coating"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Property:Has_Chemical_Coating"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">102</swivt:wikiNamespace>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T11:43:44</swivt:wikiPageModificationDate>
+	</owl:ObjectProperty>
+	<swivt:Subject rdf:about="&wiki;Shaw51_01_C">
+		<rdfs:label>Shaw51 01 C</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Shaw51_01_C"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Shaw51_01_C"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<owl:sameAs rdf:resource="&wiki;CLIO-2DFITC-2DCOOH"/>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;CLIO-2DFITC">
+		<rdfs:label>CLIO-FITC</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;CLIO-FITC"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/CLIO-FITC"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoatings"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical rdf:resource="&wiki;Cross-2Dlinked_dextran"/>
+		<property:Has_Chemical rdf:resource="&wiki;FITC"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T11:55:03</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;NH2">
+		<rdfs:label>NH2</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;NH2"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/NH2"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoating_Parts"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HNH</property:Has_SMILES>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T11:56:30</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;CLIO-2DNH2">
+		<rdfs:label>CLIO-NH2</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;CLIO-NH2"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/CLIO-NH2"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoatings"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical rdf:resource="&wiki;Cross-2Dlinked_dextran"/>
+		<property:Has_Chemical rdf:resource="&wiki;NH2"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T11:57:09</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;AlexaFluor488">
+		<rdfs:label>AlexaFluor488</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;AlexaFluor488"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/AlexaFluor488"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoating_Parts"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T12:44:53</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;CLIO-2DAF488">
+		<rdfs:label>CLIO-AF488</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;CLIO-AF488"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/CLIO-AF488"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoatings"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical rdf:resource="&wiki;Cross-2Dlinked_dextran"/>
+		<property:Has_Chemical rdf:resource="&wiki;AlexaFluor488"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T12:46:04</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;AlexaFluor750">
+		<rdfs:label>AlexaFluor750</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;AlexaFluor750"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/AlexaFluor750"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoating_Parts"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T13:05:43</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;CLIO-2DAF750">
+		<rdfs:label>CLIO-AF750</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;CLIO-AF750"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/CLIO-AF750"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoatings"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical rdf:resource="&wiki;Cross-2Dlinked_dextran"/>
+		<property:Has_Chemical rdf:resource="&wiki;AlexaFluor750"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T13:05:56</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;CLIO-2DFITC-2DRCOOH">
+		<rdfs:label>CLIO-FITC-RCOOH</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;CLIO-FITC-RCOOH"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/CLIO-FITC-RCOOH"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoatings"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical rdf:resource="&wiki;Cross-2Dlinked_dextran"/>
+		<property:Has_Chemical rdf:resource="&wiki;FITC"/>
+		<property:Has_Chemical rdf:resource="&wiki;RCOOH"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T13:14:50</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;RCOOH">
+		<rdfs:label>RCOOH</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;RCOOH"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/RCOOH"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoating_Parts"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O=CO[H]</property:Has_SMILES>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T13:15:07</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Biotin">
+		<rdfs:label>Biotin</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Biotin"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Biotin"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;BiotinCoating">
+		<rdfs:label>BiotinCoating</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;BiotinCoating"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/BiotinCoating"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoatings"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical rdf:resource="&wiki;Cross-2Dlinked_dextran"/>
+		<property:Has_Chemical rdf:resource="&wiki;FITC"/>
+		<property:Has_Chemical rdf:resource="&wiki;RCOOH"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T13:22:20</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;FITC-2DCOOH">
+		<rdfs:label>FITC-COOH</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;FITC-COOH"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/FITC-COOH"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoatings"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical rdf:resource="&wiki;FITC"/>
+		<property:Has_Chemical rdf:resource="&wiki;COOH"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T13:24:25</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;CLIO-2DCY35">
+		<rdfs:label>CLIO-CY35</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;CLIO-CY35"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/CLIO-CY35"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoatings"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical rdf:resource="&wiki;Cross-2Dlinked_dextran"/>
+		<property:Has_Chemical rdf:resource="&wiki;Cy3.5"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T13:38:13</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Cy3.5">
+		<rdfs:label>Cy3.5</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Cy3.5"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Cy3.5"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoating_Parts"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T13:38:45</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;CLIO-2DFITC-2DProtamine">
+		<rdfs:label>CLIO-FITC-Protamine</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;CLIO-FITC-Protamine"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/CLIO-FITC-Protamine"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoatings"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical rdf:resource="&wiki;Cross-2Dlinked_dextran"/>
+		<property:Has_Chemical rdf:resource="&wiki;FITC"/>
+		<property:Has_Chemical rdf:resource="&wiki;Protamine"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T13:43:52</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Protamine">
+		<rdfs:label>Protamine</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Protamine"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Protamine"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoating_Parts"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T13:44:06</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;CLIO-2DCY35-2DTat">
+		<rdfs:label>CLIO-CY35-Tat</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;CLIO-CY35-Tat"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/CLIO-CY35-Tat"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoatings"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical rdf:resource="&wiki;Cross-2Dlinked_dextran"/>
+		<property:Has_Chemical rdf:resource="&wiki;Cy3.5"/>
+		<property:Has_Chemical rdf:resource="&wiki;Tat"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T13:46:36</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Tat">
+		<rdfs:label>Tat</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Tat"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Tat"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoating_Parts"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T13:46:55</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Cy5.5">
+		<rdfs:label>Cy5.5</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Cy5.5"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Cy5.5"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoating_Parts"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T14:06:15</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;CLIO-2DCY55">
+		<rdfs:label>CLIO-CY55</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;CLIO-CY55"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/CLIO-CY55"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoatings"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical rdf:resource="&wiki;Cross-2Dlinked_dextran"/>
+		<property:Has_Chemical rdf:resource="&wiki;Cy5.5"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T14:06:37</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Cy5">
+		<rdfs:label>Cy5</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Cy5"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Cy5"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoating_Parts"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T14:07:27</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;CLIO-2DCY5">
+		<rdfs:label>CLIO-CY5</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;CLIO-CY5"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/CLIO-CY5"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoatings"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical rdf:resource="&wiki;Cross-2Dlinked_dextran"/>
+		<property:Has_Chemical rdf:resource="&wiki;Cy5"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T14:07:38</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Cy7">
+		<rdfs:label>Cy7</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Cy7"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Cy7"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoating_Parts"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T14:08:15</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;CLIO-2DCY7">
+		<rdfs:label>CLIO-CY7</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;CLIO-CY7"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/CLIO-CY7"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoatings"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical rdf:resource="&wiki;Cross-2Dlinked_dextran"/>
+		<property:Has_Chemical rdf:resource="&wiki;Cy7"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T14:08:27</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Glutamic_Acid">
+		<rdfs:label>Glutamic Acid</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Glutamic_Acid"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Glutamic_Acid"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Glutamic_Acid">
+		<rdfs:label>Glutamic Acid</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Glutamic_Acid"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Glutamic_Acid"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;CLIO-2DFITC-2DGlutamicAcid">
+		<rdfs:label>CLIO-FITC-GlutamicAcid</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;CLIO-FITC-GlutamicAcid"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/CLIO-FITC-GlutamicAcid"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoatings"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical rdf:resource="&wiki;Cross-2Dlinked_dextran"/>
+		<property:Has_Chemical rdf:resource="&wiki;FITC"/>
+		<property:Has_Chemical rdf:resource="&wiki;Glutamic_Acid"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T15:14:28</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Glycine">
+		<rdfs:label>Glycine</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Glycine"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Glycine"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoating_Parts"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C(C(=O)O)N</property:Has_SMILES>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T15:29:48</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;CLIO-2DGlycine">
+		<rdfs:label>CLIO-Glycine</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;CLIO-Glycine"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/CLIO-Glycine"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoatings"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical rdf:resource="&wiki;Cross-2Dlinked_dextran"/>
+		<property:Has_Chemical rdf:resource="&wiki;Glycine"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T15:30:36</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Rhodamine">
+		<rdfs:label>Rhodamine</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Rhodamine"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Rhodamine"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoating_Parts"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T15:32:26</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;CLIO-2DRhodamine-2DProtamine">
+		<rdfs:label>CLIO-Rhodamine-Protamine</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;CLIO-Rhodamine-Protamine"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/CLIO-Rhodamine-Protamine"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoatings"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical rdf:resource="&wiki;Cross-2Dlinked_dextran"/>
+		<property:Has_Chemical rdf:resource="&wiki;Rhodamine"/>
+		<property:Has_Chemical rdf:resource="&wiki;Protamine"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T15:39:23</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Succinimidyl_Iodoacatate">
+		<rdfs:label>Succinimidyl Iodoacatate</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Succinimidyl_Iodoacatate"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Succinimidyl_Iodoacatate"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Succinimidyl_Iodoacatate">
+		<rdfs:label>Succinimidyl Iodoacatate</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Succinimidyl_Iodoacatate"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Succinimidyl_Iodoacatate"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;CLIO-2DFTIC-2DSI">
+		<rdfs:label>CLIO-FTIC-SI</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;CLIO-FTIC-SI"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/CLIO-FTIC-SI"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoatings"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical rdf:resource="&wiki;Cross-2Dlinked_dextran"/>
+		<property:Has_Chemical rdf:resource="&wiki;FITC"/>
+		<property:Has_Chemical rdf:resource="&wiki;Succinimidyl_Iodoacatate"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T16:05:53</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Tat_Peptide">
+		<rdfs:label>Tat Peptide</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Tat_Peptide"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Tat_Peptide"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoating_Parts"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-29T11:08:48</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;CLIO-2DTatPeptide">
+		<rdfs:label>CLIO-TatPeptide</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;CLIO-TatPeptide"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/CLIO-TatPeptide"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoatings"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical rdf:resource="&wiki;Cross-2Dlinked_dextran"/>
+		<property:Has_Chemical rdf:resource="&wiki;Tat_Peptide"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-29T11:09:17</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;VT680">
+		<rdfs:label>VT680</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;VT680"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/VT680"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoating_Parts"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-29T11:11:40</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;CLIO-2DVT680">
+		<rdfs:label>CLIO-VT680</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;CLIO-VT680"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/CLIO-VT680"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoatings"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical rdf:resource="&wiki;Cross-2Dlinked_dextran"/>
+		<property:Has_Chemical rdf:resource="&wiki;VT680"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-29T11:11:55</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;CLIO-2DVT680-2DProtamine">
+		<rdfs:label>CLIO-VT680-Protamine</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;CLIO-VT680-Protamine"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/CLIO-VT680-Protamine"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoatings"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical rdf:resource="&wiki;Cross-2Dlinked_dextran"/>
+		<property:Has_Chemical rdf:resource="&wiki;VT680"/>
+		<property:Has_Chemical rdf:resource="&wiki;Protamine"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-29T11:13:12</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;DextranCoating">
+		<rdfs:label>DextranCoating</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;DextranCoating"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/DextranCoating"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoatings"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical rdf:resource="&wiki;Dextran"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-29T11:30:26</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Dextran">
+		<rdfs:label>Dextran</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Dextran"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Dextran"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoating_Parts"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-29T11:30:36</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Sucrose">
+		<rdfs:label>Sucrose</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Sucrose"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Sucrose"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoating_Parts"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-29T11:35:55</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;SucroseCoating">
+		<rdfs:label>SucroseCoating</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;SucroseCoating"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/SucroseCoating"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoatings"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical rdf:resource="&wiki;Sucrose"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-29T11:36:09</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;PVA-2DCOOH">
+		<rdfs:label>PVA-COOH</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;PVA-COOH"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/PVA-COOH"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoatings"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical rdf:resource="&wiki;PVA"/>
+		<property:Has_Chemical rdf:resource="&wiki;COOH"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-29T11:44:21</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;PVA">
+		<rdfs:label>PVA</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;PVA"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/PVA"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoating_Parts"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-29T11:44:33</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Ethylene_Diamine">
+		<rdfs:label>Ethylene Diamine</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Ethylene_Diamine"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Ethylene_Diamine"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Ethylene_Diamine">
+		<rdfs:label>Ethylene Diamine</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Ethylene_Diamine"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Ethylene_Diamine"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;ED-2DPVA">
+		<rdfs:label>ED-PVA</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;ED-PVA"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/ED-PVA"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoatings"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical rdf:resource="&wiki;Ethylene_Diamine"/>
+		<property:Has_Chemical rdf:resource="&wiki;PVA"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-29T11:48:23</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;ED-2DPVA">
+		<rdfs:label>ED-PVA</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;ED-PVA"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/ED-PVA"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoatings"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical rdf:resource="&wiki;Ethylene_Diamine"/>
+		<property:Has_Chemical rdf:resource="&wiki;PVA"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-29T11:48:23</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;PVA-2DED-2DVT680">
+		<rdfs:label>PVA-ED-VT680</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;PVA-ED-VT680"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/PVA-ED-VT680"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;PVA-2DED-2DVT680">
+		<rdfs:label>PVA-ED-VT680</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;PVA-ED-VT680"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/PVA-ED-VT680"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;PVA-2DRhodamine-2DProtamine">
+		<rdfs:label>PVA-Rhodamine-Protamine</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;PVA-Rhodamine-Protamine"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/PVA-Rhodamine-Protamine"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoatings"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical rdf:resource="&wiki;PVA"/>
+		<property:Has_Chemical rdf:resource="&wiki;Rhodamine"/>
+		<property:Has_Chemical rdf:resource="&wiki;Protamine"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-29T12:14:26</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;PVA-2DArgCOOH">
+		<rdfs:label>PVA-ArgCOOH</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;PVA-ArgCOOH"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/PVA-ArgCOOH"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoatings"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical rdf:resource="&wiki;PVA"/>
+		<property:Has_Chemical rdf:resource="&wiki;L-2DArginine-2DCOOH"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-29T12:16:46</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;L-2DArginine-2DCOOH">
+		<rdfs:label>L-Arginine-COOH</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;L-Arginine-COOH"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/L-Arginine-COOH"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoating_Parts"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-29T12:17:07</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;COOH-2DPVA">
+		<rdfs:label>COOH-PVA</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;COOH-PVA"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/COOH-PVA"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoatings"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical rdf:resource="&wiki;COOH"/>
+		<property:Has_Chemical rdf:resource="&wiki;PVA"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-29T12:18:35</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;PVA-2DED">
+		<rdfs:label>PVA-ED</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;PVA-ED"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/PVA-ED"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoatings"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical rdf:resource="&wiki;Ethylene_Diamine"/>
+		<property:Has_Chemical rdf:resource="&wiki;PVA"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-29T12:19:16</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Amino_SPARK680">
+		<rdfs:label>Amino SPARK680</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Amino_SPARK680"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Amino_SPARK680"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoating_Parts"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-29T12:20:12</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;PVA-2DAminoSPARK680">
+		<rdfs:label>PVA-AminoSPARK680</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;PVA-AminoSPARK680"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/PVA-AminoSPARK680"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoatings"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical rdf:resource="&wiki;PVA"/>
+		<property:Has_Chemical rdf:resource="&wiki;Amino_SPARK680"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-29T12:20:48</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;PEG">
+		<rdfs:label>PEG</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;PEG"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/PEG"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoating_Parts"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-29T12:21:22</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;PVA-2DPEG-2DED-2DAminoSPARK680">
+		<rdfs:label>PVA-PEG-ED-AminoSPARK680</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;PVA-PEG-ED-AminoSPARK680"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/PVA-PEG-ED-AminoSPARK680"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoatings"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical rdf:resource="&wiki;PVA"/>
+		<property:Has_Chemical rdf:resource="&wiki;PEG"/>
+		<property:Has_Chemical rdf:resource="&wiki;ED"/>
+		<property:Has_Chemical rdf:resource="&wiki;Amino_SPARK680"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-29T12:21:57</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Succinylated_Amino_SPARK680">
+		<rdfs:label>Succinylated Amino SPARK680</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Succinylated_Amino_SPARK680"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Succinylated_Amino_SPARK680"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoating_Parts"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-29T12:23:35</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;PVA-2DED-2DSuccAminoSPARK680">
+		<rdfs:label>PVA-ED-SuccAminoSPARK680</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;PVA-ED-SuccAminoSPARK680"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/PVA-ED-SuccAminoSPARK680"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoatings"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical rdf:resource="&wiki;PVA"/>
+		<property:Has_Chemical rdf:resource="&wiki;Ethylene_Diamine"/>
+		<property:Has_Chemical rdf:resource="&wiki;Succinylated_Amino_SPARK680"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-29T12:24:31</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Amino_SPARK680_IVM">
+		<rdfs:label>Amino SPARK680 IVM</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Amino_SPARK680_IVM"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Amino_SPARK680_IVM"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoating_Parts"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-29T12:25:58</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;PVA-2DPEG-2DAminoSPARK680IVM">
+		<rdfs:label>PVA-PEG-AminoSPARK680IVM</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;PVA-PEG-AminoSPARK680IVM"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/PVA-PEG-AminoSPARK680IVM"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoatings"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical rdf:resource="&wiki;PVA"/>
+		<property:Has_Chemical rdf:resource="&wiki;PEG"/>
+		<property:Has_Chemical rdf:resource="&wiki;Amino_SPARK680_IVM"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-29T12:26:25</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;15-2Dmer_Peptide">
+		<rdfs:label>15-mer Peptide</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;15-mer_Peptide"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/15-mer_Peptide"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoating_Parts"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-29T12:27:17</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;PVA-2D15Peptide">
+		<rdfs:label>PVA-15Peptide</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;PVA-15Peptide"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/PVA-15Peptide"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoatings"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical rdf:resource="&wiki;PVA"/>
+		<property:Has_Chemical rdf:resource="&wiki;15-2Dmer_Peptide"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-29T12:27:48</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;PVA-2DProtamine-2DRhodamine">
+		<rdfs:label>PVA-Protamine-Rhodamine</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;PVA-Protamine-Rhodamine"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/PVA-Protamine-Rhodamine"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoatings"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical rdf:resource="&wiki;PVA"/>
+		<property:Has_Chemical rdf:resource="&wiki;Protamine"/>
+		<property:Has_Chemical rdf:resource="&wiki;Rhodamine"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-29T12:28:52</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;PVA-2DArg7COOH">
+		<rdfs:label>PVA-Arg7COOH</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;PVA-Arg7COOH"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/PVA-Arg7COOH"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoatings"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical rdf:resource="&wiki;PVA"/>
+		<property:Has_Chemical rdf:resource="&wiki;L-2DArginine-2D7-2DCOOH"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-29T12:29:59</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;L-2DArginine-2D7-2DCOOH">
+		<rdfs:label>L-Arginine-7-COOH</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;L-Arginine-7-COOH"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/L-Arginine-7-COOH"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoating_Parts"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-29T12:30:37</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;VT750">
+		<rdfs:label>VT750</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;VT750"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/VT750"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoating_Parts"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-29T12:32:22</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;PVA-2DED-2DVT750">
+		<rdfs:label>PVA-ED-VT750</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;PVA-ED-VT750"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/PVA-ED-VT750"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoatings"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical rdf:resource="&wiki;Ethylene_Diamine"/>
+		<property:Has_Chemical rdf:resource="&wiki;PVA"/>
+		<property:Has_Chemical rdf:resource="&wiki;VT750"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-29T12:32:49</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;PVA-2DPEG-2DED-2DVT750">
+		<rdfs:label>PVA-PEG-ED-VT750</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;PVA-PEG-ED-VT750"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/PVA-PEG-ED-VT750"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoatings"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical rdf:resource="&wiki;PVA"/>
+		<property:Has_Chemical rdf:resource="&wiki;PEG"/>
+		<property:Has_Chemical rdf:resource="&wiki;Ethylene_Diamine"/>
+		<property:Has_Chemical rdf:resource="&wiki;VT750"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-29T12:33:35</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;D-2DArginine-2D7-2DCOOH">
+		<rdfs:label>D-Arginine-7-COOH</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;D-Arginine-7-COOH"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/D-Arginine-7-COOH"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoating_Parts"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-29T12:34:29</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;PVA-2DDArg7COOH">
+		<rdfs:label>PVA-DArg7COOH</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;PVA-DArg7COOH"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/PVA-DArg7COOH"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoatings"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical rdf:resource="&wiki;PVA"/>
+		<property:Has_Chemical rdf:resource="&wiki;D-2DArginine-2D7-2DCOOH"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-29T12:35:17</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;PVA-2DED-2DAminoSPARK680">
+		<rdfs:label>PVA-ED-AminoSPARK680</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;PVA-ED-AminoSPARK680"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/PVA-ED-AminoSPARK680"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoatings"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical rdf:resource="&wiki;PVA"/>
+		<property:Has_Chemical rdf:resource="&wiki;Ethylene_Diamine"/>
+		<property:Has_Chemical rdf:resource="&wiki;Amino_SPARK680"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-29T12:36:24</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;PVA-2DPEG">
+		<rdfs:label>PVA-PEG</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;PVA-PEG"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/PVA-PEG"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoatings"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical rdf:resource="&wiki;PVA"/>
+		<property:Has_Chemical rdf:resource="&wiki;PEG"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-29T12:38:31</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;ArabinoGalactanCoating">
+		<rdfs:label>ArabinoGalactanCoating</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;ArabinoGalactanCoating"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/ArabinoGalactanCoating"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoatings"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical rdf:resource="&wiki;Arabino_Galactan"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-29T12:39:29</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Arabino_Galactan">
+		<rdfs:label>Arabino Galactan</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Arabino_Galactan"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Arabino_Galactan"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoating_Parts"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-29T12:39:43</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;CarboxymethylDextranCoating">
+		<rdfs:label>CarboxymethylDextranCoating</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;CarboxymethylDextranCoating"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/CarboxymethylDextranCoating"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoatings"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical rdf:resource="&wiki;Carboxymethyl_Dextran"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-29T12:41:22</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Carboxymethyl_Dextran">
+		<rdfs:label>Carboxymethyl Dextran</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Carboxymethyl_Dextran"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Carboxymethyl_Dextran"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoating_Parts"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-29T12:41:46</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Amphiphillic_Polymer">
+		<rdfs:label>Amphiphillic Polymer</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Amphiphillic_Polymer"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Amphiphillic_Polymer"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoating_Parts"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-29T12:42:53</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;AmphPolymer-2DPEG">
+		<rdfs:label>AmphPolymer-PEG</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;AmphPolymer-PEG"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/AmphPolymer-PEG"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoatings"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical rdf:resource="&wiki;Amphiphillic_Polymer"/>
+		<property:Has_Chemical rdf:resource="&wiki;PEG"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-29T12:43:56</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;COOH-2DAmphPolymer">
+		<rdfs:label>COOH-AmphPolymer</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;COOH-AmphPolymer"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/COOH-AmphPolymer"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoatings"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical rdf:resource="&wiki;COOH"/>
+		<property:Has_Chemical rdf:resource="&wiki;Amphiphillic_Polymer"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-29T12:44:32</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<owl:DatatypeProperty rdf:about="&swivt;creationDate" />
 	<owl:ObjectProperty rdf:about="&swivt;page" />
