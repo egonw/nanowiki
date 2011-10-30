@@ -558,6 +558,48 @@ You can browse this data via one of the following categories:
 ** cd ~/var/Projects/hg/kirepos/projects/nanotoxwiki
 ** mysqldump -u root -p wikidb --default-character-set=latin1 &gt; backup.sql.txt</text>
     </revision>
+    <revision>
+      <id>1221</id>
+      <timestamp>2011-10-30T08:04:11Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>/* Backups */</comment>
+      <text xml:space="preserve">Egon's Lab Notebook.
+
+== Nanomaterial Database ==
+
+Database containing QSAR studies from literature with assay data from cell line experiments.
+You can browse this data via one of the following categories:
+
+* [[:Category:NanoMaterials|Nanomaterials]] ({{#ask: [[Category:NanoMaterials]] | format=count}}),
+** [[:Category:MetalOxides|Metal oxides]] ({{#ask: [[Category:MetalOxides]] | format=count}}), [[:Category:Metals|Metals]] ({{#ask: [[Category:Metals]] | format=count}}), [[:Category:Alloys|Alloys]] ({{#ask: [[Category:Alloys]] | format=count}})
+** [[:Category:Coatings|Coatings]] ({{#ask: [[Category:Coatings]] | format=count}})
+** [[:Category:Coating_Parts|Coating Parts]] ({{#ask: [[Category:Coating_Parts]] | format=count}})
+* [[:Category:Studies|Studies]] ({{#ask: [[Category:Studies]] | format=count}}), [[:Category:Measurements|Measurements]] ({{#ask: [[Category:Measurements]] | format=count}}),
+** [[:Category:NanoMaterials|NanoMaterials]] ({{#ask: [[Category:Studies]] [[Has Entities::!Compounds]] | format=count}}), of which Metal oxides ({{#ask: [[Category:Studies]] [[Has Entities::MetalOxides]] | format=count}}),
+** [[:Category:Compounds|Compounds]] ({{#ask: [[Category:Studies]] [[Has Entities::Compounds]] | format=count}})
+* [[:Category:Papers|Papers]] ({{#ask: [[Category:Papers]] | format=count}}) , [[:Category:PapersToRead|To Read]] ({{#ask: [[Category:PapersToRead]] | format=count}})
+* [[:Category:Descriptors|Descriptors]] ({{#ask: [[Category:Descriptors]] | format=count}}),
+* [[:Category:Endpoints|Endpoints]] ({{#ask: [[Category:Endpoints]] | format=count}}),
+* [[:Category:Toxicity|Toxicity]] ({{#ask: [[Category:Toxicity]] | format=count}}),
+* [[:Category:CellLines|Cell lines]] ({{#ask: [[Category:CellLines]] | format=count}}).
+
+== Backups ==
+
+* [[Special:ExportRDF|Export RDF]]
+** sudo bash
+** export MW_INSTALL_PATH=/usr/share/mediawiki
+** php /usr/share/mediawiki-extensions/SemanticMediaWiki/maintenance/SMW_dumpRDF.php --conf /etc/mediawiki/LocalSettings.php &gt; backup.rdf.txt
+* dumpBackup.php
+** cd ~/var/Projects/hg/kirepos/projects/nanotoxwiki
+** sudo php /usr/share/mediawiki/maintenance/dumpBackup.php --conf /etc/mediawiki/LocalSettings.php --full &gt; backup.xml.txt
+** (this required adding an /etc/mediawiki/AdminSettings.php with db account info, '''wrapped''' in ''&lt;?php ?&gt;'')
+* see ~/var/Projects/hg/kirepos/projects/nanotoxwiki/README
+** cd ~/var/Projects/hg/kirepos/projects/nanotoxwiki
+** mysqldump -u root -p wikidb --default-character-set=latin1 &gt; backup.sql.txt</text>
+    </revision>
   </page>
   <page>
     <title>MediaWiki:Smw uri blacklist</title>
@@ -3764,6 +3806,180 @@ You can browse this data via one of the following categories:
 {{#set:
 |Has Size Units={{{Has Size Units|}}}
 }}
+| }}
+{{#if:{{{Has Label|}}} |
+{{#set:
+|Has Label={{{Has Label|}}}
+}}
+| }}
+{{#if:{{{Has Identifier|}}} |
+{{#set:
+|Has Identifier={{{Has Identifier|}}}
+}}
+| }}
+{{#if:{{{Has Chemical Composition|}}} |
+{{#set:
+|Has Chemical Composition={{{Has Chemical Composition|}}}
+}}
+| }}
+{{#if:{{{Has Chemical Coating|}}} |
+{{#set:
+|Has Chemical Coating={{{Has Chemical Coating|}}}
+}}
+| }}
+{{#if:{{{Has NM Type|}}} |
+{{#set:
+|Has NM Type={{{Has NM Type|}}}
+}}
+[[Category:{{{Has NM Type|}}}s]]
+| }}
+{{#if:{{{Has Zeta potential|}}} |
+{{#set:
+|Has Zeta potential={{{Has Zeta potential|}}}
+}}
+| }}
+{{#if:{{{Has Zeta Units|}}} |
+{{#set:
+|Has Zeta Units={{{Has Zeta Units|}}}
+}}
+| }}
+{{#if:{{{Has Zeta Error|}}} |
+{{#set:
+|Has Zeta Error={{{Has Zeta Error|}}}
+}}
+| }}
+[[Category:NanoMaterials]]__NOEDITSECTION____NOTOC__
+&lt;/includeonly&gt;</text>
+    </revision>
+    <revision>
+      <id>1301</id>
+      <timestamp>2011-10-30T10:44:44Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">&lt;noinclude&gt;
+&lt;pre&gt;
+{{NanoMaterial
+|Has Identifier=
+|Has Label=
+|Has Chemical Composition=
+|Has Chemical Coating=
+|Image=
+|Has NM Type=
+|Has Size=
+|Has Size Min=
+|Has Size Max=
+|Has Size Error=
+|Has Size Units=
+|Has Size Method=
+|Has Zeta potential=
+|Has Zeta Units=
+|Has Zeta Error=
+}}
+&lt;/pre&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: right; table-layout:fixed; word-wrap: break-word;&quot;
+! colspan=2 style=&quot;text-align: center;background-color: #ddd;&quot; | Nanomaterial
+|-
+! colspan=2 style=&quot;text-align: center; font-size: 125%&quot; | {{{Name|{{PAGENAME}}}}}
+{{#if:{{{Image|}}}|
+{{!}}-
+{{!}} Image
+{{!}} {{{Image}}}
+}}
+|-
+{{#if:{{{Has Label|}}}|
+{{!}}-
+{{!}} Label
+{{!}} {{{Has Label}}} 
+}}
+|-
+{{#if:{{{Has Identifier|}}}|
+{{!}}-
+{{!}} Identifier
+{{!}} {{{Has Identifier}}} 
+}}
+|-
+{{#if:{{{Has Chemical Composition|}}}|
+{{!}}-
+{{!}} Chemical Composition
+{{!}} {{{Has Chemical Composition}}} 
+}}
+|-
+{{#if:{{{Has Chemical Coating|}}}|
+{{!}}-
+{{!}} Chemical Coating
+{{!}} {{{Has Chemical Coating}}} 
+}}
+|-
+! colspan=2 style=&quot;text-align: center;background-color: #ddd;&quot; | Properties
+|-
+{{#if:{{{Has Size|}}}|
+{{!}}-
+{{!}} Size
+{{!}} {{{Has Size}}} {{#if:{{{Has Size Error|}}}|± {{{Has Size Error}}}}} {{#if:{{{Has Size Units|}}}|{{{Has Size Units}}}}} {{#if:{{{Has Size Method|}}}| ({{{Has Size Method}}})}}
+}}
+{{#if:{{{Has Size Min|}}}|
+{{!}}-
+{{!}} Size
+{{!}} {{{Has Size Min}}} - {{{Has Size Max}}} {{#if:{{{Has Size Units|}}}|{{{Has Size Units}}}}} {{#if:{{{Has Size Method|}}}| ({{{Has Size Method}}})}}
+}}
+{{#if:{{{Has NM Type|}}}|
+{{!}}-
+{{!}} Type
+{{!}} {{{Has NM Type}}} 
+}}
+{{#if:{{{Has Zeta potential|}}}|
+{{!}}-
+{{!}} Zeta potential
+{{!}} {{{Has Zeta potential}}} {{#if:{{{Has Zeta Error|}}}|± {{{Has Zeta Error}}}}} {{#if:{{{Has Zeta Units|}}}|{{{Has Zeta Units}}}}}
+}}
+|}
+&lt;br&gt;
+= Measurements =
+{{#ask: [[Category:Measurements]] [[Has Entity::{{PAGENAME}}]]
+| ?Has Endpoint Value
+| format=jqplotbar
+| sort=Has Endpoint Value
+| order=ascending
+| height=250
+| width=600
+}}
+{{#ask: [[Category:Measurements]] [[Has Entity::{{PAGENAME}}]]
+| ?Has Entity #
+| ?Has Dose #
+| ?Has Endpoint Value #
+| sort=Has Endpoint Value
+| order=ascending
+}}
+{{#if:{{{Has Size|}}} |
+{{#set:
+|Has Size={{{Has Size|}}}
+}}
+| }}
+{{#if:{{{Has Size Min|}}} |
+{{#set:
+|Has Size Min={{{Has Size Min|}}}
+}}
+| }}
+{{#if:{{{Has Size Max|}}} |
+{{#set:
+|Has Size Max={{{Has Size Max|}}}
+}}
+| }}
+{{#if:{{{Has Size Error|}}} |
+{{#set:
+|Has Size Error={{{Has Size Error|}}}
+}}
+| }}
+{{#if:{{{Has Size Units|}}} |
+{{#set:
+|Has Size Units={{{Has Size Units|}}}
+}}
+| }}
+{{#if:{{{Has Size Method|}}} |
+  {{#set: |Has Size Method={{{Has Size Method|}}} }}
 | }}
 {{#if:{{{Has Label|}}} |
 {{#set:
@@ -9412,6 +9628,180 @@ This database contains the following nanomaterials:
 [[Category:Studies]]__NOEDITSECTION____NOTOC__
 &lt;/includeonly&gt;</text>
     </revision>
+    <revision>
+      <id>1276</id>
+      <timestamp>2011-10-30T09:37:30Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">&lt;noinclude&gt;
+&lt;pre&gt;
+{{Study
+|Description=
+|Has Identifier=
+|Has Source=
+|Has Entities=
+|Has Endpoint=
+|For Cell line=
+|Has Study Type=
+|Has Object Count=
+|Has R2=
+|Has Q2=
+|Has RMSEP=
+|Has EA=
+}}
+&lt;/pre&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: right; table-layout:fixed; word-wrap: break-word;&quot;
+! colspan=2 style=&quot;text-align: center;background-color: #ddd;&quot; | Study
+|-
+! colspan=2 style=&quot;text-align: center; font-size: 125%&quot; | {{{Name|{{PAGENAME}} }}}
+|-
+! colspan=2 style=&quot;text-align: center;background-color: #ddd;&quot; | Description
+|-
+{{#if:{{{Has Description|}}}|
+{{!}}-
+{{!}} Description
+{{!}} {{{Has Description}}} 
+}}
+{{#if:{{{Has Identifier|}}}|
+{{!}}-
+{{!}} Identifier
+{{!}} {{{Has Identifier}}} 
+}}
+{{#if:{{{Has Entities|}}}|
+{{!}}-
+{{!}} Entities
+{{!}} [[:Category:{{{Has Entities}}}|{{{Has Entities}}}]]
+}}
+{{#if:{{{Has Source|}}}|
+{{!}}-
+{{!}} Source
+{{!}} [[{{{Has Source}}}]]
+}}
+|-
+! colspan=2 style=&quot;text-align: center;background-color: #ddd;&quot; | Biology
+{{#if:{{{Has Endpoint|}}}|
+{{!}}-
+{{!}} Endpoint
+{{!}} [[{{{Has Endpoint}}}]]
+}}
+{{#if:{{{For Cell line|}}}|
+{{!}}-
+{{!}} Cell Line
+{{!}} [[{{{For Cell line}}}]]
+}}
+|-
+! colspan=2 style=&quot;text-align: center;background-color: #ddd;&quot; | Statistics
+{{#if:{{{Has Study Type|}}}|
+{{!}}-
+{{!}} Study Type
+{{!}} {{{Has Study Type}}}
+}}
+{{#if:{{{Has Object Count|}}}|
+{{!}}-
+{{!}} Object Count
+{{!}} {{{Has Object Count}}}
+}}
+{{#if:{{{Has R2|}}}|
+{{!}}-
+{{!}} R2
+{{!}} {{{Has R2}}}
+}}
+{{#if:{{{Has Q2|}}}|
+{{!}}-
+{{!}} Q2
+{{!}} {{{Has Q2}}}
+}}
+{{#if:{{{Has RMSEP|}}}|
+{{!}}-
+{{!}} RMSEP
+{{!}} {{{Has RMSEP}}}
+}}
+{{#if:{{{Has EA|}}}|
+{{!}}-
+{{!}} External Accuracy
+{{!}} {{{Has EA}}} %
+}}
+|}
+&lt;br&gt;
+= Relationships =
+{{#ask: [[Category:Relationships]] [[From Study::{{PAGENAME}}]]
+| ?Has Descriptor
+| ?Has Relation
+| ?Has End point
+}}
+= Studied entities =
+{{#ask: [[Used in Study::{{PAGENAME}}]]
+| ?Has Label
+| ?Has Size
+| ?Has Chemical Composition
+| ?Has Chemical Coating
+}}
+{{#if:{{{Has Description|}}} |
+{{#set:
+|Has Description={{{Has Description|}}}
+}}
+| }}
+{{#if:{{{Has Identifier|}}} |
+{{#set:
+|Has Identifier={{{Has Identifier|}}}
+}}
+| }}
+{{#if:{{{Has Entities|}}} |
+{{#set:
+|Has Entities={{{Has Entities|}}}
+}}
+| }}
+{{#if:{{{Has Endpoint|}}} |
+{{#set:
+|Has Endpoint={{{Has Endpoint|}}}
+}}
+| }}
+{{#if:{{{For Cell line|}}} |
+{{#set:
+|For Cell line={{{For Cell line|}}}
+}}
+| }}
+{{#if:{{{Has Source|}}} |
+{{#set:
+|Has Source={{{Has Source|}}}
+}}
+| }}
+{{#if:{{{Has Object Count|}}} |
+{{#set:
+|Has Object Count={{{Has Object Count|}}}
+}}
+| }}
+{{#if:{{{Has R2|}}} |
+{{#set:
+|Has R2={{{Has R2|}}}
+}}
+| }}
+{{#if:{{{Has Q2|}}} |
+{{#set:
+|Has Q2={{{Has Q2|}}}
+}}
+| }}
+{{#if:{{{Has RMSEP|}}} |
+{{#set:
+|Has RMSEP={{{Has RMSEP|}}}
+}}
+| }}
+{{#if:{{{Has EA|}}} |
+{{#set:
+|Has EA={{{Has EA|}}}
+}}
+| }}
+{{#if:{{{Has Study Type|}}} |
+{{#set:
+|Has Study Type={{{Has Study Type|}}}
+}}
+| }}
+[[Category:Studies]]__NOEDITSECTION____NOTOC__
+&lt;/includeonly&gt;</text>
+    </revision>
   </page>
   <page>
     <title>Template:Paper</title>
@@ -10452,6 +10842,517 @@ Template that causes pages to show up as [[:Category:Papers|Papers]].
 [[Category:Papers]]__NOEDITSECTION____NOTOC__
 &lt;/includeonly&gt;</text>
     </revision>
+    <revision>
+      <id>1223</id>
+      <timestamp>2011-10-30T08:07:45Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">&lt;noinclude&gt;
+Template that causes pages to show up as [[:Category:Papers|Papers]].
+&lt;pre&gt;
+{{Paper
+|Has Year=
+|Has DOI=
+|Substances extracted=
+|Relationships extracted=
+|Read=
+|Summary=
+}}
+&lt;/pre&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: right; table-layout:fixed; word-wrap: break-word;&quot;
+! colspan=2 style=&quot;text-align: center; font-size: 125%&quot; | {{{Name|{{PAGENAME}} }}}
+|-
+{{#if:{{{Has Year|}}}|
+{{!}}-
+{{!}} Year
+{{!}} {{{Has Year}}} 
+}}
+{{#if:{{{Has DOI|}}}|
+{{!}}-
+{{!}} DOI
+{{!}} {{{Has DOI}}} 
+}}
+{{#if:{{{Substances extracted|}}}|
+{{!}}-
+{{!}} Substances
+{{!}} {{{Substances extracted}}} 
+}}
+{{#if:{{{Relationships extracted|}}}|
+{{!}}-
+{{!}} Relationships
+{{!}} {{{Relationships extracted}}} 
+}}
+{{#if:{{{Read|}}}|
+{{!}}-
+{{!}} Read
+{{!}} {{{Read}}} 
+}}
+|}
+{{#if:{{{Summary|}}}|
+== Summary ==
+{{{Summary}}} 
+}}
+== Relationships ==
+{{#ask: [[Category:Relationships]] [[Has Source::{{PAGENAME}}]]
+| ? Has Descriptor
+| ? Has Relation
+| ? Has End point
+| ? Has Source
+}}
+
+== Studies ==
+{{#ask: [[Category:Studies]] [[Has Source::{{PAGENAME}}]]
+| ? Has Study Type
+| ? Has Object Count
+| ? Has R2
+| ? Has Q2
+| ? Has RMSEP
+| ? Has EA
+}}
+
+{{#if:{{{Has DOI|}}} |
+{{#set:
+|Has DOI={{{Has DOI|}}}
+}}
+{{#set:
+|Equivalent URI=http://dx.doi.org/{{{Has DOI|}}}
+}}
+| }}
+{{#if:{{{Has Year|}}} |
+{{#set:
+|Has Year={{{Has Year|}}}
+}}
+| }}
+{{#if:{{{Substances extracted|}}} |
+{{#set:
+|Substances extracted={{{Substances extracted|}}}
+}}
+| }}
+{{#if:{{{Relationships extracted|}}} |
+{{#set:
+|Relationships extracted={{{Relationships extracted|}}}
+}}
+| }}
+{{#if:{{{Read|}}} or {{{Relationships extracted|}}} or {{{Substances extracted|}}} |
+|
+[[Category:PapersToRead]]
+}}
+[[Category:Papers]]__NOEDITSECTION____NOTOC__
+&lt;/includeonly&gt;</text>
+    </revision>
+    <revision>
+      <id>1225</id>
+      <timestamp>2011-10-30T08:08:25Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">&lt;noinclude&gt;
+Template that causes pages to show up as [[:Category:Papers|Papers]].
+&lt;pre&gt;
+{{Paper
+|Has Year=
+|Has DOI=
+|Substances extracted=
+|Relationships extracted=
+|Read=
+|Summary=
+}}
+&lt;/pre&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: right; table-layout:fixed; word-wrap: break-word;&quot;
+! colspan=2 style=&quot;text-align: center; font-size: 125%&quot; | {{{Name|{{PAGENAME}} }}}
+|-
+{{#if:{{{Has Year|}}}|
+{{!}}-
+{{!}} Year
+{{!}} {{{Has Year}}} 
+}}
+{{#if:{{{Has DOI|}}}|
+{{!}}-
+{{!}} DOI
+{{!}} {{{Has DOI}}} 
+}}
+{{#if:{{{Substances extracted|}}}|
+{{!}}-
+{{!}} Substances
+{{!}} {{{Substances extracted}}} 
+}}
+{{#if:{{{Relationships extracted|}}}|
+{{!}}-
+{{!}} Relationships
+{{!}} {{{Relationships extracted}}} 
+}}
+{{#if:{{{Read|}}}|
+{{!}}-
+{{!}} Read
+{{!}} {{{Read}}} 
+}}
+|}
+{{#if:{{{Summary|}}}|
+{{{Summary}}} 
+}}
+== Relationships ==
+{{#ask: [[Category:Relationships]] [[Has Source::{{PAGENAME}}]]
+| ? Has Descriptor
+| ? Has Relation
+| ? Has End point
+| ? Has Source
+}}
+
+== Studies ==
+{{#ask: [[Category:Studies]] [[Has Source::{{PAGENAME}}]]
+| ? Has Study Type
+| ? Has Object Count
+| ? Has R2
+| ? Has Q2
+| ? Has RMSEP
+| ? Has EA
+}}
+
+{{#if:{{{Has DOI|}}} |
+{{#set:
+|Has DOI={{{Has DOI|}}}
+}}
+{{#set:
+|Equivalent URI=http://dx.doi.org/{{{Has DOI|}}}
+}}
+| }}
+{{#if:{{{Has Year|}}} |
+{{#set:
+|Has Year={{{Has Year|}}}
+}}
+| }}
+{{#if:{{{Substances extracted|}}} |
+{{#set:
+|Substances extracted={{{Substances extracted|}}}
+}}
+| }}
+{{#if:{{{Relationships extracted|}}} |
+{{#set:
+|Relationships extracted={{{Relationships extracted|}}}
+}}
+| }}
+{{#if:{{{Read|}}} or {{{Relationships extracted|}}} or {{{Substances extracted|}}} |
+|
+[[Category:PapersToRead]]
+}}
+[[Category:Papers]]__NOEDITSECTION____NOTOC__
+&lt;/includeonly&gt;</text>
+    </revision>
+    <revision>
+      <id>1262</id>
+      <timestamp>2011-10-30T09:19:31Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">&lt;noinclude&gt;
+Template that causes pages to show up as [[:Category:Papers|Papers]].
+&lt;pre&gt;
+{{Paper
+|Has Year=
+|Has DOI=
+|Substances extracted=
+|Relationships extracted=
+|Read=
+|Summary=
+}}
+&lt;/pre&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: right; table-layout:fixed; word-wrap: break-word;&quot;
+! colspan=2 style=&quot;text-align: center; font-size: 125%&quot; | {{{Name|{{PAGENAME}} }}}
+|-
+{{#if:{{{Has Year|}}}|
+{{!}}-
+{{!}} Year
+{{!}} {{{Has Year}}} 
+}}
+{{#if:{{{Has DOI|}}}|
+{{!}}-
+{{!}} DOI
+{{!}} {{{Has DOI}}} 
+}}
+{{#if:{{{Substances extracted|}}}|
+{{!}}-
+{{!}} Substances
+{{!}} {{{Substances extracted}}} 
+}}
+{{#if:{{{Relationships extracted|}}}|
+{{!}}-
+{{!}} Relationships
+{{!}} {{{Relationships extracted}}} 
+}}
+{{#if:{{{Read|}}}|
+{{!}}-
+{{!}} Read
+{{!}} {{{Read}}} 
+}}
+|}
+{{#if:{{{Summary|}}}|
+{{{Summary}}} 
+}}
+== Relationships ==
+{{#ask: [[Category:Relationships]] [[Has Source::{{PAGENAME}}]]
+| ? Has Descriptor
+| ? Has Relation
+| ? Has End point
+}}
+
+== Studies ==
+{{#ask: [[Category:Studies]] [[Has Source::{{PAGENAME}}]]
+| ? Has Study Type
+| ? Has Object Count
+| ? Has R2
+| ? Has Q2
+| ? Has RMSEP
+| ? Has EA
+}}
+
+{{#if:{{{Has DOI|}}} |
+{{#set:
+|Has DOI={{{Has DOI|}}}
+}}
+{{#set:
+|Equivalent URI=http://dx.doi.org/{{{Has DOI|}}}
+}}
+| }}
+{{#if:{{{Has Year|}}} |
+{{#set:
+|Has Year={{{Has Year|}}}
+}}
+| }}
+{{#if:{{{Substances extracted|}}} |
+{{#set:
+|Substances extracted={{{Substances extracted|}}}
+}}
+| }}
+{{#if:{{{Relationships extracted|}}} |
+{{#set:
+|Relationships extracted={{{Relationships extracted|}}}
+}}
+| }}
+{{#if:{{{Read|}}} or {{{Relationships extracted|}}} or {{{Substances extracted|}}} |
+|
+[[Category:PapersToRead]]
+}}
+[[Category:Papers]]__NOEDITSECTION____NOTOC__
+&lt;/includeonly&gt;</text>
+    </revision>
+    <revision>
+      <id>1284</id>
+      <timestamp>2011-10-30T09:46:24Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">&lt;noinclude&gt;
+Template that causes pages to show up as [[:Category:Papers|Papers]].
+&lt;pre&gt;
+{{Paper
+|Has Year=
+|Has DOI=
+|Substances extracted=
+|Relationships extracted=
+|Read=
+|Summary=
+}}
+&lt;/pre&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: right; table-layout:fixed; word-wrap: break-word;&quot;
+! colspan=2 style=&quot;text-align: center; font-size: 125%&quot; | {{{Name|{{PAGENAME}} }}}
+|-
+{{#if:{{{Has Year|}}}|
+{{!}}-
+{{!}} Year
+{{!}} {{{Has Year}}} 
+}}
+{{#if:{{{Has DOI|}}}|
+{{!}}-
+{{!}} DOI
+{{!}} {{{Has DOI}}} 
+}}
+{{#if:{{{Substances extracted|}}}|
+{{!}}-
+{{!}} Substances
+{{!}} {{{Substances extracted}}} 
+}}
+{{#if:{{{Relationships extracted|}}}|
+{{!}}-
+{{!}} Relationships
+{{!}} {{{Relationships extracted}}} 
+}}
+{{#if:{{{Read|}}}|
+{{!}}-
+{{!}} Read
+{{!}} {{{Read}}} 
+}}
+|}
+{{#if:{{{Summary|}}}|
+{{{Summary}}} 
+}}
+== Relationships ==
+{{#ask: [[Category:Relationships]] [[Has Source::{{PAGENAME}}]]
+| ? Has Descriptor
+| ? Has Relation
+| ? Has End point
+}}
+{{#ask: [[Category:Relationships]] [[From Study.Has Source::{{PAGENAME}}]]
+| ? Has Descriptor
+| ? Has Relation
+| ? Has End point
+| ? Has Source
+}}
+
+== Studies ==
+{{#ask: [[Category:Studies]] [[Has Source::{{PAGENAME}}]]
+| ? Has Study Type
+| ? Has Object Count
+| ? Has R2
+| ? Has Q2
+| ? Has RMSEP
+| ? Has EA
+}}
+
+{{#if:{{{Has DOI|}}} |
+{{#set:
+|Has DOI={{{Has DOI|}}}
+}}
+{{#set:
+|Equivalent URI=http://dx.doi.org/{{{Has DOI|}}}
+}}
+| }}
+{{#if:{{{Has Year|}}} |
+{{#set:
+|Has Year={{{Has Year|}}}
+}}
+| }}
+{{#if:{{{Substances extracted|}}} |
+{{#set:
+|Substances extracted={{{Substances extracted|}}}
+}}
+| }}
+{{#if:{{{Relationships extracted|}}} |
+{{#set:
+|Relationships extracted={{{Relationships extracted|}}}
+}}
+| }}
+{{#if:{{{Read|}}} or {{{Relationships extracted|}}} or {{{Substances extracted|}}} |
+|
+[[Category:PapersToRead]]
+}}
+[[Category:Papers]]__NOEDITSECTION____NOTOC__
+&lt;/includeonly&gt;</text>
+    </revision>
+    <revision>
+      <id>1285</id>
+      <timestamp>2011-10-30T09:48:45Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">&lt;noinclude&gt;
+Template that causes pages to show up as [[:Category:Papers|Papers]].
+&lt;pre&gt;
+{{Paper
+|Has Year=
+|Has DOI=
+|Substances extracted=
+|Relationships extracted=
+|Read=
+|Summary=
+}}
+&lt;/pre&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: right; table-layout:fixed; word-wrap: break-word;&quot;
+! colspan=2 style=&quot;text-align: center; font-size: 125%&quot; | {{{Name|{{PAGENAME}} }}}
+|-
+{{#if:{{{Has Year|}}}|
+{{!}}-
+{{!}} Year
+{{!}} {{{Has Year}}} 
+}}
+{{#if:{{{Has DOI|}}}|
+{{!}}-
+{{!}} DOI
+{{!}} {{{Has DOI}}} 
+}}
+{{#if:{{{Substances extracted|}}}|
+{{!}}-
+{{!}} Substances
+{{!}} {{{Substances extracted}}} 
+}}
+{{#if:{{{Relationships extracted|}}}|
+{{!}}-
+{{!}} Relationships
+{{!}} {{{Relationships extracted}}} 
+}}
+{{#if:{{{Read|}}}|
+{{!}}-
+{{!}} Read
+{{!}} {{{Read}}} 
+}}
+|}
+{{#if:{{{Summary|}}}|
+{{{Summary}}} 
+}}
+== Relationships ==
+{{#ask: [[Category:Relationships]] [[Has Source::{{PAGENAME}}]]
+| ? Has Descriptor
+| ? Has Relation
+| ? Has End point
+| ? Has Source
+}}
+{{#ask: [[Category:Relationships]] [[From Study.Has Source::{{PAGENAME}}]]
+| ? Has Descriptor
+| ? Has Relation
+| ? Has End point
+| ? From Study
+}}
+
+== Studies ==
+{{#ask: [[Category:Studies]] [[Has Source::{{PAGENAME}}]]
+| ? Has Study Type
+| ? Has Object Count
+| ? Has R2
+| ? Has Q2
+| ? Has RMSEP
+| ? Has EA
+}}
+
+{{#if:{{{Has DOI|}}} |
+{{#set:
+|Has DOI={{{Has DOI|}}}
+}}
+{{#set:
+|Equivalent URI=http://dx.doi.org/{{{Has DOI|}}}
+}}
+| }}
+{{#if:{{{Has Year|}}} |
+{{#set:
+|Has Year={{{Has Year|}}}
+}}
+| }}
+{{#if:{{{Substances extracted|}}} |
+{{#set:
+|Substances extracted={{{Substances extracted|}}}
+}}
+| }}
+{{#if:{{{Relationships extracted|}}} |
+{{#set:
+|Relationships extracted={{{Relationships extracted|}}}
+}}
+| }}
+{{#if:{{{Read|}}} or {{{Relationships extracted|}}} or {{{Substances extracted|}}} |
+|
+[[Category:PapersToRead]]
+}}
+[[Category:Papers]]__NOEDITSECTION____NOTOC__
+&lt;/includeonly&gt;</text>
+    </revision>
   </page>
   <page>
     <title>Puzyn2011</title>
@@ -10650,6 +11551,58 @@ Template that causes pages to show up as [[:Category:Papers|Papers]].
 | ? Substances extracted
 | ? Relationships extracted
 | ? Read
+| sort=Has Year
+}}</text>
+    </revision>
+    <revision>
+      <id>1237</id>
+      <timestamp>2011-10-30T08:41:59Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">Journal papers described in this database.
+
+{{#ask: [[Category:Papers]]
+| ? Has Year
+| ? Has DOI
+| ? Substances extracted
+| ? Relationships extracted
+| sort=Has Year
+}}</text>
+    </revision>
+    <revision>
+      <id>1238</id>
+      <timestamp>2011-10-30T08:42:34Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">Journal papers described in this database.
+
+{{#ask: [[Category:Papers]]
+| ? Has Year
+| ? Has DOI
+| ? Substances extracted
+| ? Relationships extracted
+| ? Summary
+| sort=Has Year
+}}</text>
+    </revision>
+    <revision>
+      <id>1240</id>
+      <timestamp>2011-10-30T08:43:06Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">Journal papers described in this database.
+
+{{#ask: [[Category:Papers]]
+| ? Has Year
+| ? Has DOI
+| ? Substances extracted
+| ? Relationships extracted
 | sort=Has Year
 }}</text>
     </revision>
@@ -10885,6 +11838,58 @@ Template that causes pages to show up as [[:Category:Papers|Papers]].
 [[Category:Endpoints]]__NOEDITSECTION____NOTOC__
 &lt;/includeonly&gt;</text>
     </revision>
+    <revision>
+      <id>1275</id>
+      <timestamp>2011-10-30T09:31:48Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">&lt;noinclude&gt;
+&lt;pre&gt;
+{{Endpoint
+|Description=
+|Has Assay Type=
+}}
+&lt;/pre&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: right; table-layout:fixed; word-wrap: break-word;&quot;
+! colspan=2 style=&quot;text-align: center; font-size: 125%&quot; | {{{Name|{{PAGENAME}} }}}
+|-
+! colspan=2 style=&quot;text-align: center;background-color: #ddd;&quot; | Description
+|-
+{{#if:{{{Description|}}}|
+{{!}}-
+{{!}} Description
+{{!}} {{{Description}}} 
+}}
+{{#if:{{{Has Assay Type|}}}|
+{{!}}-
+{{!}} Assay Type
+{{!}} {{{Has Assay Type}}} 
+}}
+|}
+&lt;br&gt;
+{{#if:{{{Description|}}} |
+{{#set:
+|Description={{{Description|}}}
+}}
+| }}
+{{#if:{{{Has Assay Type|}}} |
+{{#set:
+|Has Assay Type={{{Has Assay Type|}}}
+}}
+| }}
+== Relationships ==
+{{#ask: [[Category:Relationships]] [[Has End point::{{PAGENAME}}]]
+| ? Has Descriptor
+| ? Has Relation
+| ? Has End point
+}}
+[[Category:{{PAGENAME}}]]__NOEDITSECTION____NOTOC__
+[[Category:Endpoints]]__NOEDITSECTION____NOTOC__
+&lt;/includeonly&gt;</text>
+    </revision>
   </page>
   <page>
     <title>Cytotoxicity</title>
@@ -10996,6 +12001,188 @@ bacterial viability by 50%).
 The cytotoxicity of the nanoparticles was expressed in terms of the logarithmic
 values of molar 1/EC50
 (the effective concentration of a given oxide that reduces
+bacterial viability by 50%).
+
+[[Category:Toxicity]]</text>
+    </revision>
+    <revision>
+      <id>1267</id>
+      <timestamp>2011-10-30T09:29:20Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Endpoint
+|Description=General cytotoxicity.
+}}
+
+The cytotoxicity of the nanoparticles was expressed in terms of the logarithmic
+values of molar 1/EC50 (the effective concentration of a given oxide that reduces
+bacterial viability by 50%).
+
+{{#ask [[Category:Relationships]] [[Has End point::{{{PAGENAME}}}
+| ? Has Descriptor
+| ? Has Relation
+}}
+
+
+[[Category:Toxicity]]</text>
+    </revision>
+    <revision>
+      <id>1268</id>
+      <timestamp>2011-10-30T09:29:34Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Endpoint
+|Description=General cytotoxicity.
+}}
+
+The cytotoxicity of the nanoparticles was expressed in terms of the logarithmic
+values of molar 1/EC50 (the effective concentration of a given oxide that reduces
+bacterial viability by 50%).
+
+{{#ask: [[Category:Relationships]] [[Has End point::{{{PAGENAME}}}
+| ? Has Descriptor
+| ? Has Relation
+}}
+
+
+[[Category:Toxicity]]</text>
+    </revision>
+    <revision>
+      <id>1269</id>
+      <timestamp>2011-10-30T09:29:53Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Endpoint
+|Description=General cytotoxicity.
+}}
+
+The cytotoxicity of the nanoparticles was expressed in terms of the logarithmic
+values of molar 1/EC50 (the effective concentration of a given oxide that reduces
+bacterial viability by 50%).
+
+{{#ask: [[Category:Relationships]] [[Has End point::{{{PAGENAME}}}]]
+| ? Has Descriptor
+| ? Has Relation
+}}
+
+
+[[Category:Toxicity]]</text>
+    </revision>
+    <revision>
+      <id>1270</id>
+      <timestamp>2011-10-30T09:30:25Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Endpoint
+|Description=General cytotoxicity.
+}}
+
+The cytotoxicity of the nanoparticles was expressed in terms of the logarithmic
+values of molar 1/EC50 (the effective concentration of a given oxide that reduces
+bacterial viability by 50%).
+
+{{#ask: [[Category:Relationships]] [[Has End point::{{PAGENAME}}]]
+| ? Has Descriptor
+| ? Has Relation
+}}
+
+
+[[Category:Toxicity]]</text>
+    </revision>
+    <revision>
+      <id>1271</id>
+      <timestamp>2011-10-30T09:30:46Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Endpoint
+|Description=General cytotoxicity.
+}}
+
+The cytotoxicity of the nanoparticles was expressed in terms of the logarithmic
+values of molar 1/EC50 (the effective concentration of a given oxide that reduces
+bacterial viability by 50%).
+
+{{#ask: [[Category:Relationships]] [[Has End point::{{PAGENAME}}]]
+| ? Has Descriptor
+| ? Has Relation
+| ? Had End point
+}}
+
+
+[[Category:Toxicity]]</text>
+    </revision>
+    <revision>
+      <id>1272</id>
+      <timestamp>2011-10-30T09:30:54Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Endpoint
+|Description=General cytotoxicity.
+}}
+
+The cytotoxicity of the nanoparticles was expressed in terms of the logarithmic
+values of molar 1/EC50 (the effective concentration of a given oxide that reduces
+bacterial viability by 50%).
+
+{{#ask: [[Category:Relationships]] [[Has End point::{{PAGENAME}}]]
+| ? Has Descriptor
+| ? Has Relation
+| ? Has End point
+}}
+
+
+[[Category:Toxicity]]</text>
+    </revision>
+    <revision>
+      <id>1273</id>
+      <timestamp>2011-10-30T09:31:20Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Endpoint
+|Description=General cytotoxicity.
+}}
+
+The cytotoxicity of the nanoparticles was expressed in terms of the logarithmic
+values of molar 1/EC50 (the effective concentration of a given oxide that reduces
+bacterial viability by 50%).
+
+== Relationships ==
+{{#ask: [[Category:Relationships]] [[Has End point::{{PAGENAME}}]]
+| ? Has Descriptor
+| ? Has Relation
+| ? Has End point
+}}
+
+
+[[Category:Toxicity]]</text>
+    </revision>
+    <revision>
+      <id>1274</id>
+      <timestamp>2011-10-30T09:31:41Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Endpoint
+|Description=General cytotoxicity.
+}}
+
+The cytotoxicity of the nanoparticles was expressed in terms of the logarithmic
+values of molar 1/EC50 (the effective concentration of a given oxide that reduces
 bacterial viability by 50%).
 
 [[Category:Toxicity]]</text>
@@ -12868,6 +14055,83 @@ values of molar 1/EC50
 (the effective concentration of a given oxide that reduces
 bacterial viability by 50%).</text>
     </revision>
+    <revision>
+      <id>1328</id>
+      <timestamp>2011-10-30T13:00:16Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Endpoint
+|Description=Log 1/EC_50
+|Has Assay Type=In Vitro
+}}
+
+The cytotoxicity of the nanoparticles was expressed in terms of the logarithmic
+values of molar 1/EC50 (the effective concentration of a given oxide that reduces
+bacterial viability by 50%).
+
+Higher value indicates higher toxicity.</text>
+    </revision>
+    <revision>
+      <id>1329</id>
+      <timestamp>2011-10-30T13:04:17Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Endpoint
+|Description=Log 1/EC_50
+|Has Assay Type=In Vitro
+}}
+
+The cytotoxicity of the nanoparticles was expressed in terms of the logarithmic
+values of molar 1/EC50 (the effective concentration of a given oxide that reduces
+bacterial viability by 50%).
+
+Higher value indicates higher toxicity.
+
+= Plot = 
+
+{{#ask: [[Category:Measurements]] [[Has Study::{{PAGENAME}}]] [[Has Endpoint::PercentageNonViableCells]]
+| ?Has Endpoint Value
+| format=jqplotbar
+| sort=Has Endpoint Value
+| order=ascending
+| height=250
+| width=600
+}}
+{{#ask: [[Category:Measurements]] [[Has Study::{{PAGENAME}}]] [[Has Endpoint::PercentageNonViableCells]]
+| ?Has Entity #
+| ?Has Dose #
+| ?Has Endpoint Value #
+| sort=Has Endpoint Value
+| order=ascending
+| format = template
+| template = MeasurementDetails
+| introtemplate = MeasurementDetailsHeader
+| outrotemplate = MeasurementDetailsFooter
+}}</text>
+    </revision>
+    <revision>
+      <id>1330</id>
+      <timestamp>2011-10-30T13:04:36Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Wrong page.</comment>
+      <text xml:space="preserve">{{Endpoint
+|Description=Log 1/EC_50
+|Has Assay Type=In Vitro
+}}
+
+The cytotoxicity of the nanoparticles was expressed in terms of the logarithmic
+values of molar 1/EC50 (the effective concentration of a given oxide that reduces
+bacterial viability by 50%).
+
+Higher value indicates higher toxicity.</text>
+    </revision>
   </page>
   <page>
     <title>Category:Cytotoxicity</title>
@@ -13440,6 +14704,23 @@ Observed Value [[Has Endpoint Value::3.45]] at unknown dose.
  | ? Has Zeta potential #
  |offset=0
  |limit=250
+}}</text>
+    </revision>
+    <revision>
+      <id>1233</id>
+      <timestamp>2011-10-30T08:35:23Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{#ask: [[Category:MetalOxides]]
+ | ? Has Identifier #
+ | ? Has Label #
+ | ? Has Size #
+ | ? Has Zeta potential #
+ |offset=0
+ |limit=250
+ |sort=Has Identifier
 }}</text>
     </revision>
   </page>
@@ -16390,6 +17671,57 @@ The CHEMINF field does the same but then for the CHEMINF ontology.
 [[Category:Descriptors]]__NOEDITSECTION____NOTOC__
 &lt;/includeonly&gt;</text>
     </revision>
+    <revision>
+      <id>1289</id>
+      <timestamp>2011-10-30T09:52:47Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">&lt;noinclude&gt;
+[[:Category:Descriptors]] describing some chemical entity in a nominal or numerical manner,
+allowing the application of statistical methods.
+&lt;pre&gt;
+{{Descriptor
+|NM=
+|CHEMINF=
+}}
+&lt;/pre&gt;
+The NM field indicates the Nanomaterial Ontology identifier for this descriptor; only the 6 digits should be given.
+The CHEMINF field does the same but then for the CHEMINF ontology.
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: right; table-layout:fixed; word-wrap: break-word;&quot;
+! colspan=2 style=&quot;text-align: center; font-size: 125%&quot; | {{{Name|{{PAGENAME}} }}}
+|-
+|}
+&lt;br&gt;
+= Predictive? =
+{{#ask: [[Category:Relationships]] [[Has Descriptor::{{PAGENAME}}]]
+| ? Has Relation
+| ? Has End point
+| ? Has Source
+| ? From Study
+| sort=Has Relation, Has End point
+}}
+= Used in Studies =
+{{#ask: [[Category:Studies]] [[Uses Descriptor::{{PAGENAME}}]]
+| ? Has Study Type
+| ? Has Object Count
+| ? Has R2
+| ? Has Q2
+| ? Has RMSEP
+}}
+{{#if:{{{NM|}}} |
+  {{#set: |Equivalent URI=http://egonw.github.com/resource/NM_{{{NM|}}} }}
+  {{#set: |Original URI=http://egonw.github.com/resource/NM_{{{NM|}}} }}
+| }}
+{{#if:{{{CHEMINF|}}} |
+  {{#set: |Equivalent URI=http://semanticscience.org/resource/CHEMINF_{{{CHEMINF|}}} }}
+  {{#set: |Original URI=http://semanticscience.org/resource/CHEMINF_{{{CHEMINF|}}} }}
+| }}
+[[Category:Descriptors]]__NOEDITSECTION____NOTOC__
+&lt;/includeonly&gt;</text>
+    </revision>
   </page>
   <page>
     <title>Property:Uses Descriptor</title>
@@ -17488,6 +18820,30 @@ The CHEMINF field does the same but then for the CHEMINF ontology.
 {{#set:|Used in Study=WillighagenS1}}
 {{#set:|Used in Study=WillighagenS2}}</text>
     </revision>
+    <revision>
+      <id>1300</id>
+      <timestamp>2011-10-30T10:42:36Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=CuO
+|Has Identifier=18
+|Has Chemical Composition=CuO
+|Has NM Type=MetalOxide
+|Has Size Min=20
+|Has Size Max=40
+|Has Size Units=nm
+|Has Size Method=TEM
+|Has Zeta potential=31.0
+|Has Zeta Units=mV
+}}
+
+{{#set:|Used in Study=Karlsson2008Cytotox}}
+{{#set:|Used in Study=WillighagenS1}}
+{{#set:|Used in Study=WillighagenS2}}</text>
+    </revision>
   </page>
   <page>
     <title>HannaK2</title>
@@ -17608,6 +18964,30 @@ The CHEMINF field does the same but then for the CHEMINF ontology.
 {{#set:|Used in Study=WillighagenS1}}
 {{#set:|Used in Study=WillighagenS2}}</text>
     </revision>
+    <revision>
+      <id>1307</id>
+      <timestamp>2011-10-30T10:50:31Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=TiO2
+|Has Identifier=19
+|Has Chemical Composition=TiO2
+|Has NM Type=MetalOxide
+|Has Size Min=20
+|Has Size Max=100
+|Has Size Units=nm
+|Has Size Method=TEM
+|Has Zeta potential=5.9
+|Has Zeta Units=mV
+}}
+
+{{#set:|Used in Study=Karlsson2008Cytotox}}
+{{#set:|Used in Study=WillighagenS1}}
+{{#set:|Used in Study=WillighagenS2}}</text>
+    </revision>
   </page>
   <page>
     <title>HannaK3</title>
@@ -17708,6 +19088,30 @@ The CHEMINF field does the same but then for the CHEMINF ontology.
 |Has Size Min=20
 |Has Size Max=200
 |Has Size Units=nm
+|Has Zeta potential=26.9
+|Has Zeta Units=mV
+}}
+
+{{#set:|Used in Study=Karlsson2008Cytotox}}
+{{#set:|Used in Study=WillighagenS1}}
+{{#set:|Used in Study=WillighagenS2}}</text>
+    </revision>
+    <revision>
+      <id>1308</id>
+      <timestamp>2011-10-30T10:50:56Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=ZnO
+|Has Identifier=20
+|Has Chemical Composition=ZnO
+|Has NM Type=MetalOxide
+|Has Size Min=20
+|Has Size Max=200
+|Has Size Units=nm
+|Has Size Method=TEM
 |Has Zeta potential=26.9
 |Has Zeta Units=mV
 }}
@@ -17824,6 +19228,30 @@ The CHEMINF field does the same but then for the CHEMINF ontology.
 {{#set:|Used in Study=WillighagenS1}}
 {{#set:|Used in Study=WillighagenS2}}</text>
     </revision>
+    <revision>
+      <id>1309</id>
+      <timestamp>2011-10-30T10:51:09Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=CuZnFe2O4
+|Has Identifier=21
+|Has Chemical Composition=CuZnFe2O4
+|Has NM Type=MetalOxide
+|Has Size Min=10
+|Has Size Max=100
+|Has Size Units=nm
+|Has Size Method=TEM
+|Has Zeta potential=34.2
+|Has Zeta Units=mV
+}}
+
+{{#set:|Used in Study=Karlsson2008Cytotox}}
+{{#set:|Used in Study=WillighagenS1}}
+{{#set:|Used in Study=WillighagenS2}}</text>
+    </revision>
   </page>
   <page>
     <title>HannaK5</title>
@@ -17924,6 +19352,30 @@ The CHEMINF field does the same but then for the CHEMINF ontology.
 |Has Size Min=30
 |Has Size Max=60
 |Has Size Units=nm
+|Has Zeta potential=-17.3
+|Has Zeta Units=mV
+}}
+
+{{#set:|Used in Study=Karlsson2008Cytotox}}
+{{#set:|Used in Study=WillighagenS1}}
+{{#set:|Used in Study=WillighagenS2}}</text>
+    </revision>
+    <revision>
+      <id>1310</id>
+      <timestamp>2011-10-30T10:51:18Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=Fe2O3
+|Has Identifier=22
+|Has Chemical Composition=Fe2O3
+|Has NM Type=MetalOxide
+|Has Size Min=30
+|Has Size Max=60
+|Has Size Units=nm
+|Has Size Method=TEM
 |Has Zeta potential=-17.3
 |Has Zeta Units=mV
 }}
@@ -18040,6 +19492,30 @@ The CHEMINF field does the same but then for the CHEMINF ontology.
 {{#set:|Used in Study=WillighagenS1}}
 {{#set:|Used in Study=WillighagenS2}}</text>
     </revision>
+    <revision>
+      <id>1311</id>
+      <timestamp>2011-10-30T10:51:29Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=Fe3O4
+|Has Identifier=23
+|Has Chemical Composition=Fe3O4
+|Has NM Type=MetalOxide
+|Has Size Min=20
+|Has Size Max=30
+|Has Size Units=nm
+|Has Size Method=TEM
+|Has Zeta potential=1.8
+|Has Zeta Units=mV
+}}
+
+{{#set:|Used in Study=Karlsson2008Cytotox}}
+{{#set:|Used in Study=WillighagenS1}}
+{{#set:|Used in Study=WillighagenS2}}</text>
+    </revision>
   </page>
   <page>
     <title>HannaK7</title>
@@ -18133,6 +19609,28 @@ The CHEMINF field does the same but then for the CHEMINF ontology.
 |Has Size Min=20
 |Has Size Max=40
 |Has Size Units=nm
+|Has Zeta potential=6.9
+|Has Zeta Units=mV
+}}
+
+{{#set:|Used in Study=Karlsson2008Cytotox}}</text>
+    </revision>
+    <revision>
+      <id>1312</id>
+      <timestamp>2011-10-30T10:51:41Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=carbon nanotubes
+|Has Identifier=24
+|Has Chemical Composition=C
+|Has NM Type=CarbonNanoparticle
+|Has Size Min=20
+|Has Size Max=40
+|Has Size Units=nm
+|Has Size Method=TEM
 |Has Zeta potential=6.9
 |Has Zeta Units=mV
 }}
@@ -18256,6 +19754,30 @@ Asymetrically shaped particles, of 100-200 nm in one direction, and 3-7 µm in t
 |Has Size Min=100
 |Has Size Max=7000
 |Has Size Units=nm
+|Has Zeta potential= -45.4
+|Has Zeta Units=mV
+}}
+
+Asymetrically shaped particles, of 100-200 nm in one direction, and 3-7 µm in the other.
+
+{{#set:|Used in Study=Karlsson2008Cytotox}}</text>
+    </revision>
+    <revision>
+      <id>1313</id>
+      <timestamp>2011-10-30T10:51:55Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=carbon nanoparticle
+|Has Identifier=25
+|Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+|Has Size Min=100
+|Has Size Max=7000
+|Has Size Units=nm
+|Has Size Method=TEM
 |Has Zeta potential= -45.4
 |Has Zeta Units=mV
 }}
@@ -18581,6 +20103,48 @@ A classification-based cytotoxicity nanostructure-activity relationship (nanoSAR
 &lt;pdf height=&quot;300&quot;&gt;7/70/Liu2011.pdf&lt;/pdf&gt;
 
 [[Category:PapersToRead]]</text>
+    </revision>
+    <revision>
+      <id>1219</id>
+      <timestamp>2011-10-30T08:01:19Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Paper
+|Has Year=2011
+|Has DOI=10.1002/smll.201002366
+|Substances extracted=Yes
+|Relationships extracted=Yes
+}}
+
+== Abstract ==
+
+A classification-based cytotoxicity nanostructure-activity relationship (nanoSAR) is presented based on a set of nine metal oxide nanoparticles to which transformed bronchial epithelial cells (BEAS-2B) were exposed over a range of concentrations (0.375-200 mg L(-1) ) and exposure times up to 24 h. The nanoSAR is developed using cytotoxicity data from a high-throughput screening assay that was processed to identify and label toxic (in terms of the propidium iodide uptake of BEAS-2B cells) versus nontoxic events relative to an unexposed control cell population. Starting with a set of fourteen intuitive but fundamental physicochemical nanoSAR input parameters, a number of models were identified which had a classification accuracy above 95%. The best-performing model had a 100% classification accuracy in both internal and external validations. This model is based on three descriptors: atomization energy of the metal oxide, period of the nanoparticle metal, and nanoparticle primary size, in addition to nanoparticle volume fraction (in solution). Notwithstanding the success of the present modeling approach with a relatively small nanoparticle library, it is important to recognize that a significantly larger data set would be needed in order to expand the applicability domain and increase the confidence and reliability of data-driven nanoSARs.
+
+&lt;pdf height=&quot;300&quot;&gt;7/70/Liu2011.pdf&lt;/pdf&gt;
+
+[[Category:PapersToRead]]</text>
+    </revision>
+    <revision>
+      <id>1220</id>
+      <timestamp>2011-10-30T08:01:25Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Paper
+|Has Year=2011
+|Has DOI=10.1002/smll.201002366
+|Substances extracted=Yes
+|Relationships extracted=Yes
+}}
+
+== Abstract ==
+
+A classification-based cytotoxicity nanostructure-activity relationship (nanoSAR) is presented based on a set of nine metal oxide nanoparticles to which transformed bronchial epithelial cells (BEAS-2B) were exposed over a range of concentrations (0.375-200 mg L(-1) ) and exposure times up to 24 h. The nanoSAR is developed using cytotoxicity data from a high-throughput screening assay that was processed to identify and label toxic (in terms of the propidium iodide uptake of BEAS-2B cells) versus nontoxic events relative to an unexposed control cell population. Starting with a set of fourteen intuitive but fundamental physicochemical nanoSAR input parameters, a number of models were identified which had a classification accuracy above 95%. The best-performing model had a 100% classification accuracy in both internal and external validations. This model is based on three descriptors: atomization energy of the metal oxide, period of the nanoparticle metal, and nanoparticle primary size, in addition to nanoparticle volume fraction (in solution). Notwithstanding the success of the present modeling approach with a relatively small nanoparticle library, it is important to recognize that a significantly larger data set would be needed in order to expand the applicability domain and increase the confidence and reliability of data-driven nanoSARs.
+
+&lt;pdf height=&quot;300&quot;&gt;7/70/Liu2011.pdf&lt;/pdf&gt;</text>
     </revision>
   </page>
   <page>
@@ -22230,6 +23794,65 @@ predominant) independently of their surface modiﬁers&quot;
 
 &lt;pdf height=&quot;300&quot;&gt;2/28/Weissleder2005_Supp1.pdf&lt;/pdf&gt;</text>
     </revision>
+    <revision>
+      <id>1222</id>
+      <timestamp>2011-10-30T08:06:34Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Paper
+|Has Year=2005
+|Has DOI=10.1021/nn1013484
+|Relationships extracted=Yes
+}}
+
+[[Category:PapersToRead]]
+
+Coated iron oxides particles.
+
+&lt;pdf height=&quot;300&quot;&gt;3/35/Weissleder2005.pdf&lt;/pdf&gt;
+
+&lt;pdf height=&quot;300&quot;&gt;2/28/Weissleder2005_Supp1.pdf&lt;/pdf&gt;</text>
+    </revision>
+    <revision>
+      <id>1224</id>
+      <timestamp>2011-10-30T08:08:04Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Paper
+|Has Year=2005
+|Has DOI=10.1021/nn1013484
+|Relationships extracted=Yes
+|Summary=Coated iron oxides particles.
+}}
+
+[[Category:PapersToRead]]
+
+&lt;pdf height=&quot;300&quot;&gt;3/35/Weissleder2005.pdf&lt;/pdf&gt;
+
+&lt;pdf height=&quot;300&quot;&gt;2/28/Weissleder2005_Supp1.pdf&lt;/pdf&gt;</text>
+    </revision>
+    <revision>
+      <id>1226</id>
+      <timestamp>2011-10-30T08:10:42Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Paper
+|Has Year=2005
+|Has DOI=10.1021/nn1013484
+|Relationships extracted=Yes
+|Summary=Coated iron oxides particles.
+}}
+
+&lt;pdf height=&quot;300&quot;&gt;3/35/Weissleder2005.pdf&lt;/pdf&gt;
+
+&lt;pdf height=&quot;300&quot;&gt;2/28/Weissleder2005_Supp1.pdf&lt;/pdf&gt;</text>
+    </revision>
   </page>
   <page>
     <title>File:Weissleder2005 Supp1.pdf</title>
@@ -22380,6 +24003,21 @@ predominant) independently of their surface modiﬁers&quot;
 | ?Has Size #
 | ?Has Zeta potential #
 | limit=51
+}}</text>
+    </revision>
+    <revision>
+      <id>1227</id>
+      <timestamp>2011-10-30T08:21:17Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Study
+|Has Source=Shaw2008
+|Has Identifier=4
+|Has Study Type=Classification
+|Has Object Count=51
+|Has Entities=NanoMaterials
 }}</text>
     </revision>
   </page>
@@ -26719,6 +28357,209 @@ predominant) independently of their surface modiﬁers&quot;
 [[Category:Relationships]]__NOEDITSECTION____NOTOC__
 &lt;/includeonly&gt;</text>
     </revision>
+    <revision>
+      <id>1264</id>
+      <timestamp>2011-10-30T09:20:49Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">&lt;noinclude&gt;
+&lt;pre&gt;
+{{Relationship
+|Descriptor=
+|Relation=
+|End point=
+|Has Source=
+|From Study=
+}}
+&lt;/pre&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: right; table-layout:fixed; word-wrap: break-word;&quot;
+! colspan=2 style=&quot;text-align: center; font-size: 125%&quot; | {{{Name|{{PAGENAME}} }}}
+|-
+| Descriptor
+| {{{Descriptor}}} 
+|-
+| Relation
+| {{{Relation}}} 
+|-
+| End point
+| {{{End point}}} 
+|-
+| Source
+| {{{Has Source}}} 
+|-
+| Study
+| {{{From Study}}} 
+&lt;br&gt;
+{{#set: |Has Descriptor={{{Descriptor|}}} }}
+{{#set: |Has Relation={{{Relation|}}} }}
+{{#set: |Has End point={{{End point|}}} }}
+{{#set: |Has Source={{{Has Source|}}} }}
+{{#set: |From Study={{{From Study|}}} }}
+[[Category:Relationships]]__NOEDITSECTION____NOTOC__
+&lt;/includeonly&gt;</text>
+    </revision>
+    <revision>
+      <id>1280</id>
+      <timestamp>2011-10-30T09:43:41Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">&lt;noinclude&gt;
+&lt;pre&gt;
+{{Relationship
+|Descriptor=
+|Relation=
+|End point=
+|Has Source=
+|From Study=
+}}
+&lt;/pre&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: right; table-layout:fixed; word-wrap: break-word;&quot;
+! colspan=2 style=&quot;text-align: center; font-size: 125%&quot; | {{{Name|{{PAGENAME}} }}}
+|-
+| Descriptor
+| {{{Descriptor}}} 
+|-
+| Relation
+| {{{Relation}}} 
+|-
+| End point
+| {{{End point}}} 
+{{#if:{{{Has Source|}}}|
+{{!}}-
+{{!}} Source
+{{!}} {{{Has Source}}} 
+}}
+{{#if:{{{Has Study|}}}|
+{{!}}-
+{{!}} Study
+{{!}} {{{Has Study}}} 
+}}
+|}
+&lt;br&gt;
+{{#set: |Has Descriptor={{{Descriptor|}}} }}
+{{#set: |Has Relation={{{Relation|}}} }}
+{{#set: |Has End point={{{End point|}}} }}
+{{#if:{{{Has Source|}}} |
+  {{#set: |Has Source={{{Has Source|}}} }}
+| }}
+{{#if:{{{Has Study|}}} |
+  {{#set: |Has Study={{{Has Study|}}} }}
+| }}
+[[Category:Relationships]]__NOEDITSECTION____NOTOC__
+&lt;/includeonly&gt;</text>
+    </revision>
+    <revision>
+      <id>1281</id>
+      <timestamp>2011-10-30T09:44:41Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">&lt;noinclude&gt;
+&lt;pre&gt;
+{{Relationship
+|Descriptor=
+|Relation=
+|End point=
+|Has Source=
+|From Study=
+}}
+&lt;/pre&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: right; table-layout:fixed; word-wrap: break-word;&quot;
+! colspan=2 style=&quot;text-align: center; font-size: 125%&quot; | {{{Name|{{PAGENAME}} }}}
+|-
+| Descriptor
+| {{{Descriptor}}} 
+|-
+| Relation
+| {{{Relation}}} 
+|-
+| End point
+| {{{End point}}} 
+{{#if:{{{Has Source|}}}|
+{{!}}-
+{{!}} Source
+{{!}} {{{Has Source}}} 
+}}
+{{#if:{{{From Study|}}}|
+{{!}}-
+{{!}} Study
+{{!}} {{{From Study}}} 
+}}
+|}
+&lt;br&gt;
+{{#set: |Has Descriptor={{{Descriptor|}}} }}
+{{#set: |Has Relation={{{Relation|}}} }}
+{{#set: |Has End point={{{End point|}}} }}
+{{#if:{{{Has Source|}}} |
+  {{#set: |Has Source={{{Has Source|}}} }}
+| }}
+{{#if:{{{From Study|}}} |
+  {{#set: |From Study={{{From Study|}}} }}
+| }}
+[[Category:Relationships]]__NOEDITSECTION____NOTOC__
+&lt;/includeonly&gt;</text>
+    </revision>
+    <revision>
+      <id>1282</id>
+      <timestamp>2011-10-30T09:45:14Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">&lt;noinclude&gt;
+&lt;pre&gt;
+{{Relationship
+|Descriptor=
+|Relation=
+|End point=
+|Has Source=
+|From Study=
+}}
+&lt;/pre&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: right; table-layout:fixed; word-wrap: break-word;&quot;
+! colspan=2 style=&quot;text-align: center; font-size: 125%&quot; | {{{Name|{{PAGENAME}} }}}
+|-
+| Descriptor
+| {{{Descriptor}}} 
+|-
+| Relation
+| {{{Relation}}} 
+|-
+| End point
+| {{{End point}}} 
+{{#if:{{{Has Source|}}}|
+{{!}}-
+{{!}} Source
+{{!}} [[{{{Has Source}}}]]
+}}
+{{#if:{{{From Study|}}}|
+{{!}}-
+{{!}} Study
+{{!}} [[{{{From Study}}}]]
+}}
+|}
+&lt;br&gt;
+{{#set: |Has Descriptor={{{Descriptor|}}} }}
+{{#set: |Has Relation={{{Relation|}}} }}
+{{#set: |Has End point={{{End point|}}} }}
+{{#if:{{{Has Source|}}} |
+  {{#set: |Has Source={{{Has Source|}}} }}
+| }}
+{{#if:{{{From Study|}}} |
+  {{#set: |From Study={{{From Study|}}} }}
+| }}
+[[Category:Relationships]]__NOEDITSECTION____NOTOC__
+&lt;/includeonly&gt;</text>
+    </revision>
   </page>
   <page>
     <title>Category:Relationships</title>
@@ -26771,6 +28612,22 @@ predominant) independently of their surface modiﬁers&quot;
 | ? Has Relation
 | ? Has End point
 | ? Has Source
+| sort=Has Relation, Has End point
+}}</text>
+    </revision>
+    <revision>
+      <id>1266</id>
+      <timestamp>2011-10-30T09:22:18Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{#ask: [[Category:Relationships]]
+| ? Has Descriptor
+| ? Has Relation
+| ? Has End point
+| ? Has Source
+| ? From Study
 | sort=Has Relation, Has End point
 }}</text>
     </revision>
@@ -27105,7 +28962,7 @@ The allowed value for this property is:
     </revision>
   </page>
   <page>
-    <title>ParticleClass</title>
+    <title>Particle Class</title>
     <id>269</id>
     <revision>
       <id>766</id>
@@ -27115,6 +28972,17 @@ The allowed value for this property is:
         <id>2</id>
       </contributor>
       <comment>Created page with &quot;{{Descriptor}}&quot;</comment>
+      <text xml:space="preserve">{{Descriptor}}</text>
+    </revision>
+    <revision>
+      <id>1244</id>
+      <timestamp>2011-10-30T08:58:30Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <comment>moved [[ParticleClass]] to [[Particle Class]]</comment>
       <text xml:space="preserve">{{Descriptor}}</text>
     </revision>
   </page>
@@ -27152,6 +29020,34 @@ The allowed value for this property is:
 |Descriptor=ParticleClass
 |Relation=CorrelatesWith
 |End point=BioAssayProfile
+|Has Source=Shaw2008
+}}</text>
+    </revision>
+    <revision>
+      <id>1247</id>
+      <timestamp>2011-10-30T08:59:02Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Relationship
+|Descriptor=Particle Class
+|Relation=Correlates With
+|End point=Bio Assay Profile
+|Has Source=Shaw2008
+}}</text>
+    </revision>
+    <revision>
+      <id>1248</id>
+      <timestamp>2011-10-30T08:59:20Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Relationship
+|Descriptor=Particle Class
+|Relation=Correlates With
+|End point=Bioassay Profile
 |Has Source=Shaw2008
 }}</text>
     </revision>
@@ -27774,6 +29670,20 @@ The allowed value for this property is:
 |Has Source=Weissleder2005
 }}</text>
     </revision>
+    <revision>
+      <id>1279</id>
+      <timestamp>2011-10-30T09:41:25Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Relationship
+|Descriptor=SurfaceModificationClass
+|Relation=CorrelatesWith
+|End point=BioAssayProfile
+|From Study=Weissleder146
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Liu2011Cytotox</title>
@@ -28252,6 +30162,20 @@ The allowed value for this property is:
 |Has Source=Puzyn2011
 }}</text>
     </revision>
+    <revision>
+      <id>1246</id>
+      <timestamp>2011-10-30T08:58:55Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Relationship
+|Descriptor=Particle Class
+|Relation=Correlates With
+|End point=Percentage Non-Viable Cells
+|Has Source=Puzyn2011
+}}</text>
+    </revision>
   </page>
   <page>
     <title>CorrelatesWith</title>
@@ -28393,6 +30317,34 @@ carcinogenicity.
 
 [[Category:PapersToRead]]</text>
     </revision>
+    <revision>
+      <id>1236</id>
+      <timestamp>2011-10-30T08:37:19Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Paper
+|Has Year=2011
+|Has DOI=10.3109/17435390.2011.587903
+|Substances extracted=Yes
+}}
+
+== Abstract ==
+
+Titanium dioxide nanoparticles (TiO2-NPs) are produced in large quantities, raising concerns about their impact for
+human health. The aim of this study was to deeply characterize TiO2-NPs genotoxic potential to lung cells, and to link
+genotoxicity to physicochemical characteristics, e.g., size, speciﬁc surface area, crystalline phase. A549 cells were exposed
+to a panel of TiO2-NPs with diameters ranging from 12 to 140 nm, either anatase or rutile. A set of complementary
+techniques (comet and micronucleus assays, gamma-H2AX immunostaining, 8-oxoGuanine analysis, H2-DCFDA,
+glutathione content, antioxidant enzymes activities) allowed us to demonstrate that small and spherical TiO2-NPs,
+both anatase and rutile, induce single-strand breaks and oxidative lesions to DNA, together with a general oxidative
+stress. Additionally we show that these NPs impair cell ability to repair DNA, by inactivation of both NER and BER
+pathways. This study thus conﬁrms the genotoxic potential of TiO2-NPs, which may preclude their mutagenicity and
+carcinogenicity.
+
+&lt;pdf height=&quot;300&quot;&gt;9/9c/Jugan2011.pdf&lt;/pdf&gt;</text>
+    </revision>
   </page>
   <page>
     <title>WillighagenS1</title>
@@ -28410,6 +30362,110 @@ carcinogenicity.
 |Has Entities=MetalOxides
 |Has Endpoint=PercentageNonViableCells
 |Has Study Type=Classification
+|Has Object Count=8
+}}</text>
+    </revision>
+    <revision>
+      <id>1258</id>
+      <timestamp>2011-10-30T09:11:43Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Study
+|Has Identifier=10
+|Has Entities=MetalOxides
+|Has Endpoint=Percentage Non-Viable Cells
+|Has Study Type=Regression
+|Has Object Count=8
+}}</text>
+    </revision>
+    <revision>
+      <id>1331</id>
+      <timestamp>2011-10-30T13:04:45Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Study
+|Has Identifier=10
+|Has Entities=MetalOxides
+|Has Endpoint=Percentage Non-Viable Cells
+|Has Study Type=Regression
+|Has Object Count=8
+}}
+
+= Plot = 
+
+{{#ask: [[Category:Measurements]] [[Has Study::{{PAGENAME}}]] [[Has Endpoint::PercentageNonViableCells]]
+| ?Has Endpoint Value
+| format=jqplotbar
+| sort=Has Endpoint Value
+| order=ascending
+| height=250
+| width=600
+}}
+{{#ask: [[Category:Measurements]] [[Has Study::{{PAGENAME}}]] [[Has Endpoint::PercentageNonViableCells]]
+| ?Has Entity #
+| ?Has Dose #
+| ?Has Endpoint Value #
+| sort=Has Endpoint Value
+| order=ascending
+| format = template
+| template = MeasurementDetails
+| introtemplate = MeasurementDetailsHeader
+| outrotemplate = MeasurementDetailsFooter
+}}</text>
+    </revision>
+    <revision>
+      <id>1332</id>
+      <timestamp>2011-10-30T13:05:09Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Study
+|Has Identifier=10
+|Has Entities=MetalOxides
+|Has Endpoint=Percentage Non-Viable Cells
+|Has Study Type=Regression
+|Has Object Count=8
+}}
+
+= Plot = 
+
+{{#ask: [[Category:Measurements]] [[Used in Study::{{PAGENAME}}]] [[Has Endpoint::PercentageNonViableCells]]
+| ?Has Endpoint Value
+| format=jqplotbar
+| sort=Has Endpoint Value
+| order=ascending
+| height=250
+| width=600
+}}
+{{#ask: [[Category:Measurements]] [[Used in Study::{{PAGENAME}}]] [[Has Endpoint::PercentageNonViableCells]]
+| ?Has Entity #
+| ?Has Dose #
+| ?Has Endpoint Value #
+| sort=Has Endpoint Value
+| order=ascending
+| format = template
+| template = MeasurementDetails
+| introtemplate = MeasurementDetailsHeader
+| outrotemplate = MeasurementDetailsFooter
+}}</text>
+    </revision>
+    <revision>
+      <id>1333</id>
+      <timestamp>2011-10-30T13:05:36Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Study
+|Has Identifier=10
+|Has Entities=MetalOxides
+|Has Endpoint=Percentage Non-Viable Cells
+|Has Study Type=Regression
 |Has Object Count=8
 }}</text>
     </revision>
@@ -28444,6 +30500,21 @@ carcinogenicity.
 |Has Identifier=11
 |Has Entities=MetalOxides
 |Has Endpoint=DNADamage
+|Has Study Type=Classification
+|Has Object Count=8
+}}</text>
+    </revision>
+    <revision>
+      <id>1257</id>
+      <timestamp>2011-10-30T09:10:57Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Study
+|Has Identifier=11
+|Has Entities=MetalOxides
+|Has Endpoint=DNA Damage
 |Has Study Type=Classification
 |Has Object Count=8
 }}</text>
@@ -30729,6 +32800,20 @@ COOH in the 7 position. See also [[L-Arginine-7-COOH]].</text>
 |Has Source=Kamal2004
 }}</text>
     </revision>
+    <revision>
+      <id>1255</id>
+      <timestamp>2011-10-30T09:09:18Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Relationship
+|Descriptor=Dipole
+|Relation=CorrelatesWith
+|End point=Log GI50
+|Has Source=Kamal2004
+}}</text>
+    </revision>
   </page>
   <page>
     <title>File:Harper2011.pdf</title>
@@ -31339,6 +33424,1196 @@ Size is the core size.
 The allowed value for this property is:
 * [[Allows value::Yes]]
 * [[Allows value::No]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Jugan5</title>
+    <id>456</id>
+    <revision>
+      <id>1228</id>
+      <timestamp>2011-10-30T08:22:01Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Study |Has Source=Jugan2011 |Has Identifier=13 |Has Study Type=Descriptive |Has Object Count=5 |Has Entities=MetalOxides }}&quot;</comment>
+      <text xml:space="preserve">{{Study
+|Has Source=Jugan2011
+|Has Identifier=13
+|Has Study Type=Descriptive
+|Has Object Count=5
+|Has Entities=MetalOxides
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Jugan5 A12</title>
+    <id>457</id>
+    <revision>
+      <id>1229</id>
+      <timestamp>2011-10-30T08:23:02Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{NanoMaterial |Has Label=A12 |Has Identifier=101 |Has Chemical Composition=TiO2 |Has NM Type=MetalOxide |Has Size=12 |Has Size Units=nm }}  {{#set:|Used in Study=Jugan5}}&quot;</comment>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=A12
+|Has Identifier=101
+|Has Chemical Composition=TiO2
+|Has NM Type=MetalOxide
+|Has Size=12
+|Has Size Units=nm
+}}
+
+{{#set:|Used in Study=Jugan5}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Jugan5 A25</title>
+    <id>458</id>
+    <revision>
+      <id>1230</id>
+      <timestamp>2011-10-30T08:29:55Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{NanoMaterial |Has Label=A25 |Has Identifier=102 |Has Chemical Composition=TiO2 |Has NM Type=MetalOxide |Has Size=25 |Has Size Units=nm }}  {{#set:|Used in Study=Jugan5}}&quot;</comment>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=A25
+|Has Identifier=102
+|Has Chemical Composition=TiO2
+|Has NM Type=MetalOxide
+|Has Size=25
+|Has Size Units=nm
+}}
+
+{{#set:|Used in Study=Jugan5}}</text>
+    </revision>
+    <revision>
+      <id>1231</id>
+      <timestamp>2011-10-30T08:30:11Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=A25
+|Has Identifier=102
+|Has Chemical Composition=TiO2
+|Has NM Type=MetalOxide
+|Has Size=24
+|Has Size Units=nm
+}}
+
+{{#set:|Used in Study=Jugan5}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Jugan5 A140</title>
+    <id>459</id>
+    <revision>
+      <id>1232</id>
+      <timestamp>2011-10-30T08:30:35Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{NanoMaterial |Has Label=A140 |Has Identifier=103 |Has Chemical Composition=TiO2 |Has NM Type=MetalOxide |Has Size=142 |Has Size Units=nm }}  {{#set:|Used in Study=Jugan5}}&quot;</comment>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=A140
+|Has Identifier=103
+|Has Chemical Composition=TiO2
+|Has NM Type=MetalOxide
+|Has Size=142
+|Has Size Units=nm
+}}
+
+{{#set:|Used in Study=Jugan5}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Jugan5 R68</title>
+    <id>460</id>
+    <revision>
+      <id>1234</id>
+      <timestamp>2011-10-30T08:36:22Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{NanoMaterial |Has Label=R68 |Has Identifier=104 |Has Chemical Composition=TiO2 |Has NM Type=MetalOxide |Has Size=68 |Has Size Units=nm }}  {{#set:|Used in Study=Jugan5}}&quot;</comment>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=R68
+|Has Identifier=104
+|Has Chemical Composition=TiO2
+|Has NM Type=MetalOxide
+|Has Size=68
+|Has Size Units=nm
+}}
+
+{{#set:|Used in Study=Jugan5}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Jugan5 R20</title>
+    <id>461</id>
+    <revision>
+      <id>1235</id>
+      <timestamp>2011-10-30T08:36:48Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{NanoMaterial |Has Label=R20 |Has Identifier=105 |Has Chemical Composition=TiO2 |Has NM Type=MetalOxide |Has Size=21 |Has Size Units=nm }}  {{#set:|Used in Study=Jugan5}}&quot;</comment>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=R20
+|Has Identifier=105
+|Has Chemical Composition=TiO2
+|Has NM Type=MetalOxide
+|Has Size=21
+|Has Size Units=nm
+}}
+
+{{#set:|Used in Study=Jugan5}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Summary</title>
+    <id>462</id>
+    <revision>
+      <id>1239</id>
+      <timestamp>2011-10-30T08:42:50Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;This is a property of type [[Has type::String]].&quot;</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::String]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>File:Field2011.pdf</title>
+    <id>463</id>
+    <revision>
+      <id>1241</id>
+      <timestamp>2011-10-30T08:48:34Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" />
+    </revision>
+  </page>
+  <page>
+    <title>File:Field2011Supp.pdf</title>
+    <id>464</id>
+    <revision>
+      <id>1242</id>
+      <timestamp>2011-10-30T08:49:15Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" />
+    </revision>
+  </page>
+  <page>
+    <title>Field2011</title>
+    <id>465</id>
+    <revision>
+      <id>1243</id>
+      <timestamp>2011-10-30T08:52:08Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Paper |Has Year=2011 |Has DOI=10.1016/j.chemosphere.2011.04.067 }}  &lt;pdf&gt;1/1c/Field2011.pdf&lt;/pdf&gt; &lt;pdf&gt;1/18/Field2011Supp.pdf&lt;/pdf&gt;&quot;</comment>
+      <text xml:space="preserve">{{Paper
+|Has Year=2011
+|Has DOI=10.1016/j.chemosphere.2011.04.067
+}}
+
+&lt;pdf&gt;1/1c/Field2011.pdf&lt;/pdf&gt;
+&lt;pdf&gt;1/18/Field2011Supp.pdf&lt;/pdf&gt;</text>
+    </revision>
+    <revision>
+      <id>1254</id>
+      <timestamp>2011-10-30T09:07:29Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Paper
+|Has Year=2011
+|Has DOI=10.1016/j.chemosphere.2011.04.067
+|Relationships extracted=Yes
+}}
+
+&lt;pdf&gt;1/1c/Field2011.pdf&lt;/pdf&gt;
+&lt;pdf&gt;1/18/Field2011Supp.pdf&lt;/pdf&gt;</text>
+    </revision>
+    <revision>
+      <id>1259</id>
+      <timestamp>2011-10-30T09:16:37Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Paper
+|Has Year=2011
+|Has DOI=10.1016/j.chemosphere.2011.04.067
+|Relationships extracted=Yes
+}}
+
+== FOO ==
+{{#ask: [[Category:Relationships]] [[From Study:Has Source::{{PAGENAME}}]]
+| ? Has Descriptor
+| ? Has Relation
+| ? Has End point
+| ? Has Source
+}}
+
+&lt;pdf&gt;1/1c/Field2011.pdf&lt;/pdf&gt;
+&lt;pdf&gt;1/18/Field2011Supp.pdf&lt;/pdf&gt;</text>
+    </revision>
+    <revision>
+      <id>1260</id>
+      <timestamp>2011-10-30T09:16:52Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Paper
+|Has Year=2011
+|Has DOI=10.1016/j.chemosphere.2011.04.067
+|Relationships extracted=Yes
+}}
+
+== FOO ==
+{{#ask: [[Category:Relationships]] [[From Study:Has Source::{{PAGENAME}}]]
+| ? Has Descriptor
+| ? Has Relation
+| ? Has End point
+| ? Has Source
+}}
+
+== FOO2 ==
+{{#ask: [[Category:Relationships]] [[From Study::Has Source::{{PAGENAME}}]]
+| ? Has Descriptor
+| ? Has Relation
+| ? Has End point
+| ? Has Source
+}}
+
+&lt;pdf&gt;1/1c/Field2011.pdf&lt;/pdf&gt;
+&lt;pdf&gt;1/18/Field2011Supp.pdf&lt;/pdf&gt;</text>
+    </revision>
+    <revision>
+      <id>1277</id>
+      <timestamp>2011-10-30T09:38:05Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Paper
+|Has Year=2011
+|Has DOI=10.1016/j.chemosphere.2011.04.067
+|Relationships extracted=Yes
+}}
+
+== FOO ==
+{{#ask: [[Category:Relationships]] [[From Study:Has Source:{{PAGENAME}}]]
+| ? Has Descriptor
+| ? Has Relation
+| ? Has End point
+| ? Has Source
+}}
+
+== FOO2 ==
+{{#ask: [[Category:Relationships]] [[From Study::Has Source::{{PAGENAME}}]]
+| ? Has Descriptor
+| ? Has Relation
+| ? Has End point
+| ? Has Source
+}}
+
+&lt;pdf&gt;1/1c/Field2011.pdf&lt;/pdf&gt;
+&lt;pdf&gt;1/18/Field2011Supp.pdf&lt;/pdf&gt;</text>
+    </revision>
+    <revision>
+      <id>1278</id>
+      <timestamp>2011-10-30T09:39:12Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Paper
+|Has Year=2011
+|Has DOI=10.1016/j.chemosphere.2011.04.067
+|Relationships extracted=Yes
+}}
+
+== FOO ==
+{{#ask: [[Category:Relationships]] [[From Study.Has Source::{{PAGENAME}}]]
+| ? Has Descriptor
+| ? Has Relation
+| ? Has End point
+| ? Has Source
+}}
+
+== FOO2 ==
+{{#ask: [[Category:Relationships]] [[From Study::Has Source::{{PAGENAME}}]]
+| ? Has Descriptor
+| ? Has Relation
+| ? Has End point
+| ? Has Source
+}}
+
+&lt;pdf&gt;1/1c/Field2011.pdf&lt;/pdf&gt;
+&lt;pdf&gt;1/18/Field2011Supp.pdf&lt;/pdf&gt;</text>
+    </revision>
+    <revision>
+      <id>1283</id>
+      <timestamp>2011-10-30T09:46:12Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Paper
+|Has Year=2011
+|Has DOI=10.1016/j.chemosphere.2011.04.067
+|Relationships extracted=Yes
+}}
+
+&lt;pdf&gt;1/1c/Field2011.pdf&lt;/pdf&gt;
+&lt;pdf&gt;1/18/Field2011Supp.pdf&lt;/pdf&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>ParticleClass</title>
+    <id>466</id>
+    <revision>
+      <id>1245</id>
+      <timestamp>2011-10-30T08:58:30Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>moved [[ParticleClass]] to [[Particle Class]]</comment>
+      <text xml:space="preserve">#REDIRECT [[Particle Class]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Field2011 R1</title>
+    <id>467</id>
+    <revision>
+      <id>1249</id>
+      <timestamp>2011-10-30T09:00:01Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Relationship |Descriptor=Particle Size |Relation=Does Not Correlate With |End point=Cytotoxicity |Has Source=Field2011 }}&quot;</comment>
+      <text xml:space="preserve">{{Relationship
+|Descriptor=Particle Size
+|Relation=Does Not Correlate With
+|End point=Cytotoxicity
+|Has Source=Field2011
+}}</text>
+    </revision>
+    <revision>
+      <id>1263</id>
+      <timestamp>2011-10-30T09:20:05Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Relationship
+|Descriptor=Particle Size
+|Relation=Does Not Correlate With
+|End point=Cytotoxicity
+|Has Source=Field2011
+|From Study=Field2011Cytotox
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Particle Size</title>
+    <id>468</id>
+    <revision>
+      <id>1250</id>
+      <timestamp>2011-10-30T09:00:14Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Descriptor}}&quot;</comment>
+      <text xml:space="preserve">{{Descriptor}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Field2011 R2</title>
+    <id>469</id>
+    <revision>
+      <id>1251</id>
+      <timestamp>2011-10-30T09:06:24Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Relationship |Descriptor=Contamination |Relation=Correlates With |End point=Cytotoxicity |Has Source=Field2011 }}&quot;</comment>
+      <text xml:space="preserve">{{Relationship
+|Descriptor=Contamination
+|Relation=Correlates With
+|End point=Cytotoxicity
+|Has Source=Field2011
+}}</text>
+    </revision>
+    <revision>
+      <id>1252</id>
+      <timestamp>2011-10-30T09:06:40Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Relationship
+|Descriptor=Contaminations
+|Relation=Correlates With
+|End point=Cytotoxicity
+|Has Source=Field2011
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Contaminations</title>
+    <id>470</id>
+    <revision>
+      <id>1253</id>
+      <timestamp>2011-10-30T09:07:05Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Descriptor}}&quot;</comment>
+      <text xml:space="preserve">{{Descriptor}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Log GI50</title>
+    <id>471</id>
+    <revision>
+      <id>1256</id>
+      <timestamp>2011-10-30T09:09:50Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Endpoint |Description=Log GI_50 |Has Assay Type=In Vitro }}&quot;</comment>
+      <text xml:space="preserve">{{Endpoint
+|Description=Log GI_50
+|Has Assay Type=In Vitro
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Field2011Cytotox</title>
+    <id>472</id>
+    <revision>
+      <id>1261</id>
+      <timestamp>2011-10-30T09:18:54Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Study |Has Identifier=14 |Has Source=Field2011 |Has Entities=MetalOxides |Has Study Type=Descriptive }}&quot;</comment>
+      <text xml:space="preserve">{{Study
+|Has Identifier=14
+|Has Source=Field2011
+|Has Entities=MetalOxides
+|Has Study Type=Descriptive
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:From Study</title>
+    <id>473</id>
+    <revision>
+      <id>1265</id>
+      <timestamp>2011-10-30T09:21:22Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;This is a property of type [[Has type::Page]].&quot;</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Page]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>WillighagenS1 R1</title>
+    <id>474</id>
+    <revision>
+      <id>1286</id>
+      <timestamp>2011-10-30T09:50:46Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Relationship |Descriptor=Ionozation Enthalpy |Relation=Negatively Correlates With |End point=Log Reciprocal EC50 |From Study=WillighagenS1 }}&quot;</comment>
+      <text xml:space="preserve">{{Relationship
+|Descriptor=Ionozation Enthalpy
+|Relation=Negatively Correlates With
+|End point=Log Reciprocal EC50
+|From Study=WillighagenS1
+}}</text>
+    </revision>
+    <revision>
+      <id>1287</id>
+      <timestamp>2011-10-30T09:50:57Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Relationship
+|Descriptor=Ionization Enthalpy
+|Relation=Negatively Correlates With
+|End point=Log Reciprocal EC50
+|From Study=WillighagenS1
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>WillighagenS1 R2</title>
+    <id>475</id>
+    <revision>
+      <id>1288</id>
+      <timestamp>2011-10-30T09:52:14Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Relationship |Descriptor=Particle Size |Relation=Correlates With |End point=Log Reciprocal EC50 |From Study=WillighagenS1 }}&quot;</comment>
+      <text xml:space="preserve">{{Relationship
+|Descriptor=Particle Size
+|Relation=Correlates With
+|End point=Log Reciprocal EC50
+|From Study=WillighagenS1
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Field2011 Batch1</title>
+    <id>476</id>
+    <revision>
+      <id>1290</id>
+      <timestamp>2011-10-30T10:06:31Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{NanoMaterial |Has Label=Batch 1 |Has Identifier=106 |Has Chemical Composition=HfO2 |Has NM Type=MetalOxide |Has Size=286 |Has Size Error=2.2 |Has Size Units=nm |Has Zeta potent…&quot;</comment>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=Batch 1
+|Has Identifier=106
+|Has Chemical Composition=HfO2
+|Has NM Type=MetalOxide
+|Has Size=286
+|Has Size Error=2.2
+|Has Size Units=nm
+|Has Zeta potential=52
+|Has Zeta potential Error=0.2
+|Has Zeta potential Units=mV
+}}
+
+Particle sizes from DLS.
+
+{{#set:|Used in Study=Jugan5}}</text>
+    </revision>
+    <revision>
+      <id>1295</id>
+      <timestamp>2011-10-30T10:11:01Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=Batch 1
+|Has Identifier=106
+|Has Chemical Composition=HfO2
+|Has NM Type=MetalOxide
+|Has Size=286
+|Has Size Error=2.2
+|Has Size Units=nm
+|Has Zeta potential=52
+|Has Zeta Error=0.2
+|Has Zeta Units=mV
+}}
+
+Particle sizes from DLS.
+
+{{#set:|Used in Study=Jugan5}}</text>
+    </revision>
+    <revision>
+      <id>1297</id>
+      <timestamp>2011-10-30T10:14:10Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=Batch 1
+|Has Identifier=106
+|Has Chemical Composition=HfO2
+|Has NM Type=MetalOxide
+|Has Size=286
+|Has Size Error=2.2
+|Has Size Units=nm
+|Has Zeta potential=52
+|Has Zeta Error=0.2
+|Has Zeta Units=mV
+}}
+
+Particle sizes from DLS.
+
+{{#set:|Used in Study=Field2011Cytotox}}</text>
+    </revision>
+    <revision>
+      <id>1302</id>
+      <timestamp>2011-10-30T10:45:43Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=Batch 1
+|Has Identifier=106
+|Has Chemical Composition=HfO2
+|Has NM Type=MetalOxide
+|Has Size=286
+|Has Size Error=2.2
+|Has Size Units=nm
+|Has Size Method=DLS
+|Has Zeta potential=52
+|Has Zeta Error=0.2
+|Has Zeta Units=mV
+}}
+
+{{#set:|Used in Study=Field2011Cytotox}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Has Size Error</title>
+    <id>477</id>
+    <revision>
+      <id>1291</id>
+      <timestamp>2011-10-30T10:07:54Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;This is a property of type [[Has type::Number]].&quot;</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Number]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Has Zeta Error</title>
+    <id>478</id>
+    <revision>
+      <id>1292</id>
+      <timestamp>2011-10-30T10:09:40Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;This is a property of type [[Has type::Number]].&quot;</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Number]].</text>
+    </revision>
+    <revision>
+      <id>1293</id>
+      <timestamp>2011-10-30T10:10:35Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <comment>moved [[Property:Has Zeta potential Error]] to [[Property:Has Zeta Error]]</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Number]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Has Zeta potential Error</title>
+    <id>479</id>
+    <revision>
+      <id>1294</id>
+      <timestamp>2011-10-30T10:10:35Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>moved [[Property:Has Zeta potential Error]] to [[Property:Has Zeta Error]]</comment>
+      <text xml:space="preserve">#REDIRECT [[Property:Has Zeta Error]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Field2011 Batch2</title>
+    <id>480</id>
+    <revision>
+      <id>1296</id>
+      <timestamp>2011-10-30T10:13:58Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{NanoMaterial |Has Label=Batch 2 |Has Identifier=107 |Has Chemical Composition=HfO2 |Has NM Type=MetalOxide |Has Size=283 |Has Size Error=7.1 |Has Size Units=nm |Has Zeta potent…&quot;</comment>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=Batch 2
+|Has Identifier=107
+|Has Chemical Composition=HfO2
+|Has NM Type=MetalOxide
+|Has Size=283
+|Has Size Error=7.1
+|Has Size Units=nm
+|Has Zeta potential=44
+|Has Zeta Error=1.8
+|Has Zeta Units=mV
+}}
+
+Particle sizes from DLS.
+
+{{#set:|Used in Study=Field2011Cytotox}}</text>
+    </revision>
+    <revision>
+      <id>1303</id>
+      <timestamp>2011-10-30T10:46:00Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=Batch 2
+|Has Identifier=107
+|Has Chemical Composition=HfO2
+|Has NM Type=MetalOxide
+|Has Size=283
+|Has Size Error=7.1
+|Has Size Units=nm
+|Has Size Method=DLS
+|Has Zeta potential=44
+|Has Zeta Error=1.8
+|Has Zeta Units=mV
+}}
+
+{{#set:|Used in Study=Field2011Cytotox}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Field2011 Batch3</title>
+    <id>481</id>
+    <revision>
+      <id>1298</id>
+      <timestamp>2011-10-30T10:15:53Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{NanoMaterial |Has Label=Batch 3 |Has Identifier=108 |Has Chemical Composition=HfO2 |Has NM Type=MetalOxide |Has Size=150 |Has Size Error=0.6 |Has Size Units=nm |Has Zeta potent…&quot;</comment>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=Batch 3
+|Has Identifier=108
+|Has Chemical Composition=HfO2
+|Has NM Type=MetalOxide
+|Has Size=150
+|Has Size Error=0.6
+|Has Size Units=nm
+|Has Zeta potential=66
+|Has Zeta Error=5.4
+|Has Zeta Units=mV
+}}
+
+Particle sizes from DLS.
+
+{{#set:|Used in Study=Field2011Cytotox}}</text>
+    </revision>
+    <revision>
+      <id>1304</id>
+      <timestamp>2011-10-30T10:46:14Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=Batch 3
+|Has Identifier=108
+|Has Chemical Composition=HfO2
+|Has NM Type=MetalOxide
+|Has Size=150
+|Has Size Error=0.6
+|Has Size Units=nm
+|Has Size Method=DLS
+|Has Zeta potential=66
+|Has Zeta Error=5.4
+|Has Zeta Units=mV
+}}
+
+Particle sizes from DLS.
+
+{{#set:|Used in Study=Field2011Cytotox}}</text>
+    </revision>
+    <revision>
+      <id>1305</id>
+      <timestamp>2011-10-30T10:46:23Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=Batch 3
+|Has Identifier=108
+|Has Chemical Composition=HfO2
+|Has NM Type=MetalOxide
+|Has Size=150
+|Has Size Error=0.6
+|Has Size Units=nm
+|Has Size Method=DLS
+|Has Zeta potential=66
+|Has Zeta Error=5.4
+|Has Zeta Units=mV
+}}
+
+{{#set:|Used in Study=Field2011Cytotox}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Field2011 Micron</title>
+    <id>482</id>
+    <revision>
+      <id>1299</id>
+      <timestamp>2011-10-30T10:16:48Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{NanoMaterial |Has Label=Micron |Has Identifier=109 |Has Chemical Composition=HfO2 |Has NM Type=MetalOxide |Has Size=221 |Has Size Error=0.8 |Has Size Units=nm |Has Zeta potenti…&quot;</comment>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=Micron
+|Has Identifier=109
+|Has Chemical Composition=HfO2
+|Has NM Type=MetalOxide
+|Has Size=221
+|Has Size Error=0.8
+|Has Size Units=nm
+|Has Zeta potential=64
+|Has Zeta Error=1.8
+|Has Zeta Units=mV
+}}
+
+Particle sizes from DLS.
+
+{{#set:|Used in Study=Field2011Cytotox}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Has Size Method</title>
+    <id>483</id>
+    <revision>
+      <id>1306</id>
+      <timestamp>2011-10-30T10:48:41Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;This is a property of type [[Has type::Page]].  The allowed value for this property is: * [[Allows value::DLS]] * [[Allows value::TEM]]&quot;</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Page]].
+
+The allowed value for this property is:
+* [[Allows value::DLS]]
+* [[Allows value::TEM]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>File:Karlsson2009.pdf</title>
+    <id>484</id>
+    <revision>
+      <id>1314</id>
+      <timestamp>2011-10-30T10:52:51Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" />
+    </revision>
+  </page>
+  <page>
+    <title>Karlsson2009</title>
+    <id>485</id>
+    <revision>
+      <id>1315</id>
+      <timestamp>2011-10-30T10:53:05Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Paper |Has Year=2009 |Has DOI=10.1016/j.toxlet.2009.03.014 }}  &lt;pdf height=&quot;300&quot;&gt;c/c0/Karlsson2009.pdf&lt;/pdf&gt;&quot;</comment>
+      <text xml:space="preserve">{{Paper
+|Has Year=2009
+|Has DOI=10.1016/j.toxlet.2009.03.014
+}}
+
+&lt;pdf height=&quot;300&quot;&gt;c/c0/Karlsson2009.pdf&lt;/pdf&gt;</text>
+    </revision>
+    <revision>
+      <id>1327</id>
+      <timestamp>2011-10-30T11:24:20Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Paper
+|Has Year=2009
+|Has DOI=10.1016/j.toxlet.2009.03.014
+|Substances extracted=Yes
+}}
+
+&lt;pdf height=&quot;300&quot;&gt;c/c0/Karlsson2009.pdf&lt;/pdf&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>HannaK15</title>
+    <id>486</id>
+    <revision>
+      <id>1316</id>
+      <timestamp>2011-10-30T11:01:01Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{NanoMaterial |Has Label=Fe2O3 nano |Has Identifier=25 |Has Chemical Composition=Fe2O3 |Has NM Type=MetalOxide |Has Size Min=30 |Has Size Max=60 |Has Size Units=nm |Has Size Met…&quot;</comment>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=Fe2O3 nano
+|Has Identifier=25
+|Has Chemical Composition=Fe2O3
+|Has NM Type=MetalOxide
+|Has Size Min=30
+|Has Size Max=60
+|Has Size Units=nm
+|Has Size Method=TEM
+}}</text>
+    </revision>
+    <revision>
+      <id>1317</id>
+      <timestamp>2011-10-30T11:01:36Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=Fe2O3 nano
+|Has Identifier=110
+|Has Chemical Composition=Fe2O3
+|Has NM Type=MetalOxide
+|Has Size Min=30
+|Has Size Max=60
+|Has Size Units=nm
+|Has Size Method=TEM
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>HannaK16</title>
+    <id>487</id>
+    <revision>
+      <id>1318</id>
+      <timestamp>2011-10-30T11:02:32Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{NanoMaterial |Has Label=Fe2O3 micro |Has Identifier=111 |Has Chemical Composition=Fe2O3 |Has NM Type=MetalOxide |Has Size Min=150 |Has Size Max=1000 |Has Size Units=nm |Has Siz…&quot;</comment>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=Fe2O3 micro
+|Has Identifier=111
+|Has Chemical Composition=Fe2O3
+|Has NM Type=MetalOxide
+|Has Size Min=150
+|Has Size Max=1000
+|Has Size Units=nm
+|Has Size Method=TEM
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>HannaK17</title>
+    <id>488</id>
+    <revision>
+      <id>1319</id>
+      <timestamp>2011-10-30T11:03:08Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{NanoMaterial |Has Label=Fe3O4 nano |Has Identifier=111 |Has Chemical Composition=Fe3O4 |Has NM Type=MetalOxide |Has Size Min=20 |Has Size Max=40 |Has Size Units=nm |Has Size Me…&quot;</comment>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=Fe3O4 nano
+|Has Identifier=111
+|Has Chemical Composition=Fe3O4
+|Has NM Type=MetalOxide
+|Has Size Min=20
+|Has Size Max=40
+|Has Size Units=nm
+|Has Size Method=TEM
+}}</text>
+    </revision>
+    <revision>
+      <id>1325</id>
+      <timestamp>2011-10-30T11:06:45Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=Fe3O4 nano
+|Has Identifier=116
+|Has Chemical Composition=Fe3O4
+|Has NM Type=MetalOxide
+|Has Size Min=20
+|Has Size Max=40
+|Has Size Units=nm
+|Has Size Method=TEM
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>HannaK18</title>
+    <id>489</id>
+    <revision>
+      <id>1320</id>
+      <timestamp>2011-10-30T11:03:32Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{NanoMaterial |Has Label=Fe3O4 micro |Has Identifier=112 |Has Chemical Composition=Fe3O4 |Has NM Type=MetalOxide |Has Size Min=100 |Has Size Max=500 |Has Size Units=nm |Has Size…&quot;</comment>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=Fe3O4 micro
+|Has Identifier=112
+|Has Chemical Composition=Fe3O4
+|Has NM Type=MetalOxide
+|Has Size Min=100
+|Has Size Max=500
+|Has Size Units=nm
+|Has Size Method=TEM
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>HannaK19</title>
+    <id>490</id>
+    <revision>
+      <id>1321</id>
+      <timestamp>2011-10-30T11:04:10Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{NanoMaterial |Has Label=TiO2 nano |Has Identifier=113 |Has Chemical Composition=TiO2 |Has NM Type=MetalOxide |Has Size Min=20 |Has Size Max=100 |Has Size Units=nm |Has Size Met…&quot;</comment>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=TiO2 nano
+|Has Identifier=113
+|Has Chemical Composition=TiO2
+|Has NM Type=MetalOxide
+|Has Size Min=20
+|Has Size Max=100
+|Has Size Units=nm
+|Has Size Method=TEM
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>HannaK20</title>
+    <id>491</id>
+    <revision>
+      <id>1322</id>
+      <timestamp>2011-10-30T11:04:31Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{NanoMaterial |Has Label=TiO2 micro |Has Identifier=114 |Has Chemical Composition=TiO2 |Has NM Type=MetalOxide |Has Size Min=300 |Has Size Max=1000 |Has Size Units=nm |Has Size …&quot;</comment>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=TiO2 micro
+|Has Identifier=114
+|Has Chemical Composition=TiO2
+|Has NM Type=MetalOxide
+|Has Size Min=300
+|Has Size Max=1000
+|Has Size Units=nm
+|Has Size Method=TEM
+}}</text>
+    </revision>
+    <revision>
+      <id>1326</id>
+      <timestamp>2011-10-30T11:06:51Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=TiO2 micro
+|Has Identifier=117
+|Has Chemical Composition=TiO2
+|Has NM Type=MetalOxide
+|Has Size Min=300
+|Has Size Max=1000
+|Has Size Units=nm
+|Has Size Method=TEM
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>HannaK21</title>
+    <id>492</id>
+    <revision>
+      <id>1323</id>
+      <timestamp>2011-10-30T11:05:22Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{NanoMaterial |Has Label=CuO nano |Has Identifier=114 |Has Chemical Composition=CuO |Has NM Type=MetalOxide |Has Size Min=20 |Has Size Max=40 |Has Size Units=nm |Has Size Method…&quot;</comment>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=CuO nano
+|Has Identifier=114
+|Has Chemical Composition=CuO
+|Has NM Type=MetalOxide
+|Has Size Min=20
+|Has Size Max=40
+|Has Size Units=nm
+|Has Size Method=TEM
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>HannaK22</title>
+    <id>493</id>
+    <revision>
+      <id>1324</id>
+      <timestamp>2011-10-30T11:06:09Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{NanoMaterial |Has Label=CuO micro |Has Identifier=115 |Has Chemical Composition=CuO |Has NM Type=MetalOxide |Has Size Min=500 |Has Size Max=1000 |Has Size Units=nm |Has Size Me…&quot;</comment>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=CuO micro
+|Has Identifier=115
+|Has Chemical Composition=CuO
+|Has NM Type=MetalOxide
+|Has Size Min=500
+|Has Size Max=1000
+|Has Size Units=nm
+|Has Size Method=TEM
+}}</text>
     </revision>
   </page>
 </mediawiki>
