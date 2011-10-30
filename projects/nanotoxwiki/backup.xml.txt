@@ -520,6 +520,44 @@ You can browse this data via one of the following categories:
 ** cd ~/var/Projects/hg/kirepos/projects/nanotoxwiki
 ** mysqldump -u root -p wikidb --default-character-set=latin1 &gt; backup.sql.txt</text>
     </revision>
+    <revision>
+      <id>1208</id>
+      <timestamp>2011-10-30T07:19:36Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">Egon's Lab Notebook.
+
+== Nanomaterial Database ==
+
+Database containing QSAR studies from literature with assay data from cell line experiments.
+You can browse this data via one of the following categories:
+
+* [[:Category:NanoMaterials|Nanomaterials]] ({{#ask: [[Category:NanoMaterials]] | format=count}}),
+** [[:Category:MetalOxides|Metal oxides]] ({{#ask: [[Category:MetalOxides]] | format=count}}), [[:Category:Metals|Metals]] ({{#ask: [[Category:Metals]] | format=count}}), [[:Category:Alloys|Alloys]] ({{#ask: [[Category:Alloys]] | format=count}})
+** [[:Category:Coatings|Coatings]] ({{#ask: [[Category:Coatings]] | format=count}})
+** [[:Category:Coating_Parts|Coating Parts]] ({{#ask: [[Category:Coating_Parts]] | format=count}})
+* [[:Category:Studies|Studies]] ({{#ask: [[Category:Studies]] | format=count}}), [[:Category:Measurements|Measurements]] ({{#ask: [[Category:Measurements]] | format=count}}),
+** [[:Category:NanoMaterials|NanoMaterials]] ({{#ask: [[Category:Studies]] [[Has Entities::!Compounds]] | format=count}}), of which Metal oxides ({{#ask: [[Category:Studies]] [[Has Entities::MetalOxides]] | format=count}}),
+** [[:Category:Compounds|Compounds]] ({{#ask: [[Category:Studies]] [[Has Entities::Compounds]] | format=count}})
+* [[:Category:Papers|Papers]] ({{#ask: [[Category:Papers]] | format=count}}) , [[:Category:PapersToRead|To Read]] ({{#ask: [[Category:PapersToRead]] | format=count}})
+* [[:Category:Descriptors|Descriptors]] ({{#ask: [[Category:Descriptors]] | format=count}}),
+* [[:Category:Endpoints|Endpoints]] ({{#ask: [[Category:Endpoints]] | format=count}}),
+* [[:Category:Toxicity|Toxicity]] ({{#ask: [[Category:Toxicity]] | format=count}}),
+* [[:Category:CellLines|Cell lines]] ({{#ask: [[Category:CellLines]] | format=count}}).
+
+== Backups ==
+
+* [[Special:ExportRDF|Export RDF]] (does not work)
+* dumpBackup.php
+** cd ~/var/Projects/hg/kirepos/projects/nanotoxwiki
+** sudo php /usr/share/mediawiki/maintenance/dumpBackup.php --conf /etc/mediawiki/LocalSettings.php --full &gt; backup.xml.txt
+** (this required adding an /etc/mediawiki/AdminSettings.php with db account info, '''wrapped''' in ''&lt;?php ?&gt;'')
+* see ~/var/Projects/hg/kirepos/projects/nanotoxwiki/README
+** cd ~/var/Projects/hg/kirepos/projects/nanotoxwiki
+** mysqldump -u root -p wikidb --default-character-set=latin1 &gt; backup.sql.txt</text>
+    </revision>
   </page>
   <page>
     <title>MediaWiki:Smw uri blacklist</title>
@@ -3956,6 +3994,28 @@ You can browse this data via one of the following categories:
  |template = NMsFrontTemplate
  |introtemplate = NMsFrontHeader
  |outrotemplate = NMsFrontFooter
+ |sort = Has Identifier
+ |offset=0
+ |limit=250
+}}</text>
+    </revision>
+    <revision>
+      <id>1199</id>
+      <timestamp>2011-10-30T07:11:33Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">A list of nanomaterials:
+
+{{#ask: [[Category:NanoMaterials]]
+ | ? Has Identifier #
+ | ? Has Label #
+ | ? Has Size #
+ | ? Has NM Type #
+ | ? Has Zeta potential #
+ | ? Has Chemical Composition #
+ | ? Has Chemical Coating #
  |sort = Has Identifier
  |offset=0
  |limit=250
@@ -9018,6 +9078,340 @@ This database contains the following nanomaterials:
 [[Category:Studies]]__NOEDITSECTION____NOTOC__
 &lt;/includeonly&gt;</text>
     </revision>
+    <revision>
+      <id>1206</id>
+      <timestamp>2011-10-30T07:15:47Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">&lt;noinclude&gt;
+&lt;pre&gt;
+{{Study
+|Description=
+|Has Identifier=
+|Has Source=
+|Has Entities=
+|Has Endpoint=
+|For Cell line=
+|Has Study Type=
+|Has Object Count=
+|Has R2=
+|Has Q2=
+|Has RMSEP=
+|Has EA=
+}}
+&lt;/pre&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: right; table-layout:fixed; word-wrap: break-word;&quot;
+! colspan=2 style=&quot;text-align: center;background-color: #ddd;&quot; | Study
+|-
+! colspan=2 style=&quot;text-align: center; font-size: 125%&quot; | {{{Name|{{PAGENAME}} }}}
+|-
+! colspan=2 style=&quot;text-align: center;background-color: #ddd;&quot; | Description
+|-
+{{#if:{{{Has Description|}}}|
+{{!}}-
+{{!}} Description
+{{!}} {{{Has Description}}} 
+}}
+{{#if:{{{Has Identifier|}}}|
+{{!}}-
+{{!}} Identifier
+{{!}} {{{Has Identifier}}} 
+}}
+{{#if:{{{Has Entities|}}}|
+{{!}}-
+{{!}} Entities
+{{!}} [[:Category:{{{Has Entities}}}|{{{Has Entities}}}]]
+}}
+{{#if:{{{Has Source|}}}|
+{{!}}-
+{{!}} Source
+{{!}} [[{{{Has Source}}}]]
+}}
+|-
+! colspan=2 style=&quot;text-align: center;background-color: #ddd;&quot; | Biology
+{{#if:{{{Has Endpoint|}}}|
+{{!}}-
+{{!}} Endpoint
+{{!}} [[{{{Has Endpoint}}}]]
+}}
+{{#if:{{{For Cell line|}}}|
+{{!}}-
+{{!}} Cell Line
+{{!}} [[{{{For Cell line}}}]]
+}}
+|-
+! colspan=2 style=&quot;text-align: center;background-color: #ddd;&quot; | Statistics
+{{#if:{{{Has Study Type|}}}|
+{{!}}-
+{{!}} Study Type
+{{!}} {{{Has Study Type}}}
+}}
+{{#if:{{{Has Object Count|}}}|
+{{!}}-
+{{!}} Object Count
+{{!}} {{{Has Object Count}}}
+}}
+{{#if:{{{Has R2|}}}|
+{{!}}-
+{{!}} R2
+{{!}} {{{Has R2}}}
+}}
+{{#if:{{{Has Q2|}}}|
+{{!}}-
+{{!}} Q2
+{{!}} {{{Has Q2}}}
+}}
+{{#if:{{{Has RMSEP|}}}|
+{{!}}-
+{{!}} RMSEP
+{{!}} {{{Has RMSEP}}}
+}}
+{{#if:{{{Has EA|}}}|
+{{!}}-
+{{!}} External Accuracy
+{{!}} {{{Has EA}}} %
+}}
+|}
+&lt;br&gt;
+= Studied entities =
+{{#ask: [[Used in Study::{{PAGENAME}}]]
+| ?Has Label
+| ?Has Size
+}}
+{{#if:{{{Has Description|}}} |
+{{#set:
+|Has Description={{{Has Description|}}}
+}}
+| }}
+{{#if:{{{Has Identifier|}}} |
+{{#set:
+|Has Identifier={{{Has Identifier|}}}
+}}
+| }}
+{{#if:{{{Has Entities|}}} |
+{{#set:
+|Has Entities={{{Has Entities|}}}
+}}
+| }}
+{{#if:{{{Has Endpoint|}}} |
+{{#set:
+|Has Endpoint={{{Has Endpoint|}}}
+}}
+| }}
+{{#if:{{{For Cell line|}}} |
+{{#set:
+|For Cell line={{{For Cell line|}}}
+}}
+| }}
+{{#if:{{{Has Source|}}} |
+{{#set:
+|Has Source={{{Has Source|}}}
+}}
+| }}
+{{#if:{{{Has Object Count|}}} |
+{{#set:
+|Has Object Count={{{Has Object Count|}}}
+}}
+| }}
+{{#if:{{{Has R2|}}} |
+{{#set:
+|Has R2={{{Has R2|}}}
+}}
+| }}
+{{#if:{{{Has Q2|}}} |
+{{#set:
+|Has Q2={{{Has Q2|}}}
+}}
+| }}
+{{#if:{{{Has RMSEP|}}} |
+{{#set:
+|Has RMSEP={{{Has RMSEP|}}}
+}}
+| }}
+{{#if:{{{Has EA|}}} |
+{{#set:
+|Has EA={{{Has EA|}}}
+}}
+| }}
+{{#if:{{{Has Study Type|}}} |
+{{#set:
+|Has Study Type={{{Has Study Type|}}}
+}}
+| }}
+[[Category:Studies]]__NOEDITSECTION____NOTOC__
+&lt;/includeonly&gt;</text>
+    </revision>
+    <revision>
+      <id>1207</id>
+      <timestamp>2011-10-30T07:16:25Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">&lt;noinclude&gt;
+&lt;pre&gt;
+{{Study
+|Description=
+|Has Identifier=
+|Has Source=
+|Has Entities=
+|Has Endpoint=
+|For Cell line=
+|Has Study Type=
+|Has Object Count=
+|Has R2=
+|Has Q2=
+|Has RMSEP=
+|Has EA=
+}}
+&lt;/pre&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: right; table-layout:fixed; word-wrap: break-word;&quot;
+! colspan=2 style=&quot;text-align: center;background-color: #ddd;&quot; | Study
+|-
+! colspan=2 style=&quot;text-align: center; font-size: 125%&quot; | {{{Name|{{PAGENAME}} }}}
+|-
+! colspan=2 style=&quot;text-align: center;background-color: #ddd;&quot; | Description
+|-
+{{#if:{{{Has Description|}}}|
+{{!}}-
+{{!}} Description
+{{!}} {{{Has Description}}} 
+}}
+{{#if:{{{Has Identifier|}}}|
+{{!}}-
+{{!}} Identifier
+{{!}} {{{Has Identifier}}} 
+}}
+{{#if:{{{Has Entities|}}}|
+{{!}}-
+{{!}} Entities
+{{!}} [[:Category:{{{Has Entities}}}|{{{Has Entities}}}]]
+}}
+{{#if:{{{Has Source|}}}|
+{{!}}-
+{{!}} Source
+{{!}} [[{{{Has Source}}}]]
+}}
+|-
+! colspan=2 style=&quot;text-align: center;background-color: #ddd;&quot; | Biology
+{{#if:{{{Has Endpoint|}}}|
+{{!}}-
+{{!}} Endpoint
+{{!}} [[{{{Has Endpoint}}}]]
+}}
+{{#if:{{{For Cell line|}}}|
+{{!}}-
+{{!}} Cell Line
+{{!}} [[{{{For Cell line}}}]]
+}}
+|-
+! colspan=2 style=&quot;text-align: center;background-color: #ddd;&quot; | Statistics
+{{#if:{{{Has Study Type|}}}|
+{{!}}-
+{{!}} Study Type
+{{!}} {{{Has Study Type}}}
+}}
+{{#if:{{{Has Object Count|}}}|
+{{!}}-
+{{!}} Object Count
+{{!}} {{{Has Object Count}}}
+}}
+{{#if:{{{Has R2|}}}|
+{{!}}-
+{{!}} R2
+{{!}} {{{Has R2}}}
+}}
+{{#if:{{{Has Q2|}}}|
+{{!}}-
+{{!}} Q2
+{{!}} {{{Has Q2}}}
+}}
+{{#if:{{{Has RMSEP|}}}|
+{{!}}-
+{{!}} RMSEP
+{{!}} {{{Has RMSEP}}}
+}}
+{{#if:{{{Has EA|}}}|
+{{!}}-
+{{!}} External Accuracy
+{{!}} {{{Has EA}}} %
+}}
+|}
+&lt;br&gt;
+= Studied entities =
+{{#ask: [[Used in Study::{{PAGENAME}}]]
+| ?Has Label
+| ?Has Size
+| ?Has Chemical Composition
+| ?Has Chemical Coating
+}}
+{{#if:{{{Has Description|}}} |
+{{#set:
+|Has Description={{{Has Description|}}}
+}}
+| }}
+{{#if:{{{Has Identifier|}}} |
+{{#set:
+|Has Identifier={{{Has Identifier|}}}
+}}
+| }}
+{{#if:{{{Has Entities|}}} |
+{{#set:
+|Has Entities={{{Has Entities|}}}
+}}
+| }}
+{{#if:{{{Has Endpoint|}}} |
+{{#set:
+|Has Endpoint={{{Has Endpoint|}}}
+}}
+| }}
+{{#if:{{{For Cell line|}}} |
+{{#set:
+|For Cell line={{{For Cell line|}}}
+}}
+| }}
+{{#if:{{{Has Source|}}} |
+{{#set:
+|Has Source={{{Has Source|}}}
+}}
+| }}
+{{#if:{{{Has Object Count|}}} |
+{{#set:
+|Has Object Count={{{Has Object Count|}}}
+}}
+| }}
+{{#if:{{{Has R2|}}} |
+{{#set:
+|Has R2={{{Has R2|}}}
+}}
+| }}
+{{#if:{{{Has Q2|}}} |
+{{#set:
+|Has Q2={{{Has Q2|}}}
+}}
+| }}
+{{#if:{{{Has RMSEP|}}} |
+{{#set:
+|Has RMSEP={{{Has RMSEP|}}}
+}}
+| }}
+{{#if:{{{Has EA|}}} |
+{{#set:
+|Has EA={{{Has EA|}}}
+}}
+| }}
+{{#if:{{{Has Study Type|}}} |
+{{#set:
+|Has Study Type={{{Has Study Type|}}}
+}}
+| }}
+[[Category:Studies]]__NOEDITSECTION____NOTOC__
+&lt;/includeonly&gt;</text>
+    </revision>
   </page>
   <page>
     <title>Template:Paper</title>
@@ -9864,6 +10258,200 @@ Template that causes pages to show up as [[:Category:Papers|Papers]].
 [[Category:Papers]]__NOEDITSECTION____NOTOC__
 &lt;/includeonly&gt;</text>
     </revision>
+    <revision>
+      <id>1212</id>
+      <timestamp>2011-10-30T07:24:45Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">&lt;noinclude&gt;
+Template that causes pages to show up as [[:Category:Papers|Papers]].
+&lt;pre&gt;
+{{Paper
+|Has Year=
+|Has DOI=
+|Substances extracted=
+|Relationships extracted=
+|Read=
+}}
+&lt;/pre&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: right; table-layout:fixed; word-wrap: break-word;&quot;
+! colspan=2 style=&quot;text-align: center; font-size: 125%&quot; | {{{Name|{{PAGENAME}} }}}
+|-
+{{#if:{{{Has Year|}}}|
+{{!}}-
+{{!}} Year
+{{!}} {{{Has Year}}} 
+}}
+{{#if:{{{Has DOI|}}}|
+{{!}}-
+{{!}} DOI
+{{!}} {{{Has DOI}}} 
+}}
+{{#if:{{{Substances extracted|}}}|
+{{!}}-
+{{!}} Substances
+{{!}} {{{Substances extracted}}} 
+}}
+{{#if:{{{Relationships extracted|}}}|
+{{!}}-
+{{!}} Relationships
+{{!}} {{{Relationships extracted}}} 
+}}
+{{#if:{{{Read|}}}|
+{{!}}-
+{{!}} Read
+{{!}} {{{Read}}} 
+}}
+|}
+&lt;br&gt;
+== Relationships ==
+{{#ask: [[Category:Relationships]] [[Has Source::{{PAGENAME}}]]
+| ? Has Descriptor
+| ? Has Relation
+| ? Has End point
+| ? Has Source
+}}
+
+== Studies ==
+{{#ask: [[Category:Studies]] [[Has Source::{{PAGENAME}}]]
+| ? Has Study Type
+| ? Has Object Count
+| ? Has R2
+| ? Has Q2
+| ? Has RMSEP
+| ? Has EA
+}}
+
+{{#if:{{{Has DOI|}}} |
+{{#set:
+|Has DOI={{{Has DOI|}}}
+}}
+{{#set:
+|Equivalent URI=http://dx.doi.org/{{{Has DOI|}}}
+}}
+| }}
+{{#if:{{{Has Year|}}} |
+{{#set:
+|Has Year={{{Has Year|}}}
+}}
+| }}
+{{#if:{{{Substances extracted|}}} |
+{{#set:
+|Substances extracted={{{Substances extracted|}}}
+}}
+| }}
+{{#if:{{{Relationships extracted|}}} |
+{{#set:
+|Relationships extracted={{{Relationships extracted|}}}
+}}
+| }}
+{{#if:{{{Read|}}} |
+|
+[[Category:PapersToRead]]
+}}
+[[Category:Papers]]__NOEDITSECTION____NOTOC__
+&lt;/includeonly&gt;</text>
+    </revision>
+    <revision>
+      <id>1216</id>
+      <timestamp>2011-10-30T07:28:54Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">&lt;noinclude&gt;
+Template that causes pages to show up as [[:Category:Papers|Papers]].
+&lt;pre&gt;
+{{Paper
+|Has Year=
+|Has DOI=
+|Substances extracted=
+|Relationships extracted=
+|Read=
+}}
+&lt;/pre&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: right; table-layout:fixed; word-wrap: break-word;&quot;
+! colspan=2 style=&quot;text-align: center; font-size: 125%&quot; | {{{Name|{{PAGENAME}} }}}
+|-
+{{#if:{{{Has Year|}}}|
+{{!}}-
+{{!}} Year
+{{!}} {{{Has Year}}} 
+}}
+{{#if:{{{Has DOI|}}}|
+{{!}}-
+{{!}} DOI
+{{!}} {{{Has DOI}}} 
+}}
+{{#if:{{{Substances extracted|}}}|
+{{!}}-
+{{!}} Substances
+{{!}} {{{Substances extracted}}} 
+}}
+{{#if:{{{Relationships extracted|}}}|
+{{!}}-
+{{!}} Relationships
+{{!}} {{{Relationships extracted}}} 
+}}
+{{#if:{{{Read|}}}|
+{{!}}-
+{{!}} Read
+{{!}} {{{Read}}} 
+}}
+|}
+&lt;br&gt;
+== Relationships ==
+{{#ask: [[Category:Relationships]] [[Has Source::{{PAGENAME}}]]
+| ? Has Descriptor
+| ? Has Relation
+| ? Has End point
+| ? Has Source
+}}
+
+== Studies ==
+{{#ask: [[Category:Studies]] [[Has Source::{{PAGENAME}}]]
+| ? Has Study Type
+| ? Has Object Count
+| ? Has R2
+| ? Has Q2
+| ? Has RMSEP
+| ? Has EA
+}}
+
+{{#if:{{{Has DOI|}}} |
+{{#set:
+|Has DOI={{{Has DOI|}}}
+}}
+{{#set:
+|Equivalent URI=http://dx.doi.org/{{{Has DOI|}}}
+}}
+| }}
+{{#if:{{{Has Year|}}} |
+{{#set:
+|Has Year={{{Has Year|}}}
+}}
+| }}
+{{#if:{{{Substances extracted|}}} |
+{{#set:
+|Substances extracted={{{Substances extracted|}}}
+}}
+| }}
+{{#if:{{{Relationships extracted|}}} |
+{{#set:
+|Relationships extracted={{{Relationships extracted|}}}
+}}
+| }}
+{{#if:{{{Read|}}} or {{{Relationships extracted|}}} or {{{Substances extracted|}}} |
+|
+[[Category:PapersToRead]]
+}}
+[[Category:Papers]]__NOEDITSECTION____NOTOC__
+&lt;/includeonly&gt;</text>
+    </revision>
   </page>
   <page>
     <title>Puzyn2011</title>
@@ -10029,6 +10617,40 @@ Template that causes pages to show up as [[:Category:Papers|Papers]].
 | ? Has DOI
 | ? Substances extracted
 | ? Relationships extracted
+}}</text>
+    </revision>
+    <revision>
+      <id>1166</id>
+      <timestamp>2011-10-30T05:49:00Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">Journal papers described in this database.
+
+{{#ask: [[Category:Papers]]
+| ? Has Year
+| ? Has DOI
+| ? Substances extracted
+| ? Relationships extracted
+| sort=Has Year
+}}</text>
+    </revision>
+    <revision>
+      <id>1214</id>
+      <timestamp>2011-10-30T07:25:06Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">Journal papers described in this database.
+
+{{#ask: [[Category:Papers]]
+| ? Has Year
+| ? Has DOI
+| ? Substances extracted
+| ? Relationships extracted
+| ? Read
+| sort=Has Year
 }}</text>
     </revision>
   </page>
@@ -16334,6 +16956,33 @@ The CHEMINF field does the same but then for the CHEMINF ontology.
 |Has DOI=10.1016/j.bmc.2004.05.026
 }}</text>
     </revision>
+    <revision>
+      <id>1162</id>
+      <timestamp>2011-10-30T05:38:55Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Paper
+|Has Year=2004
+|Has DOI=10.1016/j.bmc.2004.05.026
+|Relationships extracted=Yes
+}}</text>
+    </revision>
+    <revision>
+      <id>1174</id>
+      <timestamp>2011-10-30T06:26:50Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Paper
+|Has Year=2004
+|Has DOI=10.1016/j.bmc.2004.05.026
+|Relationships extracted=Yes
+}}
+
+&lt;pdf&gt;9/9a/Kamal2004.pdf&lt;/pdf&gt;</text>
+    </revision>
   </page>
   <page>
     <title>Kamal2004Mean</title>
@@ -16673,6 +17322,21 @@ The CHEMINF field does the same but then for the CHEMINF ontology.
 
 &lt;pdf height=&quot;300&quot;&gt;a/a5/Karlsson_2008.pdf&lt;/pdf&gt;</text>
     </revision>
+    <revision>
+      <id>1168</id>
+      <timestamp>2011-10-30T05:59:47Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Paper
+|Has Year=2008
+|Has DOI=10.1021/tx800064j
+|Substances extracted=Yes
+|Relationships extracted=No
+}}
+
+&lt;pdf height=&quot;300&quot;&gt;a/a5/Karlsson_2008.pdf&lt;/pdf&gt;</text>
+    </revision>
   </page>
   <page>
     <title>Category:PapersToRead</title>
@@ -16687,6 +17351,19 @@ The CHEMINF field does the same but then for the CHEMINF ontology.
       <text xml:space="preserve">{{#ask: [[Category:PapersToRead]]
 | ? Has Year
 | ? Has DOI
+}}</text>
+    </revision>
+    <revision>
+      <id>1218</id>
+      <timestamp>2011-10-30T07:37:54Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{#ask: [[Category:PapersToRead]]
+| ? Has Year
+| ? Has DOI
+| sort=Has Year
 }}</text>
     </revision>
   </page>
@@ -17709,6 +18386,21 @@ Asymetrically shaped particles, of 100-200 nm in one direction, and 3-7 µm in t
 
 [[Category:PapersToRead]]</text>
     </revision>
+    <revision>
+      <id>1167</id>
+      <timestamp>2011-10-30T05:56:28Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Paper
+|Has Year=2008
+|Has DOI= 10.1021/nn200021j
+}}
+
+About graphene oxides.
+
+[[Category:PapersToRead]]</text>
+    </revision>
   </page>
   <page>
     <title>Liu2011</title>
@@ -17908,6 +18600,21 @@ A classification-based cytotoxicity nanostructure-activity relationship (nanoSAR
 
 [[Category:PapersToRead]]</text>
     </revision>
+    <revision>
+      <id>1169</id>
+      <timestamp>2011-10-30T06:12:35Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Paper
+|Has Year=2010
+|Has DOI= 10.1021/nn101390x
+}}
+
+Graphenes and graphene oxides.
+
+[[Category:PapersToRead]]</text>
+    </revision>
   </page>
   <page>
     <title>Kotchey2011</title>
@@ -17959,6 +18666,35 @@ Abstract: &quot;Two-dimensional graphitic carbon is a new material with many eme
 }}
 
 [[Category:PapersToRead]]</text>
+    </revision>
+    <revision>
+      <id>1170</id>
+      <timestamp>2011-10-30T06:13:08Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Paper
+|Has Year=2010
+|Has DOI= 10.1021/nn101097v
+}}
+
+Graphenes.
+
+[[Category:PapersToRead]]</text>
+    </revision>
+    <revision>
+      <id>1213</id>
+      <timestamp>2011-10-30T07:24:57Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Paper
+|Has Year=2010
+|Has DOI= 10.1021/nn101097v
+}}
+
+Graphenes.</text>
     </revision>
   </page>
   <page>
@@ -20240,6 +20976,73 @@ Shows the label of a NanoMaterial.
 
 [[Category:PapersToRead]]</text>
     </revision>
+    <revision>
+      <id>1172</id>
+      <timestamp>2011-10-30T06:26:03Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Paper
+|Has Year=2011
+|Has DOI=10.1021/nn200546k
+}}
+
+[[Category:PapersToRead]]
+
+&lt;pdf&gt;2/2c/Harper2011.pdf&lt;/pdf&gt;</text>
+    </revision>
+    <revision>
+      <id>1175</id>
+      <timestamp>2011-10-30T06:33:55Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Paper
+|Has Year=2011
+|Has DOI=10.1021/nn200546k
+}}
+
+Coated gold particles.
+
+[[Category:PapersToRead]]
+
+&lt;pdf&gt;2/2c/Harper2011.pdf&lt;/pdf&gt;</text>
+    </revision>
+    <revision>
+      <id>1211</id>
+      <timestamp>2011-10-30T07:22:27Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Paper
+|Has Year=2011
+|Has DOI=10.1021/nn200546k
+}}
+
+Coated gold particles.
+
+&lt;pdf&gt;2/2c/Harper2011.pdf&lt;/pdf&gt;</text>
+    </revision>
+    <revision>
+      <id>1217</id>
+      <timestamp>2011-10-30T07:33:18Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Paper
+|Has Year=2011
+|Has DOI=10.1021/nn200546k
+|Substances extracted=Yes
+}}
+
+Coated gold particles.
+
+&lt;pdf&gt;2/2c/Harper2011.pdf&lt;/pdf&gt;</text>
+    </revision>
   </page>
   <page>
     <title>HannaK9</title>
@@ -20376,6 +21179,24 @@ Shows the label of a NanoMaterial.
  |template = NMsFrontTemplate
  |introtemplate = NMsFrontHeader
  |outrotemplate = NMsFrontFooter
+ |offset=0
+ |limit=250
+}}</text>
+    </revision>
+    <revision>
+      <id>1210</id>
+      <timestamp>2011-10-30T07:20:38Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">A list of nanomaterials:
+
+{{#ask: [[Category:Metals]]
+ | ? Has Label #
+ | ? Has Size #
+ | ? Has NM Type #
+ | ? Has Zeta potential #
  |offset=0
  |limit=250
 }}</text>
@@ -26085,6 +26906,33 @@ The allowed value for this property is:
 |Has Source=Puzyn2011
 }}</text>
     </revision>
+    <revision>
+      <id>1163</id>
+      <timestamp>2011-10-30T05:44:44Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Relationship
+|Descriptor=Dipole
+|Relation=CorrelatesWith
+|End point=LogGI50
+|Has Source=Kamal2004
+}}</text>
+    </revision>
+    <revision>
+      <id>1164</id>
+      <timestamp>2011-10-30T05:45:10Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Ooops.... changed wrong page :)</comment>
+      <text xml:space="preserve">{{Relationship
+|Descriptor=IonozationEnthalpy
+|Relation=NegativelyCorrelatesWith
+|End point=LogReciprocalEC50
+|Has Source=Puzyn2011
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Property:Has Relation</title>
@@ -26459,6 +27307,24 @@ The allowed value for this property is:
       </contributor>
       <text xml:space="preserve">{{NanoMaterial
 |Has Identifier=83
+|Has Label=CeO2
+|Has Chemical Composition=CeO2
+|Has NM Type=MetalOxide
+|Has Size=10
+|Has Size Units=nm
+}}
+
+{{#set:|Used in Study=Liu2011Cytotox}}</text>
+    </revision>
+    <revision>
+      <id>1192</id>
+      <timestamp>2011-10-30T07:06:38Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Identifier=94
 |Has Label=CeO2
 |Has Chemical Composition=CeO2
 |Has NM Type=MetalOxide
@@ -27561,6 +28427,21 @@ carcinogenicity.
       <comment>Created page with &quot;{{Study |Has Identifier=10 |Has Entities=MetalOxides |Has Endpoint=DNADamage |Has Study Type=Classification |Has Object Count=8 }}&quot;</comment>
       <text xml:space="preserve">{{Study
 |Has Identifier=10
+|Has Entities=MetalOxides
+|Has Endpoint=DNADamage
+|Has Study Type=Classification
+|Has Object Count=8
+}}</text>
+    </revision>
+    <revision>
+      <id>1176</id>
+      <timestamp>2011-10-30T06:37:41Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Study
+|Has Identifier=11
 |Has Entities=MetalOxides
 |Has Endpoint=DNADamage
 |Has Study Type=Classification
@@ -29829,6 +30710,635 @@ COOH in the 7 position. See also [[L-Arginine-7-COOH]].</text>
 
 {{#set:|Has Chemical=COOH}}
 {{#set:|Has Chemical=Amphiphillic Polymer}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Kamal2004 R1</title>
+    <id>433</id>
+    <revision>
+      <id>1165</id>
+      <timestamp>2011-10-30T05:48:29Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Relationship |Descriptor=Dipole |Relation=CorrelatesWith |End point=LogGI50 |Has Source=Kamal2004 }}&quot;</comment>
+      <text xml:space="preserve">{{Relationship
+|Descriptor=Dipole
+|Relation=CorrelatesWith
+|End point=LogGI50
+|Has Source=Kamal2004
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>File:Harper2011.pdf</title>
+    <id>434</id>
+    <revision>
+      <id>1171</id>
+      <timestamp>2011-10-30T06:25:42Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" />
+    </revision>
+  </page>
+  <page>
+    <title>File:Kamal2004.pdf</title>
+    <id>435</id>
+    <revision>
+      <id>1173</id>
+      <timestamp>2011-10-30T06:26:26Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" />
+    </revision>
+  </page>
+  <page>
+    <title>Harper2011InVivoTox</title>
+    <id>436</id>
+    <revision>
+      <id>1177</id>
+      <timestamp>2011-10-30T06:37:46Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Study |Has Identifier=12 |Has Source=Harper2011 |Has Entities=Metal |Has Study Type=Descriptive |Has Object Count=9 }}&quot;</comment>
+      <text xml:space="preserve">{{Study
+|Has Identifier=12
+|Has Source=Harper2011
+|Has Entities=Metal
+|Has Study Type=Descriptive
+|Has Object Count=9
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Harper2011 1</title>
+    <id>437</id>
+    <revision>
+      <id>1178</id>
+      <timestamp>2011-10-30T06:46:22Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{NanoMaterial |Has Label=Ag |Has Identifier=91 |Has Chemical Composition=Ag |Has Chemical Coating=MEEECoating |Has NM Type=Metal |Has Size=0.8 |Has Size Units=nm }}&quot;</comment>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=Ag
+|Has Identifier=91
+|Has Chemical Composition=Ag
+|Has Chemical Coating=MEEECoating
+|Has NM Type=Metal
+|Has Size=0.8
+|Has Size Units=nm
+}}</text>
+    </revision>
+    <revision>
+      <id>1189</id>
+      <timestamp>2011-10-30T07:05:26Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=Ag
+|Has Identifier=91
+|Has Chemical Composition=Ag
+|Has Chemical Coating=MEEECoating
+|Has NM Type=Metal
+|Has Size=0.8
+|Has Size Units=nm
+}}
+
+{{#set:|Used in Study=Harper2011InVivoTox}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Harper2011 2</title>
+    <id>438</id>
+    <revision>
+      <id>1179</id>
+      <timestamp>2011-10-30T06:46:39Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{NanoMaterial |Has Label=Ag |Has Identifier=92 |Has Chemical Composition=Ag |Has Chemical Coating=MEEECoating |Has NM Type=Metal |Has Size=1.5 |Has Size Units=nm }}&quot;</comment>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=Ag
+|Has Identifier=92
+|Has Chemical Composition=Ag
+|Has Chemical Coating=MEEECoating
+|Has NM Type=Metal
+|Has Size=1.5
+|Has Size Units=nm
+}}</text>
+    </revision>
+    <revision>
+      <id>1190</id>
+      <timestamp>2011-10-30T07:05:33Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=Ag
+|Has Identifier=92
+|Has Chemical Composition=Ag
+|Has Chemical Coating=MEEECoating
+|Has NM Type=Metal
+|Has Size=1.5
+|Has Size Units=nm
+}}
+
+{{#set:|Used in Study=Harper2011InVivoTox}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Harper2011 3</title>
+    <id>439</id>
+    <revision>
+      <id>1180</id>
+      <timestamp>2011-10-30T06:46:53Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{NanoMaterial |Has Label=Ag |Has Identifier=93 |Has Chemical Composition=Ag |Has Chemical Coating=MEEECoating |Has NM Type=Metal |Has Size=15 |Has Size Units=nm }}&quot;</comment>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=Ag
+|Has Identifier=93
+|Has Chemical Composition=Ag
+|Has Chemical Coating=MEEECoating
+|Has NM Type=Metal
+|Has Size=15
+|Has Size Units=nm
+}}</text>
+    </revision>
+    <revision>
+      <id>1191</id>
+      <timestamp>2011-10-30T07:05:40Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=Ag
+|Has Identifier=93
+|Has Chemical Composition=Ag
+|Has Chemical Coating=MEEECoating
+|Has NM Type=Metal
+|Has Size=15
+|Has Size Units=nm
+}}
+
+{{#set:|Used in Study=Harper2011InVivoTox}}</text>
+    </revision>
+    <revision>
+      <id>1197</id>
+      <timestamp>2011-10-30T07:09:51Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=Ag
+|Has Identifier=93
+|Has Chemical Composition=Ag
+|Has Chemical Coating=TMATCoating
+|Has NM Type=Metal
+|Has Size=0.8
+|Has Size Units=nm
+}}
+
+Size is the core size.
+
+{{#set:|Used in Study=Harper2011InVivoTox}}</text>
+    </revision>
+    <revision>
+      <id>1200</id>
+      <timestamp>2011-10-30T07:12:52Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=Ag
+|Has Identifier=97
+|Has Chemical Composition=Ag
+|Has Chemical Coating=TMATCoating
+|Has NM Type=Metal
+|Has Size=10
+|Has Size Units=nm
+}}
+
+Size is the core size.
+
+{{#set:|Used in Study=Harper2011InVivoTox}}</text>
+    </revision>
+    <revision>
+      <id>1201</id>
+      <timestamp>2011-10-30T07:13:00Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Undo revision 1200 by [[Special:Contributions/Egonw|Egonw]] ([[User talk:Egonw|Talk]])</comment>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=Ag
+|Has Identifier=93
+|Has Chemical Composition=Ag
+|Has Chemical Coating=TMATCoating
+|Has NM Type=Metal
+|Has Size=0.8
+|Has Size Units=nm
+}}
+
+Size is the core size.
+
+{{#set:|Used in Study=Harper2011InVivoTox}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>MEEECoating</title>
+    <id>440</id>
+    <revision>
+      <id>1181</id>
+      <timestamp>2011-10-30T06:47:24Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Coating}}  {{#set:|Has Chemical=MEEE}}&quot;</comment>
+      <text xml:space="preserve">{{Coating}}
+
+{{#set:|Has Chemical=MEEE}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>MEEE</title>
+    <id>441</id>
+    <revision>
+      <id>1182</id>
+      <timestamp>2011-10-30T06:48:10Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{CoatingPart |SMILES=SCCOCCOCCO }}&quot;</comment>
+      <text xml:space="preserve">{{CoatingPart
+|SMILES=SCCOCCOCCO
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>MEE</title>
+    <id>442</id>
+    <revision>
+      <id>1183</id>
+      <timestamp>2011-10-30T06:48:34Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{CoatingPart |SMILES=SCCOCCO }}&quot;</comment>
+      <text xml:space="preserve">{{CoatingPart
+|SMILES=SCCOCCO
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>TMAT</title>
+    <id>443</id>
+    <revision>
+      <id>1184</id>
+      <timestamp>2011-10-30T06:49:18Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{CoatingPart |SMILES=SCC[N+](C)(C)C.[I-] }}&quot;</comment>
+      <text xml:space="preserve">{{CoatingPart
+|SMILES=SCC[N+](C)(C)C.[I-]
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>MES</title>
+    <id>444</id>
+    <revision>
+      <id>1185</id>
+      <timestamp>2011-10-30T06:49:54Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{CoatingPart |SMILES=SCCCS(=O)(=O)[O-].[Na+] }}&quot;</comment>
+      <text xml:space="preserve">{{CoatingPart
+|SMILES=SCCCS(=O)(=O)[O-].[Na+]
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>MESCoating</title>
+    <id>445</id>
+    <revision>
+      <id>1186</id>
+      <timestamp>2011-10-30T06:57:33Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Coating}}  {{#set:|Has Chemical=MES}}&quot;</comment>
+      <text xml:space="preserve">{{Coating}}
+
+{{#set:|Has Chemical=MES}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>MEECoating</title>
+    <id>446</id>
+    <revision>
+      <id>1187</id>
+      <timestamp>2011-10-30T06:57:45Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Coating}}  {{#set:|Has Chemical=MEE}}&quot;</comment>
+      <text xml:space="preserve">{{Coating}}
+
+{{#set:|Has Chemical=MEE}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>TMATCoating</title>
+    <id>447</id>
+    <revision>
+      <id>1188</id>
+      <timestamp>2011-10-30T06:57:56Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Coating}}  {{#set:|Has Chemical=TMAT}}&quot;</comment>
+      <text xml:space="preserve">{{Coating}}
+
+{{#set:|Has Chemical=TMAT}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Harper2011 4</title>
+    <id>448</id>
+    <revision>
+      <id>1193</id>
+      <timestamp>2011-10-30T07:07:27Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{NanoMaterial |Has Label=Ag |Has Identifier=95 |Has Chemical Composition=Ag |Has Chemical Coating=MEECoating |Has NM Type=Metal |Has Size=0.8 |Has Size Units=nm }}  {{#set:|Used…&quot;</comment>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=Ag
+|Has Identifier=95
+|Has Chemical Composition=Ag
+|Has Chemical Coating=MEECoating
+|Has NM Type=Metal
+|Has Size=0.8
+|Has Size Units=nm
+}}
+
+{{#set:|Used in Study=Harper2011InVivoTox}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Harper2011 5</title>
+    <id>449</id>
+    <revision>
+      <id>1194</id>
+      <timestamp>2011-10-30T07:07:36Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{NanoMaterial |Has Label=Ag |Has Identifier=95 |Has Chemical Composition=Ag |Has Chemical Coating=MEECoating |Has NM Type=Metal |Has Size=1.5 |Has Size Units=nm }}  {{#set:|Used…&quot;</comment>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=Ag
+|Has Identifier=95
+|Has Chemical Composition=Ag
+|Has Chemical Coating=MEECoating
+|Has NM Type=Metal
+|Has Size=1.5
+|Has Size Units=nm
+}}
+
+{{#set:|Used in Study=Harper2011InVivoTox}}</text>
+    </revision>
+    <revision>
+      <id>1196</id>
+      <timestamp>2011-10-30T07:08:20Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=Ag
+|Has Identifier=97
+|Has Chemical Composition=Ag
+|Has Chemical Coating=MEECoating
+|Has NM Type=Metal
+|Has Size=1.5
+|Has Size Units=nm
+}}
+
+{{#set:|Used in Study=Harper2011InVivoTox}}</text>
+    </revision>
+    <revision>
+      <id>1205</id>
+      <timestamp>2011-10-30T07:15:10Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=Ag
+|Has Identifier=100
+|Has Chemical Composition=Ag
+|Has Chemical Coating=MEECoating
+|Has NM Type=Metal
+|Has Size=1.5
+|Has Size Units=nm
+}}
+
+{{#set:|Used in Study=Harper2011InVivoTox}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Harper2011 6</title>
+    <id>450</id>
+    <revision>
+      <id>1195</id>
+      <timestamp>2011-10-30T07:07:47Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{NanoMaterial |Has Label=Ag |Has Identifier=96 |Has Chemical Composition=Ag |Has Chemical Coating=MEECoating |Has NM Type=Metal |Has Size=15 |Has Size Units=nm }}  {{#set:|Used …&quot;</comment>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=Ag
+|Has Identifier=96
+|Has Chemical Composition=Ag
+|Has Chemical Coating=MEECoating
+|Has NM Type=Metal
+|Has Size=15
+|Has Size Units=nm
+}}
+
+{{#set:|Used in Study=Harper2011InVivoTox}}</text>
+    </revision>
+    <revision>
+      <id>1198</id>
+      <timestamp>2011-10-30T07:10:36Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=Ag
+|Has Identifier=96
+|Has Chemical Composition=Ag
+|Has Chemical Coating=TMATCoating
+|Has NM Type=Metal
+|Has Size=1.5
+|Has Size Units=nm
+}}
+
+Size is the core size.
+
+{{#set:|Used in Study=Harper2011InVivoTox}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Harper2011 7</title>
+    <id>451</id>
+    <revision>
+      <id>1202</id>
+      <timestamp>2011-10-30T07:13:21Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{NanoMaterial |Has Label=Ag |Has Identifier=97 |Has Chemical Composition=Ag |Has Chemical Coating=TMATCoating |Has NM Type=Metal |Has Size=10 |Has Size Units=nm }}  Size is the …&quot;</comment>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=Ag
+|Has Identifier=97
+|Has Chemical Composition=Ag
+|Has Chemical Coating=TMATCoating
+|Has NM Type=Metal
+|Has Size=10
+|Has Size Units=nm
+}}
+
+Size is the core size.
+
+{{#set:|Used in Study=Harper2011InVivoTox}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Harper2011 8</title>
+    <id>452</id>
+    <revision>
+      <id>1203</id>
+      <timestamp>2011-10-30T07:14:18Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{NanoMaterial |Has Label=Ag |Has Identifier=98 |Has Chemical Composition=Ag |Has Chemical Coating=MESCoating |Has NM Type=Metal |Has Size=0.8 |Has Size Units=nm }}  Size is the …&quot;</comment>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=Ag
+|Has Identifier=98
+|Has Chemical Composition=Ag
+|Has Chemical Coating=MESCoating
+|Has NM Type=Metal
+|Has Size=0.8
+|Has Size Units=nm
+}}
+
+Size is the core size.
+
+{{#set:|Used in Study=Harper2011InVivoTox}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Harper2011 9</title>
+    <id>453</id>
+    <revision>
+      <id>1204</id>
+      <timestamp>2011-10-30T07:14:31Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{NanoMaterial |Has Label=Ag |Has Identifier=99 |Has Chemical Composition=Ag |Has Chemical Coating=MESCoating |Has NM Type=Metal |Has Size=1.5 |Has Size Units=nm }}  Size is the …&quot;</comment>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Label=Ag
+|Has Identifier=99
+|Has Chemical Composition=Ag
+|Has Chemical Coating=MESCoating
+|Has NM Type=Metal
+|Has Size=1.5
+|Has Size Units=nm
+}}
+
+Size is the core size.
+
+{{#set:|Used in Study=Harper2011InVivoTox}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Category:Alloys</title>
+    <id>454</id>
+    <revision>
+      <id>1209</id>
+      <timestamp>2011-10-30T07:20:16Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;A list of nanomaterials:  {{#ask: [[Category:Alloys]]  | ? Has Label #  | ? Has Size #  | ? Has NM Type #  | ? Has Zeta potential #  |offset=0  |limit=250 }}&quot;</comment>
+      <text xml:space="preserve">A list of nanomaterials:
+
+{{#ask: [[Category:Alloys]]
+ | ? Has Label #
+ | ? Has Size #
+ | ? Has NM Type #
+ | ? Has Zeta potential #
+ |offset=0
+ |limit=250
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Read</title>
+    <id>455</id>
+    <revision>
+      <id>1215</id>
+      <timestamp>2011-10-30T07:25:30Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;This is a property of type [[Has type::String]].  The allowed value for this property is: * [[Allows value::Yes]] * [[Allows value::No]]&quot;</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::String]].
+
+The allowed value for this property is:
+* [[Allows value::Yes]]
+* [[Allows value::No]]</text>
     </revision>
   </page>
 </mediawiki>

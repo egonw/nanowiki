@@ -18,7 +18,7 @@
 	xmlns:property="&property;">
 
 	<owl:Ontology rdf:about="">
-		<swivt:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-29T15:18:35+02:00</swivt:creationDate>
+		<swivt:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-30T08:40:25+01:00</swivt:creationDate>
 		<owl:imports rdf:resource="http://semantic-mediawiki.org/swivt/1.0"/>
 	</owl:Ontology>
 	<swivt:Subject rdf:about="&wiki;Main_Page">
@@ -26,7 +26,7 @@
 		<swivt:page rdf:resource="&wikiurl;Main_Page"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Main_Page"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-13T09:05:43</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T11:04:17</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;TestNM">
 		<rdfs:label>TestNM</rdfs:label>
@@ -74,7 +74,7 @@
 		<swivt:page rdf:resource="&wikiurl;Category:Papers"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Category:Papers"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</swivt:wikiNamespace>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-09-29T04:28:42</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-30T05:49:00</swivt:wikiPageModificationDate>
 	</owl:Class>
 	<swivt:Subject rdf:about="&wiki;Cytotoxicity">
 		<rdfs:label>Cytotoxicity</rdfs:label>
@@ -109,7 +109,7 @@
 		<property:Has_RMSEP rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.19</property:Has_RMSEP>
 		<property:Has_Source rdf:resource="&wiki;Puzyn2011"/>
 		<property:Has_Study_Type rdf:resource="&wiki;Regression"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-11T09:53:32</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-11T09:54:21</swivt:wikiPageModificationDate>
 		<property:Uses_Descriptor rdf:resource="&wiki;Ionization_Enthalpy"/>
 		<property:Uses_Descriptor rdf:resource="&wiki;Heat_of_Formation"/>
 	</swivt:Subject>
@@ -637,7 +637,7 @@
 		<property:Has_Object_Count rdf:datatype="http://www.w3.org/2001/XMLSchema#double">51</property:Has_Object_Count>
 		<property:Has_Source rdf:resource="&wiki;Fourches2010"/>
 		<property:Has_Study_Type rdf:resource="&wiki;Classification"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-09-29T19:00:43</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-09-29T19:27:33</swivt:wikiPageModificationDate>
 		<property:Uses_Descriptor rdf:resource="&wiki;Entity_Size"/>
 		<property:Uses_Descriptor rdf:resource="&wiki;R1_Relaxivity"/>
 		<property:Uses_Descriptor rdf:resource="&wiki;R2_Relaxivity"/>
@@ -809,7 +809,8 @@
 		<owl:sameAs rdf:resource="http://dx.doi.org/10.1016/j.bmc.2004.05.026"/>
 		<property:Has_DOI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1016/j.bmc.2004.05.026</property:Has_DOI>
 		<property:Has_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2004</property:Has_Year>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-05-19T19:12:46</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-30T06:26:50</swivt:wikiPageModificationDate>
+		<property:Relationships_extracted rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yes</property:Relationships_extracted>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Kamal2004Mean">
 		<rdfs:label>Kamal2004Mean</rdfs:label>
@@ -910,7 +911,8 @@
 		<owl:sameAs rdf:resource="http://dx.doi.org/10.1021/tx800064j"/>
 		<property:Has_DOI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1021/tx800064j</property:Has_DOI>
 		<property:Has_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2008</property:Has_Year>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-09-29T15:02:09</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-30T05:59:47</swivt:wikiPageModificationDate>
+		<property:Relationships_extracted rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No</property:Relationships_extracted>
 		<property:Substances_extracted rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yes</property:Substances_extracted>
 	</swivt:Subject>
 	<owl:Class rdf:about="&wiki;Category-3APapersToRead">
@@ -1127,7 +1129,7 @@
 		<owl:sameAs rdf:resource="http://dx.doi.org/10.1021/nn200021j"/>
 		<property:Has_DOI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1021/nn200021j</property:Has_DOI>
 		<property:Has_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2008</property:Has_Year>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-05-26T14:19:53</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-30T05:56:28</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Liu2011">
 		<rdfs:label>Liu2011</rdfs:label>
@@ -1152,7 +1154,7 @@
 		<owl:sameAs rdf:resource="http://dx.doi.org/10.1021/nn101390x"/>
 		<property:Has_DOI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1021/nn101390x</property:Has_DOI>
 		<property:Has_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010</property:Has_Year>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-06-08T14:45:39</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-30T06:12:35</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Kotchey2011">
 		<rdfs:label>Kotchey2011</rdfs:label>
@@ -1164,19 +1166,18 @@
 		<owl:sameAs rdf:resource="http://dx.doi.org/10.1021/nn103265h"/>
 		<property:Has_DOI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1021/nn103265h</property:Has_DOI>
 		<property:Has_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011</property:Has_Year>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-06-08T14:46:41</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-13T10:04:32</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Hu2010">
 		<rdfs:label>Hu2010</rdfs:label>
 		<swivt:page rdf:resource="&wikiurl;Hu2010"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Hu2010"/>
 		<rdf:type rdf:resource="&wiki;Category-3APapers"/>
-		<rdf:type rdf:resource="&wiki;Category-3APapersToRead"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
 		<owl:sameAs rdf:resource="http://dx.doi.org/10.1021/nn101097v"/>
 		<property:Has_DOI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1021/nn101097v</property:Has_DOI>
 		<property:Has_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010</property:Has_Year>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-06-08T14:50:52</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-30T07:24:57</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Karlsson2008Cytotox">
 		<rdfs:label>Karlsson2008Cytotox</rdfs:label>
@@ -1190,7 +1191,7 @@
 		<property:Has_Object_Count rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8</property:Has_Object_Count>
 		<property:Has_Source rdf:resource="&wiki;Karlsson2008"/>
 		<property:Has_Study_Type rdf:resource="&wiki;Descriptive"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-26T05:11:23</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T06:52:17</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Descriptive">
 		<rdfs:label>Descriptive</rdfs:label>
@@ -1701,12 +1702,12 @@
 		<swivt:page rdf:resource="&wikiurl;Harper2011"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Harper2011"/>
 		<rdf:type rdf:resource="&wiki;Category-3APapers"/>
-		<rdf:type rdf:resource="&wiki;Category-3APapersToRead"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
 		<owl:sameAs rdf:resource="http://dx.doi.org/10.1021/nn200546k"/>
 		<property:Has_DOI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1021/nn200546k</property:Has_DOI>
 		<property:Has_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011</property:Has_Year>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-06-13T13:58:07</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-30T07:33:18</swivt:wikiPageModificationDate>
+		<property:Substances_extracted rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yes</property:Substances_extracted>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;HannaK9">
 		<rdfs:label>HannaK9</rdfs:label>
@@ -1896,7 +1897,7 @@
 		<property:Has_Entities rdf:resource="&wiki;NanoMaterials"/>
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3</property:Has_Identifier>
 		<property:Has_Study_Type rdf:resource="&wiki;Descriptive"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T08:05:59</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T08:06:40</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;HannaK11_M1">
 		<rdfs:label>HannaK11 M1</rdfs:label>
@@ -1989,7 +1990,7 @@
 		<owl:sameAs rdf:resource="http://dx.doi.org/10.1021/nn1013484"/>
 		<property:Has_DOI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1021/nn1013484</property:Has_DOI>
 		<property:Has_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2005</property:Has_Year>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-06-27T20:30:44</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-11T05:46:13</swivt:wikiPageModificationDate>
 		<property:Relationships_extracted rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yes</property:Relationships_extracted>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;File-3AWeissleder2005_Supp1.pdf">
@@ -3120,7 +3121,7 @@
 		<property:Has_End_point rdf:resource="&wiki;Log_Reciprocal_EC50"/>
 		<property:Has_Relation rdf:resource="&wiki;Negatively_Correlates_With"/>
 		<property:Has_Source rdf:resource="&wiki;Puzyn2011"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-09-29T05:23:22</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-30T05:44:44</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<owl:ObjectProperty rdf:about="&property;Has_Relation">
 		<rdfs:label>Has Relation</rdfs:label>
@@ -3266,7 +3267,7 @@
 		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
 		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CeO2</property:Has_Chemical_Composition>
-		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">83</property:Has_Identifier>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">94</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CeO2</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;MetalOxide"/>
 		<property:Has_Size rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10</property:Has_Size>
@@ -3447,7 +3448,7 @@
 		<property:Has_Object_Count rdf:datatype="http://www.w3.org/2001/XMLSchema#double">146</property:Has_Object_Count>
 		<property:Has_Source rdf:resource="&wiki;Weissleder2005"/>
 		<property:Has_Study_Type rdf:resource="&wiki;Descriptive"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-11T05:42:40</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T06:51:25</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Weissleder146_R1">
 		<rdfs:label>Weissleder146 R1</rdfs:label>
@@ -3473,7 +3474,7 @@
 		<property:Has_Object_Count rdf:datatype="http://www.w3.org/2001/XMLSchema#double">9</property:Has_Object_Count>
 		<property:Has_Source rdf:resource="&wiki;Liu2011"/>
 		<property:Has_Study_Type rdf:resource="&wiki;Classification"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-11T06:16:08</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-11T09:37:43</swivt:wikiPageModificationDate>
 		<property:Uses_Descriptor rdf:resource="&wiki;Metal_Atom_Count"/>
 		<property:Uses_Descriptor rdf:resource="&wiki;Oxygen_Atom_Count"/>
 	</swivt:Subject>
@@ -3768,10 +3769,10 @@
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
 		<property:Has_Endpoint rdf:resource="&wiki;DNADamage"/>
 		<property:Has_Entities rdf:resource="&wiki;MetalOxides"/>
-		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10</property:Has_Identifier>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">11</property:Has_Identifier>
 		<property:Has_Object_Count rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8</property:Has_Object_Count>
 		<property:Has_Study_Type rdf:resource="&wiki;Classification"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-26T05:09:44</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-30T06:37:41</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;HannaK14">
 		<rdfs:label>HannaK14</rdfs:label>
@@ -4739,13 +4740,290 @@
 		<property:Has_Chemical rdf:resource="&wiki;Amphiphillic_Polymer"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-29T12:44:32</swivt:wikiPageModificationDate>
 	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Kamal2004_R1">
+		<rdfs:label>Kamal2004 R1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Kamal2004_R1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Kamal2004_R1"/>
+		<rdf:type rdf:resource="&wiki;Category-3ARelationships"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Descriptor rdf:resource="&wiki;Dipole"/>
+		<property:Has_End_point rdf:resource="&wiki;LogGI50"/>
+		<property:Has_Relation rdf:resource="&wiki;Correlates_With"/>
+		<property:Has_Source rdf:resource="&wiki;Kamal2004"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-30T05:48:29</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;File-3AHarper2011.pdf">
+		<rdfs:label>File:Harper2011.pdf</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;File:Harper2011.pdf"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/File:Harper2011.pdf"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</swivt:wikiNamespace>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-30T06:25:42</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;File-3AKamal2004.pdf">
+		<rdfs:label>File:Kamal2004.pdf</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;File:Kamal2004.pdf"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/File:Kamal2004.pdf"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</swivt:wikiNamespace>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-30T06:26:26</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Harper2011InVivoTox">
+		<rdfs:label>Harper2011InVivoTox</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Harper2011InVivoTox"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Harper2011InVivoTox"/>
+		<rdf:type rdf:resource="&wiki;Category-3AStudies"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Entities rdf:resource="&wiki;Metal"/>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">12</property:Has_Identifier>
+		<property:Has_Object_Count rdf:datatype="http://www.w3.org/2001/XMLSchema#double">9</property:Has_Object_Count>
+		<property:Has_Source rdf:resource="&wiki;Harper2011"/>
+		<property:Has_Study_Type rdf:resource="&wiki;Descriptive"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-30T06:37:46</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Harper2011_1">
+		<rdfs:label>Harper2011 1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Harper2011_1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Harper2011_1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMetals"/>
+		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Coating rdf:resource="&wiki;MEEECoating"/>
+		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ag</property:Has_Chemical_Composition>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">91</property:Has_Identifier>
+		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ag</property:Has_Label>
+		<property:Has_NM_Type rdf:resource="&wiki;Metal"/>
+		<property:Has_Size rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.8</property:Has_Size>
+		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-30T06:46:22</swivt:wikiPageModificationDate>
+		<property:Used_in_Study rdf:resource="&wiki;Harper2011InVivoTox"/>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Harper2011_2">
+		<rdfs:label>Harper2011 2</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Harper2011_2"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Harper2011_2"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMetals"/>
+		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Coating rdf:resource="&wiki;MEEECoating"/>
+		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ag</property:Has_Chemical_Composition>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">92</property:Has_Identifier>
+		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ag</property:Has_Label>
+		<property:Has_NM_Type rdf:resource="&wiki;Metal"/>
+		<property:Has_Size rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.5</property:Has_Size>
+		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-30T06:46:39</swivt:wikiPageModificationDate>
+		<property:Used_in_Study rdf:resource="&wiki;Harper2011InVivoTox"/>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Harper2011_3">
+		<rdfs:label>Harper2011 3</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Harper2011_3"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Harper2011_3"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMetals"/>
+		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Coating rdf:resource="&wiki;TMATCoating"/>
+		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ag</property:Has_Chemical_Composition>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">93</property:Has_Identifier>
+		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ag</property:Has_Label>
+		<property:Has_NM_Type rdf:resource="&wiki;Metal"/>
+		<property:Has_Size rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.8</property:Has_Size>
+		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-30T07:12:52</swivt:wikiPageModificationDate>
+		<property:Used_in_Study rdf:resource="&wiki;Harper2011InVivoTox"/>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;MEEECoating">
+		<rdfs:label>MEEECoating</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;MEEECoating"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/MEEECoating"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoatings"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical rdf:resource="&wiki;MEEE"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-30T06:47:24</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;MEEE">
+		<rdfs:label>MEEE</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;MEEE"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/MEEE"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoating_Parts"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCCOCCOCCO</property:Has_SMILES>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-30T06:48:10</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;MEE">
+		<rdfs:label>MEE</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;MEE"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/MEE"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoating_Parts"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCCOCCO</property:Has_SMILES>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-30T06:48:34</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;TMAT">
+		<rdfs:label>TMAT</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;TMAT"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/TMAT"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoating_Parts"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCC[N+](C)(C)C.[I-]</property:Has_SMILES>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-30T06:49:18</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;MES">
+		<rdfs:label>MES</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;MES"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/MES"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoating_Parts"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCCCS(=O)(=O)[O-].[Na+]</property:Has_SMILES>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-30T06:49:54</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;MESCoating">
+		<rdfs:label>MESCoating</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;MESCoating"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/MESCoating"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoatings"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical rdf:resource="&wiki;MES"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-30T06:57:33</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;MEECoating">
+		<rdfs:label>MEECoating</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;MEECoating"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/MEECoating"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoatings"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical rdf:resource="&wiki;MEE"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-30T06:57:45</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;TMATCoating">
+		<rdfs:label>TMATCoating</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;TMATCoating"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/TMATCoating"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoatings"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical rdf:resource="&wiki;TMAT"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-30T06:57:56</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Harper2011_4">
+		<rdfs:label>Harper2011 4</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Harper2011_4"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Harper2011_4"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMetals"/>
+		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Coating rdf:resource="&wiki;MEECoating"/>
+		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ag</property:Has_Chemical_Composition>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">95</property:Has_Identifier>
+		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ag</property:Has_Label>
+		<property:Has_NM_Type rdf:resource="&wiki;Metal"/>
+		<property:Has_Size rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.8</property:Has_Size>
+		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-30T07:07:27</swivt:wikiPageModificationDate>
+		<property:Used_in_Study rdf:resource="&wiki;Harper2011InVivoTox"/>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Harper2011_5">
+		<rdfs:label>Harper2011 5</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Harper2011_5"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Harper2011_5"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMetals"/>
+		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Coating rdf:resource="&wiki;MEECoating"/>
+		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ag</property:Has_Chemical_Composition>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">100</property:Has_Identifier>
+		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ag</property:Has_Label>
+		<property:Has_NM_Type rdf:resource="&wiki;Metal"/>
+		<property:Has_Size rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.5</property:Has_Size>
+		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-30T07:08:20</swivt:wikiPageModificationDate>
+		<property:Used_in_Study rdf:resource="&wiki;Harper2011InVivoTox"/>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Harper2011_6">
+		<rdfs:label>Harper2011 6</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Harper2011_6"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Harper2011_6"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMetals"/>
+		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Coating rdf:resource="&wiki;TMATCoating"/>
+		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ag</property:Has_Chemical_Composition>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">96</property:Has_Identifier>
+		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ag</property:Has_Label>
+		<property:Has_NM_Type rdf:resource="&wiki;Metal"/>
+		<property:Has_Size rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.5</property:Has_Size>
+		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-30T07:07:47</swivt:wikiPageModificationDate>
+		<property:Used_in_Study rdf:resource="&wiki;Harper2011InVivoTox"/>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Harper2011_7">
+		<rdfs:label>Harper2011 7</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Harper2011_7"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Harper2011_7"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMetals"/>
+		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Coating rdf:resource="&wiki;TMATCoating"/>
+		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ag</property:Has_Chemical_Composition>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">97</property:Has_Identifier>
+		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ag</property:Has_Label>
+		<property:Has_NM_Type rdf:resource="&wiki;Metal"/>
+		<property:Has_Size rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10</property:Has_Size>
+		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-30T07:13:21</swivt:wikiPageModificationDate>
+		<property:Used_in_Study rdf:resource="&wiki;Harper2011InVivoTox"/>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Harper2011_8">
+		<rdfs:label>Harper2011 8</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Harper2011_8"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Harper2011_8"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMetals"/>
+		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Coating rdf:resource="&wiki;MESCoating"/>
+		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ag</property:Has_Chemical_Composition>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">98</property:Has_Identifier>
+		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ag</property:Has_Label>
+		<property:Has_NM_Type rdf:resource="&wiki;Metal"/>
+		<property:Has_Size rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.8</property:Has_Size>
+		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-30T07:14:18</swivt:wikiPageModificationDate>
+		<property:Used_in_Study rdf:resource="&wiki;Harper2011InVivoTox"/>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Harper2011_9">
+		<rdfs:label>Harper2011 9</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Harper2011_9"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Harper2011_9"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMetals"/>
+		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Coating rdf:resource="&wiki;MESCoating"/>
+		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ag</property:Has_Chemical_Composition>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">99</property:Has_Identifier>
+		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ag</property:Has_Label>
+		<property:Has_NM_Type rdf:resource="&wiki;Metal"/>
+		<property:Has_Size rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.5</property:Has_Size>
+		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-30T07:14:31</swivt:wikiPageModificationDate>
+		<property:Used_in_Study rdf:resource="&wiki;Harper2011InVivoTox"/>
+	</swivt:Subject>
+	<owl:Class rdf:about="&wiki;Category-3AAlloys">
+		<rdfs:label>Alloys</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Category:Alloys"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Category:Alloys"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</swivt:wikiNamespace>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-30T07:20:16</swivt:wikiPageModificationDate>
+	</owl:Class>
+	<owl:DatatypeProperty rdf:about="&property;Read">
+		<rdfs:label>Read</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Property:Read"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Property:Read"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">102</swivt:wikiNamespace>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-30T07:25:30</swivt:wikiPageModificationDate>
+	</owl:DatatypeProperty>
 	<owl:DatatypeProperty rdf:about="&swivt;creationDate" />
 	<owl:ObjectProperty rdf:about="&swivt;page" />
 	<owl:DatatypeProperty rdf:about="&swivt;wikiNamespace" />
 	<owl:DatatypeProperty rdf:about="&swivt;wikiPageModificationDate" />
 	<owl:ObjectProperty rdf:about="&property;Label" />
 	<owl:Class rdf:about="&wiki;Category-3ACellular_uptake" />
-	<owl:Class rdf:about="&wiki;Category-3AAlloys" />
 	<owl:Class rdf:about="&wiki;Category-3AROS_Concentration" />
 	<owl:Class rdf:about="&wiki;Category-3ADNA_Damage" />
 	<!-- Created by Semantic MediaWiki, http://semantic-mediawiki.org/ -->
