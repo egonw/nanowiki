@@ -18,7 +18,7 @@
 	xmlns:property="&property;">
 
 	<owl:Ontology rdf:about="">
-		<swivt:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-30T14:53:03+01:00</swivt:creationDate>
+		<swivt:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-11-09T07:36:51+01:00</swivt:creationDate>
 		<owl:imports rdf:resource="http://semantic-mediawiki.org/swivt/1.0"/>
 	</owl:Ontology>
 	<swivt:Subject rdf:about="&wiki;Main_Page">
@@ -5553,6 +5553,42 @@
 		<property:Has_Size_Min rdf:datatype="http://www.w3.org/2001/XMLSchema#double">500</property:Has_Size_Min>
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-30T11:06:09</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Burello2011">
+		<rdfs:label>Burello2011</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Burello2011"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Burello2011"/>
+		<rdf:type rdf:resource="&wiki;Category-3APapers"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<owl:sameAs rdf:resource="http://dx.doi.org/10.3109/17435390.2010.502980"/>
+		<property:Has_DOI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.3109/17435390.2010.502980</property:Has_DOI>
+		<property:Has_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011</property:Has_Year>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-30T15:39:19</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;File-3ABurello2011.pdf">
+		<rdfs:label>File:Burello2011.pdf</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;File:Burello2011.pdf"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/File:Burello2011.pdf"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</swivt:wikiNamespace>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-31T05:47:01</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;File-3AHedberg_2010.pdf">
+		<rdfs:label>File:Hedberg 2010.pdf</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;File:Hedberg_2010.pdf"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/File:Hedberg_2010.pdf"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</swivt:wikiNamespace>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-11-02T17:34:03</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Hedberg2010">
+		<rdfs:label>Hedberg2010</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Hedberg2010"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Hedberg2010"/>
+		<rdf:type rdf:resource="&wiki;Category-3APapers"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<owl:sameAs rdf:resource="http://dx.doi.org/10.1186/1743-8977-7-23"/>
+		<property:Has_DOI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1186/1743-8977-7-23</property:Has_DOI>
+		<property:Has_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010</property:Has_Year>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-11-02T17:35:38</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<owl:DatatypeProperty rdf:about="&swivt;creationDate" />
 	<owl:ObjectProperty rdf:about="&swivt;page" />

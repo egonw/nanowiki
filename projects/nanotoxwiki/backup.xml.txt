@@ -34616,4 +34616,80 @@ The allowed value for this property is:
 }}</text>
     </revision>
   </page>
+  <page>
+    <title>Burello2011</title>
+    <id>494</id>
+    <revision>
+      <id>1334</id>
+      <timestamp>2011-10-30T15:39:19Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Paper |Has Year=2011 |Has DOI=10.3109/17435390.2010.502980 }}&quot;</comment>
+      <text xml:space="preserve">{{Paper
+|Has Year=2011
+|Has DOI=10.3109/17435390.2010.502980
+}}</text>
+    </revision>
+    <revision>
+      <id>1336</id>
+      <timestamp>2011-10-31T05:47:59Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Paper
+|Has Year=2011
+|Has DOI=10.3109/17435390.2010.502980
+}}
+
+&lt;pdf&gt;6/6f/Burello2011.pdf&lt;/pdf&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>File:Burello2011.pdf</title>
+    <id>495</id>
+    <revision>
+      <id>1335</id>
+      <timestamp>2011-10-31T05:47:01Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" />
+    </revision>
+  </page>
+  <page>
+    <title>File:Hedberg 2010.pdf</title>
+    <id>496</id>
+    <revision>
+      <id>1337</id>
+      <timestamp>2011-11-02T17:34:03Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" />
+    </revision>
+  </page>
+  <page>
+    <title>Hedberg2010</title>
+    <id>497</id>
+    <revision>
+      <id>1338</id>
+      <timestamp>2011-11-02T17:35:38Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Paper |Has Year=2010 |Has DOI=10.1186/1743-8977-7-23 }}  &lt;pdf height=&quot;300&quot;&gt;b/b5/Hedberg_2010.pdf&lt;/pdf&gt;&quot;</comment>
+      <text xml:space="preserve">{{Paper
+|Has Year=2010
+|Has DOI=10.1186/1743-8977-7-23
+}}
+
+&lt;pdf height=&quot;300&quot;&gt;b/b5/Hedberg_2010.pdf&lt;/pdf&gt;</text>
+    </revision>
+  </page>
 </mediawiki>
