@@ -2,7 +2,7 @@
   <siteinfo>
     <sitename>EgonWiki</sitename>
     <base>http://localhost/mediawiki/index.php/Main_Page</base>
-    <generator>MediaWiki 1.15.5-3</generator>
+    <generator>MediaWiki 1.15.5-4</generator>
     <case>first-letter</case>
     <namespaces>
       <namespace key="-2">Media</namespace>
@@ -577,6 +577,178 @@ You can browse this data via one of the following categories:
 ** [[:Category:MetalOxides|Metal oxides]] ({{#ask: [[Category:MetalOxides]] | format=count}}), [[:Category:Metals|Metals]] ({{#ask: [[Category:Metals]] | format=count}}), [[:Category:Alloys|Alloys]] ({{#ask: [[Category:Alloys]] | format=count}})
 ** [[:Category:Coatings|Coatings]] ({{#ask: [[Category:Coatings]] | format=count}})
 ** [[:Category:Coating_Parts|Coating Parts]] ({{#ask: [[Category:Coating_Parts]] | format=count}})
+* [[:Category:Studies|Studies]] ({{#ask: [[Category:Studies]] | format=count}}), [[:Category:Measurements|Measurements]] ({{#ask: [[Category:Measurements]] | format=count}}),
+** [[:Category:NanoMaterials|NanoMaterials]] ({{#ask: [[Category:Studies]] [[Has Entities::!Compounds]] | format=count}}), of which Metal oxides ({{#ask: [[Category:Studies]] [[Has Entities::MetalOxides]] | format=count}}),
+** [[:Category:Compounds|Compounds]] ({{#ask: [[Category:Studies]] [[Has Entities::Compounds]] | format=count}})
+* [[:Category:Papers|Papers]] ({{#ask: [[Category:Papers]] | format=count}}) , [[:Category:PapersToRead|To Read]] ({{#ask: [[Category:PapersToRead]] | format=count}})
+* [[:Category:Descriptors|Descriptors]] ({{#ask: [[Category:Descriptors]] | format=count}}),
+* [[:Category:Endpoints|Endpoints]] ({{#ask: [[Category:Endpoints]] | format=count}}),
+* [[:Category:Toxicity|Toxicity]] ({{#ask: [[Category:Toxicity]] | format=count}}),
+* [[:Category:CellLines|Cell lines]] ({{#ask: [[Category:CellLines]] | format=count}}).
+
+== Backups ==
+
+* [[Special:ExportRDF|Export RDF]]
+** sudo bash
+** export MW_INSTALL_PATH=/usr/share/mediawiki
+** php /usr/share/mediawiki-extensions/SemanticMediaWiki/maintenance/SMW_dumpRDF.php --conf /etc/mediawiki/LocalSettings.php &gt; backup.rdf.txt
+* dumpBackup.php
+** cd ~/var/Projects/hg/kirepos/projects/nanotoxwiki
+** sudo php /usr/share/mediawiki/maintenance/dumpBackup.php --conf /etc/mediawiki/LocalSettings.php --full &gt; backup.xml.txt
+** (this required adding an /etc/mediawiki/AdminSettings.php with db account info, '''wrapped''' in ''&lt;?php ?&gt;'')
+* see ~/var/Projects/hg/kirepos/projects/nanotoxwiki/README
+** cd ~/var/Projects/hg/kirepos/projects/nanotoxwiki
+** mysqldump -u root -p wikidb --default-character-set=latin1 &gt; backup.sql.txt</text>
+    </revision>
+    <revision>
+      <id>1347</id>
+      <timestamp>2011-11-09T06:56:00Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>/* Nanomaterial Database */</comment>
+      <text xml:space="preserve">Egon's Lab Notebook.
+
+== Nanomaterial Database ==
+
+Database containing QSAR studies from literature with assay data from cell line experiments.
+You can browse this data via one of the following categories:
+
+* [[:Category:Materials|Materials]] ({{#ask: [[Category:Materials]] | format=count}}),
+** [[:Category:NanoMaterials|Nanomaterials]] ({{#ask: [[Category:NanoMaterials]] | format=count}}),
+*** [[:Category:MetalOxides|Metal oxides]] ({{#ask: [[Category:MetalOxides]] | format=count}}), [[:Category:Metals|Metals]] ({{#ask: [[Category:Metals]] | format=count}}), [[:Category:Alloys|Alloys]] ({{#ask: [[Category:Alloys]] | format=count}})
+*** [[:Category:Coatings|Coatings]] ({{#ask: [[Category:Coatings]] | format=count}})
+*** [[:Category:Coating_Parts|Coating Parts]] ({{#ask: [[Category:Coating_Parts]] | format=count}})
+* [[:Category:Studies|Studies]] ({{#ask: [[Category:Studies]] | format=count}}), [[:Category:Measurements|Measurements]] ({{#ask: [[Category:Measurements]] | format=count}}),
+** [[:Category:NanoMaterials|NanoMaterials]] ({{#ask: [[Category:Studies]] [[Has Entities::!Compounds]] | format=count}}), of which Metal oxides ({{#ask: [[Category:Studies]] [[Has Entities::MetalOxides]] | format=count}}),
+** [[:Category:Compounds|Compounds]] ({{#ask: [[Category:Studies]] [[Has Entities::Compounds]] | format=count}})
+* [[:Category:Papers|Papers]] ({{#ask: [[Category:Papers]] | format=count}}) , [[:Category:PapersToRead|To Read]] ({{#ask: [[Category:PapersToRead]] | format=count}})
+* [[:Category:Descriptors|Descriptors]] ({{#ask: [[Category:Descriptors]] | format=count}}),
+* [[:Category:Endpoints|Endpoints]] ({{#ask: [[Category:Endpoints]] | format=count}}),
+* [[:Category:Toxicity|Toxicity]] ({{#ask: [[Category:Toxicity]] | format=count}}),
+* [[:Category:CellLines|Cell lines]] ({{#ask: [[Category:CellLines]] | format=count}}).
+
+== Backups ==
+
+* [[Special:ExportRDF|Export RDF]]
+** sudo bash
+** export MW_INSTALL_PATH=/usr/share/mediawiki
+** php /usr/share/mediawiki-extensions/SemanticMediaWiki/maintenance/SMW_dumpRDF.php --conf /etc/mediawiki/LocalSettings.php &gt; backup.rdf.txt
+* dumpBackup.php
+** cd ~/var/Projects/hg/kirepos/projects/nanotoxwiki
+** sudo php /usr/share/mediawiki/maintenance/dumpBackup.php --conf /etc/mediawiki/LocalSettings.php --full &gt; backup.xml.txt
+** (this required adding an /etc/mediawiki/AdminSettings.php with db account info, '''wrapped''' in ''&lt;?php ?&gt;'')
+* see ~/var/Projects/hg/kirepos/projects/nanotoxwiki/README
+** cd ~/var/Projects/hg/kirepos/projects/nanotoxwiki
+** mysqldump -u root -p wikidb --default-character-set=latin1 &gt; backup.sql.txt</text>
+    </revision>
+    <revision>
+      <id>1348</id>
+      <timestamp>2011-11-09T06:56:37Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>/* Nanomaterial Database */</comment>
+      <text xml:space="preserve">Egon's Lab Notebook.
+
+== Nanomaterial Database ==
+
+Database containing QSAR studies from literature with assay data from cell line experiments.
+You can browse this data via one of the following categories:
+
+* [[:Category:Chemical_Entities|Chemical Entities]] ({{#ask: [[Category:Chemical_Entities]] | format=count}}),
+** [[:Category:Materials|Materials]] ({{#ask: [[Category:Materials]] | format=count}}),
+** [[:Category:NanoMaterials|Nanomaterials]] ({{#ask: [[Category:NanoMaterials]] | format=count}}),
+*** [[:Category:MetalOxides|Metal oxides]] ({{#ask: [[Category:MetalOxides]] | format=count}}), [[:Category:Metals|Metals]] ({{#ask: [[Category:Metals]] | format=count}}), [[:Category:Alloys|Alloys]] ({{#ask: [[Category:Alloys]] | format=count}})
+*** [[:Category:Coatings|Coatings]] ({{#ask: [[Category:Coatings]] | format=count}})
+*** [[:Category:Coating_Parts|Coating Parts]] ({{#ask: [[Category:Coating_Parts]] | format=count}})
+* [[:Category:Studies|Studies]] ({{#ask: [[Category:Studies]] | format=count}}), [[:Category:Measurements|Measurements]] ({{#ask: [[Category:Measurements]] | format=count}}),
+** [[:Category:NanoMaterials|NanoMaterials]] ({{#ask: [[Category:Studies]] [[Has Entities::!Compounds]] | format=count}}), of which Metal oxides ({{#ask: [[Category:Studies]] [[Has Entities::MetalOxides]] | format=count}}),
+** [[:Category:Compounds|Compounds]] ({{#ask: [[Category:Studies]] [[Has Entities::Compounds]] | format=count}})
+* [[:Category:Papers|Papers]] ({{#ask: [[Category:Papers]] | format=count}}) , [[:Category:PapersToRead|To Read]] ({{#ask: [[Category:PapersToRead]] | format=count}})
+* [[:Category:Descriptors|Descriptors]] ({{#ask: [[Category:Descriptors]] | format=count}}),
+* [[:Category:Endpoints|Endpoints]] ({{#ask: [[Category:Endpoints]] | format=count}}),
+* [[:Category:Toxicity|Toxicity]] ({{#ask: [[Category:Toxicity]] | format=count}}),
+* [[:Category:CellLines|Cell lines]] ({{#ask: [[Category:CellLines]] | format=count}}).
+
+== Backups ==
+
+* [[Special:ExportRDF|Export RDF]]
+** sudo bash
+** export MW_INSTALL_PATH=/usr/share/mediawiki
+** php /usr/share/mediawiki-extensions/SemanticMediaWiki/maintenance/SMW_dumpRDF.php --conf /etc/mediawiki/LocalSettings.php &gt; backup.rdf.txt
+* dumpBackup.php
+** cd ~/var/Projects/hg/kirepos/projects/nanotoxwiki
+** sudo php /usr/share/mediawiki/maintenance/dumpBackup.php --conf /etc/mediawiki/LocalSettings.php --full &gt; backup.xml.txt
+** (this required adding an /etc/mediawiki/AdminSettings.php with db account info, '''wrapped''' in ''&lt;?php ?&gt;'')
+* see ~/var/Projects/hg/kirepos/projects/nanotoxwiki/README
+** cd ~/var/Projects/hg/kirepos/projects/nanotoxwiki
+** mysqldump -u root -p wikidb --default-character-set=latin1 &gt; backup.sql.txt</text>
+    </revision>
+    <revision>
+      <id>1349</id>
+      <timestamp>2011-11-09T06:57:25Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>/* Nanomaterial Database */</comment>
+      <text xml:space="preserve">Egon's Lab Notebook.
+
+== Nanomaterial Database ==
+
+Database containing QSAR studies from literature with assay data from cell line experiments.
+You can browse this data via one of the following categories:
+
+* [[:Category:Chemical_Entities|Chemical Entities]] ({{#ask: [[Category:Chemical_Entities]] | format=count}}),
+** [[:Category:NanoMaterials|Nanomaterials]] ({{#ask: [[Category:NanoMaterials]] | format=count}}),
+*** [[:Category:MetalOxides|Metal oxides]] ({{#ask: [[Category:MetalOxides]] | format=count}}), [[:Category:Metals|Metals]] ({{#ask: [[Category:Metals]] | format=count}}), [[:Category:Alloys|Alloys]] ({{#ask: [[Category:Alloys]] | format=count}})
+*** [[:Category:Coatings|Coatings]] ({{#ask: [[Category:Coatings]] | format=count}})
+*** [[:Category:Coating_Parts|Coating Parts]] ({{#ask: [[Category:Coating_Parts]] | format=count}})
+* [[:Category:Studies|Studies]] ({{#ask: [[Category:Studies]] | format=count}}), [[:Category:Measurements|Measurements]] ({{#ask: [[Category:Measurements]] | format=count}}),
+** [[:Category:NanoMaterials|NanoMaterials]] ({{#ask: [[Category:Studies]] [[Has Entities::!Compounds]] | format=count}}), of which Metal oxides ({{#ask: [[Category:Studies]] [[Has Entities::MetalOxides]] | format=count}}),
+** [[:Category:Compounds|Compounds]] ({{#ask: [[Category:Studies]] [[Has Entities::Compounds]] | format=count}})
+* [[:Category:Papers|Papers]] ({{#ask: [[Category:Papers]] | format=count}}) , [[:Category:PapersToRead|To Read]] ({{#ask: [[Category:PapersToRead]] | format=count}})
+* [[:Category:Descriptors|Descriptors]] ({{#ask: [[Category:Descriptors]] | format=count}}),
+* [[:Category:Endpoints|Endpoints]] ({{#ask: [[Category:Endpoints]] | format=count}}),
+* [[:Category:Toxicity|Toxicity]] ({{#ask: [[Category:Toxicity]] | format=count}}),
+* [[:Category:CellLines|Cell lines]] ({{#ask: [[Category:CellLines]] | format=count}}).
+
+== Backups ==
+
+* [[Special:ExportRDF|Export RDF]]
+** sudo bash
+** export MW_INSTALL_PATH=/usr/share/mediawiki
+** php /usr/share/mediawiki-extensions/SemanticMediaWiki/maintenance/SMW_dumpRDF.php --conf /etc/mediawiki/LocalSettings.php &gt; backup.rdf.txt
+* dumpBackup.php
+** cd ~/var/Projects/hg/kirepos/projects/nanotoxwiki
+** sudo php /usr/share/mediawiki/maintenance/dumpBackup.php --conf /etc/mediawiki/LocalSettings.php --full &gt; backup.xml.txt
+** (this required adding an /etc/mediawiki/AdminSettings.php with db account info, '''wrapped''' in ''&lt;?php ?&gt;'')
+* see ~/var/Projects/hg/kirepos/projects/nanotoxwiki/README
+** cd ~/var/Projects/hg/kirepos/projects/nanotoxwiki
+** mysqldump -u root -p wikidb --default-character-set=latin1 &gt; backup.sql.txt</text>
+    </revision>
+    <revision>
+      <id>1350</id>
+      <timestamp>2011-11-09T06:59:41Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>/* Nanomaterial Database */</comment>
+      <text xml:space="preserve">Egon's Lab Notebook.
+
+== Nanomaterial Database ==
+
+Database containing QSAR studies from literature with assay data from cell line experiments.
+You can browse this data via one of the following categories:
+
+* [[:Category:Chemical_Entities|Chemical Entities]] ({{#ask: [[Category:Chemical_Entities]] | format=count}}),
+** [[:Category:NanoMaterials|Nanomaterials]] ({{#ask: [[Category:NanoMaterials]] | format=count}}),
+*** [[:Category:MetalOxides|Metal oxides]] ({{#ask: [[Category:MetalOxides]] | format=count}}), [[:Category:Metals|Metals]] ({{#ask: [[Category:Metals]] | format=count}}), [[:Category:Alloys|Alloys]] ({{#ask: [[Category:Alloys]] | format=count}})
+*** [[:Category:Coatings|Coatings]] ({{#ask: [[Category:Coatings]] | format=count}}), [[:Category:Coating_Parts|Coating Parts]] ({{#ask: [[Category:Coating_Parts]] | format=count}})
 * [[:Category:Studies|Studies]] ({{#ask: [[Category:Studies]] | format=count}}), [[:Category:Measurements|Measurements]] ({{#ask: [[Category:Measurements]] | format=count}}),
 ** [[:Category:NanoMaterials|NanoMaterials]] ({{#ask: [[Category:Studies]] [[Has Entities::!Compounds]] | format=count}}), of which Metal oxides ({{#ask: [[Category:Studies]] [[Has Entities::MetalOxides]] | format=count}}),
 ** [[:Category:Compounds|Compounds]] ({{#ask: [[Category:Studies]] [[Has Entities::Compounds]] | format=count}})
@@ -4023,6 +4195,181 @@ You can browse this data via one of the following categories:
 }}
 | }}
 [[Category:NanoMaterials]]__NOEDITSECTION____NOTOC__
+&lt;/includeonly&gt;</text>
+    </revision>
+    <revision>
+      <id>1341</id>
+      <timestamp>2011-11-09T06:49:54Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">&lt;noinclude&gt;
+&lt;pre&gt;
+{{NanoMaterial
+|Has Identifier=
+|Has Label=
+|Has Chemical Composition=
+|Has Chemical Coating=
+|Image=
+|Has NM Type=
+|Has Size=
+|Has Size Min=
+|Has Size Max=
+|Has Size Error=
+|Has Size Units=
+|Has Size Method=
+|Has Zeta potential=
+|Has Zeta Units=
+|Has Zeta Error=
+}}
+&lt;/pre&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: right; table-layout:fixed; word-wrap: break-word;&quot;
+! colspan=2 style=&quot;text-align: center;background-color: #ddd;&quot; | Nanomaterial
+|-
+! colspan=2 style=&quot;text-align: center; font-size: 125%&quot; | {{{Name|{{PAGENAME}}}}}
+{{#if:{{{Image|}}}|
+{{!}}-
+{{!}} Image
+{{!}} {{{Image}}}
+}}
+|-
+{{#if:{{{Has Label|}}}|
+{{!}}-
+{{!}} Label
+{{!}} {{{Has Label}}} 
+}}
+|-
+{{#if:{{{Has Identifier|}}}|
+{{!}}-
+{{!}} Identifier
+{{!}} {{{Has Identifier}}} 
+}}
+|-
+{{#if:{{{Has Chemical Composition|}}}|
+{{!}}-
+{{!}} Chemical Composition
+{{!}} {{{Has Chemical Composition}}} 
+}}
+|-
+{{#if:{{{Has Chemical Coating|}}}|
+{{!}}-
+{{!}} Chemical Coating
+{{!}} {{{Has Chemical Coating}}} 
+}}
+|-
+! colspan=2 style=&quot;text-align: center;background-color: #ddd;&quot; | Properties
+|-
+{{#if:{{{Has Size|}}}|
+{{!}}-
+{{!}} Size
+{{!}} {{{Has Size}}} {{#if:{{{Has Size Error|}}}|± {{{Has Size Error}}}}} {{#if:{{{Has Size Units|}}}|{{{Has Size Units}}}}} {{#if:{{{Has Size Method|}}}| ({{{Has Size Method}}})}}
+}}
+{{#if:{{{Has Size Min|}}}|
+{{!}}-
+{{!}} Size
+{{!}} {{{Has Size Min}}} - {{{Has Size Max}}} {{#if:{{{Has Size Units|}}}|{{{Has Size Units}}}}} {{#if:{{{Has Size Method|}}}| ({{{Has Size Method}}})}}
+}}
+{{#if:{{{Has NM Type|}}}|
+{{!}}-
+{{!}} Type
+{{!}} {{{Has NM Type}}} 
+}}
+{{#if:{{{Has Zeta potential|}}}|
+{{!}}-
+{{!}} Zeta potential
+{{!}} {{{Has Zeta potential}}} {{#if:{{{Has Zeta Error|}}}|± {{{Has Zeta Error}}}}} {{#if:{{{Has Zeta Units|}}}|{{{Has Zeta Units}}}}}
+}}
+|}
+&lt;br&gt;
+= Measurements =
+{{#ask: [[Category:Measurements]] [[Has Entity::{{PAGENAME}}]]
+| ?Has Endpoint Value
+| format=jqplotbar
+| sort=Has Endpoint Value
+| order=ascending
+| height=250
+| width=600
+}}
+{{#ask: [[Category:Measurements]] [[Has Entity::{{PAGENAME}}]]
+| ?Has Entity #
+| ?Has Dose #
+| ?Has Endpoint Value #
+| sort=Has Endpoint Value
+| order=ascending
+}}
+{{#if:{{{Has Size|}}} |
+{{#set:
+|Has Size={{{Has Size|}}}
+}}
+| }}
+{{#if:{{{Has Size Min|}}} |
+{{#set:
+|Has Size Min={{{Has Size Min|}}}
+}}
+| }}
+{{#if:{{{Has Size Max|}}} |
+{{#set:
+|Has Size Max={{{Has Size Max|}}}
+}}
+| }}
+{{#if:{{{Has Size Error|}}} |
+{{#set:
+|Has Size Error={{{Has Size Error|}}}
+}}
+| }}
+{{#if:{{{Has Size Units|}}} |
+{{#set:
+|Has Size Units={{{Has Size Units|}}}
+}}
+| }}
+{{#if:{{{Has Size Method|}}} |
+  {{#set: |Has Size Method={{{Has Size Method|}}} }}
+| }}
+{{#if:{{{Has Label|}}} |
+{{#set:
+|Has Label={{{Has Label|}}}
+}}
+| }}
+{{#if:{{{Has Identifier|}}} |
+{{#set:
+|Has Identifier={{{Has Identifier|}}}
+}}
+| }}
+{{#if:{{{Has Chemical Composition|}}} |
+{{#set:
+|Has Chemical Composition={{{Has Chemical Composition|}}}
+}}
+| }}
+{{#if:{{{Has Chemical Coating|}}} |
+{{#set:
+|Has Chemical Coating={{{Has Chemical Coating|}}}
+}}
+| }}
+{{#if:{{{Has NM Type|}}} |
+{{#set:
+|Has NM Type={{{Has NM Type|}}}
+}}
+[[Category:{{{Has NM Type|}}}s]]
+| }}
+{{#if:{{{Has Zeta potential|}}} |
+{{#set:
+|Has Zeta potential={{{Has Zeta potential|}}}
+}}
+| }}
+{{#if:{{{Has Zeta Units|}}} |
+{{#set:
+|Has Zeta Units={{{Has Zeta Units|}}}
+}}
+| }}
+{{#if:{{{Has Zeta Error|}}} |
+{{#set:
+|Has Zeta Error={{{Has Zeta Error|}}}
+}}
+| }}
+[[Category:NanoMaterials]]__NOEDITSECTION____NOTOC__
+[[Category:Chemical_Entities]]__NOEDITSECTION____NOTOC__
 &lt;/includeonly&gt;</text>
     </revision>
   </page>
@@ -16384,6 +16731,24 @@ predominant) independently of their surface modiﬁers&quot;
 
 &lt;pdf height=&quot;300&quot;&gt;a/a9/Fourches2010.pdf&lt;/pdf&gt;</text>
     </revision>
+    <revision>
+      <id>1339</id>
+      <timestamp>2011-11-09T06:39:34Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Paper
+|Has Year=2010
+|Has DOI=10.1021/nn1013484
+|Substances extracted=Yes
+}}
+
+&quot;revealed that all MNPs included in cluster 2 featured the same metal core (Fe3O4-
+predominant) independently of their surface modiﬁers&quot;
+
+&lt;pdf height=&quot;300&quot;&gt;a/a9/Fourches2010.pdf&lt;/pdf&gt;</text>
+    </revision>
   </page>
   <page>
     <title>InVitro2010Fourches</title>
@@ -18167,6 +18532,20 @@ The CHEMINF field does the same but then for the CHEMINF ontology.
 |Has DOI=10.1016/j.ejmech.2010.08.033
 }}</text>
     </revision>
+    <revision>
+      <id>1376</id>
+      <timestamp>2011-11-10T07:49:32Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Paper
+|Has Year=2010
+|Has DOI=10.1016/j.ejmech.2010.08.033
+}}
+
+Small molecule study.</text>
+    </revision>
   </page>
   <page>
     <title>Katriztky2010QSAR</title>
@@ -19890,6 +20269,39 @@ Asymetrically shaped particles, of 100-200 nm in one direction, and 3-7 µm in t
 
 [[Category:PapersToRead]]</text>
     </revision>
+    <revision>
+      <id>1374</id>
+      <timestamp>2011-11-10T07:38:36Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Paper
+|Has Year=2009
+|Has DOI= 10.1038/NNANO.2009.313
+}}
+
+[[Category:PapersToRead]]
+
+This paper studies DNA damage or CoCr micro and nanoparticles.</text>
+    </revision>
+    <revision>
+      <id>1375</id>
+      <timestamp>2011-11-10T07:39:06Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Paper
+|Has Year=2009
+|Has DOI= 10.1038/NNANO.2009.313
+|Substances extracted=Yes
+}}
+
+[[Category:PapersToRead]]
+
+This paper studies DNA damage or CoCr micro and nanoparticles.</text>
+    </revision>
   </page>
   <page>
     <title>Hu2008</title>
@@ -19920,6 +20332,24 @@ Asymetrically shaped particles, of 100-200 nm in one direction, and 3-7 µm in t
 }}
 
 About graphene oxides.
+
+[[Category:PapersToRead]]</text>
+    </revision>
+    <revision>
+      <id>1379</id>
+      <timestamp>2011-11-10T09:58:22Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Paper
+|Has Year=2008
+|Has DOI= 10.1021/nn200021j
+}}
+
+About graphene oxides.
+
+&lt;pdf&gt;e/ee/Hu2011.pdf&lt;/pdf&gt;
 
 [[Category:PapersToRead]]</text>
     </revision>
@@ -30580,6 +31010,27 @@ Particles of size down to 35 nm have been observed in clusters.
 
 {{#set:|Used in Study=Karlsson2008CytotoxFollowup}}</text>
     </revision>
+    <revision>
+      <id>1343</id>
+      <timestamp>2011-11-09T06:52:01Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=MnO2
+|Has Identifier=90
+|Has Chemical Composition=MnO2
+|Has NM Type=MetalOxide
+|Has Size Min=300
+|Has Size Max=800
+|Has Size Units=nm
+}}
+
+Particles of size down to 35 nm have been observed in clusters.
+
+{{#set:|Used in Study=Karlsson2008CytotoxFollowup}}</text>
+    </revision>
   </page>
   <page>
     <title>HannaK14 M1</title>
@@ -34312,6 +34763,30 @@ Particle sizes from DLS.
 
 {{#set:|Used in Study=Field2011Cytotox}}</text>
     </revision>
+    <revision>
+      <id>1356</id>
+      <timestamp>2011-11-09T07:14:54Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=Micron
+|Has Identifier=109
+|Has Chemical Composition=HfO2
+|Has NM Type=MetalOxide
+|Has Size=221
+|Has Size Error=0.8
+|Has Size Units=nm
+|Has Zeta potential=64
+|Has Zeta Error=1.8
+|Has Zeta Units=mV
+}}
+
+Particle sizes from DLS.
+
+{{#set:|Used in Study=Field2011Cytotox}}</text>
+    </revision>
   </page>
   <page>
     <title>Property:Has Size Method</title>
@@ -34441,6 +34916,24 @@ The allowed value for this property is:
 |Has Size Method=TEM
 }}</text>
     </revision>
+    <revision>
+      <id>1345</id>
+      <timestamp>2011-11-09T06:53:05Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=Fe2O3 micro
+|Has Identifier=111
+|Has Chemical Composition=Fe2O3
+|Has NM Type=MetalOxide
+|Has Size Min=150
+|Has Size Max=1000
+|Has Size Units=nm
+|Has Size Method=TEM
+}}</text>
+    </revision>
   </page>
   <page>
     <title>HannaK17</title>
@@ -34495,6 +34988,24 @@ The allowed value for this property is:
       </contributor>
       <comment>Created page with &quot;{{NanoMaterial |Has Label=Fe3O4 micro |Has Identifier=112 |Has Chemical Composition=Fe3O4 |Has NM Type=MetalOxide |Has Size Min=100 |Has Size Max=500 |Has Size Units=nm |Has Size…&quot;</comment>
       <text xml:space="preserve">{{NanoMaterial
+|Has Label=Fe3O4 micro
+|Has Identifier=112
+|Has Chemical Composition=Fe3O4
+|Has NM Type=MetalOxide
+|Has Size Min=100
+|Has Size Max=500
+|Has Size Units=nm
+|Has Size Method=TEM
+}}</text>
+    </revision>
+    <revision>
+      <id>1354</id>
+      <timestamp>2011-11-09T07:12:27Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
 |Has Label=Fe3O4 micro
 |Has Identifier=112
 |Has Chemical Composition=Fe3O4
@@ -34569,6 +35080,24 @@ The allowed value for this property is:
 |Has Size Method=TEM
 }}</text>
     </revision>
+    <revision>
+      <id>1353</id>
+      <timestamp>2011-11-09T07:12:18Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=TiO2 micro
+|Has Identifier=117
+|Has Chemical Composition=TiO2
+|Has NM Type=MetalOxide
+|Has Size Min=300
+|Has Size Max=1000
+|Has Size Units=nm
+|Has Size Method=TEM
+}}</text>
+    </revision>
   </page>
   <page>
     <title>HannaK21</title>
@@ -34615,6 +35144,24 @@ The allowed value for this property is:
 |Has Size Method=TEM
 }}</text>
     </revision>
+    <revision>
+      <id>1352</id>
+      <timestamp>2011-11-09T07:12:09Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=CuO micro
+|Has Identifier=115
+|Has Chemical Composition=CuO
+|Has NM Type=MetalOxide
+|Has Size Min=500
+|Has Size Max=1000
+|Has Size Units=nm
+|Has Size Method=TEM
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Burello2011</title>
@@ -34643,6 +35190,23 @@ The allowed value for this property is:
 |Has Year=2011
 |Has DOI=10.3109/17435390.2010.502980
 }}
+
+&lt;pdf&gt;6/6f/Burello2011.pdf&lt;/pdf&gt;</text>
+    </revision>
+    <revision>
+      <id>1377</id>
+      <timestamp>2011-11-10T08:08:11Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Paper
+|Has Year=2011
+|Has DOI=10.3109/17435390.2010.502980
+|Substances extracted=Yes
+}}
+
+This paper is purely theoretical and does not have experimental data; therefore, *all* substances have been extracted.
 
 &lt;pdf&gt;6/6f/Burello2011.pdf&lt;/pdf&gt;</text>
     </revision>
@@ -34690,6 +35254,1017 @@ The allowed value for this property is:
 }}
 
 &lt;pdf height=&quot;300&quot;&gt;b/b5/Hedberg_2010.pdf&lt;/pdf&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:ChemicalEntity</title>
+    <id>498</id>
+    <revision>
+      <id>1340</id>
+      <timestamp>2011-11-09T06:49:02Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;&lt;noinclude&gt; &lt;pre&gt; {{ChemicalEntity |Has Identifier= |Has Label= |Has Chemical Composition= |Image= |Has Type= }} &lt;/pre&gt; &lt;/noinclude&gt;&lt;includeonly&gt; {| class=&quot;wikitable&quot; style=&quot;floa…&quot;</comment>
+      <text xml:space="preserve">&lt;noinclude&gt;
+&lt;pre&gt;
+{{ChemicalEntity
+|Has Identifier=
+|Has Label=
+|Has Chemical Composition=
+|Image=
+|Has Type=
+}}
+&lt;/pre&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: right; table-layout:fixed; word-wrap: break-word;&quot;
+! colspan=2 style=&quot;text-align: center;background-color: #ddd;&quot; | Nanomaterial
+|-
+! colspan=2 style=&quot;text-align: center; font-size: 125%&quot; | {{{Name|{{PAGENAME}}}}}
+{{#if:{{{Image|}}}|
+{{!}}-
+{{!}} Image
+{{!}} {{{Image}}}
+}}
+|-
+{{#if:{{{Has Label|}}}|
+{{!}}-
+{{!}} Label
+{{!}} {{{Has Label}}} 
+}}
+|-
+{{#if:{{{Has Identifier|}}}|
+{{!}}-
+{{!}} Identifier
+{{!}} {{{Has Identifier}}} 
+}}
+|-
+{{#if:{{{Has Chemical Composition|}}}|
+{{!}}-
+{{!}} Chemical Composition
+{{!}} {{{Has Chemical Composition}}} 
+}}
+|-
+! colspan=2 style=&quot;text-align: center;background-color: #ddd;&quot; | Properties
+{{#if:{{{Has Type|}}}|
+{{!}}-
+{{!}} Type
+{{!}} {{{Has Type}}} 
+}}
+|}
+&lt;br&gt;
+= Measurements =
+{{#ask: [[Category:Measurements]] [[Has Entity::{{PAGENAME}}]]
+| ?Has Endpoint Value
+| format=jqplotbar
+| sort=Has Endpoint Value
+| order=ascending
+| height=250
+| width=600
+}}
+{{#ask: [[Category:Measurements]] [[Has Entity::{{PAGENAME}}]]
+| ?Has Entity #
+| ?Has Dose #
+| ?Has Endpoint Value #
+| sort=Has Endpoint Value
+| order=ascending
+}}
+{{#if:{{{Has Label|}}} |
+{{#set:
+|Has Label={{{Has Label|}}}
+}}
+| }}
+{{#if:{{{Has Identifier|}}} |
+{{#set:
+|Has Identifier={{{Has Identifier|}}}
+}}
+| }}
+{{#if:{{{Has Chemical Composition|}}} |
+{{#set:
+|Has Chemical Composition={{{Has Chemical Composition|}}}
+}}
+| }}
+{{#if:{{{Has Type|}}} |
+{{#set:
+|Has Type={{{Has Type|}}}
+}}
+[[Category:{{{Has Type|}}}s]]
+| }}
+[[Category:Chemical_Entities]]__NOEDITSECTION____NOTOC__
+&lt;/includeonly&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Material</title>
+    <id>499</id>
+    <revision>
+      <id>1342</id>
+      <timestamp>2011-11-09T06:50:42Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;&lt;noinclude&gt; &lt;pre&gt; {{Material |Has Identifier= |Has Label= |Has Chemical Composition= |Has Chemical Coating= |Image= |Has NM Type= |Has Size= |Has Size Min= |Has Size Max= |Has Si…&quot;</comment>
+      <text xml:space="preserve">&lt;noinclude&gt;
+&lt;pre&gt;
+{{Material
+|Has Identifier=
+|Has Label=
+|Has Chemical Composition=
+|Has Chemical Coating=
+|Image=
+|Has NM Type=
+|Has Size=
+|Has Size Min=
+|Has Size Max=
+|Has Size Error=
+|Has Size Units=
+|Has Size Method=
+|Has Zeta potential=
+|Has Zeta Units=
+|Has Zeta Error=
+}}
+&lt;/pre&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: right; table-layout:fixed; word-wrap: break-word;&quot;
+! colspan=2 style=&quot;text-align: center;background-color: #ddd;&quot; | Nanomaterial
+|-
+! colspan=2 style=&quot;text-align: center; font-size: 125%&quot; | {{{Name|{{PAGENAME}}}}}
+{{#if:{{{Image|}}}|
+{{!}}-
+{{!}} Image
+{{!}} {{{Image}}}
+}}
+|-
+{{#if:{{{Has Label|}}}|
+{{!}}-
+{{!}} Label
+{{!}} {{{Has Label}}} 
+}}
+|-
+{{#if:{{{Has Identifier|}}}|
+{{!}}-
+{{!}} Identifier
+{{!}} {{{Has Identifier}}} 
+}}
+|-
+{{#if:{{{Has Chemical Composition|}}}|
+{{!}}-
+{{!}} Chemical Composition
+{{!}} {{{Has Chemical Composition}}} 
+}}
+|-
+{{#if:{{{Has Chemical Coating|}}}|
+{{!}}-
+{{!}} Chemical Coating
+{{!}} {{{Has Chemical Coating}}} 
+}}
+|-
+! colspan=2 style=&quot;text-align: center;background-color: #ddd;&quot; | Properties
+|-
+{{#if:{{{Has Size|}}}|
+{{!}}-
+{{!}} Size
+{{!}} {{{Has Size}}} {{#if:{{{Has Size Error|}}}|± {{{Has Size Error}}}}} {{#if:{{{Has Size Units|}}}|{{{Has Size Units}}}}} {{#if:{{{Has Size Method|}}}| ({{{Has Size Method}}})}}
+}}
+{{#if:{{{Has Size Min|}}}|
+{{!}}-
+{{!}} Size
+{{!}} {{{Has Size Min}}} - {{{Has Size Max}}} {{#if:{{{Has Size Units|}}}|{{{Has Size Units}}}}} {{#if:{{{Has Size Method|}}}| ({{{Has Size Method}}})}}
+}}
+{{#if:{{{Has NM Type|}}}|
+{{!}}-
+{{!}} Type
+{{!}} {{{Has NM Type}}} 
+}}
+{{#if:{{{Has Zeta potential|}}}|
+{{!}}-
+{{!}} Zeta potential
+{{!}} {{{Has Zeta potential}}} {{#if:{{{Has Zeta Error|}}}|± {{{Has Zeta Error}}}}} {{#if:{{{Has Zeta Units|}}}|{{{Has Zeta Units}}}}}
+}}
+|}
+&lt;br&gt;
+= Measurements =
+{{#ask: [[Category:Measurements]] [[Has Entity::{{PAGENAME}}]]
+| ?Has Endpoint Value
+| format=jqplotbar
+| sort=Has Endpoint Value
+| order=ascending
+| height=250
+| width=600
+}}
+{{#ask: [[Category:Measurements]] [[Has Entity::{{PAGENAME}}]]
+| ?Has Entity #
+| ?Has Dose #
+| ?Has Endpoint Value #
+| sort=Has Endpoint Value
+| order=ascending
+}}
+{{#if:{{{Has Size|}}} |
+{{#set:
+|Has Size={{{Has Size|}}}
+}}
+| }}
+{{#if:{{{Has Size Min|}}} |
+{{#set:
+|Has Size Min={{{Has Size Min|}}}
+}}
+| }}
+{{#if:{{{Has Size Max|}}} |
+{{#set:
+|Has Size Max={{{Has Size Max|}}}
+}}
+| }}
+{{#if:{{{Has Size Error|}}} |
+{{#set:
+|Has Size Error={{{Has Size Error|}}}
+}}
+| }}
+{{#if:{{{Has Size Units|}}} |
+{{#set:
+|Has Size Units={{{Has Size Units|}}}
+}}
+| }}
+{{#if:{{{Has Size Method|}}} |
+  {{#set: |Has Size Method={{{Has Size Method|}}} }}
+| }}
+{{#if:{{{Has Label|}}} |
+{{#set:
+|Has Label={{{Has Label|}}}
+}}
+| }}
+{{#if:{{{Has Identifier|}}} |
+{{#set:
+|Has Identifier={{{Has Identifier|}}}
+}}
+| }}
+{{#if:{{{Has Chemical Composition|}}} |
+{{#set:
+|Has Chemical Composition={{{Has Chemical Composition|}}}
+}}
+| }}
+{{#if:{{{Has Chemical Coating|}}} |
+{{#set:
+|Has Chemical Coating={{{Has Chemical Coating|}}}
+}}
+| }}
+{{#if:{{{Has NM Type|}}} |
+{{#set:
+|Has NM Type={{{Has NM Type|}}}
+}}
+[[Category:{{{Has NM Type|}}}s]]
+| }}
+{{#if:{{{Has Zeta potential|}}} |
+{{#set:
+|Has Zeta potential={{{Has Zeta potential|}}}
+}}
+| }}
+{{#if:{{{Has Zeta Units|}}} |
+{{#set:
+|Has Zeta Units={{{Has Zeta Units|}}}
+}}
+| }}
+{{#if:{{{Has Zeta Error|}}} |
+{{#set:
+|Has Zeta Error={{{Has Zeta Error|}}}
+}}
+| }}
+[[Category:Chemical_Entities]]__NOEDITSECTION____NOTOC__
+&lt;/includeonly&gt;</text>
+    </revision>
+    <revision>
+      <id>1344</id>
+      <timestamp>2011-11-09T06:52:27Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">&lt;noinclude&gt;
+&lt;pre&gt;
+{{Material
+|Has Identifier=
+|Has Label=
+|Has Chemical Composition=
+|Has Chemical Coating=
+|Image=
+|Has NM Type=
+|Has Size=
+|Has Size Min=
+|Has Size Max=
+|Has Size Error=
+|Has Size Units=
+|Has Size Method=
+|Has Zeta potential=
+|Has Zeta Units=
+|Has Zeta Error=
+}}
+&lt;/pre&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: right; table-layout:fixed; word-wrap: break-word;&quot;
+! colspan=2 style=&quot;text-align: center;background-color: #ddd;&quot; | Material
+|-
+! colspan=2 style=&quot;text-align: center; font-size: 125%&quot; | {{{Name|{{PAGENAME}}}}}
+{{#if:{{{Image|}}}|
+{{!}}-
+{{!}} Image
+{{!}} {{{Image}}}
+}}
+|-
+{{#if:{{{Has Label|}}}|
+{{!}}-
+{{!}} Label
+{{!}} {{{Has Label}}} 
+}}
+|-
+{{#if:{{{Has Identifier|}}}|
+{{!}}-
+{{!}} Identifier
+{{!}} {{{Has Identifier}}} 
+}}
+|-
+{{#if:{{{Has Chemical Composition|}}}|
+{{!}}-
+{{!}} Chemical Composition
+{{!}} {{{Has Chemical Composition}}} 
+}}
+|-
+{{#if:{{{Has Chemical Coating|}}}|
+{{!}}-
+{{!}} Chemical Coating
+{{!}} {{{Has Chemical Coating}}} 
+}}
+|-
+! colspan=2 style=&quot;text-align: center;background-color: #ddd;&quot; | Properties
+|-
+{{#if:{{{Has Size|}}}|
+{{!}}-
+{{!}} Size
+{{!}} {{{Has Size}}} {{#if:{{{Has Size Error|}}}|± {{{Has Size Error}}}}} {{#if:{{{Has Size Units|}}}|{{{Has Size Units}}}}} {{#if:{{{Has Size Method|}}}| ({{{Has Size Method}}})}}
+}}
+{{#if:{{{Has Size Min|}}}|
+{{!}}-
+{{!}} Size
+{{!}} {{{Has Size Min}}} - {{{Has Size Max}}} {{#if:{{{Has Size Units|}}}|{{{Has Size Units}}}}} {{#if:{{{Has Size Method|}}}| ({{{Has Size Method}}})}}
+}}
+{{#if:{{{Has NM Type|}}}|
+{{!}}-
+{{!}} Type
+{{!}} {{{Has NM Type}}} 
+}}
+{{#if:{{{Has Zeta potential|}}}|
+{{!}}-
+{{!}} Zeta potential
+{{!}} {{{Has Zeta potential}}} {{#if:{{{Has Zeta Error|}}}|± {{{Has Zeta Error}}}}} {{#if:{{{Has Zeta Units|}}}|{{{Has Zeta Units}}}}}
+}}
+|}
+&lt;br&gt;
+= Measurements =
+{{#ask: [[Category:Measurements]] [[Has Entity::{{PAGENAME}}]]
+| ?Has Endpoint Value
+| format=jqplotbar
+| sort=Has Endpoint Value
+| order=ascending
+| height=250
+| width=600
+}}
+{{#ask: [[Category:Measurements]] [[Has Entity::{{PAGENAME}}]]
+| ?Has Entity #
+| ?Has Dose #
+| ?Has Endpoint Value #
+| sort=Has Endpoint Value
+| order=ascending
+}}
+{{#if:{{{Has Size|}}} |
+{{#set:
+|Has Size={{{Has Size|}}}
+}}
+| }}
+{{#if:{{{Has Size Min|}}} |
+{{#set:
+|Has Size Min={{{Has Size Min|}}}
+}}
+| }}
+{{#if:{{{Has Size Max|}}} |
+{{#set:
+|Has Size Max={{{Has Size Max|}}}
+}}
+| }}
+{{#if:{{{Has Size Error|}}} |
+{{#set:
+|Has Size Error={{{Has Size Error|}}}
+}}
+| }}
+{{#if:{{{Has Size Units|}}} |
+{{#set:
+|Has Size Units={{{Has Size Units|}}}
+}}
+| }}
+{{#if:{{{Has Size Method|}}} |
+  {{#set: |Has Size Method={{{Has Size Method|}}} }}
+| }}
+{{#if:{{{Has Label|}}} |
+{{#set:
+|Has Label={{{Has Label|}}}
+}}
+| }}
+{{#if:{{{Has Identifier|}}} |
+{{#set:
+|Has Identifier={{{Has Identifier|}}}
+}}
+| }}
+{{#if:{{{Has Chemical Composition|}}} |
+{{#set:
+|Has Chemical Composition={{{Has Chemical Composition|}}}
+}}
+| }}
+{{#if:{{{Has Chemical Coating|}}} |
+{{#set:
+|Has Chemical Coating={{{Has Chemical Coating|}}}
+}}
+| }}
+{{#if:{{{Has NM Type|}}} |
+{{#set:
+|Has NM Type={{{Has NM Type|}}}
+}}
+[[Category:{{{Has NM Type|}}}s]]
+| }}
+{{#if:{{{Has Zeta potential|}}} |
+{{#set:
+|Has Zeta potential={{{Has Zeta potential|}}}
+}}
+| }}
+{{#if:{{{Has Zeta Units|}}} |
+{{#set:
+|Has Zeta Units={{{Has Zeta Units|}}}
+}}
+| }}
+{{#if:{{{Has Zeta Error|}}} |
+{{#set:
+|Has Zeta Error={{{Has Zeta Error|}}}
+}}
+| }}
+[[Category:Chemical_Entities]]__NOEDITSECTION____NOTOC__
+&lt;/includeonly&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Category:Chemical Entities</title>
+    <id>500</id>
+    <revision>
+      <id>1346</id>
+      <timestamp>2011-11-09T06:53:54Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{#ask: [[Category:Chemical_Entities]]  | ? Has Identifier #  | ? Has Label #  |offset=0  |limit=250  |sort=Has Identifier }}&quot;</comment>
+      <text xml:space="preserve">{{#ask: [[Category:Chemical_Entities]]
+ | ? Has Identifier #
+ | ? Has Label #
+ |offset=0
+ |limit=250
+ |sort=Has Identifier
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Jeng2006</title>
+    <id>501</id>
+    <revision>
+      <id>1351</id>
+      <timestamp>2011-11-09T07:10:28Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Paper |Has Year=2006 |Has DOI=10.1080/10934520600966177 }}&quot;</comment>
+      <text xml:space="preserve">{{Paper
+|Has Year=2006
+|Has DOI=10.1080/10934520600966177
+}}</text>
+    </revision>
+    <revision>
+      <id>1367</id>
+      <timestamp>2011-11-10T07:18:42Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Paper
+|Has Year=2006
+|Has DOI=10.1080/10934520600966177
+|Substances extracted=Yes
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Jeng2006 M1</title>
+    <id>502</id>
+    <revision>
+      <id>1355</id>
+      <timestamp>2011-11-09T07:13:03Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{NanoMaterial |Has Identifier=118 |Has Label=ZnO |Has Chemical Composition=ZnO |Has NM Type=MetalOxide |Has Size Min=50 |Has Size Max=70 |Has Size Units=nm }}  {{#set:|Used in S…&quot;</comment>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Identifier=118
+|Has Label=ZnO
+|Has Chemical Composition=ZnO
+|Has NM Type=MetalOxide
+|Has Size Min=50
+|Has Size Max=70
+|Has Size Units=nm
+}}
+
+{{#set:|Used in Study=Jeng2006}}</text>
+    </revision>
+    <revision>
+      <id>1364</id>
+      <timestamp>2011-11-09T07:20:26Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Identifier=118
+|Has Label=ZnO
+|Has Chemical Composition=ZnO
+|Has NM Type=MetalOxide
+|Has Size Min=50
+|Has Size Max=70
+|Has Size Units=nm
+}}
+
+{{#set:|Used in Study=Jeng2006_S1}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Jeng2006 M2</title>
+    <id>503</id>
+    <revision>
+      <id>1357</id>
+      <timestamp>2011-11-09T07:15:35Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{NanoMaterial |Has Identifier=119 |Has Label=TiO2 |Has Chemical Composition=TiO2 |Has NM Type=MetalOxide |Has Size Min=1 |Has Size Max=39 |Has Size Units=nm }}  {{#set:|Used in …&quot;</comment>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Identifier=119
+|Has Label=TiO2
+|Has Chemical Composition=TiO2
+|Has NM Type=MetalOxide
+|Has Size Min=1
+|Has Size Max=39
+|Has Size Units=nm
+}}
+
+{{#set:|Used in Study=Jeng2006}}</text>
+    </revision>
+    <revision>
+      <id>1363</id>
+      <timestamp>2011-11-09T07:20:14Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Identifier=119
+|Has Label=TiO2
+|Has Chemical Composition=TiO2
+|Has NM Type=MetalOxide
+|Has Size Min=1
+|Has Size Max=39
+|Has Size Units=nm
+}}
+
+{{#set:|Used in Study=Jeng2006_S1}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Jeng2006 M3</title>
+    <id>504</id>
+    <revision>
+      <id>1358</id>
+      <timestamp>2011-11-09T07:16:23Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{NanoMaterial |Has Identifier=120 |Has Label=Al2O3 |Has Chemical Composition=Al2O3 |Has NM Type=MetalOxide |Has Size Min=40 |Has Size Max=47 |Has Size Units=nm }}  {{#set:|Used …&quot;</comment>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Identifier=120
+|Has Label=Al2O3
+|Has Chemical Composition=Al2O3
+|Has NM Type=MetalOxide
+|Has Size Min=40
+|Has Size Max=47
+|Has Size Units=nm
+}}
+
+{{#set:|Used in Study=Jeng2006}}</text>
+    </revision>
+    <revision>
+      <id>1362</id>
+      <timestamp>2011-11-09T07:20:06Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Identifier=120
+|Has Label=Al2O3
+|Has Chemical Composition=Al2O3
+|Has NM Type=MetalOxide
+|Has Size Min=40
+|Has Size Max=47
+|Has Size Units=nm
+}}
+
+{{#set:|Used in Study=Jeng2006_S1}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Jeng2006 M4</title>
+    <id>505</id>
+    <revision>
+      <id>1359</id>
+      <timestamp>2011-11-09T07:17:12Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{NanoMaterial |Has Identifier=121 |Has Label=Fe3O4 |Has Chemical Composition=Fe3O4 |Has NM Type=MetalOxide |Has Size=25 |Has Size Units=nm }}  {{#set:|Used in Study=Jeng2006}}&quot;</comment>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Identifier=121
+|Has Label=Fe3O4
+|Has Chemical Composition=Fe3O4
+|Has NM Type=MetalOxide
+|Has Size=25
+|Has Size Units=nm
+}}
+
+{{#set:|Used in Study=Jeng2006}}</text>
+    </revision>
+    <revision>
+      <id>1361</id>
+      <timestamp>2011-11-09T07:19:55Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Identifier=121
+|Has Label=Fe3O4
+|Has Chemical Composition=Fe3O4
+|Has NM Type=MetalOxide
+|Has Size=25
+|Has Size Units=nm
+}}
+
+{{#set:|Used in Study=Jeng2006_S1}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Jeng2006 S1</title>
+    <id>506</id>
+    <revision>
+      <id>1360</id>
+      <timestamp>2011-11-09T07:19:39Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Study |Has Source=Jeng2006 |Has Identifier=14 |Has Study Type=Descriptive |Has Object Count=5 |Has Entities=MetalOxides }}&quot;</comment>
+      <text xml:space="preserve">{{Study
+|Has Source=Jeng2006
+|Has Identifier=14
+|Has Study Type=Descriptive
+|Has Object Count=5
+|Has Entities=MetalOxides
+}}</text>
+    </revision>
+    <revision>
+      <id>1366</id>
+      <timestamp>2011-11-10T07:14:31Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Study
+|Has Source=Jeng2006
+|Has Identifier=15
+|Has Study Type=Descriptive
+|Has Object Count=5
+|Has Entities=MetalOxides
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Jeng2006 M5</title>
+    <id>507</id>
+    <revision>
+      <id>1365</id>
+      <timestamp>2011-11-09T07:22:47Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{NanoMaterial |Has Identifier=122 |Has Label=CrO3 |Has Chemical Composition=CrO3 |Has NM Type=MetalOxide }}  {{#set:|Used in Study=Jeng2006_S1}}&quot;</comment>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Identifier=122
+|Has Label=CrO3
+|Has Chemical Composition=CrO3
+|Has NM Type=MetalOxide
+}}
+
+{{#set:|Used in Study=Jeng2006_S1}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Bhabra2009 S1</title>
+    <id>508</id>
+    <revision>
+      <id>1368</id>
+      <timestamp>2011-11-10T07:31:36Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Study |Has Identifier=16 |Has Source=Bhabra2009 |Has Entities=MetalAlloys |Has Study Type=Descriptive }}&quot;</comment>
+      <text xml:space="preserve">{{Study
+|Has Identifier=16
+|Has Source=Bhabra2009
+|Has Entities=MetalAlloys
+|Has Study Type=Descriptive
+}}</text>
+    </revision>
+    <revision>
+      <id>1369</id>
+      <timestamp>2011-11-10T07:31:50Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Study
+|Has Identifier=16
+|Has Source=Bhabra2009
+|Has Entities=MetalAlloy
+|Has Study Type=Descriptive
+}}</text>
+    </revision>
+    <revision>
+      <id>1370</id>
+      <timestamp>2011-11-10T07:32:10Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Study
+|Has Identifier=16
+|Has Source=Bhabra2009
+|Has Entities=Alloy
+|Has Study Type=Descriptive
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Bhabra2009 M1</title>
+    <id>509</id>
+    <revision>
+      <id>1371</id>
+      <timestamp>2011-11-10T07:36:19Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{NanoMaterial |Has Identifier=123 |Has Label=CoCr |Has Chemical Composition=CoCr |Has NM Type=Alloy |Has Size=29.5 |Has Size Error=6.3 |Has Size Units=nm }}  {{#set:|Used in Stu…&quot;</comment>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Identifier=123
+|Has Label=CoCr
+|Has Chemical Composition=CoCr
+|Has NM Type=Alloy
+|Has Size=29.5
+|Has Size Error=6.3
+|Has Size Units=nm
+}}
+
+{{#set:|Used in Study=Bhabra2009_S1}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Bhabra2009 M2</title>
+    <id>510</id>
+    <revision>
+      <id>1372</id>
+      <timestamp>2011-11-10T07:37:03Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{NanoMaterial |Has Identifier=124 |Has Label=CoCr (micro) |Has Chemical Composition=CoCr |Has NM Type=Alloy |Has Size=2900 |Has Size Error=1100 |Has Size Units=nm }}  {{#set:|Us…&quot;</comment>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Identifier=124
+|Has Label=CoCr (micro)
+|Has Chemical Composition=CoCr
+|Has NM Type=Alloy
+|Has Size=2900
+|Has Size Error=1100
+|Has Size Units=nm
+}}
+
+{{#set:|Used in Study=Bhabra2009_S1}}</text>
+    </revision>
+    <revision>
+      <id>1373</id>
+      <timestamp>2011-11-10T07:37:11Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=124
+|Has Label=CoCr (micro)
+|Has Chemical Composition=CoCr
+|Has NM Type=Alloy
+|Has Size=2900
+|Has Size Error=1100
+|Has Size Units=nm
+}}
+
+{{#set:|Used in Study=Bhabra2009_S1}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>File:Hu2011.pdf</title>
+    <id>511</id>
+    <revision>
+      <id>1378</id>
+      <timestamp>2011-11-10T09:57:59Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" />
+    </revision>
+  </page>
+  <page>
+    <title>Deshpande2005</title>
+    <id>512</id>
+    <revision>
+      <id>1380</id>
+      <timestamp>2011-12-10T10:06:48Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Paper |Has Year=2005 |Has DOI=10.1063/1.2061873 |Relationships extracted=Yes |Substances extracted=Yes }}&quot;</comment>
+      <text xml:space="preserve">{{Paper
+|Has Year=2005
+|Has DOI=10.1063/1.2061873
+|Relationships extracted=Yes
+|Substances extracted=Yes
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Deshpande2005 S1</title>
+    <id>513</id>
+    <revision>
+      <id>1381</id>
+      <timestamp>2011-12-10T10:08:41Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Study |Has Source=Deshpande2005 |Has Identifier=17 |Has Study Type=Descriptive |Has Object Count=3 |Has Entities=MetalOxides }}&quot;</comment>
+      <text xml:space="preserve">{{Study
+|Has Source=Deshpande2005
+|Has Identifier=17
+|Has Study Type=Descriptive
+|Has Object Count=3
+|Has Entities=MetalOxides
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Deshpande2005 M1</title>
+    <id>514</id>
+    <revision>
+      <id>1382</id>
+      <timestamp>2011-12-10T10:10:48Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{NanoMaterial |Has Identifier=124 |Has Label=CeO2 |Has Chemical Composition=CeO2 |Has NM Type=MetalOxide |Has Size=3 |Has Size Units=nm }} {{#set:|Used in Study=Deshpande2005_S1…&quot;</comment>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Identifier=124
+|Has Label=CeO2
+|Has Chemical Composition=CeO2
+|Has NM Type=MetalOxide
+|Has Size=3
+|Has Size Units=nm
+}}
+{{#set:|Used in Study=Deshpande2005_S1}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Deshpande2005 M2</title>
+    <id>515</id>
+    <revision>
+      <id>1383</id>
+      <timestamp>2011-12-10T10:11:00Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{NanoMaterial |Has Identifier=125 |Has Label=CeO2 |Has Chemical Composition=CeO2 |Has NM Type=MetalOxide |Has Size=6 |Has Size Units=nm }} {{#set:|Used in Study=Deshpande2005_S1…&quot;</comment>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Identifier=125
+|Has Label=CeO2
+|Has Chemical Composition=CeO2
+|Has NM Type=MetalOxide
+|Has Size=6
+|Has Size Units=nm
+}}
+{{#set:|Used in Study=Deshpande2005_S1}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Deshpande2005 M3</title>
+    <id>516</id>
+    <revision>
+      <id>1384</id>
+      <timestamp>2011-12-10T10:11:11Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{NanoMaterial |Has Identifier=126 |Has Label=CeO2 |Has Chemical Composition=CeO2 |Has NM Type=MetalOxide |Has Size=30 |Has Size Units=nm }} {{#set:|Used in Study=Deshpande2005_S…&quot;</comment>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Identifier=126
+|Has Label=CeO2
+|Has Chemical Composition=CeO2
+|Has NM Type=MetalOxide
+|Has Size=30
+|Has Size Units=nm
+}}
+{{#set:|Used in Study=Deshpande2005_S1}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Deshpande2005 R1</title>
+    <id>517</id>
+    <revision>
+      <id>1385</id>
+      <timestamp>2011-12-10T10:15:03Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Relationship |Descriptor=ParticleSize |Relation=NegativelyCorrelatesWith |End point=OxidationStateConcentration |From Study=Deshpande2005_S1 }}&quot;</comment>
+      <text xml:space="preserve">{{Relationship
+|Descriptor=ParticleSize
+|Relation=NegativelyCorrelatesWith
+|End point=OxidationStateConcentration
+|From Study=Deshpande2005_S1
+}}</text>
+    </revision>
+    <revision>
+      <id>1386</id>
+      <timestamp>2011-12-10T10:15:23Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Relationship
+|Descriptor=Particle Size
+|Relation=Negatively Correlates With
+|End point=Oxidation State Concentration
+|From Study=Deshpande2005_S1
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Oxidation State Concentration</title>
+    <id>518</id>
+    <revision>
+      <id>1387</id>
+      <timestamp>2011-12-10T10:16:52Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Descriptor }}&quot;</comment>
+      <text xml:space="preserve">{{Descriptor
+}}</text>
+    </revision>
+    <revision>
+      <id>1388</id>
+      <timestamp>2011-12-10T10:17:56Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Descriptor
+}}
+
+Descriptor that describes the concentration in a nanomaterials of a particular oxidation state of an element. This oxididation state may correlate with the ability to cause oxidative stress in the cell, possibly via ROS.</text>
     </revision>
   </page>
 </mediawiki>
