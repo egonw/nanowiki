@@ -4957,6 +4957,390 @@ You can browse this data via one of the following categories:
 [[Category:Chemical_Entities]]__NOEDITSECTION____NOTOC__
 &lt;/includeonly&gt;</text>
     </revision>
+    <revision>
+      <id>1604</id>
+      <timestamp>2012-06-15T14:18:26Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">&lt;noinclude&gt;
+&lt;pre&gt;
+{{NanoMaterial
+|Has Identifier=
+|Has Label=
+|Has Chemical Composition=
+|Has Chemical Coating=
+|Image=
+|Has NM Type=
+|Has Size=
+|Has Size Min=
+|Has Size Max=
+|Has Size Error=
+|Has Size Units=
+|Has Size Method=
+|Has Zeta potential=
+|Has Zeta Min=
+|Has Zeta Max=
+|Has Zeta Units=
+|Has Zeta Error=
+}}
+&lt;/pre&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: right; table-layout:fixed; word-wrap: break-word;&quot;
+! colspan=2 style=&quot;text-align: center;background-color: #ddd;&quot; | Nanomaterial
+|-
+! colspan=2 style=&quot;text-align: center; font-size: 125%&quot; | {{{Name|{{PAGENAME}}}}}
+{{#if:{{{Image|}}}|
+{{!}}-
+{{!}} Image
+{{!}} {{{Image}}}
+}}
+|-
+{{#if:{{{Has Label|}}}|
+{{!}}-
+{{!}} Label
+{{!}} {{{Has Label}}} 
+}}
+|-
+{{#if:{{{Has Identifier|}}}|
+{{!}}-
+{{!}} Identifier
+{{!}} {{{Has Identifier}}} 
+}}
+|-
+{{#if:{{{Has Chemical Composition|}}}|
+{{!}}-
+{{!}} Chemical Composition
+{{!}} {{{Has Chemical Composition}}} 
+}}
+|-
+{{#if:{{{Has Chemical Coating|}}}|
+{{!}}-
+{{!}} Chemical Coating
+{{!}} {{{Has Chemical Coating}}} 
+}}
+|-
+! colspan=2 style=&quot;text-align: center;background-color: #ddd;&quot; | Properties
+|-
+{{#if:{{{Has Size|}}}|
+{{!}}-
+{{!}} Size
+{{!}} {{{Has Size}}} {{#if:{{{Has Size Error|}}}|± {{{Has Size Error}}}}} {{#if:{{{Has Size Units|}}}|{{{Has Size Units}}}}} {{#if:{{{Has Size Method|}}}| ({{{Has Size Method}}})}}
+}}
+{{#if:{{{Has Size Min|}}}|
+{{!}}-
+{{!}} Size
+{{!}} {{{Has Size Min}}} - {{{Has Size Max}}} {{#if:{{{Has Size Units|}}}|{{{Has Size Units}}}}} {{#if:{{{Has Size Method|}}}| ({{{Has Size Method}}})}}
+}}
+{{#if:{{{Has NM Type|}}}|
+{{!}}-
+{{!}} Type
+{{!}} {{{Has NM Type}}} 
+}}
+{{#if:{{{Has Zeta potential|}}}|
+{{!}}-
+{{!}} Zeta potential
+{{!}} {{{Has Zeta potential}}} {{#if:{{{Has Zeta Error|}}}|± {{{Has Zeta Error}}}}} {{#if:{{{Has Zeta Units|}}}|{{{Has Zeta Units}}}}}
+}}
+{{#if:{{{Has Zeta Min|}}}|
+{{!}}-
+{{!}} Zeta potential
+{{!}} {{{Has Zeta Min}}} - {{{Has Zeta Max}}} {{#if:{{{Has Zeta Units|}}}|{{{Has Zeta Units}}}}}
+}}
+|}
+&lt;br&gt;
+= Measurements =
+{{#ask: [[Category:Measurements]] [[Has Entity::{{PAGENAME}}]]
+| ?Has Endpoint
+| ?Has Endpoint Value
+| ?Has Endpoint Error
+| ?Has Endpoint Value Units
+| format=jqplotbar
+| sort=Has Endpoint Value
+| order=ascending
+| height=250
+| width=600
+}}
+{{#ask: [[Category:Measurements]] [[Has Entity::{{PAGENAME}}]]
+| ?Has Entity #
+| ?Has Dose #
+| ?Has Endpoint Value #
+| sort=Has Endpoint Value
+| order=ascending
+}}
+{{#if:{{{Has Size|}}} |
+{{#set:
+|Has Size={{{Has Size|}}}
+}}
+| }}
+{{#if:{{{Has Size Min|}}} |
+{{#set:
+|Has Size Min={{{Has Size Min|}}}
+}}
+| }}
+{{#if:{{{Has Size Max|}}} |
+{{#set:
+|Has Size Max={{{Has Size Max|}}}
+}}
+| }}
+{{#if:{{{Has Size Error|}}} |
+{{#set:
+|Has Size Error={{{Has Size Error|}}}
+}}
+| }}
+{{#if:{{{Has Size Units|}}} |
+{{#set:
+|Has Size Units={{{Has Size Units|}}}
+}}
+| }}
+{{#if:{{{Has Size Method|}}} |
+  {{#set: |Has Size Method={{{Has Size Method|}}} }}
+| }}
+{{#if:{{{Has Label|}}} |
+{{#set:
+|Has Label={{{Has Label|}}}
+}}
+| }}
+{{#if:{{{Has Identifier|}}} |
+{{#set:
+|Has Identifier={{{Has Identifier|}}}
+}}
+| }}
+{{#if:{{{Has Chemical Composition|}}} |
+{{#set:
+|Has Chemical Composition={{{Has Chemical Composition|}}}
+}}
+| }}
+{{#if:{{{Has Chemical Coating|}}} |
+{{#set:
+|Has Chemical Coating={{{Has Chemical Coating|}}}
+}}
+| }}
+{{#if:{{{Has NM Type|}}} |
+{{#set:
+|Has NM Type={{{Has NM Type|}}}
+}}
+[[Category:{{{Has NM Type|}}}s]]
+| }}
+{{#if:{{{Has Zeta potential|}}} |
+{{#set:
+|Has Zeta potential={{{Has Zeta potential|}}}
+}}
+| }}
+{{#if:{{{Has Zeta Min|}}} |
+{{#set:
+|Has Zeta Min={{{Has Zeta Min|}}}
+}}
+| }}
+{{#if:{{{Has Zeta Max|}}} |
+{{#set:
+|Has Zeta Max={{{Has Zeta Max|}}}
+}}
+| }}
+{{#if:{{{Has Zeta Units|}}} |
+{{#set:
+|Has Zeta Units={{{Has Zeta Units|}}}
+}}
+| }}
+{{#if:{{{Has Zeta Error|}}} |
+{{#set:
+|Has Zeta Error={{{Has Zeta Error|}}}
+}}
+| }}
+[[Category:NanoMaterials]]__NOEDITSECTION____NOTOC__
+[[Category:Materials]]__NOEDITSECTION____NOTOC__
+[[Category:Chemical_Entities]]__NOEDITSECTION____NOTOC__
+&lt;/includeonly&gt;</text>
+    </revision>
+    <revision>
+      <id>1605</id>
+      <timestamp>2012-06-15T14:21:41Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">&lt;noinclude&gt;
+&lt;pre&gt;
+{{NanoMaterial
+|Has Identifier=
+|Has Label=
+|Has Chemical Composition=
+|Has Chemical Coating=
+|Image=
+|Has NM Type=
+|Has Size=
+|Has Size Min=
+|Has Size Max=
+|Has Size Error=
+|Has Size Units=
+|Has Size Method=
+|Has Zeta potential=
+|Has Zeta Min=
+|Has Zeta Max=
+|Has Zeta Units=
+|Has Zeta Error=
+}}
+&lt;/pre&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: right; table-layout:fixed; word-wrap: break-word;&quot;
+! colspan=2 style=&quot;text-align: center;background-color: #ddd;&quot; | Nanomaterial
+|-
+! colspan=2 style=&quot;text-align: center; font-size: 125%&quot; | {{{Name|{{PAGENAME}}}}}
+{{#if:{{{Image|}}}|
+{{!}}-
+{{!}} Image
+{{!}} {{{Image}}}
+}}
+|-
+{{#if:{{{Has Label|}}}|
+{{!}}-
+{{!}} Label
+{{!}} {{{Has Label}}} 
+}}
+|-
+{{#if:{{{Has Identifier|}}}|
+{{!}}-
+{{!}} Identifier
+{{!}} {{{Has Identifier}}} 
+}}
+|-
+{{#if:{{{Has Chemical Composition|}}}|
+{{!}}-
+{{!}} Chemical Composition
+{{!}} {{{Has Chemical Composition}}} 
+}}
+|-
+{{#if:{{{Has Chemical Coating|}}}|
+{{!}}-
+{{!}} Chemical Coating
+{{!}} {{{Has Chemical Coating}}} 
+}}
+|-
+! colspan=2 style=&quot;text-align: center;background-color: #ddd;&quot; | Properties
+|-
+{{#if:{{{Has Size|}}}|
+{{!}}-
+{{!}} Size
+{{!}} {{{Has Size}}} {{#if:{{{Has Size Error|}}}|± {{{Has Size Error}}}}} {{#if:{{{Has Size Units|}}}|{{{Has Size Units}}}}} {{#if:{{{Has Size Method|}}}| ({{{Has Size Method}}})}}
+}}
+{{#if:{{{Has Size Min|}}}|
+{{!}}-
+{{!}} Size
+{{!}} {{{Has Size Min}}} - {{{Has Size Max}}} {{#if:{{{Has Size Units|}}}|{{{Has Size Units}}}}} {{#if:{{{Has Size Method|}}}| ({{{Has Size Method}}})}}
+}}
+{{#if:{{{Has NM Type|}}}|
+{{!}}-
+{{!}} Type
+{{!}} {{{Has NM Type}}} 
+}}
+{{#if:{{{Has Zeta potential|}}}|
+{{!}}-
+{{!}} Zeta potential
+{{!}} {{{Has Zeta potential}}} {{#if:{{{Has Zeta Error|}}}|± {{{Has Zeta Error}}}}} {{#if:{{{Has Zeta Units|}}}|{{{Has Zeta Units}}}}}
+}}
+{{#if:{{{Has Zeta Min|}}}|
+{{!}}-
+{{!}} Zeta potential
+{{!}} {{{Has Zeta Min}}} - {{{Has Zeta Max}}} {{#if:{{{Has Zeta Units|}}}|{{{Has Zeta Units}}}}}
+}}
+|}
+&lt;br&gt;
+= Measurements =
+{{#ask: [[Category:Measurements]] [[Has Entity::{{PAGENAME}}]]
+| ?Has Dose #
+| ?Has Endpoint
+| ?Has Endpoint Value
+| ?Has Endpoint Error
+| ?Has Endpoint Value Units
+| format=jqplotbar
+| sort=Has Endpoint Value
+| order=ascending
+| height=250
+| width=600
+}}
+{{#if:{{{Has Size|}}} |
+{{#set:
+|Has Size={{{Has Size|}}}
+}}
+| }}
+{{#if:{{{Has Size Min|}}} |
+{{#set:
+|Has Size Min={{{Has Size Min|}}}
+}}
+| }}
+{{#if:{{{Has Size Max|}}} |
+{{#set:
+|Has Size Max={{{Has Size Max|}}}
+}}
+| }}
+{{#if:{{{Has Size Error|}}} |
+{{#set:
+|Has Size Error={{{Has Size Error|}}}
+}}
+| }}
+{{#if:{{{Has Size Units|}}} |
+{{#set:
+|Has Size Units={{{Has Size Units|}}}
+}}
+| }}
+{{#if:{{{Has Size Method|}}} |
+  {{#set: |Has Size Method={{{Has Size Method|}}} }}
+| }}
+{{#if:{{{Has Label|}}} |
+{{#set:
+|Has Label={{{Has Label|}}}
+}}
+| }}
+{{#if:{{{Has Identifier|}}} |
+{{#set:
+|Has Identifier={{{Has Identifier|}}}
+}}
+| }}
+{{#if:{{{Has Chemical Composition|}}} |
+{{#set:
+|Has Chemical Composition={{{Has Chemical Composition|}}}
+}}
+| }}
+{{#if:{{{Has Chemical Coating|}}} |
+{{#set:
+|Has Chemical Coating={{{Has Chemical Coating|}}}
+}}
+| }}
+{{#if:{{{Has NM Type|}}} |
+{{#set:
+|Has NM Type={{{Has NM Type|}}}
+}}
+[[Category:{{{Has NM Type|}}}s]]
+| }}
+{{#if:{{{Has Zeta potential|}}} |
+{{#set:
+|Has Zeta potential={{{Has Zeta potential|}}}
+}}
+| }}
+{{#if:{{{Has Zeta Min|}}} |
+{{#set:
+|Has Zeta Min={{{Has Zeta Min|}}}
+}}
+| }}
+{{#if:{{{Has Zeta Max|}}} |
+{{#set:
+|Has Zeta Max={{{Has Zeta Max|}}}
+}}
+| }}
+{{#if:{{{Has Zeta Units|}}} |
+{{#set:
+|Has Zeta Units={{{Has Zeta Units|}}}
+}}
+| }}
+{{#if:{{{Has Zeta Error|}}} |
+{{#set:
+|Has Zeta Error={{{Has Zeta Error|}}}
+}}
+| }}
+[[Category:NanoMaterials]]__NOEDITSECTION____NOTOC__
+[[Category:Materials]]__NOEDITSECTION____NOTOC__
+[[Category:Chemical_Entities]]__NOEDITSECTION____NOTOC__
+&lt;/includeonly&gt;</text>
+    </revision>
   </page>
   <page>
     <title>TestNM</title>
@@ -5196,6 +5580,54 @@ You can browse this data via one of the following categories:
         <ip>127.0.0.1</ip>
       </contributor>
       <text xml:space="preserve">A list of nanomaterials:
+
+{{#ask: [[Category:NanoMaterials]]
+ | ? Has Identifier #
+ | ? Has Label #
+ | ? Has Size #
+ | ? Has Size Min #
+ | ? Has Size Max #
+ | ? Has NM Type #
+ | ? Has Zeta potential #
+ | ? Has Chemical Composition #
+ | ? Has Chemical Coating #
+ |sort = Has Identifier
+ |order= descending
+ |offset=0
+ |limit=250
+}}</text>
+    </revision>
+    <revision>
+      <id>1609</id>
+      <timestamp>2012-06-16T07:54:08Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">Nanomaterials are [[Category:Materials]] between 1-100 nm.
+
+{{#ask: [[Category:NanoMaterials]]
+ | ? Has Identifier #
+ | ? Has Label #
+ | ? Has Size #
+ | ? Has Size Min #
+ | ? Has Size Max #
+ | ? Has NM Type #
+ | ? Has Zeta potential #
+ | ? Has Chemical Composition #
+ | ? Has Chemical Coating #
+ |sort = Has Identifier
+ |order= descending
+ |offset=0
+ |limit=250
+}}</text>
+    </revision>
+    <revision>
+      <id>1610</id>
+      <timestamp>2012-06-16T07:54:34Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">Nanomaterials are [[:Category:Materials]] with a particle size between 1-100 nm.
 
 {{#ask: [[Category:NanoMaterials]]
  | ? Has Identifier #
@@ -12298,6 +12730,232 @@ Template that causes pages to show up as [[:Category:Papers|Papers]].
 [[Category:Papers]]__NOEDITSECTION____NOTOC__
 &lt;/includeonly&gt;</text>
     </revision>
+    <revision>
+      <id>1682</id>
+      <timestamp>2012-09-16T07:14:50Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">&lt;noinclude&gt;
+Template that causes pages to show up as [[:Category:Papers|Papers]].
+&lt;pre&gt;
+{{Paper
+|Has Year=
+|Has DOI=
+|Substances extracted=
+|Relationships extracted=
+|Read=
+|Summary=
+}}
+&lt;/pre&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: right; table-layout:fixed; word-wrap: break-word;&quot;
+! colspan=2 style=&quot;text-align: center; font-size: 125%&quot; | {{{Name|{{PAGENAME}} }}}
+|-
+{{#if:{{{Has Year|}}}|
+{{!}}-
+{{!}} Year
+{{!}} {{{Has Year}}} 
+}}
+{{#if:{{{Has DOI|}}}|
+{{!}}-
+{{!}} DOI
+{{!}} {{{Has DOI}}} 
+}}
+{{#if:{{{Substances extracted|}}}|
+{{!}}-
+{{!}} Substances
+{{!}} {{{Substances extracted}}} 
+}}
+{{#if:{{{Relationships extracted|}}}|
+{{!}}-
+{{!}} Relationships
+{{!}} {{{Relationships extracted}}} 
+}}
+{{#if:{{{Read|}}}|
+{{!}}-
+{{!}} Read
+{{!}} {{{Read}}} 
+}}
+|}
+{{#if:{{{Summary|}}}|
+{{{Summary}}} 
+}}
+== Materials ==
+{{#ask: [[Category:Material]] [[Has Source::{{PAGENAME}}]]
+| ? Has Label
+| ? Has Chemical Composition
+| ? Has Chemical Coating
+}}
+
+== Relationships ==
+{{#ask: [[Category:Relationships]] [[Has Source::{{PAGENAME}}]]
+| ? Has Descriptor
+| ? Has Relation
+| ? Has End point
+| ? Has Source
+}}
+{{#ask: [[Category:Relationships]] [[From Study.Has Source::{{PAGENAME}}]]
+| ? Has Descriptor
+| ? Has Relation
+| ? Has End point
+| ? From Study
+}}
+
+== Studies ==
+{{#ask: [[Category:Studies]] [[Has Source::{{PAGENAME}}]]
+| ? Has Study Type
+| ? Has Object Count
+| ? Has R2
+| ? Has Q2
+| ? Has RMSEP
+| ? Has EA
+}}
+
+{{#if:{{{Has DOI|}}} |
+{{#set:
+|Has DOI={{{Has DOI|}}}
+}}
+{{#set:
+|Equivalent URI=http://dx.doi.org/{{{Has DOI|}}}
+}}
+| }}
+{{#if:{{{Has Year|}}} |
+{{#set:
+|Has Year={{{Has Year|}}}
+}}
+| }}
+{{#if:{{{Substances extracted|}}} |
+{{#set:
+|Substances extracted={{{Substances extracted|}}}
+}}
+| }}
+{{#if:{{{Relationships extracted|}}} |
+{{#set:
+|Relationships extracted={{{Relationships extracted|}}}
+}}
+| }}
+{{#if:{{{Read|}}} or {{{Relationships extracted|}}} or {{{Substances extracted|}}} |
+|
+[[Category:PapersToRead]]
+}}
+[[Category:Papers]]__NOEDITSECTION____NOTOC__
+&lt;/includeonly&gt;</text>
+    </revision>
+    <revision>
+      <id>1686</id>
+      <timestamp>2012-09-16T07:16:59Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">&lt;noinclude&gt;
+Template that causes pages to show up as [[:Category:Papers|Papers]].
+&lt;pre&gt;
+{{Paper
+|Has Year=
+|Has DOI=
+|Substances extracted=
+|Relationships extracted=
+|Read=
+|Summary=
+}}
+&lt;/pre&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: right; table-layout:fixed; word-wrap: break-word;&quot;
+! colspan=2 style=&quot;text-align: center; font-size: 125%&quot; | {{{Name|{{PAGENAME}} }}}
+|-
+{{#if:{{{Has Year|}}}|
+{{!}}-
+{{!}} Year
+{{!}} {{{Has Year}}} 
+}}
+{{#if:{{{Has DOI|}}}|
+{{!}}-
+{{!}} DOI
+{{!}} {{{Has DOI}}} 
+}}
+{{#if:{{{Substances extracted|}}}|
+{{!}}-
+{{!}} Substances
+{{!}} {{{Substances extracted}}} 
+}}
+{{#if:{{{Relationships extracted|}}}|
+{{!}}-
+{{!}} Relationships
+{{!}} {{{Relationships extracted}}} 
+}}
+{{#if:{{{Read|}}}|
+{{!}}-
+{{!}} Read
+{{!}} {{{Read}}} 
+}}
+|}
+{{#if:{{{Summary|}}}|
+{{{Summary}}} 
+}}
+== Materials ==
+{{#ask: [[Category:Materials]] [[Has Source::{{PAGENAME}}]]
+| ? Has Label
+| ? Has Chemical Composition
+| ? Has Chemical Coating
+}}
+
+== Relationships ==
+{{#ask: [[Category:Relationships]] [[Has Source::{{PAGENAME}}]]
+| ? Has Descriptor
+| ? Has Relation
+| ? Has End point
+| ? Has Source
+}}
+{{#ask: [[Category:Relationships]] [[From Study.Has Source::{{PAGENAME}}]]
+| ? Has Descriptor
+| ? Has Relation
+| ? Has End point
+| ? From Study
+}}
+
+== Studies ==
+{{#ask: [[Category:Studies]] [[Has Source::{{PAGENAME}}]]
+| ? Has Study Type
+| ? Has Object Count
+| ? Has R2
+| ? Has Q2
+| ? Has RMSEP
+| ? Has EA
+}}
+
+{{#if:{{{Has DOI|}}} |
+{{#set:
+|Has DOI={{{Has DOI|}}}
+}}
+{{#set:
+|Equivalent URI=http://dx.doi.org/{{{Has DOI|}}}
+}}
+| }}
+{{#if:{{{Has Year|}}} |
+{{#set:
+|Has Year={{{Has Year|}}}
+}}
+| }}
+{{#if:{{{Substances extracted|}}} |
+{{#set:
+|Substances extracted={{{Substances extracted|}}}
+}}
+| }}
+{{#if:{{{Relationships extracted|}}} |
+{{#set:
+|Relationships extracted={{{Relationships extracted|}}}
+}}
+| }}
+{{#if:{{{Read|}}} or {{{Relationships extracted|}}} or {{{Substances extracted|}}} |
+|
+[[Category:PapersToRead]]
+}}
+[[Category:Papers]]__NOEDITSECTION____NOTOC__
+&lt;/includeonly&gt;</text>
+    </revision>
   </page>
   <page>
     <title>Puzyn2011</title>
@@ -12538,6 +13196,23 @@ Template that causes pages to show up as [[:Category:Papers|Papers]].
 | ? Substances extracted
 | ? Relationships extracted
 | sort=Has Year
+}}</text>
+    </revision>
+    <revision>
+      <id>1608</id>
+      <timestamp>2012-06-16T07:51:05Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">Journal papers described in this database.
+
+{{#ask: [[Category:Papers]]
+| ? Has Year
+| ? Has DOI
+| ? Substances extracted
+| ? Relationships extracted
+| sort=Has Year
+| order=descending
 }}</text>
     </revision>
   </page>
@@ -18808,6 +19483,21 @@ The CHEMINF field does the same but then for the CHEMINF ontology.
       <comment>Created page with &quot;Descriptors for various chemical entities.&quot;</comment>
       <text xml:space="preserve">Descriptors for various chemical entities.</text>
     </revision>
+    <revision>
+      <id>1594</id>
+      <timestamp>2012-06-11T14:18:49Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">Descriptors for various chemical entities.
+
+{{#ask: [[Category:Relationships]]
+| ? Has Descriptor
+| ? Has Relation
+| ? Has End point
+| sort=Has Descriptor, Has End point
+}}</text>
+    </revision>
   </page>
   <page>
     <title>R1 Relaxivity</title>
@@ -22293,6 +22983,552 @@ How many cells are still viable after a given amount of time.</text>
 [[Category:Measurements]]__NOEDITSECTION____NOTOC__
 &lt;/includeonly&gt;</text>
     </revision>
+    <revision>
+      <id>1598</id>
+      <timestamp>2012-06-15T14:13:26Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">&lt;noinclude&gt;
+&lt;pre&gt;
+{{Measurement
+|Has Entity=
+|Has Dose=
+|Has Dose Units=
+|Has Endpoint=
+|Has Endpoint Error=
+|Has Endpoint Value=
+|Has Endpoint Value Units=
+|Has Study=
+}}
+&lt;/pre&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: right; table-layout:fixed; word-wrap: break-word;&quot;
+! colspan=2 style=&quot;text-align: center;background-color: #ddd;&quot; | Measurement
+|-
+! colspan=2 style=&quot;text-align: center; font-size: 125%&quot; | {{{Name|{{PAGENAME}} }}}
+|-
+{{#if:{{{Has Entity|}}}|
+{{!}}-
+{{!}} Entity
+{{!}} [[{{{Has Entity}}}]]
+}}
+{{#if:{{{Has Study|}}}|
+{{!}}-
+{{!}} Study
+{{!}} [[{{{Has Study}}}]]
+}}
+{{#if:{{{Has Dose|}}}|
+{{!}}-
+{{!}} Dose
+{{!}} {{{Has Dose}}} {{#if:{{{Has Dose Units|}}}|{{{Has Dose Units}}}}}
+}}
+{{#if:{{{Has Endpoint Value|}}}|
+{{!}}-
+{{!}} End point Value
+{{!}} {{{Has Endpoint Value}}} {{#if:{{{Has Endpoint Error|}}}|± {{{Has Endpoint Error}}}}} {{#if:{{{Has Endpoint Value Units|}}}|{{{Has Endpoint Value Units}}}}}
+}}
+{{#if:{{{Has Endpoint|}}}|
+{{!}}-
+{{!}} End point
+{{!}} [[{{{Has Endpoint}}}]]
+}}
+|}
+&lt;br&gt;
+{{#if:{{{Has Study|}}} |
+{{#set:
+|Has Study={{{Has Study|}}}
+}}
+| }}
+{{#if:{{{Has Entity|}}} |
+{{#set:
+|Has Entity={{{Has Entity|}}}
+}}
+| }}
+{{#if:{{{Has Dose|}}} |
+{{#set:
+|Has Dose={{{Has Dose|}}}
+}}
+| }}
+{{#if:{{{Has Dose Units|}}} |
+{{#set:
+|Has Dose Units={{{Has Dose Units|}}}
+}}
+| }}
+{{#if:{{{Has Endpoint|}}} |
+{{#set:
+|Has Endpoint={{{Has Endpoint|}}}
+}}
+| }}
+{{#if:{{{Has Endpoint Value|}}} |
+{{#set:
+|Has Endpoint Value={{{Has Endpoint Value|}}}
+}}
+| }}
+{{#if:{{{Has Endpoint Error|}}} |
+{{#set:
+|Has Endpoint Error={{{Has Endpoint Error|}}}
+}}
+| }}
+{{#if:{{{Has Endpoint Value Units|}}} |
+{{#set:
+|Has Endpoint Value Units={{{Has Endpoint Value Units|}}}
+}}
+| }}
+{{#if:{{{Has Method|}}} |
+{{#set:
+|Has Method={{{Has Method|}}}
+}}
+| }}
+[[Category:Measurements]]__NOEDITSECTION____NOTOC__
+&lt;/includeonly&gt;</text>
+    </revision>
+    <revision>
+      <id>1599</id>
+      <timestamp>2012-06-15T14:13:48Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">&lt;noinclude&gt;
+&lt;pre&gt;
+{{Measurement
+|Has Entity=
+|Has Dose=
+|Has Dose Units=
+|Has Endpoint=
+|Has Endpoint Error=
+|Has Endpoint Value=
+|Has Endpoint Value Units=
+|Has Study=
+|Has Method=
+}}
+&lt;/pre&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: right; table-layout:fixed; word-wrap: break-word;&quot;
+! colspan=2 style=&quot;text-align: center;background-color: #ddd;&quot; | Measurement
+|-
+! colspan=2 style=&quot;text-align: center; font-size: 125%&quot; | {{{Name|{{PAGENAME}} }}}
+|-
+{{#if:{{{Has Entity|}}}|
+{{!}}-
+{{!}} Entity
+{{!}} [[{{{Has Entity}}}]]
+}}
+{{#if:{{{Has Study|}}}|
+{{!}}-
+{{!}} Study
+{{!}} [[{{{Has Study}}}]]
+}}
+{{#if:{{{Has Dose|}}}|
+{{!}}-
+{{!}} Dose
+{{!}} {{{Has Dose}}} {{#if:{{{Has Dose Units|}}}|{{{Has Dose Units}}}}}
+}}
+{{#if:{{{Has Endpoint Value|}}}|
+{{!}}-
+{{!}} End point Value
+{{!}} {{{Has Endpoint Value}}} {{#if:{{{Has Endpoint Error|}}}|± {{{Has Endpoint Error}}}}} {{#if:{{{Has Endpoint Value Units|}}}|{{{Has Endpoint Value Units}}}}}
+}}
+{{#if:{{{Has Endpoint|}}}|
+{{!}}-
+{{!}} End point
+{{!}} [[{{{Has Endpoint}}}]]
+}}
+|}
+&lt;br&gt;
+{{#if:{{{Has Study|}}} |
+{{#set:
+|Has Study={{{Has Study|}}}
+}}
+| }}
+{{#if:{{{Has Entity|}}} |
+{{#set:
+|Has Entity={{{Has Entity|}}}
+}}
+| }}
+{{#if:{{{Has Dose|}}} |
+{{#set:
+|Has Dose={{{Has Dose|}}}
+}}
+| }}
+{{#if:{{{Has Dose Units|}}} |
+{{#set:
+|Has Dose Units={{{Has Dose Units|}}}
+}}
+| }}
+{{#if:{{{Has Endpoint|}}} |
+{{#set:
+|Has Endpoint={{{Has Endpoint|}}}
+}}
+| }}
+{{#if:{{{Has Endpoint Value|}}} |
+{{#set:
+|Has Endpoint Value={{{Has Endpoint Value|}}}
+}}
+| }}
+{{#if:{{{Has Endpoint Error|}}} |
+{{#set:
+|Has Endpoint Error={{{Has Endpoint Error|}}}
+}}
+| }}
+{{#if:{{{Has Endpoint Value Units|}}} |
+{{#set:
+|Has Endpoint Value Units={{{Has Endpoint Value Units|}}}
+}}
+| }}
+{{#if:{{{Has Method|}}} |
+{{#set:
+|Has Method={{{Has Method|}}}
+}}
+| }}
+[[Category:Measurements]]__NOEDITSECTION____NOTOC__
+&lt;/includeonly&gt;</text>
+    </revision>
+    <revision>
+      <id>1651</id>
+      <timestamp>2012-09-10T20:35:58Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">&lt;noinclude&gt;
+&lt;pre&gt;
+{{Measurement
+|Has Entity=
+|For Measurement=
+|Has Dose=
+|Has Dose Units=
+|Has Endpoint=
+|Has Endpoint Error=
+|Has Endpoint Value=
+|Has Endpoint Value Units=
+|Has Study=
+|Has Method=
+}}
+&lt;/pre&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: right; table-layout:fixed; word-wrap: break-word;&quot;
+! colspan=2 style=&quot;text-align: center;background-color: #ddd;&quot; | Measurement
+|-
+! colspan=2 style=&quot;text-align: center; font-size: 125%&quot; | {{{Name|{{PAGENAME}} }}}
+|-
+{{#if:{{{Has Entity|}}}|
+{{!}}-
+{{!}} Entity
+{{!}} [[{{{Has Entity}}}]]
+}}
+{{#if:{{{For Measurement|}}}|
+{{!}}-
+{{!}} For Measurement
+{{!}} [[{{{For Measurement}}}]]
+}}
+{{#if:{{{Has Study|}}}|
+{{!}}-
+{{!}} Study
+{{!}} [[{{{Has Study}}}]]
+}}
+{{#if:{{{Has Dose|}}}|
+{{!}}-
+{{!}} Dose
+{{!}} {{{Has Dose}}} {{#if:{{{Has Dose Units|}}}|{{{Has Dose Units}}}}}
+}}
+{{#if:{{{Has Endpoint Value|}}}|
+{{!}}-
+{{!}} End point Value
+{{!}} {{{Has Endpoint Value}}} {{#if:{{{Has Endpoint Error|}}}|± {{{Has Endpoint Error}}}}} {{#if:{{{Has Endpoint Value Units|}}}|{{{Has Endpoint Value Units}}}}}
+}}
+{{#if:{{{Has Endpoint|}}}|
+{{!}}-
+{{!}} End point
+{{!}} [[{{{Has Endpoint}}}]]
+}}
+|}
+&lt;br&gt;
+{{#if:{{{Has Study|}}} |
+{{#set:
+|Has Study={{{Has Study|}}}
+}}
+| }}
+{{#if:{{{Has Entity|}}} |
+{{#set:
+|Has Entity={{{Has Entity|}}}
+}}
+| }}
+{{#if:{{{Has Dose|}}} |
+{{#set:
+|Has Dose={{{Has Dose|}}}
+}}
+| }}
+{{#if:{{{Has Dose Units|}}} |
+{{#set:
+|Has Dose Units={{{Has Dose Units|}}}
+}}
+| }}
+{{#if:{{{Has Endpoint|}}} |
+{{#set:
+|Has Endpoint={{{Has Endpoint|}}}
+}}
+| }}
+{{#if:{{{Has Endpoint Value|}}} |
+{{#set:
+|Has Endpoint Value={{{Has Endpoint Value|}}}
+}}
+| }}
+{{#if:{{{Has Endpoint Error|}}} |
+{{#set:
+|Has Endpoint Error={{{Has Endpoint Error|}}}
+}}
+| }}
+{{#if:{{{Has Endpoint Value Units|}}} |
+{{#set:
+|Has Endpoint Value Units={{{Has Endpoint Value Units|}}}
+}}
+| }}
+{{#if:{{{Has Method|}}} |
+{{#set:
+|Has Method={{{Has Method|}}}
+}}
+| }}
+[[Category:Measurements]]__NOEDITSECTION____NOTOC__
+&lt;/includeonly&gt;</text>
+    </revision>
+    <revision>
+      <id>1652</id>
+      <timestamp>2012-09-10T20:37:21Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">&lt;noinclude&gt;
+&lt;pre&gt;
+{{Measurement
+|Has Entity=
+|For Measurement=
+|Has Dose=
+|Has Dose Units=
+|Has Endpoint=
+|Has Endpoint Error=
+|Has Endpoint Value=
+|Has Endpoint Value Units=
+|Has Study=
+|Has Method=
+}}
+&lt;/pre&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: right; table-layout:fixed; word-wrap: break-word;&quot;
+! colspan=2 style=&quot;text-align: center;background-color: #ddd;&quot; | Measurement
+|-
+! colspan=2 style=&quot;text-align: center; font-size: 125%&quot; | {{{Name|{{PAGENAME}} }}}
+|-
+{{#if:{{{Has Entity|}}}|
+{{!}}-
+{{!}} Entity
+{{!}} [[{{{Has Entity}}}]]
+}}
+{{#if:{{{For Measurement|}}}|
+{{!}}-
+{{!}} For Measurement
+{{!}} [[{{{For Measurement}}}]]
+}}
+{{#if:{{{Has Study|}}}|
+{{!}}-
+{{!}} Study
+{{!}} [[{{{Has Study}}}]]
+}}
+{{#if:{{{Has Dose|}}}|
+{{!}}-
+{{!}} Dose
+{{!}} {{{Has Dose}}} {{#if:{{{Has Dose Units|}}}|{{{Has Dose Units}}}}}
+}}
+{{#if:{{{Has Endpoint Value|}}}|
+{{!}}-
+{{!}} End point Value
+{{!}} {{{Has Endpoint Value}}} {{#if:{{{Has Endpoint Error|}}}|± {{{Has Endpoint Error}}}}} {{#if:{{{Has Endpoint Value Units|}}}|{{{Has Endpoint Value Units}}}}}
+}}
+{{#if:{{{Has Endpoint|}}}|
+{{!}}-
+{{!}} End point
+{{!}} [[{{{Has Endpoint}}}]]
+}}
+|}
+&lt;br&gt;
+{{#if:{{{Has Study|}}} |
+{{#set:
+|Has Study={{{Has Study|}}}
+}}
+| }}
+{{#if:{{{Has Entity|}}} |
+{{#set:
+|Has Entity={{{Has Entity|}}}
+}}
+| }}
+{{#if:{{{For Measurement|}}} |
+{{#set:
+|For Measurement={{{For Measurement|}}}
+}}
+| }}
+{{#if:{{{Has Dose|}}} |
+{{#set:
+|Has Dose={{{Has Dose|}}}
+}}
+| }}
+{{#if:{{{Has Dose Units|}}} |
+{{#set:
+|Has Dose Units={{{Has Dose Units|}}}
+}}
+| }}
+{{#if:{{{Has Endpoint|}}} |
+{{#set:
+|Has Endpoint={{{Has Endpoint|}}}
+}}
+| }}
+{{#if:{{{Has Endpoint Value|}}} |
+{{#set:
+|Has Endpoint Value={{{Has Endpoint Value|}}}
+}}
+| }}
+{{#if:{{{Has Endpoint Error|}}} |
+{{#set:
+|Has Endpoint Error={{{Has Endpoint Error|}}}
+}}
+| }}
+{{#if:{{{Has Endpoint Value Units|}}} |
+{{#set:
+|Has Endpoint Value Units={{{Has Endpoint Value Units|}}}
+}}
+| }}
+{{#if:{{{Has Method|}}} |
+{{#set:
+|Has Method={{{Has Method|}}}
+}}
+| }}
+[[Category:Measurements]]__NOEDITSECTION____NOTOC__
+&lt;/includeonly&gt;</text>
+    </revision>
+    <revision>
+      <id>1655</id>
+      <timestamp>2012-09-10T20:40:34Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">&lt;noinclude&gt;
+&lt;pre&gt;
+{{Measurement
+|Has Entity=
+|For Measurement=
+|Has Dose=
+|Has Dose Units=
+|Has Endpoint=
+|Has Endpoint Error=
+|Has Endpoint Value=
+|Has Endpoint Value Units=
+|Has Study=
+|Has Method=
+}}
+&lt;/pre&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: right; table-layout:fixed; word-wrap: break-word;&quot;
+! colspan=2 style=&quot;text-align: center;background-color: #ddd;&quot; | Measurement
+|-
+! colspan=2 style=&quot;text-align: center; font-size: 125%&quot; | {{{Name|{{PAGENAME}} }}}
+|-
+{{#if:{{{Has Entity|}}}|
+{{!}}-
+{{!}} Entity
+{{!}} [[{{{Has Entity}}}]]
+}}
+{{#if:{{{For Measurement|}}}|
+{{!}}-
+{{!}} For Measurement
+{{!}} [[{{{For Measurement}}}]]
+}}
+{{#if:{{{Has Study|}}}|
+{{!}}-
+{{!}} Study
+{{!}} [[{{{Has Study}}}]]
+}}
+{{#if:{{{Has Dose|}}}|
+{{!}}-
+{{!}} Dose
+{{!}} {{{Has Dose}}} {{#if:{{{Has Dose Units|}}}|{{{Has Dose Units}}}}}
+}}
+{{#if:{{{Has Endpoint Value|}}}|
+{{!}}-
+{{!}} End point Value
+{{!}} {{{Has Endpoint Value}}} {{#if:{{{Has Endpoint Error|}}}|± {{{Has Endpoint Error}}}}} {{#if:{{{Has Endpoint Value Units|}}}|{{{Has Endpoint Value Units}}}}}
+}}
+{{#if:{{{Has Endpoint|}}}|
+{{!}}-
+{{!}} End point
+{{!}} [[{{{Has Endpoint}}}]]
+}}
+|}
+&lt;br&gt;
+= Conditions =
+{{#ask: [[Category:Measurements]] [[For Measurement::{{PAGENAME}}]]
+| ?Has Endpoint
+| ?Has Endpoint Value
+| ?Has Endpoint Error
+| ?Has Endpoint Value Units
+| sort=Has Endpoint Value
+| order=ascending
+| height=250
+| width=600
+}}
+{{#if:{{{Has Study|}}} |
+{{#set:
+|Has Study={{{Has Study|}}}
+}}
+| }}
+{{#if:{{{Has Entity|}}} |
+{{#set:
+|Has Entity={{{Has Entity|}}}
+}}
+| }}
+{{#if:{{{For Measurement|}}} |
+{{#set:
+|For Measurement={{{For Measurement|}}}
+}}
+| }}
+{{#if:{{{Has Dose|}}} |
+{{#set:
+|Has Dose={{{Has Dose|}}}
+}}
+| }}
+{{#if:{{{Has Dose Units|}}} |
+{{#set:
+|Has Dose Units={{{Has Dose Units|}}}
+}}
+| }}
+{{#if:{{{Has Endpoint|}}} |
+{{#set:
+|Has Endpoint={{{Has Endpoint|}}}
+}}
+| }}
+{{#if:{{{Has Endpoint Value|}}} |
+{{#set:
+|Has Endpoint Value={{{Has Endpoint Value|}}}
+}}
+| }}
+{{#if:{{{Has Endpoint Error|}}} |
+{{#set:
+|Has Endpoint Error={{{Has Endpoint Error|}}}
+}}
+| }}
+{{#if:{{{Has Endpoint Value Units|}}} |
+{{#set:
+|Has Endpoint Value Units={{{Has Endpoint Value Units|}}}
+}}
+| }}
+{{#if:{{{Has Method|}}} |
+{{#set:
+|Has Method={{{Has Method|}}}
+}}
+| }}
+[[Category:Measurements]]__NOEDITSECTION____NOTOC__
+&lt;/includeonly&gt;</text>
+    </revision>
   </page>
   <page>
     <title>Cytotox2011Pyzun01 M1</title>
@@ -24638,6 +25874,30 @@ Coated gold particles.
       <text xml:space="preserve">* navigation
 ** mainpage|mainpage-description
 ** :Category:NanoMaterials|NanoMaterials
+** :Category:Studies|Studies
+** :Category:Papers|Papers
+** :Category:Descriptors|Descriptors
+** :Category:Endpoints|End points
+** :Category:Cell lines|Cell lines
+** :Category:Relationships|Relationships
+** recentchanges-url|recentchanges
+** randompage-url|randompage
+** helppage|help
+** Special:SPARQLEndpoint|SPARQL
+* SEARCH
+* TOOLBOX
+* LANGUAGES</text>
+    </revision>
+    <revision>
+      <id>1631</id>
+      <timestamp>2012-09-10T20:06:53Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <text xml:space="preserve">* navigation
+** mainpage|mainpage-description
+** :Category:Materials|Materials
 ** :Category:Studies|Studies
 ** :Category:Papers|Papers
 ** :Category:Descriptors|Descriptors
@@ -36172,6 +37432,561 @@ This paper is purely theoretical and does not have experimental data; therefore,
 [[Category:Chemical_Entities]]__NOEDITSECTION____NOTOC__
 &lt;/includeonly&gt;</text>
     </revision>
+    <revision>
+      <id>1612</id>
+      <timestamp>2012-06-16T08:05:24Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">&lt;noinclude&gt;
+&lt;pre&gt;
+{{Material
+|Has Identifier=
+|Has Label=
+|Has Chemical Composition=
+|Has Chemical Coating=
+|Image=
+|Has NM Type=
+|Has Size=
+|Has Size Min=
+|Has Size Max=
+|Has Size Error=
+|Has Size Units=
+|Has Size Method=
+|Has Zeta potential=
+|Has Zeta Units=
+|Has Zeta Error=
+|Has IEP=
+}}
+&lt;/pre&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: right; table-layout:fixed; word-wrap: break-word;&quot;
+! colspan=2 style=&quot;text-align: center;background-color: #ddd;&quot; | Material
+|-
+! colspan=2 style=&quot;text-align: center; font-size: 125%&quot; | {{{Name|{{PAGENAME}}}}}
+{{#if:{{{Image|}}}|
+{{!}}-
+{{!}} Image
+{{!}} {{{Image}}}
+}}
+|-
+{{#if:{{{Has Label|}}}|
+{{!}}-
+{{!}} Label
+{{!}} {{{Has Label}}} 
+}}
+|-
+{{#if:{{{Has Identifier|}}}|
+{{!}}-
+{{!}} Identifier
+{{!}} {{{Has Identifier}}} 
+}}
+|-
+{{#if:{{{Has Chemical Composition|}}}|
+{{!}}-
+{{!}} Chemical Composition
+{{!}} {{{Has Chemical Composition}}} 
+}}
+|-
+{{#if:{{{Has Chemical Coating|}}}|
+{{!}}-
+{{!}} Chemical Coating
+{{!}} {{{Has Chemical Coating}}} 
+}}
+|-
+! colspan=2 style=&quot;text-align: center;background-color: #ddd;&quot; | Properties
+|-
+{{#if:{{{Has Size|}}}|
+{{!}}-
+{{!}} Size
+{{!}} {{{Has Size}}} {{#if:{{{Has Size Error|}}}|± {{{Has Size Error}}}}} {{#if:{{{Has Size Units|}}}|{{{Has Size Units}}}}} {{#if:{{{Has Size Method|}}}| ({{{Has Size Method}}})}}
+}}
+{{#if:{{{Has Size Min|}}}|
+{{!}}-
+{{!}} Size
+{{!}} {{{Has Size Min}}} - {{{Has Size Max}}} {{#if:{{{Has Size Units|}}}|{{{Has Size Units}}}}} {{#if:{{{Has Size Method|}}}| ({{{Has Size Method}}})}}
+}}
+{{#if:{{{Has NM Type|}}}|
+{{!}}-
+{{!}} Type
+{{!}} {{{Has NM Type}}} 
+}}
+{{#if:{{{Has Zeta potential|}}}|
+{{!}}-
+{{!}} Zeta potential
+{{!}} {{{Has Zeta potential}}} {{#if:{{{Has Zeta Error|}}}|± {{{Has Zeta Error}}}}} {{#if:{{{Has Zeta Units|}}}|{{{Has Zeta Units}}}}}
+}}
+{{#if:{{{Has IEP|}}}|
+{{!}}-
+{{!}} IEP
+{{!}} {{{Has IEP}}}
+}}
+|}
+&lt;br&gt;
+= Measurements =
+{{#ask: [[Category:Measurements]] [[Has Entity::{{PAGENAME}}]]
+| ?Has Endpoint Value
+| format=jqplotbar
+| sort=Has Endpoint Value
+| order=ascending
+| height=250
+| width=600
+}}
+{{#if:{{{Has Size|}}} |
+{{#set:
+|Has Size={{{Has Size|}}}
+}}
+| }}
+{{#if:{{{Has Size Min|}}} |
+{{#set:
+|Has Size Min={{{Has Size Min|}}}
+}}
+| }}
+{{#if:{{{Has Size Max|}}} |
+{{#set:
+|Has Size Max={{{Has Size Max|}}}
+}}
+| }}
+{{#if:{{{Has Size Error|}}} |
+{{#set:
+|Has Size Error={{{Has Size Error|}}}
+}}
+| }}
+{{#if:{{{Has Size Units|}}} |
+{{#set:
+|Has Size Units={{{Has Size Units|}}}
+}}
+| }}
+{{#if:{{{Has Size Method|}}} |
+  {{#set: |Has Size Method={{{Has Size Method|}}} }}
+| }}
+{{#if:{{{Has Label|}}} |
+{{#set:
+|Has Label={{{Has Label|}}}
+}}
+| }}
+{{#if:{{{Has Identifier|}}} |
+{{#set:
+|Has Identifier={{{Has Identifier|}}}
+}}
+| }}
+{{#if:{{{Has Chemical Composition|}}} |
+{{#set:
+|Has Chemical Composition={{{Has Chemical Composition|}}}
+}}
+| }}
+{{#if:{{{Has Chemical Coating|}}} |
+{{#set:
+|Has Chemical Coating={{{Has Chemical Coating|}}}
+}}
+| }}
+{{#if:{{{Has NM Type|}}} |
+{{#set:
+|Has NM Type={{{Has NM Type|}}}
+}}
+[[Category:{{{Has NM Type|}}}s]]
+| }}
+{{#if:{{{Has Zeta potential|}}} |
+{{#set:
+|Has Zeta potential={{{Has Zeta potential|}}}
+}}
+| }}
+{{#if:{{{Has Zeta Units|}}} |
+{{#set:
+|Has Zeta Units={{{Has Zeta Units|}}}
+}}
+| }}
+{{#if:{{{Has Zeta Error|}}} |
+{{#set:
+|Has Zeta Error={{{Has Zeta Error|}}}
+}}
+| }}
+{{#if:{{{Has IEP|}}} |
+{{#set:
+|Has IEP={{{Has IEP|}}}
+}}
+| }}
+[[Category:Materials]]__NOEDITSECTION____NOTOC__
+[[Category:Chemical_Entities]]__NOEDITSECTION____NOTOC__
+&lt;/includeonly&gt;</text>
+    </revision>
+    <revision>
+      <id>1613</id>
+      <timestamp>2012-06-16T08:07:10Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">&lt;noinclude&gt;
+&lt;pre&gt;
+{{Material
+|Has Identifier=
+|Has Label=
+|Has Chemical Composition=
+|Has Chemical Coating=
+|Image=
+|Has NM Type=
+|Has Size=
+|Has Size Min=
+|Has Size Max=
+|Has Size Error=
+|Has Size Units=
+|Has Size Method=
+|Has Zeta potential=
+|Has Zeta Units=
+|Has Zeta Error=
+|Has IEP=
+}}
+&lt;/pre&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: right; table-layout:fixed; word-wrap: break-word;&quot;
+! colspan=2 style=&quot;text-align: center;background-color: #ddd;&quot; | Material
+|-
+! colspan=2 style=&quot;text-align: center; font-size: 125%&quot; | {{{Name|{{PAGENAME}}}}}
+{{#if:{{{Image|}}}|
+{{!}}-
+{{!}} Image
+{{!}} {{{Image}}}
+}}
+|-
+{{#if:{{{Has Label|}}}|
+{{!}}-
+{{!}} Label
+{{!}} {{{Has Label}}} 
+}}
+|-
+{{#if:{{{Has Identifier|}}}|
+{{!}}-
+{{!}} Identifier
+{{!}} {{{Has Identifier}}} 
+}}
+|-
+{{#if:{{{Has Chemical Composition|}}}|
+{{!}}-
+{{!}} Chemical Composition
+{{!}} {{{Has Chemical Composition}}} 
+}}
+|-
+{{#if:{{{Has Chemical Coating|}}}|
+{{!}}-
+{{!}} Chemical Coating
+{{!}} {{{Has Chemical Coating}}} 
+}}
+|-
+! colspan=2 style=&quot;text-align: center;background-color: #ddd;&quot; | Properties
+|-
+{{#if:{{{Has Size|}}}|
+{{!}}-
+{{!}} Size
+{{!}} {{{Has Size}}} {{#if:{{{Has Size Error|}}}|± {{{Has Size Error}}}}} {{#if:{{{Has Size Units|}}}|{{{Has Size Units}}}}} {{#if:{{{Has Size Method|}}}| ({{{Has Size Method}}})}}
+}}
+{{#if:{{{Has Size Min|}}}|
+{{!}}-
+{{!}} Size
+{{!}} {{{Has Size Min}}} - {{{Has Size Max}}} {{#if:{{{Has Size Units|}}}|{{{Has Size Units}}}}} {{#if:{{{Has Size Method|}}}| ({{{Has Size Method}}})}}
+}}
+{{#if:{{{Has NM Type|}}}|
+{{!}}-
+{{!}} Type
+{{!}} {{{Has NM Type}}} 
+}}
+{{#if:{{{Has Zeta potential|}}}|
+{{!}}-
+{{!}} Zeta potential
+{{!}} {{{Has Zeta potential}}} {{#if:{{{Has Zeta Error|}}}|± {{{Has Zeta Error}}}}} {{#if:{{{Has Zeta Units|}}}|{{{Has Zeta Units}}}}}
+}}
+{{#if:{{{Has IEP|}}}|
+{{!}}-
+{{!}} IEP
+{{!}} {{{Has IEP}}}
+}}
+|}
+&lt;br&gt;
+= Measurements =
+{{#ask: [[Category:Measurements]] [[Has Entity::{{PAGENAME}}]]
+| ?Has Dose #
+| ?Has Endpoint
+| ?Has Endpoint Value
+| ?Has Endpoint Error
+| ?Has Endpoint Value Units
+| format=jqplotbar
+| sort=Has Endpoint Value
+| order=ascending
+| height=250
+| width=600
+}}
+{{#if:{{{Has Size|}}} |
+{{#set:
+|Has Size={{{Has Size|}}}
+}}
+| }}
+{{#if:{{{Has Size Min|}}} |
+{{#set:
+|Has Size Min={{{Has Size Min|}}}
+}}
+| }}
+{{#if:{{{Has Size Max|}}} |
+{{#set:
+|Has Size Max={{{Has Size Max|}}}
+}}
+| }}
+{{#if:{{{Has Size Error|}}} |
+{{#set:
+|Has Size Error={{{Has Size Error|}}}
+}}
+| }}
+{{#if:{{{Has Size Units|}}} |
+{{#set:
+|Has Size Units={{{Has Size Units|}}}
+}}
+| }}
+{{#if:{{{Has Size Method|}}} |
+  {{#set: |Has Size Method={{{Has Size Method|}}} }}
+| }}
+{{#if:{{{Has Label|}}} |
+{{#set:
+|Has Label={{{Has Label|}}}
+}}
+| }}
+{{#if:{{{Has Identifier|}}} |
+{{#set:
+|Has Identifier={{{Has Identifier|}}}
+}}
+| }}
+{{#if:{{{Has Chemical Composition|}}} |
+{{#set:
+|Has Chemical Composition={{{Has Chemical Composition|}}}
+}}
+| }}
+{{#if:{{{Has Chemical Coating|}}} |
+{{#set:
+|Has Chemical Coating={{{Has Chemical Coating|}}}
+}}
+| }}
+{{#if:{{{Has NM Type|}}} |
+{{#set:
+|Has NM Type={{{Has NM Type|}}}
+}}
+[[Category:{{{Has NM Type|}}}s]]
+| }}
+{{#if:{{{Has Zeta potential|}}} |
+{{#set:
+|Has Zeta potential={{{Has Zeta potential|}}}
+}}
+| }}
+{{#if:{{{Has Zeta Units|}}} |
+{{#set:
+|Has Zeta Units={{{Has Zeta Units|}}}
+}}
+| }}
+{{#if:{{{Has Zeta Error|}}} |
+{{#set:
+|Has Zeta Error={{{Has Zeta Error|}}}
+}}
+| }}
+{{#if:{{{Has IEP|}}} |
+{{#set:
+|Has IEP={{{Has IEP|}}}
+}}
+| }}
+[[Category:Materials]]__NOEDITSECTION____NOTOC__
+[[Category:Chemical_Entities]]__NOEDITSECTION____NOTOC__
+&lt;/includeonly&gt;</text>
+    </revision>
+    <revision>
+      <id>1681</id>
+      <timestamp>2012-09-16T07:13:19Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">&lt;noinclude&gt;
+&lt;pre&gt;
+{{Material
+|Has Identifier=
+|Has Label=
+|Has Source=
+|Has Chemical Composition=
+|Has Chemical Coating=
+|Image=
+|Has NM Type=
+|Has Size=
+|Has Size Min=
+|Has Size Max=
+|Has Size Error=
+|Has Size Units=
+|Has Size Method=
+|Has Zeta potential=
+|Has Zeta Units=
+|Has Zeta Error=
+|Has IEP=
+}}
+&lt;/pre&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: right; table-layout:fixed; word-wrap: break-word;&quot;
+! colspan=2 style=&quot;text-align: center;background-color: #ddd;&quot; | Material
+|-
+! colspan=2 style=&quot;text-align: center; font-size: 125%&quot; | {{{Name|{{PAGENAME}}}}}
+{{#if:{{{Image|}}}|
+{{!}}-
+{{!}} Image
+{{!}} {{{Image}}}
+}}
+|-
+{{#if:{{{Has Label|}}}|
+{{!}}-
+{{!}} Label
+{{!}} {{{Has Label}}} 
+}}
+|-
+{{#if:{{{Has Source|}}}|
+{{!}}-
+{{!}} Source
+{{!}} {{{Has Source}}} 
+}}
+|-
+{{#if:{{{Has Identifier|}}}|
+{{!}}-
+{{!}} Identifier
+{{!}} {{{Has Identifier}}} 
+}}
+|-
+{{#if:{{{Has Chemical Composition|}}}|
+{{!}}-
+{{!}} Chemical Composition
+{{!}} {{{Has Chemical Composition}}} 
+}}
+|-
+{{#if:{{{Has Chemical Coating|}}}|
+{{!}}-
+{{!}} Chemical Coating
+{{!}} {{{Has Chemical Coating}}} 
+}}
+|-
+! colspan=2 style=&quot;text-align: center;background-color: #ddd;&quot; | Properties
+|-
+{{#if:{{{Has Size|}}}|
+{{!}}-
+{{!}} Size
+{{!}} {{{Has Size}}} {{#if:{{{Has Size Error|}}}|± {{{Has Size Error}}}}} {{#if:{{{Has Size Units|}}}|{{{Has Size Units}}}}} {{#if:{{{Has Size Method|}}}| ({{{Has Size Method}}})}}
+}}
+{{#if:{{{Has Size Min|}}}|
+{{!}}-
+{{!}} Size
+{{!}} {{{Has Size Min}}} - {{{Has Size Max}}} {{#if:{{{Has Size Units|}}}|{{{Has Size Units}}}}} {{#if:{{{Has Size Method|}}}| ({{{Has Size Method}}})}}
+}}
+{{#if:{{{Has NM Type|}}}|
+{{!}}-
+{{!}} Type
+{{!}} {{{Has NM Type}}} 
+}}
+{{#if:{{{Has Zeta potential|}}}|
+{{!}}-
+{{!}} Zeta potential
+{{!}} {{{Has Zeta potential}}} {{#if:{{{Has Zeta Error|}}}|± {{{Has Zeta Error}}}}} {{#if:{{{Has Zeta Units|}}}|{{{Has Zeta Units}}}}}
+}}
+{{#if:{{{Has IEP|}}}|
+{{!}}-
+{{!}} IEP
+{{!}} {{{Has IEP}}}
+}}
+|}
+&lt;br&gt;
+= Measurements =
+{{#ask: [[Category:Measurements]] [[Has Entity::{{PAGENAME}}]]
+| ?Has Dose #
+| ?Has Endpoint
+| ?Has Endpoint Value
+| ?Has Endpoint Error
+| ?Has Endpoint Value Units
+| format=jqplotbar
+| sort=Has Endpoint Value
+| order=ascending
+| height=250
+| width=600
+}}
+{{#if:{{{Has Size|}}} |
+{{#set:
+|Has Size={{{Has Size|}}}
+}}
+| }}
+{{#if:{{{Has Size Min|}}} |
+{{#set:
+|Has Size Min={{{Has Size Min|}}}
+}}
+| }}
+{{#if:{{{Has Size Max|}}} |
+{{#set:
+|Has Size Max={{{Has Size Max|}}}
+}}
+| }}
+{{#if:{{{Has Size Error|}}} |
+{{#set:
+|Has Size Error={{{Has Size Error|}}}
+}}
+| }}
+{{#if:{{{Has Size Units|}}} |
+{{#set:
+|Has Size Units={{{Has Size Units|}}}
+}}
+| }}
+{{#if:{{{Has Size Method|}}} |
+  {{#set: |Has Size Method={{{Has Size Method|}}} }}
+| }}
+{{#if:{{{Has Label|}}} |
+{{#set:
+|Has Label={{{Has Label|}}}
+}}
+| }}
+{{#if:{{{Has Source|}}} |
+{{#set:
+|Has Source={{{Has Source|}}}
+}}
+| }}
+{{#if:{{{Has Identifier|}}} |
+{{#set:
+|Has Identifier={{{Has Identifier|}}}
+}}
+| }}
+{{#if:{{{Has Chemical Composition|}}} |
+{{#set:
+|Has Chemical Composition={{{Has Chemical Composition|}}}
+}}
+| }}
+{{#if:{{{Has Chemical Coating|}}} |
+{{#set:
+|Has Chemical Coating={{{Has Chemical Coating|}}}
+}}
+| }}
+{{#if:{{{Has NM Type|}}} |
+{{#set:
+|Has NM Type={{{Has NM Type|}}}
+}}
+[[Category:{{{Has NM Type|}}}s]]
+| }}
+{{#if:{{{Has Zeta potential|}}} |
+{{#set:
+|Has Zeta potential={{{Has Zeta potential|}}}
+}}
+| }}
+{{#if:{{{Has Zeta Units|}}} |
+{{#set:
+|Has Zeta Units={{{Has Zeta Units|}}}
+}}
+| }}
+{{#if:{{{Has Zeta Error|}}} |
+{{#set:
+|Has Zeta Error={{{Has Zeta Error|}}}
+}}
+| }}
+{{#if:{{{Has IEP|}}} |
+{{#set:
+|Has IEP={{{Has IEP|}}}
+}}
+| }}
+[[Category:Materials]]__NOEDITSECTION____NOTOC__
+[[Category:Chemical_Entities]]__NOEDITSECTION____NOTOC__
+&lt;/includeonly&gt;</text>
+    </revision>
   </page>
   <page>
     <title>Category:Chemical Entities</title>
@@ -36532,6 +38347,25 @@ This paper is purely theoretical and does not have experimental data; therefore,
       </contributor>
       <text xml:space="preserve">{{Material
 |Has Identifier=124
+|Has Label=CoCr (micro)
+|Has Chemical Composition=CoCr
+|Has NM Type=Alloy
+|Has Size=2900
+|Has Size Error=1100
+|Has Size Units=nm
+}}
+
+{{#set:|Used in Study=Bhabra2009_S1}}</text>
+    </revision>
+    <revision>
+      <id>1680</id>
+      <timestamp>2012-09-11T08:29:57Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=212
 |Has Label=CoCr (micro)
 |Has Chemical Composition=CoCr
 |Has NM Type=Alloy
@@ -37771,6 +39605,111 @@ Check the [http://www.mediawiki.org/wiki/Extension:RDFIO general instructions].
 *** cd /usr/share/mediawiki/maintenance
 *** sudo php runJobs.php</text>
     </revision>
+    <revision>
+      <id>1595</id>
+      <timestamp>2012-06-15T13:08:47Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">* install MediaWiki
+** MediaWiki  	1.15.5-2squeeze4
+** PHP 	5.3.3-7+squeeze7 (apache2handler)
+** MySQL 	5.1.49-3
+** read http://www.mediawiki.org/wiki/Manual:Running_MediaWiki_on_Debian_GNU/Linux
+* install Semantic MediaWiki
+** Version 1.5.6
+** /usr/local/share/mediawiki-extensions
+** add the LocalSettings.php
+    include_once(&quot;/usr/local/share/mediawiki-extensions/SemanticMediaWiki/SemanticMediaWiki.php&quot;);
+    enableSemantics('127.0.0.1');
+    
+    $smwgShowFactbox = SMW_FACTBOX_NONEMPTY;
+
+== Install RDFIO ==
+
+Check the [http://www.mediawiki.org/wiki/Extension:RDFIO general instructions].
+
+* mkdir ~/var/Projects/rdfio
+* cd ~/var/Projects/rdfio
+* checkout the extensions
+** svn checkout http://svn.wikimedia.org/svnroot/mediawiki/trunk/extensions/SMWWriter/
+** svn checkout http://svn.wikimedia.org/svnroot/mediawiki/trunk/extensions/PageObjectModel
+** svn checkout http://svn.wikimedia.org/svnroot/mediawiki/trunk/extensions/RDFIO '''DOES NOT WORK!'''
+** svn checkout http://smwrdfio.googlecode.com/svn/trunk/ RDFIO.google
+* install them into /usr/local
+** cd /usr/local/share/mediawiki-extensions
+** sudo cp -R /home/egonw/var/Projects/rdfio/RDFIO.google RDFIO
+** sudo cp -R /home/egonw/var/Projects/rdfio/PageObjectModel
+** sudo cp -R /home/egonw/var/Projects/rdfio/SMWWriter
+* install ARC2
+** cd /usr/local/share/mediawiki-extensions/SemanticMediaWiki/libs
+** git clone https://github.com/semsol/arc2.git
+* add the RDFIO lines to LocalSettings.php
+* add these lines to some wiki page
+    * [[Special:ARC2Admin|ARC2Admin]]
+    * [[Special:RDFImport|RDFImport]]
+    * [[Special:SPARQLEndpoint|SPARQLEndpoint]]
+* update/install [[Special:ARC2Admin|ARC2Admin]]
+* refresh the triples, on [[Special:SMWAdmin]]
+** optionally boost progress with:
+*** cd /usr/share/mediawiki/maintenance
+*** sudo php runJobs.php</text>
+    </revision>
+    <revision>
+      <id>1596</id>
+      <timestamp>2012-06-15T13:10:10Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">* install Debian 6.0
+* install MediaWiki
+** MediaWiki  	1.15.5-2squeeze4
+** PHP 	5.3.3-7+squeeze7 (apache2handler)
+** MySQL 	5.1.49-3
+** read http://www.mediawiki.org/wiki/Manual:Running_MediaWiki_on_Debian_GNU/Linux
+    # aptitude install mediawiki php5 apache2 mediawiki-extensions libapache2-mod-php5
+    # ln -s /var/lib/mediawiki /var/www
+    # mv /var/www/mediawiki /var/www/wiki
+    $ firefox localhost/wiki
+* install Semantic MediaWiki
+** Version 1.5.6
+** /usr/local/share/mediawiki-extensions
+** add the LocalSettings.php
+    include_once(&quot;/usr/local/share/mediawiki-extensions/SemanticMediaWiki/SemanticMediaWiki.php&quot;);
+    enableSemantics('127.0.0.1');
+    
+    $smwgShowFactbox = SMW_FACTBOX_NONEMPTY;
+
+== Install RDFIO ==
+
+Check the [http://www.mediawiki.org/wiki/Extension:RDFIO general instructions].
+
+* mkdir ~/var/Projects/rdfio
+* cd ~/var/Projects/rdfio
+* checkout the extensions
+** svn checkout http://svn.wikimedia.org/svnroot/mediawiki/trunk/extensions/SMWWriter/
+** svn checkout http://svn.wikimedia.org/svnroot/mediawiki/trunk/extensions/PageObjectModel
+** svn checkout http://svn.wikimedia.org/svnroot/mediawiki/trunk/extensions/RDFIO '''DOES NOT WORK!'''
+** svn checkout http://smwrdfio.googlecode.com/svn/trunk/ RDFIO.google
+* install them into /usr/local
+** cd /usr/local/share/mediawiki-extensions
+** sudo cp -R /home/egonw/var/Projects/rdfio/RDFIO.google RDFIO
+** sudo cp -R /home/egonw/var/Projects/rdfio/PageObjectModel
+** sudo cp -R /home/egonw/var/Projects/rdfio/SMWWriter
+* install ARC2
+** cd /usr/local/share/mediawiki-extensions/SemanticMediaWiki/libs
+** git clone https://github.com/semsol/arc2.git
+* add the RDFIO lines to LocalSettings.php
+* add these lines to some wiki page
+    * [[Special:ARC2Admin|ARC2Admin]]
+    * [[Special:RDFImport|RDFImport]]
+    * [[Special:SPARQLEndpoint|SPARQLEndpoint]]
+* update/install [[Special:ARC2Admin|ARC2Admin]]
+* refresh the triples, on [[Special:SMWAdmin]]
+** optionally boost progress with:
+*** cd /usr/share/mediawiki/maintenance
+*** sudo php runJobs.php</text>
+    </revision>
   </page>
   <page>
     <title>HannaK23</title>
@@ -37813,6 +39752,25 @@ Check the [http://www.mediawiki.org/wiki/Extension:RDFIO general instructions].
       <text xml:space="preserve">{{Material
 |Has Label=Cr2O3
 |Has Identifier=127
+|Has Chemical Composition=Cr2O3
+|Has NM Type=MetalOxide
+|Has Size Min=470
+|Has Size Max=1230
+|Has Size Units=nm
+}}
+
+{{#set:|Used in Study=Karlsson2008CytotoxFollowup}}</text>
+    </revision>
+    <revision>
+      <id>1679</id>
+      <timestamp>2012-09-11T08:29:05Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=Cr2O3
+|Has Identifier=211
 |Has Chemical Composition=Cr2O3
 |Has NM Type=MetalOxide
 |Has Size Min=470
@@ -40464,6 +42422,23 @@ CdSe quantum dots studied for dot size, surface charge, and functionalization.</
 |Has Size Units=nm
 }}</text>
     </revision>
+    <revision>
+      <id>1693</id>
+      <timestamp>2012-09-16T07:18:55Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=178
+|Has Label=ST-01
+|Has Source=Horie2009
+|Has Chemical Composition=TiO2
+|Has NM Type=MetalOxide
+|Has Size=7
+|Has Size Units=nm
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Horie2009 NM2</title>
@@ -40478,6 +42453,23 @@ CdSe quantum dots studied for dot size, surface charge, and functionalization.</
       <text xml:space="preserve">{{Material
 |Has Identifier=179
 |Has Label=ST-21
+|Has Chemical Composition=TiO2
+|Has NM Type=MetalOxide
+|Has Size=20
+|Has Size Units=nm
+}}</text>
+    </revision>
+    <revision>
+      <id>1692</id>
+      <timestamp>2012-09-16T07:18:42Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=179
+|Has Label=ST-21
+|Has Source=Horie2009
 |Has Chemical Composition=TiO2
 |Has NM Type=MetalOxide
 |Has Size=20
@@ -40504,6 +42496,23 @@ CdSe quantum dots studied for dot size, surface charge, and functionalization.</
 |Has Size Units=nm
 }}</text>
     </revision>
+    <revision>
+      <id>1691</id>
+      <timestamp>2012-09-16T07:18:20Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=180
+|Has Label=ST-41
+|Has Source=Horie2009
+|Has Chemical Composition=TiO2
+|Has NM Type=MetalOxide
+|Has Size=200
+|Has Size Units=nm
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Horie2009 NM4</title>
@@ -40524,6 +42533,23 @@ CdSe quantum dots studied for dot size, surface charge, and functionalization.</
 |Has Size Units=nm
 }}</text>
     </revision>
+    <revision>
+      <id>1690</id>
+      <timestamp>2012-09-16T07:18:10Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=181
+|Has Label=PT-401M
+|Has Source=Horie2009
+|Has Chemical Composition=TiO2
+|Has NM Type=MetalOxide
+|Has Size=70
+|Has Size Units=nm
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Horie2009 NM5</title>
@@ -40538,6 +42564,23 @@ CdSe quantum dots studied for dot size, surface charge, and functionalization.</
       <text xml:space="preserve">{{Material
 |Has Identifier=182
 |Has Label=PT-501R
+|Has Chemical Composition=TiO2
+|Has NM Type=MetalOxide
+|Has Size=180
+|Has Size Units=nm
+}}</text>
+    </revision>
+    <revision>
+      <id>1689</id>
+      <timestamp>2012-09-16T07:17:53Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=182
+|Has Label=PT-501R
+|Has Source=Horie2009
 |Has Chemical Composition=TiO2
 |Has NM Type=MetalOxide
 |Has Size=180
@@ -40565,6 +42608,24 @@ CdSe quantum dots studied for dot size, surface charge, and functionalization.</
 |Has Size Units=nm
 }}</text>
     </revision>
+    <revision>
+      <id>1688</id>
+      <timestamp>2012-09-16T07:17:39Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=183
+|Has Label=NiO
+|Has Source=Horie2009
+|Has Chemical Composition=NiO
+|Has NM Type=MetalOxide
+|Has Size Min=10
+|Has Size Max=20
+|Has Size Units=nm
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Horie2009 NM7</title>
@@ -40585,6 +42646,23 @@ CdSe quantum dots studied for dot size, surface charge, and functionalization.</
 |Has Size Units=nm
 }}</text>
     </revision>
+    <revision>
+      <id>1687</id>
+      <timestamp>2012-09-16T07:17:26Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=184
+|Has Label=CeO2
+|Has Source=Horie2009
+|Has Chemical Composition=CeO2
+|Has NM Type=MetalOxide
+|Has Size=14
+|Has Size Units=nm
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Horie2009 NM8</title>
@@ -40599,6 +42677,23 @@ CdSe quantum dots studied for dot size, surface charge, and functionalization.</
       <text xml:space="preserve">{{Material
 |Has Identifier=185
 |Has Label=SiO2
+|Has Chemical Composition=SiO2
+|Has NM Type=MetalOxide
+|Has Size=25
+|Has Size Units=nm
+}}</text>
+    </revision>
+    <revision>
+      <id>1685</id>
+      <timestamp>2012-09-16T07:16:25Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=185
+|Has Label=SiO2
+|Has Source=Horie2009
 |Has Chemical Composition=SiO2
 |Has NM Type=MetalOxide
 |Has Size=25
@@ -40640,6 +42735,23 @@ CdSe quantum dots studied for dot size, surface charge, and functionalization.</
 |Has Size Units=nm
 }}</text>
     </revision>
+    <revision>
+      <id>1684</id>
+      <timestamp>2012-09-16T07:15:56Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=186
+|Has Label=FZO-50
+|Has Source=Horie2009
+|Has Chemical Composition=ZnO
+|Has NM Type=MetalOxide
+|Has Size=21
+|Has Size Units=nm
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Horie2009 NM10</title>
@@ -40670,6 +42782,24 @@ CdSe quantum dots studied for dot size, surface charge, and functionalization.</
       <text xml:space="preserve">{{Material
 |Has Identifier=187
 |Has Label=Fe2O3 44896
+|Has Chemical Composition=Fe2O3
+|Has NM Type=MetalOxide
+|Has Size Min=20
+|Has Size Max=40
+|Has Size Units=nm
+}}</text>
+    </revision>
+    <revision>
+      <id>1683</id>
+      <timestamp>2012-09-16T07:15:43Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=187
+|Has Label=Fe2O3 44896
+|Has Source=Horie2009
 |Has Chemical Composition=Fe2O3
 |Has NM Type=MetalOxide
 |Has Size Min=20
@@ -41072,6 +43202,1289 @@ CdSe quantum dots studied for dot size, surface charge, and functionalization.</
 |Has Size Error=9.2
 |Has Size Units=nm
 }}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Field2011 Batch1 M1</title>
+    <id>635</id>
+    <revision>
+      <id>1597</id>
+      <timestamp>2012-06-15T14:09:36Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Field2011 Batch1 |Has Endpoint Value=286 |Has Endpoint Error=2.2 |Has Endpoint Units=nm |Has Method=DLS |Has Endpoint=Particle Size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Field2011 Batch1
+|Has Endpoint Value=286
+|Has Endpoint Error=2.2
+|Has Endpoint Units=nm
+|Has Method=DLS
+|Has Endpoint=Particle Size
+}}</text>
+    </revision>
+    <revision>
+      <id>1600</id>
+      <timestamp>2012-06-15T14:15:02Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Field2011 Batch1
+|Has Endpoint Value=286
+|Has Endpoint Error=2.2
+|Has Endpoint Value Units=nm
+|Has Method=DLS
+|Has Endpoint=Particle Size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Has Endpoint Error</title>
+    <id>636</id>
+    <revision>
+      <id>1601</id>
+      <timestamp>2012-06-15T14:16:10Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;This is a property of type [[Has type::Number]].&quot;</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Number]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Has Endpoint Value Units</title>
+    <id>637</id>
+    <revision>
+      <id>1602</id>
+      <timestamp>2012-06-15T14:16:25Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;This is a property of type [[Has type::String]].&quot;</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::String]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Has Method</title>
+    <id>638</id>
+    <revision>
+      <id>1603</id>
+      <timestamp>2012-06-15T14:16:32Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;This is a property of type [[Has type::Page]].&quot;</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Page]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Field2011 Batch2 M1</title>
+    <id>639</id>
+    <revision>
+      <id>1606</id>
+      <timestamp>2012-06-15T14:27:00Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Field2011 Batch2 |Has Endpoint Value=283 |Has Endpoint Error=7.1 |Has Endpoint Value Units=nm |Has Method=DLS |Has Endpoint=Particle Size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Field2011 Batch2
+|Has Endpoint Value=283
+|Has Endpoint Error=7.1
+|Has Endpoint Value Units=nm
+|Has Method=DLS
+|Has Endpoint=Particle Size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Field2011 Batch3 M1</title>
+    <id>640</id>
+    <revision>
+      <id>1607</id>
+      <timestamp>2012-06-15T14:27:40Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Field2011 Batch3 |Has Endpoint Value=150 |Has Endpoint Error=0.6 |Has Endpoint Value Units=nm |Has Method=DLS |Has Endpoint=Particle Size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Field2011 Batch3
+|Has Endpoint Value=150
+|Has Endpoint Error=0.6
+|Has Endpoint Value Units=nm
+|Has Method=DLS
+|Has Endpoint=Particle Size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Cho2012 NM1 M1</title>
+    <id>641</id>
+    <revision>
+      <id>1611</id>
+      <timestamp>2012-06-16T08:04:07Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Cho2012 NM1 |Has Endpoint Value=81 |Has Endpoint Error=12 |Has Endpoint Value Units=nm |Has Method=DLS |Has Endpoint=Hydrodynamic size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Cho2012 NM1
+|Has Endpoint Value=81
+|Has Endpoint Error=12
+|Has Endpoint Value Units=nm
+|Has Method=DLS
+|Has Endpoint=Hydrodynamic size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Cho2012 NM2 M1</title>
+    <id>642</id>
+    <revision>
+      <id>1614</id>
+      <timestamp>2012-06-16T08:09:25Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Cho2012 NM2 |Has Endpoint Value=65 |Has Endpoint Error=18 |Has Endpoint Value Units=nm |Has Method=DLS |Has Endpoint=Hydrodynamic size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Cho2012 NM2
+|Has Endpoint Value=65
+|Has Endpoint Error=18
+|Has Endpoint Value Units=nm
+|Has Method=DLS
+|Has Endpoint=Hydrodynamic size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Cho2012 NM3 M1</title>
+    <id>643</id>
+    <revision>
+      <id>1615</id>
+      <timestamp>2012-06-16T08:10:36Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Cho2012 NM3 |Has Endpoint Value=88 |Has Endpoint Error=12 |Has Endpoint Value Units=nm |Has Method=DLS |Has Endpoint=Hydrodynamic size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Cho2012 NM3
+|Has Endpoint Value=88
+|Has Endpoint Error=12
+|Has Endpoint Value Units=nm
+|Has Method=DLS
+|Has Endpoint=Hydrodynamic size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Cho2012 NM4 M1</title>
+    <id>644</id>
+    <revision>
+      <id>1616</id>
+      <timestamp>2012-06-16T08:11:58Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Cho2012 NM4 |Has Endpoint Value=132 |Has Endpoint Error=11 |Has Endpoint Value Units=nm |Has Method=DLS |Has Endpoint=Hydrodynamic size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Cho2012 NM4
+|Has Endpoint Value=132
+|Has Endpoint Error=11
+|Has Endpoint Value Units=nm
+|Has Method=DLS
+|Has Endpoint=Hydrodynamic size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Cho2012 NM5 M1</title>
+    <id>645</id>
+    <revision>
+      <id>1617</id>
+      <timestamp>2012-06-16T08:13:52Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Cho2012 NM5 |Has Endpoint Value=185 |Has Endpoint Error=12 |Has Endpoint Value Units=nm |Has Method=DLS |Has Endpoint=Hydrodynamic size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Cho2012 NM5
+|Has Endpoint Value=185
+|Has Endpoint Error=12
+|Has Endpoint Value Units=nm
+|Has Method=DLS
+|Has Endpoint=Hydrodynamic size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Cho2012 NM6 M1</title>
+    <id>646</id>
+    <revision>
+      <id>1618</id>
+      <timestamp>2012-06-16T08:15:35Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Cho2012 NM6 |Has Endpoint Value=173 |Has Endpoint Error=17 |Has Endpoint Value Units=nm |Has Method=DLS |Has Endpoint=Hydrodynamic size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Cho2012 NM6
+|Has Endpoint Value=173
+|Has Endpoint Error=17
+|Has Endpoint Value Units=nm
+|Has Method=DLS
+|Has Endpoint=Hydrodynamic size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Cho2012 NM7 M1</title>
+    <id>647</id>
+    <revision>
+      <id>1619</id>
+      <timestamp>2012-06-16T08:16:43Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Cho2012 NM7 |Has Endpoint Value=112 |Has Endpoint Error=10 |Has Endpoint Value Units=nm |Has Method=DLS |Has Endpoint=Hydrodynamic size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Cho2012 NM7
+|Has Endpoint Value=112
+|Has Endpoint Error=10
+|Has Endpoint Value Units=nm
+|Has Method=DLS
+|Has Endpoint=Hydrodynamic size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Cho2012 NM8 M1</title>
+    <id>648</id>
+    <revision>
+      <id>1620</id>
+      <timestamp>2012-06-16T08:18:51Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Cho2012 NM8 |Has Endpoint Value=99 |Has Endpoint Error=9 |Has Endpoint Value Units=nm |Has Method=DLS |Has Endpoint=Hydrodynamic size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Cho2012 NM8
+|Has Endpoint Value=99
+|Has Endpoint Error=9
+|Has Endpoint Value Units=nm
+|Has Method=DLS
+|Has Endpoint=Hydrodynamic size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Cho2012 NM9 M1</title>
+    <id>649</id>
+    <revision>
+      <id>1621</id>
+      <timestamp>2012-06-16T08:19:26Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Cho2012 NM9 |Has Endpoint Value=116 |Has Endpoint Error=26 |Has Endpoint Value Units=nm |Has Method=DLS |Has Endpoint=Hydrodynamic size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Cho2012 NM9
+|Has Endpoint Value=116
+|Has Endpoint Error=26
+|Has Endpoint Value Units=nm
+|Has Method=DLS
+|Has Endpoint=Hydrodynamic size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Cho2012 NM10 M1</title>
+    <id>650</id>
+    <revision>
+      <id>1622</id>
+      <timestamp>2012-06-16T08:35:41Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Cho2012 NM10 |Has Endpoint Value=92 |Has Endpoint Error=2 |Has Endpoint Value Units=nm |Has Method=DLS |Has Endpoint=Hydrodynamic size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Cho2012 NM10
+|Has Endpoint Value=92
+|Has Endpoint Error=2
+|Has Endpoint Value Units=nm
+|Has Method=DLS
+|Has Endpoint=Hydrodynamic size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Cho2012 NM11 M1</title>
+    <id>651</id>
+    <revision>
+      <id>1623</id>
+      <timestamp>2012-06-16T08:37:00Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Cho2012 NM11 |Has Endpoint Value=378 |Has Endpoint Error=70 |Has Endpoint Value Units=nm |Has Method=DLS |Has Endpoint=Hydrodynamic size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Cho2012 NM11
+|Has Endpoint Value=378
+|Has Endpoint Error=70
+|Has Endpoint Value Units=nm
+|Has Method=DLS
+|Has Endpoint=Hydrodynamic size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Cho2012 NM12 M1</title>
+    <id>652</id>
+    <revision>
+      <id>1624</id>
+      <timestamp>2012-06-16T08:38:46Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Cho2012 NM12 |Has Endpoint Value=105 |Has Endpoint Error=26 |Has Endpoint Value Units=nm |Has Method=DLS |Has Endpoint=Hydrodynamic size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Cho2012 NM12
+|Has Endpoint Value=105
+|Has Endpoint Error=26
+|Has Endpoint Value Units=nm
+|Has Method=DLS
+|Has Endpoint=Hydrodynamic size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Cho2012 NM13 M1</title>
+    <id>653</id>
+    <revision>
+      <id>1625</id>
+      <timestamp>2012-06-16T08:40:29Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Cho2012 NM13 |Has Endpoint Value=119 |Has Endpoint Error=16 |Has Endpoint Value Units=nm |Has Method=DLS |Has Endpoint=Hydrodynamic size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Cho2012 NM13
+|Has Endpoint Value=119
+|Has Endpoint Error=16
+|Has Endpoint Value Units=nm
+|Has Method=DLS
+|Has Endpoint=Hydrodynamic size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Cho2012 NM14 M1</title>
+    <id>654</id>
+    <revision>
+      <id>1626</id>
+      <timestamp>2012-06-16T08:41:08Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Cho2012 NM14 |Has Endpoint Value=306 |Has Endpoint Error=42 |Has Endpoint Value Units=nm |Has Method=DLS |Has Endpoint=Hydrodynamic size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Cho2012 NM14
+|Has Endpoint Value=306
+|Has Endpoint Error=42
+|Has Endpoint Value Units=nm
+|Has Method=DLS
+|Has Endpoint=Hydrodynamic size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Cho2012 NM15 M1</title>
+    <id>655</id>
+    <revision>
+      <id>1627</id>
+      <timestamp>2012-06-16T08:42:28Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Cho2012 NM15 |Has Endpoint Value=282 |Has Endpoint Error=62 |Has Endpoint Value Units=nm |Has Method=DLS |Has Endpoint=Hydrodynamic size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Cho2012 NM15
+|Has Endpoint Value=282
+|Has Endpoint Error=62
+|Has Endpoint Value Units=nm
+|Has Method=DLS
+|Has Endpoint=Hydrodynamic size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Hydrodynamic size</title>
+    <id>656</id>
+    <revision>
+      <id>1628</id>
+      <timestamp>2012-06-25T12:02:56Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;Size measured with DLS.&quot;</comment>
+      <text xml:space="preserve">Size measured with DLS.</text>
+    </revision>
+    <revision>
+      <id>1629</id>
+      <timestamp>2012-07-23T15:49:14Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Descriptor
+}}
+
+Size measured with DLS.
+
+[[Category:Endpoints]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Rancan2012</title>
+    <id>657</id>
+    <revision>
+      <id>1630</id>
+      <timestamp>2012-09-10T20:05:10Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Paper |Has Year=2012 |Has DOI=10.1021/nn301622h |Relationships extracted=No |Substances extracted=No }}&quot;</comment>
+      <text xml:space="preserve">{{Paper
+|Has Year=2012
+|Has DOI=10.1021/nn301622h
+|Relationships extracted=No
+|Substances extracted=No
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Rancan2012 M1</title>
+    <id>658</id>
+    <revision>
+      <id>1632</id>
+      <timestamp>2012-09-10T20:12:55Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=203 |Has Label=SiO2-42 |Has Chemical Composition=SiO2 |Has NM Type=MetalOxide }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=203
+|Has Label=SiO2-42
+|Has Chemical Composition=SiO2
+|Has NM Type=MetalOxide
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Rancan2012 M1 M1</title>
+    <id>659</id>
+    <revision>
+      <id>1633</id>
+      <timestamp>2012-09-10T20:14:20Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Rancan2012 M1 |Has Endpoint Value=42 |Has Endpoint Error=3 |Has Endpoint Value Units=nm |Has Method=TEM }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Rancan2012 M1
+|Has Endpoint Value=42
+|Has Endpoint Error=3
+|Has Endpoint Value Units=nm
+|Has Method=TEM
+}}</text>
+    </revision>
+    <revision>
+      <id>1637</id>
+      <timestamp>2012-09-10T20:19:36Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Rancan2012 M1
+|Has Endpoint Value=42
+|Has Endpoint Error=3
+|Has Endpoint Value Units=nm
+|Has Endpoint=Particle Size
+|Has Method=TEM
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Rancan2012 M1 M2</title>
+    <id>660</id>
+    <revision>
+      <id>1634</id>
+      <timestamp>2012-09-10T20:15:22Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Rancan2012 M1 |Has Endpoint Value=110 |Has Endpoint Error=3 |Has Endpoint Value Units=nm |Has Method=DLS }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Rancan2012 M1
+|Has Endpoint Value=110
+|Has Endpoint Error=3
+|Has Endpoint Value Units=nm
+|Has Method=DLS
+}}</text>
+    </revision>
+    <revision>
+      <id>1638</id>
+      <timestamp>2012-09-10T20:19:46Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Rancan2012 M1
+|Has Endpoint Value=110
+|Has Endpoint Error=3
+|Has Endpoint Value Units=nm
+|Has Endpoint=Particle Size
+|Has Method=DLS
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Rancan2012 M1 M3</title>
+    <id>661</id>
+    <revision>
+      <id>1635</id>
+      <timestamp>2012-09-10T20:16:43Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Rancan2012 M1 |Has Endpoint Value=-22 |Has Endpoint Error=3 |Has Endpoint Value Units=eV |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Rancan2012 M1
+|Has Endpoint Value=-22
+|Has Endpoint Error=3
+|Has Endpoint Value Units=eV
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+    <revision>
+      <id>1656</id>
+      <timestamp>2012-09-10T20:46:02Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Rancan2012 M1
+|Has Endpoint Value=-22
+|Has Endpoint Error=3
+|Has Endpoint Value Units=eV
+|Has Endpoint=Zeta Potential
+}}
+
+
+[[Has Condition::Rancan2012 M1 M3 C1]</text>
+    </revision>
+    <revision>
+      <id>1657</id>
+      <timestamp>2012-09-10T20:46:11Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Rancan2012 M1
+|Has Endpoint Value=-22
+|Has Endpoint Error=3
+|Has Endpoint Value Units=eV
+|Has Endpoint=Zeta Potential
+}}
+
+
+[[Has Condition::Rancan2012 M1 M3 C1]]</text>
+    </revision>
+    <revision>
+      <id>1658</id>
+      <timestamp>2012-09-10T20:46:59Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Rancan2012 M1
+|Has Endpoint Value=-22
+|Has Endpoint Error=3
+|Has Endpoint Value Units=eV
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Diameter</title>
+    <id>662</id>
+    <revision>
+      <id>1636</id>
+      <timestamp>2012-09-10T20:17:45Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>Created page with &quot;{{Descriptor }}  [[Category:Endpoints]]&quot;</comment>
+      <text xml:space="preserve">{{Descriptor
+}}
+
+[[Category:Endpoints]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Rancan2012 M2</title>
+    <id>663</id>
+    <revision>
+      <id>1639</id>
+      <timestamp>2012-09-10T20:22:57Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=204 |Has Label=SiO2-75 |Has Chemical Composition=SiO2 |Has NM Type=MetalOxide }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=204
+|Has Label=SiO2-75
+|Has Chemical Composition=SiO2
+|Has NM Type=MetalOxide
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Rancan2012 M3</title>
+    <id>664</id>
+    <revision>
+      <id>1640</id>
+      <timestamp>2012-09-10T20:23:13Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=205 |Has Label=SiO2-200 |Has Chemical Composition=SiO2 |Has NM Type=MetalOxide }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=205
+|Has Label=SiO2-200
+|Has Chemical Composition=SiO2
+|Has NM Type=MetalOxide
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Rancan2012 M4</title>
+    <id>665</id>
+    <revision>
+      <id>1641</id>
+      <timestamp>2012-09-10T20:23:30Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=206 |Has Label=SiO2-300 |Has Chemical Composition=SiO2 |Has NM Type=MetalOxide }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=206
+|Has Label=SiO2-300
+|Has Chemical Composition=SiO2
+|Has NM Type=MetalOxide
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Rancan2012 M2 M1</title>
+    <id>666</id>
+    <revision>
+      <id>1642</id>
+      <timestamp>2012-09-10T20:23:51Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Rancan2012 M2 |Has Endpoint Value=75 |Has Endpoint Error=6 |Has Endpoint Value Units=nm |Has Endpoint=Particle Size |Has Method=TEM }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Rancan2012 M2
+|Has Endpoint Value=75
+|Has Endpoint Error=6
+|Has Endpoint Value Units=nm
+|Has Endpoint=Particle Size
+|Has Method=TEM
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Rancan2012 M3 M1</title>
+    <id>667</id>
+    <revision>
+      <id>1643</id>
+      <timestamp>2012-09-10T20:24:09Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Rancan2012 M3 |Has Endpoint Value=190 |Has Endpoint Error=9 |Has Endpoint Value Units=nm |Has Endpoint=Particle Size |Has Method=TEM }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Rancan2012 M3
+|Has Endpoint Value=190
+|Has Endpoint Error=9
+|Has Endpoint Value Units=nm
+|Has Endpoint=Particle Size
+|Has Method=TEM
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Rancan2012 M4 M1</title>
+    <id>668</id>
+    <revision>
+      <id>1644</id>
+      <timestamp>2012-09-10T20:24:36Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Rancan2012 M4 |Has Endpoint Value=291 |Has Endpoint Error=9 |Has Endpoint Value Units=nm |Has Endpoint=Particle Size |Has Method=TEM }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Rancan2012 M4
+|Has Endpoint Value=291
+|Has Endpoint Error=9
+|Has Endpoint Value Units=nm
+|Has Endpoint=Particle Size
+|Has Method=TEM
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Rancan2012 M2 M2</title>
+    <id>669</id>
+    <revision>
+      <id>1645</id>
+      <timestamp>2012-09-10T20:24:54Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Rancan2012 M1 |Has Endpoint Value=101 |Has Endpoint Error=7 |Has Endpoint Value Units=nm |Has Endpoint=Particle Size |Has Method=DLS }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Rancan2012 M1
+|Has Endpoint Value=101
+|Has Endpoint Error=7
+|Has Endpoint Value Units=nm
+|Has Endpoint=Particle Size
+|Has Method=DLS
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Rancan2012 M3 M2</title>
+    <id>670</id>
+    <revision>
+      <id>1646</id>
+      <timestamp>2012-09-10T20:25:13Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Rancan2012 M3 |Has Endpoint Value=206 |Has Endpoint Error=16 |Has Endpoint Value Units=nm |Has Endpoint=Particle Size |Has Method=DLS }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Rancan2012 M3
+|Has Endpoint Value=206
+|Has Endpoint Error=16
+|Has Endpoint Value Units=nm
+|Has Endpoint=Particle Size
+|Has Method=DLS
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Rancan2012 M4 M2</title>
+    <id>671</id>
+    <revision>
+      <id>1647</id>
+      <timestamp>2012-09-10T20:25:28Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Rancan2012 M4 |Has Endpoint Value=331 |Has Endpoint Error=19 |Has Endpoint Value Units=nm |Has Endpoint=Particle Size |Has Method=DLS }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Rancan2012 M4
+|Has Endpoint Value=331
+|Has Endpoint Error=19
+|Has Endpoint Value Units=nm
+|Has Endpoint=Particle Size
+|Has Method=DLS
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Has Condition</title>
+    <id>672</id>
+    <revision>
+      <id>1648</id>
+      <timestamp>2012-09-10T20:33:30Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;This is a property of type [[Has type::Page]]. It refers to an experimental condition during which another measurement was taken. Note that the condition itself is typically a Me…&quot;</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Page]]. It refers to an experimental condition during which another measurement was taken. Note that the condition itself is typically a Measurement too.</text>
+    </revision>
+    <revision>
+      <id>1653</id>
+      <timestamp>2012-09-10T20:38:42Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">This is a property of type [[Has type::Page]]. It refers to an experimental condition during which another measurement was taken. Note that the condition itself is typically a Measurement too. It is the inverse of [[Property:For Measurement]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Rancan2012 C1</title>
+    <id>673</id>
+    <revision>
+      <id>1649</id>
+      <timestamp>2012-09-10T20:34:29Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Rancan2012 M1 M3 |Has Endpoint Value=7 |Has Endpoint=pH }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Rancan2012 M1 M3
+|Has Endpoint Value=7
+|Has Endpoint=pH
+}}</text>
+    </revision>
+    <revision>
+      <id>1650</id>
+      <timestamp>2012-09-10T20:34:57Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|For Measurement=Rancan2012 M1 M3
+|Has Endpoint Value=7
+|Has Endpoint=pH
+}}</text>
+    </revision>
+    <revision>
+      <id>1659</id>
+      <timestamp>2012-09-10T20:47:37Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <comment>moved [[Rancan2012 M1 M3 C1]] to [[Rancan2012 C1]]</comment>
+      <text xml:space="preserve">{{Measurement
+|For Measurement=Rancan2012 M1 M3
+|Has Endpoint Value=7
+|Has Endpoint=pH
+}}</text>
+    </revision>
+    <revision>
+      <id>1661</id>
+      <timestamp>2012-09-10T20:48:37Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Endpoint Value=7
+|Has Endpoint=pH
+}}</text>
+    </revision>
+    <revision>
+      <id>1662</id>
+      <timestamp>2012-09-10T20:49:56Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Undo revision 1661 by [[Special:Contributions/Egonw|Egonw]] ([[User talk:Egonw|Talk]])</comment>
+      <text xml:space="preserve">{{Measurement
+|For Measurement=Rancan2012 M1 M3
+|Has Endpoint Value=7
+|Has Endpoint=pH
+}}</text>
+    </revision>
+    <revision>
+      <id>1663</id>
+      <timestamp>2012-09-10T20:52:03Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Endpoint Value=7
+|Has Endpoint=pH
+}}
+
+{{#set:
+For Measurement=Rancan2012 M1 M3|
+For Measurement=Rancan2012 M2 M3|
+For Measurement=Rancan2012 M3 M3|
+For Measurement=Rancan2012 M4 M3
+}}</text>
+    </revision>
+    <revision>
+      <id>1678</id>
+      <timestamp>2012-09-11T08:20:40Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Endpoint Value=7
+|Has Endpoint=pH
+}}
+
+{{#set:
+For Measurement=Rancan2012 M1 M3|
+For Measurement=Rancan2012 M2 M3|
+For Measurement=Rancan2012 M3 M3|
+For Measurement=Rancan2012 M4 M3|
+For Measurement=Rancan2012 M5 M3|
+For Measurement=Rancan2012 M6 M3|
+For Measurement=Rancan2012 M7 M3|
+For Measurement=Rancan2012 M8 M3
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:For Measurement</title>
+    <id>674</id>
+    <revision>
+      <id>1654</id>
+      <timestamp>2012-09-10T20:38:58Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;This is a property of type [[Has type::Page]]. It refers to an experimental condition during which another measurement was taken. Note that the condition itself is typically a Me…&quot;</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Page]]. It refers to an experimental condition during which another measurement was taken. Note that the condition itself is typically a Measurement too. It is the inverse of [[Property:Has Condition]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Rancan2012 M1 M3 C1</title>
+    <id>675</id>
+    <revision>
+      <id>1660</id>
+      <timestamp>2012-09-10T20:47:37Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>moved [[Rancan2012 M1 M3 C1]] to [[Rancan2012 C1]]</comment>
+      <text xml:space="preserve">#REDIRECT [[Rancan2012 C1]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Rancan2012 M2 M3</title>
+    <id>676</id>
+    <revision>
+      <id>1664</id>
+      <timestamp>2012-09-10T20:52:45Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Rancan2012 M2 |Has Endpoint Value=-45 |Has Endpoint Error=4 |Has Endpoint Value Units=eV |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Rancan2012 M2
+|Has Endpoint Value=-45
+|Has Endpoint Error=4
+|Has Endpoint Value Units=eV
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Rancan2012 M3 M3</title>
+    <id>677</id>
+    <revision>
+      <id>1665</id>
+      <timestamp>2012-09-10T20:53:03Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Rancan2012 M3 |Has Endpoint Value=-56 |Has Endpoint Error=5 |Has Endpoint Value Units=eV |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Rancan2012 M3
+|Has Endpoint Value=-56
+|Has Endpoint Error=5
+|Has Endpoint Value Units=eV
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Rancan2012 M4 M3</title>
+    <id>678</id>
+    <revision>
+      <id>1666</id>
+      <timestamp>2012-09-10T20:53:23Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Rancan2012 M4 |Has Endpoint Value=-48 |Has Endpoint Error=2 |Has Endpoint Value Units=eV |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Rancan2012 M4
+|Has Endpoint Value=-48
+|Has Endpoint Error=2
+|Has Endpoint Value Units=eV
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>APS Coating</title>
+    <id>679</id>
+    <revision>
+      <id>1667</id>
+      <timestamp>2012-09-11T07:01:53Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Coating}}  {{#set:|Has Chemical=APS}}&quot;</comment>
+      <text xml:space="preserve">{{Coating}}
+
+{{#set:|Has Chemical=APS}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>APS</title>
+    <id>680</id>
+    <revision>
+      <id>1668</id>
+      <timestamp>2012-09-11T07:02:26Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{CoatingPart}}&quot;</comment>
+      <text xml:space="preserve">{{CoatingPart}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Rancan2012 M5</title>
+    <id>681</id>
+    <revision>
+      <id>1669</id>
+      <timestamp>2012-09-11T07:04:09Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=207 |Has Label=APS-SiO2-42 |Has Chemical Composition=SiO2 |Has Chemical Coating=APS Coating |Has NM Type=MetalOxide }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=207
+|Has Label=APS-SiO2-42
+|Has Chemical Composition=SiO2
+|Has Chemical Coating=APS Coating
+|Has NM Type=MetalOxide
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Rancan2012 M6</title>
+    <id>682</id>
+    <revision>
+      <id>1670</id>
+      <timestamp>2012-09-11T07:04:44Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=208 |Has Label=APS-SiO2-75 |Has Chemical Composition=SiO2 |Has Chemical Coating=APS Coating |Has NM Type=MetalOxide }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=208
+|Has Label=APS-SiO2-75
+|Has Chemical Composition=SiO2
+|Has Chemical Coating=APS Coating
+|Has NM Type=MetalOxide
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Rancan2012 M7</title>
+    <id>683</id>
+    <revision>
+      <id>1671</id>
+      <timestamp>2012-09-11T07:04:58Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=209 |Has Label=APS-SiO2-200 |Has Chemical Composition=SiO2 |Has Chemical Coating=APS Coating |Has NM Type=MetalOxide }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=209
+|Has Label=APS-SiO2-200
+|Has Chemical Composition=SiO2
+|Has Chemical Coating=APS Coating
+|Has NM Type=MetalOxide
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Rancan2012 M8</title>
+    <id>684</id>
+    <revision>
+      <id>1672</id>
+      <timestamp>2012-09-11T07:05:12Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=210 |Has Label=APS-SiO2-300 |Has Chemical Composition=SiO2 |Has Chemical Coating=APS Coating |Has NM Type=MetalOxide }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=210
+|Has Label=APS-SiO2-300
+|Has Chemical Composition=SiO2
+|Has Chemical Coating=APS Coating
+|Has NM Type=MetalOxide
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Rancan2012 M5 M3</title>
+    <id>685</id>
+    <revision>
+      <id>1673</id>
+      <timestamp>2012-09-11T07:07:53Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Rancan2012 M5 |Has Endpoint Value=12 |Has Endpoint Error=2 |Has Endpoint Value Units=eV |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Rancan2012 M5
+|Has Endpoint Value=12
+|Has Endpoint Error=2
+|Has Endpoint Value Units=eV
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Rancan2012 M6 M3</title>
+    <id>686</id>
+    <revision>
+      <id>1674</id>
+      <timestamp>2012-09-11T08:04:36Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Rancan2012 M6 |Has Endpoint Value=10 |Has Endpoint Error=1 |Has Endpoint Value Units=eV |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Rancan2012 M6
+|Has Endpoint Value=10
+|Has Endpoint Error=1
+|Has Endpoint Value Units=eV
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+    <revision>
+      <id>1675</id>
+      <timestamp>2012-09-11T08:19:16Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Rancan2012 M6
+|Has Endpoint Value=11
+|Has Endpoint Error=3
+|Has Endpoint Value Units=eV
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Rancan2012 M7 M3</title>
+    <id>687</id>
+    <revision>
+      <id>1676</id>
+      <timestamp>2012-09-11T08:19:26Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Rancan2012 M7 |Has Endpoint Value=10 |Has Endpoint Error=1 |Has Endpoint Value Units=eV |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Rancan2012 M7
+|Has Endpoint Value=10
+|Has Endpoint Error=1
+|Has Endpoint Value Units=eV
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Rancan2012 M8 M3</title>
+    <id>688</id>
+    <revision>
+      <id>1677</id>
+      <timestamp>2012-09-11T08:19:45Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Rancan2012 M8 |Has Endpoint Value=10 |Has Endpoint Error=2 |Has Endpoint Value Units=eV |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Rancan2012 M8
+|Has Endpoint Value=10
+|Has Endpoint Error=2
+|Has Endpoint Value Units=eV
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Purity</title>
+    <id>689</id>
+    <revision>
+      <id>1694</id>
+      <timestamp>2012-09-16T08:27:23Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Descriptor}}  [[Category:Endpoints]]&quot;</comment>
+      <text xml:space="preserve">{{Descriptor}}
+
+[[Category:Endpoints]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Surface Area</title>
+    <id>690</id>
+    <revision>
+      <id>1695</id>
+      <timestamp>2012-09-16T08:27:44Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Descriptor}}  [[Category:Endpoints]]&quot;</comment>
+      <text xml:space="preserve">{{Descriptor}}
+
+[[Category:Endpoints]]</text>
     </revision>
   </page>
 </mediawiki>

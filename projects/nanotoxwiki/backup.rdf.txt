@@ -18,7 +18,7 @@
 	xmlns:property="&property;">
 
 	<owl:Ontology rdf:about="">
-		<swivt:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-09T22:22:42+02:00</swivt:creationDate>
+		<swivt:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-09-16T12:38:19+02:00</swivt:creationDate>
 		<owl:imports rdf:resource="http://semantic-mediawiki.org/swivt/1.0"/>
 	</owl:Ontology>
 	<swivt:Subject rdf:about="&wiki;Main_Page">
@@ -40,7 +40,7 @@
 		<swivt:page rdf:resource="&wikiurl;Category:NanoMaterials"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Category:NanoMaterials"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</swivt:wikiNamespace>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-06T06:36:38</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-16T07:54:08</swivt:wikiPageModificationDate>
 	</owl:Class>
 	<swivt:Subject rdf:about="&wiki;NanoMaterial">
 		<rdfs:label>NanoMaterial</rdfs:label>
@@ -2905,7 +2905,7 @@
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-15.6</property:Has_Zeta_potential>
 		<property:Has_alternative_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NP36</property:Has_alternative_Identifier>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-29T12:26:39</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-07T21:27:39</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Shaw51"/>
 		<property:Used_in_Study rdf:resource="&wiki;InVitro2010Fourches2"/>
 	</swivt:Subject>
@@ -5870,7 +5870,7 @@
 		<owl:sameAs rdf:resource="http://dx.doi.org/10.1186/1743-8977-7-23"/>
 		<property:Has_DOI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1186/1743-8977-7-23</property:Has_DOI>
 		<property:Has_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010</property:Has_Year>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-11-02T17:35:38</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-05-22T17:27:24</swivt:wikiPageModificationDate>
 		<property:Relationships_extracted rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yes</property:Relationships_extracted>
 	</swivt:Subject>
 	<owl:Class rdf:about="&wiki;Category-3AChemical_Entities">
@@ -6036,13 +6036,13 @@
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
 		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CoCr</property:Has_Chemical_Composition>
-		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">124</property:Has_Identifier>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">212</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CoCr (micro)</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;Alloy"/>
 		<property:Has_Size rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2900</property:Has_Size>
 		<property:Has_Size_Error rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1100</property:Has_Size_Error>
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-11-10T07:37:11</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-09-11T08:29:57</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Bhabra2009_S1"/>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;File-3AHu2011.pdf">
@@ -6175,7 +6175,7 @@
 		<swivt:page rdf:resource="&wikiurl;Installation"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Installation"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-03-04T17:05:56</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-15T13:10:10</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;HannaK23">
 		<rdfs:label>HannaK23</rdfs:label>
@@ -6186,13 +6186,13 @@
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
 		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cr2O3</property:Has_Chemical_Composition>
-		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">127</property:Has_Identifier>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">211</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cr2O3</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;MetalOxide"/>
 		<property:Has_Size_Max rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1230</property:Has_Size_Max>
 		<property:Has_Size_Min rdf:datatype="http://www.w3.org/2001/XMLSchema#double">470</property:Has_Size_Min>
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-04T10:51:52</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-09-11T08:29:05</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Karlsson2008CytotoxFollowup"/>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;HedbergS1">
@@ -6255,7 +6255,7 @@
 		<property:Has_Entity rdf:resource="&wiki;HannaK23"/>
 		<property:Has_Study rdf:resource="&wiki;WillighagenS1"/>
 		<property:Has_Study rdf:resource="&wiki;Karlsson2008CytotoxFollowup"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-05-22T21:08:42</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-05-22T21:09:39</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;HannaK23_M2">
 		<rdfs:label>HannaK23 M2</rdfs:label>
@@ -6278,7 +6278,7 @@
 		<owl:sameAs rdf:resource="http://dx.doi.org/10.1021/nn204886b"/>
 		<property:Has_DOI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1021/nn204886b</property:Has_DOI>
 		<property:Has_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2012</property:Has_Year>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-04T13:25:52</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-06T07:00:24</swivt:wikiPageModificationDate>
 		<property:Substances_extracted rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yes</property:Substances_extracted>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Nagy2012Necrosis">
@@ -6733,7 +6733,7 @@
 		<owl:sameAs rdf:resource="http://dx.doi.org/10.3109/17435390903276941"/>
 		<property:Has_DOI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.3109/17435390903276941</property:Has_DOI>
 		<property:Has_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2009</property:Has_Year>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-07T16:41:53</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-07T20:43:34</swivt:wikiPageModificationDate>
 		<property:Substances_extracted rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yes</property:Substances_extracted>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Berg2009_R1">
@@ -6954,7 +6954,7 @@
 		<owl:sameAs rdf:resource="http://dx.doi.org/10.3109/17435390903276933"/>
 		<property:Has_DOI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.3109/17435390903276933</property:Has_DOI>
 		<property:Has_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2009</property:Has_Year>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-07T20:19:53</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-07T20:43:14</swivt:wikiPageModificationDate>
 		<property:Substances_extracted rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yes</property:Substances_extracted>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Gerloff2009_NM1">
@@ -7077,7 +7077,7 @@
 		<property:Has_NM_Type rdf:resource="&wiki;MetalOxide"/>
 		<property:Has_Size rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10</property:Has_Size>
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-07T20:29:38</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-07T20:30:26</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Gerloff2009_NM8">
 		<rdfs:label>Gerloff2009 NM8</rdfs:label>
@@ -7109,7 +7109,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">158</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZnO-F</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;MetalOxide"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-07T20:31:38</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-07T20:45:45</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Gopalan2009">
 		<rdfs:label>Gopalan2009</rdfs:label>
@@ -7331,7 +7331,7 @@
 		<property:Has_NM_Type rdf:resource="&wiki;MetalOxide"/>
 		<property:Has_Size rdf:datatype="http://www.w3.org/2001/XMLSchema#string">50</property:Has_Size>
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-08T05:26:58</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-08T05:27:31</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Wang2009_NM6">
 		<rdfs:label>Wang2009 NM6</rdfs:label>
@@ -7378,7 +7378,7 @@
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
 		<property:Has_Zeta_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Zeta_Units>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">120</property:Has_Zeta_potential>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-08T07:24:02</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-08T07:36:10</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<owl:DatatypeProperty rdf:about="&property;Has_IEP">
 		<rdfs:label>Has IEP</rdfs:label>
@@ -7404,7 +7404,7 @@
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
 		<property:Has_Zeta_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Zeta_Units>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">44</property:Has_Zeta_potential>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-08T07:26:53</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-08T07:36:26</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;SimonDeckers2009_NM3">
 		<rdfs:label>SimonDeckers2009 NM3</rdfs:label>
@@ -7423,7 +7423,7 @@
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
 		<property:Has_Zeta_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Zeta_Units>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20</property:Has_Zeta_potential>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-08T07:33:31</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-08T08:14:59</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;SimonDeckers2009_NM4">
 		<rdfs:label>SimonDeckers2009 NM4</rdfs:label>
@@ -7442,7 +7442,7 @@
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
 		<property:Has_Zeta_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Zeta_Units>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">12</property:Has_Zeta_potential>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-08T07:33:57</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-08T08:14:40</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;SimonDeckers2009_NM5">
 		<rdfs:label>SimonDeckers2009 NM5</rdfs:label>
@@ -7461,7 +7461,7 @@
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
 		<property:Has_Zeta_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Zeta_Units>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-33</property:Has_Zeta_potential>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-08T07:34:42</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-08T08:14:26</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;SimonDeckers2009_NM6">
 		<rdfs:label>SimonDeckers2009 NM6</rdfs:label>
@@ -7539,7 +7539,7 @@
 		<owl:sameAs rdf:resource="http://dx.doi.org/10.1021/tx800289z"/>
 		<property:Has_DOI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1021/tx800289z</property:Has_DOI>
 		<property:Has_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2009</property:Has_Year>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-09T12:17:33</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-09T12:17:52</swivt:wikiPageModificationDate>
 		<property:Substances_extracted rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yes</property:Substances_extracted>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Horie2009_NM1">
@@ -7556,6 +7556,7 @@
 		<property:Has_NM_Type rdf:resource="&wiki;MetalOxide"/>
 		<property:Has_Size rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7</property:Has_Size>
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
+		<property:Has_Source rdf:resource="&wiki;Horie2009"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-08T09:24:12</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Horie2009_NM2">
@@ -7572,6 +7573,7 @@
 		<property:Has_NM_Type rdf:resource="&wiki;MetalOxide"/>
 		<property:Has_Size rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20</property:Has_Size>
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
+		<property:Has_Source rdf:resource="&wiki;Horie2009"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-08T09:25:04</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Horie2009_NM3">
@@ -7588,6 +7590,7 @@
 		<property:Has_NM_Type rdf:resource="&wiki;MetalOxide"/>
 		<property:Has_Size rdf:datatype="http://www.w3.org/2001/XMLSchema#string">200</property:Has_Size>
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
+		<property:Has_Source rdf:resource="&wiki;Horie2009"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-08T09:25:26</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Horie2009_NM4">
@@ -7604,6 +7607,7 @@
 		<property:Has_NM_Type rdf:resource="&wiki;MetalOxide"/>
 		<property:Has_Size rdf:datatype="http://www.w3.org/2001/XMLSchema#string">70</property:Has_Size>
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
+		<property:Has_Source rdf:resource="&wiki;Horie2009"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-08T09:25:58</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Horie2009_NM5">
@@ -7620,6 +7624,7 @@
 		<property:Has_NM_Type rdf:resource="&wiki;MetalOxide"/>
 		<property:Has_Size rdf:datatype="http://www.w3.org/2001/XMLSchema#string">180</property:Has_Size>
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
+		<property:Has_Source rdf:resource="&wiki;Horie2009"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-08T09:26:19</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Horie2009_NM6">
@@ -7637,6 +7642,7 @@
 		<property:Has_Size_Max rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20</property:Has_Size_Max>
 		<property:Has_Size_Min rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10</property:Has_Size_Min>
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
+		<property:Has_Source rdf:resource="&wiki;Horie2009"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-08T09:28:23</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Horie2009_NM7">
@@ -7653,6 +7659,7 @@
 		<property:Has_NM_Type rdf:resource="&wiki;MetalOxide"/>
 		<property:Has_Size rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14</property:Has_Size>
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
+		<property:Has_Source rdf:resource="&wiki;Horie2009"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-08T09:29:30</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Horie2009_NM8">
@@ -7669,7 +7676,8 @@
 		<property:Has_NM_Type rdf:resource="&wiki;MetalOxide"/>
 		<property:Has_Size rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25</property:Has_Size>
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-08T09:30:14</swivt:wikiPageModificationDate>
+		<property:Has_Source rdf:resource="&wiki;Horie2009"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-09-16T07:16:25</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Horie2009_NM9">
 		<rdfs:label>Horie2009 NM9</rdfs:label>
@@ -7685,7 +7693,8 @@
 		<property:Has_NM_Type rdf:resource="&wiki;MetalOxide"/>
 		<property:Has_Size rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21</property:Has_Size>
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-08T09:30:59</swivt:wikiPageModificationDate>
+		<property:Has_Source rdf:resource="&wiki;Horie2009"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-09-16T07:15:56</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Horie2009_NM10">
 		<rdfs:label>Horie2009 NM10</rdfs:label>
@@ -7702,7 +7711,8 @@
 		<property:Has_Size_Max rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40</property:Has_Size_Max>
 		<property:Has_Size_Min rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20</property:Has_Size_Min>
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-08T09:31:40</swivt:wikiPageModificationDate>
+		<property:Has_Source rdf:resource="&wiki;Horie2009"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-09-16T07:15:43</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Cho2012">
 		<rdfs:label>Cho2012</rdfs:label>
@@ -7765,7 +7775,7 @@
 		<property:Has_Size rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9.7</property:Has_Size>
 		<property:Has_Size_Error rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.4</property:Has_Size_Error>
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-09T13:58:26</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-09T13:58:37</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Cho2012_NM4">
 		<rdfs:label>Cho2012 NM4</rdfs:label>
@@ -7799,7 +7809,7 @@
 		<property:Has_Size rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18.4</property:Has_Size>
 		<property:Has_Size_Error rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.8</property:Has_Size_Error>
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-09T13:59:49</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-09T14:02:18</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Cho2012_NM6">
 		<rdfs:label>Cho2012 NM6</rdfs:label>
@@ -7816,7 +7826,7 @@
 		<property:Has_Size rdf:datatype="http://www.w3.org/2001/XMLSchema#string">205</property:Has_Size>
 		<property:Has_Size_Error rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20.7</property:Has_Size_Error>
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-09T14:00:31</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-09T14:02:11</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Cho2012_NM7">
 		<rdfs:label>Cho2012 NM7</rdfs:label>
@@ -7935,7 +7945,7 @@
 		<property:Has_Size rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30.5</property:Has_Size>
 		<property:Has_Size_Error rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.8</property:Has_Size_Error>
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-09T14:10:11</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-09T14:10:27</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Cho2012_NM14">
 		<rdfs:label>Cho2012 NM14</rdfs:label>
@@ -7970,6 +7980,728 @@
 		<property:Has_Size_Error rdf:datatype="http://www.w3.org/2001/XMLSchema#double">9.2</property:Has_Size_Error>
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-09T14:45:21</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Field2011_Batch1_M1">
+		<rdfs:label>Field2011 Batch1 M1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Field2011_Batch1_M1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Field2011_Batch1_M1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Particle_Size"/>
+		<property:Has_Endpoint_Error rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.2</property:Has_Endpoint_Error>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">286</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Field2011_Batch1"/>
+		<property:Has_Method rdf:resource="&wiki;DLS"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-15T14:15:02</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<owl:DatatypeProperty rdf:about="&property;Has_Endpoint_Error">
+		<rdfs:label>Has Endpoint Error</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Property:Has_Endpoint_Error"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Property:Has_Endpoint_Error"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">102</swivt:wikiNamespace>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-15T14:16:10</swivt:wikiPageModificationDate>
+	</owl:DatatypeProperty>
+	<owl:DatatypeProperty rdf:about="&property;Has_Endpoint_Value_Units">
+		<rdfs:label>Has Endpoint Value Units</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Property:Has_Endpoint_Value_Units"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Property:Has_Endpoint_Value_Units"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">102</swivt:wikiNamespace>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-15T14:16:25</swivt:wikiPageModificationDate>
+	</owl:DatatypeProperty>
+	<owl:ObjectProperty rdf:about="&property;Has_Method">
+		<rdfs:label>Has Method</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Property:Has_Method"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Property:Has_Method"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">102</swivt:wikiNamespace>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-15T14:16:32</swivt:wikiPageModificationDate>
+	</owl:ObjectProperty>
+	<swivt:Subject rdf:about="&wiki;Field2011_Batch2_M1">
+		<rdfs:label>Field2011 Batch2 M1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Field2011_Batch2_M1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Field2011_Batch2_M1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Particle_Size"/>
+		<property:Has_Endpoint_Error rdf:datatype="http://www.w3.org/2001/XMLSchema#double">7.1</property:Has_Endpoint_Error>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">283</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Field2011_Batch2"/>
+		<property:Has_Method rdf:resource="&wiki;DLS"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-15T14:27:00</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Field2011_Batch3_M1">
+		<rdfs:label>Field2011 Batch3 M1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Field2011_Batch3_M1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Field2011_Batch3_M1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Particle_Size"/>
+		<property:Has_Endpoint_Error rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.6</property:Has_Endpoint_Error>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">150</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Field2011_Batch3"/>
+		<property:Has_Method rdf:resource="&wiki;DLS"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-15T14:27:40</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Cho2012_NM1_M1">
+		<rdfs:label>Cho2012 NM1 M1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Cho2012_NM1_M1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Cho2012_NM1_M1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Hydrodynamic_size"/>
+		<property:Has_Endpoint_Error rdf:datatype="http://www.w3.org/2001/XMLSchema#double">12</property:Has_Endpoint_Error>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">81</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Cho2012_NM1"/>
+		<property:Has_Method rdf:resource="&wiki;DLS"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-16T08:04:07</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Cho2012_NM2_M1">
+		<rdfs:label>Cho2012 NM2 M1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Cho2012_NM2_M1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Cho2012_NM2_M1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Hydrodynamic_size"/>
+		<property:Has_Endpoint_Error rdf:datatype="http://www.w3.org/2001/XMLSchema#double">18</property:Has_Endpoint_Error>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">65</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Cho2012_NM2"/>
+		<property:Has_Method rdf:resource="&wiki;DLS"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-16T08:09:25</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Cho2012_NM3_M1">
+		<rdfs:label>Cho2012 NM3 M1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Cho2012_NM3_M1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Cho2012_NM3_M1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Hydrodynamic_size"/>
+		<property:Has_Endpoint_Error rdf:datatype="http://www.w3.org/2001/XMLSchema#double">12</property:Has_Endpoint_Error>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">88</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Cho2012_NM3"/>
+		<property:Has_Method rdf:resource="&wiki;DLS"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-16T08:10:36</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Cho2012_NM4_M1">
+		<rdfs:label>Cho2012 NM4 M1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Cho2012_NM4_M1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Cho2012_NM4_M1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Hydrodynamic_size"/>
+		<property:Has_Endpoint_Error rdf:datatype="http://www.w3.org/2001/XMLSchema#double">11</property:Has_Endpoint_Error>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">132</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Cho2012_NM4"/>
+		<property:Has_Method rdf:resource="&wiki;DLS"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-16T08:11:58</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Cho2012_NM5_M1">
+		<rdfs:label>Cho2012 NM5 M1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Cho2012_NM5_M1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Cho2012_NM5_M1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Hydrodynamic_size"/>
+		<property:Has_Endpoint_Error rdf:datatype="http://www.w3.org/2001/XMLSchema#double">12</property:Has_Endpoint_Error>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">185</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Cho2012_NM5"/>
+		<property:Has_Method rdf:resource="&wiki;DLS"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-16T08:13:52</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Cho2012_NM6_M1">
+		<rdfs:label>Cho2012 NM6 M1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Cho2012_NM6_M1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Cho2012_NM6_M1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Hydrodynamic_size"/>
+		<property:Has_Endpoint_Error rdf:datatype="http://www.w3.org/2001/XMLSchema#double">17</property:Has_Endpoint_Error>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">173</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Cho2012_NM6"/>
+		<property:Has_Method rdf:resource="&wiki;DLS"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-16T08:15:35</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Cho2012_NM7_M1">
+		<rdfs:label>Cho2012 NM7 M1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Cho2012_NM7_M1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Cho2012_NM7_M1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Hydrodynamic_size"/>
+		<property:Has_Endpoint_Error rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10</property:Has_Endpoint_Error>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">112</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Cho2012_NM7"/>
+		<property:Has_Method rdf:resource="&wiki;DLS"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-16T08:16:43</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Cho2012_NM8_M1">
+		<rdfs:label>Cho2012 NM8 M1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Cho2012_NM8_M1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Cho2012_NM8_M1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Hydrodynamic_size"/>
+		<property:Has_Endpoint_Error rdf:datatype="http://www.w3.org/2001/XMLSchema#double">9</property:Has_Endpoint_Error>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">99</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Cho2012_NM8"/>
+		<property:Has_Method rdf:resource="&wiki;DLS"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-16T08:18:51</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Cho2012_NM9_M1">
+		<rdfs:label>Cho2012 NM9 M1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Cho2012_NM9_M1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Cho2012_NM9_M1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Hydrodynamic_size"/>
+		<property:Has_Endpoint_Error rdf:datatype="http://www.w3.org/2001/XMLSchema#double">26</property:Has_Endpoint_Error>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">116</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Cho2012_NM9"/>
+		<property:Has_Method rdf:resource="&wiki;DLS"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-16T08:19:26</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Cho2012_NM10_M1">
+		<rdfs:label>Cho2012 NM10 M1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Cho2012_NM10_M1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Cho2012_NM10_M1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Hydrodynamic_size"/>
+		<property:Has_Endpoint_Error rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2</property:Has_Endpoint_Error>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">92</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Cho2012_NM10"/>
+		<property:Has_Method rdf:resource="&wiki;DLS"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-16T08:35:41</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Cho2012_NM11_M1">
+		<rdfs:label>Cho2012 NM11 M1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Cho2012_NM11_M1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Cho2012_NM11_M1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Hydrodynamic_size"/>
+		<property:Has_Endpoint_Error rdf:datatype="http://www.w3.org/2001/XMLSchema#double">70</property:Has_Endpoint_Error>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">378</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Cho2012_NM11"/>
+		<property:Has_Method rdf:resource="&wiki;DLS"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-16T08:37:00</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Cho2012_NM12_M1">
+		<rdfs:label>Cho2012 NM12 M1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Cho2012_NM12_M1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Cho2012_NM12_M1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Hydrodynamic_size"/>
+		<property:Has_Endpoint_Error rdf:datatype="http://www.w3.org/2001/XMLSchema#double">26</property:Has_Endpoint_Error>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">105</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Cho2012_NM12"/>
+		<property:Has_Method rdf:resource="&wiki;DLS"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-16T08:38:46</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Cho2012_NM13_M1">
+		<rdfs:label>Cho2012 NM13 M1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Cho2012_NM13_M1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Cho2012_NM13_M1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Hydrodynamic_size"/>
+		<property:Has_Endpoint_Error rdf:datatype="http://www.w3.org/2001/XMLSchema#double">16</property:Has_Endpoint_Error>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">119</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Cho2012_NM13"/>
+		<property:Has_Method rdf:resource="&wiki;DLS"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-16T08:40:29</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Cho2012_NM14_M1">
+		<rdfs:label>Cho2012 NM14 M1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Cho2012_NM14_M1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Cho2012_NM14_M1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Hydrodynamic_size"/>
+		<property:Has_Endpoint_Error rdf:datatype="http://www.w3.org/2001/XMLSchema#double">42</property:Has_Endpoint_Error>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">306</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Cho2012_NM14"/>
+		<property:Has_Method rdf:resource="&wiki;DLS"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-16T08:41:08</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Cho2012_NM15_M1">
+		<rdfs:label>Cho2012 NM15 M1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Cho2012_NM15_M1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Cho2012_NM15_M1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Hydrodynamic_size"/>
+		<property:Has_Endpoint_Error rdf:datatype="http://www.w3.org/2001/XMLSchema#double">62</property:Has_Endpoint_Error>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">282</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Cho2012_NM15"/>
+		<property:Has_Method rdf:resource="&wiki;DLS"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-16T08:42:28</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Hydrodynamic_size">
+		<rdfs:label>Hydrodynamic size</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Hydrodynamic_size"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Hydrodynamic_size"/>
+		<rdf:type rdf:resource="&wiki;Category-3ADescriptors"/>
+		<rdf:type rdf:resource="&wiki;Category-3AEndpoints"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-25T12:02:56</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Rancan2012">
+		<rdfs:label>Rancan2012</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Rancan2012"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Rancan2012"/>
+		<rdf:type rdf:resource="&wiki;Category-3APapers"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<owl:sameAs rdf:resource="http://dx.doi.org/10.1021/nn301622h"/>
+		<property:Has_DOI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1021/nn301622h</property:Has_DOI>
+		<property:Has_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2012</property:Has_Year>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-09-10T20:05:10</swivt:wikiPageModificationDate>
+		<property:Relationships_extracted rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No</property:Relationships_extracted>
+		<property:Substances_extracted rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No</property:Substances_extracted>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Rancan2012_M1">
+		<rdfs:label>Rancan2012 M1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Rancan2012_M1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Rancan2012_M1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
+		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SiO2</property:Has_Chemical_Composition>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">203</property:Has_Identifier>
+		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SiO2-42</property:Has_Label>
+		<property:Has_NM_Type rdf:resource="&wiki;MetalOxide"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-09-10T20:12:55</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Rancan2012_M1_M1">
+		<rdfs:label>Rancan2012 M1 M1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Rancan2012_M1_M1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Rancan2012_M1_M1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Particle_Size"/>
+		<property:Has_Endpoint_Error rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3</property:Has_Endpoint_Error>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">42</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Rancan2012_M1"/>
+		<property:Has_Method rdf:resource="&wiki;TEM"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-09-10T20:19:36</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Rancan2012_M1_M2">
+		<rdfs:label>Rancan2012 M1 M2</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Rancan2012_M1_M2"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Rancan2012_M1_M2"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Particle_Size"/>
+		<property:Has_Endpoint_Error rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3</property:Has_Endpoint_Error>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">110</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Rancan2012_M1"/>
+		<property:Has_Method rdf:resource="&wiki;DLS"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-09-10T20:19:46</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Rancan2012_M1_M3">
+		<rdfs:label>Rancan2012 M1 M3</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Rancan2012_M1_M3"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Rancan2012_M1_M3"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Zeta_Potential"/>
+		<property:Has_Endpoint_Error rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3</property:Has_Endpoint_Error>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-22</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eV</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Rancan2012_M1"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-09-10T20:46:59</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Diameter">
+		<rdfs:label>Diameter</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Diameter"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Diameter"/>
+		<rdf:type rdf:resource="&wiki;Category-3ADescriptors"/>
+		<rdf:type rdf:resource="&wiki;Category-3AEndpoints"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-09-10T20:17:45</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Rancan2012_M2">
+		<rdfs:label>Rancan2012 M2</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Rancan2012_M2"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Rancan2012_M2"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
+		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SiO2</property:Has_Chemical_Composition>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">204</property:Has_Identifier>
+		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SiO2-75</property:Has_Label>
+		<property:Has_NM_Type rdf:resource="&wiki;MetalOxide"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-09-10T20:22:57</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Rancan2012_M3">
+		<rdfs:label>Rancan2012 M3</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Rancan2012_M3"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Rancan2012_M3"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
+		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SiO2</property:Has_Chemical_Composition>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">205</property:Has_Identifier>
+		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SiO2-200</property:Has_Label>
+		<property:Has_NM_Type rdf:resource="&wiki;MetalOxide"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-09-10T20:23:13</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Rancan2012_M4">
+		<rdfs:label>Rancan2012 M4</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Rancan2012_M4"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Rancan2012_M4"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
+		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SiO2</property:Has_Chemical_Composition>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">206</property:Has_Identifier>
+		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SiO2-300</property:Has_Label>
+		<property:Has_NM_Type rdf:resource="&wiki;MetalOxide"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-09-10T20:23:30</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Rancan2012_M2_M1">
+		<rdfs:label>Rancan2012 M2 M1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Rancan2012_M2_M1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Rancan2012_M2_M1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Particle_Size"/>
+		<property:Has_Endpoint_Error rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6</property:Has_Endpoint_Error>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">75</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Rancan2012_M2"/>
+		<property:Has_Method rdf:resource="&wiki;TEM"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-09-10T20:23:51</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Rancan2012_M3_M1">
+		<rdfs:label>Rancan2012 M3 M1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Rancan2012_M3_M1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Rancan2012_M3_M1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Particle_Size"/>
+		<property:Has_Endpoint_Error rdf:datatype="http://www.w3.org/2001/XMLSchema#double">9</property:Has_Endpoint_Error>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">190</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Rancan2012_M3"/>
+		<property:Has_Method rdf:resource="&wiki;TEM"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-09-10T20:24:09</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Rancan2012_M4_M1">
+		<rdfs:label>Rancan2012 M4 M1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Rancan2012_M4_M1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Rancan2012_M4_M1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Particle_Size"/>
+		<property:Has_Endpoint_Error rdf:datatype="http://www.w3.org/2001/XMLSchema#double">9</property:Has_Endpoint_Error>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">291</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Rancan2012_M4"/>
+		<property:Has_Method rdf:resource="&wiki;TEM"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-09-10T20:24:36</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Rancan2012_M2_M2">
+		<rdfs:label>Rancan2012 M2 M2</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Rancan2012_M2_M2"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Rancan2012_M2_M2"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Particle_Size"/>
+		<property:Has_Endpoint_Error rdf:datatype="http://www.w3.org/2001/XMLSchema#double">7</property:Has_Endpoint_Error>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">101</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Rancan2012_M1"/>
+		<property:Has_Method rdf:resource="&wiki;DLS"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-09-10T20:24:54</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Rancan2012_M3_M2">
+		<rdfs:label>Rancan2012 M3 M2</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Rancan2012_M3_M2"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Rancan2012_M3_M2"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Particle_Size"/>
+		<property:Has_Endpoint_Error rdf:datatype="http://www.w3.org/2001/XMLSchema#double">16</property:Has_Endpoint_Error>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">206</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Rancan2012_M3"/>
+		<property:Has_Method rdf:resource="&wiki;DLS"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-09-10T20:25:13</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Rancan2012_M4_M2">
+		<rdfs:label>Rancan2012 M4 M2</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Rancan2012_M4_M2"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Rancan2012_M4_M2"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Particle_Size"/>
+		<property:Has_Endpoint_Error rdf:datatype="http://www.w3.org/2001/XMLSchema#double">19</property:Has_Endpoint_Error>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">331</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Rancan2012_M4"/>
+		<property:Has_Method rdf:resource="&wiki;DLS"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-09-10T20:25:28</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<owl:ObjectProperty rdf:about="&property;Has_Condition">
+		<rdfs:label>Has Condition</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Property:Has_Condition"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Property:Has_Condition"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">102</swivt:wikiNamespace>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-09-10T20:33:30</swivt:wikiPageModificationDate>
+	</owl:ObjectProperty>
+	<swivt:Subject rdf:about="&wiki;Rancan2012_C1">
+		<rdfs:label>Rancan2012 C1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Rancan2012_C1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Rancan2012_C1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:For_Measurement rdf:resource="&wiki;Rancan2012_M1_M3"/>
+		<property:For_Measurement rdf:resource="&wiki;Rancan2012_M2_M3"/>
+		<property:For_Measurement rdf:resource="&wiki;Rancan2012_M3_M3"/>
+		<property:For_Measurement rdf:resource="&wiki;Rancan2012_M4_M3"/>
+		<property:For_Measurement rdf:resource="&wiki;Rancan2012_M5_M3"/>
+		<property:For_Measurement rdf:resource="&wiki;Rancan2012_M6_M3"/>
+		<property:For_Measurement rdf:resource="&wiki;Rancan2012_M7_M3"/>
+		<property:For_Measurement rdf:resource="&wiki;Rancan2012_M8_M3"/>
+		<property:Has_Endpoint rdf:resource="&wiki;PH"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">7</property:Has_Endpoint_Value>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-09-10T20:52:03</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<owl:ObjectProperty rdf:about="&property;For_Measurement">
+		<rdfs:label>For Measurement</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Property:For_Measurement"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Property:For_Measurement"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">102</swivt:wikiNamespace>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-09-10T20:38:58</swivt:wikiPageModificationDate>
+	</owl:ObjectProperty>
+	<swivt:Subject rdf:about="&wiki;Rancan2012_M1_M3_C1">
+		<rdfs:label>Rancan2012 M1 M3 C1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Rancan2012_M1_M3_C1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Rancan2012_M1_M3_C1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:For_Measurement rdf:resource="&wiki;Rancan2012_M1_M3"/>
+		<property:For_Measurement rdf:resource="&wiki;Rancan2012_M2_M3"/>
+		<property:For_Measurement rdf:resource="&wiki;Rancan2012_M3_M3"/>
+		<property:For_Measurement rdf:resource="&wiki;Rancan2012_M4_M3"/>
+		<property:For_Measurement rdf:resource="&wiki;Rancan2012_M5_M3"/>
+		<property:For_Measurement rdf:resource="&wiki;Rancan2012_M6_M3"/>
+		<property:For_Measurement rdf:resource="&wiki;Rancan2012_M7_M3"/>
+		<property:For_Measurement rdf:resource="&wiki;Rancan2012_M8_M3"/>
+		<property:Has_Endpoint rdf:resource="&wiki;PH"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">7</property:Has_Endpoint_Value>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-09-10T20:52:03</swivt:wikiPageModificationDate>
+		<owl:sameAs rdf:resource="&wiki;Rancan2012_C1"/>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Rancan2012_M2_M3">
+		<rdfs:label>Rancan2012 M2 M3</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Rancan2012_M2_M3"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Rancan2012_M2_M3"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Zeta_Potential"/>
+		<property:Has_Endpoint_Error rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4</property:Has_Endpoint_Error>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-45</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eV</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Rancan2012_M2"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-09-10T20:52:45</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Rancan2012_M3_M3">
+		<rdfs:label>Rancan2012 M3 M3</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Rancan2012_M3_M3"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Rancan2012_M3_M3"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Zeta_Potential"/>
+		<property:Has_Endpoint_Error rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5</property:Has_Endpoint_Error>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-56</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eV</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Rancan2012_M3"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-09-10T20:53:03</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Rancan2012_M4_M3">
+		<rdfs:label>Rancan2012 M4 M3</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Rancan2012_M4_M3"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Rancan2012_M4_M3"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Zeta_Potential"/>
+		<property:Has_Endpoint_Error rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2</property:Has_Endpoint_Error>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-48</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eV</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Rancan2012_M4"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-09-10T20:53:23</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;APS_Coating">
+		<rdfs:label>APS Coating</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;APS_Coating"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/APS_Coating"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoatings"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical rdf:resource="&wiki;APS"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-09-11T07:01:53</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;APS">
+		<rdfs:label>APS</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;APS"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/APS"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoating_Parts"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-09-11T07:02:26</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Rancan2012_M5">
+		<rdfs:label>Rancan2012 M5</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Rancan2012_M5"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Rancan2012_M5"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
+		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Coating rdf:resource="&wiki;APS_Coating"/>
+		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SiO2</property:Has_Chemical_Composition>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">207</property:Has_Identifier>
+		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APS-SiO2-42</property:Has_Label>
+		<property:Has_NM_Type rdf:resource="&wiki;MetalOxide"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-09-11T07:04:09</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Rancan2012_M6">
+		<rdfs:label>Rancan2012 M6</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Rancan2012_M6"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Rancan2012_M6"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
+		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Coating rdf:resource="&wiki;APS_Coating"/>
+		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SiO2</property:Has_Chemical_Composition>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">208</property:Has_Identifier>
+		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APS-SiO2-75</property:Has_Label>
+		<property:Has_NM_Type rdf:resource="&wiki;MetalOxide"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-09-11T07:04:44</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Rancan2012_M7">
+		<rdfs:label>Rancan2012 M7</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Rancan2012_M7"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Rancan2012_M7"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
+		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Coating rdf:resource="&wiki;APS_Coating"/>
+		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SiO2</property:Has_Chemical_Composition>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">209</property:Has_Identifier>
+		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APS-SiO2-200</property:Has_Label>
+		<property:Has_NM_Type rdf:resource="&wiki;MetalOxide"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-09-11T07:04:58</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Rancan2012_M8">
+		<rdfs:label>Rancan2012 M8</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Rancan2012_M8"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Rancan2012_M8"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
+		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Coating rdf:resource="&wiki;APS_Coating"/>
+		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SiO2</property:Has_Chemical_Composition>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">210</property:Has_Identifier>
+		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APS-SiO2-300</property:Has_Label>
+		<property:Has_NM_Type rdf:resource="&wiki;MetalOxide"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-09-11T07:05:12</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Rancan2012_M5_M3">
+		<rdfs:label>Rancan2012 M5 M3</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Rancan2012_M5_M3"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Rancan2012_M5_M3"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Zeta_Potential"/>
+		<property:Has_Endpoint_Error rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2</property:Has_Endpoint_Error>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">12</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eV</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Rancan2012_M5"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-09-11T07:07:53</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Rancan2012_M6_M3">
+		<rdfs:label>Rancan2012 M6 M3</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Rancan2012_M6_M3"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Rancan2012_M6_M3"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Zeta_Potential"/>
+		<property:Has_Endpoint_Error rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3</property:Has_Endpoint_Error>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">11</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eV</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Rancan2012_M6"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-09-11T08:04:36</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Rancan2012_M7_M3">
+		<rdfs:label>Rancan2012 M7 M3</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Rancan2012_M7_M3"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Rancan2012_M7_M3"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Zeta_Potential"/>
+		<property:Has_Endpoint_Error rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Has_Endpoint_Error>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eV</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Rancan2012_M7"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-09-11T08:19:26</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Rancan2012_M8_M3">
+		<rdfs:label>Rancan2012 M8 M3</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Rancan2012_M8_M3"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Rancan2012_M8_M3"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Zeta_Potential"/>
+		<property:Has_Endpoint_Error rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2</property:Has_Endpoint_Error>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eV</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Rancan2012_M8"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-09-11T08:19:45</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Purity">
+		<rdfs:label>Purity</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Purity"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Purity"/>
+		<rdf:type rdf:resource="&wiki;Category-3ADescriptors"/>
+		<rdf:type rdf:resource="&wiki;Category-3AEndpoints"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-09-16T08:27:23</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Surface_Area">
+		<rdfs:label>Surface Area</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Surface_Area"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Surface_Area"/>
+		<rdf:type rdf:resource="&wiki;Category-3ADescriptors"/>
+		<rdf:type rdf:resource="&wiki;Category-3AEndpoints"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-09-16T08:27:44</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<owl:DatatypeProperty rdf:about="&swivt;creationDate" />
 	<owl:ObjectProperty rdf:about="&swivt;page" />
