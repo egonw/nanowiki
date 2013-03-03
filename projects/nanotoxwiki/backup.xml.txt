@@ -2,7 +2,7 @@
   <siteinfo>
     <sitename>NanoWiki</sitename>
     <base>http://localhost/mediawiki/index.php/Main_Page</base>
-    <generator>MediaWiki 1.15.5-2squeeze4</generator>
+    <generator>MediaWiki 1.15.5-2squeeze5</generator>
     <case>first-letter</case>
     <namespaces>
       <namespace key="-2">Media</namespace>
@@ -34,21 +34,6 @@
   <page>
     <title>Main Page</title>
     <id>1</id>
-    <revision>
-      <id>1</id>
-      <timestamp>2012-02-01T06:12:44Z</timestamp>
-      <contributor>
-        <ip>MediaWiki default</ip>
-      </contributor>
-      <text xml:space="preserve">'''MediaWiki has been successfully installed.'''
-
-Consult the [http://meta.wikimedia.org/wiki/Help:Contents User's Guide] for information on using the wiki software.
-
-== Getting started ==
-* [http://www.mediawiki.org/wiki/Manual:Configuration_settings Configuration settings list]
-* [http://www.mediawiki.org/wiki/Manual:FAQ MediaWiki FAQ]
-* [https://lists.wikimedia.org/mailman/listinfo/mediawiki-announce MediaWiki release mailing list]</text>
-    </revision>
     <revision>
       <id>2</id>
       <timestamp>2011-04-29T10:04:12Z</timestamp>
@@ -767,6 +752,21 @@ You can browse this data via one of the following categories:
 ** mysqldump -u root -p wikidb --default-character-set=latin1 &gt; backup.sql.txt</text>
     </revision>
     <revision>
+      <id>1</id>
+      <timestamp>2012-02-01T06:12:44Z</timestamp>
+      <contributor>
+        <ip>MediaWiki default</ip>
+      </contributor>
+      <text xml:space="preserve">'''MediaWiki has been successfully installed.'''
+
+Consult the [http://meta.wikimedia.org/wiki/Help:Contents User's Guide] for information on using the wiki software.
+
+== Getting started ==
+* [http://www.mediawiki.org/wiki/Manual:Configuration_settings Configuration settings list]
+* [http://www.mediawiki.org/wiki/Manual:FAQ MediaWiki FAQ]
+* [https://lists.wikimedia.org/mailman/listinfo/mediawiki-announce MediaWiki release mailing list]</text>
+    </revision>
+    <revision>
       <id>1385</id>
       <timestamp>2012-02-24T15:27:19Z</timestamp>
       <contributor>
@@ -987,6 +987,176 @@ You can browse this data via one of the following categories:
 ** [[:Category:NanoMaterials|NanoMaterials]] ({{#ask: [[Category:Studies]] [[Has Entities::!Compounds]] | format=count}}), of which Metal oxides ({{#ask: [[Category:Studies]] [[Has Entities::MetalOxides]] | format=count}}),
 ** [[:Category:Compounds|Compounds]] ({{#ask: [[Category:Studies]] [[Has Entities::Compounds]] | format=count}})
 * [[:Category:Papers|Papers]] ({{#ask: [[Category:Papers]] | format=count}}) , [[:Category:PapersToRead|To Read]] ({{#ask: [[Category:PapersToRead]] | format=count}})
+* [[:Category:Descriptors|Descriptors]] ({{#ask: [[Category:Descriptors]] | format=count}}),
+* [[:Category:Endpoints|Endpoints]] ({{#ask: [[Category:Endpoints]] | format=count}}),
+* [[:Category:Relationships|Relationships]] ({{#ask: [[Category:Relationships]] | format=count}}),
+* [[:Category:Toxicity|Toxicity]] ({{#ask: [[Category:Toxicity]] | format=count}}),
+* [[:Category:CellLines|Cell lines]] ({{#ask: [[Category:CellLines]] | format=count}}).
+
+== Admin ==
+
+* [[Installation]]
+* [[Backup and Restore]] of the data</text>
+    </revision>
+    <revision>
+      <id>1717</id>
+      <timestamp>2013-03-02T21:29:08Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>/* Nanomaterial Database */</comment>
+      <text xml:space="preserve">Egon's Lab Notebook.
+
+== Nanomaterial Database ==
+
+Database containing QSAR studies from literature with assay data from cell line experiments.
+You can browse this data via one of the following categories:
+
+* [[:Category:Chemical_Entities|Chemical Entities]] ({{#ask: [[Category:Chemical_Entities]] | format=count}}),
+** [[:Category:Materials|Materials]] ({{#ask: [[Category:Materials]] | format=count}}),
+** [[:Category:NanoMaterials|Nanomaterials]] ({{#ask: [[Category:NanoMaterials]] | format=count}}),
+*** [[:Category:MetalOxides|Metal oxides]] ({{#ask: [[Category:MetalOxides]] | format=count}}), [[:Category:Metals|Metals]] ({{#ask: [[Category:Metals]] | format=count}}), [[:Category:Alloys|Alloys]] ({{#ask: [[Category:Alloys]] | format=count}})
+*** [[:Category:Coatings|Coatings]] ({{#ask: [[Category:Coatings]] | format=count}}), [[:Category:Coating_Parts|Coating Parts]] ({{#ask: [[Category:Coating_Parts]] | format=count}})
+* [[:Category:Studies|Studies]] ({{#ask: [[Category:Studies]] | format=count}}), [[:Category:Measurements|Measurements]] ({{#ask: [[Category:Measurements]] | format=count}}),
+** [[:Category:NanoMaterials|NanoMaterials]] ({{#ask: [[Category:Studies]] [[Has Entities::!Compounds]] | format=count}}), of which Metal oxides ({{#ask: [[Category:Studies]] [[Has Entities::MetalOxides]] | format=count}}),
+** [[:Category:Compounds|Compounds]] ({{#ask: [[Category:Studies]] [[Has Entities::Compounds]] | format=count}})
+* [[:Category:Papers|Papers]] ({{#ask: [[Category:Papers]] | format=count}}) , [[:Category:PapersToRead|To Read]] ({{#ask: [[Category:PapersToRead]] | format=count}}) from ({{#ask: [[Category:Journals]] | format=count}}) [[:Category:Journals|Journals]] 
+* [[:Category:Descriptors|Descriptors]] ({{#ask: [[Category:Descriptors]] | format=count}}),
+* [[:Category:Endpoints|Endpoints]] ({{#ask: [[Category:Endpoints]] | format=count}}),
+* [[:Category:Relationships|Relationships]] ({{#ask: [[Category:Relationships]] | format=count}}),
+* [[:Category:Toxicity|Toxicity]] ({{#ask: [[Category:Toxicity]] | format=count}}),
+* [[:Category:CellLines|Cell lines]] ({{#ask: [[Category:CellLines]] | format=count}}).
+
+== Admin ==
+
+* [[Installation]]
+* [[Backup and Restore]] of the data</text>
+    </revision>
+    <revision>
+      <id>1718</id>
+      <timestamp>2013-03-02T21:29:26Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>/* Nanomaterial Database */</comment>
+      <text xml:space="preserve">Egon's Lab Notebook.
+
+== Nanomaterial Database ==
+
+Database containing QSAR studies from literature with assay data from cell line experiments.
+You can browse this data via one of the following categories:
+
+* [[:Category:Chemical_Entities|Chemical Entities]] ({{#ask: [[Category:Chemical_Entities]] | format=count}}),
+** [[:Category:Materials|Materials]] ({{#ask: [[Category:Materials]] | format=count}}),
+** [[:Category:NanoMaterials|Nanomaterials]] ({{#ask: [[Category:NanoMaterials]] | format=count}}),
+*** [[:Category:MetalOxides|Metal oxides]] ({{#ask: [[Category:MetalOxides]] | format=count}}), [[:Category:Metals|Metals]] ({{#ask: [[Category:Metals]] | format=count}}), [[:Category:Alloys|Alloys]] ({{#ask: [[Category:Alloys]] | format=count}})
+*** [[:Category:Coatings|Coatings]] ({{#ask: [[Category:Coatings]] | format=count}}), [[:Category:Coating_Parts|Coating Parts]] ({{#ask: [[Category:Coating_Parts]] | format=count}})
+* [[:Category:Studies|Studies]] ({{#ask: [[Category:Studies]] | format=count}}), [[:Category:Measurements|Measurements]] ({{#ask: [[Category:Measurements]] | format=count}}),
+** [[:Category:NanoMaterials|NanoMaterials]] ({{#ask: [[Category:Studies]] [[Has Entities::!Compounds]] | format=count}}), of which Metal oxides ({{#ask: [[Category:Studies]] [[Has Entities::MetalOxides]] | format=count}}),
+** [[:Category:Compounds|Compounds]] ({{#ask: [[Category:Studies]] [[Has Entities::Compounds]] | format=count}})
+* [[:Category:Papers|Papers]] ({{#ask: [[Category:Papers]] | format=count}}) , [[:Category:PapersToRead|To Read]] ({{#ask: [[Category:PapersToRead]] | format=count}}) from {{#ask: [[Category:Journals]] | format=count}} [[:Category:Journals|Journals]] 
+* [[:Category:Descriptors|Descriptors]] ({{#ask: [[Category:Descriptors]] | format=count}}),
+* [[:Category:Endpoints|Endpoints]] ({{#ask: [[Category:Endpoints]] | format=count}}),
+* [[:Category:Relationships|Relationships]] ({{#ask: [[Category:Relationships]] | format=count}}),
+* [[:Category:Toxicity|Toxicity]] ({{#ask: [[Category:Toxicity]] | format=count}}),
+* [[:Category:CellLines|Cell lines]] ({{#ask: [[Category:CellLines]] | format=count}}).
+
+== Admin ==
+
+* [[Installation]]
+* [[Backup and Restore]] of the data</text>
+    </revision>
+    <revision>
+      <id>1788</id>
+      <timestamp>2013-03-03T14:16:12Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>/* Nanomaterial Database */</comment>
+      <text xml:space="preserve">Egon's Lab Notebook.
+
+== Nanomaterial Database ==
+
+Database containing QSAR studies from literature with assay data from cell line experiments.
+You can browse this data via one of the following categories:
+
+* [[:Category:Chemical_Entities|Chemical Entities]] ({{#ask: [[Category:Chemical_Entities]] | format=count}}),
+** [[:Category:Materials|Materials]] ({{#ask: [[Category:Materials]] | format=count}}),
+** [[:Category:NanoMaterials|Nanomaterials]] ({{#ask: [[Category:NanoMaterials]] | format=count}}),
+*** [[:Category:MetalOxides|Metal oxides]] ({{#ask: [[Category:MetalOxides]] | format=count}}), [[:Category:Metals|Metals]] ({{#ask: [[Category:Metals]] | format=count}}), [[:Category:Alloys|Alloys]] ({{#ask: [[Category:Alloys]] | format=count}})
+*** [[:Category:Coatings|Coatings]] ({{#ask: [[Category:Coatings]] | format=count}}), [[:Category:Coating_Parts|Coating Parts]] ({{#ask: [[Category:Coating_Parts]] | format=count}})
+* [[:Category:Studies|Studies]] ({{#ask: [[Category:Studies]] | format=count}}), [[:Category:Measurements|Measurements]] ({{#ask: [[Category:Measurements]] | format=count}}), [[:Category:Methods|Methods]] ({{#ask: [[Category:Methods]] | format=count}})
+** [[:Category:NanoMaterials|NanoMaterials]] ({{#ask: [[Category:Studies]] [[Has Entities::!Compounds]] | format=count}}), of which Metal oxides ({{#ask: [[Category:Studies]] [[Has Entities::MetalOxides]] | format=count}}),
+** [[:Category:Compounds|Compounds]] ({{#ask: [[Category:Studies]] [[Has Entities::Compounds]] | format=count}})
+* [[:Category:Papers|Papers]] ({{#ask: [[Category:Papers]] | format=count}}) , [[:Category:PapersToRead|To Read]] ({{#ask: [[Category:PapersToRead]] | format=count}}) from {{#ask: [[Category:Journals]] | format=count}} [[:Category:Journals|Journals]] 
+* [[:Category:Descriptors|Descriptors]] ({{#ask: [[Category:Descriptors]] | format=count}}),
+* [[:Category:Endpoints|Endpoints]] ({{#ask: [[Category:Endpoints]] | format=count}}),
+* [[:Category:Relationships|Relationships]] ({{#ask: [[Category:Relationships]] | format=count}}),
+* [[:Category:Toxicity|Toxicity]] ({{#ask: [[Category:Toxicity]] | format=count}}),
+* [[:Category:CellLines|Cell lines]] ({{#ask: [[Category:CellLines]] | format=count}}).
+
+== Admin ==
+
+* [[Installation]]
+* [[Backup and Restore]] of the data</text>
+    </revision>
+    <revision>
+      <id>1830</id>
+      <timestamp>2013-03-03T15:40:47Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>/* Nanomaterial Database */</comment>
+      <text xml:space="preserve">Egon's Lab Notebook.
+
+== Nanomaterial Database ==
+
+Database containing QSAR studies from literature with assay data from cell line experiments.
+You can browse this data via one of the following categories:
+
+* [[:Category:Chemical_Entities|Chemical Entities]] ({{#ask: [[Category:Chemical_Entities]] | format=count}}),
+** [[:Category:Materials|Materials]] ({{#ask: [[Category:Materials]] | format=count}}),
+** [[:Category:NanoMaterials|Nanomaterials]] ({{#ask: [[Category:NanoMaterials]] | format=count}}),
+*** [[:Category:MetalOxides|Metal oxides]] ({{#ask: [[Category:MetalOxides]] | format=count}}), [[:Category:Metals|Metals]] ({{#ask: [[Category:Metals]] | format=count}}), [[:Category:Alloys|Alloys]] ({{#ask: [[Category:Alloys]] | format=count}}), [[:Category:CarbonNanotube|CarbonNanotube]] ({{#ask: [[Category:CarbonNanotube]] | format=count}})
+*** [[:Category:Coatings|Coatings]] ({{#ask: [[Category:Coatings]] | format=count}}), [[:Category:Coating_Parts|Coating Parts]] ({{#ask: [[Category:Coating_Parts]] | format=count}})
+* [[:Category:Studies|Studies]] ({{#ask: [[Category:Studies]] | format=count}}), [[:Category:Measurements|Measurements]] ({{#ask: [[Category:Measurements]] | format=count}}), [[:Category:Methods|Methods]] ({{#ask: [[Category:Methods]] | format=count}})
+** [[:Category:NanoMaterials|NanoMaterials]] ({{#ask: [[Category:Studies]] [[Has Entities::!Compounds]] | format=count}}), of which Metal oxides ({{#ask: [[Category:Studies]] [[Has Entities::MetalOxides]] | format=count}}),
+** [[:Category:Compounds|Compounds]] ({{#ask: [[Category:Studies]] [[Has Entities::Compounds]] | format=count}})
+* [[:Category:Papers|Papers]] ({{#ask: [[Category:Papers]] | format=count}}) , [[:Category:PapersToRead|To Read]] ({{#ask: [[Category:PapersToRead]] | format=count}}) from {{#ask: [[Category:Journals]] | format=count}} [[:Category:Journals|Journals]] 
+* [[:Category:Descriptors|Descriptors]] ({{#ask: [[Category:Descriptors]] | format=count}}),
+* [[:Category:Endpoints|Endpoints]] ({{#ask: [[Category:Endpoints]] | format=count}}),
+* [[:Category:Relationships|Relationships]] ({{#ask: [[Category:Relationships]] | format=count}}),
+* [[:Category:Toxicity|Toxicity]] ({{#ask: [[Category:Toxicity]] | format=count}}),
+* [[:Category:CellLines|Cell lines]] ({{#ask: [[Category:CellLines]] | format=count}}).
+
+== Admin ==
+
+* [[Installation]]
+* [[Backup and Restore]] of the data</text>
+    </revision>
+    <revision>
+      <id>1832</id>
+      <timestamp>2013-03-03T15:42:30Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>/* Nanomaterial Database */</comment>
+      <text xml:space="preserve">Egon's Lab Notebook.
+
+== Nanomaterial Database ==
+
+Database containing QSAR studies from literature with assay data from cell line experiments.
+You can browse this data via one of the following categories:
+
+* [[:Category:Chemical_Entities|Chemical Entities]] ({{#ask: [[Category:Chemical_Entities]] | format=count}}),
+** [[:Category:Materials|Materials]] ({{#ask: [[Category:Materials]] | format=count}}),
+** [[:Category:NanoMaterials|Nanomaterials]] ({{#ask: [[Category:NanoMaterials]] | format=count}}),
+*** [[:Category:MetalOxides|Metal oxides]] ({{#ask: [[Category:MetalOxides]] | format=count}}), [[:Category:Metals|Metals]] ({{#ask: [[Category:Metals]] | format=count}}), [[:Category:Alloys|Alloys]] ({{#ask: [[Category:Alloys]] | format=count}}), [[:Category:CarbonNanotubes|CarbonNanotubes]] ({{#ask: [[Category:CarbonNanotubes]] | format=count}})
+*** [[:Category:Coatings|Coatings]] ({{#ask: [[Category:Coatings]] | format=count}}), [[:Category:Coating_Parts|Coating Parts]] ({{#ask: [[Category:Coating_Parts]] | format=count}})
+* [[:Category:Studies|Studies]] ({{#ask: [[Category:Studies]] | format=count}}), [[:Category:Measurements|Measurements]] ({{#ask: [[Category:Measurements]] | format=count}}), [[:Category:Methods|Methods]] ({{#ask: [[Category:Methods]] | format=count}})
+** [[:Category:NanoMaterials|NanoMaterials]] ({{#ask: [[Category:Studies]] [[Has Entities::!Compounds]] | format=count}}), of which Metal oxides ({{#ask: [[Category:Studies]] [[Has Entities::MetalOxides]] | format=count}}),
+** [[:Category:Compounds|Compounds]] ({{#ask: [[Category:Studies]] [[Has Entities::Compounds]] | format=count}})
+* [[:Category:Papers|Papers]] ({{#ask: [[Category:Papers]] | format=count}}) , [[:Category:PapersToRead|To Read]] ({{#ask: [[Category:PapersToRead]] | format=count}}) from {{#ask: [[Category:Journals]] | format=count}} [[:Category:Journals|Journals]] 
 * [[:Category:Descriptors|Descriptors]] ({{#ask: [[Category:Descriptors]] | format=count}}),
 * [[:Category:Endpoints|Endpoints]] ({{#ask: [[Category:Endpoints]] | format=count}}),
 * [[:Category:Relationships|Relationships]] ({{#ask: [[Category:Relationships]] | format=count}}),
@@ -12956,6 +13126,129 @@ Template that causes pages to show up as [[:Category:Papers|Papers]].
 [[Category:Papers]]__NOEDITSECTION____NOTOC__
 &lt;/includeonly&gt;</text>
     </revision>
+    <revision>
+      <id>1706</id>
+      <timestamp>2013-03-02T21:16:45Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">&lt;noinclude&gt;
+Template that causes pages to show up as [[:Category:Papers|Papers]].
+&lt;pre&gt;
+{{Paper
+|Has Year=
+|Has DOI=
+|Has Journal=
+|Substances extracted=
+|Relationships extracted=
+|Read=
+|Summary=
+}}
+&lt;/pre&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: right; table-layout:fixed; word-wrap: break-word;&quot;
+! colspan=2 style=&quot;text-align: center; font-size: 125%&quot; | {{{Name|{{PAGENAME}} }}}
+|-
+{{#if:{{{Has Year|}}}|
+{{!}}-
+{{!}} Year
+{{!}} {{{Has Year}}} 
+}}
+{{#if:{{{Has DOI|}}}|
+{{!}}-
+{{!}} DOI
+{{!}} {{{Has DOI}}} 
+}}
+{{#if:{{{Has Journal|}}}|
+{{!}}-
+{{!}} Journal
+{{!}} {{{Has Journal}}} 
+}}
+{{#if:{{{Substances extracted|}}}|
+{{!}}-
+{{!}} Substances
+{{!}} {{{Substances extracted}}} 
+}}
+{{#if:{{{Relationships extracted|}}}|
+{{!}}-
+{{!}} Relationships
+{{!}} {{{Relationships extracted}}} 
+}}
+{{#if:{{{Read|}}}|
+{{!}}-
+{{!}} Read
+{{!}} {{{Read}}} 
+}}
+|}
+{{#if:{{{Summary|}}}|
+{{{Summary}}} 
+}}
+== Materials ==
+{{#ask: [[Category:Materials]] [[Has Source::{{PAGENAME}}]]
+| ? Has Label
+| ? Has Chemical Composition
+| ? Has Chemical Coating
+}}
+
+== Relationships ==
+{{#ask: [[Category:Relationships]] [[Has Source::{{PAGENAME}}]]
+| ? Has Descriptor
+| ? Has Relation
+| ? Has End point
+| ? Has Source
+}}
+{{#ask: [[Category:Relationships]] [[From Study.Has Source::{{PAGENAME}}]]
+| ? Has Descriptor
+| ? Has Relation
+| ? Has End point
+| ? From Study
+}}
+
+== Studies ==
+{{#ask: [[Category:Studies]] [[Has Source::{{PAGENAME}}]]
+| ? Has Study Type
+| ? Has Object Count
+| ? Has R2
+| ? Has Q2
+| ? Has RMSEP
+| ? Has EA
+}}
+
+{{#if:{{{Has DOI|}}} |
+{{#set:
+|Has DOI={{{Has DOI|}}}
+}}
+{{#set:
+|Equivalent URI=http://dx.doi.org/{{{Has DOI|}}}
+}}
+| }}
+{{#if:{{{Has Year|}}} |
+{{#set:
+|Has Year={{{Has Year|}}}
+}}
+| }}
+{{#if:{{{Has Journal|}}} |
+{{#set:
+|Has Journal={{{Has Journal|}}}
+}}
+| }}
+{{#if:{{{Substances extracted|}}} |
+{{#set:
+|Substances extracted={{{Substances extracted|}}}
+}}
+| }}
+{{#if:{{{Relationships extracted|}}} |
+{{#set:
+|Relationships extracted={{{Relationships extracted|}}}
+}}
+| }}
+{{#if:{{{Read|}}} or {{{Relationships extracted|}}} or {{{Substances extracted|}}} |
+|
+[[Category:PapersToRead]]
+}}
+[[Category:Papers]]__NOEDITSECTION____NOTOC__
+&lt;/includeonly&gt;</text>
+    </revision>
   </page>
   <page>
     <title>Puzyn2011</title>
@@ -13040,6 +13333,23 @@ Template that causes pages to show up as [[:Category:Papers|Papers]].
       <text xml:space="preserve">{{Paper
 |Has Year=2011
 |Has DOI=10.1038/nnano.2011.10
+|Substances extracted=Yes
+|Relationships extracted=Yes
+}}
+
+&lt;pdf height=&quot;300&quot;&gt;f/f0/Nnano.2011.10.pdf&lt;/pdf&gt;
+&lt;pdf height=&quot;300&quot;&gt;f/f2/Puzyn2011_Supp1.pdf&lt;/pdf&gt;</text>
+    </revision>
+    <revision>
+      <id>1736</id>
+      <timestamp>2013-03-02T21:37:47Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Paper
+|Has Year=2011
+|Has DOI=10.1038/nnano.2011.10
+|Has Journal=Nature Nanotechnology
 |Substances extracted=Yes
 |Relationships extracted=Yes
 }}
@@ -13207,6 +13517,24 @@ Template that causes pages to show up as [[:Category:Papers|Papers]].
       <text xml:space="preserve">Journal papers described in this database.
 
 {{#ask: [[Category:Papers]]
+| ? Has Year
+| ? Has DOI
+| ? Substances extracted
+| ? Relationships extracted
+| sort=Has Year
+| order=descending
+}}</text>
+    </revision>
+    <revision>
+      <id>1715</id>
+      <timestamp>2013-03-02T21:26:30Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">Journal papers described in this database.
+
+{{#ask: [[Category:Papers]]
+| ? Has Journal
 | ? Has Year
 | ? Has DOI
 | ? Substances extracted
@@ -18140,6 +18468,24 @@ predominant) independently of their surface modiﬁers&quot;
 
 &lt;pdf height=&quot;300&quot;&gt;a/a9/Fourches2010.pdf&lt;/pdf&gt;</text>
     </revision>
+    <revision>
+      <id>1719</id>
+      <timestamp>2013-03-02T21:30:42Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Paper
+|Has Year=2010
+|Has DOI=10.1021/nn1013484
+|Has Journal=ACS Nano
+|Substances extracted=Yes
+}}
+
+&quot;revealed that all MNPs included in cluster 2 featured the same metal core (Fe3O4-
+predominant) independently of their surface modiﬁers&quot;
+
+&lt;pdf height=&quot;300&quot;&gt;a/a9/Fourches2010.pdf&lt;/pdf&gt;</text>
+    </revision>
   </page>
   <page>
     <title>InVitro2010Fourches</title>
@@ -19895,6 +20241,20 @@ The CHEMINF field does the same but then for the CHEMINF ontology.
 
 Small molecule study.</text>
     </revision>
+    <revision>
+      <id>1773</id>
+      <timestamp>2013-03-03T10:55:37Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Paper
+|Has Year=2010
+|Has DOI=10.1016/j.ejmech.2010.08.033
+|Has Journal=European Journal of Medicinal Chemistry
+}}
+
+Small molecule study.</text>
+    </revision>
   </page>
   <page>
     <title>Katriztky2010QSAR</title>
@@ -20030,6 +20390,21 @@ Small molecule study.</text>
       <text xml:space="preserve">{{Paper
 |Has Year=2004
 |Has DOI=10.1016/j.bmc.2004.05.026
+|Relationships extracted=Yes
+}}
+
+&lt;pdf&gt;9/9a/Kamal2004.pdf&lt;/pdf&gt;</text>
+    </revision>
+    <revision>
+      <id>1781</id>
+      <timestamp>2013-03-03T11:15:36Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Paper
+|Has Year=2004
+|Has DOI=10.1016/j.bmc.2004.05.026
+|Has Journal=Bioorganic &amp; Medicinal Chemistry
 |Relationships extracted=Yes
 }}
 
@@ -20282,6 +20657,23 @@ Small molecule study.</text>
 &lt;pdf height=&quot;300&quot;&gt;f/ff/Shaw2008.pdf&lt;/pdf&gt;
 &lt;pdf height=&quot;300&quot;&gt;c/c3/Shaw2008_Supp1.pdf&lt;/pdf&gt;</text>
     </revision>
+    <revision>
+      <id>1759</id>
+      <timestamp>2013-03-03T10:28:51Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Paper
+|Has Year=2008
+|Has DOI=10.1073/pnas.0802878105
+|Has Journal=PNAS
+|Relationships extracted=Yes
+|Substances extracted=Yes
+}}
+
+&lt;pdf height=&quot;300&quot;&gt;f/ff/Shaw2008.pdf&lt;/pdf&gt;
+&lt;pdf height=&quot;300&quot;&gt;c/c3/Shaw2008_Supp1.pdf&lt;/pdf&gt;</text>
+    </revision>
   </page>
   <page>
     <title>Karlsson2008</title>
@@ -20365,6 +20757,22 @@ Small molecule study.</text>
       <text xml:space="preserve">{{Paper
 |Has Year=2008
 |Has DOI=10.1021/tx800064j
+|Substances extracted=Yes
+|Relationships extracted=No
+}}
+
+&lt;pdf height=&quot;300&quot;&gt;a/a5/Karlsson_2008.pdf&lt;/pdf&gt;</text>
+    </revision>
+    <revision>
+      <id>1732</id>
+      <timestamp>2013-03-02T21:35:36Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Paper
+|Has Year=2008
+|Has DOI=10.1021/tx800064j
+|Has Journal=Chemical Research in Toxicology
 |Substances extracted=Yes
 |Relationships extracted=No
 }}
@@ -21608,6 +22016,23 @@ This paper studies DNA damage or CoCr micro and nanoparticles.</text>
 
 This paper studies DNA damage or CoCr micro and nanoparticles.</text>
     </revision>
+    <revision>
+      <id>1735</id>
+      <timestamp>2013-03-02T21:37:25Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Paper
+|Has Year=2009
+|Has DOI= 10.1038/NNANO.2009.313
+|Has Journal=Nature Nanotechnology
+|Substances extracted=Yes
+}}
+
+[[Category:PapersToRead]]
+
+This paper studies DNA damage or CoCr micro and nanoparticles.</text>
+    </revision>
   </page>
   <page>
     <title>Hu2008</title>
@@ -21649,6 +22074,24 @@ About graphene oxides.
       </contributor>
       <text xml:space="preserve">{{Paper
 |Has Year=2008
+|Has DOI= 10.1021/nn200021j
+}}
+
+About graphene oxides.
+
+&lt;pdf&gt;e/ee/Hu2011.pdf&lt;/pdf&gt;
+
+[[Category:PapersToRead]]</text>
+    </revision>
+    <revision>
+      <id>1722</id>
+      <timestamp>2013-03-02T21:31:27Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Paper
+|Has Year=2008
+|Has Journal=ACS Nano
 |Has DOI= 10.1021/nn200021j
 }}
 
@@ -21872,6 +22315,26 @@ A classification-based cytotoxicity nanostructure-activity relationship (nanoSAR
 
 &lt;pdf height=&quot;300&quot;&gt;7/70/Liu2011.pdf&lt;/pdf&gt;</text>
     </revision>
+    <revision>
+      <id>1730</id>
+      <timestamp>2013-03-02T21:33:37Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Paper
+|Has Year=2011
+|Has DOI=10.1002/smll.201002366
+|Has Journal=Small
+|Substances extracted=Yes
+|Relationships extracted=Yes
+}}
+
+== Abstract ==
+
+A classification-based cytotoxicity nanostructure-activity relationship (nanoSAR) is presented based on a set of nine metal oxide nanoparticles to which transformed bronchial epithelial cells (BEAS-2B) were exposed over a range of concentrations (0.375-200 mg L(-1) ) and exposure times up to 24 h. The nanoSAR is developed using cytotoxicity data from a high-throughput screening assay that was processed to identify and label toxic (in terms of the propidium iodide uptake of BEAS-2B cells) versus nontoxic events relative to an unexposed control cell population. Starting with a set of fourteen intuitive but fundamental physicochemical nanoSAR input parameters, a number of models were identified which had a classification accuracy above 95%. The best-performing model had a 100% classification accuracy in both internal and external validations. This model is based on three descriptors: atomization energy of the metal oxide, period of the nanoparticle metal, and nanoparticle primary size, in addition to nanoparticle volume fraction (in solution). Notwithstanding the success of the present modeling approach with a relatively small nanoparticle library, it is important to recognize that a significantly larger data set would be needed in order to expand the applicability domain and increase the confidence and reliability of data-driven nanoSARs.
+
+&lt;pdf height=&quot;300&quot;&gt;7/70/Liu2011.pdf&lt;/pdf&gt;</text>
+    </revision>
   </page>
   <page>
     <title>Akhavan2010</title>
@@ -21905,6 +22368,22 @@ Graphenes and graphene oxides.
 
 [[Category:PapersToRead]]</text>
     </revision>
+    <revision>
+      <id>1707</id>
+      <timestamp>2013-03-02T21:17:34Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Paper
+|Has Year=2010
+|Has Journal=ACS Nano
+|Has DOI= 10.1021/nn101390x
+}}
+
+Graphenes and graphene oxides.
+
+[[Category:PapersToRead]]</text>
+    </revision>
   </page>
   <page>
     <title>Kotchey2011</title>
@@ -21931,6 +22410,22 @@ Graphenes and graphene oxides.
       </contributor>
       <text xml:space="preserve">{{Paper
 |Has Year=2011
+|Has DOI= 10.1021/nn103265h
+}}
+
+Abstract: &quot;Two-dimensional graphitic carbon is a new material with many emerging applications, and studying its chemical properties is an important goal. Here, we reported a new phenomenon—the enzymatic oxidation of a single layer of graphitic carbon by horseradish peroxidase (HRP). In the presence of low concentrations of hydrogen peroxide (40 μM), HRP catalyzed the oxidation of graphene oxide, which resulted in the formation of holes on its basal plane. During the same period of analysis, HRP failed to oxidize chemically reduced graphene oxide (RGO). The enzymatic oxidation was characterized by Raman, ultraviolet-visible, electron paramagnetic resonance, Fourier transform infrared spectroscopy, transmission electron microscopy, atomic force microscopy, sodium dodecyl sulfate-polyacrylamide gel electrophoresis, and gas chromatography−mass spectrometry. Computational docking studies indicated that HRP was preferentially bound to the basal plane rather than the edge for both graphene oxide and RGO. Owing to the more dynamic nature of HRP on graphene oxide, the heme active site of HRP was in closer proximity to graphene oxide compared to RGO, thereby facilitating the oxidation of the basal plane of graphene oxide. We also studied the electronic properties of the reduced intermediate product, holey reduced graphene oxide (hRGO), using field-effect transistor (FET) measurements. While RGO exhibited a V-shaped transfer characteristic similar to a single layer of graphene that was attributed to its zero band gap, hRGO demonstrated a p-type semiconducting behavior with a positive shift in the Dirac points. This p-type behavior rendered hRGO, which can be conceptualized as interconnected graphene nanoribbons, as a potentially attractive material for FET sensors.&quot;
+
+[[Category:PapersToRead]]</text>
+    </revision>
+    <revision>
+      <id>1721</id>
+      <timestamp>2013-03-02T21:31:21Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Paper
+|Has Year=2011
+|Has Journal=ACS Nano
 |Has DOI= 10.1021/nn103265h
 }}
 
@@ -21980,6 +22475,20 @@ Graphenes.
       <text xml:space="preserve">{{Paper
 |Has Year=2010
 |Has DOI= 10.1021/nn101097v
+}}
+
+Graphenes.</text>
+    </revision>
+    <revision>
+      <id>1771</id>
+      <timestamp>2013-03-03T10:54:33Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Paper
+|Has Year=2010
+|Has DOI= 10.1021/nn101097v
+|Has Journal=ACS Nano
 }}
 
 Graphenes.</text>
@@ -24870,6 +25379,23 @@ Coated gold particles.
 
 &lt;pdf&gt;2/2c/Harper2011.pdf&lt;/pdf&gt;</text>
     </revision>
+    <revision>
+      <id>1723</id>
+      <timestamp>2013-03-02T21:31:43Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Paper
+|Has Year=2011
+|Has DOI=10.1021/nn200546k
+|Has Journal=ACS Nano
+|Substances extracted=Yes
+}}
+
+Coated gold particles.
+
+&lt;pdf&gt;2/2c/Harper2011.pdf&lt;/pdf&gt;</text>
+    </revision>
   </page>
   <page>
     <title>HannaK9</title>
@@ -26098,6 +26624,24 @@ Coated iron oxides particles.
       <text xml:space="preserve">{{Paper
 |Has Year=2005
 |Has DOI=10.1021/nn1013484
+|Relationships extracted=Yes
+|Summary=Coated iron oxides particles.
+}}
+
+&lt;pdf height=&quot;300&quot;&gt;3/35/Weissleder2005.pdf&lt;/pdf&gt;
+
+&lt;pdf height=&quot;300&quot;&gt;2/28/Weissleder2005_Supp1.pdf&lt;/pdf&gt;</text>
+    </revision>
+    <revision>
+      <id>1720</id>
+      <timestamp>2013-03-02T21:31:14Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Paper
+|Has Year=2005
+|Has DOI=10.1021/nn1013484
+|Has Journal=ACS Nano
 |Relationships extracted=Yes
 |Summary=Coated iron oxides particles.
 }}
@@ -32357,6 +32901,34 @@ carcinogenicity.
 
 &lt;pdf height=&quot;300&quot;&gt;9/9c/Jugan2011.pdf&lt;/pdf&gt;</text>
     </revision>
+    <revision>
+      <id>1743</id>
+      <timestamp>2013-03-02T21:43:02Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Paper
+|Has Year=2011
+|Has DOI=10.3109/17435390.2011.587903
+|Has Journal=Nanotoxicology
+|Substances extracted=Yes
+}}
+
+== Abstract ==
+
+Titanium dioxide nanoparticles (TiO2-NPs) are produced in large quantities, raising concerns about their impact for
+human health. The aim of this study was to deeply characterize TiO2-NPs genotoxic potential to lung cells, and to link
+genotoxicity to physicochemical characteristics, e.g., size, speciﬁc surface area, crystalline phase. A549 cells were exposed
+to a panel of TiO2-NPs with diameters ranging from 12 to 140 nm, either anatase or rutile. A set of complementary
+techniques (comet and micronucleus assays, gamma-H2AX immunostaining, 8-oxoGuanine analysis, H2-DCFDA,
+glutathione content, antioxidant enzymes activities) allowed us to demonstrate that small and spherical TiO2-NPs,
+both anatase and rutile, induce single-strand breaks and oxidative lesions to DNA, together with a general oxidative
+stress. Additionally we show that these NPs impair cell ability to repair DNA, by inactivation of both NER and BER
+pathways. This study thus conﬁrms the genotoxic potential of TiO2-NPs, which may preclude their mutagenicity and
+carcinogenicity.
+
+&lt;pdf height=&quot;300&quot;&gt;9/9c/Jugan2011.pdf&lt;/pdf&gt;</text>
+    </revision>
   </page>
   <page>
     <title>WillighagenS1</title>
@@ -35630,6 +36202,22 @@ The allowed value for this property is:
 &lt;pdf&gt;1/1c/Field2011.pdf&lt;/pdf&gt;
 &lt;pdf&gt;1/18/Field2011Supp.pdf&lt;/pdf&gt;</text>
     </revision>
+    <revision>
+      <id>1770</id>
+      <timestamp>2013-03-03T10:53:39Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Paper
+|Has Year=2011
+|Has DOI=10.1016/j.chemosphere.2011.04.067
+|Has Journal=Chemosphere
+|Relationships extracted=Yes
+}}
+
+&lt;pdf&gt;1/1c/Field2011.pdf&lt;/pdf&gt;
+&lt;pdf&gt;1/18/Field2011Supp.pdf&lt;/pdf&gt;</text>
+    </revision>
   </page>
   <page>
     <title>ParticleClass</title>
@@ -36209,6 +36797,21 @@ The allowed value for this property is:
 
 &lt;pdf height=&quot;300&quot;&gt;c/c0/Karlsson2009.pdf&lt;/pdf&gt;</text>
     </revision>
+    <revision>
+      <id>1777</id>
+      <timestamp>2013-03-03T11:13:36Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Paper
+|Has Year=2009
+|Has DOI=10.1016/j.toxlet.2009.03.014
+|Has Journal=Toxicology Letters
+|Substances extracted=Yes
+}}
+
+&lt;pdf height=&quot;300&quot;&gt;c/c0/Karlsson2009.pdf&lt;/pdf&gt;</text>
+    </revision>
   </page>
   <page>
     <title>HannaK15</title>
@@ -36568,6 +37171,23 @@ This paper is purely theoretical and does not have experimental data; therefore,
 
 &lt;pdf&gt;6/6f/Burello2011.pdf&lt;/pdf&gt;</text>
     </revision>
+    <revision>
+      <id>1742</id>
+      <timestamp>2013-03-02T21:42:33Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Paper
+|Has Year=2011
+|Has DOI=10.3109/17435390.2010.502980
+|Has Journal=Nanotoxicology
+|Substances extracted=Yes
+}}
+
+This paper is purely theoretical and does not have experimental data; therefore, *all* substances have been extracted.
+
+&lt;pdf&gt;6/6f/Burello2011.pdf&lt;/pdf&gt;</text>
+    </revision>
   </page>
   <page>
     <title>File:Burello2011.pdf</title>
@@ -36619,6 +37239,21 @@ This paper is purely theoretical and does not have experimental data; therefore,
       <text xml:space="preserve">{{Paper
 |Has Year=2010
 |Has DOI=10.1186/1743-8977-7-23
+|Relationships extracted=Yes
+}}
+
+&lt;pdf height=&quot;300&quot;&gt;b/b5/Hedberg_2010.pdf&lt;/pdf&gt;</text>
+    </revision>
+    <revision>
+      <id>1747</id>
+      <timestamp>2013-03-02T21:45:17Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Paper
+|Has Year=2010
+|Has DOI=10.1186/1743-8977-7-23
+|Has Journal=Particle and Fiber Toxicology
 |Relationships extracted=Yes
 }}
 
@@ -37987,6 +38622,201 @@ This paper is purely theoretical and does not have experimental data; therefore,
 [[Category:Chemical_Entities]]__NOEDITSECTION____NOTOC__
 &lt;/includeonly&gt;</text>
     </revision>
+    <revision>
+      <id>1782</id>
+      <timestamp>2013-03-03T12:41:41Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">&lt;noinclude&gt;
+&lt;pre&gt;
+{{Material
+|Has Identifier=
+|Has Label=
+|Has Source=
+|Has Chemical Composition=
+|Has Chemical Coating=
+|Image=
+|Has NM Type=
+|Has Size=
+|Has Size Min=
+|Has Size Max=
+|Has Size Error=
+|Has Size Units=
+|Has Size Method=
+|Has Zeta potential=
+|Has Zeta Units=
+|Has Zeta Error=
+|Has IEP=
+}}
+&lt;/pre&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: right; table-layout:fixed; word-wrap: break-word;&quot;
+! colspan=2 style=&quot;text-align: center;background-color: #ddd;&quot; | Material
+|-
+! colspan=2 style=&quot;text-align: center; font-size: 125%&quot; | {{{Name|{{PAGENAME}}}}}
+{{#if:{{{Image|}}}|
+{{!}}-
+{{!}} Image
+{{!}} {{{Image}}}
+}}
+|-
+{{#if:{{{Has Label|}}}|
+{{!}}-
+{{!}} Label
+{{!}} {{{Has Label}}} 
+}}
+|-
+{{#if:{{{Has Source|}}}|
+{{!}}-
+{{!}} Source
+{{!}} {{{Has Source}}} 
+}}
+|-
+{{#if:{{{Has Identifier|}}}|
+{{!}}-
+{{!}} Identifier
+{{!}} {{{Has Identifier}}} 
+}}
+|-
+{{#if:{{{Has Chemical Composition|}}}|
+{{!}}-
+{{!}} Chemical Composition
+{{!}} {{{Has Chemical Composition}}} 
+}}
+|-
+{{#if:{{{Has Chemical Coating|}}}|
+{{!}}-
+{{!}} Chemical Coating
+{{!}} {{{Has Chemical Coating}}} 
+}}
+|-
+! colspan=2 style=&quot;text-align: center;background-color: #ddd;&quot; | Properties
+|-
+{{#if:{{{Has Size|}}}|
+{{!}}-
+{{!}} Size
+{{!}} {{{Has Size}}} {{#if:{{{Has Size Error|}}}|± {{{Has Size Error}}}}} {{#if:{{{Has Size Units|}}}|{{{Has Size Units}}}}} {{#if:{{{Has Size Method|}}}| ({{{Has Size Method}}})}}
+}}
+{{#if:{{{Has Size Min|}}}|
+{{!}}-
+{{!}} Size
+{{!}} {{{Has Size Min}}} - {{{Has Size Max}}} {{#if:{{{Has Size Units|}}}|{{{Has Size Units}}}}} {{#if:{{{Has Size Method|}}}| ({{{Has Size Method}}})}}
+}}
+{{#if:{{{Has NM Type|}}}|
+{{!}}-
+{{!}} Type
+{{!}} {{{Has NM Type}}} 
+}}
+{{#if:{{{Has Zeta potential|}}}|
+{{!}}-
+{{!}} Zeta potential
+{{!}} {{{Has Zeta potential}}} {{#if:{{{Has Zeta Error|}}}|± {{{Has Zeta Error}}}}} {{#if:{{{Has Zeta Units|}}}|{{{Has Zeta Units}}}}}
+}}
+{{#if:{{{Has IEP|}}}|
+{{!}}-
+{{!}} IEP
+{{!}} {{{Has IEP}}}
+}}
+|}
+&lt;br&gt;
+= Measurements =
+{{#ask: [[Category:Measurements]] [[Has Entity::{{PAGENAME}}]]
+| ?Has Dose #
+| ?Has Endpoint
+| ?Has Endpoint Value
+| ?Has Endpoint Error
+| ?Has Endpoint Value Units
+| ?Has Method
+| format=jqplotbar
+| sort=Has Endpoint Value
+| order=ascending
+| height=250
+| width=600
+}}
+{{#if:{{{Has Size|}}} |
+{{#set:
+|Has Size={{{Has Size|}}}
+}}
+| }}
+{{#if:{{{Has Size Min|}}} |
+{{#set:
+|Has Size Min={{{Has Size Min|}}}
+}}
+| }}
+{{#if:{{{Has Size Max|}}} |
+{{#set:
+|Has Size Max={{{Has Size Max|}}}
+}}
+| }}
+{{#if:{{{Has Size Error|}}} |
+{{#set:
+|Has Size Error={{{Has Size Error|}}}
+}}
+| }}
+{{#if:{{{Has Size Units|}}} |
+{{#set:
+|Has Size Units={{{Has Size Units|}}}
+}}
+| }}
+{{#if:{{{Has Size Method|}}} |
+  {{#set: |Has Size Method={{{Has Size Method|}}} }}
+| }}
+{{#if:{{{Has Label|}}} |
+{{#set:
+|Has Label={{{Has Label|}}}
+}}
+| }}
+{{#if:{{{Has Source|}}} |
+{{#set:
+|Has Source={{{Has Source|}}}
+}}
+| }}
+{{#if:{{{Has Identifier|}}} |
+{{#set:
+|Has Identifier={{{Has Identifier|}}}
+}}
+| }}
+{{#if:{{{Has Chemical Composition|}}} |
+{{#set:
+|Has Chemical Composition={{{Has Chemical Composition|}}}
+}}
+| }}
+{{#if:{{{Has Chemical Coating|}}} |
+{{#set:
+|Has Chemical Coating={{{Has Chemical Coating|}}}
+}}
+| }}
+{{#if:{{{Has NM Type|}}} |
+{{#set:
+|Has NM Type={{{Has NM Type|}}}
+}}
+[[Category:{{{Has NM Type|}}}s]]
+| }}
+{{#if:{{{Has Zeta potential|}}} |
+{{#set:
+|Has Zeta potential={{{Has Zeta potential|}}}
+}}
+| }}
+{{#if:{{{Has Zeta Units|}}} |
+{{#set:
+|Has Zeta Units={{{Has Zeta Units|}}}
+}}
+| }}
+{{#if:{{{Has Zeta Error|}}} |
+{{#set:
+|Has Zeta Error={{{Has Zeta Error|}}}
+}}
+| }}
+{{#if:{{{Has IEP|}}} |
+{{#set:
+|Has IEP={{{Has IEP|}}}
+}}
+| }}
+[[Category:Materials]]__NOEDITSECTION____NOTOC__
+[[Category:Chemical_Entities]]__NOEDITSECTION____NOTOC__
+&lt;/includeonly&gt;</text>
+    </revision>
   </page>
   <page>
     <title>Category:Chemical Entities</title>
@@ -38031,6 +38861,19 @@ This paper is purely theoretical and does not have experimental data; therefore,
       <text xml:space="preserve">{{Paper
 |Has Year=2006
 |Has DOI=10.1080/10934520600966177
+|Substances extracted=Yes
+}}</text>
+    </revision>
+    <revision>
+      <id>1750</id>
+      <timestamp>2013-03-02T21:47:58Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Paper
+|Has Year=2006
+|Has DOI=10.1080/10934520600966177
+|Has Journal=Journal of Environmental Science and Health A
 |Substances extracted=Yes
 }}</text>
     </revision>
@@ -38402,6 +39245,20 @@ This paper is purely theoretical and does not have experimental data; therefore,
       <text xml:space="preserve">{{Paper
 |Has Year=2005
 |Has DOI=10.1063/1.2061873
+|Relationships extracted=Yes
+|Substances extracted=Yes
+}}</text>
+    </revision>
+    <revision>
+      <id>1762</id>
+      <timestamp>2013-03-03T10:46:57Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Paper
+|Has Year=2005
+|Has DOI=10.1063/1.2061873
+|Has Journal=Applied Physics Letters
 |Relationships extracted=Yes
 |Substances extracted=Yes
 }}</text>
@@ -39194,6 +40051,18 @@ li.even {  background-color: #eeeeee; }
 |Has DOI=10.1093/toxsci/kfn250
 }}</text>
     </revision>
+    <revision>
+      <id>1740</id>
+      <timestamp>2013-03-02T21:40:23Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Paper
+|Has Year=2008
+|Has DOI=10.1093/toxsci/kfn250
+|Has Journal=Toxicological Sciences
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Backup and Restore</title>
@@ -39314,6 +40183,40 @@ Problems: I should have backed up the file system too, but that mostly affects t
 ** sudo bash
 ** export MW_INSTALL_PATH=/usr/share/mediawiki
 ** php /usr/share/mediawiki-extensions/SemanticMediaWiki/maintenance/SMW_dumpRDF.php --conf /etc/mediawiki/LocalSettings.php &gt; backup.rdf.txt
+* dumpBackup.php
+** cd ~/var/Projects/hg/kirepos/projects/nanotoxwiki
+** sudo php /usr/share/mediawiki/maintenance/dumpBackup.php --conf /etc/mediawiki/LocalSettings.php --full &gt; backup.xml.txt
+** (this required adding an /etc/mediawiki/AdminSettings.php with db account info, '''wrapped''' in ''&lt;?php ?&gt;'')
+* see ~/var/Projects/hg/kirepos/projects/nanotoxwiki/README
+** cd ~/var/Projects/hg/kirepos/projects/nanotoxwiki
+** mysqldump -u root -p wikidb --default-character-set=latin1 &gt; backup.sql.txt
+
+== Restore ==
+
+* set up the mediawiki
+** cp /usr/share/doc/mediawiki/examples/AdminSettings.sample /etc/mediawiki/AdminSettings.php
+* restore the database
+** cd ~/var/Projects/hg/kirepos/projects/nanotoxwiki
+** mysql -u root -p wikidb &lt; backup.sql.txt
+* restore the XML
+** sudo php /usr/share/mediawiki/maintenance/importDump.php backup.xml.txt
+
+Problems: I should have backed up the file system too, but that mostly affects the PDFs which I may not reshare anyway.</text>
+    </revision>
+    <revision>
+      <id>1882</id>
+      <timestamp>2013-03-03T16:19:34Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>/* Backups */</comment>
+      <text xml:space="preserve">== Backups ==
+
+* [[Special:ExportRDF|Export RDF]]
+** cd ~/var/Projects/hg/kirepos/projects/nanotoxwiki 
+** sudo bash
+** export MW_INSTALL_PATH=/usr/share/mediawiki
+** php /usr/local/share/mediawiki-extensions/SemanticMediaWiki/maintenance/SMW_dumpRDF.php --conf /etc/mediawiki/LocalSettings.php --aconf /etc/mediawiki/AdminSettings.php &gt; backup.rdf.txt
 * dumpBackup.php
 ** cd ~/var/Projects/hg/kirepos/projects/nanotoxwiki
 ** sudo php /usr/share/mediawiki/maintenance/dumpBackup.php --conf /etc/mediawiki/LocalSettings.php --full &gt; backup.xml.txt
@@ -39995,6 +40898,21 @@ CdSe quantum dots studied for dot size, surface charge, and functionalization.</
 
 CdSe quantum dots studied for dot size, surface charge, and functionalization.</text>
     </revision>
+    <revision>
+      <id>1727</id>
+      <timestamp>2013-03-02T21:32:16Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Paper
+|Has Year=2012
+|Has DOI=10.1021/nn204886b
+|Has Journal=ACS Nano
+|Substances extracted=Yes
+}}
+
+CdSe quantum dots studied for dot size, surface charge, and functionalization.</text>
+    </revision>
   </page>
   <page>
     <title>Nagy2012Necrosis</title>
@@ -40453,6 +41371,20 @@ CdSe quantum dots studied for dot size, surface charge, and functionalization.</
 |Substances extracted=Yes
 }}</text>
     </revision>
+    <revision>
+      <id>1766</id>
+      <timestamp>2013-03-03T10:50:23Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Paper
+|Has Year=2012
+|Has DOI= 10.1007/s11270-011-1067-3
+|Has Journal=Water, Air, &amp; Soil Pollution
+|Relationships extracted=No
+|Substances extracted=Yes
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Kim2012 NM1</title>
@@ -40558,6 +41490,20 @@ CdSe quantum dots studied for dot size, surface charge, and functionalization.</
       <text xml:space="preserve">{{Paper
 |Has Year=2012
 |Has DOI=10.1021/nn2021056
+|Relationships extracted=No
+|Substances extracted=Yes
+}}</text>
+    </revision>
+    <revision>
+      <id>1726</id>
+      <timestamp>2013-03-02T21:32:03Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Paper
+|Has Year=2012
+|Has DOI=10.1021/nn2021056
+|Has Journal=ACS Nano
 |Relationships extracted=No
 |Substances extracted=Yes
 }}</text>
@@ -40878,6 +41824,20 @@ CdSe quantum dots studied for dot size, surface charge, and functionalization.</
       <text xml:space="preserve">{{Paper
 |Has Year=2009
 |Has DOI=10.3109/17435390903276941
+|Substances extracted=Yes
+|Relationships extracted=
+}}</text>
+    </revision>
+    <revision>
+      <id>1745</id>
+      <timestamp>2013-03-02T21:43:35Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Paper
+|Has Year=2009
+|Has DOI=10.3109/17435390903276941
+|Has Journal=Nanotoxicology
 |Substances extracted=Yes
 |Relationships extracted=
 }}</text>
@@ -41443,6 +42403,20 @@ CdSe quantum dots studied for dot size, surface charge, and functionalization.</
 |Relationships extracted=
 }}</text>
     </revision>
+    <revision>
+      <id>1744</id>
+      <timestamp>2013-03-02T21:43:15Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Paper
+|Has Year=2009
+|Has DOI= 10.3109/17435390903276933
+|Has Journal=Nanotoxicology
+|Substances extracted=Yes
+|Relationships extracted=
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Gerloff2009 NM1</title>
@@ -41670,6 +42644,20 @@ CdSe quantum dots studied for dot size, surface charge, and functionalization.</
 |Relationships extracted=
 }}</text>
     </revision>
+    <revision>
+      <id>1748</id>
+      <timestamp>2013-03-02T21:46:32Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Paper
+|Has Year=2009
+|Has DOI=  10.1080/17435390802596456
+|Has Journal=Nanotoxicology
+|Substances extracted=Yes
+|Relationships extracted=
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Gopalan2009 NM1</title>
@@ -41726,6 +42714,20 @@ CdSe quantum dots studied for dot size, surface charge, and functionalization.</
       <text xml:space="preserve">{{Paper
 |Has Year=2005
 |Has DOI= 10.1021/es051043o
+|Substances extracted=Yes
+|Relationships extracted=
+}}</text>
+    </revision>
+    <revision>
+      <id>1752</id>
+      <timestamp>2013-03-02T21:51:38Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Paper
+|Has Year=2005
+|Has DOI= 10.1021/es051043o
+|Has Journal=Environmental Science Technology
 |Substances extracted=Yes
 |Relationships extracted=
 }}</text>
@@ -41866,6 +42868,19 @@ CdSe quantum dots studied for dot size, surface charge, and functionalization.</
       <text xml:space="preserve">{{Paper
 |Has Year=2009
 |Has DOI=10.1016/j.envpol.2008.11.004
+|Substances extracted=Yes
+}}</text>
+    </revision>
+    <revision>
+      <id>1779</id>
+      <timestamp>2013-03-03T11:15:03Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Paper
+|Has Year=2009
+|Has DOI=10.1016/j.envpol.2008.11.004
+|Has Journal=Environmental Pollution
 |Substances extracted=Yes
 }}</text>
     </revision>
@@ -42048,6 +43063,19 @@ CdSe quantum dots studied for dot size, surface charge, and functionalization.</
       <text xml:space="preserve">{{Paper
 |Has Year=2009
 |Has DOI=10.1021/es9016975
+|Substances extracted=Yes
+}}</text>
+    </revision>
+    <revision>
+      <id>1753</id>
+      <timestamp>2013-03-02T21:51:52Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Paper
+|Has Year=2009
+|Has DOI=10.1021/es9016975
+|Has Journal=Environmental Science Technology
 |Substances extracted=Yes
 }}</text>
     </revision>
@@ -42360,6 +43388,19 @@ CdSe quantum dots studied for dot size, surface charge, and functionalization.</
 |Substances extracted=Yes
 }}</text>
     </revision>
+    <revision>
+      <id>1764</id>
+      <timestamp>2013-03-03T10:49:22Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Paper
+|Has Year=2012
+|Has DOI= 10.1007/s12013-012-9367-9
+|Has Journal=Cell Biochemistry and Biophysics
+|Substances extracted=Yes
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Horie2009</title>
@@ -42399,6 +43440,19 @@ CdSe quantum dots studied for dot size, surface charge, and functionalization.</
       <text xml:space="preserve">{{Paper
 |Has Year=2009
 |Has DOI=10.1021/tx800289z
+|Substances extracted=Yes
+}}</text>
+    </revision>
+    <revision>
+      <id>1733</id>
+      <timestamp>2013-03-02T21:35:48Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Paper
+|Has Year=2009
+|Has DOI=10.1021/tx800289z
+|Has Journal=Chemical Research in Toxicology
 |Substances extracted=Yes
 }}</text>
     </revision>
@@ -42821,6 +43875,19 @@ CdSe quantum dots studied for dot size, surface charge, and functionalization.</
       <text xml:space="preserve">{{Paper
 |Has Year=2012
 |Has DOI=10.1093/toxsci/kfs006
+|Substances extracted=Yes
+}}</text>
+    </revision>
+    <revision>
+      <id>1739</id>
+      <timestamp>2013-03-02T21:40:09Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Paper
+|Has Year=2012
+|Has DOI=10.1093/toxsci/kfs006
+|Has Journal=Toxicological Sciences
 |Substances extracted=Yes
 }}</text>
     </revision>
@@ -43662,6 +44729,20 @@ Size measured with DLS.
 |Substances extracted=No
 }}</text>
     </revision>
+    <revision>
+      <id>1729</id>
+      <timestamp>2013-03-02T21:32:31Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Paper
+|Has Year=2012
+|Has DOI=10.1021/nn301622h
+|Has Journal=ACS Nano
+|Relationships extracted=No
+|Substances extracted=No
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Rancan2012 M1</title>
@@ -43975,6 +45056,21 @@ Size measured with DLS.
       <comment>Created page with &quot;{{Measurement |Has Entity=Rancan2012 M1 |Has Endpoint Value=101 |Has Endpoint Error=7 |Has Endpoint Value Units=nm |Has Endpoint=Particle Size |Has Method=DLS }}&quot;</comment>
       <text xml:space="preserve">{{Measurement
 |Has Entity=Rancan2012 M1
+|Has Endpoint Value=101
+|Has Endpoint Error=7
+|Has Endpoint Value Units=nm
+|Has Endpoint=Particle Size
+|Has Method=DLS
+}}</text>
+    </revision>
+    <revision>
+      <id>1783</id>
+      <timestamp>2013-03-03T12:42:25Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Rancan2012 M2
 |Has Endpoint Value=101
 |Has Endpoint Error=7
 |Has Endpoint Value Units=nm
@@ -44485,6 +45581,2428 @@ For Measurement=Rancan2012 M8 M3
       <text xml:space="preserve">{{Descriptor}}
 
 [[Category:Endpoints]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Kim2011</title>
+    <id>691</id>
+    <revision>
+      <id>1696</id>
+      <timestamp>2012-10-17T11:32:53Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Paper |Has Year=2011 |Has DOI= 10.1038/nnano.2011.191 }}&quot;</comment>
+      <text xml:space="preserve">{{Paper
+|Has Year=2011
+|Has DOI= 10.1038/nnano.2011.191
+}}</text>
+    </revision>
+    <revision>
+      <id>1703</id>
+      <timestamp>2012-10-17T11:42:26Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Paper
+|Has Year=2011
+|Has DOI= 10.1038/nnano.2011.191
+}}
+
+[[Category:PapersToRead]]</text>
+    </revision>
+    <revision>
+      <id>1737</id>
+      <timestamp>2013-03-02T21:37:57Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Paper
+|Has Year=2011
+|Has DOI= 10.1038/nnano.2011.191
+|Has Journal=Nature Nanotechnology
+}}
+
+[[Category:PapersToRead]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Yu2011</title>
+    <id>692</id>
+    <revision>
+      <id>1697</id>
+      <timestamp>2012-10-17T11:34:25Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Paper |Has Year=2011 |Has DOI= 10.1021/nn2013904 }}&quot;</comment>
+      <text xml:space="preserve">{{Paper
+|Has Year=2011
+|Has DOI= 10.1021/nn2013904
+}}</text>
+    </revision>
+    <revision>
+      <id>1702</id>
+      <timestamp>2012-10-17T11:42:16Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Paper
+|Has Year=2011
+|Has DOI= 10.1021/nn2013904
+}}
+
+[[Category:PapersToRead]]</text>
+    </revision>
+    <revision>
+      <id>1724</id>
+      <timestamp>2013-03-02T21:31:50Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Paper
+|Has Year=2011
+|Has DOI= 10.1021/nn2013904
+|Has Journal=ACS Nano
+}}
+
+[[Category:PapersToRead]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Tenzer2011</title>
+    <id>693</id>
+    <revision>
+      <id>1698</id>
+      <timestamp>2012-10-17T11:37:43Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Paper |Has Year=2011 |Has DOI=10.1021/nn201950e }}&quot;</comment>
+      <text xml:space="preserve">{{Paper
+|Has Year=2011
+|Has DOI=10.1021/nn201950e
+}}</text>
+    </revision>
+    <revision>
+      <id>1701</id>
+      <timestamp>2012-10-17T11:42:02Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Paper
+|Has Year=2011
+|Has DOI=10.1021/nn201950e
+}}
+
+[[Category:PapersToRead]]</text>
+    </revision>
+    <revision>
+      <id>1725</id>
+      <timestamp>2013-03-02T21:31:56Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Paper
+|Has Year=2011
+|Has DOI=10.1021/nn201950e
+|Has Journal=ACS Nano
+}}
+
+[[Category:PapersToRead]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Monopoli2011</title>
+    <id>694</id>
+    <revision>
+      <id>1699</id>
+      <timestamp>2012-10-17T11:38:45Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Paper |Has Year=2011 |Has DOI=10.1021/ja107583h }}&quot;</comment>
+      <text xml:space="preserve">{{Paper
+|Has Year=2011
+|Has DOI=10.1021/ja107583h
+}}</text>
+    </revision>
+    <revision>
+      <id>1700</id>
+      <timestamp>2012-10-17T11:41:51Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Paper
+|Has Year=2011
+|Has DOI=10.1021/ja107583h
+}}
+
+[[Category:PapersToRead]]</text>
+    </revision>
+    <revision>
+      <id>1768</id>
+      <timestamp>2013-03-03T10:51:51Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Paper
+|Has Year=2011
+|Has DOI=10.1021/ja107583h
+|Has Journal=JACS
+}}
+
+[[Category:PapersToRead]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Kapralov2012</title>
+    <id>695</id>
+    <revision>
+      <id>1704</id>
+      <timestamp>2012-10-17T11:58:51Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Paper |Has Year=2012 |Has DOI= }}  [[Category:PapersToRead]]&quot;</comment>
+      <text xml:space="preserve">{{Paper
+|Has Year=2012
+|Has DOI=
+}}
+
+[[Category:PapersToRead]]</text>
+    </revision>
+    <revision>
+      <id>1705</id>
+      <timestamp>2012-10-17T11:59:04Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Paper
+|Has Year=2012
+|Has DOI=10.1021/nn300626q
+}}
+
+[[Category:PapersToRead]]</text>
+    </revision>
+    <revision>
+      <id>1728</id>
+      <timestamp>2013-03-02T21:32:24Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Paper
+|Has Year=2012
+|Has DOI=10.1021/nn300626q
+|Has Journal=ACS Nano
+}}
+
+[[Category:PapersToRead]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Has Journal</title>
+    <id>696</id>
+    <revision>
+      <id>1708</id>
+      <timestamp>2013-03-02T21:18:08Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;This is a property of type [[Has type::Page]].&quot;</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Page]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>ACS Nano</title>
+    <id>697</id>
+    <revision>
+      <id>1709</id>
+      <timestamp>2013-03-02T21:18:35Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;American Chemical Society's Nano journal.&quot;</comment>
+      <text xml:space="preserve">American Chemical Society's Nano journal.</text>
+    </revision>
+    <revision>
+      <id>1710</id>
+      <timestamp>2013-03-02T21:19:25Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Journal}}
+
+American Chemical Society's Nano journal.</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Journal</title>
+    <id>698</id>
+    <revision>
+      <id>1711</id>
+      <timestamp>2013-03-02T21:21:11Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;&lt;noinclude&gt; [[:Category:Journals]] describe a journal. &lt;pre&gt; {{Journal}} &lt;/pre&gt; &lt;/noinclude&gt;&lt;includeonly&gt; {| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left;…&quot;</comment>
+      <text xml:space="preserve">&lt;noinclude&gt;
+[[:Category:Journals]] describe a journal.
+&lt;pre&gt;
+{{Journal}}
+&lt;/pre&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: right; table-layout:fixed; word-wrap: break-word;&quot;
+! colspan=2 style=&quot;text-align: center; font-size: 125%&quot; | {{{Name|{{PAGENAME}} }}}
+|-
+|}
+&lt;br&gt;
+= Papers =
+{{#ask: [[Category:Papers]] [[Has Descriptor::{{Journal}}]]
+| ? Has Year
+| sort=Has Year
+}}
+[[Category:Journals]]__NOEDITSECTION____NOTOC__
+&lt;/includeonly&gt;</text>
+    </revision>
+    <revision>
+      <id>1713</id>
+      <timestamp>2013-03-02T21:22:42Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">&lt;noinclude&gt;
+[[:Category:Journals]] describe a journal.
+&lt;pre&gt;
+{{Journal}}
+&lt;/pre&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: right; table-layout:fixed; word-wrap: break-word;&quot;
+! colspan=2 style=&quot;text-align: center; font-size: 125%&quot; | {{{Name|{{PAGENAME}} }}}
+|-
+|}
+&lt;br&gt;
+= Papers =
+{{#ask: [[Category:Papers]] [[Has Journal::{{Journal}}]]
+| ? Has Year
+| sort=Has Year
+}}
+[[Category:Journals]]__NOEDITSECTION____NOTOC__
+&lt;/includeonly&gt;</text>
+    </revision>
+    <revision>
+      <id>1714</id>
+      <timestamp>2013-03-02T21:25:15Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">&lt;noinclude&gt;
+[[:Category:Journals]] describe a journal.
+&lt;pre&gt;
+{{Journal}}
+&lt;/pre&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: right; table-layout:fixed; word-wrap: break-word;&quot;
+! colspan=2 style=&quot;text-align: center; font-size: 125%&quot; | {{{Name|{{PAGENAME}} }}}
+|-
+|}
+&lt;br&gt;
+= Papers =
+{{#ask: [[Category:Papers]] [[Has Journal::{{PAGENAME}}]]
+| ? Has Year
+| sort=Has Year
+}}
+[[Category:Journals]]__NOEDITSECTION____NOTOC__
+&lt;/includeonly&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Category:Journals</title>
+    <id>699</id>
+    <revision>
+      <id>1712</id>
+      <timestamp>2013-03-02T21:21:38Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;Journals from which (nano)materials have been extracted.&quot;</comment>
+      <text xml:space="preserve">Journals from which (nano)materials have been extracted.</text>
+    </revision>
+    <revision>
+      <id>1774</id>
+      <timestamp>2013-03-03T11:12:10Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">Journals from which (nano)materials have been extracted.
+
+{{#ask: [[Category:Journals]]
+| format=count
+}}</text>
+    </revision>
+    <revision>
+      <id>1775</id>
+      <timestamp>2013-03-03T11:12:52Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">Journals ({{#ask: [[Category:Journals]] | format=count}}) from which (nano)materials have been extracted.</text>
+    </revision>
+  </page>
+  <page>
+    <title>Small</title>
+    <id>700</id>
+    <revision>
+      <id>1716</id>
+      <timestamp>2013-03-02T21:27:45Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Journal}}&quot;</comment>
+      <text xml:space="preserve">{{Journal}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Chemical Research in Toxicology</title>
+    <id>701</id>
+    <revision>
+      <id>1731</id>
+      <timestamp>2013-03-02T21:34:49Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Journal}}&quot;</comment>
+      <text xml:space="preserve">{{Journal}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Nature Nanotechnology</title>
+    <id>702</id>
+    <revision>
+      <id>1734</id>
+      <timestamp>2013-03-02T21:36:42Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Journal}}&quot;</comment>
+      <text xml:space="preserve">{{Journal}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Toxicological Sciences</title>
+    <id>703</id>
+    <revision>
+      <id>1738</id>
+      <timestamp>2013-03-02T21:39:37Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Journal}}&quot;</comment>
+      <text xml:space="preserve">{{Journal}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Nanotoxicology</title>
+    <id>704</id>
+    <revision>
+      <id>1741</id>
+      <timestamp>2013-03-02T21:42:13Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Journal}}&quot;</comment>
+      <text xml:space="preserve">{{Journal}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Particle and Fiber Toxicology</title>
+    <id>705</id>
+    <revision>
+      <id>1746</id>
+      <timestamp>2013-03-02T21:45:01Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Journal}}&quot;</comment>
+      <text xml:space="preserve">{{Journal}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Journal of Environmental Science and Health A</title>
+    <id>706</id>
+    <revision>
+      <id>1749</id>
+      <timestamp>2013-03-02T21:47:29Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Journal}}&quot;</comment>
+      <text xml:space="preserve">{{Journal}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Environmental Science Technology</title>
+    <id>707</id>
+    <revision>
+      <id>1751</id>
+      <timestamp>2013-03-02T21:51:17Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Journal}}&quot;</comment>
+      <text xml:space="preserve">{{Journal}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Nano Letters</title>
+    <id>708</id>
+    <revision>
+      <id>1754</id>
+      <timestamp>2013-03-02T21:54:26Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Journal}}&quot;</comment>
+      <text xml:space="preserve">{{Journal}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhou2008</title>
+    <id>709</id>
+    <revision>
+      <id>1755</id>
+      <timestamp>2013-03-02T21:58:02Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Paper |Has Year=2006 |Has DOI=10.1080/10934520600966177 |Has Journal=Nano Letters }}  [[Category:PapersToRead]]&quot;</comment>
+      <text xml:space="preserve">{{Paper
+|Has Year=2006
+|Has DOI=10.1080/10934520600966177
+|Has Journal=Nano Letters
+}}
+
+[[Category:PapersToRead]]</text>
+    </revision>
+    <revision>
+      <id>1756</id>
+      <timestamp>2013-03-02T21:58:26Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Paper
+|Has Year=2008
+|Has DOI=10.1021/nl0730155
+|Has Journal=Nano Letters
+}}
+
+[[Category:PapersToRead]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Journal of Chemical Information and Modeling</title>
+    <id>710</id>
+    <revision>
+      <id>1757</id>
+      <timestamp>2013-03-02T22:00:04Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Journal}}&quot;</comment>
+      <text xml:space="preserve">{{Journal}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shao2013</title>
+    <id>711</id>
+    <revision>
+      <id>1758</id>
+      <timestamp>2013-03-02T22:00:36Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Paper |Has Year=2013 |Has DOI=10.1021/ci3005308 |Has Journal=Journal of Chemical Information and Modeling }}  [[Category:PapersToRead]]&quot;</comment>
+      <text xml:space="preserve">{{Paper
+|Has Year=2013
+|Has DOI=10.1021/ci3005308
+|Has Journal=Journal of Chemical Information and Modeling
+}}
+
+[[Category:PapersToRead]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>PNAS</title>
+    <id>712</id>
+    <revision>
+      <id>1760</id>
+      <timestamp>2013-03-03T10:28:59Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Journal}}&quot;</comment>
+      <text xml:space="preserve">{{Journal}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Applied Physics Letters</title>
+    <id>713</id>
+    <revision>
+      <id>1761</id>
+      <timestamp>2013-03-03T10:46:14Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Journal}}&quot;</comment>
+      <text xml:space="preserve">{{Journal}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Cell Biochemistry and Biophysics</title>
+    <id>714</id>
+    <revision>
+      <id>1763</id>
+      <timestamp>2013-03-03T10:48:44Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Journal}}&quot;</comment>
+      <text xml:space="preserve">{{Journal}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Water, Air, &amp; Soil Pollution</title>
+    <id>715</id>
+    <revision>
+      <id>1765</id>
+      <timestamp>2013-03-03T10:49:49Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Journal}}&quot;</comment>
+      <text xml:space="preserve">{{Journal}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>JACS</title>
+    <id>716</id>
+    <revision>
+      <id>1767</id>
+      <timestamp>2013-03-03T10:51:36Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Journal}}&quot;</comment>
+      <text xml:space="preserve">{{Journal}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Chemosphere</title>
+    <id>717</id>
+    <revision>
+      <id>1769</id>
+      <timestamp>2013-03-03T10:52:33Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Journal}}&quot;</comment>
+      <text xml:space="preserve">{{Journal}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>European Journal of Medicinal Chemistry</title>
+    <id>718</id>
+    <revision>
+      <id>1772</id>
+      <timestamp>2013-03-03T10:55:24Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Journal}}&quot;</comment>
+      <text xml:space="preserve">{{Journal}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Toxicology Letters</title>
+    <id>719</id>
+    <revision>
+      <id>1776</id>
+      <timestamp>2013-03-03T11:13:20Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Journal}}&quot;</comment>
+      <text xml:space="preserve">{{Journal}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Environmental Pollution</title>
+    <id>720</id>
+    <revision>
+      <id>1778</id>
+      <timestamp>2013-03-03T11:14:11Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Journal}}&quot;</comment>
+      <text xml:space="preserve">{{Journal}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Bioorganic &amp; Medicinal Chemistry</title>
+    <id>721</id>
+    <revision>
+      <id>1780</id>
+      <timestamp>2013-03-03T11:15:21Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Journal}}&quot;</comment>
+      <text xml:space="preserve">{{Journal}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Method</title>
+    <id>722</id>
+    <revision>
+      <id>1784</id>
+      <timestamp>2013-03-03T14:12:08Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;&lt;noinclude&gt; [[:Category:Method]] describes an experimental method. &lt;pre&gt; {{Method}} &lt;/pre&gt; &lt;/noinclude&gt;&lt;includeonly&gt; {| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-a…&quot;</comment>
+      <text xml:space="preserve">&lt;noinclude&gt;
+[[:Category:Method]] describes an experimental method.
+&lt;pre&gt;
+{{Method}}
+&lt;/pre&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: right; table-layout:fixed; word-wrap: break-word;&quot;
+! colspan=2 style=&quot;text-align: center; font-size: 125%&quot; | {{{Name|{{PAGENAME}} }}}
+|-
+|}
+&lt;br&gt;
+= Papers =
+{{#ask: [[Category:Measurements]] [[Has Method::{{PAGENAME}}]]
+| ? Has Endpoint
+| sort=Has Endpoint
+}}
+[[Category:Methods]]__NOEDITSECTION____NOTOC__
+&lt;/includeonly&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>TEM</title>
+    <id>723</id>
+    <revision>
+      <id>1785</id>
+      <timestamp>2013-03-03T14:12:15Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Method}}&quot;</comment>
+      <text xml:space="preserve">{{Method}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Category:Methods</title>
+    <id>724</id>
+    <revision>
+      <id>1786</id>
+      <timestamp>2013-03-03T14:12:44Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;All experimental methods.&quot;</comment>
+      <text xml:space="preserve">All experimental methods.</text>
+    </revision>
+  </page>
+  <page>
+    <title>DLS</title>
+    <id>725</id>
+    <revision>
+      <id>1787</id>
+      <timestamp>2013-03-03T14:13:10Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Method}}&quot;</comment>
+      <text xml:space="preserve">{{Method}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhou2008 M1</title>
+    <id>726</id>
+    <revision>
+      <id>1789</id>
+      <timestamp>2013-03-03T15:22:50Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=213 |Has Label=5 |Has Source=Zhou2008 |Has NM Type=SWCNT }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=213
+|Has Label=5
+|Has Source=Zhou2008
+|Has NM Type=SWCNT
+}}</text>
+    </revision>
+    <revision>
+      <id>1790</id>
+      <timestamp>2013-03-03T15:23:20Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=213
+|Has Label=5
+|Has Source=Zhou2008
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+    <revision>
+      <id>1798</id>
+      <timestamp>2013-03-03T15:28:00Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=213
+|Has Label=5
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhou2008 M2</title>
+    <id>727</id>
+    <revision>
+      <id>1791</id>
+      <timestamp>2013-03-03T15:24:34Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=214 |Has Label=6 |Has Source=Zhou2008 |Has NM Type=CarbonNanotube }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=214
+|Has Label=6
+|Has Source=Zhou2008
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+    <revision>
+      <id>1799</id>
+      <timestamp>2013-03-03T15:28:08Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=214
+|Has Label=6
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhou2008 M3</title>
+    <id>728</id>
+    <revision>
+      <id>1792</id>
+      <timestamp>2013-03-03T15:25:22Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=215 |Has Label=7 |Has Source=Zhou2008 |Has NM Type=CarbonNanotube }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=215
+|Has Label=7
+|Has Source=Zhou2008
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+    <revision>
+      <id>1800</id>
+      <timestamp>2013-03-03T15:28:25Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=215
+|Has Label=7
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhou2008 M4</title>
+    <id>729</id>
+    <revision>
+      <id>1793</id>
+      <timestamp>2013-03-03T15:25:34Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=216 |Has Label=8 |Has Source=Zhou2008 |Has NM Type=CarbonNanotube }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=216
+|Has Label=8
+|Has Source=Zhou2008
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+    <revision>
+      <id>1801</id>
+      <timestamp>2013-03-03T15:28:33Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=216
+|Has Label=8
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhou2008 M5</title>
+    <id>730</id>
+    <revision>
+      <id>1794</id>
+      <timestamp>2013-03-03T15:25:46Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=217 |Has Label=9 |Has Source=Zhou2008 |Has NM Type=CarbonNanotube }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=217
+|Has Label=9
+|Has Source=Zhou2008
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+    <revision>
+      <id>1802</id>
+      <timestamp>2013-03-03T15:28:42Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=217
+|Has Label=9
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhou2008 M6</title>
+    <id>731</id>
+    <revision>
+      <id>1795</id>
+      <timestamp>2013-03-03T15:27:00Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=218 |Has Label=10 |Has Source=Zhou2008 |Has NM Type=CarbonNanotube }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=218
+|Has Label=10
+|Has Source=Zhou2008
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+    <revision>
+      <id>1803</id>
+      <timestamp>2013-03-03T15:28:52Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=218
+|Has Label=10
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhou2008 M7</title>
+    <id>732</id>
+    <revision>
+      <id>1796</id>
+      <timestamp>2013-03-03T15:27:11Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=219 |Has Label=11 |Has Source=Zhou2008 |Has NM Type=CarbonNanotube }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=219
+|Has Label=11
+|Has Source=Zhou2008
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+    <revision>
+      <id>1804</id>
+      <timestamp>2013-03-03T15:29:03Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=219
+|Has Label=11
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhou2008 M8</title>
+    <id>733</id>
+    <revision>
+      <id>1797</id>
+      <timestamp>2013-03-03T15:27:23Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=220 |Has Label=12 |Has Source=Zhou2008 |Has NM Type=CarbonNanotube }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=220
+|Has Label=12
+|Has Source=Zhou2008
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+    <revision>
+      <id>1805</id>
+      <timestamp>2013-03-03T15:29:14Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=220
+|Has Label=12
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhou2008 M9</title>
+    <id>734</id>
+    <revision>
+      <id>1806</id>
+      <timestamp>2013-03-03T15:29:55Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=221 |Has Label=13 |Has Source=Zhou2008 |Has Chemical Composition=C |Has NM Type=CarbonNanotube }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=221
+|Has Label=13
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhou2008 M10</title>
+    <id>735</id>
+    <revision>
+      <id>1807</id>
+      <timestamp>2013-03-03T15:30:06Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=222 |Has Label=14 |Has Source=Zhou2008 |Has Chemical Composition=C |Has NM Type=CarbonNanotube }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=222
+|Has Label=14
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhou2008 M11</title>
+    <id>736</id>
+    <revision>
+      <id>1808</id>
+      <timestamp>2013-03-03T15:31:49Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=223 |Has Label=15 |Has Source=Zhou2008 |Has Chemical Composition=C |Has NM Type=CarbonNanotube }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=223
+|Has Label=15
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhou2008 M12</title>
+    <id>737</id>
+    <revision>
+      <id>1809</id>
+      <timestamp>2013-03-03T15:31:59Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=224 |Has Label=16 |Has Source=Zhou2008 |Has Chemical Composition=C |Has NM Type=CarbonNanotube }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=224
+|Has Label=16
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhou2008 M13</title>
+    <id>738</id>
+    <revision>
+      <id>1810</id>
+      <timestamp>2013-03-03T15:32:13Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=225 |Has Label=17 |Has Source=Zhou2008 |Has Chemical Composition=C |Has NM Type=CarbonNanotube }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=225
+|Has Label=17
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhou2008 M14</title>
+    <id>739</id>
+    <revision>
+      <id>1811</id>
+      <timestamp>2013-03-03T15:32:31Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=226 |Has Label=18 |Has Source=Zhou2008 |Has Chemical Composition=C |Has NM Type=CarbonNanotube }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=226
+|Has Label=18
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhou2008 M15</title>
+    <id>740</id>
+    <revision>
+      <id>1812</id>
+      <timestamp>2013-03-03T15:32:42Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=227 |Has Label=19 |Has Source=Zhou2008 |Has Chemical Composition=C |Has NM Type=CarbonNanotube }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=227
+|Has Label=19
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhou2008 M16</title>
+    <id>741</id>
+    <revision>
+      <id>1813</id>
+      <timestamp>2013-03-03T15:32:55Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=228 |Has Label=20 |Has Source=Zhou2008 |Has Chemical Composition=C |Has NM Type=CarbonNanotube }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=228
+|Has Label=20
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhou2008 M17</title>
+    <id>742</id>
+    <revision>
+      <id>1814</id>
+      <timestamp>2013-03-03T15:33:10Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=228 |Has Label=21 |Has Source=Zhou2008 |Has Chemical Composition=C |Has NM Type=CarbonNanotube }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=228
+|Has Label=21
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+    <revision>
+      <id>1816</id>
+      <timestamp>2013-03-03T15:34:10Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=229
+|Has Label=21
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhou2008 M18</title>
+    <id>743</id>
+    <revision>
+      <id>1815</id>
+      <timestamp>2013-03-03T15:33:24Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=230 |Has Label=22 |Has Source=Zhou2008 |Has Chemical Composition=C |Has NM Type=CarbonNanotube }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=230
+|Has Label=22
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhou2008 M19</title>
+    <id>744</id>
+    <revision>
+      <id>1817</id>
+      <timestamp>2013-03-03T15:34:37Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=231 |Has Label=23 |Has Source=Zhou2008 |Has Chemical Composition=C |Has NM Type=CarbonNanotube }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=231
+|Has Label=23
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhou2008 M20</title>
+    <id>745</id>
+    <revision>
+      <id>1818</id>
+      <timestamp>2013-03-03T15:34:49Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=232 |Has Label=24 |Has Source=Zhou2008 |Has Chemical Composition=C |Has NM Type=CarbonNanotube }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=232
+|Has Label=24
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhou2008 M21</title>
+    <id>746</id>
+    <revision>
+      <id>1819</id>
+      <timestamp>2013-03-03T15:34:58Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=233 |Has Label=25 |Has Source=Zhou2008 |Has Chemical Composition=C |Has NM Type=CarbonNanotube }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=233
+|Has Label=25
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhou2008 M22</title>
+    <id>747</id>
+    <revision>
+      <id>1820</id>
+      <timestamp>2013-03-03T15:35:09Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=234 |Has Label=26 |Has Source=Zhou2008 |Has Chemical Composition=C |Has NM Type=CarbonNanotube }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=234
+|Has Label=26
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhou2008 M23</title>
+    <id>748</id>
+    <revision>
+      <id>1821</id>
+      <timestamp>2013-03-03T15:36:05Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=235 |Has Label=27 |Has Source=Zhou2008 |Has Chemical Composition=C |Has NM Type=CarbonNanotube }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=235
+|Has Label=27
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhou2008 M24</title>
+    <id>749</id>
+    <revision>
+      <id>1822</id>
+      <timestamp>2013-03-03T15:36:17Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=236 |Has Label=28 |Has Source=Zhou2008 |Has Chemical Composition=C |Has NM Type=CarbonNanotube }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=236
+|Has Label=28
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhou2008 M25</title>
+    <id>750</id>
+    <revision>
+      <id>1823</id>
+      <timestamp>2013-03-03T15:36:29Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=236 |Has Label=28 |Has Source=Zhou2008 |Has Chemical Composition=C |Has NM Type=CarbonNanotube }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=236
+|Has Label=28
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+    <revision>
+      <id>1824</id>
+      <timestamp>2013-03-03T15:37:02Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=237
+|Has Label=29
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhou2008 M26</title>
+    <id>751</id>
+    <revision>
+      <id>1825</id>
+      <timestamp>2013-03-03T15:37:31Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=238 |Has Label=30 |Has Source=Zhou2008 |Has Chemical Composition=C |Has NM Type=CarbonNanotube }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=238
+|Has Label=30
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhou2008 M27</title>
+    <id>752</id>
+    <revision>
+      <id>1826</id>
+      <timestamp>2013-03-03T15:37:46Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=239 |Has Label=31 |Has Source=Zhou2008 |Has Chemical Composition=C |Has NM Type=CarbonNanotube }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=239
+|Has Label=31
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhou2008 M28</title>
+    <id>753</id>
+    <revision>
+      <id>1827</id>
+      <timestamp>2013-03-03T15:37:59Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=240 |Has Label=32 |Has Source=Zhou2008 |Has Chemical Composition=C |Has NM Type=CarbonNanotube }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=240
+|Has Label=32
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhou2008 M29</title>
+    <id>754</id>
+    <revision>
+      <id>1828</id>
+      <timestamp>2013-03-03T15:39:08Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=241 |Has Label=33 |Has Source=Zhou2008 |Has Chemical Composition=C |Has NM Type=CarbonNanotube }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=241
+|Has Label=33
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhou2008 M30</title>
+    <id>755</id>
+    <revision>
+      <id>1829</id>
+      <timestamp>2013-03-03T15:39:18Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=242 |Has Label=34 |Has Source=Zhou2008 |Has Chemical Composition=C |Has NM Type=CarbonNanotube }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=242
+|Has Label=34
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhou2008 M31</title>
+    <id>756</id>
+    <revision>
+      <id>1831</id>
+      <timestamp>2013-03-03T15:41:25Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=243 |Has Label=35 |Has Source=Zhou2008 |Has Chemical Composition=C |Has NM Type=CarbonNanotube }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=243
+|Has Label=35
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhou2008 M32</title>
+    <id>757</id>
+    <revision>
+      <id>1833</id>
+      <timestamp>2013-03-03T15:43:48Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=244 |Has Label=36 |Has Source=Zhou2008 |Has Chemical Composition=C |Has NM Type=CarbonNanotube }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=244
+|Has Label=36
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhou2008 M33</title>
+    <id>758</id>
+    <revision>
+      <id>1834</id>
+      <timestamp>2013-03-03T15:43:59Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=245 |Has Label=37 |Has Source=Zhou2008 |Has Chemical Composition=C |Has NM Type=CarbonNanotube }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=245
+|Has Label=37
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhou2008 M34</title>
+    <id>759</id>
+    <revision>
+      <id>1835</id>
+      <timestamp>2013-03-03T15:44:09Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=246 |Has Label=38 |Has Source=Zhou2008 |Has Chemical Composition=C |Has NM Type=CarbonNanotube }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=246
+|Has Label=38
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhou2008 M35</title>
+    <id>760</id>
+    <revision>
+      <id>1836</id>
+      <timestamp>2013-03-03T15:44:20Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=247 |Has Label=39 |Has Source=Zhou2008 |Has Chemical Composition=C |Has NM Type=CarbonNanotube }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=247
+|Has Label=39
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhou2008 M36</title>
+    <id>761</id>
+    <revision>
+      <id>1837</id>
+      <timestamp>2013-03-03T15:44:31Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=248 |Has Label=40 |Has Source=Zhou2008 |Has Chemical Composition=C |Has NM Type=CarbonNanotube }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=248
+|Has Label=40
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhou2008 M37</title>
+    <id>762</id>
+    <revision>
+      <id>1838</id>
+      <timestamp>2013-03-03T15:44:42Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=249 |Has Label=41 |Has Source=Zhou2008 |Has Chemical Composition=C |Has NM Type=CarbonNanotube }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=249
+|Has Label=41
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhou2008 M38</title>
+    <id>763</id>
+    <revision>
+      <id>1839</id>
+      <timestamp>2013-03-03T15:44:51Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=250 |Has Label=42 |Has Source=Zhou2008 |Has Chemical Composition=C |Has NM Type=CarbonNanotube }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=250
+|Has Label=42
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhou2008 M39</title>
+    <id>764</id>
+    <revision>
+      <id>1840</id>
+      <timestamp>2013-03-03T15:45:01Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=251 |Has Label=43 |Has Source=Zhou2008 |Has Chemical Composition=C |Has NM Type=CarbonNanotube }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=251
+|Has Label=43
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhou2008 M40</title>
+    <id>765</id>
+    <revision>
+      <id>1841</id>
+      <timestamp>2013-03-03T15:49:36Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=252 |Has Label=44 |Has Source=Zhou2008 |Has Chemical Composition=C |Has NM Type=CarbonNanotube }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=252
+|Has Label=44
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhou2008 M41</title>
+    <id>766</id>
+    <revision>
+      <id>1842</id>
+      <timestamp>2013-03-03T15:49:46Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=253 |Has Label=45 |Has Source=Zhou2008 |Has Chemical Composition=C |Has NM Type=CarbonNanotube }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=253
+|Has Label=45
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhou2008 M42</title>
+    <id>767</id>
+    <revision>
+      <id>1843</id>
+      <timestamp>2013-03-03T15:49:56Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=254 |Has Label=46 |Has Source=Zhou2008 |Has Chemical Composition=C |Has NM Type=CarbonNanotube }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=254
+|Has Label=46
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhou2008 M43</title>
+    <id>768</id>
+    <revision>
+      <id>1844</id>
+      <timestamp>2013-03-03T15:50:06Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=255 |Has Label=47 |Has Source=Zhou2008 |Has Chemical Composition=C |Has NM Type=CarbonNanotube }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=255
+|Has Label=47
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhou2008 M44</title>
+    <id>769</id>
+    <revision>
+      <id>1845</id>
+      <timestamp>2013-03-03T15:50:16Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=256 |Has Label=48 |Has Source=Zhou2008 |Has Chemical Composition=C |Has NM Type=CarbonNanotube }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=256
+|Has Label=48
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhou2008 M45</title>
+    <id>770</id>
+    <revision>
+      <id>1846</id>
+      <timestamp>2013-03-03T15:50:28Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=257 |Has Label=49 |Has Source=Zhou2008 |Has Chemical Composition=C |Has NM Type=CarbonNanotube }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=257
+|Has Label=49
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhou2008 M46</title>
+    <id>771</id>
+    <revision>
+      <id>1847</id>
+      <timestamp>2013-03-03T15:50:38Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=258 |Has Label=50 |Has Source=Zhou2008 |Has Chemical Composition=C |Has NM Type=CarbonNanotube }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=258
+|Has Label=50
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhou2008 M47</title>
+    <id>772</id>
+    <revision>
+      <id>1848</id>
+      <timestamp>2013-03-03T15:50:48Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=259 |Has Label=51 |Has Source=Zhou2008 |Has Chemical Composition=C |Has NM Type=CarbonNanotube }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=259
+|Has Label=51
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhou2008 M48</title>
+    <id>773</id>
+    <revision>
+      <id>1849</id>
+      <timestamp>2013-03-03T15:51:07Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=260 |Has Label=52 |Has Source=Zhou2008 |Has Chemical Composition=C |Has NM Type=CarbonNanotube }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=260
+|Has Label=52
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhou2008 M49</title>
+    <id>774</id>
+    <revision>
+      <id>1850</id>
+      <timestamp>2013-03-03T15:51:18Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=261 |Has Label=53 |Has Source=Zhou2008 |Has Chemical Composition=C |Has NM Type=CarbonNanotube }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=261
+|Has Label=53
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhou2008 M50</title>
+    <id>775</id>
+    <revision>
+      <id>1851</id>
+      <timestamp>2013-03-03T15:51:54Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=262 |Has Label=54 |Has Source=Zhou2008 |Has Chemical Composition=C |Has NM Type=CarbonNanotube }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=262
+|Has Label=54
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhou2008 M51</title>
+    <id>776</id>
+    <revision>
+      <id>1852</id>
+      <timestamp>2013-03-03T15:52:04Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=263 |Has Label=55 |Has Source=Zhou2008 |Has Chemical Composition=C |Has NM Type=CarbonNanotube }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=263
+|Has Label=55
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhou2008 M52</title>
+    <id>777</id>
+    <revision>
+      <id>1853</id>
+      <timestamp>2013-03-03T15:52:15Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=264 |Has Label=56 |Has Source=Zhou2008 |Has Chemical Composition=C |Has NM Type=CarbonNanotube }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=264
+|Has Label=56
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhou2008 M53</title>
+    <id>778</id>
+    <revision>
+      <id>1854</id>
+      <timestamp>2013-03-03T15:52:24Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=265 |Has Label=57 |Has Source=Zhou2008 |Has Chemical Composition=C |Has NM Type=CarbonNanotube }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=265
+|Has Label=57
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhou2008 M54</title>
+    <id>779</id>
+    <revision>
+      <id>1855</id>
+      <timestamp>2013-03-03T15:52:35Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=266 |Has Label=58 |Has Source=Zhou2008 |Has Chemical Composition=C |Has NM Type=CarbonNanotube }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=266
+|Has Label=58
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhou2008 M55</title>
+    <id>780</id>
+    <revision>
+      <id>1856</id>
+      <timestamp>2013-03-03T15:52:46Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=267 |Has Label=59 |Has Source=Zhou2008 |Has Chemical Composition=C |Has NM Type=CarbonNanotube }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=267
+|Has Label=59
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhou2008 M56</title>
+    <id>781</id>
+    <revision>
+      <id>1857</id>
+      <timestamp>2013-03-03T15:53:00Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=268 |Has Label=60 |Has Source=Zhou2008 |Has Chemical Composition=C |Has NM Type=CarbonNanotube }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=268
+|Has Label=60
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhou2008 M57</title>
+    <id>782</id>
+    <revision>
+      <id>1858</id>
+      <timestamp>2013-03-03T15:53:11Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=269 |Has Label=61 |Has Source=Zhou2008 |Has Chemical Composition=C |Has NM Type=CarbonNanotube }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=269
+|Has Label=61
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhou2008 M58</title>
+    <id>783</id>
+    <revision>
+      <id>1859</id>
+      <timestamp>2013-03-03T15:53:22Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=270 |Has Label=62 |Has Source=Zhou2008 |Has Chemical Composition=C |Has NM Type=CarbonNanotube }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=270
+|Has Label=62
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhou2008 M59</title>
+    <id>784</id>
+    <revision>
+      <id>1860</id>
+      <timestamp>2013-03-03T15:53:33Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=271 |Has Label=63 |Has Source=Zhou2008 |Has Chemical Composition=C |Has NM Type=CarbonNanotube }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=271
+|Has Label=63
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhou2008 M60</title>
+    <id>785</id>
+    <revision>
+      <id>1861</id>
+      <timestamp>2013-03-03T15:53:44Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=272 |Has Label=64 |Has Source=Zhou2008 |Has Chemical Composition=C |Has NM Type=CarbonNanotube }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=272
+|Has Label=64
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhou2008 M61</title>
+    <id>786</id>
+    <revision>
+      <id>1862</id>
+      <timestamp>2013-03-03T15:53:54Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=273 |Has Label=65 |Has Source=Zhou2008 |Has Chemical Composition=C |Has NM Type=CarbonNanotube }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=273
+|Has Label=65
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhou2008 M62</title>
+    <id>787</id>
+    <revision>
+      <id>1863</id>
+      <timestamp>2013-03-03T15:54:04Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=274 |Has Label=66 |Has Source=Zhou2008 |Has Chemical Composition=C |Has NM Type=CarbonNanotube }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=274
+|Has Label=66
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhou2008 M63</title>
+    <id>788</id>
+    <revision>
+      <id>1864</id>
+      <timestamp>2013-03-03T15:54:16Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=275 |Has Label=67 |Has Source=Zhou2008 |Has Chemical Composition=C |Has NM Type=CarbonNanotube }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=275
+|Has Label=67
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhou2008 M64</title>
+    <id>789</id>
+    <revision>
+      <id>1865</id>
+      <timestamp>2013-03-03T15:54:26Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=276 |Has Label=68 |Has Source=Zhou2008 |Has Chemical Composition=C |Has NM Type=CarbonNanotube }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=276
+|Has Label=68
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhou2008 M65</title>
+    <id>790</id>
+    <revision>
+      <id>1866</id>
+      <timestamp>2013-03-03T15:54:37Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=277 |Has Label=69 |Has Source=Zhou2008 |Has Chemical Composition=C |Has NM Type=CarbonNanotube }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=277
+|Has Label=69
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhou2008 M66</title>
+    <id>791</id>
+    <revision>
+      <id>1867</id>
+      <timestamp>2013-03-03T15:54:52Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=278 |Has Label=70 |Has Source=Zhou2008 |Has Chemical Composition=C |Has NM Type=CarbonNanotube }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=278
+|Has Label=70
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhou2008 M67</title>
+    <id>792</id>
+    <revision>
+      <id>1868</id>
+      <timestamp>2013-03-03T15:55:49Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=279 |Has Label=71 |Has Source=Zhou2008 |Has Chemical Composition=C |Has NM Type=CarbonNanotube }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=279
+|Has Label=71
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhou2008 M68</title>
+    <id>793</id>
+    <revision>
+      <id>1869</id>
+      <timestamp>2013-03-03T15:56:03Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=280 |Has Label=72 |Has Source=Zhou2008 |Has Chemical Composition=C |Has NM Type=CarbonNanotube }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=280
+|Has Label=72
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhou2008 M69</title>
+    <id>794</id>
+    <revision>
+      <id>1870</id>
+      <timestamp>2013-03-03T15:56:15Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=281 |Has Label=73 |Has Source=Zhou2008 |Has Chemical Composition=C |Has NM Type=CarbonNanotube }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=281
+|Has Label=73
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhou2008 M70</title>
+    <id>795</id>
+    <revision>
+      <id>1871</id>
+      <timestamp>2013-03-03T15:56:26Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=282 |Has Label=74 |Has Source=Zhou2008 |Has Chemical Composition=C |Has NM Type=CarbonNanotube }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=282
+|Has Label=74
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhou2008 M71</title>
+    <id>796</id>
+    <revision>
+      <id>1872</id>
+      <timestamp>2013-03-03T15:57:13Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=283 |Has Label=75 |Has Source=Zhou2008 |Has Chemical Composition=C |Has NM Type=CarbonNanotube }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=283
+|Has Label=75
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhou2008 M72</title>
+    <id>797</id>
+    <revision>
+      <id>1873</id>
+      <timestamp>2013-03-03T15:57:23Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=284 |Has Label=76 |Has Source=Zhou2008 |Has Chemical Composition=C |Has NM Type=CarbonNanotube }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=284
+|Has Label=76
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhou2008 M73</title>
+    <id>798</id>
+    <revision>
+      <id>1874</id>
+      <timestamp>2013-03-03T15:57:34Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=285 |Has Label=77 |Has Source=Zhou2008 |Has Chemical Composition=C |Has NM Type=CarbonNanotube }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=285
+|Has Label=77
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhou2008 M74</title>
+    <id>799</id>
+    <revision>
+      <id>1875</id>
+      <timestamp>2013-03-03T15:57:44Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=286 |Has Label=78 |Has Source=Zhou2008 |Has Chemical Composition=C |Has NM Type=CarbonNanotube }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=286
+|Has Label=78
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhou2008 M75</title>
+    <id>800</id>
+    <revision>
+      <id>1876</id>
+      <timestamp>2013-03-03T15:57:54Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=287 |Has Label=79 |Has Source=Zhou2008 |Has Chemical Composition=C |Has NM Type=CarbonNanotube }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=287
+|Has Label=79
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhou2008 M76</title>
+    <id>801</id>
+    <revision>
+      <id>1877</id>
+      <timestamp>2013-03-03T15:58:07Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=288 |Has Label=80 |Has Source=Zhou2008 |Has Chemical Composition=C |Has NM Type=CarbonNanotube }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=288
+|Has Label=80
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhou2008 M77</title>
+    <id>802</id>
+    <revision>
+      <id>1878</id>
+      <timestamp>2013-03-03T15:58:17Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=289 |Has Label=81 |Has Source=Zhou2008 |Has Chemical Composition=C |Has NM Type=CarbonNanotube }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=289
+|Has Label=81
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhou2008 M78</title>
+    <id>803</id>
+    <revision>
+      <id>1879</id>
+      <timestamp>2013-03-03T15:58:34Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=290 |Has Label=82 |Has Source=Zhou2008 |Has Chemical Composition=C |Has NM Type=CarbonNanotube }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=290
+|Has Label=82
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhou2008 M79</title>
+    <id>804</id>
+    <revision>
+      <id>1880</id>
+      <timestamp>2013-03-03T15:58:46Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=291 |Has Label=83 |Has Source=Zhou2008 |Has Chemical Composition=C |Has NM Type=CarbonNanotube }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=291
+|Has Label=83
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhou2008 M80</title>
+    <id>805</id>
+    <revision>
+      <id>1881</id>
+      <timestamp>2013-03-03T15:58:59Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=292 |Has Label=84 |Has Source=Zhou2008 |Has Chemical Composition=C |Has NM Type=CarbonNanotube }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=292
+|Has Label=84
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
     </revision>
   </page>
 </mediawiki>
