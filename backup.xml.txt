@@ -35,6 +35,21 @@
     <title>Main Page</title>
     <id>1</id>
     <revision>
+      <id>1</id>
+      <timestamp>2012-02-01T06:12:44Z</timestamp>
+      <contributor>
+        <ip>MediaWiki default</ip>
+      </contributor>
+      <text xml:space="preserve">'''MediaWiki has been successfully installed.'''
+
+Consult the [http://meta.wikimedia.org/wiki/Help:Contents User's Guide] for information on using the wiki software.
+
+== Getting started ==
+* [http://www.mediawiki.org/wiki/Manual:Configuration_settings Configuration settings list]
+* [http://www.mediawiki.org/wiki/Manual:FAQ MediaWiki FAQ]
+* [https://lists.wikimedia.org/mailman/listinfo/mediawiki-announce MediaWiki release mailing list]</text>
+    </revision>
+    <revision>
       <id>2</id>
       <timestamp>2011-04-29T10:04:12Z</timestamp>
       <contributor>
@@ -752,21 +767,6 @@ You can browse this data via one of the following categories:
 ** mysqldump -u root -p wikidb --default-character-set=latin1 &gt; backup.sql.txt</text>
     </revision>
     <revision>
-      <id>1</id>
-      <timestamp>2012-02-01T06:12:44Z</timestamp>
-      <contributor>
-        <ip>MediaWiki default</ip>
-      </contributor>
-      <text xml:space="preserve">'''MediaWiki has been successfully installed.'''
-
-Consult the [http://meta.wikimedia.org/wiki/Help:Contents User's Guide] for information on using the wiki software.
-
-== Getting started ==
-* [http://www.mediawiki.org/wiki/Manual:Configuration_settings Configuration settings list]
-* [http://www.mediawiki.org/wiki/Manual:FAQ MediaWiki FAQ]
-* [https://lists.wikimedia.org/mailman/listinfo/mediawiki-announce MediaWiki release mailing list]</text>
-    </revision>
-    <revision>
       <id>1385</id>
       <timestamp>2012-02-24T15:27:19Z</timestamp>
       <contributor>
@@ -1166,6 +1166,41 @@ You can browse this data via one of the following categories:
 == Admin ==
 
 * [[Installation]]
+* [[Backup and Restore]] of the data</text>
+    </revision>
+    <revision>
+      <id>1883</id>
+      <timestamp>2013-03-03T17:10:02Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>/* Admin */</comment>
+      <text xml:space="preserve">Egon's Lab Notebook.
+
+== Nanomaterial Database ==
+
+Database containing QSAR studies from literature with assay data from cell line experiments.
+You can browse this data via one of the following categories:
+
+* [[:Category:Chemical_Entities|Chemical Entities]] ({{#ask: [[Category:Chemical_Entities]] | format=count}}),
+** [[:Category:Materials|Materials]] ({{#ask: [[Category:Materials]] | format=count}}),
+** [[:Category:NanoMaterials|Nanomaterials]] ({{#ask: [[Category:NanoMaterials]] | format=count}}),
+*** [[:Category:MetalOxides|Metal oxides]] ({{#ask: [[Category:MetalOxides]] | format=count}}), [[:Category:Metals|Metals]] ({{#ask: [[Category:Metals]] | format=count}}), [[:Category:Alloys|Alloys]] ({{#ask: [[Category:Alloys]] | format=count}}), [[:Category:CarbonNanotubes|CarbonNanotubes]] ({{#ask: [[Category:CarbonNanotubes]] | format=count}})
+*** [[:Category:Coatings|Coatings]] ({{#ask: [[Category:Coatings]] | format=count}}), [[:Category:Coating_Parts|Coating Parts]] ({{#ask: [[Category:Coating_Parts]] | format=count}})
+* [[:Category:Studies|Studies]] ({{#ask: [[Category:Studies]] | format=count}}), [[:Category:Measurements|Measurements]] ({{#ask: [[Category:Measurements]] | format=count}}), [[:Category:Methods|Methods]] ({{#ask: [[Category:Methods]] | format=count}})
+** [[:Category:NanoMaterials|NanoMaterials]] ({{#ask: [[Category:Studies]] [[Has Entities::!Compounds]] | format=count}}), of which Metal oxides ({{#ask: [[Category:Studies]] [[Has Entities::MetalOxides]] | format=count}}),
+** [[:Category:Compounds|Compounds]] ({{#ask: [[Category:Studies]] [[Has Entities::Compounds]] | format=count}})
+* [[:Category:Papers|Papers]] ({{#ask: [[Category:Papers]] | format=count}}) , [[:Category:PapersToRead|To Read]] ({{#ask: [[Category:PapersToRead]] | format=count}}) from {{#ask: [[Category:Journals]] | format=count}} [[:Category:Journals|Journals]] 
+* [[:Category:Descriptors|Descriptors]] ({{#ask: [[Category:Descriptors]] | format=count}}),
+* [[:Category:Endpoints|Endpoints]] ({{#ask: [[Category:Endpoints]] | format=count}}),
+* [[:Category:Relationships|Relationships]] ({{#ask: [[Category:Relationships]] | format=count}}),
+* [[:Category:Toxicity|Toxicity]] ({{#ask: [[Category:Toxicity]] | format=count}}),
+* [[:Category:CellLines|Cell lines]] ({{#ask: [[Category:CellLines]] | format=count}}).
+
+== Admin ==
+
+* [[Installation]]
+* [[Git Repository]]
 * [[Backup and Restore]] of the data</text>
     </revision>
   </page>
@@ -6057,6 +6092,30 @@ This database contains the following nanomaterials:
  |-
 &lt;/includeonly&gt;</text>
     </revision>
+    <revision>
+      <id>1914</id>
+      <timestamp>2013-03-04T14:08:21Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">&lt;includeonly&gt;
+{| class=&quot;wikitable sortable&quot;
+ ! Identifier !! Nanomaterial !! Type !! Composition !! Coating
+ |-
+&lt;/includeonly&gt;</text>
+    </revision>
+    <revision>
+      <id>1916</id>
+      <timestamp>2013-03-04T14:09:29Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">&lt;includeonly&gt;
+{| class=&quot;wikitable sortable&quot;
+ ! Identifier !! Nanomaterial !! Composition !! Coating
+ |-
+&lt;/includeonly&gt;</text>
+    </revision>
   </page>
   <page>
     <title>Template:NMsFrontTemplate</title>
@@ -6430,6 +6489,20 @@ This database contains the following nanomaterials:
 || {{{5}}}
 || {{{6}}}
 || {{{7}}}
+ |-
+&lt;/includeonly&gt;</text>
+    </revision>
+    <revision>
+      <id>1915</id>
+      <timestamp>2013-03-04T14:09:05Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">&lt;includeonly&gt;
+ | {{{2}}}
+|| {{{3}}} 
+|| {{{4}}}
+|| {{{5}}}
  |-
 &lt;/includeonly&gt;</text>
     </revision>
@@ -16368,6 +16441,26 @@ The allowed value for this property is:
 {{#set: |Equivalent URI=http://www.w3.org/2000/01/rdf-schema#subClassOf }}
 {{#set: |Original URI=http://www.w3.org/2000/01/rdf-schema#subClassOf }}</text>
     </revision>
+    <revision>
+      <id>1887</id>
+      <timestamp>2013-03-04T13:40:44Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">This is a property of type [[Has type::Page]].
+
+The allowed value for this property is:
+* [[Allows value::Metal]]
+* [[Allows value::MetalOxide]]
+* [[Allows value::CarbonNanotube]]
+* [[Allows value::CarbonNanoparticle]]
+* [[Allows value::Alloy]]
+* [[Allows value::Graphene]]
+* [[Allows value::PolymerCore]]
+
+{{#set: |Equivalent URI=http://www.w3.org/2000/01/rdf-schema#subClassOf }}
+{{#set: |Original URI=http://www.w3.org/2000/01/rdf-schema#subClassOf }}</text>
+    </revision>
   </page>
   <page>
     <title>Cytotox2011Pyzun01</title>
@@ -16676,6 +16769,31 @@ Observed Value [[Has Endpoint Value::3.45]] at unknown dose.
  | ? Has NM Type #
  | ? Has Zeta potential #
  | ? Has Chemical Composition #
+ |format = template
+ |template = NMsFrontTemplate
+ |introtemplate = NMsFrontHeader
+ |outrotemplate = NMsFrontFooter
+ |sort = Has Identifier
+ |offset=0
+ |limit=250
+}}
+
+{{#set: |Equivalent URI=http://egonw.github.com/resource/NM_000100 }}
+{{#set: |Original URI=http://egonw.github.com/resource/NM_000100 }}</text>
+    </revision>
+    <revision>
+      <id>1918</id>
+      <timestamp>2013-03-04T14:10:15Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">Metal Oxide are nanoparticles with a metal oxide core, possibly with a coating.
+
+{{#ask: [[Category:MetalOxides]]
+ | ? Has Identifier #
+ | ? Has Label #
+ | ? Has Chemical Composition #
+ | ? Has Coating #
  |format = template
  |template = NMsFrontTemplate
  |introtemplate = NMsFrontHeader
@@ -17527,6 +17645,24 @@ Observed Value [[Has Endpoint Value::3.45]] at unknown dose.
         <ip>127.0.0.1</ip>
       </contributor>
       <text xml:space="preserve">{{NanoMaterial
+|Has Identifier=1
+|Has Label=Al2O3
+|Has Chemical Composition=Al2O3
+|Has NM Type=MetalOxide
+|Has Size Min=15
+|Has Size Max=90
+|Has Size Units=nm
+}}
+
+{{#set:|Used in Study=Cytotox2011Pyzun}}</text>
+    </revision>
+    <revision>
+      <id>1886</id>
+      <timestamp>2013-03-04T13:38:21Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
 |Has Identifier=1
 |Has Label=Al2O3
 |Has Chemical Composition=Al2O3
@@ -20807,6 +20943,19 @@ Small molecule study.</text>
 | sort=Has Year
 }}</text>
     </revision>
+    <revision>
+      <id>1900</id>
+      <timestamp>2013-03-04T13:49:25Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{#ask: [[Category:PapersToRead]]
+| ? Has Year
+| ? Has DOI
+| ? Substances extracted
+| sort=Has Year
+}}</text>
+    </revision>
   </page>
   <page>
     <title>HannaK1</title>
@@ -20935,6 +21084,29 @@ Small molecule study.</text>
         <ip>Egonw</ip>
       </contributor>
       <text xml:space="preserve">{{NanoMaterial
+|Has Label=CuO
+|Has Identifier=18
+|Has Chemical Composition=CuO
+|Has NM Type=MetalOxide
+|Has Size Min=20
+|Has Size Max=40
+|Has Size Units=nm
+|Has Size Method=TEM
+|Has Zeta potential=31.0
+|Has Zeta Units=mV
+}}
+
+{{#set:|Used in Study=Karlsson2008Cytotox}}
+{{#set:|Used in Study=WillighagenS1}}
+{{#set:|Used in Study=WillighagenS2}}</text>
+    </revision>
+    <revision>
+      <id>1932</id>
+      <timestamp>2013-09-02T10:02:52Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
 |Has Label=CuO
 |Has Identifier=18
 |Has Chemical Composition=CuO
@@ -22806,6 +22978,22 @@ How many cells are still viable after a given amount of time.</text>
 
 How many cells are still viable after a given amount of time.</text>
     </revision>
+    <revision>
+      <id>1962</id>
+      <timestamp>2013-09-02T13:02:37Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Endpoint
+|Description=Percentage Non-viable Cells
+|Has Assay Type=In Vitro
+}}
+
+How many cells are still viable after a given amount of time.
+
+
+[[Category:Cytotoxicity]]</text>
+    </revision>
   </page>
   <page>
     <title>Property:Used in Study</title>
@@ -24013,6 +24201,140 @@ How many cells are still viable after a given amount of time.</text>
 {{#if:{{{Has Endpoint|}}} |
 {{#set:
 |Has Endpoint={{{Has Endpoint|}}}
+}}
+| }}
+{{#if:{{{Has Endpoint Value|}}} |
+{{#set:
+|Has Endpoint Value={{{Has Endpoint Value|}}}
+}}
+| }}
+{{#if:{{{Has Endpoint Error|}}} |
+{{#set:
+|Has Endpoint Error={{{Has Endpoint Error|}}}
+}}
+| }}
+{{#if:{{{Has Endpoint Value Units|}}} |
+{{#set:
+|Has Endpoint Value Units={{{Has Endpoint Value Units|}}}
+}}
+| }}
+{{#if:{{{Has Method|}}} |
+{{#set:
+|Has Method={{{Has Method|}}}
+}}
+| }}
+[[Category:Measurements]]__NOEDITSECTION____NOTOC__
+&lt;/includeonly&gt;</text>
+    </revision>
+    <revision>
+      <id>1970</id>
+      <timestamp>2013-09-02T16:08:30Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">&lt;noinclude&gt;
+&lt;pre&gt;
+{{Measurement
+|Has Entity=
+|For Measurement=
+|Has Dose=
+|Has Dose Units=
+|Has Endpoint=
+|Has Endpoint Class=
+|Has Endpoint Error=
+|Has Endpoint Value=
+|Has Endpoint Value Units=
+|Has Study=
+|Has Method=
+}}
+&lt;/pre&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: right; table-layout:fixed; word-wrap: break-word;&quot;
+! colspan=2 style=&quot;text-align: center;background-color: #ddd;&quot; | Measurement
+|-
+! colspan=2 style=&quot;text-align: center; font-size: 125%&quot; | {{{Name|{{PAGENAME}} }}}
+|-
+{{#if:{{{Has Entity|}}}|
+{{!}}-
+{{!}} Entity
+{{!}} [[{{{Has Entity}}}]]
+}}
+{{#if:{{{For Measurement|}}}|
+{{!}}-
+{{!}} For Measurement
+{{!}} [[{{{For Measurement}}}]]
+}}
+{{#if:{{{Has Study|}}}|
+{{!}}-
+{{!}} Study
+{{!}} [[{{{Has Study}}}]]
+}}
+{{#if:{{{Has Dose|}}}|
+{{!}}-
+{{!}} Dose
+{{!}} {{{Has Dose}}} {{#if:{{{Has Dose Units|}}}|{{{Has Dose Units}}}}}
+}}
+{{#if:{{{Has Endpoint Class|}}}|
+{{!}}-
+{{!}} End point Class
+{{!}} {{{Has Endpoint Class}}}
+}}
+{{#if:{{{Has Endpoint Value|}}}|
+{{!}}-
+{{!}} End point Value
+{{!}} {{{Has Endpoint Value}}} {{#if:{{{Has Endpoint Error|}}}|± {{{Has Endpoint Error}}}}} {{#if:{{{Has Endpoint Value Units|}}}|{{{Has Endpoint Value Units}}}}}
+}}
+{{#if:{{{Has Endpoint|}}}|
+{{!}}-
+{{!}} End point
+{{!}} [[{{{Has Endpoint}}}]]
+}}
+|}
+&lt;br&gt;
+= Conditions =
+{{#ask: [[Category:Measurements]] [[For Measurement::{{PAGENAME}}]]
+| ?Has Endpoint
+| ?Has Endpoint Value
+| ?Has Endpoint Error
+| ?Has Endpoint Value Units
+| sort=Has Endpoint Value
+| order=ascending
+| height=250
+| width=600
+}}
+{{#if:{{{Has Study|}}} |
+{{#set:
+|Has Study={{{Has Study|}}}
+}}
+| }}
+{{#if:{{{Has Entity|}}} |
+{{#set:
+|Has Entity={{{Has Entity|}}}
+}}
+| }}
+{{#if:{{{For Measurement|}}} |
+{{#set:
+|For Measurement={{{For Measurement|}}}
+}}
+| }}
+{{#if:{{{Has Dose|}}} |
+{{#set:
+|Has Dose={{{Has Dose|}}}
+}}
+| }}
+{{#if:{{{Has Dose Units|}}} |
+{{#set:
+|Has Dose Units={{{Has Dose Units|}}}
+}}
+| }}
+{{#if:{{{Has Endpoint|}}} |
+{{#set:
+|Has Endpoint={{{Has Endpoint|}}}
+}}
+| }}
+{{#if:{{{Has Endpoint Class|}}} |
+{{#set:
+|Has Endpoint Class={{{Has Endpoint Class|}}}
 }}
 | }}
 {{#if:{{{Has Endpoint Value|}}} |
@@ -25625,6 +25947,26 @@ Coated gold particles.
 
 {{#set:|Used in Study=Karlsson2008CytotoxFollowup}}</text>
     </revision>
+    <revision>
+      <id>1959</id>
+      <timestamp>2013-09-02T12:27:43Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=CeO2
+|Has Identifier=27
+|Has Chemical Composition=CeO2
+|Has NM Type=MetalOxide
+|Has Size Min=4
+|Has Size Max=25
+|Has Size Units=nm
+|Has Zeta potential=4.0
+|Has Zeta Units=mV
+}}
+
+{{#set:|Used in Study=Karlsson2008CytotoxFollowup}}</text>
+    </revision>
   </page>
   <page>
     <title>HannaK11</title>
@@ -25758,6 +26100,26 @@ Coated gold particles.
         <ip>Egonw</ip>
       </contributor>
       <text xml:space="preserve">{{NanoMaterial
+|Has Label=NiO
+|Has Identifier=29
+|Has Chemical Composition=NiO
+|Has NM Type=MetalOxide
+|Has Size Min=2
+|Has Size Max=67
+|Has Size Units=nm
+|Has Zeta potential=30.3
+|Has Zeta Units=mV
+}}
+
+{{#set:|Used in Study=Karlsson2008CytotoxFollowup}}</text>
+    </revision>
+    <revision>
+      <id>1958</id>
+      <timestamp>2013-09-02T12:27:36Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
 |Has Label=NiO
 |Has Identifier=29
 |Has Chemical Composition=NiO
@@ -31796,6 +32158,23 @@ The allowed value for this property is:
 
 {{#set:|Used in Study=Liu2011Cytotox}}</text>
     </revision>
+    <revision>
+      <id>1949</id>
+      <timestamp>2013-09-02T12:02:51Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=82
+|Has Label=Al2O3
+|Has Chemical Composition=Al2O3
+|Has NM Type=MetalOxide
+|Has Size=12
+|Has Size Units=nm
+}}
+
+{{#set:|Used in Study=Liu2011Cytotox}}</text>
+    </revision>
   </page>
   <page>
     <title>Liu2011 02</title>
@@ -31852,6 +32231,23 @@ The allowed value for this property is:
 
 {{#set:|Used in Study=Liu2011Cytotox}}</text>
     </revision>
+    <revision>
+      <id>1950</id>
+      <timestamp>2013-09-02T12:03:08Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=94
+|Has Label=CeO2
+|Has Chemical Composition=CeO2
+|Has NM Type=MetalOxide
+|Has Size=10
+|Has Size Units=nm
+}}
+
+{{#set:|Used in Study=Liu2011Cytotox}}</text>
+    </revision>
   </page>
   <page>
     <title>Liu2011 03</title>
@@ -31881,6 +32277,23 @@ The allowed value for this property is:
         <ip>Egonw</ip>
       </contributor>
       <text xml:space="preserve">{{NanoMaterial
+|Has Identifier=84
+|Has Label=Co3O4
+|Has Chemical Composition=Co3O4
+|Has NM Type=MetalOxide
+|Has Size=10
+|Has Size Units=nm
+}}
+
+{{#set:|Used in Study=Liu2011Cytotox}}</text>
+    </revision>
+    <revision>
+      <id>1951</id>
+      <timestamp>2013-09-02T12:03:15Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
 |Has Identifier=84
 |Has Label=Co3O4
 |Has Chemical Composition=Co3O4
@@ -31930,6 +32343,23 @@ The allowed value for this property is:
 
 {{#set:|Used in Study=Liu2011Cytotox}}</text>
     </revision>
+    <revision>
+      <id>1952</id>
+      <timestamp>2013-09-02T12:03:26Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=85
+|Has Label=TiO2
+|Has Chemical Composition=TiO2
+|Has NM Type=MetalOxide
+|Has Size=18
+|Has Size Units=nm
+}}
+
+{{#set:|Used in Study=Liu2011Cytotox}}</text>
+    </revision>
   </page>
   <page>
     <title>Liu2011 05</title>
@@ -31959,6 +32389,23 @@ The allowed value for this property is:
         <ip>Egonw</ip>
       </contributor>
       <text xml:space="preserve">{{NanoMaterial
+|Has Identifier=86
+|Has Label=ZnO
+|Has Chemical Composition=ZnO
+|Has NM Type=MetalOxide
+|Has Size=10
+|Has Size Units=nm
+}}
+
+{{#set:|Used in Study=Liu2011Cytotox}}</text>
+    </revision>
+    <revision>
+      <id>1953</id>
+      <timestamp>2013-09-02T12:03:36Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
 |Has Identifier=86
 |Has Label=ZnO
 |Has Chemical Composition=ZnO
@@ -32008,6 +32455,23 @@ The allowed value for this property is:
 
 {{#set:|Used in Study=Liu2011Cytotox}}</text>
     </revision>
+    <revision>
+      <id>1954</id>
+      <timestamp>2013-09-02T12:03:45Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=87
+|Has Label=CuO
+|Has Chemical Composition=CuO
+|Has NM Type=MetalOxide
+|Has Size=10
+|Has Size Units=nm
+}}
+
+{{#set:|Used in Study=Liu2011Cytotox}}</text>
+    </revision>
   </page>
   <page>
     <title>Liu2011 07</title>
@@ -32037,6 +32501,23 @@ The allowed value for this property is:
         <ip>Egonw</ip>
       </contributor>
       <text xml:space="preserve">{{NanoMaterial
+|Has Identifier=88
+|Has Label=SiO2
+|Has Chemical Composition=SiO2
+|Has NM Type=MetalOxide
+|Has Size=19
+|Has Size Units=nm
+}}
+
+{{#set:|Used in Study=Liu2011Cytotox}}</text>
+    </revision>
+    <revision>
+      <id>1955</id>
+      <timestamp>2013-09-02T12:03:57Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
 |Has Identifier=88
 |Has Label=SiO2
 |Has Chemical Composition=SiO2
@@ -32086,6 +32567,23 @@ The allowed value for this property is:
 
 {{#set:|Used in Study=Liu2011Cytotox}}</text>
     </revision>
+    <revision>
+      <id>1956</id>
+      <timestamp>2013-09-02T12:04:06Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=89
+|Has Label=Fe3O4
+|Has Chemical Composition=Fe3O4
+|Has NM Type=MetalOxide
+|Has Size=8
+|Has Size Units=nm
+}}
+
+{{#set:|Used in Study=Liu2011Cytotox}}</text>
+    </revision>
   </page>
   <page>
     <title>Liu2011 09</title>
@@ -32115,6 +32613,23 @@ The allowed value for this property is:
         <ip>Egonw</ip>
       </contributor>
       <text xml:space="preserve">{{NanoMaterial
+|Has Identifier=83
+|Has Label=WO3
+|Has Chemical Composition=WO3
+|Has NM Type=MetalOxide
+|Has Size=10
+|Has Size Units=nm
+}}
+
+{{#set:|Used in Study=Liu2011Cytotox}}</text>
+    </revision>
+    <revision>
+      <id>1957</id>
+      <timestamp>2013-09-02T12:04:38Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
 |Has Identifier=83
 |Has Label=WO3
 |Has Chemical Composition=WO3
@@ -36851,6 +37366,43 @@ The allowed value for this property is:
 |Has Size Method=TEM
 }}</text>
     </revision>
+    <revision>
+      <id>1937</id>
+      <timestamp>2013-09-02T11:30:53Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=Fe2O3 nano
+|Has Identifier=110
+|Has Chemical Composition=Fe2O3
+|Has NM Type=MetalOxide
+|Has Size Min=30
+|Has Size Max=60
+|Has Size Units=nm
+|Has Size Method=TEM
+}}</text>
+    </revision>
+    <revision>
+      <id>2070</id>
+      <timestamp>2013-09-03T14:49:02Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">This used to be a material, but turned out to be the same as [[HannaK5]].
+
+{{set:Has Identifier=110}}</text>
+    </revision>
+    <revision>
+      <id>2071</id>
+      <timestamp>2013-09-03T14:51:00Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">This used to be a material, but turned out to be the same as [[HannaK5]].
+
+{{#set:Has Identifier=110}}</text>
+    </revision>
   </page>
   <page>
     <title>HannaK16</title>
@@ -36948,6 +37500,35 @@ The allowed value for this property is:
 |Has Zeta Units=mV
 }}</text>
     </revision>
+    <revision>
+      <id>1934</id>
+      <timestamp>2013-09-02T11:30:31Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=Fe3O4 nano
+|Has Identifier=116
+|Has Chemical Composition=Fe3O4
+|Has NM Type=MetalOxide
+|Has Size Min=20
+|Has Size Max=40
+|Has Size Units=nm
+|Has Size Method=TEM
+|Has Zeta potential=1.8
+|Has Zeta Units=mV
+}}</text>
+    </revision>
+    <revision>
+      <id>2072</id>
+      <timestamp>2013-09-03T15:01:43Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">This used to be &quot;Fe3O4 nano&quot;, but turned out the be the same material as [[Hanna6]].
+
+{{#set:Has Identifier=116}}</text>
+    </revision>
   </page>
   <page>
     <title>HannaK18</title>
@@ -37008,6 +37589,33 @@ The allowed value for this property is:
 |Has Size Units=nm
 |Has Size Method=TEM
 }}</text>
+    </revision>
+    <revision>
+      <id>1936</id>
+      <timestamp>2013-09-02T11:30:46Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=TiO2 nano
+|Has Identifier=113
+|Has Chemical Composition=TiO2
+|Has NM Type=MetalOxide
+|Has Size Min=20
+|Has Size Max=100
+|Has Size Units=nm
+|Has Size Method=TEM
+}}</text>
+    </revision>
+    <revision>
+      <id>2073</id>
+      <timestamp>2013-09-03T15:35:41Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">This used to be &quot;TiO2 nano&quot;, but was found identical to [[HannaK2]].
+
+{{#set:Has Identifier=113}}</text>
     </revision>
   </page>
   <page>
@@ -37086,6 +37694,33 @@ The allowed value for this property is:
 |Has Size Units=nm
 |Has Size Method=TEM
 }}</text>
+    </revision>
+    <revision>
+      <id>1935</id>
+      <timestamp>2013-09-02T11:30:39Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=CuO nano
+|Has Identifier=114
+|Has Chemical Composition=CuO
+|Has NM Type=MetalOxide
+|Has Size Min=20
+|Has Size Max=40
+|Has Size Units=nm
+|Has Size Method=TEM
+}}</text>
+    </revision>
+    <revision>
+      <id>2074</id>
+      <timestamp>2013-09-03T15:38:24Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">This used to be &quot;CuO nano&quot;, but was found the be a duplicate of [[HannaK1]].
+
+{{#set:Has Identifier=114}}</text>
     </revision>
   </page>
   <page>
@@ -38817,6 +39452,408 @@ This paper is purely theoretical and does not have experimental data; therefore,
 [[Category:Chemical_Entities]]__NOEDITSECTION____NOTOC__
 &lt;/includeonly&gt;</text>
     </revision>
+    <revision>
+      <id>1966</id>
+      <timestamp>2013-09-02T16:05:06Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">&lt;noinclude&gt;
+&lt;pre&gt;
+{{Material
+|Has Identifier=
+|Has Label=
+|Has Source=
+|Has Chemical Composition=
+|Has Chemical Coating=
+|Image=
+|Has NM Type=
+|Has Size=
+|Has Size Min=
+|Has Size Max=
+|Has Size Error=
+|Has Size Units=
+|Has Size Method=
+|Has Zeta potential=
+|Has Zeta Units=
+|Has Zeta Error=
+|Has IEP=
+}}
+&lt;/pre&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: right; table-layout:fixed; word-wrap: break-word;&quot;
+! colspan=2 style=&quot;text-align: center;background-color: #ddd;&quot; | Material
+|-
+! colspan=2 style=&quot;text-align: center; font-size: 125%&quot; | {{{Name|{{PAGENAME}}}}}
+{{#if:{{{Image|}}}|
+{{!}}-
+{{!}} Image
+{{!}} {{{Image}}}
+}}
+|-
+{{#if:{{{Has Label|}}}|
+{{!}}-
+{{!}} Label
+{{!}} {{{Has Label}}} 
+}}
+|-
+{{#if:{{{Has Source|}}}|
+{{!}}-
+{{!}} Source
+{{!}} {{{Has Source}}} 
+}}
+|-
+{{#if:{{{Has Identifier|}}}|
+{{!}}-
+{{!}} Identifier
+{{!}} {{{Has Identifier}}} 
+}}
+|-
+{{#if:{{{Has Chemical Composition|}}}|
+{{!}}-
+{{!}} Chemical Composition
+{{!}} {{{Has Chemical Composition}}} 
+}}
+|-
+{{#if:{{{Has Chemical Coating|}}}|
+{{!}}-
+{{!}} Chemical Coating
+{{!}} {{{Has Chemical Coating}}} 
+}}
+|-
+! colspan=2 style=&quot;text-align: center;background-color: #ddd;&quot; | Properties
+|-
+{{#if:{{{Has Size|}}}|
+{{!}}-
+{{!}} Size
+{{!}} {{{Has Size}}} {{#if:{{{Has Size Error|}}}|± {{{Has Size Error}}}}} {{#if:{{{Has Size Units|}}}|{{{Has Size Units}}}}} {{#if:{{{Has Size Method|}}}| ({{{Has Size Method}}})}}
+}}
+{{#if:{{{Has Size Min|}}}|
+{{!}}-
+{{!}} Size
+{{!}} {{{Has Size Min}}} - {{{Has Size Max}}} {{#if:{{{Has Size Units|}}}|{{{Has Size Units}}}}} {{#if:{{{Has Size Method|}}}| ({{{Has Size Method}}})}}
+}}
+{{#if:{{{Has NM Type|}}}|
+{{!}}-
+{{!}} Type
+{{!}} {{{Has NM Type}}} 
+}}
+{{#if:{{{Has Zeta potential|}}}|
+{{!}}-
+{{!}} Zeta potential
+{{!}} {{{Has Zeta potential}}} {{#if:{{{Has Zeta Error|}}}|± {{{Has Zeta Error}}}}} {{#if:{{{Has Zeta Units|}}}|{{{Has Zeta Units}}}}}
+}}
+{{#if:{{{Has IEP|}}}|
+{{!}}-
+{{!}} IEP
+{{!}} {{{Has IEP}}}
+}}
+|}
+&lt;br&gt;
+= Measurements =
+{{#ask: [[Category:Measurements]] [[Has Entity::{{PAGENAME}}]]
+| ?Has Dose #
+| ?Has Endpoint
+| ?Has Endpoint Class
+| ?Has Endpoint Value
+| ?Has Endpoint Error
+| ?Has Endpoint Value Units
+| ?Has Method
+| format=jqplotbar
+| sort=Has Endpoint Value
+| order=ascending
+| height=250
+| width=600
+}}
+{{#if:{{{Has Size|}}} |
+{{#set:
+|Has Size={{{Has Size|}}}
+}}
+| }}
+{{#if:{{{Has Size Min|}}} |
+{{#set:
+|Has Size Min={{{Has Size Min|}}}
+}}
+| }}
+{{#if:{{{Has Size Max|}}} |
+{{#set:
+|Has Size Max={{{Has Size Max|}}}
+}}
+| }}
+{{#if:{{{Has Size Error|}}} |
+{{#set:
+|Has Size Error={{{Has Size Error|}}}
+}}
+| }}
+{{#if:{{{Has Size Units|}}} |
+{{#set:
+|Has Size Units={{{Has Size Units|}}}
+}}
+| }}
+{{#if:{{{Has Size Method|}}} |
+  {{#set: |Has Size Method={{{Has Size Method|}}} }}
+| }}
+{{#if:{{{Has Label|}}} |
+{{#set:
+|Has Label={{{Has Label|}}}
+}}
+| }}
+{{#if:{{{Has Source|}}} |
+{{#set:
+|Has Source={{{Has Source|}}}
+}}
+| }}
+{{#if:{{{Has Identifier|}}} |
+{{#set:
+|Has Identifier={{{Has Identifier|}}}
+}}
+| }}
+{{#if:{{{Has Chemical Composition|}}} |
+{{#set:
+|Has Chemical Composition={{{Has Chemical Composition|}}}
+}}
+| }}
+{{#if:{{{Has Chemical Coating|}}} |
+{{#set:
+|Has Chemical Coating={{{Has Chemical Coating|}}}
+}}
+| }}
+{{#if:{{{Has NM Type|}}} |
+{{#set:
+|Has NM Type={{{Has NM Type|}}}
+}}
+[[Category:{{{Has NM Type|}}}s]]
+| }}
+{{#if:{{{Has Zeta potential|}}} |
+{{#set:
+|Has Zeta potential={{{Has Zeta potential|}}}
+}}
+| }}
+{{#if:{{{Has Zeta Units|}}} |
+{{#set:
+|Has Zeta Units={{{Has Zeta Units|}}}
+}}
+| }}
+{{#if:{{{Has Zeta Error|}}} |
+{{#set:
+|Has Zeta Error={{{Has Zeta Error|}}}
+}}
+| }}
+{{#if:{{{Has IEP|}}} |
+{{#set:
+|Has IEP={{{Has IEP|}}}
+}}
+| }}
+[[Category:Materials]]__NOEDITSECTION____NOTOC__
+[[Category:Chemical_Entities]]__NOEDITSECTION____NOTOC__
+&lt;/includeonly&gt;</text>
+    </revision>
+    <revision>
+      <id>1971</id>
+      <timestamp>2013-09-02T16:12:09Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">&lt;noinclude&gt;
+&lt;pre&gt;
+{{Material
+|Has Identifier=
+|Has Label=
+|Has Source=
+|Has Chemical Composition=
+|Has Chemical Coating=
+|Image=
+|Has NM Type=
+|Has Size=
+|Has Size Min=
+|Has Size Max=
+|Has Size Error=
+|Has Size Units=
+|Has Size Method=
+|Has Zeta potential=
+|Has Zeta Units=
+|Has Zeta Error=
+|Has IEP=
+}}
+&lt;/pre&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: right; table-layout:fixed; word-wrap: break-word;&quot;
+! colspan=2 style=&quot;text-align: center;background-color: #ddd;&quot; | Material
+|-
+! colspan=2 style=&quot;text-align: center; font-size: 125%&quot; | {{{Name|{{PAGENAME}}}}}
+{{#if:{{{Image|}}}|
+{{!}}-
+{{!}} Image
+{{!}} {{{Image}}}
+}}
+|-
+{{#if:{{{Has Label|}}}|
+{{!}}-
+{{!}} Label
+{{!}} {{{Has Label}}} 
+}}
+|-
+{{#if:{{{Has Source|}}}|
+{{!}}-
+{{!}} Source
+{{!}} {{{Has Source}}} 
+}}
+|-
+{{#if:{{{Has Identifier|}}}|
+{{!}}-
+{{!}} Identifier
+{{!}} {{{Has Identifier}}} 
+}}
+|-
+{{#if:{{{Has Chemical Composition|}}}|
+{{!}}-
+{{!}} Chemical Composition
+{{!}} {{{Has Chemical Composition}}} 
+}}
+|-
+{{#if:{{{Has Chemical Coating|}}}|
+{{!}}-
+{{!}} Chemical Coating
+{{!}} {{{Has Chemical Coating}}} 
+}}
+|-
+! colspan=2 style=&quot;text-align: center;background-color: #ddd;&quot; | Properties
+|-
+{{#if:{{{Has Size|}}}|
+{{!}}-
+{{!}} Size
+{{!}} {{{Has Size}}} {{#if:{{{Has Size Error|}}}|± {{{Has Size Error}}}}} {{#if:{{{Has Size Units|}}}|{{{Has Size Units}}}}} {{#if:{{{Has Size Method|}}}| ({{{Has Size Method}}})}}
+}}
+{{#if:{{{Has Size Min|}}}|
+{{!}}-
+{{!}} Size
+{{!}} {{{Has Size Min}}} - {{{Has Size Max}}} {{#if:{{{Has Size Units|}}}|{{{Has Size Units}}}}} {{#if:{{{Has Size Method|}}}| ({{{Has Size Method}}})}}
+}}
+{{#if:{{{Has NM Type|}}}|
+{{!}}-
+{{!}} Type
+{{!}} {{{Has NM Type}}} 
+}}
+{{#if:{{{Has Zeta potential|}}}|
+{{!}}-
+{{!}} Zeta potential
+{{!}} {{{Has Zeta potential}}} {{#if:{{{Has Zeta Error|}}}|± {{{Has Zeta Error}}}}} {{#if:{{{Has Zeta Units|}}}|{{{Has Zeta Units}}}}}
+}}
+{{#if:{{{Has IEP|}}}|
+{{!}}-
+{{!}} IEP
+{{!}} {{{Has IEP}}}
+}}
+|}
+&lt;br&gt;
+= Measurements =
+{{#ask: [[Category:Measurements]] [[Has Entity::{{PAGENAME}}]]
+| ?Has Dose #
+| ?Has Endpoint
+| ?Has Endpoint Value
+| ?Has Endpoint Error
+| ?Has Endpoint Value Units
+| ?Has Method
+| format=jqplotbar
+| sort=Has Endpoint Value
+| order=ascending
+| height=250
+| width=600
+}}
+{{#ask: [[Category:Measurements]] [[Has Entity::{{PAGENAME}}]]
+| ?Has Dose #
+| ?Has Endpoint
+| ?Has Endpoint Class
+| ?Has Method
+| format=jqplotbar
+| sort=Has Endpoint Class
+| order=ascending
+| height=250
+| width=600
+}}
+{{#if:{{{Has Size|}}} |
+{{#set:
+|Has Size={{{Has Size|}}}
+}}
+| }}
+{{#if:{{{Has Size Min|}}} |
+{{#set:
+|Has Size Min={{{Has Size Min|}}}
+}}
+| }}
+{{#if:{{{Has Size Max|}}} |
+{{#set:
+|Has Size Max={{{Has Size Max|}}}
+}}
+| }}
+{{#if:{{{Has Size Error|}}} |
+{{#set:
+|Has Size Error={{{Has Size Error|}}}
+}}
+| }}
+{{#if:{{{Has Size Units|}}} |
+{{#set:
+|Has Size Units={{{Has Size Units|}}}
+}}
+| }}
+{{#if:{{{Has Size Method|}}} |
+  {{#set: |Has Size Method={{{Has Size Method|}}} }}
+| }}
+{{#if:{{{Has Label|}}} |
+{{#set:
+|Has Label={{{Has Label|}}}
+}}
+| }}
+{{#if:{{{Has Source|}}} |
+{{#set:
+|Has Source={{{Has Source|}}}
+}}
+| }}
+{{#if:{{{Has Identifier|}}} |
+{{#set:
+|Has Identifier={{{Has Identifier|}}}
+}}
+| }}
+{{#if:{{{Has Chemical Composition|}}} |
+{{#set:
+|Has Chemical Composition={{{Has Chemical Composition|}}}
+}}
+| }}
+{{#if:{{{Has Chemical Coating|}}} |
+{{#set:
+|Has Chemical Coating={{{Has Chemical Coating|}}}
+}}
+| }}
+{{#if:{{{Has NM Type|}}} |
+{{#set:
+|Has NM Type={{{Has NM Type|}}}
+}}
+[[Category:{{{Has NM Type|}}}s]]
+| }}
+{{#if:{{{Has Zeta potential|}}} |
+{{#set:
+|Has Zeta potential={{{Has Zeta potential|}}}
+}}
+| }}
+{{#if:{{{Has Zeta Units|}}} |
+{{#set:
+|Has Zeta Units={{{Has Zeta Units|}}}
+}}
+| }}
+{{#if:{{{Has Zeta Error|}}} |
+{{#set:
+|Has Zeta Error={{{Has Zeta Error|}}}
+}}
+| }}
+{{#if:{{{Has IEP|}}} |
+{{#set:
+|Has IEP={{{Has IEP|}}}
+}}
+| }}
+[[Category:Materials]]__NOEDITSECTION____NOTOC__
+[[Category:Chemical_Entities]]__NOEDITSECTION____NOTOC__
+&lt;/includeonly&gt;</text>
+    </revision>
   </page>
   <page>
     <title>Category:Chemical Entities</title>
@@ -39303,6 +40340,22 @@ This paper is purely theoretical and does not have experimental data; therefore,
 }}
 {{#set:|Used in Study=Deshpande2005_S1}}</text>
     </revision>
+    <revision>
+      <id>1940</id>
+      <timestamp>2013-09-02T11:32:44Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=124
+|Has Label=CeO2
+|Has Chemical Composition=CeO2
+|Has NM Type=MetalOxide
+|Has Size=3
+|Has Size Units=nm
+}}
+{{#set:|Used in Study=Deshpande2005_S1}}</text>
+    </revision>
   </page>
   <page>
     <title>Deshpande2005 M2</title>
@@ -39324,6 +40377,22 @@ This paper is purely theoretical and does not have experimental data; therefore,
 }}
 {{#set:|Used in Study=Deshpande2005_S1}}</text>
     </revision>
+    <revision>
+      <id>1941</id>
+      <timestamp>2013-09-02T11:32:49Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=125
+|Has Label=CeO2
+|Has Chemical Composition=CeO2
+|Has NM Type=MetalOxide
+|Has Size=6
+|Has Size Units=nm
+}}
+{{#set:|Used in Study=Deshpande2005_S1}}</text>
+    </revision>
   </page>
   <page>
     <title>Deshpande2005 M3</title>
@@ -39336,6 +40405,22 @@ This paper is purely theoretical and does not have experimental data; therefore,
       </contributor>
       <comment>Created page with &quot;{{NanoMaterial |Has Identifier=126 |Has Label=CeO2 |Has Chemical Composition=CeO2 |Has NM Type=MetalOxide |Has Size=30 |Has Size Units=nm }} {{#set:|Used in Study=Deshpande2005_S…&quot;</comment>
       <text xml:space="preserve">{{NanoMaterial
+|Has Identifier=126
+|Has Label=CeO2
+|Has Chemical Composition=CeO2
+|Has NM Type=MetalOxide
+|Has Size=30
+|Has Size Units=nm
+}}
+{{#set:|Used in Study=Deshpande2005_S1}}</text>
+    </revision>
+    <revision>
+      <id>1942</id>
+      <timestamp>2013-09-02T11:32:55Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
 |Has Identifier=126
 |Has Label=CeO2
 |Has Chemical Composition=CeO2
@@ -40231,6 +41316,74 @@ Problems: I should have backed up the file system too, but that mostly affects t
 ** cp /usr/share/doc/mediawiki/examples/AdminSettings.sample /etc/mediawiki/AdminSettings.php
 * restore the database
 ** cd ~/var/Projects/hg/kirepos/projects/nanotoxwiki
+** mysql -u root -p wikidb &lt; backup.sql.txt
+* restore the XML
+** sudo php /usr/share/mediawiki/maintenance/importDump.php backup.xml.txt
+
+Problems: I should have backed up the file system too, but that mostly affects the PDFs which I may not reshare anyway.</text>
+    </revision>
+    <revision>
+      <id>1885</id>
+      <timestamp>2013-03-03T17:12:05Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Updated to the new dedicated git repos.</comment>
+      <text xml:space="preserve">== Backups ==
+
+* [[Special:ExportRDF|Export RDF]]
+** cd ~/var/Projects/hg/nanowiki/projects/nanotoxwiki
+** sudo bash
+** export MW_INSTALL_PATH=/usr/share/mediawiki
+** php /usr/local/share/mediawiki-extensions/SemanticMediaWiki/maintenance/SMW_dumpRDF.php --conf /etc/mediawiki/LocalSettings.php --aconf /etc/mediawiki/AdminSettings.php &gt; backup.rdf.txt
+* dumpBackup.php
+** cd ~/var/Projects/hg/nanowiki/projects/nanotoxwiki
+** sudo php /usr/share/mediawiki/maintenance/dumpBackup.php --conf /etc/mediawiki/LocalSettings.php --full &gt; backup.xml.txt
+** (this required adding an /etc/mediawiki/AdminSettings.php with db account info, '''wrapped''' in ''&lt;?php ?&gt;'')
+* see ~/var/Projects/hg/kirepos/projects/nanotoxwiki/README
+** cd ~/var/Projects/hg/nanowiki/projects/nanotoxwiki
+** mysqldump -u root -p wikidb --default-character-set=latin1 &gt; backup.sql.txt
+
+== Restore ==
+
+* set up the mediawiki
+** cp /usr/share/doc/mediawiki/examples/AdminSettings.sample /etc/mediawiki/AdminSettings.php
+* restore the database
+** cd ~/var/Projects/hg/nanowiki/projects/nanotoxwiki
+** mysql -u root -p wikidb &lt; backup.sql.txt
+* restore the XML
+** sudo php /usr/share/mediawiki/maintenance/importDump.php backup.xml.txt
+
+Problems: I should have backed up the file system too, but that mostly affects the PDFs which I may not reshare anyway.</text>
+    </revision>
+    <revision>
+      <id>2080</id>
+      <timestamp>2013-09-12T06:44:34Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Updated for folder collapse.</comment>
+      <text xml:space="preserve">== Backups ==
+
+* [[Special:ExportRDF|Export RDF]]
+** cd ~/var/Projects/hg/nanowiki/
+** sudo bash
+** export MW_INSTALL_PATH=/usr/share/mediawiki
+** php /usr/local/share/mediawiki-extensions/SemanticMediaWiki/maintenance/SMW_dumpRDF.php --conf /etc/mediawiki/LocalSettings.php --aconf /etc/mediawiki/AdminSettings.php &gt; backup.rdf.txt
+* dumpBackup.php
+** cd ~/var/Projects/hg/nanowiki/
+** sudo php /usr/share/mediawiki/maintenance/dumpBackup.php --conf /etc/mediawiki/LocalSettings.php --full &gt; backup.xml.txt
+** (this required adding an /etc/mediawiki/AdminSettings.php with db account info, '''wrapped''' in ''&lt;?php ?&gt;'')
+* see ~/var/Projects/hg/kirepos/projects/nanotoxwiki/README
+** cd ~/var/Projects/hg/nanowiki/
+** mysqldump -u root -p wikidb --default-character-set=latin1 &gt; backup.sql.txt
+
+== Restore ==
+
+* set up the mediawiki
+** cp /usr/share/doc/mediawiki/examples/AdminSettings.sample /etc/mediawiki/AdminSettings.php
+* restore the database
+** cd ~/var/Projects/hg/nanowiki/projects/nanotoxwiki
 ** mysql -u root -p wikidb &lt; backup.sql.txt
 * restore the XML
 ** sudo php /usr/share/mediawiki/maintenance/importDump.php backup.xml.txt
@@ -41797,6 +42950,30 @@ CdSe quantum dots studied for dot size, surface charge, and functionalization.</
  |limit=250
 }}</text>
     </revision>
+    <revision>
+      <id>2069</id>
+      <timestamp>2013-09-03T14:24:28Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">A list of materials:
+
+{{#ask: [[Category:Materials]]
+ | ? Has Identifier #
+ | ? Has Label #
+ | ? Has Size #
+ | ? Has Size Min #
+ | ? Has Size Max #
+ | ? Has NM Type #
+ | ? Has Zeta potential #
+ | ? Has Chemical Composition #
+ | ? Has Chemical Coating #
+ |sort = Has Identifier
+ |order= descending
+ |offset=0
+ |limit=500
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Berg2009</title>
@@ -42139,6 +43316,27 @@ CdSe quantum dots studied for dot size, surface charge, and functionalization.</
 |Has Zeta Units=eV
 }}</text>
     </revision>
+    <revision>
+      <id>1943</id>
+      <timestamp>2013-09-02T11:51:55Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=145
+|Has Label=TiO2
+|Has Chemical Composition=TiO2
+|Has NM Type=MetalOxide
+|Has Size=27
+|Has Size Units=nm
+|Has Zeta Min=-60
+|Has Zeta Max=45
+|Has Zeta Units=eV
+}}
+
+{{#set:|Used in Study=Berg2009_S1}}
+{{#set:|Used in Study=Berg2009_S2}}</text>
+    </revision>
   </page>
   <page>
     <title>Berg2009 NM2</title>
@@ -42179,6 +43377,28 @@ CdSe quantum dots studied for dot size, surface charge, and functionalization.</
 |Has Zeta Units=eV
 }}</text>
     </revision>
+    <revision>
+      <id>1944</id>
+      <timestamp>2013-09-02T11:52:11Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=146
+|Has Label=Al2O3
+|Has Chemical Composition=Al2O3
+|Has NM Type=MetalOxide
+|Has Size Min=0
+|Has Size Max=50
+|Has Size Units=nm
+|Has Zeta Min=-35
+|Has Zeta Max=48
+|Has Zeta Units=eV
+}}
+
+{{#set:|Used in Study=Berg2009_S1}}
+{{#set:|Used in Study=Berg2009_S2}}</text>
+    </revision>
   </page>
   <page>
     <title>Berg2009 NM3</title>
@@ -42218,6 +43438,28 @@ CdSe quantum dots studied for dot size, surface charge, and functionalization.</
 |Has Zeta Max=55
 |Has Zeta Units=eV
 }}</text>
+    </revision>
+    <revision>
+      <id>1945</id>
+      <timestamp>2013-09-02T11:52:25Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=147
+|Has Label=ZnO
+|Has Chemical Composition=ZnO
+|Has NM Type=MetalOxide
+|Has Size Min=0
+|Has Size Max=50
+|Has Size Units=nm
+|Has Zeta Min=-45
+|Has Zeta Max=55
+|Has Zeta Units=eV
+}}
+
+{{#set:|Used in Study=Berg2009_S1}}
+{{#set:|Used in Study=Berg2009_S2}}</text>
     </revision>
   </page>
   <page>
@@ -42291,6 +43533,28 @@ CdSe quantum dots studied for dot size, surface charge, and functionalization.</
 |Has Zeta Units=eV
 }}</text>
     </revision>
+    <revision>
+      <id>1946</id>
+      <timestamp>2013-09-02T11:52:35Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=148
+|Has Label=CeO2
+|Has Chemical Composition=CeO2
+|Has NM Type=MetalOxide
+|Has Size Min=0
+|Has Size Max=25
+|Has Size Units=nm
+|Has Zeta Min=-20
+|Has Zeta Max=35
+|Has Zeta Units=eV
+}}
+
+{{#set:|Used in Study=Berg2009_S1}}
+{{#set:|Used in Study=Berg2009_S2}}</text>
+    </revision>
   </page>
   <page>
     <title>Berg2009 NM5</title>
@@ -42330,6 +43594,28 @@ CdSe quantum dots studied for dot size, surface charge, and functionalization.</
 |Has Zeta Max=38
 |Has Zeta Units=eV
 }}</text>
+    </revision>
+    <revision>
+      <id>1947</id>
+      <timestamp>2013-09-02T11:52:44Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=149
+|Has Label=Fe2O3
+|Has Chemical Composition=Fe2O3
+|Has NM Type=MetalOxide
+|Has Size Min=23
+|Has Size Max=35
+|Has Size Units=nm
+|Has Zeta Min=-50
+|Has Zeta Max=38
+|Has Zeta Units=eV
+}}
+
+{{#set:|Used in Study=Berg2009_S1}}
+{{#set:|Used in Study=Berg2009_S2}}</text>
     </revision>
   </page>
   <page>
@@ -43321,6 +44607,24 @@ CdSe quantum dots studied for dot size, surface charge, and functionalization.</
 |Has Size=21
 |Has Size Units=nm
 |Has Zeta potential=0
+|Has Zeta Units=mV
+|Has IEP=
+}}</text>
+    </revision>
+    <revision>
+      <id>1931</id>
+      <timestamp>2013-08-27T10:42:27Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=175
+|Has Label=TiO2-R20
+|Has Chemical Composition=TiO2
+|Has NM Type=MetalOxide
+|Has Size=21
+|Has Size Units=nm
+|Has Zeta potential=0.0
 |Has Zeta Units=mV
 |Has IEP=
 }}</text>
@@ -45627,6 +46931,21 @@ For Measurement=Rancan2012 M8 M3
 
 [[Category:PapersToRead]]</text>
     </revision>
+    <revision>
+      <id>1895</id>
+      <timestamp>2013-03-04T13:46:30Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Paper
+|Has Year=2011
+|Has DOI= 10.1038/nnano.2011.191
+|Has Journal=Nature Nanotechnology
+|Substances extracted=Yes
+}}
+
+[[Category:PapersToRead]]</text>
+    </revision>
   </page>
   <page>
     <title>Yu2011</title>
@@ -46104,6 +47423,21 @@ American Chemical Society's Nano journal.</text>
 |Has Year=2008
 |Has DOI=10.1021/nl0730155
 |Has Journal=Nano Letters
+}}
+
+[[Category:PapersToRead]]</text>
+    </revision>
+    <revision>
+      <id>1896</id>
+      <timestamp>2013-03-04T13:46:48Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Paper
+|Has Year=2008
+|Has DOI=10.1021/nl0730155
+|Has Journal=Nano Letters
+|Substances extracted=Yes
 }}
 
 [[Category:PapersToRead]]</text>
@@ -48002,6 +49336,2706 @@ American Chemical Society's Nano journal.</text>
 |Has Source=Zhou2008
 |Has Chemical Composition=C
 |Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Git Repository</title>
+    <id>806</id>
+    <revision>
+      <id>1884</id>
+      <timestamp>2013-03-03T17:11:13Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;Originally, the data was backed up in my KI git repository, but it extracted and available from a separete, dedicated git repository:      $ git remote -v     origin	ssh://git@bi…&quot;</comment>
+      <text xml:space="preserve">Originally, the data was backed up in my KI git repository, but it extracted and available from a separete, dedicated git repository:
+
+    $ git remote -v
+    origin	ssh://git@bitbucket.org/egonw/nanowiki.git (fetch)
+    origin	ssh://git@bitbucket.org/egonw/nanowiki.git (push)</text>
+    </revision>
+  </page>
+  <page>
+    <title>Kim2011 NM1</title>
+    <id>807</id>
+    <revision>
+      <id>1888</id>
+      <timestamp>2013-03-04T13:40:58Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{NanoMaterial |Has Identifier=293 |Has Label=40 nm PS-COOH |Has Chemical Composition=polystyrene |Has NM Type=PolymerCore }}&quot;</comment>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Identifier=293
+|Has Label=40 nm PS-COOH
+|Has Chemical Composition=polystyrene
+|Has NM Type=PolymerCore
+}}</text>
+    </revision>
+    <revision>
+      <id>1893</id>
+      <timestamp>2013-03-04T13:44:54Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Identifier=293
+|Has Label=40 nm PS-COOH
+|Has Chemical Composition=C8H8
+|Has NM Type=PolymerCore
+}}</text>
+    </revision>
+    <revision>
+      <id>1897</id>
+      <timestamp>2013-03-04T13:47:43Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Identifier=293
+|Has Label=40 nm PS-COOH
+|Has Chemical Composition=C8H8
+|Has NM Type=PolymerCore
+|Has Source=Kim2011
+}}</text>
+    </revision>
+    <revision>
+      <id>1939</id>
+      <timestamp>2013-09-02T11:32:09Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=293
+|Has Label=40 nm PS-COOH
+|Has Chemical Composition=C8H8
+|Has NM Type=PolymerCore
+|Has Source=Kim2011
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Kim2011 NM2</title>
+    <id>808</id>
+    <revision>
+      <id>1889</id>
+      <timestamp>2013-03-04T13:41:18Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{NanoMaterial |Has Identifier=294 |Has Label=100 nm PS-COOH |Has Chemical Composition=polystyrene |Has NM Type=PolymerCore }}&quot;</comment>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Identifier=294
+|Has Label=100 nm PS-COOH
+|Has Chemical Composition=polystyrene
+|Has NM Type=PolymerCore
+}}</text>
+    </revision>
+    <revision>
+      <id>1892</id>
+      <timestamp>2013-03-04T13:44:40Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Identifier=294
+|Has Label=100 nm PS-COOH
+|Has Chemical Composition=C8H8
+|Has NM Type=PolymerCore
+}}</text>
+    </revision>
+    <revision>
+      <id>1898</id>
+      <timestamp>2013-03-04T13:47:54Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Identifier=294
+|Has Label=100 nm PS-COOH
+|Has Chemical Composition=C8H8
+|Has NM Type=PolymerCore
+|Has Source=Kim2011
+}}</text>
+    </revision>
+    <revision>
+      <id>1938</id>
+      <timestamp>2013-09-02T11:32:04Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=294
+|Has Label=100 nm PS-COOH
+|Has Chemical Composition=C8H8
+|Has NM Type=PolymerCore
+|Has Source=Kim2011
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Kim2011 NM3</title>
+    <id>809</id>
+    <revision>
+      <id>1890</id>
+      <timestamp>2013-03-04T13:42:11Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{NanoMaterial |Has Identifier=294 |Has Label=50 nm SiO2 |Has Chemical Composition=SiO2 |Has NM Type=MetalOxide }}&quot;</comment>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Identifier=294
+|Has Label=50 nm SiO2
+|Has Chemical Composition=SiO2
+|Has NM Type=MetalOxide
+}}</text>
+    </revision>
+    <revision>
+      <id>1891</id>
+      <timestamp>2013-03-04T13:43:30Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Identifier=295
+|Has Label=50 nm SiO2
+|Has Chemical Composition=SiO2
+|Has NM Type=MetalOxide
+}}</text>
+    </revision>
+    <revision>
+      <id>1899</id>
+      <timestamp>2013-03-04T13:48:06Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Identifier=295
+|Has Label=50 nm SiO2
+|Has Chemical Composition=SiO2
+|Has NM Type=MetalOxide
+|Has Source=Kim2011
+}}</text>
+    </revision>
+    <revision>
+      <id>1933</id>
+      <timestamp>2013-09-02T11:30:11Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=295
+|Has Label=50 nm SiO2
+|Has Chemical Composition=SiO2
+|Has NM Type=MetalOxide
+|Has Source=Kim2011
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Category:PolymerCores</title>
+    <id>810</id>
+    <revision>
+      <id>1894</id>
+      <timestamp>2013-03-04T13:45:31Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{#ask: [[Category:PolymerCores]]  | ? Has Identifier #  | ? Has Label #  |offset=0  |limit=250  |sort=Has Identifier }}&quot;</comment>
+      <text xml:space="preserve">{{#ask: [[Category:PolymerCores]]
+ | ? Has Identifier #
+ | ? Has Label #
+ |offset=0
+ |limit=250
+ |sort=Has Identifier
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lesniak2013</title>
+    <id>811</id>
+    <revision>
+      <id>1901</id>
+      <timestamp>2013-03-04T13:58:59Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Paper |Has Year=2013 |Has DOI=10.1021/ja309812z |Has Journal=JACS |Substances extracted=Yes }}&quot;</comment>
+      <text xml:space="preserve">{{Paper
+|Has Year=2013
+|Has DOI=10.1021/ja309812z
+|Has Journal=JACS
+|Substances extracted=Yes
+}}</text>
+    </revision>
+    <revision>
+      <id>1919</id>
+      <timestamp>2013-03-04T14:18:07Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Paper
+|Has Year=2013
+|Has DOI=10.1021/ja309812z
+|Has Journal=JACS
+|Substances extracted=Yes
+}}
+
+[[Category:PapersToRead]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lesniak2013 NM1</title>
+    <id>812</id>
+    <revision>
+      <id>1902</id>
+      <timestamp>2013-03-04T14:00:04Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{NanoMaterial |Has Identifier=296 |Has Label=50 nm SiO2 |Has Chemical Composition=SiO2 |Has NM Type=MetalOxide |Has Source=Lesniak2013 }}&quot;</comment>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Identifier=296
+|Has Label=50 nm SiO2
+|Has Chemical Composition=SiO2
+|Has NM Type=MetalOxide
+|Has Source=Lesniak2013
+}}</text>
+    </revision>
+    <revision>
+      <id>1904</id>
+      <timestamp>2013-03-04T14:00:45Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Identifier=296
+|Has Label=40 nm PS-COOH
+|Has Chemical Composition=C8H8
+|Has NM Type=PolymerCore
+|Has Source=Lesniak2013
+}}</text>
+    </revision>
+    <revision>
+      <id>1912</id>
+      <timestamp>2013-03-04T14:03:18Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=296
+|Has Label=40 nm PS-COOH
+|Has Chemical Composition=C8H8
+|Has NM Type=PolymerCore
+|Has Source=Lesniak2013
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lesniak2013 NM4</title>
+    <id>813</id>
+    <revision>
+      <id>1903</id>
+      <timestamp>2013-03-04T14:00:20Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{NanoMaterial |Has Identifier=298 |Has Label=50 nm SiO2 |Has Chemical Composition=SiO2 |Has NM Type=MetalOxide |Has Source=Lesniak2013 }}&quot;</comment>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Identifier=298
+|Has Label=50 nm SiO2
+|Has Chemical Composition=SiO2
+|Has NM Type=MetalOxide
+|Has Source=Lesniak2013
+}}</text>
+    </revision>
+    <revision>
+      <id>1906</id>
+      <timestamp>2013-03-04T14:01:18Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Identifier=298
+|Has Label=100 nm SiO2
+|Has Chemical Composition=SiO2
+|Has NM Type=MetalOxide
+|Has Source=Lesniak2013
+}}</text>
+    </revision>
+    <revision>
+      <id>1908</id>
+      <timestamp>2013-03-04T14:01:47Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Identifier=299
+|Has Label=100 nm SiO2
+|Has Chemical Composition=SiO2
+|Has NM Type=MetalOxide
+|Has Source=Lesniak2013
+}}</text>
+    </revision>
+    <revision>
+      <id>1909</id>
+      <timestamp>2013-03-04T14:02:46Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=299
+|Has Label=100 nm SiO2
+|Has Chemical Composition=SiO2
+|Has NM Type=MetalOxide
+|Has Source=Lesniak2013
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lesniak2013 NM2</title>
+    <id>814</id>
+    <revision>
+      <id>1905</id>
+      <timestamp>2013-03-04T14:01:04Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{NanoMaterial |Has Identifier=297 |Has Label=100 nm PS-COOH |Has Chemical Composition=C8H8 |Has NM Type=PolymerCore |Has Source=Lesniak2013 }}&quot;</comment>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Identifier=297
+|Has Label=100 nm PS-COOH
+|Has Chemical Composition=C8H8
+|Has NM Type=PolymerCore
+|Has Source=Lesniak2013
+}}</text>
+    </revision>
+    <revision>
+      <id>1911</id>
+      <timestamp>2013-03-04T14:03:08Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=297
+|Has Label=100 nm PS-COOH
+|Has Chemical Composition=C8H8
+|Has NM Type=PolymerCore
+|Has Source=Lesniak2013
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lesniak2013 NM3</title>
+    <id>815</id>
+    <revision>
+      <id>1907</id>
+      <timestamp>2013-03-04T14:01:35Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{NanoMaterial |Has Identifier=298 |Has Label=50 nm SiO2 |Has Chemical Composition=SiO2 |Has NM Type=MetalOxide |Has Source=Lesniak2013 }}&quot;</comment>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Identifier=298
+|Has Label=50 nm SiO2
+|Has Chemical Composition=SiO2
+|Has NM Type=MetalOxide
+|Has Source=Lesniak2013
+}}</text>
+    </revision>
+    <revision>
+      <id>1910</id>
+      <timestamp>2013-03-04T14:02:58Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=298
+|Has Label=50 nm SiO2
+|Has Chemical Composition=SiO2
+|Has NM Type=MetalOxide
+|Has Source=Lesniak2013
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>PolymerCore</title>
+    <id>816</id>
+    <revision>
+      <id>1913</id>
+      <timestamp>2013-03-04T14:07:46Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;PolymerCore are nanoparticles with a polymer core, possibly with a coating.  {{#ask: [[Category:PolymerCores]]  | ? Has Identifier #  | ? Has Label #  | ? Has Chemical Compositio…&quot;</comment>
+      <text xml:space="preserve">PolymerCore are nanoparticles with a polymer core, possibly with a coating.
+
+{{#ask: [[Category:PolymerCores]]
+ | ? Has Identifier #
+ | ? Has Label #
+ | ? Has Chemical Composition #
+ |format = template
+ |template = NMsFrontTemplate
+ |introtemplate = NMsFrontHeader
+ |outrotemplate = NMsFrontFooter
+ |sort = Has Identifier
+ |offset=0
+ |limit=250
+}}</text>
+    </revision>
+    <revision>
+      <id>1917</id>
+      <timestamp>2013-03-04T14:09:41Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">PolymerCore are nanoparticles with a polymer core, possibly with a coating.
+
+{{#ask: [[Category:PolymerCores]]
+ | ? Has Identifier #
+ | ? Has Label #
+ | ? Has Chemical Composition #
+ | ? Has Coating #
+ |format = template
+ |template = NMsFrontTemplate
+ |introtemplate = NMsFrontHeader
+ |outrotemplate = NMsFrontFooter
+ |sort = Has Identifier
+ |offset=0
+ |limit=250
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Antisari</title>
+    <id>817</id>
+    <revision>
+      <id>1920</id>
+      <timestamp>2013-03-04T14:26:04Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Paper |Has Year=2013 |Has DOI=10.1016/j.soilbio.2013.01.016 |Has Journal=Soil Biology and Biochemistry |Substances extracted=Yes }}&quot;</comment>
+      <text xml:space="preserve">{{Paper
+|Has Year=2013
+|Has DOI=10.1016/j.soilbio.2013.01.016
+|Has Journal=Soil Biology and Biochemistry
+|Substances extracted=Yes
+}}</text>
+    </revision>
+    <revision>
+      <id>1923</id>
+      <timestamp>2013-03-04T14:31:01Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Blanked the page</comment>
+      <text xml:space="preserve" />
+    </revision>
+  </page>
+  <page>
+    <title>Soil Biology and Biochemistry</title>
+    <id>818</id>
+    <revision>
+      <id>1921</id>
+      <timestamp>2013-03-04T14:26:23Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Journal}}&quot;</comment>
+      <text xml:space="preserve">{{Journal}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Antisari2013</title>
+    <id>819</id>
+    <revision>
+      <id>1922</id>
+      <timestamp>2013-03-04T14:30:52Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Paper |Has Year=2013 |Has DOI=10.1016/j.soilbio.2013.01.016 |Has Journal=Soil Biology and Biochemistry |Substances extracted=Yes }}&quot;</comment>
+      <text xml:space="preserve">{{Paper
+|Has Year=2013
+|Has DOI=10.1016/j.soilbio.2013.01.016
+|Has Journal=Soil Biology and Biochemistry
+|Substances extracted=Yes
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Antisari2013 M1</title>
+    <id>820</id>
+    <revision>
+      <id>1924</id>
+      <timestamp>2013-03-04T14:35:25Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{NanoMaterial |Has Identifier=300 |Has Label=CeO2-10 |Has Chemical Composition=CeO2 |Has NM Type=MetalOxide |Has Source=Antisari2013 }}&quot;</comment>
+      <text xml:space="preserve">{{NanoMaterial
+|Has Identifier=300
+|Has Label=CeO2-10
+|Has Chemical Composition=CeO2
+|Has NM Type=MetalOxide
+|Has Source=Antisari2013
+}}</text>
+    </revision>
+    <revision>
+      <id>1925</id>
+      <timestamp>2013-03-04T14:35:33Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=300
+|Has Label=CeO2-10
+|Has Chemical Composition=CeO2
+|Has NM Type=MetalOxide
+|Has Source=Antisari2013
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Antisari2013 M2</title>
+    <id>821</id>
+    <revision>
+      <id>1926</id>
+      <timestamp>2013-03-04T14:35:47Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=301 |Has Label=CeO2-100 |Has Chemical Composition=CeO2 |Has NM Type=MetalOxide |Has Source=Antisari2013 }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=301
+|Has Label=CeO2-100
+|Has Chemical Composition=CeO2
+|Has NM Type=MetalOxide
+|Has Source=Antisari2013
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Antisari2013 M3</title>
+    <id>822</id>
+    <revision>
+      <id>1927</id>
+      <timestamp>2013-03-04T14:36:09Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=302 |Has Label=Fe3O4-10 |Has Chemical Composition=Fe3O4 |Has NM Type=MetalOxide |Has Source=Antisari2013 }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=302
+|Has Label=Fe3O4-10
+|Has Chemical Composition=Fe3O4
+|Has NM Type=MetalOxide
+|Has Source=Antisari2013
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Antisari2013 M4</title>
+    <id>823</id>
+    <revision>
+      <id>1928</id>
+      <timestamp>2013-03-04T14:36:22Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=303 |Has Label=Fe3O4-100 |Has Chemical Composition=Fe3O4 |Has NM Type=MetalOxide |Has Source=Antisari2013 }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=303
+|Has Label=Fe3O4-100
+|Has Chemical Composition=Fe3O4
+|Has NM Type=MetalOxide
+|Has Source=Antisari2013
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Antisari2013 M5</title>
+    <id>824</id>
+    <revision>
+      <id>1929</id>
+      <timestamp>2013-03-04T14:36:45Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=304 |Has Label=SnO2-10 |Has Chemical Composition=SnO2 |Has NM Type=MetalOxide |Has Source=Antisari2013 }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=304
+|Has Label=SnO2-10
+|Has Chemical Composition=SnO2
+|Has NM Type=MetalOxide
+|Has Source=Antisari2013
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Antisari2013 M6</title>
+    <id>825</id>
+    <revision>
+      <id>1930</id>
+      <timestamp>2013-03-04T14:36:59Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=305 |Has Label=SnO2-100 |Has Chemical Composition=SnO2 |Has NM Type=MetalOxide |Has Source=Antisari2013 }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=305
+|Has Label=SnO2-100
+|Has Chemical Composition=SnO2
+|Has NM Type=MetalOxide
+|Has Source=Antisari2013
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Liu2013</title>
+    <id>826</id>
+    <revision>
+      <id>1948</id>
+      <timestamp>2013-09-02T12:01:53Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Paper |Has Year=2013 |Has DOI=10.1039/c3nr01533e |Has Journal=Nanoscale |Substances extracted=No |Relationships extracted=No }}  == Abstract ==  Nanomaterial structure–activi…&quot;</comment>
+      <text xml:space="preserve">{{Paper
+|Has Year=2013
+|Has DOI=10.1039/c3nr01533e
+|Has Journal=Nanoscale
+|Substances extracted=No
+|Relationships extracted=No
+}}
+
+== Abstract ==
+
+Nanomaterial structure–activity relationships (nano-SARs) for metal oxide nanoparticles (NPs) toxicity were investigated using metrics based on dose–response analysis and consensus self-organizing map clustering. The NP cellular toxicity dataset included toxicity profiles consisting of seven different assays for human bronchial epithelial (BEAS-2B) and murine myeloid (RAW 264.7) cells, over a concentration range of 0.39–100 mg L−1 and exposure time up to 24 h, for twenty-four different metal oxide NPs. Various nano-SAR building models were evaluated, based on an initial pool of thirty NP descriptors. The conduction band energy and ionic index (often correlated with the hydration enthalpy) were identified as suitable NP descriptors that are consistent with suggested toxicity mechanisms for metal oxide NPs and metal ions. The best performing nano-SAR with the above two descriptors, built with support vector machine (SVM) model and of validated robustness, had a balanced classification accuracy of [similar]94%. An applicability domain for the present data was established with a reasonable confidence level of 80%. Given the potential role of nano-SARs in decision making, regarding the environmental impact of NPs, the class probabilities provided by the SVM nano-SAR enabled the construction of decision boundaries with respect to toxicity classification under different acceptance levels of false negative relative to false positive predictions.</text>
+    </revision>
+    <revision>
+      <id>2079</id>
+      <timestamp>2013-09-03T16:04:05Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Paper
+|Has Year=2013
+|Has DOI=10.1039/c3nr01533e
+|Has Journal=Nanoscale
+|Substances extracted=No
+|Relationships extracted=No
+}}
+
+[[Category:PapersToRead]]
+
+== Abstract ==
+
+Nanomaterial structure–activity relationships (nano-SARs) for metal oxide nanoparticles (NPs) toxicity were investigated using metrics based on dose–response analysis and consensus self-organizing map clustering. The NP cellular toxicity dataset included toxicity profiles consisting of seven different assays for human bronchial epithelial (BEAS-2B) and murine myeloid (RAW 264.7) cells, over a concentration range of 0.39–100 mg L−1 and exposure time up to 24 h, for twenty-four different metal oxide NPs. Various nano-SAR building models were evaluated, based on an initial pool of thirty NP descriptors. The conduction band energy and ionic index (often correlated with the hydration enthalpy) were identified as suitable NP descriptors that are consistent with suggested toxicity mechanisms for metal oxide NPs and metal ions. The best performing nano-SAR with the above two descriptors, built with support vector machine (SVM) model and of validated robustness, had a balanced classification accuracy of [similar]94%. An applicability domain for the present data was established with a reasonable confidence level of 80%. Given the potential role of nano-SARs in decision making, regarding the environmental impact of NPs, the class probabilities provided by the SVM nano-SAR enabled the construction of decision boundaries with respect to toxicity classification under different acceptance levels of false negative relative to false positive predictions.</text>
+    </revision>
+  </page>
+  <page>
+    <title>Nanoscale</title>
+    <id>827</id>
+    <revision>
+      <id>1960</id>
+      <timestamp>2013-09-02T12:36:13Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Journal}}&quot;</comment>
+      <text xml:space="preserve">{{Journal}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Liu2013 Cytotoxicity</title>
+    <id>828</id>
+    <revision>
+      <id>1961</id>
+      <timestamp>2013-09-02T12:40:01Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Study |Has Identifier=24 |Has Source=Liu2013 |Has Entities=MetalOxides |Has Study Type=Classification |Has Object Count=19 }}&quot;</comment>
+      <text xml:space="preserve">{{Study
+|Has Identifier=24
+|Has Source=Liu2013
+|Has Entities=MetalOxides
+|Has Study Type=Classification
+|Has Object Count=19
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Liu2011 01 M1</title>
+    <id>829</id>
+    <revision>
+      <id>1963</id>
+      <timestamp>2013-09-02T16:02:23Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Liu2011_01 |Has Dose=200 |Has Dose Units=mg per L |Has Endpoint Value=Non-toxic |Has Endpoint=Toxicity Classifier }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011_01
+|Has Dose=200
+|Has Dose Units=mg per L
+|Has Endpoint Value=Non-toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+    <revision>
+      <id>1964</id>
+      <timestamp>2013-09-02T16:02:53Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 01
+|Has Dose=200
+|Has Dose Units=mg per L
+|Has Endpoint Value=Non-toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+    <revision>
+      <id>1967</id>
+      <timestamp>2013-09-02T16:05:30Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 01
+|Has Dose=200
+|Has Dose Units=mg per L
+|Has Endpoint Class=Non-toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+    <revision>
+      <id>1969</id>
+      <timestamp>2013-09-02T16:07:07Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 01
+|Has Dose=200
+|Has Dose Units=mg/L
+|Has Endpoint Class=Non-toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Has Endpoint Class</title>
+    <id>830</id>
+    <revision>
+      <id>1965</id>
+      <timestamp>2013-09-02T16:04:41Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;This is a property of type [[Has type::String]].&quot;</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::String]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Toxicity Classifier</title>
+    <id>831</id>
+    <revision>
+      <id>1968</id>
+      <timestamp>2013-09-02T16:05:54Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Descriptor }}  [[Category:Endpoints]]&quot;</comment>
+      <text xml:space="preserve">{{Descriptor
+}}
+
+[[Category:Endpoints]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Liu2011 02 M1</title>
+    <id>832</id>
+    <revision>
+      <id>1972</id>
+      <timestamp>2013-09-02T16:12:58Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Liu2011 02 |Has Dose=200 |Has Dose Units=mg/L |Has Endpoint Class=Non-toxic |Has Endpoint=Toxicity Classifier }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 02
+|Has Dose=200
+|Has Dose Units=mg/L
+|Has Endpoint Class=Non-toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Liu2011 03 M1</title>
+    <id>833</id>
+    <revision>
+      <id>1973</id>
+      <timestamp>2013-09-02T16:13:28Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Liu2011 03 |Has Dose=200 |Has Dose Units=mg/L |Has Endpoint Class=Non-toxic |Has Endpoint=Toxicity Classifier }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 03
+|Has Dose=200
+|Has Dose Units=mg/L
+|Has Endpoint Class=Non-toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Liu2011 04 M1</title>
+    <id>834</id>
+    <revision>
+      <id>1974</id>
+      <timestamp>2013-09-02T19:40:55Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Liu2011 04 |Has Dose=200 |Has Dose Units=mg/L |Has Endpoint Class=Non-toxic |Has Endpoint=Toxicity Classifier }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 04
+|Has Dose=200
+|Has Dose Units=mg/L
+|Has Endpoint Class=Non-toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Liu2011 05 M1</title>
+    <id>835</id>
+    <revision>
+      <id>1975</id>
+      <timestamp>2013-09-02T19:41:58Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Liu2011 03 |Has Dose=200 |Has Dose Units=mg/L |Has Endpoint Class=Toxic |Has Endpoint=Toxicity Classifier }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 03
+|Has Dose=200
+|Has Dose Units=mg/L
+|Has Endpoint Class=Toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+    <revision>
+      <id>2026</id>
+      <timestamp>2013-09-02T20:45:09Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 05
+|Has Dose=200
+|Has Dose Units=mg/L
+|Has Endpoint Class=Toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Liu2011 06 M1</title>
+    <id>836</id>
+    <revision>
+      <id>1976</id>
+      <timestamp>2013-09-02T19:43:08Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Liu2011 06 |Has Dose=200 |Has Dose Units=mg/L |Has Endpoint Class=Toxic |Has Endpoint=Toxicity Classifier }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 06
+|Has Dose=200
+|Has Dose Units=mg/L
+|Has Endpoint Class=Toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Liu2011 07 M1</title>
+    <id>837</id>
+    <revision>
+      <id>1977</id>
+      <timestamp>2013-09-02T19:45:05Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Liu2011 07 |Has Dose=200 |Has Dose Units=mg/L |Has Endpoint Class=Toxic |Has Endpoint=Toxicity Classifier }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 07
+|Has Dose=200
+|Has Dose Units=mg/L
+|Has Endpoint Class=Toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Liu2011 08 M1</title>
+    <id>838</id>
+    <revision>
+      <id>1978</id>
+      <timestamp>2013-09-02T19:46:53Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Liu2011 08 |Has Dose=200 |Has Dose Units=mg/L |Has Endpoint Class=Non-toxic |Has Endpoint=Toxicity Classifier }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 08
+|Has Dose=200
+|Has Dose Units=mg/L
+|Has Endpoint Class=Non-toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Liu2011 08 M2</title>
+    <id>839</id>
+    <revision>
+      <id>1979</id>
+      <timestamp>2013-09-02T19:48:31Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Liu2011 08 |Has Dose=100 |Has Dose Units=mg/L |Has Endpoint Class=Non-toxic |Has Endpoint=Toxicity Classifier }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 08
+|Has Dose=100
+|Has Dose Units=mg/L
+|Has Endpoint Class=Non-toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Liu2011 08 M3</title>
+    <id>840</id>
+    <revision>
+      <id>1980</id>
+      <timestamp>2013-09-02T19:50:46Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Liu2011 08 |Has Dose=50 |Has Dose Units=mg/L |Has Endpoint Class=Non-toxic |Has Endpoint=Toxicity Classifier }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 08
+|Has Dose=50
+|Has Dose Units=mg/L
+|Has Endpoint Class=Non-toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Liu2011 08 M4</title>
+    <id>841</id>
+    <revision>
+      <id>1981</id>
+      <timestamp>2013-09-02T19:51:00Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Liu2011 08 |Has Dose=25 |Has Dose Units=mg/L |Has Endpoint Class=Non-toxic |Has Endpoint=Toxicity Classifier }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 08
+|Has Dose=25
+|Has Dose Units=mg/L
+|Has Endpoint Class=Non-toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Liu2011 08 M5</title>
+    <id>842</id>
+    <revision>
+      <id>1982</id>
+      <timestamp>2013-09-02T19:51:26Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Liu2011 08 |Has Dose=12.5 |Has Dose Units=mg/L |Has Endpoint Class=Non-toxic |Has Endpoint=Toxicity Classifier }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 08
+|Has Dose=12.5
+|Has Dose Units=mg/L
+|Has Endpoint Class=Non-toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Liu2011 08 M6</title>
+    <id>843</id>
+    <revision>
+      <id>1983</id>
+      <timestamp>2013-09-02T19:51:37Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Liu2011 08 |Has Dose=6.25 |Has Dose Units=mg/L |Has Endpoint Class=Non-toxic |Has Endpoint=Toxicity Classifier }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 08
+|Has Dose=6.25
+|Has Dose Units=mg/L
+|Has Endpoint Class=Non-toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Liu2011 08 M7</title>
+    <id>844</id>
+    <revision>
+      <id>1984</id>
+      <timestamp>2013-09-02T19:52:12Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Liu2011 08 |Has Dose=3.12 |Has Dose Units=mg/L |Has Endpoint Class=Non-toxic |Has Endpoint=Toxicity Classifier }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 08
+|Has Dose=3.12
+|Has Dose Units=mg/L
+|Has Endpoint Class=Non-toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Liu2011 08 M8</title>
+    <id>845</id>
+    <revision>
+      <id>1985</id>
+      <timestamp>2013-09-02T19:52:33Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Liu2011 08 |Has Dose=1.6 |Has Dose Units=mg/L |Has Endpoint Class=Non-toxic |Has Endpoint=Toxicity Classifier }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 08
+|Has Dose=1.6
+|Has Dose Units=mg/L
+|Has Endpoint Class=Non-toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Liu2011 08 M9</title>
+    <id>846</id>
+    <revision>
+      <id>1986</id>
+      <timestamp>2013-09-02T19:52:53Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Liu2011 08 |Has Dose=0.75 |Has Dose Units=mg/L |Has Endpoint Class=Non-toxic |Has Endpoint=Toxicity Classifier }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 08
+|Has Dose=0.75
+|Has Dose Units=mg/L
+|Has Endpoint Class=Non-toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Liu2011 08 M10</title>
+    <id>847</id>
+    <revision>
+      <id>1987</id>
+      <timestamp>2013-09-02T19:53:17Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Liu2011 08 |Has Dose=0.375 |Has Dose Units=mg/L |Has Endpoint Class=Non-toxic |Has Endpoint=Toxicity Classifier }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 08
+|Has Dose=0.375
+|Has Dose Units=mg/L
+|Has Endpoint Class=Non-toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Liu2011 09 M10</title>
+    <id>848</id>
+    <revision>
+      <id>1988</id>
+      <timestamp>2013-09-02T19:55:25Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Liu2011 09 |Has Dose=0.375 |Has Dose Units=mg/L |Has Endpoint Class=Non-toxic |Has Endpoint=Toxicity Classifier }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 09
+|Has Dose=0.375
+|Has Dose Units=mg/L
+|Has Endpoint Class=Non-toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Liu2011 09 M9</title>
+    <id>849</id>
+    <revision>
+      <id>1989</id>
+      <timestamp>2013-09-02T19:55:47Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Liu2011 09 |Has Dose=0.75 |Has Dose Units=mg/L |Has Endpoint Class=Non-toxic |Has Endpoint=Toxicity Classifier }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 09
+|Has Dose=0.75
+|Has Dose Units=mg/L
+|Has Endpoint Class=Non-toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Liu2011 09 M8</title>
+    <id>850</id>
+    <revision>
+      <id>1990</id>
+      <timestamp>2013-09-02T19:55:59Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Liu2011 09 |Has Dose=1.6 |Has Dose Units=mg/L |Has Endpoint Class=Non-toxic |Has Endpoint=Toxicity Classifier }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 09
+|Has Dose=1.6
+|Has Dose Units=mg/L
+|Has Endpoint Class=Non-toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Liu2011 09 M7</title>
+    <id>851</id>
+    <revision>
+      <id>1991</id>
+      <timestamp>2013-09-02T19:56:36Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Liu2011 09 |Has Dose=3.12 |Has Dose Units=mg/L |Has Endpoint Class=Non-toxic |Has Endpoint=Toxicity Classifier }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 09
+|Has Dose=3.12
+|Has Dose Units=mg/L
+|Has Endpoint Class=Non-toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Liu2011 09 M6</title>
+    <id>852</id>
+    <revision>
+      <id>1992</id>
+      <timestamp>2013-09-02T19:57:53Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Liu2011 09 |Has Dose=6.25 |Has Dose Units=mg/L |Has Endpoint Class=Non-toxic |Has Endpoint=Toxicity Classifier }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 09
+|Has Dose=6.25
+|Has Dose Units=mg/L
+|Has Endpoint Class=Non-toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Liu2011 09 M5</title>
+    <id>853</id>
+    <revision>
+      <id>1993</id>
+      <timestamp>2013-09-02T19:58:10Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Liu2011 09 |Has Dose=12.5 |Has Dose Units=mg/L |Has Endpoint Class=Non-toxic |Has Endpoint=Toxicity Classifier }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 09
+|Has Dose=12.5
+|Has Dose Units=mg/L
+|Has Endpoint Class=Non-toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Liu2011 09 M4</title>
+    <id>854</id>
+    <revision>
+      <id>1994</id>
+      <timestamp>2013-09-02T19:58:23Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Liu2011 09 |Has Dose=25 |Has Dose Units=mg/L |Has Endpoint Class=Non-toxic |Has Endpoint=Toxicity Classifier }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 09
+|Has Dose=25
+|Has Dose Units=mg/L
+|Has Endpoint Class=Non-toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Liu2011 09 M3</title>
+    <id>855</id>
+    <revision>
+      <id>1995</id>
+      <timestamp>2013-09-02T19:58:34Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Liu2011 09 |Has Dose=0.50 |Has Dose Units=mg/L |Has Endpoint Class=Non-toxic |Has Endpoint=Toxicity Classifier }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 09
+|Has Dose=0.50
+|Has Dose Units=mg/L
+|Has Endpoint Class=Non-toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+    <revision>
+      <id>1998</id>
+      <timestamp>2013-09-02T20:14:10Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 09
+|Has Dose=50
+|Has Dose Units=mg/L
+|Has Endpoint Class=Non-toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Liu2011 08 M11</title>
+    <id>856</id>
+    <revision>
+      <id>1996</id>
+      <timestamp>2013-09-02T20:10:06Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Liu2011 08 |Has Dose=150 |Has Dose Units=mg/L |Has Endpoint Class=Non-toxic |Has Endpoint=Toxicity Classifier }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 08
+|Has Dose=150
+|Has Dose Units=mg/L
+|Has Endpoint Class=Non-toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Liu2011 09 M11</title>
+    <id>857</id>
+    <revision>
+      <id>1997</id>
+      <timestamp>2013-09-02T20:11:11Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Liu2011 09 |Has Dose=150 |Has Dose Units=mg/L |Has Endpoint Class=Non-toxic |Has Endpoint=Toxicity Classifier }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 09
+|Has Dose=150
+|Has Dose Units=mg/L
+|Has Endpoint Class=Non-toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Liu2011 09 M2</title>
+    <id>858</id>
+    <revision>
+      <id>1999</id>
+      <timestamp>2013-09-02T20:14:32Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Liu2011 09 |Has Dose=100 |Has Dose Units=mg/L |Has Endpoint Class=Non-toxic |Has Endpoint=Toxicity Classifier }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 09
+|Has Dose=100
+|Has Dose Units=mg/L
+|Has Endpoint Class=Non-toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Liu2011 09 M1</title>
+    <id>859</id>
+    <revision>
+      <id>2000</id>
+      <timestamp>2013-09-02T20:14:44Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Liu2011 09 |Has Dose=200 |Has Dose Units=mg/L |Has Endpoint Class=Non-toxic |Has Endpoint=Toxicity Classifier }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 09
+|Has Dose=200
+|Has Dose Units=mg/L
+|Has Endpoint Class=Non-toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Liu2011 07 M2</title>
+    <id>860</id>
+    <revision>
+      <id>2001</id>
+      <timestamp>2013-09-02T20:20:26Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Liu2011 07 |Has Dose=150 |Has Dose Units=mg/L |Has Endpoint Class=Toxic |Has Endpoint=Toxicity Classifier }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 07
+|Has Dose=150
+|Has Dose Units=mg/L
+|Has Endpoint Class=Toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Liu2011 07 M3</title>
+    <id>861</id>
+    <revision>
+      <id>2002</id>
+      <timestamp>2013-09-02T20:20:35Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Liu2011 07 |Has Dose=100 |Has Dose Units=mg/L |Has Endpoint Class=Toxic |Has Endpoint=Toxicity Classifier }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 07
+|Has Dose=100
+|Has Dose Units=mg/L
+|Has Endpoint Class=Toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+    <revision>
+      <id>2003</id>
+      <timestamp>2013-09-02T20:20:47Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 07
+|Has Dose=100
+|Has Dose Units=mg/L
+|Has Endpoint Class=Non-toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Liu2011 07 M4</title>
+    <id>862</id>
+    <revision>
+      <id>2004</id>
+      <timestamp>2013-09-02T20:22:21Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Liu2011 07 |Has Dose=50 |Has Dose Units=mg/L |Has Endpoint Class=Non-toxic |Has Endpoint=Toxicity Classifier }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 07
+|Has Dose=50
+|Has Dose Units=mg/L
+|Has Endpoint Class=Non-toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Liu2011 07 M5</title>
+    <id>863</id>
+    <revision>
+      <id>2005</id>
+      <timestamp>2013-09-02T20:22:38Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Liu2011 07 |Has Dose=25 |Has Dose Units=mg/L |Has Endpoint Class=Non-toxic |Has Endpoint=Toxicity Classifier }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 07
+|Has Dose=25
+|Has Dose Units=mg/L
+|Has Endpoint Class=Non-toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Liu2011 07 M6</title>
+    <id>864</id>
+    <revision>
+      <id>2006</id>
+      <timestamp>2013-09-02T20:22:51Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Liu2011 07 |Has Dose=20 |Has Dose Units=mg/L |Has Endpoint Class=Non-toxic |Has Endpoint=Toxicity Classifier }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 07
+|Has Dose=20
+|Has Dose Units=mg/L
+|Has Endpoint Class=Non-toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Liu2011 07 M7</title>
+    <id>865</id>
+    <revision>
+      <id>2007</id>
+      <timestamp>2013-09-02T20:23:00Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Liu2011 07 |Has Dose=10 |Has Dose Units=mg/L |Has Endpoint Class=Non-toxic |Has Endpoint=Toxicity Classifier }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 07
+|Has Dose=10
+|Has Dose Units=mg/L
+|Has Endpoint Class=Non-toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Liu2011 07 M8</title>
+    <id>866</id>
+    <revision>
+      <id>2008</id>
+      <timestamp>2013-09-02T20:23:08Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Liu2011 07 |Has Dose=5 |Has Dose Units=mg/L |Has Endpoint Class=Non-toxic |Has Endpoint=Toxicity Classifier }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 07
+|Has Dose=5
+|Has Dose Units=mg/L
+|Has Endpoint Class=Non-toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Liu2011 07 M9</title>
+    <id>867</id>
+    <revision>
+      <id>2009</id>
+      <timestamp>2013-09-02T20:23:17Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Liu2011 07 |Has Dose=1 |Has Dose Units=mg/L |Has Endpoint Class=Non-toxic |Has Endpoint=Toxicity Classifier }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 07
+|Has Dose=1
+|Has Dose Units=mg/L
+|Has Endpoint Class=Non-toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Liu2011 06 M2</title>
+    <id>868</id>
+    <revision>
+      <id>2010</id>
+      <timestamp>2013-09-02T20:28:09Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Liu2011 06 |Has Dose=150 |Has Dose Units=mg/L |Has Endpoint Class=Toxic |Has Endpoint=Toxicity Classifier }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 06
+|Has Dose=150
+|Has Dose Units=mg/L
+|Has Endpoint Class=Toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Liu2011 06 M3</title>
+    <id>869</id>
+    <revision>
+      <id>2011</id>
+      <timestamp>2013-09-02T20:34:25Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Liu2011 06 |Has Dose=100 |Has Dose Units=mg/L |Has Endpoint Class=Toxic |Has Endpoint=Toxicity Classifier }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 06
+|Has Dose=100
+|Has Dose Units=mg/L
+|Has Endpoint Class=Toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+    <revision>
+      <id>2013</id>
+      <timestamp>2013-09-02T20:34:53Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 06
+|Has Dose=100
+|Has Dose Units=mg/L
+|Has Endpoint Class=Non-toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Liu2011 06 M4</title>
+    <id>870</id>
+    <revision>
+      <id>2012</id>
+      <timestamp>2013-09-02T20:34:42Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Liu2011 06 |Has Dose=50 |Has Dose Units=mg/L |Has Endpoint Class=Non-toxic |Has Endpoint=Toxicity Classifier }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 06
+|Has Dose=50
+|Has Dose Units=mg/L
+|Has Endpoint Class=Non-toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Liu2011 06 M5</title>
+    <id>871</id>
+    <revision>
+      <id>2014</id>
+      <timestamp>2013-09-02T20:38:25Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Liu2011 06 |Has Dose=25 |Has Dose Units=mg/L |Has Endpoint Class=Non-toxic |Has Endpoint=Toxicity Classifier }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 06
+|Has Dose=25
+|Has Dose Units=mg/L
+|Has Endpoint Class=Non-toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Liu2011 06 M6</title>
+    <id>872</id>
+    <revision>
+      <id>2015</id>
+      <timestamp>2013-09-02T20:38:37Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Liu2011 06 |Has Dose=20 |Has Dose Units=mg/L |Has Endpoint Class=Non-toxic |Has Endpoint=Toxicity Classifier }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 06
+|Has Dose=20
+|Has Dose Units=mg/L
+|Has Endpoint Class=Non-toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Liu2011 06 M7</title>
+    <id>873</id>
+    <revision>
+      <id>2016</id>
+      <timestamp>2013-09-02T20:39:31Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Liu2011 06 |Has Dose=10 |Has Dose Units=mg/L |Has Endpoint Class=Non-toxic |Has Endpoint=Toxicity Classifier }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 06
+|Has Dose=10
+|Has Dose Units=mg/L
+|Has Endpoint Class=Non-toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Liu2011 06 M8</title>
+    <id>874</id>
+    <revision>
+      <id>2017</id>
+      <timestamp>2013-09-02T20:39:40Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Liu2011 06 |Has Dose=5 |Has Dose Units=mg/L |Has Endpoint Class=Non-toxic |Has Endpoint=Toxicity Classifier }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 06
+|Has Dose=5
+|Has Dose Units=mg/L
+|Has Endpoint Class=Non-toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Liu2011 06 M9</title>
+    <id>875</id>
+    <revision>
+      <id>2018</id>
+      <timestamp>2013-09-02T20:39:54Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Liu2011 06 |Has Dose=1 |Has Dose Units=mg/L |Has Endpoint Class=Non-toxic |Has Endpoint=Toxicity Classifier }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 06
+|Has Dose=1
+|Has Dose Units=mg/L
+|Has Endpoint Class=Non-toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Liu2011 05 M2</title>
+    <id>876</id>
+    <revision>
+      <id>2019</id>
+      <timestamp>2013-09-02T20:43:52Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Liu2011 03 |Has Dose=150 |Has Dose Units=mg/L |Has Endpoint Class=Toxic |Has Endpoint=Toxicity Classifier }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 03
+|Has Dose=150
+|Has Dose Units=mg/L
+|Has Endpoint Class=Toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+    <revision>
+      <id>2025</id>
+      <timestamp>2013-09-02T20:45:02Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 05
+|Has Dose=150
+|Has Dose Units=mg/L
+|Has Endpoint Class=Toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Liu2011 05 M3</title>
+    <id>877</id>
+    <revision>
+      <id>2020</id>
+      <timestamp>2013-09-02T20:44:03Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Liu2011 03 |Has Dose=100 |Has Dose Units=mg/L |Has Endpoint Class=Toxic |Has Endpoint=Toxicity Classifier }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 03
+|Has Dose=100
+|Has Dose Units=mg/L
+|Has Endpoint Class=Toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+    <revision>
+      <id>2024</id>
+      <timestamp>2013-09-02T20:44:54Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 05
+|Has Dose=100
+|Has Dose Units=mg/L
+|Has Endpoint Class=Toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Liu2011 05 M4</title>
+    <id>878</id>
+    <revision>
+      <id>2021</id>
+      <timestamp>2013-09-02T20:44:13Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Liu2011 03 |Has Dose=50 |Has Dose Units=mg/L |Has Endpoint Class=Toxic |Has Endpoint=Toxicity Classifier }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 03
+|Has Dose=50
+|Has Dose Units=mg/L
+|Has Endpoint Class=Toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+    <revision>
+      <id>2023</id>
+      <timestamp>2013-09-02T20:44:45Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 05
+|Has Dose=50
+|Has Dose Units=mg/L
+|Has Endpoint Class=Toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Liu2011 05 M5</title>
+    <id>879</id>
+    <revision>
+      <id>2022</id>
+      <timestamp>2013-09-02T20:44:37Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Liu2011 03 |Has Dose=25 |Has Dose Units=mg/L |Has Endpoint Class=Non-toxic |Has Endpoint=Toxicity Classifier }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 03
+|Has Dose=25
+|Has Dose Units=mg/L
+|Has Endpoint Class=Non-toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+    <revision>
+      <id>2027</id>
+      <timestamp>2013-09-02T20:46:04Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 05
+|Has Dose=25
+|Has Dose Units=mg/L
+|Has Endpoint Class=Non-toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Liu2011 05 M6</title>
+    <id>880</id>
+    <revision>
+      <id>2028</id>
+      <timestamp>2013-09-02T20:46:16Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Liu2011 05 |Has Dose=20 |Has Dose Units=mg/L |Has Endpoint Class=Non-toxic |Has Endpoint=Toxicity Classifier }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 05
+|Has Dose=20
+|Has Dose Units=mg/L
+|Has Endpoint Class=Non-toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Liu2011 05 M7</title>
+    <id>881</id>
+    <revision>
+      <id>2029</id>
+      <timestamp>2013-09-02T20:46:26Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Liu2011 05 |Has Dose=10 |Has Dose Units=mg/L |Has Endpoint Class=Non-toxic |Has Endpoint=Toxicity Classifier }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 05
+|Has Dose=10
+|Has Dose Units=mg/L
+|Has Endpoint Class=Non-toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Liu2011 05 M8</title>
+    <id>882</id>
+    <revision>
+      <id>2030</id>
+      <timestamp>2013-09-02T20:46:38Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Liu2011 05 |Has Dose=10 |Has Dose Units=mg/L |Has Endpoint Class=Non-toxic |Has Endpoint=Toxicity Classifier }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 05
+|Has Dose=10
+|Has Dose Units=mg/L
+|Has Endpoint Class=Non-toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Liu2011 05 M9</title>
+    <id>883</id>
+    <revision>
+      <id>2031</id>
+      <timestamp>2013-09-02T20:46:49Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Liu2011 05 |Has Dose=1 |Has Dose Units=mg/L |Has Endpoint Class=Non-toxic |Has Endpoint=Toxicity Classifier }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 05
+|Has Dose=1
+|Has Dose Units=mg/L
+|Has Endpoint Class=Non-toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Liu2011 04 M2</title>
+    <id>884</id>
+    <revision>
+      <id>2032</id>
+      <timestamp>2013-09-02T20:48:01Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Liu2011 04 |Has Dose=150 |Has Dose Units=mg/L |Has Endpoint Class=Non-toxic |Has Endpoint=Toxicity Classifier }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 04
+|Has Dose=150
+|Has Dose Units=mg/L
+|Has Endpoint Class=Non-toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Liu2011 04 M3</title>
+    <id>885</id>
+    <revision>
+      <id>2033</id>
+      <timestamp>2013-09-02T20:48:10Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Liu2011 04 |Has Dose=100 |Has Dose Units=mg/L |Has Endpoint Class=Non-toxic |Has Endpoint=Toxicity Classifier }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 04
+|Has Dose=100
+|Has Dose Units=mg/L
+|Has Endpoint Class=Non-toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Liu2011 04 M4</title>
+    <id>886</id>
+    <revision>
+      <id>2034</id>
+      <timestamp>2013-09-02T20:48:20Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Liu2011 04 |Has Dose=50 |Has Dose Units=mg/L |Has Endpoint Class=Non-toxic |Has Endpoint=Toxicity Classifier }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 04
+|Has Dose=50
+|Has Dose Units=mg/L
+|Has Endpoint Class=Non-toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Liu2011 04 M5</title>
+    <id>887</id>
+    <revision>
+      <id>2035</id>
+      <timestamp>2013-09-02T20:48:39Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Liu2011 04 |Has Dose=50 |Has Dose Units=mg/L |Has Endpoint Class=Non-toxic |Has Endpoint=Toxicity Classifier }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 04
+|Has Dose=50
+|Has Dose Units=mg/L
+|Has Endpoint Class=Non-toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+    <revision>
+      <id>2036</id>
+      <timestamp>2013-09-02T20:49:00Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 04
+|Has Dose=25
+|Has Dose Units=mg/L
+|Has Endpoint Class=Non-toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Liu2011 04 M6</title>
+    <id>888</id>
+    <revision>
+      <id>2037</id>
+      <timestamp>2013-09-02T20:49:09Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Liu2011 04 |Has Dose=20 |Has Dose Units=mg/L |Has Endpoint Class=Non-toxic |Has Endpoint=Toxicity Classifier }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 04
+|Has Dose=20
+|Has Dose Units=mg/L
+|Has Endpoint Class=Non-toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Liu2011 04 M7</title>
+    <id>889</id>
+    <revision>
+      <id>2038</id>
+      <timestamp>2013-09-02T20:49:17Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Liu2011 04 |Has Dose=10 |Has Dose Units=mg/L |Has Endpoint Class=Non-toxic |Has Endpoint=Toxicity Classifier }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 04
+|Has Dose=10
+|Has Dose Units=mg/L
+|Has Endpoint Class=Non-toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Liu2011 04 M8</title>
+    <id>890</id>
+    <revision>
+      <id>2039</id>
+      <timestamp>2013-09-02T20:49:26Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Liu2011 04 |Has Dose=10 |Has Dose Units=mg/L |Has Endpoint Class=Non-toxic |Has Endpoint=Toxicity Classifier }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 04
+|Has Dose=10
+|Has Dose Units=mg/L
+|Has Endpoint Class=Non-toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+    <revision>
+      <id>2049</id>
+      <timestamp>2013-09-02T20:51:45Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 04
+|Has Dose=5
+|Has Dose Units=mg/L
+|Has Endpoint Class=Non-toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Liu2011 04 M9</title>
+    <id>891</id>
+    <revision>
+      <id>2040</id>
+      <timestamp>2013-09-02T20:49:36Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Liu2011 04 |Has Dose=1 |Has Dose Units=mg/L |Has Endpoint Class=Non-toxic |Has Endpoint=Toxicity Classifier }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 04
+|Has Dose=1
+|Has Dose Units=mg/L
+|Has Endpoint Class=Non-toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Liu2011 03 M2</title>
+    <id>892</id>
+    <revision>
+      <id>2041</id>
+      <timestamp>2013-09-02T20:49:57Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Liu2011 03 |Has Dose=150 |Has Dose Units=mg/L |Has Endpoint Class=Non-toxic |Has Endpoint=Toxicity Classifier }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 03
+|Has Dose=150
+|Has Dose Units=mg/L
+|Has Endpoint Class=Non-toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Liu2011 03 M3</title>
+    <id>893</id>
+    <revision>
+      <id>2042</id>
+      <timestamp>2013-09-02T20:50:10Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Liu2011 03 |Has Dose=100 |Has Dose Units=mg/L |Has Endpoint Class=Non-toxic |Has Endpoint=Toxicity Classifier }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 03
+|Has Dose=100
+|Has Dose Units=mg/L
+|Has Endpoint Class=Non-toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Liu2011 03 M4</title>
+    <id>894</id>
+    <revision>
+      <id>2043</id>
+      <timestamp>2013-09-02T20:50:26Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Liu2011 03 |Has Dose=50 |Has Dose Units=mg/L |Has Endpoint Class=Non-toxic |Has Endpoint=Toxicity Classifier }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 03
+|Has Dose=50
+|Has Dose Units=mg/L
+|Has Endpoint Class=Non-toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Liu2011 03 M5</title>
+    <id>895</id>
+    <revision>
+      <id>2044</id>
+      <timestamp>2013-09-02T20:50:34Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Liu2011 03 |Has Dose=25 |Has Dose Units=mg/L |Has Endpoint Class=Non-toxic |Has Endpoint=Toxicity Classifier }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 03
+|Has Dose=25
+|Has Dose Units=mg/L
+|Has Endpoint Class=Non-toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Liu2011 03 M6</title>
+    <id>896</id>
+    <revision>
+      <id>2045</id>
+      <timestamp>2013-09-02T20:50:54Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Liu2011 03 |Has Dose=20 |Has Dose Units=mg/L |Has Endpoint Class=Non-toxic |Has Endpoint=Toxicity Classifier }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 03
+|Has Dose=20
+|Has Dose Units=mg/L
+|Has Endpoint Class=Non-toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Liu2011 03 M7</title>
+    <id>897</id>
+    <revision>
+      <id>2046</id>
+      <timestamp>2013-09-02T20:51:02Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Liu2011 03 |Has Dose=10 |Has Dose Units=mg/L |Has Endpoint Class=Non-toxic |Has Endpoint=Toxicity Classifier }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 03
+|Has Dose=10
+|Has Dose Units=mg/L
+|Has Endpoint Class=Non-toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Liu2011 03 M8</title>
+    <id>898</id>
+    <revision>
+      <id>2047</id>
+      <timestamp>2013-09-02T20:51:10Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Liu2011 03 |Has Dose=5 |Has Dose Units=mg/L |Has Endpoint Class=Non-toxic |Has Endpoint=Toxicity Classifier }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 03
+|Has Dose=5
+|Has Dose Units=mg/L
+|Has Endpoint Class=Non-toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Liu2011 03 M9</title>
+    <id>899</id>
+    <revision>
+      <id>2048</id>
+      <timestamp>2013-09-02T20:51:27Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Liu2011 03 |Has Dose=1 |Has Dose Units=mg/L |Has Endpoint Class=Non-toxic |Has Endpoint=Toxicity Classifier }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 03
+|Has Dose=1
+|Has Dose Units=mg/L
+|Has Endpoint Class=Non-toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Liu2011 02 M2</title>
+    <id>900</id>
+    <revision>
+      <id>2050</id>
+      <timestamp>2013-09-02T20:52:52Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Liu2011 02 |Has Dose=150 |Has Dose Units=mg/L |Has Endpoint Class=Non-toxic |Has Endpoint=Toxicity Classifier }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 02
+|Has Dose=150
+|Has Dose Units=mg/L
+|Has Endpoint Class=Non-toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Liu2011 02 M3</title>
+    <id>901</id>
+    <revision>
+      <id>2051</id>
+      <timestamp>2013-09-02T20:53:00Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Liu2011 02 |Has Dose=100 |Has Dose Units=mg/L |Has Endpoint Class=Non-toxic |Has Endpoint=Toxicity Classifier }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 02
+|Has Dose=100
+|Has Dose Units=mg/L
+|Has Endpoint Class=Non-toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Liu2011 02 M4</title>
+    <id>902</id>
+    <revision>
+      <id>2052</id>
+      <timestamp>2013-09-02T20:53:15Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Liu2011 02 |Has Dose=50 |Has Dose Units=mg/L |Has Endpoint Class=Non-toxic |Has Endpoint=Toxicity Classifier }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 02
+|Has Dose=50
+|Has Dose Units=mg/L
+|Has Endpoint Class=Non-toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Liu2011 02 M5</title>
+    <id>903</id>
+    <revision>
+      <id>2053</id>
+      <timestamp>2013-09-02T20:53:22Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Liu2011 02 |Has Dose=25 |Has Dose Units=mg/L |Has Endpoint Class=Non-toxic |Has Endpoint=Toxicity Classifier }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 02
+|Has Dose=25
+|Has Dose Units=mg/L
+|Has Endpoint Class=Non-toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Liu2011 02 M6</title>
+    <id>904</id>
+    <revision>
+      <id>2054</id>
+      <timestamp>2013-09-02T20:53:30Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Liu2011 02 |Has Dose=20 |Has Dose Units=mg/L |Has Endpoint Class=Non-toxic |Has Endpoint=Toxicity Classifier }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 02
+|Has Dose=20
+|Has Dose Units=mg/L
+|Has Endpoint Class=Non-toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Liu2011 02 M7</title>
+    <id>905</id>
+    <revision>
+      <id>2055</id>
+      <timestamp>2013-09-02T20:53:49Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Liu2011 02 |Has Dose=10 |Has Dose Units=mg/L |Has Endpoint Class=Non-toxic |Has Endpoint=Toxicity Classifier }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 02
+|Has Dose=10
+|Has Dose Units=mg/L
+|Has Endpoint Class=Non-toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Liu2011 02 M8</title>
+    <id>906</id>
+    <revision>
+      <id>2056</id>
+      <timestamp>2013-09-02T20:54:04Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Liu2011 02 |Has Dose=5 |Has Dose Units=mg/L |Has Endpoint Class=Non-toxic |Has Endpoint=Toxicity Classifier }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 02
+|Has Dose=5
+|Has Dose Units=mg/L
+|Has Endpoint Class=Non-toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Liu2011 02 M9</title>
+    <id>907</id>
+    <revision>
+      <id>2057</id>
+      <timestamp>2013-09-02T20:54:12Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Liu2011 02 |Has Dose=1 |Has Dose Units=mg/L |Has Endpoint Class=Non-toxic |Has Endpoint=Toxicity Classifier }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 02
+|Has Dose=1
+|Has Dose Units=mg/L
+|Has Endpoint Class=Non-toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Liu2011 01 M2</title>
+    <id>908</id>
+    <revision>
+      <id>2058</id>
+      <timestamp>2013-09-02T20:56:07Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Liu2011 01 |Has Dose=150 |Has Dose Units=mg/L |Has Endpoint Class=Non-toxic |Has Endpoint=Toxicity Classifier }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 01
+|Has Dose=150
+|Has Dose Units=mg/L
+|Has Endpoint Class=Non-toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Liu2011 01 M3</title>
+    <id>909</id>
+    <revision>
+      <id>2059</id>
+      <timestamp>2013-09-02T20:56:16Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Liu2011 01 |Has Dose=100 |Has Dose Units=mg/L |Has Endpoint Class=Non-toxic |Has Endpoint=Toxicity Classifier }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 01
+|Has Dose=100
+|Has Dose Units=mg/L
+|Has Endpoint Class=Non-toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Liu2011 01 M4</title>
+    <id>910</id>
+    <revision>
+      <id>2060</id>
+      <timestamp>2013-09-02T20:57:14Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Liu2011 01 |Has Dose=50 |Has Dose Units=mg/L |Has Endpoint Class=Non-toxic |Has Endpoint=Toxicity Classifier }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 01
+|Has Dose=50
+|Has Dose Units=mg/L
+|Has Endpoint Class=Non-toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Liu2011 01 M5</title>
+    <id>911</id>
+    <revision>
+      <id>2061</id>
+      <timestamp>2013-09-02T20:57:22Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Liu2011 01 |Has Dose=25 |Has Dose Units=mg/L |Has Endpoint Class=Non-toxic |Has Endpoint=Toxicity Classifier }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 01
+|Has Dose=25
+|Has Dose Units=mg/L
+|Has Endpoint Class=Non-toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Liu2011 01 M6</title>
+    <id>912</id>
+    <revision>
+      <id>2062</id>
+      <timestamp>2013-09-02T20:57:33Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Liu2011 01 |Has Dose=20 |Has Dose Units=mg/L |Has Endpoint Class=Non-toxic |Has Endpoint=Toxicity Classifier }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 01
+|Has Dose=20
+|Has Dose Units=mg/L
+|Has Endpoint Class=Non-toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Liu2011 01 M7</title>
+    <id>913</id>
+    <revision>
+      <id>2063</id>
+      <timestamp>2013-09-02T20:57:42Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Liu2011 01 |Has Dose=10 |Has Dose Units=mg/L |Has Endpoint Class=Non-toxic |Has Endpoint=Toxicity Classifier }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 01
+|Has Dose=10
+|Has Dose Units=mg/L
+|Has Endpoint Class=Non-toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Liu2011 01 M8</title>
+    <id>914</id>
+    <revision>
+      <id>2064</id>
+      <timestamp>2013-09-02T20:57:56Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Liu2011 01 |Has Dose=10 |Has Dose Units=mg/L |Has Endpoint Class=Non-toxic |Has Endpoint=Toxicity Classifier }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 01
+|Has Dose=10
+|Has Dose Units=mg/L
+|Has Endpoint Class=Non-toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+    <revision>
+      <id>2066</id>
+      <timestamp>2013-09-02T21:01:19Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 01
+|Has Dose=5
+|Has Dose Units=mg/L
+|Has Endpoint Class=Non-toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Liu2011 01 M9</title>
+    <id>915</id>
+    <revision>
+      <id>2065</id>
+      <timestamp>2013-09-02T20:59:14Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Liu2011 01 |Has Dose=1 |Has Dose Units=mg/L |Has Endpoint Class=Non-toxic |Has Endpoint=Toxicity Classifier }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Liu2011 01
+|Has Dose=1
+|Has Dose Units=mg/L
+|Has Endpoint Class=Non-toxic
+|Has Endpoint=Toxicity Classifier
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lanone2009</title>
+    <id>916</id>
+    <revision>
+      <id>2067</id>
+      <timestamp>2013-09-03T13:12:49Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Paper |Has Year=2009 |Has DOI=10.1186/1743-8977-6-14 |Has Journal=Particle and Fibre Toxicology |Substances extracted=No |Relationships extracted=No }}  == Abstract ==  ===Back…&quot;</comment>
+      <text xml:space="preserve">{{Paper
+|Has Year=2009
+|Has DOI=10.1186/1743-8977-6-14
+|Has Journal=Particle and Fibre Toxicology
+|Substances extracted=No
+|Relationships extracted=No
+}}
+
+== Abstract ==
+
+===Background===
+A critical issue with nanomaterials is the clear understanding of their potential toxicity. We evaluated the toxic effect of 24 nanoparticles of similar equivalent spherical diameter and various elemental compositions on 2 human pulmonary cell lines: A549 and THP-1. A secondary aim was to elaborate a generic experimental set-up that would allow the rapid screening of cytotoxic effect of nanoparticles. We therefore compared 2 cytotoxicity assays (MTT and Neutral Red) and analyzed 2 time points (3 and 24 hours) for each cell type and nanoparticle. When possible, TC50 (Toxic Concentration 50 i.e. nanoparticle concentration inducing 50% cell mortality) was calculated.
+
+===Results===
+The use of MTT assay on THP-1 cells exposed for 24 hours appears to be the most sensitive experimental design to assess the cytotoxic effect of one nanoparticle. With this experimental set-up, Copper- and Zinc-based nanoparticles appear to be the most toxic. Titania, Alumina, Ceria and Zirconia-based nanoparticles show moderate toxicity, and no toxicity was observed for Tungsten Carbide. No correlation between cytotoxicity and equivalent spherical diameter or specific surface area was found.
+
+===Conclusion===
+Our study clearly highlights the difference of sensitivity between cell types and cytotoxicity assays that has to be carefully taken into account when assessing nanoparticles toxicity.</text>
+    </revision>
+    <revision>
+      <id>2078</id>
+      <timestamp>2013-09-03T16:03:32Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Paper
+|Has Year=2009
+|Has DOI=10.1186/1743-8977-6-14
+|Has Journal=Particle and Fibre Toxicology
+|Substances extracted=No
+|Relationships extracted=No
+}}
+
+[[Category:PapersToRead]]
+
+== Abstract ==
+
+===Background===
+A critical issue with nanomaterials is the clear understanding of their potential toxicity. We evaluated the toxic effect of 24 nanoparticles of similar equivalent spherical diameter and various elemental compositions on 2 human pulmonary cell lines: A549 and THP-1. A secondary aim was to elaborate a generic experimental set-up that would allow the rapid screening of cytotoxic effect of nanoparticles. We therefore compared 2 cytotoxicity assays (MTT and Neutral Red) and analyzed 2 time points (3 and 24 hours) for each cell type and nanoparticle. When possible, TC50 (Toxic Concentration 50 i.e. nanoparticle concentration inducing 50% cell mortality) was calculated.
+
+===Results===
+The use of MTT assay on THP-1 cells exposed for 24 hours appears to be the most sensitive experimental design to assess the cytotoxic effect of one nanoparticle. With this experimental set-up, Copper- and Zinc-based nanoparticles appear to be the most toxic. Titania, Alumina, Ceria and Zirconia-based nanoparticles show moderate toxicity, and no toxicity was observed for Tungsten Carbide. No correlation between cytotoxicity and equivalent spherical diameter or specific surface area was found.
+
+===Conclusion===
+Our study clearly highlights the difference of sensitivity between cell types and cytotoxicity assays that has to be carefully taken into account when assessing nanoparticles toxicity.</text>
+    </revision>
+  </page>
+  <page>
+    <title>Particle and Fibre Toxicology</title>
+    <id>917</id>
+    <revision>
+      <id>2068</id>
+      <timestamp>2013-09-03T13:13:14Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Journal}}&quot;</comment>
+      <text xml:space="preserve">{{Journal}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>HannaK24</title>
+    <id>918</id>
+    <revision>
+      <id>2075</id>
+      <timestamp>2013-09-03T16:01:26Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Label=Cu |Has Identifier=306 |Has Chemical Composition=Cu |Has NM Type=Metal |Has Size Min=5000 |Has Size Max=20000 |Has Size Units=nm }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Label=Cu
+|Has Identifier=306
+|Has Chemical Composition=Cu
+|Has NM Type=Metal
+|Has Size Min=5000
+|Has Size Max=20000
+|Has Size Units=nm
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>HannaK25</title>
+    <id>919</id>
+    <revision>
+      <id>2076</id>
+      <timestamp>2013-09-03T16:02:18Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Label=Fe |Has Identifier=307 |Has Chemical Composition=Fe |Has NM Type=Metal |Has Size=15000 |Has Size Units=nm }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Label=Fe
+|Has Identifier=307
+|Has Chemical Composition=Fe
+|Has NM Type=Metal
+|Has Size=15000
+|Has Size Units=nm
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>HannaK26</title>
+    <id>920</id>
+    <revision>
+      <id>2077</id>
+      <timestamp>2013-09-03T16:02:45Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Label=Cr |Has Identifier=308 |Has Chemical Composition=Cr |Has NM Type=Metal |Has Size=40000 |Has Size Units=nm }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Label=Cr
+|Has Identifier=308
+|Has Chemical Composition=Cr
+|Has NM Type=Metal
+|Has Size=40000
+|Has Size Units=nm
 }}</text>
     </revision>
   </page>
