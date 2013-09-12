@@ -18,7 +18,7 @@
 	xmlns:property="&property;">
 
 	<owl:Ontology rdf:about="">
-		<swivt:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T08:47:34+02:00</swivt:creationDate>
+		<swivt:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T09:34:53+02:00</swivt:creationDate>
 		<owl:imports rdf:resource="http://semantic-mediawiki.org/swivt/1.0"/>
 	</owl:Ontology>
 	<swivt:Subject rdf:about="&wiki;Main_Page">
@@ -160,7 +160,6 @@
 		<swivt:page rdf:resource="&wikiurl;Cytotox2011Pyzun01"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Cytotox2011Pyzun01"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -215,7 +214,6 @@
 		<swivt:page rdf:resource="&wikiurl;Cytotox2011Pyzun02"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Cytotox2011Pyzun02"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -234,7 +232,6 @@
 		<swivt:page rdf:resource="&wikiurl;Cytotox2011Pyzun03"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Cytotox2011Pyzun03"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -253,7 +250,6 @@
 		<swivt:page rdf:resource="&wikiurl;Cytotox2011Pyzun04"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Cytotox2011Pyzun04"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -272,7 +268,6 @@
 		<swivt:page rdf:resource="&wikiurl;Cytotox2011Pyzun05"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Cytotox2011Pyzun05"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -298,7 +293,6 @@
 		<swivt:page rdf:resource="&wikiurl;Cytotox2011Pyzun06"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Cytotox2011Pyzun06"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -317,7 +311,6 @@
 		<swivt:page rdf:resource="&wikiurl;Cytotox2011Pyzun07"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Cytotox2011Pyzun07"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -354,7 +347,6 @@
 		<swivt:page rdf:resource="&wikiurl;Cytotox2011Pyzun09"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Cytotox2011Pyzun09"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -373,7 +365,6 @@
 		<swivt:page rdf:resource="&wikiurl;Cytotox2011Pyzun10"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Cytotox2011Pyzun10"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -392,7 +383,6 @@
 		<swivt:page rdf:resource="&wikiurl;Cytotox2011Pyzun11"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Cytotox2011Pyzun11"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -411,7 +401,6 @@
 		<swivt:page rdf:resource="&wikiurl;Cytotox2011Pyzun12"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Cytotox2011Pyzun12"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -430,7 +419,6 @@
 		<swivt:page rdf:resource="&wikiurl;Cytotox2011Pyzun13"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Cytotox2011Pyzun13"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -449,7 +437,6 @@
 		<swivt:page rdf:resource="&wikiurl;Cytotox2011Pyzun14"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Cytotox2011Pyzun14"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -468,7 +455,6 @@
 		<swivt:page rdf:resource="&wikiurl;Cytotox2011Pyzun15"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Cytotox2011Pyzun15"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -487,7 +473,6 @@
 		<swivt:page rdf:resource="&wikiurl;Cytotox2011Pyzun16"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Cytotox2011Pyzun16"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -506,7 +491,6 @@
 		<swivt:page rdf:resource="&wikiurl;Cytotox2011Pyzun17"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Cytotox2011Pyzun17"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -1002,7 +986,6 @@
 		<swivt:page rdf:resource="&wikiurl;HannaK2"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/HannaK2"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -1026,7 +1009,6 @@
 		<swivt:page rdf:resource="&wikiurl;HannaK3"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/HannaK3"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -1050,7 +1032,6 @@
 		<swivt:page rdf:resource="&wikiurl;HannaK4"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/HannaK4"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -1074,7 +1055,6 @@
 		<swivt:page rdf:resource="&wikiurl;HannaK5"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/HannaK5"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -1098,7 +1078,6 @@
 		<swivt:page rdf:resource="&wikiurl;HannaK6"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/HannaK6"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -1122,7 +1101,6 @@
 		<swivt:page rdf:resource="&wikiurl;HannaK7"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/HannaK7"/>
 		<rdf:type rdf:resource="&wiki;Category-3ACarbonNanoparticles"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -1158,7 +1136,6 @@
 		<swivt:page rdf:resource="&wikiurl;HannaK8"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/HannaK8"/>
 		<rdf:type rdf:resource="&wiki;Category-3ACarbonNanotubes"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -1803,7 +1780,6 @@
 		<swivt:page rdf:resource="&wikiurl;HannaK9"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/HannaK9"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetals"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -1858,7 +1834,6 @@
 		<swivt:page rdf:resource="&wikiurl;HannaK11"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/HannaK11"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -1899,7 +1874,6 @@
 		<swivt:page rdf:resource="&wikiurl;HannaK13"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/HannaK13"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -2129,7 +2103,6 @@
 		<swivt:page rdf:resource="&wikiurl;Shaw51_03"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Shaw51_03"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -2158,7 +2131,6 @@
 		<swivt:page rdf:resource="&wikiurl;Shaw51_01"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Shaw51_01"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -2180,7 +2152,6 @@
 		<swivt:page rdf:resource="&wikiurl;Shaw51_02"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Shaw51_02"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -2202,7 +2173,6 @@
 		<swivt:page rdf:resource="&wikiurl;Shaw51_04"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Shaw51_04"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -2224,7 +2194,6 @@
 		<swivt:page rdf:resource="&wikiurl;Shaw51_05"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Shaw51_05"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -2246,7 +2215,6 @@
 		<swivt:page rdf:resource="&wikiurl;Shaw51_06"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Shaw51_06"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -2268,7 +2236,6 @@
 		<swivt:page rdf:resource="&wikiurl;Shaw51_07"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Shaw51_07"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -2290,7 +2257,6 @@
 		<swivt:page rdf:resource="&wikiurl;Shaw51_08"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Shaw51_08"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -2312,7 +2278,6 @@
 		<swivt:page rdf:resource="&wikiurl;Shaw51_09"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Shaw51_09"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -2334,7 +2299,6 @@
 		<swivt:page rdf:resource="&wikiurl;Shaw51_10"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Shaw51_10"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -2356,7 +2320,6 @@
 		<swivt:page rdf:resource="&wikiurl;Shaw51_11"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Shaw51_11"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -2378,7 +2341,6 @@
 		<swivt:page rdf:resource="&wikiurl;Shaw51_12"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Shaw51_12"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -2400,7 +2362,6 @@
 		<swivt:page rdf:resource="&wikiurl;Shaw51_13"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Shaw51_13"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -2420,7 +2381,6 @@
 		<swivt:page rdf:resource="&wikiurl;Shaw51_14"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Shaw51_14"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -2442,7 +2402,6 @@
 		<swivt:page rdf:resource="&wikiurl;Shaw51_15"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Shaw51_15"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -2464,7 +2423,6 @@
 		<swivt:page rdf:resource="&wikiurl;Shaw51_16"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Shaw51_16"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -2486,7 +2444,6 @@
 		<swivt:page rdf:resource="&wikiurl;Shaw51_17"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Shaw51_17"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -2508,7 +2465,6 @@
 		<swivt:page rdf:resource="&wikiurl;Shaw51_18"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Shaw51_18"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -2530,7 +2486,6 @@
 		<swivt:page rdf:resource="&wikiurl;Shaw51_19"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Shaw51_19"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -2552,7 +2507,6 @@
 		<swivt:page rdf:resource="&wikiurl;Shaw51_20"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Shaw51_20"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -2574,7 +2528,6 @@
 		<swivt:page rdf:resource="&wikiurl;Shaw51_21"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Shaw51_21"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -2596,7 +2549,6 @@
 		<swivt:page rdf:resource="&wikiurl;Shaw51_22"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Shaw51_22"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -2618,7 +2570,6 @@
 		<swivt:page rdf:resource="&wikiurl;Shaw51_23"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Shaw51_23"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -2640,7 +2591,6 @@
 		<swivt:page rdf:resource="&wikiurl;Shaw51_24"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Shaw51_24"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -2660,7 +2610,6 @@
 		<swivt:page rdf:resource="&wikiurl;Shaw51_25"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Shaw51_25"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetals"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -2680,7 +2629,6 @@
 		<swivt:page rdf:resource="&wikiurl;Shaw51_26"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Shaw51_26"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -2703,7 +2651,6 @@
 		<swivt:page rdf:resource="&wikiurl;Shaw51_27"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Shaw51_27"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -2726,7 +2673,6 @@
 		<swivt:page rdf:resource="&wikiurl;Shaw51_28"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Shaw51_28"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -2749,7 +2695,6 @@
 		<swivt:page rdf:resource="&wikiurl;Shaw51_29"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Shaw51_29"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -2772,7 +2717,6 @@
 		<swivt:page rdf:resource="&wikiurl;Shaw51_30"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Shaw51_30"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -2795,7 +2739,6 @@
 		<swivt:page rdf:resource="&wikiurl;Shaw51_31"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Shaw51_31"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -2817,7 +2760,6 @@
 		<swivt:page rdf:resource="&wikiurl;Shaw51_32"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Shaw51_32"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -2839,7 +2781,6 @@
 		<swivt:page rdf:resource="&wikiurl;Shaw51_33"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Shaw51_33"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -2859,7 +2800,6 @@
 		<swivt:page rdf:resource="&wikiurl;Shaw51_34"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Shaw51_34"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -2881,7 +2821,6 @@
 		<swivt:page rdf:resource="&wikiurl;Shaw51_35"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Shaw51_35"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -2903,7 +2842,6 @@
 		<swivt:page rdf:resource="&wikiurl;Shaw51_36"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Shaw51_36"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -2925,7 +2863,6 @@
 		<swivt:page rdf:resource="&wikiurl;Shaw51_37"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Shaw51_37"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -2947,7 +2884,6 @@
 		<swivt:page rdf:resource="&wikiurl;Shaw51_38"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Shaw51_38"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -2969,7 +2905,6 @@
 		<swivt:page rdf:resource="&wikiurl;Shaw51_39"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Shaw51_39"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -2991,7 +2926,6 @@
 		<swivt:page rdf:resource="&wikiurl;Shaw51_40"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Shaw51_40"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -3013,7 +2947,6 @@
 		<swivt:page rdf:resource="&wikiurl;Shaw51_41"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Shaw51_41"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -3035,7 +2968,6 @@
 		<swivt:page rdf:resource="&wikiurl;Shaw51_42"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Shaw51_42"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -3057,7 +2989,6 @@
 		<swivt:page rdf:resource="&wikiurl;Shaw51_43"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Shaw51_43"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -3079,7 +3010,6 @@
 		<swivt:page rdf:resource="&wikiurl;Shaw51_44"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Shaw51_44"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -3100,7 +3030,6 @@
 		<swivt:page rdf:resource="&wikiurl;Shaw51_45"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Shaw51_45"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -3122,7 +3051,6 @@
 		<swivt:page rdf:resource="&wikiurl;Shaw51_46"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Shaw51_46"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -3144,7 +3072,6 @@
 		<swivt:page rdf:resource="&wikiurl;Shaw51_47"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Shaw51_47"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -3166,7 +3093,6 @@
 		<swivt:page rdf:resource="&wikiurl;Shaw51_48"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Shaw51_48"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -3188,7 +3114,6 @@
 		<swivt:page rdf:resource="&wikiurl;Shaw51_49"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Shaw51_49"/>
 		<rdf:type rdf:resource="&wiki;Category-3AAlloys"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -3208,7 +3133,6 @@
 		<swivt:page rdf:resource="&wikiurl;Shaw51_50"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Shaw51_50"/>
 		<rdf:type rdf:resource="&wiki;Category-3AAlloys"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -3228,7 +3152,6 @@
 		<swivt:page rdf:resource="&wikiurl;Shaw51_51"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Shaw51_51"/>
 		<rdf:type rdf:resource="&wiki;Category-3AAlloys"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -5060,7 +4983,6 @@
 		<swivt:page rdf:resource="&wikiurl;Harper2011_1"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Harper2011_1"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetals"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -5079,7 +5001,6 @@
 		<swivt:page rdf:resource="&wikiurl;Harper2011_2"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Harper2011_2"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetals"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -5098,7 +5019,6 @@
 		<swivt:page rdf:resource="&wikiurl;Harper2011_3"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Harper2011_3"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetals"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -5189,7 +5109,6 @@
 		<swivt:page rdf:resource="&wikiurl;Harper2011_4"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Harper2011_4"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetals"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -5208,7 +5127,6 @@
 		<swivt:page rdf:resource="&wikiurl;Harper2011_5"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Harper2011_5"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetals"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -5227,7 +5145,6 @@
 		<swivt:page rdf:resource="&wikiurl;Harper2011_6"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Harper2011_6"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetals"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -5246,7 +5163,6 @@
 		<swivt:page rdf:resource="&wikiurl;Harper2011_7"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Harper2011_7"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetals"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -5265,7 +5181,6 @@
 		<swivt:page rdf:resource="&wikiurl;Harper2011_8"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Harper2011_8"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetals"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -5284,7 +5199,6 @@
 		<swivt:page rdf:resource="&wikiurl;Harper2011_9"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Harper2011_9"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetals"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -5330,7 +5244,6 @@
 		<swivt:page rdf:resource="&wikiurl;Jugan5_A12"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Jugan5_A12"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -5348,7 +5261,6 @@
 		<swivt:page rdf:resource="&wikiurl;Jugan5_A25"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Jugan5_A25"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -5366,7 +5278,6 @@
 		<swivt:page rdf:resource="&wikiurl;Jugan5_A140"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Jugan5_A140"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -5384,7 +5295,6 @@
 		<swivt:page rdf:resource="&wikiurl;Jugan5_R68"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Jugan5_R68"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -5402,7 +5312,6 @@
 		<swivt:page rdf:resource="&wikiurl;Jugan5_R20"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Jugan5_R20"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -5558,7 +5467,6 @@
 		<swivt:page rdf:resource="&wikiurl;Field2011_Batch1"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Field2011_Batch1"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -5602,7 +5510,6 @@
 		<swivt:page rdf:resource="&wikiurl;Field2011_Batch2"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Field2011_Batch2"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -5625,7 +5532,6 @@
 		<swivt:page rdf:resource="&wikiurl;Field2011_Batch3"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Field2011_Batch3"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -5860,7 +5766,6 @@
 		<swivt:page rdf:resource="&wikiurl;Jeng2006_M1"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Jeng2006_M1"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -5879,7 +5784,6 @@
 		<swivt:page rdf:resource="&wikiurl;Jeng2006_M2"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Jeng2006_M2"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -5898,7 +5802,6 @@
 		<swivt:page rdf:resource="&wikiurl;Jeng2006_M3"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Jeng2006_M3"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -5917,7 +5820,6 @@
 		<swivt:page rdf:resource="&wikiurl;Jeng2006_M4"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Jeng2006_M4"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -5948,7 +5850,6 @@
 		<swivt:page rdf:resource="&wikiurl;Jeng2006_M5"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Jeng2006_M5"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -5976,7 +5877,6 @@
 		<swivt:page rdf:resource="&wikiurl;Bhabra2009_M1"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Bhabra2009_M1"/>
 		<rdf:type rdf:resource="&wiki;Category-3AAlloys"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -6294,7 +6194,6 @@
 		<swivt:page rdf:resource="&wikiurl;Nagy2012_QD2"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Nagy2012_QD2"/>
 		<rdf:type rdf:resource="&wiki;Category-3AAlloys"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -6314,7 +6213,6 @@
 		<swivt:page rdf:resource="&wikiurl;Nagy2012_QD3"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Nagy2012_QD3"/>
 		<rdf:type rdf:resource="&wiki;Category-3AAlloys"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -6334,7 +6232,6 @@
 		<swivt:page rdf:resource="&wikiurl;Nagy2012_QD4"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Nagy2012_QD4"/>
 		<rdf:type rdf:resource="&wiki;Category-3AAlloys"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -6354,7 +6251,6 @@
 		<swivt:page rdf:resource="&wikiurl;Nagy2012_QD5"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Nagy2012_QD5"/>
 		<rdf:type rdf:resource="&wiki;Category-3AAlloys"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -6374,7 +6270,6 @@
 		<swivt:page rdf:resource="&wikiurl;Nagy2012_QD6"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Nagy2012_QD6"/>
 		<rdf:type rdf:resource="&wiki;Category-3AAlloys"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -6394,7 +6289,6 @@
 		<swivt:page rdf:resource="&wikiurl;Nagy2012_QD7"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Nagy2012_QD7"/>
 		<rdf:type rdf:resource="&wiki;Category-3AAlloys"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -6414,7 +6308,6 @@
 		<swivt:page rdf:resource="&wikiurl;Nagy2012_QD8"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Nagy2012_QD8"/>
 		<rdf:type rdf:resource="&wiki;Category-3AAlloys"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -6434,7 +6327,6 @@
 		<swivt:page rdf:resource="&wikiurl;Nagy2012_QD9"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Nagy2012_QD9"/>
 		<rdf:type rdf:resource="&wiki;Category-3AAlloys"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -6454,7 +6346,6 @@
 		<swivt:page rdf:resource="&wikiurl;Nagy2012_QD10"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Nagy2012_QD10"/>
 		<rdf:type rdf:resource="&wiki;Category-3AAlloys"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -6474,7 +6365,6 @@
 		<swivt:page rdf:resource="&wikiurl;Nagy2012_QD11"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Nagy2012_QD11"/>
 		<rdf:type rdf:resource="&wiki;Category-3AAlloys"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -6494,7 +6384,6 @@
 		<swivt:page rdf:resource="&wikiurl;Nagy2012_QD12"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Nagy2012_QD12"/>
 		<rdf:type rdf:resource="&wiki;Category-3AAlloys"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -6528,7 +6417,6 @@
 		<swivt:page rdf:resource="&wikiurl;Kim2012_NM1"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Kim2012_NM1"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -6547,7 +6435,6 @@
 		<swivt:page rdf:resource="&wikiurl;Kim2012_NM2"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Kim2012_NM2"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -6579,7 +6466,6 @@
 		<swivt:page rdf:resource="&wikiurl;Shi2012_NM1"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Shi2012_NM1"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -6624,7 +6510,6 @@
 		<swivt:page rdf:resource="&wikiurl;Shi2012_NM2"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Shi2012_NM2"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -6645,7 +6530,6 @@
 		<swivt:page rdf:resource="&wikiurl;Shi2012_NM3"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Shi2012_NM3"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -6666,7 +6550,6 @@
 		<swivt:page rdf:resource="&wikiurl;Shi2012_NM4"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Shi2012_NM4"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -6924,7 +6807,6 @@
 		<swivt:page rdf:resource="&wikiurl;Gerloff2009_NM1"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Gerloff2009_NM1"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -6942,7 +6824,6 @@
 		<swivt:page rdf:resource="&wikiurl;Gerloff2009_NM2"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Gerloff2009_NM2"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -6960,7 +6841,6 @@
 		<swivt:page rdf:resource="&wikiurl;Gerloff2009_NM3"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Gerloff2009_NM3"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -6978,7 +6858,6 @@
 		<swivt:page rdf:resource="&wikiurl;Gerloff2009_NM4"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Gerloff2009_NM4"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -6995,7 +6874,6 @@
 		<swivt:page rdf:resource="&wikiurl;Gerloff2009_NM5"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Gerloff2009_NM5"/>
 		<rdf:type rdf:resource="&wiki;Category-3ACarbonNanoparticles"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -7012,7 +6890,6 @@
 		<swivt:page rdf:resource="&wikiurl;Gerloff2009_NM6"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Gerloff2009_NM6"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -7029,7 +6906,6 @@
 		<swivt:page rdf:resource="&wikiurl;Gerloff2009_NM7"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Gerloff2009_NM7"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -7046,7 +6922,6 @@
 		<swivt:page rdf:resource="&wikiurl;Gerloff2009_NM8"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Gerloff2009_NM8"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -7063,7 +6938,6 @@
 		<swivt:page rdf:resource="&wikiurl;Gerloff2009_NM9"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Gerloff2009_NM9"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -7091,7 +6965,6 @@
 		<swivt:page rdf:resource="&wikiurl;Gopalan2009_NM1"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Gopalan2009_NM1"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -7109,7 +6982,6 @@
 		<swivt:page rdf:resource="&wikiurl;Gopalan2009_NM2"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Gopalan2009_NM2"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -7154,7 +7026,6 @@
 		<swivt:page rdf:resource="&wikiurl;Limbach2005_NM2"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Limbach2005_NM2"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -7172,7 +7043,6 @@
 		<swivt:page rdf:resource="&wikiurl;Limbach2005_NM1"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Limbach2005_NM1"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -7190,7 +7060,6 @@
 		<swivt:page rdf:resource="&wikiurl;Limbach2005_NM3"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Limbach2005_NM3"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -7221,7 +7090,6 @@
 		<swivt:page rdf:resource="&wikiurl;Wang2009_NM1"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Wang2009_NM1"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -7286,7 +7154,6 @@
 		<swivt:page rdf:resource="&wikiurl;Wang2009_NM5"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Wang2009_NM5"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
-		<rdf:type rdf:resource="&wiki;Category-3ANanoMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>

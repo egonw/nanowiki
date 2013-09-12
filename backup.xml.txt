@@ -16653,6 +16653,24 @@ Observed Value [[Has Endpoint Value::3.45]] at unknown dose.
 
 {{#set:|Used in Study=Cytotox2011Pyzun}}</text>
     </revision>
+    <revision>
+      <id>2180</id>
+      <timestamp>2013-09-12T07:24:43Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=ZnO
+|Has Chemical Composition=ZnO
+|Has Identifier=2
+|Has NM Type=MetalOxide
+|Has Size Min=15
+|Has Size Max=90
+|Has Size Units=nm
+}}
+
+{{#set:|Used in Study=Cytotox2011Pyzun}}</text>
+    </revision>
   </page>
   <page>
     <title>MetalOxide</title>
@@ -17075,6 +17093,24 @@ Observed Value [[Has Endpoint Value::3.45]] at unknown dose.
 
 {{#set:|Used in Study=Cytotox2011Pyzun}}</text>
     </revision>
+    <revision>
+      <id>2179</id>
+      <timestamp>2013-09-12T07:24:35Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=CuO
+|Has Identifier=3
+|Has Chemical Composition=CuO
+|Has NM Type=MetalOxide
+|Has Size Min=15
+|Has Size Max=90
+|Has Size Units=nm
+}}
+
+{{#set:|Used in Study=Cytotox2011Pyzun}}</text>
+    </revision>
   </page>
   <page>
     <title>Cytotox2011Pyzun03</title>
@@ -17146,6 +17182,24 @@ Observed Value [[Has Endpoint Value::3.45]] at unknown dose.
         <ip>127.0.0.1</ip>
       </contributor>
       <text xml:space="preserve">{{NanoMaterial
+|Has Label=V2O3
+|Has Identifier=4
+|Has Chemical Composition=V2O3
+|Has NM Type=MetalOxide
+|Has Size Min=15
+|Has Size Max=90
+|Has Size Units=nm
+}}
+
+{{#set:|Used in Study=Cytotox2011Pyzun}}</text>
+    </revision>
+    <revision>
+      <id>2178</id>
+      <timestamp>2013-09-12T07:24:28Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
 |Has Label=V2O3
 |Has Identifier=4
 |Has Chemical Composition=V2O3
@@ -17239,6 +17293,24 @@ Observed Value [[Has Endpoint Value::3.45]] at unknown dose.
 
 {{#set:|Used in Study=Cytotox2011Pyzun}}</text>
     </revision>
+    <revision>
+      <id>2177</id>
+      <timestamp>2013-09-12T07:21:34Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=Y2O3
+|Has Identifier=5
+|Has Chemical Composition=Y2O3
+|Has NM Type=MetalOxide
+|Has Size Min=15
+|Has Size Max=90
+|Has Size Units=nm
+}}
+
+{{#set:|Used in Study=Cytotox2011Pyzun}}</text>
+    </revision>
   </page>
   <page>
     <title>Cytotox2011Pyzun05</title>
@@ -17310,6 +17382,24 @@ Observed Value [[Has Endpoint Value::3.45]] at unknown dose.
         <ip>127.0.0.1</ip>
       </contributor>
       <text xml:space="preserve">{{NanoMaterial
+|Has Label=Bi2O3
+|Has Identifier=6
+|Has Chemical Composition=Bi2O3
+|Has NM Type=MetalOxide
+|Has Size Min=15
+|Has Size Max=90
+|Has Size Units=nm
+}}
+
+{{#set:|Used in Study=Cytotox2011Pyzun}}</text>
+    </revision>
+    <revision>
+      <id>2176</id>
+      <timestamp>2013-09-12T07:21:27Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
 |Has Label=Bi2O3
 |Has Identifier=6
 |Has Chemical Composition=Bi2O3
@@ -17492,6 +17582,24 @@ Observed Value [[Has Endpoint Value::3.45]] at unknown dose.
 
 {{#set:|Used in Study=Cytotox2011Pyzun}}</text>
     </revision>
+    <revision>
+      <id>2175</id>
+      <timestamp>2013-09-12T07:21:19Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=In2O3
+|Has Identifier=7
+|Has Chemical Composition=In2O3
+|Has NM Type=MetalOxide
+|Has Size Min=15
+|Has Size Max=90
+|Has Size Units=nm
+}}
+
+{{#set:|Used in Study=Cytotox2011Pyzun}}</text>
+    </revision>
   </page>
   <page>
     <title>Cytotox2011Pyzun07</title>
@@ -17563,6 +17671,24 @@ Observed Value [[Has Endpoint Value::3.45]] at unknown dose.
         <ip>127.0.0.1</ip>
       </contributor>
       <text xml:space="preserve">{{NanoMaterial
+|Has Label=Sb2O3
+|Has Identifier=8
+|Has Chemical Composition=Sb2O3
+|Has NM Type=MetalOxide
+|Has Size Min=15
+|Has Size Max=90
+|Has Size Units=nm
+}}
+
+{{#set:|Used in Study=Cytotox2011Pyzun}}</text>
+    </revision>
+    <revision>
+      <id>2174</id>
+      <timestamp>2013-09-12T07:21:12Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
 |Has Label=Sb2O3
 |Has Identifier=8
 |Has Chemical Composition=Sb2O3
@@ -17756,6 +17882,24 @@ Observed Value [[Has Endpoint Value::3.45]] at unknown dose.
 
 {{#set:|Used in Study=Cytotox2011Pyzun}}</text>
     </revision>
+    <revision>
+      <id>2173</id>
+      <timestamp>2013-09-12T07:21:00Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=Fe2O3
+|Has Identifier=9
+|Has Chemical Composition=Fe2O3
+|Has NM Type=MetalOxide
+|Has Size Min=15
+|Has Size Max=90
+|Has Size Units=nm
+}}
+
+{{#set:|Used in Study=Cytotox2011Pyzun}}</text>
+    </revision>
   </page>
   <page>
     <title>Cytotox2011Pyzun10</title>
@@ -17856,6 +18000,24 @@ Observed Value [[Has Endpoint Value::3.45]] at unknown dose.
 
 {{#set:|Used in Study=Cytotox2011Pyzun}}</text>
     </revision>
+    <revision>
+      <id>2172</id>
+      <timestamp>2013-09-12T07:20:49Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=SiO2
+|Has Identifier=10
+|Has Chemical Composition=SiO2
+|Has NM Type=MetalOxide
+|Has Size Min=15
+|Has Size Max=90
+|Has Size Units=nm
+}}
+
+{{#set:|Used in Study=Cytotox2011Pyzun}}</text>
+    </revision>
   </page>
   <page>
     <title>Cytotox2011Pyzun11</title>
@@ -17910,6 +18072,24 @@ Observed Value [[Has Endpoint Value::3.45]] at unknown dose.
         <ip>127.0.0.1</ip>
       </contributor>
       <text xml:space="preserve">{{NanoMaterial
+|Has Label=ZrO2
+|Has Identifier=11
+|Has Chemical Composition=ZrO2
+|Has NM Type=MetalOxide
+|Has Size Min=15
+|Has Size Max=90
+|Has Size Units=nm
+}}
+
+{{#set:|Used in Study=Cytotox2011Pyzun}}</text>
+    </revision>
+    <revision>
+      <id>2171</id>
+      <timestamp>2013-09-12T07:20:42Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
 |Has Label=ZrO2
 |Has Identifier=11
 |Has Chemical Composition=ZrO2
@@ -17986,6 +18166,24 @@ Observed Value [[Has Endpoint Value::3.45]] at unknown dose.
 
 {{#set:|Used in Study=Cytotox2011Pyzun}}</text>
     </revision>
+    <revision>
+      <id>2170</id>
+      <timestamp>2013-09-12T07:20:34Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=SnO2
+|Has Identifier=12
+|Has Chemical Composition=SnO2
+|Has NM Type=MetalOxide
+|Has Size Min=15
+|Has Size Max=90
+|Has Size Units=nm
+}}
+
+{{#set:|Used in Study=Cytotox2011Pyzun}}</text>
+    </revision>
   </page>
   <page>
     <title>Cytotox2011Pyzun13</title>
@@ -18040,6 +18238,24 @@ Observed Value [[Has Endpoint Value::3.45]] at unknown dose.
         <ip>127.0.0.1</ip>
       </contributor>
       <text xml:space="preserve">{{NanoMaterial
+|Has Label=TiO2
+|Has Identifier=13
+|Has Chemical Composition=TiO2
+|Has NM Type=MetalOxide
+|Has Size Min=15
+|Has Size Max=90
+|Has Size Units=nm
+}}
+
+{{#set:|Used in Study=Cytotox2011Pyzun}}</text>
+    </revision>
+    <revision>
+      <id>2169</id>
+      <timestamp>2013-09-12T07:20:24Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
 |Has Label=TiO2
 |Has Identifier=13
 |Has Chemical Composition=TiO2
@@ -18116,6 +18332,24 @@ Observed Value [[Has Endpoint Value::3.45]] at unknown dose.
 
 {{#set:|Used in Study=Cytotox2011Pyzun}}</text>
     </revision>
+    <revision>
+      <id>2168</id>
+      <timestamp>2013-09-12T07:17:28Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=CoO2
+|Has Identifier=14
+|Has Chemical Composition=CoO2
+|Has NM Type=MetalOxide
+|Has Size Min=15
+|Has Size Max=90
+|Has Size Units=nm
+}}
+
+{{#set:|Used in Study=Cytotox2011Pyzun}}</text>
+    </revision>
   </page>
   <page>
     <title>Cytotox2011Pyzun15</title>
@@ -18170,6 +18404,24 @@ Observed Value [[Has Endpoint Value::3.45]] at unknown dose.
         <ip>127.0.0.1</ip>
       </contributor>
       <text xml:space="preserve">{{NanoMaterial
+|Has Label=NiO
+|Has Identifier=15
+|Has Chemical Composition=NiO2
+|Has NM Type=MetalOxide
+|Has Size Min=15
+|Has Size Max=90
+|Has Size Units=nm
+}}
+
+{{#set:|Used in Study=Cytotox2011Pyzun}}</text>
+    </revision>
+    <revision>
+      <id>2167</id>
+      <timestamp>2013-09-12T07:17:19Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
 |Has Label=NiO
 |Has Identifier=15
 |Has Chemical Composition=NiO2
@@ -18246,6 +18498,24 @@ Observed Value [[Has Endpoint Value::3.45]] at unknown dose.
 
 {{#set:|Used in Study=Cytotox2011Pyzun}}</text>
     </revision>
+    <revision>
+      <id>2166</id>
+      <timestamp>2013-09-12T07:17:12Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=Cr2O3
+|Has Identifier=16
+|Has Chemical Composition=Cr2O3
+|Has NM Type=MetalOxide
+|Has Size Min=15
+|Has Size Max=90
+|Has Size Units=nm
+}}
+
+{{#set:|Used in Study=Cytotox2011Pyzun}}</text>
+    </revision>
   </page>
   <page>
     <title>Cytotox2011Pyzun17</title>
@@ -18300,6 +18570,24 @@ Observed Value [[Has Endpoint Value::3.45]] at unknown dose.
         <ip>127.0.0.1</ip>
       </contributor>
       <text xml:space="preserve">{{NanoMaterial
+|Has Label=La2O3
+|Has Identifier=17
+|Has Chemical Composition=La2O3
+|Has NM Type=MetalOxide
+|Has Size Min=15
+|Has Size Max=90
+|Has Size Units=nm
+}}
+
+{{#set:|Used in Study=Cytotox2011Pyzun}}</text>
+    </revision>
+    <revision>
+      <id>2165</id>
+      <timestamp>2013-09-12T07:17:04Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
 |Has Label=La2O3
 |Has Identifier=17
 |Has Chemical Composition=La2O3
@@ -21265,6 +21553,29 @@ Small molecule study.</text>
 {{#set:|Used in Study=WillighagenS1}}
 {{#set:|Used in Study=WillighagenS2}}</text>
     </revision>
+    <revision>
+      <id>2190</id>
+      <timestamp>2013-09-12T07:28:50Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=TiO2
+|Has Identifier=19
+|Has Chemical Composition=TiO2
+|Has NM Type=MetalOxide
+|Has Size Min=20
+|Has Size Max=100
+|Has Size Units=nm
+|Has Size Method=TEM
+|Has Zeta potential=5.9
+|Has Zeta Units=mV
+}}
+
+{{#set:|Used in Study=Karlsson2008Cytotox}}
+{{#set:|Used in Study=WillighagenS1}}
+{{#set:|Used in Study=WillighagenS2}}</text>
+    </revision>
   </page>
   <page>
     <title>HannaK3</title>
@@ -21379,6 +21690,29 @@ Small molecule study.</text>
         <ip>Egonw</ip>
       </contributor>
       <text xml:space="preserve">{{NanoMaterial
+|Has Label=ZnO
+|Has Identifier=20
+|Has Chemical Composition=ZnO
+|Has NM Type=MetalOxide
+|Has Size Min=20
+|Has Size Max=200
+|Has Size Units=nm
+|Has Size Method=TEM
+|Has Zeta potential=26.9
+|Has Zeta Units=mV
+}}
+
+{{#set:|Used in Study=Karlsson2008Cytotox}}
+{{#set:|Used in Study=WillighagenS1}}
+{{#set:|Used in Study=WillighagenS2}}</text>
+    </revision>
+    <revision>
+      <id>2189</id>
+      <timestamp>2013-09-12T07:28:44Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
 |Has Label=ZnO
 |Has Identifier=20
 |Has Chemical Composition=ZnO
@@ -21525,6 +21859,29 @@ Small molecule study.</text>
 {{#set:|Used in Study=WillighagenS1}}
 {{#set:|Used in Study=WillighagenS2}}</text>
     </revision>
+    <revision>
+      <id>2188</id>
+      <timestamp>2013-09-12T07:28:39Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=CuZnFe2O4
+|Has Identifier=21
+|Has Chemical Composition=CuZnFe2O4
+|Has NM Type=MetalOxide
+|Has Size Min=10
+|Has Size Max=100
+|Has Size Units=nm
+|Has Size Method=TEM
+|Has Zeta potential=34.2
+|Has Zeta Units=mV
+}}
+
+{{#set:|Used in Study=Karlsson2008Cytotox}}
+{{#set:|Used in Study=WillighagenS1}}
+{{#set:|Used in Study=WillighagenS2}}</text>
+    </revision>
   </page>
   <page>
     <title>HannaK5</title>
@@ -21639,6 +21996,29 @@ Small molecule study.</text>
         <ip>Egonw</ip>
       </contributor>
       <text xml:space="preserve">{{NanoMaterial
+|Has Label=Fe2O3
+|Has Identifier=22
+|Has Chemical Composition=Fe2O3
+|Has NM Type=MetalOxide
+|Has Size Min=30
+|Has Size Max=60
+|Has Size Units=nm
+|Has Size Method=TEM
+|Has Zeta potential=-17.3
+|Has Zeta Units=mV
+}}
+
+{{#set:|Used in Study=Karlsson2008Cytotox}}
+{{#set:|Used in Study=WillighagenS1}}
+{{#set:|Used in Study=WillighagenS2}}</text>
+    </revision>
+    <revision>
+      <id>2187</id>
+      <timestamp>2013-09-12T07:28:34Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
 |Has Label=Fe2O3
 |Has Identifier=22
 |Has Chemical Composition=Fe2O3
@@ -21785,6 +22165,29 @@ Small molecule study.</text>
 {{#set:|Used in Study=WillighagenS1}}
 {{#set:|Used in Study=WillighagenS2}}</text>
     </revision>
+    <revision>
+      <id>2186</id>
+      <timestamp>2013-09-12T07:28:29Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=Fe3O4
+|Has Identifier=23
+|Has Chemical Composition=Fe3O4
+|Has NM Type=MetalOxide
+|Has Size Min=20
+|Has Size Max=30
+|Has Size Units=nm
+|Has Size Method=TEM
+|Has Zeta potential=1.8
+|Has Zeta Units=mV
+}}
+
+{{#set:|Used in Study=Karlsson2008Cytotox}}
+{{#set:|Used in Study=WillighagenS1}}
+{{#set:|Used in Study=WillighagenS2}}</text>
+    </revision>
   </page>
   <page>
     <title>HannaK7</title>
@@ -21891,6 +22294,27 @@ Small molecule study.</text>
         <ip>Egonw</ip>
       </contributor>
       <text xml:space="preserve">{{NanoMaterial
+|Has Label=carbon nanotubes
+|Has Identifier=24
+|Has Chemical Composition=C
+|Has NM Type=CarbonNanoparticle
+|Has Size Min=20
+|Has Size Max=40
+|Has Size Units=nm
+|Has Size Method=TEM
+|Has Zeta potential=6.9
+|Has Zeta Units=mV
+}}
+
+{{#set:|Used in Study=Karlsson2008Cytotox}}</text>
+    </revision>
+    <revision>
+      <id>2185</id>
+      <timestamp>2013-09-12T07:28:22Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
 |Has Label=carbon nanotubes
 |Has Identifier=24
 |Has Chemical Composition=C
@@ -22037,6 +22461,29 @@ Asymetrically shaped particles, of 100-200 nm in one direction, and 3-7 µm in t
         <ip>Egonw</ip>
       </contributor>
       <text xml:space="preserve">{{NanoMaterial
+|Has Label=carbon nanoparticle
+|Has Identifier=25
+|Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+|Has Size Min=100
+|Has Size Max=7000
+|Has Size Units=nm
+|Has Size Method=TEM
+|Has Zeta potential= -45.4
+|Has Zeta Units=mV
+}}
+
+Asymetrically shaped particles, of 100-200 nm in one direction, and 3-7 µm in the other.
+
+{{#set:|Used in Study=Karlsson2008Cytotox}}</text>
+    </revision>
+    <revision>
+      <id>2184</id>
+      <timestamp>2013-09-12T07:25:24Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
 |Has Label=carbon nanoparticle
 |Has Identifier=25
 |Has Chemical Composition=C
@@ -25805,6 +26252,26 @@ Coated gold particles.
 
 {{#set:|Used in Study=Karlsson2008CytotoxFollowup}}</text>
     </revision>
+    <revision>
+      <id>2183</id>
+      <timestamp>2013-09-12T07:25:18Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=Ag
+|Has Identifier=26
+|Has Chemical Composition=Ag
+|Has NM Type=Metal
+|Has Size Min=7
+|Has Size Max=516
+|Has Size Units=nm
+|Has Zeta potential=-39.9
+|Has Zeta Units=mV
+}}
+
+{{#set:|Used in Study=Karlsson2008CytotoxFollowup}}</text>
+    </revision>
   </page>
   <page>
     <title>Metal</title>
@@ -26040,6 +26507,26 @@ Coated gold particles.
 
 {{#set:|Used in Study=Karlsson2008CytotoxFollowup}}</text>
     </revision>
+    <revision>
+      <id>2182</id>
+      <timestamp>2013-09-12T07:25:13Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=Co3O4
+|Has Identifier=28
+|Has Chemical Composition=Co3O4
+|Has NM Type=MetalOxide
+|Has Size Min=9
+|Has Size Max=62
+|Has Size Units=nm
+|Has Zeta potential=30.2
+|Has Zeta Units=mV
+}}
+
+{{#set:|Used in Study=Karlsson2008CytotoxFollowup}}</text>
+    </revision>
   </page>
   <page>
     <title>HannaK12</title>
@@ -26229,6 +26716,26 @@ Coated gold particles.
         <ip>Egonw</ip>
       </contributor>
       <text xml:space="preserve">{{NanoMaterial
+|Has Label=SiO2
+|Has Identifier=30
+|Has Chemical Composition=SiO2
+|Has NM Type=MetalOxide
+|Has Size Min=5
+|Has Size Max=15
+|Has Size Units=nm
+|Has Zeta potential=-11.0
+|Has Zeta Units=mV
+}}
+
+{{#set:|Used in Study=Karlsson2008CytotoxFollowup}}</text>
+    </revision>
+    <revision>
+      <id>2181</id>
+      <timestamp>2013-09-12T07:24:56Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
 |Has Label=SiO2
 |Has Identifier=30
 |Has Chemical Composition=SiO2
@@ -27322,6 +27829,28 @@ Coated iron oxides particles.
 
 [[Has alternative Identifier::NP3]]</text>
     </revision>
+    <revision>
+      <id>2145</id>
+      <timestamp>2013-09-12T07:13:47Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=CLIO-47-NH2 no 9
+|Has Identifier=33
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=CLIO-NH2
+|Has NM Type=MetalOxide
+|Has Size=74
+|Has Size Units=nm
+|Has Zeta potential=5.9
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP3]]</text>
+    </revision>
   </page>
   <page>
     <title>Property:Has alternative Identifier</title>
@@ -27412,6 +27941,28 @@ Coated iron oxides particles.
         <ip>Egonw</ip>
       </contributor>
       <text xml:space="preserve">{{NanoMaterial
+|Has Label=Carboxyl-CLIO-FITC-NH2 no. 3
+|Has Identifier=31
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=CLIO-FITC-COOH
+|Has NM Type=MetalOxide
+|Has Size=36
+|Has Size Units=nm
+|Has Zeta potential=-19.9
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP1]]</text>
+    </revision>
+    <revision>
+      <id>2147</id>
+      <timestamp>2013-09-12T07:14:00Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
 |Has Label=Carboxyl-CLIO-FITC-NH2 no. 3
 |Has Identifier=31
 |Has Chemical Composition=Fe3O4
@@ -27518,6 +28069,28 @@ Coated iron oxides particles.
 
 [[Has alternative Identifier::NP2]]</text>
     </revision>
+    <revision>
+      <id>2146</id>
+      <timestamp>2013-09-12T07:13:53Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=CLIO-47 no. 3
+|Has Identifier=32
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=CLIO-FITC
+|Has NM Type=MetalOxide
+|Has Size=30
+|Has Size Units=nm
+|Has Zeta potential=-9.22
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP2]]</text>
+    </revision>
   </page>
   <page>
     <title>Shaw51 04</title>
@@ -27609,6 +28182,28 @@ Coated iron oxides particles.
 
 [[Has alternative Identifier::NP4]]</text>
     </revision>
+    <revision>
+      <id>2144</id>
+      <timestamp>2013-09-12T07:13:40Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=CLIO-48-NH2 no. 14
+|Has Identifier=34
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=CLIO-NH2
+|Has NM Type=MetalOxide
+|Has Size=74
+|Has Size Units=nm
+|Has Zeta potential=-2.72
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP4]]</text>
+    </revision>
   </page>
   <page>
     <title>Shaw51 05</title>
@@ -27679,6 +28274,28 @@ Coated iron oxides particles.
 
 [[Has alternative Identifier::NP5]]</text>
     </revision>
+    <revision>
+      <id>2143</id>
+      <timestamp>2013-09-12T07:13:33Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=CLIO-AF488 no. 10
+|Has Identifier=35
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=CLIO-AF488
+|Has NM Type=MetalOxide
+|Has Size=27
+|Has Size Units=nm
+|Has Zeta potential=-3.34
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP5]]</text>
+    </revision>
   </page>
   <page>
     <title>Shaw51 06</title>
@@ -27734,6 +28351,28 @@ Coated iron oxides particles.
         <ip>Egonw</ip>
       </contributor>
       <text xml:space="preserve">{{NanoMaterial
+|Has Label=CLIO-AF750 no. 3
+|Has Identifier=36
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=CLIO-AF750
+|Has NM Type=MetalOxide
+|Has Size=29
+|Has Size Units=nm
+|Has Zeta potential=1.95
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP6]]</text>
+    </revision>
+    <revision>
+      <id>2142</id>
+      <timestamp>2013-09-12T07:13:24Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
 |Has Label=CLIO-AF750 no. 3
 |Has Identifier=36
 |Has Chemical Composition=Fe3O4
@@ -27840,6 +28479,28 @@ Coated iron oxides particles.
 
 [[Has alternative Identifier::NP7]]</text>
     </revision>
+    <revision>
+      <id>2141</id>
+      <timestamp>2013-09-12T07:13:17Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=CLIO-bentri-FITC
+|Has Identifier=37
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=CLIO-FITC-RCOOH
+|Has NM Type=MetalOxide
+|Has Size=38
+|Has Size Units=nm
+|Has Zeta potential=-10.1
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP7]]</text>
+    </revision>
   </page>
   <page>
     <title>Shaw51 08</title>
@@ -27910,6 +28571,28 @@ Coated iron oxides particles.
 
 [[Has alternative Identifier::NP8]]</text>
     </revision>
+    <revision>
+      <id>2140</id>
+      <timestamp>2013-09-12T07:13:08Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=CLIO-Biotin no.2
+|Has Identifier=38
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=BiotinCoating
+|Has NM Type=MetalOxide
+|Has Size=33
+|Has Size Units=nm
+|Has Zeta potential=-19.5
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP8]]</text>
+    </revision>
   </page>
   <page>
     <title>Shaw51 09</title>
@@ -27965,6 +28648,28 @@ Coated iron oxides particles.
         <ip>Egonw</ip>
       </contributor>
       <text xml:space="preserve">{{NanoMaterial
+|Has Label=CLIO-COOH-FITC no.1
+|Has Identifier=39
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=FITC-COOH
+|Has NM Type=MetalOxide
+|Has Size=36
+|Has Size Units=nm
+|Has Zeta potential=-14.0
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP9]]</text>
+    </revision>
+    <revision>
+      <id>2139</id>
+      <timestamp>2013-09-12T07:12:57Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
 |Has Label=CLIO-COOH-FITC no.1
 |Has Identifier=39
 |Has Chemical Composition=Fe3O4
@@ -28072,6 +28777,28 @@ Coated iron oxides particles.
 
 [[Has alternative Identifier::NP10]]</text>
     </revision>
+    <revision>
+      <id>2138</id>
+      <timestamp>2013-09-12T07:12:45Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=CLIO-Cy3.5 no. 2
+|Has Identifier=40
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=CLIO-CY35
+|Has NM Type=MetalOxide
+|Has Size=31
+|Has Size Units=nm
+|Has Zeta potential=3.24
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP10]]</text>
+    </revision>
   </page>
   <page>
     <title>Shaw51 11</title>
@@ -28127,6 +28854,28 @@ Coated iron oxides particles.
         <ip>Egonw</ip>
       </contributor>
       <text xml:space="preserve">{{NanoMaterial
+|Has Label=CLIO- Cy5.5-Protamine no. 3
+|Has Identifier=41
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=CLIO-FITC-Protamine
+|Has NM Type=MetalOxide
+|Has Size=31
+|Has Size Units=nm
+|Has Zeta potential=-9.46
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP11]]</text>
+    </revision>
+    <revision>
+      <id>2137</id>
+      <timestamp>2013-09-12T07:12:36Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
 |Has Label=CLIO- Cy5.5-Protamine no. 3
 |Has Identifier=41
 |Has Chemical Composition=Fe3O4
@@ -28212,6 +28961,28 @@ Coated iron oxides particles.
 
 [[Has alternative Identifier::NP12]]</text>
     </revision>
+    <revision>
+      <id>2136</id>
+      <timestamp>2013-09-12T07:12:27Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=CLIO-Cy5.5-tat no. 3
+|Has Identifier=42
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=CLIO-CY35-Tat
+|Has NM Type=MetalOxide
+|Has Size=31
+|Has Size Units=nm
+|Has Zeta potential=3.64
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP12]]</text>
+    </revision>
   </page>
   <page>
     <title>Shaw51 13</title>
@@ -28263,6 +29034,26 @@ Coated iron oxides particles.
         <ip>Egonw</ip>
       </contributor>
       <text xml:space="preserve">{{NanoMaterial
+|Has Label=CLIO-Cy5.5-X no. 1
+|Has Identifier=43
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=CLIO-CY55
+|Has NM Type=MetalOxide
+|Has Zeta potential=3.09
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP13]]</text>
+    </revision>
+    <revision>
+      <id>2135</id>
+      <timestamp>2013-09-12T07:12:19Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
 |Has Label=CLIO-Cy5.5-X no. 1
 |Has Identifier=43
 |Has Chemical Composition=Fe3O4
@@ -28331,6 +29122,28 @@ Coated iron oxides particles.
         <ip>Egonw</ip>
       </contributor>
       <text xml:space="preserve">{{NanoMaterial
+|Has Label=CLIO-Cy5 no. 2
+|Has Identifier=44
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=CLIO-CY5
+|Has NM Type=MetalOxide
+|Has Size=28
+|Has Size Units=nm
+|Has Zeta potential=2.34
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP14]]</text>
+    </revision>
+    <revision>
+      <id>2134</id>
+      <timestamp>2013-09-12T07:09:23Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
 |Has Label=CLIO-Cy5 no. 2
 |Has Identifier=44
 |Has Chemical Composition=Fe3O4
@@ -28416,6 +29229,28 @@ Coated iron oxides particles.
 
 [[Has alternative Identifier::NP15]]</text>
     </revision>
+    <revision>
+      <id>2133</id>
+      <timestamp>2013-09-12T07:09:15Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=CLIO-Cy7 no. 2
+|Has Identifier=45
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=CLIO-CY7
+|Has NM Type=MetalOxide
+|Has Size=24
+|Has Size Units=nm
+|Has Zeta potential=-11.7
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP15]]</text>
+    </revision>
   </page>
   <page>
     <title>Shaw51 16</title>
@@ -28471,6 +29306,28 @@ Coated iron oxides particles.
         <ip>Egonw</ip>
       </contributor>
       <text xml:space="preserve">{{NanoMaterial
+|Has Label=CLIO-FITC no. 4
+|Has Identifier=46
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=CLIO-FITC
+|Has NM Type=MetalOxide
+|Has Size=37
+|Has Size Units=nm
+|Has Zeta potential=0.766
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP16]]</text>
+    </revision>
+    <revision>
+      <id>2132</id>
+      <timestamp>2013-09-12T07:09:08Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
 |Has Label=CLIO-FITC no. 4
 |Has Identifier=46
 |Has Chemical Composition=Fe3O4
@@ -28556,6 +29413,28 @@ Coated iron oxides particles.
 
 [[Has alternative Identifier::NP17]]</text>
     </revision>
+    <revision>
+      <id>2131</id>
+      <timestamp>2013-09-12T07:08:59Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=CLIO-GLU-FITC
+|Has Identifier=47
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=CLIO-FITC-GlutamicAcid
+|Has NM Type=MetalOxide
+|Has Size=38
+|Has Size Units=nm
+|Has Zeta potential=-20.7
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP17]]</text>
+    </revision>
   </page>
   <page>
     <title>Shaw51 18</title>
@@ -28626,6 +29505,28 @@ Coated iron oxides particles.
 
 [[Has alternative Identifier::NP18]]</text>
     </revision>
+    <revision>
+      <id>2130</id>
+      <timestamp>2013-09-12T07:08:49Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=CLIO-GLY
+|Has Identifier=48
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=CLIO-Glycine
+|Has NM Type=MetalOxide
+|Has Size=38
+|Has Size Units=nm
+|Has Zeta potential=-9.08
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP18]]</text>
+    </revision>
   </page>
   <page>
     <title>Shaw51 19</title>
@@ -28681,6 +29582,28 @@ Coated iron oxides particles.
         <ip>Egonw</ip>
       </contributor>
       <text xml:space="preserve">{{NanoMaterial
+|Has Label=CLIO-Rhodamine-Protamine no. 1
+|Has Identifier=49
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=CLIO-Rhodamine-Protamine
+|Has NM Type=MetalOxide
+|Has Size=31
+|Has Size Units=nm
+|Has Zeta potential=-3.61
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP19]]</text>
+    </revision>
+    <revision>
+      <id>2129</id>
+      <timestamp>2013-09-12T07:08:41Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
 |Has Label=CLIO-Rhodamine-Protamine no. 1
 |Has Identifier=49
 |Has Chemical Composition=Fe3O4
@@ -28787,6 +29710,28 @@ Coated iron oxides particles.
 
 [[Has alternative Identifier::NP20]]</text>
     </revision>
+    <revision>
+      <id>2128</id>
+      <timestamp>2013-09-12T07:08:29Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=CLIO-SIA-FITC
+|Has Identifier=50
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=CLIO-FTIC-SI
+|Has NM Type=MetalOxide
+|Has Size=38
+|Has Size Units=nm
+|Has Zeta potential=-9.34
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP20]]</text>
+    </revision>
   </page>
   <page>
     <title>Shaw51 21</title>
@@ -28842,6 +29787,28 @@ Coated iron oxides particles.
         <ip>Egonw</ip>
       </contributor>
       <text xml:space="preserve">{{NanoMaterial
+|Has Label=CLIO-tat no. 26
+|Has Identifier=51
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=CLIO-TatPeptide
+|Has NM Type=MetalOxide
+|Has Size=28
+|Has Size Units=nm
+|Has Zeta potential=-9.23
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP21]]</text>
+    </revision>
+    <revision>
+      <id>2127</id>
+      <timestamp>2013-09-12T07:08:21Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
 |Has Label=CLIO-tat no. 26
 |Has Identifier=51
 |Has Chemical Composition=Fe3O4
@@ -28927,6 +29894,28 @@ Coated iron oxides particles.
 
 [[Has alternative Identifier::NP22]]</text>
     </revision>
+    <revision>
+      <id>2126</id>
+      <timestamp>2013-09-12T07:08:10Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=CLIO-VT680 no. 7
+|Has Identifier=52
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=CLIO-VT680
+|Has NM Type=MetalOxide
+|Has Size=36
+|Has Size Units=nm
+|Has Zeta potential=-21.9
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP22]]</text>
+    </revision>
   </page>
   <page>
     <title>Shaw51 23</title>
@@ -28982,6 +29971,28 @@ Coated iron oxides particles.
         <ip>Egonw</ip>
       </contributor>
       <text xml:space="preserve">{{NanoMaterial
+|Has Label=CLIO-VT680-protamine no. 2
+|Has Identifier=53
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=CLIO-VT680-Protamine
+|Has NM Type=MetalOxide
+|Has Size=31
+|Has Size Units=nm
+|Has Zeta potential=-6.11
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP23]]</text>
+    </revision>
+    <revision>
+      <id>2125</id>
+      <timestamp>2013-09-12T07:08:03Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
 |Has Label=CLIO-VT680-protamine no. 2
 |Has Identifier=53
 |Has Chemical Composition=Fe3O4
@@ -29061,6 +30072,26 @@ Coated iron oxides particles.
 
 [[Has alternative Identifier::NP24]]</text>
     </revision>
+    <revision>
+      <id>2124</id>
+      <timestamp>2013-09-12T07:07:55Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=Feridex IV
+|Has Identifier=54
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=DextranCoating
+|Has NM Type=MetalOxide
+|Has Zeta potential=-18.4
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP24]]</text>
+    </revision>
   </page>
   <page>
     <title>Shaw51 25</title>
@@ -29112,6 +30143,26 @@ Coated iron oxides particles.
         <ip>Egonw</ip>
       </contributor>
       <text xml:space="preserve">{{NanoMaterial
+|Has Label=Ferrum Hausmann
+|Has Identifier=55
+|Has Chemical Composition=Fe
+|Has Chemical Coating=SucroseCoating
+|Has NM Type=Metal
+|Has Zeta potential=-0.877
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP25]]</text>
+    </revision>
+    <revision>
+      <id>2123</id>
+      <timestamp>2013-09-12T07:07:47Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
 |Has Label=Ferrum Hausmann
 |Has Identifier=55
 |Has Chemical Composition=Fe
@@ -29182,6 +30233,29 @@ Coated iron oxides particles.
         <ip>Egonw</ip>
       </contributor>
       <text xml:space="preserve">{{NanoMaterial
+|Has Label=PNP02
+|Has Identifier=56
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=PVA-COOH
+|Has NM Type=MetalOxide
+|Has Size Min=20
+|Has Size Max=60
+|Has Size Units=nm
+|Has Zeta potential=-12.0
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP26]]</text>
+    </revision>
+    <revision>
+      <id>2122</id>
+      <timestamp>2013-09-12T07:07:39Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
 |Has Label=PNP02
 |Has Identifier=56
 |Has Chemical Composition=Fe3O4
@@ -29271,6 +30345,29 @@ Coated iron oxides particles.
 
 [[Has alternative Identifier::NP27]]</text>
     </revision>
+    <revision>
+      <id>2121</id>
+      <timestamp>2013-09-12T07:07:31Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=PNP03
+|Has Identifier=57
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=ED-PVA
+|Has NM Type=MetalOxide
+|Has Size Min=20
+|Has Size Max=60
+|Has Size Units=nm
+|Has Zeta potential=-3.77
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP27]]</text>
+    </revision>
   </page>
   <page>
     <title>Shaw51 28</title>
@@ -29328,6 +30425,29 @@ Coated iron oxides particles.
         <ip>Egonw</ip>
       </contributor>
       <text xml:space="preserve">{{NanoMaterial
+|Has Label=PNP04
+|Has Identifier=58
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=PVA-ED-VT680
+|Has NM Type=MetalOxide
+|Has Size Min=20
+|Has Size Max=60
+|Has Size Units=nm
+|Has Zeta potential=-7.57
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP28]]</text>
+    </revision>
+    <revision>
+      <id>2120</id>
+      <timestamp>2013-09-12T07:07:24Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
 |Has Label=PNP04
 |Has Identifier=58
 |Has Chemical Composition=Fe3O4
@@ -29417,6 +30537,29 @@ Coated iron oxides particles.
 
 [[Has alternative Identifier::NP29]]</text>
     </revision>
+    <revision>
+      <id>2119</id>
+      <timestamp>2013-09-12T07:07:16Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=PNP10
+|Has Identifier=59
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=PVA-Rhodamine-Protamine
+|Has NM Type=MetalOxide
+|Has Size Min=20
+|Has Size Max=60
+|Has Size Units=nm
+|Has Zeta potential=0.25
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP29]]</text>
+    </revision>
   </page>
   <page>
     <title>Shaw51 30</title>
@@ -29451,6 +30594,29 @@ Coated iron oxides particles.
         <ip>Egonw</ip>
       </contributor>
       <text xml:space="preserve">{{NanoMaterial
+|Has Label=PNP12
+|Has Identifier=60
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=&amp;1.&amp;2 1=&quot;PVA&quot; 2=&quot;L-arg8-COOH&quot;
+|Has NM Type=MetalOxide
+|Has Size Min=20
+|Has Size Max=60
+|Has Size Units=nm
+|Has Zeta potential=-6.05
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP30]]</text>
+    </revision>
+    <revision>
+      <id>2118</id>
+      <timestamp>2013-09-12T07:07:06Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
 |Has Label=PNP12
 |Has Identifier=60
 |Has Chemical Composition=Fe3O4
@@ -29537,6 +30703,28 @@ Coated iron oxides particles.
 
 [[Has alternative Identifier::NP31]]</text>
     </revision>
+    <revision>
+      <id>2117</id>
+      <timestamp>2013-09-12T07:06:58Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=PNP22
+|Has Identifier=61
+|Has Chemical Composition=Fe2O3
+|Has Chemical Coating=COOH-PVA
+|Has NM Type=MetalOxide
+|Has Size=20
+|Has Size Units=nm
+|Has Zeta potential=-12.3
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP31]]</text>
+    </revision>
   </page>
   <page>
     <title>Shaw51 32</title>
@@ -29607,6 +30795,28 @@ Coated iron oxides particles.
 
 [[Has alternative Identifier::NP32]]</text>
     </revision>
+    <revision>
+      <id>2116</id>
+      <timestamp>2013-09-12T07:06:50Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=PNP23
+|Has Identifier=62
+|Has Chemical Composition=Fe2O3
+|Has Chemical Coating=PVA-ED
+|Has NM Type=MetalOxide
+|Has Size=20
+|Has Size Units=nm
+|Has Zeta potential=-4.22
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP32]]</text>
+    </revision>
   </page>
   <page>
     <title>Shaw51 33</title>
@@ -29658,6 +30868,26 @@ Coated iron oxides particles.
         <ip>Egonw</ip>
       </contributor>
       <text xml:space="preserve">{{NanoMaterial
+|Has Label=PNP24
+|Has Identifier=63
+|Has Chemical Composition=Fe2O3
+|Has Chemical Coating=PVA-AminoSPARK680
+|Has NM Type=MetalOxide
+|Has Zeta potential=-7.15
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP33]]</text>
+    </revision>
+    <revision>
+      <id>2115</id>
+      <timestamp>2013-09-12T07:06:42Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
 |Has Label=PNP24
 |Has Identifier=63
 |Has Chemical Composition=Fe2O3
@@ -29741,6 +30971,28 @@ Coated iron oxides particles.
 
 [[Has alternative Identifier::NP34]]</text>
     </revision>
+    <revision>
+      <id>2114</id>
+      <timestamp>2013-09-12T07:06:34Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=PNP26
+|Has Identifier=64
+|Has Chemical Composition=Fe2O3
+|Has Chemical Coating=PVA-PEG-ED-AminoSPARK680
+|Has NM Type=MetalOxide
+|Has Size=20
+|Has Size Units=nm
+|Has Zeta potential=-4.30
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP34]]</text>
+    </revision>
   </page>
   <page>
     <title>Shaw51 35</title>
@@ -29796,6 +31048,28 @@ Coated iron oxides particles.
         <ip>Egonw</ip>
       </contributor>
       <text xml:space="preserve">{{NanoMaterial
+|Has Label=PNP27
+|Has Identifier=65
+|Has Chemical Composition=Fe2O3
+|Has Chemical Coating=PVA-ED-SuccAminoSPARK680
+|Has NM Type=MetalOxide
+|Has Size=20
+|Has Size Units=nm
+|Has Zeta potential=-12.1
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP35]]</text>
+    </revision>
+    <revision>
+      <id>2113</id>
+      <timestamp>2013-09-12T07:06:27Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
 |Has Label=PNP27
 |Has Identifier=65
 |Has Chemical Composition=Fe2O3
@@ -29903,6 +31177,28 @@ Coated iron oxides particles.
 
 [[Has alternative Identifier::NP36]]</text>
     </revision>
+    <revision>
+      <id>2112</id>
+      <timestamp>2013-09-12T07:06:18Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=PNP28
+|Has Identifier=66
+|Has Chemical Composition=Fe2O3
+|Has Chemical Coating=PVA-PEG-AminoSPARK680IVM
+|Has NM Type=MetalOxide
+|Has Size=20
+|Has Size Units=nm
+|Has Zeta potential=-15.6
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP36]]</text>
+    </revision>
   </page>
   <page>
     <title>Shaw51 37</title>
@@ -29958,6 +31254,28 @@ Coated iron oxides particles.
         <ip>Egonw</ip>
       </contributor>
       <text xml:space="preserve">{{NanoMaterial
+|Has Label=PNP29
+|Has Identifier=67
+|Has Chemical Composition=Fe2O3
+|Has Chemical Coating=PVA-15merPeptide
+|Has NM Type=MetalOxide
+|Has Size=20
+|Has Size Units=nm
+|Has Zeta potential=-16.1
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP37]]</text>
+    </revision>
+    <revision>
+      <id>2111</id>
+      <timestamp>2013-09-12T07:06:10Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
 |Has Label=PNP29
 |Has Identifier=67
 |Has Chemical Composition=Fe2O3
@@ -30043,6 +31361,28 @@ Coated iron oxides particles.
 
 [[Has alternative Identifier::NP38]]</text>
     </revision>
+    <revision>
+      <id>2110</id>
+      <timestamp>2013-09-12T07:06:02Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=PNP30
+|Has Identifier=68
+|Has Chemical Composition=Fe2O3
+|Has Chemical Coating=PVA-Protamine-Rhodamine
+|Has NM Type=MetalOxide
+|Has Size=20
+|Has Size Units=nm
+|Has Zeta potential=-4.70
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP38]]</text>
+    </revision>
   </page>
   <page>
     <title>Shaw51 39</title>
@@ -30098,6 +31438,28 @@ Coated iron oxides particles.
         <ip>Egonw</ip>
       </contributor>
       <text xml:space="preserve">{{NanoMaterial
+|Has Label=PNP31
+|Has Identifier=69
+|Has Chemical Composition=Fe2O3
+|Has Chemical Coating=PVA-Arg7COOH
+|Has NM Type=MetalOxide
+|Has Size=20
+|Has Size Units=nm
+|Has Zeta potential=-6.47
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP39]]</text>
+    </revision>
+    <revision>
+      <id>2109</id>
+      <timestamp>2013-09-12T07:05:52Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
 |Has Label=PNP31
 |Has Identifier=69
 |Has Chemical Composition=Fe2O3
@@ -30183,6 +31545,28 @@ Coated iron oxides particles.
 
 [[Has alternative Identifier::NP40]]</text>
     </revision>
+    <revision>
+      <id>2108</id>
+      <timestamp>2013-09-12T07:05:42Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=PNP34
+|Has Identifier=70
+|Has Chemical Composition=Fe2O3
+|Has Chemical Coating=PVA-ED-VT750
+|Has NM Type=MetalOxide
+|Has Size=20
+|Has Size Units=nm
+|Has Zeta potential=-6.54
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP40]]</text>
+    </revision>
   </page>
   <page>
     <title>Shaw51 41</title>
@@ -30238,6 +31622,28 @@ Coated iron oxides particles.
         <ip>Egonw</ip>
       </contributor>
       <text xml:space="preserve">{{NanoMaterial
+|Has Label=PNP38
+|Has Identifier=71
+|Has Chemical Composition=Fe2O3
+|Has Chemical Coating=PVA-PEG-ED-VT750
+|Has NM Type=MetalOxide
+|Has Size=20
+|Has Size Units=nm
+|Has Zeta potential=-10.8
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP41]]</text>
+    </revision>
+    <revision>
+      <id>2107</id>
+      <timestamp>2013-09-12T07:05:23Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
 |Has Label=PNP38
 |Has Identifier=71
 |Has Chemical Composition=Fe2O3
@@ -30323,6 +31729,28 @@ Coated iron oxides particles.
 
 [[Has alternative Identifier::NP42]]</text>
     </revision>
+    <revision>
+      <id>2106</id>
+      <timestamp>2013-09-12T07:05:16Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=PNP51
+|Has Identifier=72
+|Has Chemical Composition=Fe2O3
+|Has Chemical Coating=PVA-DArg7COOH
+|Has NM Type=MetalOxide
+|Has Size=20
+|Has Size Units=nm
+|Has Zeta potential=-7.70
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP42]]</text>
+    </revision>
   </page>
   <page>
     <title>Shaw51 43</title>
@@ -30393,6 +31821,28 @@ Coated iron oxides particles.
 
 [[Has alternative Identifier::NP43]]</text>
     </revision>
+    <revision>
+      <id>2105</id>
+      <timestamp>2013-09-12T07:05:09Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=PNP54
+|Has Identifier=73
+|Has Chemical Composition=Fe2O3
+|Has Chemical Coating=PVA-ED-AminoSPARK680
+|Has NM Type=MetalOxide
+|Has Size=20
+|Has Size Units=nm
+|Has Zeta potential=-6.75
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP43]]</text>
+    </revision>
   </page>
   <page>
     <title>Shaw51 44</title>
@@ -30446,6 +31896,27 @@ Coated iron oxides particles.
         <ip>Egonw</ip>
       </contributor>
       <text xml:space="preserve">{{NanoMaterial
+|Has Label=PNP55
+|Has Identifier=74
+|Has Chemical Composition=Fe2O3
+|Has Chemical Coating=PVA-PEG
+|Has NM Type=MetalOxide
+|Has Size=20
+|Has Size Units=nm
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP44]]</text>
+    </revision>
+    <revision>
+      <id>2104</id>
+      <timestamp>2013-09-12T07:04:54Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
 |Has Label=PNP55
 |Has Identifier=74
 |Has Chemical Composition=Fe2O3
@@ -30551,6 +32022,28 @@ Coated iron oxides particles.
 
 [[Has alternative Identifier::NP45]]</text>
     </revision>
+    <revision>
+      <id>2103</id>
+      <timestamp>2013-09-12T07:04:46Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=MION-47 no. 35
+|Has Identifier=75
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=DextranCoating
+|Has NM Type=MetalOxide
+|Has Size=20
+|Has Size Units=nm
+|Has Zeta potential=-13.6
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP45]]</text>
+    </revision>
   </page>
   <page>
     <title>Shaw51 46</title>
@@ -30606,6 +32099,28 @@ Coated iron oxides particles.
         <ip>Egonw</ip>
       </contributor>
       <text xml:space="preserve">{{NanoMaterial
+|Has Label=MION-48 no. 24
+|Has Identifier=76
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=ArabinoGalactanCoating
+|Has NM Type=MetalOxide
+|Has Size=33
+|Has Size Units=nm
+|Has Zeta potential=-14.5
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP46]]</text>
+    </revision>
+    <revision>
+      <id>2102</id>
+      <timestamp>2013-09-12T07:04:38Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
 |Has Label=MION-48 no. 24
 |Has Identifier=76
 |Has Chemical Composition=Fe3O4
@@ -30733,6 +32248,28 @@ Coated iron oxides particles.
 
 [[Has alternative Identifier::NP47]]</text>
     </revision>
+    <revision>
+      <id>2101</id>
+      <timestamp>2013-09-12T07:04:30Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=MION-AG no. 1
+|Has Identifier=77
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=ArabinoGalactanCoating
+|Has NM Type=MetalOxide
+|Has Size=28
+|Has Size Units=nm
+|Has Zeta potential=-9.23
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP47]]</text>
+    </revision>
   </page>
   <page>
     <title>Shaw51 48</title>
@@ -30809,6 +32346,28 @@ Coated iron oxides particles.
         <ip>Egonw</ip>
       </contributor>
       <text xml:space="preserve">{{NanoMaterial
+|Has Label=MION-CM no. 1
+|Has Identifier=78
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=Carboxymethyl Dextran
+|Has NM Type=MetalOxide
+|Has Size=25
+|Has Size Units=nm
+|Has Zeta potential=-37.00
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP48]]</text>
+    </revision>
+    <revision>
+      <id>2100</id>
+      <timestamp>2013-09-12T07:04:23Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
 |Has Label=MION-CM no. 1
 |Has Identifier=78
 |Has Chemical Composition=Fe3O4
@@ -30926,6 +32485,26 @@ Coated iron oxides particles.
 
 [[Has alternative Identifier::NP49]]</text>
     </revision>
+    <revision>
+      <id>2099</id>
+      <timestamp>2013-09-12T07:04:14Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=Qdot-NH2-PEG
+|Has Identifier=79
+|Has Chemical Composition=CdSe
+|Has Chemical Coating=AmphPolymer-PEG
+|Has NM Type=Alloy
+|Has Zeta potential=-11.3
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP49]]</text>
+    </revision>
   </page>
   <page>
     <title>Shaw51 50</title>
@@ -30996,6 +32575,26 @@ Coated iron oxides particles.
         <ip>Egonw</ip>
       </contributor>
       <text xml:space="preserve">{{NanoMaterial
+|Has Label=Qdot-carboxyl
+|Has Identifier=80
+|Has Chemical Composition=CdSe
+|Has Chemical Coating=COOH-AmphPolymer
+|Has NM Type=Alloy
+|Has Zeta potential=-16.8
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP50]]</text>
+    </revision>
+    <revision>
+      <id>2098</id>
+      <timestamp>2013-09-12T07:04:04Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
 |Has Label=Qdot-carboxyl
 |Has Identifier=80
 |Has Chemical Composition=CdSe
@@ -31098,6 +32697,26 @@ Coated iron oxides particles.
         <ip>Egonw</ip>
       </contributor>
       <text xml:space="preserve">{{NanoMaterial
+|Has Label=Qdot-carboxyl (repeat)
+|Has Identifier=81
+|Has Chemical Composition=CdSe
+|Has Chemical Coating=COOH-AmphPolymer
+|Has NM Type=Alloy
+|Has Zeta potential=-16.8
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP51]]</text>
+    </revision>
+    <revision>
+      <id>2097</id>
+      <timestamp>2013-09-12T07:03:56Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
 |Has Label=Qdot-carboxyl (repeat)
 |Has Identifier=81
 |Has Chemical Composition=CdSe
@@ -35871,6 +37490,24 @@ COOH in the 7 position. See also [[L-Arginine-7-COOH]].</text>
 
 {{#set:|Used in Study=Harper2011InVivoTox}}</text>
     </revision>
+    <revision>
+      <id>2199</id>
+      <timestamp>2013-09-12T07:31:35Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=Ag
+|Has Identifier=91
+|Has Chemical Composition=Ag
+|Has Chemical Coating=MEEECoating
+|Has NM Type=Metal
+|Has Size=0.8
+|Has Size Units=nm
+}}
+
+{{#set:|Used in Study=Harper2011InVivoTox}}</text>
+    </revision>
   </page>
   <page>
     <title>Harper2011 2</title>
@@ -35899,6 +37536,24 @@ COOH in the 7 position. See also [[L-Arginine-7-COOH]].</text>
         <ip>Egonw</ip>
       </contributor>
       <text xml:space="preserve">{{NanoMaterial
+|Has Label=Ag
+|Has Identifier=92
+|Has Chemical Composition=Ag
+|Has Chemical Coating=MEEECoating
+|Has NM Type=Metal
+|Has Size=1.5
+|Has Size Units=nm
+}}
+
+{{#set:|Used in Study=Harper2011InVivoTox}}</text>
+    </revision>
+    <revision>
+      <id>2198</id>
+      <timestamp>2013-09-12T07:31:27Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
 |Has Label=Ag
 |Has Identifier=92
 |Has Chemical Composition=Ag
@@ -35997,6 +37652,26 @@ Size is the core size.
       </contributor>
       <comment>Undo revision 1200 by [[Special:Contributions/Egonw|Egonw]] ([[User talk:Egonw|Talk]])</comment>
       <text xml:space="preserve">{{NanoMaterial
+|Has Label=Ag
+|Has Identifier=93
+|Has Chemical Composition=Ag
+|Has Chemical Coating=TMATCoating
+|Has NM Type=Metal
+|Has Size=0.8
+|Has Size Units=nm
+}}
+
+Size is the core size.
+
+{{#set:|Used in Study=Harper2011InVivoTox}}</text>
+    </revision>
+    <revision>
+      <id>2197</id>
+      <timestamp>2013-09-12T07:31:20Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
 |Has Label=Ag
 |Has Identifier=93
 |Has Chemical Composition=Ag
@@ -36153,6 +37828,24 @@ Size is the core size.
 
 {{#set:|Used in Study=Harper2011InVivoTox}}</text>
     </revision>
+    <revision>
+      <id>2196</id>
+      <timestamp>2013-09-12T07:31:13Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=Ag
+|Has Identifier=95
+|Has Chemical Composition=Ag
+|Has Chemical Coating=MEECoating
+|Has NM Type=Metal
+|Has Size=0.8
+|Has Size Units=nm
+}}
+
+{{#set:|Used in Study=Harper2011InVivoTox}}</text>
+    </revision>
   </page>
   <page>
     <title>Harper2011 5</title>
@@ -36212,6 +37905,24 @@ Size is the core size.
 
 {{#set:|Used in Study=Harper2011InVivoTox}}</text>
     </revision>
+    <revision>
+      <id>2195</id>
+      <timestamp>2013-09-12T07:31:06Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=Ag
+|Has Identifier=100
+|Has Chemical Composition=Ag
+|Has Chemical Coating=MEECoating
+|Has NM Type=Metal
+|Has Size=1.5
+|Has Size Units=nm
+}}
+
+{{#set:|Used in Study=Harper2011InVivoTox}}</text>
+    </revision>
   </page>
   <page>
     <title>Harper2011 6</title>
@@ -36255,6 +37966,26 @@ Size is the core size.
 
 {{#set:|Used in Study=Harper2011InVivoTox}}</text>
     </revision>
+    <revision>
+      <id>2194</id>
+      <timestamp>2013-09-12T07:30:57Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=Ag
+|Has Identifier=96
+|Has Chemical Composition=Ag
+|Has Chemical Coating=TMATCoating
+|Has NM Type=Metal
+|Has Size=1.5
+|Has Size Units=nm
+}}
+
+Size is the core size.
+
+{{#set:|Used in Study=Harper2011InVivoTox}}</text>
+    </revision>
   </page>
   <page>
     <title>Harper2011 7</title>
@@ -36267,6 +37998,26 @@ Size is the core size.
       </contributor>
       <comment>Created page with &quot;{{NanoMaterial |Has Label=Ag |Has Identifier=97 |Has Chemical Composition=Ag |Has Chemical Coating=TMATCoating |Has NM Type=Metal |Has Size=10 |Has Size Units=nm }}  Size is the …&quot;</comment>
       <text xml:space="preserve">{{NanoMaterial
+|Has Label=Ag
+|Has Identifier=97
+|Has Chemical Composition=Ag
+|Has Chemical Coating=TMATCoating
+|Has NM Type=Metal
+|Has Size=10
+|Has Size Units=nm
+}}
+
+Size is the core size.
+
+{{#set:|Used in Study=Harper2011InVivoTox}}</text>
+    </revision>
+    <revision>
+      <id>2193</id>
+      <timestamp>2013-09-12T07:30:50Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
 |Has Label=Ag
 |Has Identifier=97
 |Has Chemical Composition=Ag
@@ -36305,6 +38056,26 @@ Size is the core size.
 
 {{#set:|Used in Study=Harper2011InVivoTox}}</text>
     </revision>
+    <revision>
+      <id>2192</id>
+      <timestamp>2013-09-12T07:30:43Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=Ag
+|Has Identifier=98
+|Has Chemical Composition=Ag
+|Has Chemical Coating=MESCoating
+|Has NM Type=Metal
+|Has Size=0.8
+|Has Size Units=nm
+}}
+
+Size is the core size.
+
+{{#set:|Used in Study=Harper2011InVivoTox}}</text>
+    </revision>
   </page>
   <page>
     <title>Harper2011 9</title>
@@ -36317,6 +38088,26 @@ Size is the core size.
       </contributor>
       <comment>Created page with &quot;{{NanoMaterial |Has Label=Ag |Has Identifier=99 |Has Chemical Composition=Ag |Has Chemical Coating=MESCoating |Has NM Type=Metal |Has Size=1.5 |Has Size Units=nm }}  Size is the …&quot;</comment>
       <text xml:space="preserve">{{NanoMaterial
+|Has Label=Ag
+|Has Identifier=99
+|Has Chemical Composition=Ag
+|Has Chemical Coating=MESCoating
+|Has NM Type=Metal
+|Has Size=1.5
+|Has Size Units=nm
+}}
+
+Size is the core size.
+
+{{#set:|Used in Study=Harper2011InVivoTox}}</text>
+    </revision>
+    <revision>
+      <id>2191</id>
+      <timestamp>2013-09-12T07:30:35Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
 |Has Label=Ag
 |Has Identifier=99
 |Has Chemical Composition=Ag
@@ -36410,6 +38201,23 @@ The allowed value for this property is:
 
 {{#set:|Used in Study=Jugan5}}</text>
     </revision>
+    <revision>
+      <id>2210</id>
+      <timestamp>2013-09-12T07:33:13Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=A12
+|Has Identifier=101
+|Has Chemical Composition=TiO2
+|Has NM Type=MetalOxide
+|Has Size=12
+|Has Size Units=nm
+}}
+
+{{#set:|Used in Study=Jugan5}}</text>
+    </revision>
   </page>
   <page>
     <title>Jugan5 A25</title>
@@ -36449,6 +38257,23 @@ The allowed value for this property is:
 
 {{#set:|Used in Study=Jugan5}}</text>
     </revision>
+    <revision>
+      <id>2209</id>
+      <timestamp>2013-09-12T07:33:08Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=A25
+|Has Identifier=102
+|Has Chemical Composition=TiO2
+|Has NM Type=MetalOxide
+|Has Size=24
+|Has Size Units=nm
+}}
+
+{{#set:|Used in Study=Jugan5}}</text>
+    </revision>
   </page>
   <page>
     <title>Jugan5 A140</title>
@@ -36461,6 +38286,23 @@ The allowed value for this property is:
       </contributor>
       <comment>Created page with &quot;{{NanoMaterial |Has Label=A140 |Has Identifier=103 |Has Chemical Composition=TiO2 |Has NM Type=MetalOxide |Has Size=142 |Has Size Units=nm }}  {{#set:|Used in Study=Jugan5}}&quot;</comment>
       <text xml:space="preserve">{{NanoMaterial
+|Has Label=A140
+|Has Identifier=103
+|Has Chemical Composition=TiO2
+|Has NM Type=MetalOxide
+|Has Size=142
+|Has Size Units=nm
+}}
+
+{{#set:|Used in Study=Jugan5}}</text>
+    </revision>
+    <revision>
+      <id>2208</id>
+      <timestamp>2013-09-12T07:33:03Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
 |Has Label=A140
 |Has Identifier=103
 |Has Chemical Composition=TiO2
@@ -36493,6 +38335,23 @@ The allowed value for this property is:
 
 {{#set:|Used in Study=Jugan5}}</text>
     </revision>
+    <revision>
+      <id>2207</id>
+      <timestamp>2013-09-12T07:32:58Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=R68
+|Has Identifier=104
+|Has Chemical Composition=TiO2
+|Has NM Type=MetalOxide
+|Has Size=68
+|Has Size Units=nm
+}}
+
+{{#set:|Used in Study=Jugan5}}</text>
+    </revision>
   </page>
   <page>
     <title>Jugan5 R20</title>
@@ -36505,6 +38364,23 @@ The allowed value for this property is:
       </contributor>
       <comment>Created page with &quot;{{NanoMaterial |Has Label=R20 |Has Identifier=105 |Has Chemical Composition=TiO2 |Has NM Type=MetalOxide |Has Size=21 |Has Size Units=nm }}  {{#set:|Used in Study=Jugan5}}&quot;</comment>
       <text xml:space="preserve">{{NanoMaterial
+|Has Label=R20
+|Has Identifier=105
+|Has Chemical Composition=TiO2
+|Has NM Type=MetalOxide
+|Has Size=21
+|Has Size Units=nm
+}}
+
+{{#set:|Used in Study=Jugan5}}</text>
+    </revision>
+    <revision>
+      <id>2206</id>
+      <timestamp>2013-09-12T07:32:53Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
 |Has Label=R20
 |Has Identifier=105
 |Has Chemical Composition=TiO2
@@ -37027,6 +38903,28 @@ Particle sizes from DLS.
 
 {{#set:|Used in Study=Field2011Cytotox}}</text>
     </revision>
+    <revision>
+      <id>2213</id>
+      <timestamp>2013-09-12T07:33:46Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=Batch 1
+|Has Identifier=106
+|Has Chemical Composition=HfO2
+|Has NM Type=MetalOxide
+|Has Size=286
+|Has Size Error=2.2
+|Has Size Units=nm
+|Has Size Method=DLS
+|Has Zeta potential=52
+|Has Zeta Error=0.2
+|Has Zeta Units=mV
+}}
+
+{{#set:|Used in Study=Field2011Cytotox}}</text>
+    </revision>
   </page>
   <page>
     <title>Property:Has Size Error</title>
@@ -37126,6 +39024,28 @@ Particle sizes from DLS.
 
 {{#set:|Used in Study=Field2011Cytotox}}</text>
     </revision>
+    <revision>
+      <id>2212</id>
+      <timestamp>2013-09-12T07:33:41Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=Batch 2
+|Has Identifier=107
+|Has Chemical Composition=HfO2
+|Has NM Type=MetalOxide
+|Has Size=283
+|Has Size Error=7.1
+|Has Size Units=nm
+|Has Size Method=DLS
+|Has Zeta potential=44
+|Has Zeta Error=1.8
+|Has Zeta Units=mV
+}}
+
+{{#set:|Used in Study=Field2011Cytotox}}</text>
+    </revision>
   </page>
   <page>
     <title>Field2011 Batch3</title>
@@ -37185,6 +39105,28 @@ Particle sizes from DLS.
         <ip>Egonw</ip>
       </contributor>
       <text xml:space="preserve">{{NanoMaterial
+|Has Label=Batch 3
+|Has Identifier=108
+|Has Chemical Composition=HfO2
+|Has NM Type=MetalOxide
+|Has Size=150
+|Has Size Error=0.6
+|Has Size Units=nm
+|Has Size Method=DLS
+|Has Zeta potential=66
+|Has Zeta Error=5.4
+|Has Zeta Units=mV
+}}
+
+{{#set:|Used in Study=Field2011Cytotox}}</text>
+    </revision>
+    <revision>
+      <id>2211</id>
+      <timestamp>2013-09-12T07:33:34Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
 |Has Label=Batch 3
 |Has Identifier=108
 |Has Chemical Composition=HfO2
@@ -39955,6 +41897,24 @@ This paper is purely theoretical and does not have experimental data; therefore,
 
 {{#set:|Used in Study=Jeng2006_S1}}</text>
     </revision>
+    <revision>
+      <id>2205</id>
+      <timestamp>2013-09-12T07:32:30Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=118
+|Has Label=ZnO
+|Has Chemical Composition=ZnO
+|Has NM Type=MetalOxide
+|Has Size Min=50
+|Has Size Max=70
+|Has Size Units=nm
+}}
+
+{{#set:|Used in Study=Jeng2006_S1}}</text>
+    </revision>
   </page>
   <page>
     <title>Jeng2006 M2</title>
@@ -39985,6 +41945,24 @@ This paper is purely theoretical and does not have experimental data; therefore,
         <ip>Egonw</ip>
       </contributor>
       <text xml:space="preserve">{{NanoMaterial
+|Has Identifier=119
+|Has Label=TiO2
+|Has Chemical Composition=TiO2
+|Has NM Type=MetalOxide
+|Has Size Min=1
+|Has Size Max=39
+|Has Size Units=nm
+}}
+
+{{#set:|Used in Study=Jeng2006_S1}}</text>
+    </revision>
+    <revision>
+      <id>2204</id>
+      <timestamp>2013-09-12T07:32:22Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
 |Has Identifier=119
 |Has Label=TiO2
 |Has Chemical Composition=TiO2
@@ -40037,6 +42015,24 @@ This paper is purely theoretical and does not have experimental data; therefore,
 
 {{#set:|Used in Study=Jeng2006_S1}}</text>
     </revision>
+    <revision>
+      <id>2203</id>
+      <timestamp>2013-09-12T07:32:15Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=120
+|Has Label=Al2O3
+|Has Chemical Composition=Al2O3
+|Has NM Type=MetalOxide
+|Has Size Min=40
+|Has Size Max=47
+|Has Size Units=nm
+}}
+
+{{#set:|Used in Study=Jeng2006_S1}}</text>
+    </revision>
   </page>
   <page>
     <title>Jeng2006 M4</title>
@@ -40066,6 +42062,23 @@ This paper is purely theoretical and does not have experimental data; therefore,
         <ip>Egonw</ip>
       </contributor>
       <text xml:space="preserve">{{NanoMaterial
+|Has Identifier=121
+|Has Label=Fe3O4
+|Has Chemical Composition=Fe3O4
+|Has NM Type=MetalOxide
+|Has Size=25
+|Has Size Units=nm
+}}
+
+{{#set:|Used in Study=Jeng2006_S1}}</text>
+    </revision>
+    <revision>
+      <id>2202</id>
+      <timestamp>2013-09-12T07:32:08Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
 |Has Identifier=121
 |Has Label=Fe3O4
 |Has Chemical Composition=Fe3O4
@@ -40121,6 +42134,21 @@ This paper is purely theoretical and does not have experimental data; therefore,
       </contributor>
       <comment>Created page with &quot;{{NanoMaterial |Has Identifier=122 |Has Label=CrO3 |Has Chemical Composition=CrO3 |Has NM Type=MetalOxide }}  {{#set:|Used in Study=Jeng2006_S1}}&quot;</comment>
       <text xml:space="preserve">{{NanoMaterial
+|Has Identifier=122
+|Has Label=CrO3
+|Has Chemical Composition=CrO3
+|Has NM Type=MetalOxide
+}}
+
+{{#set:|Used in Study=Jeng2006_S1}}</text>
+    </revision>
+    <revision>
+      <id>2201</id>
+      <timestamp>2013-09-12T07:32:00Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
 |Has Identifier=122
 |Has Label=CrO3
 |Has Chemical Composition=CrO3
@@ -40185,6 +42213,24 @@ This paper is purely theoretical and does not have experimental data; therefore,
       </contributor>
       <comment>Created page with &quot;{{NanoMaterial |Has Identifier=123 |Has Label=CoCr |Has Chemical Composition=CoCr |Has NM Type=Alloy |Has Size=29.5 |Has Size Error=6.3 |Has Size Units=nm }}  {{#set:|Used in Stu…&quot;</comment>
       <text xml:space="preserve">{{NanoMaterial
+|Has Identifier=123
+|Has Label=CoCr
+|Has Chemical Composition=CoCr
+|Has NM Type=Alloy
+|Has Size=29.5
+|Has Size Error=6.3
+|Has Size Units=nm
+}}
+
+{{#set:|Used in Study=Bhabra2009_S1}}</text>
+    </revision>
+    <revision>
+      <id>2200</id>
+      <timestamp>2013-09-12T07:31:49Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
 |Has Identifier=123
 |Has Label=CoCr
 |Has Chemical Composition=CoCr
@@ -42186,6 +44232,24 @@ CdSe quantum dots studied for dot size, surface charge, and functionalization.</
 |Has Zeta Units=mV
 }}</text>
     </revision>
+    <revision>
+      <id>2164</id>
+      <timestamp>2013-09-12T07:16:37Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=CdSe MPA
+|Has Identifier=128
+|Has NM Type=Alloy
+|Has Size =3.37
+|Has Size Error=0.57
+|Has Size Units=nm
+|Has Zeta potential=-56.0
+|Has Zeta Error=10.9
+|Has Zeta Units=mV
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Nagy2012 QD3</title>
@@ -42216,6 +44280,24 @@ CdSe quantum dots studied for dot size, surface charge, and functionalization.</
         <ip>127.0.0.1</ip>
       </contributor>
       <text xml:space="preserve">{{NanoMaterial
+|Has Label=CdSe AUT
+|Has Identifier=129
+|Has NM Type=Alloy
+|Has Size =3.37
+|Has Size Error=0.57
+|Has Size Units=nm
+|Has Zeta potential=86.8
+|Has Zeta Error=9.83
+|Has Zeta Units=mV
+}}</text>
+    </revision>
+    <revision>
+      <id>2163</id>
+      <timestamp>2013-09-12T07:16:28Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
 |Has Label=CdSe AUT
 |Has Identifier=129
 |Has NM Type=Alloy
@@ -42268,6 +44350,24 @@ CdSe quantum dots studied for dot size, surface charge, and functionalization.</
 |Has Zeta Units=mV
 }}</text>
     </revision>
+    <revision>
+      <id>2162</id>
+      <timestamp>2013-09-12T07:16:20Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=CdSe CYST
+|Has Identifier=130
+|Has NM Type=Alloy
+|Has Size =3.37
+|Has Size Error=0.57
+|Has Size Units=nm
+|Has Zeta potential=57.4
+|Has Zeta Error=16.2
+|Has Zeta Units=mV
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Nagy2012 QD5</title>
@@ -42280,6 +44380,24 @@ CdSe quantum dots studied for dot size, surface charge, and functionalization.</
       </contributor>
       <comment>Created page with &quot;{{NanoMaterial |Has Label=CdSe MUA |Has Identifier=131 |Has NM Type=Alloy |Has Size =4.98 |Has Size Error=0.80 |Has Size Units=nm |Has Zeta potential=-53.5 |Has Zeta Error=10.6 |…&quot;</comment>
       <text xml:space="preserve">{{NanoMaterial
+|Has Label=CdSe MUA
+|Has Identifier=131
+|Has NM Type=Alloy
+|Has Size =4.98
+|Has Size Error=0.80
+|Has Size Units=nm
+|Has Zeta potential=-53.5
+|Has Zeta Error=10.6
+|Has Zeta Units=mV
+}}</text>
+    </revision>
+    <revision>
+      <id>2161</id>
+      <timestamp>2013-09-12T07:16:12Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
 |Has Label=CdSe MUA
 |Has Identifier=131
 |Has NM Type=Alloy
@@ -42314,6 +44432,24 @@ CdSe quantum dots studied for dot size, surface charge, and functionalization.</
 |Has Zeta Units=mV
 }}</text>
     </revision>
+    <revision>
+      <id>2160</id>
+      <timestamp>2013-09-12T07:16:05Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=CdSe MPA
+|Has Identifier=132
+|Has NM Type=Alloy
+|Has Size =4.98
+|Has Size Error=0.80
+|Has Size Units=nm
+|Has Zeta potential=-29.4
+|Has Zeta Error=5.62
+|Has Zeta Units=mV
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Nagy2012 QD7</title>
@@ -42337,6 +44473,24 @@ CdSe quantum dots studied for dot size, surface charge, and functionalization.</
 |Has Zeta Units=mV
 }}</text>
     </revision>
+    <revision>
+      <id>2159</id>
+      <timestamp>2013-09-12T07:15:57Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=CdSe AUT
+|Has Identifier=133
+|Has NM Type=Alloy
+|Has Size =4.98
+|Has Size Error=0.80
+|Has Size Units=nm
+|Has Zeta potential=-73.7
+|Has Zeta Error=17.4
+|Has Zeta Units=mV
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Nagy2012 QD8</title>
@@ -42349,6 +44503,24 @@ CdSe quantum dots studied for dot size, surface charge, and functionalization.</
       </contributor>
       <comment>Created page with &quot;{{NanoMaterial |Has Label=CdSe CYST |Has Identifier=134 |Has NM Type=Alloy |Has Size =4.98 |Has Size Error=0.80 |Has Size Units=nm |Has Zeta potential=-43.4 |Has Zeta Error=0.89 …&quot;</comment>
       <text xml:space="preserve">{{NanoMaterial
+|Has Label=CdSe CYST
+|Has Identifier=134
+|Has NM Type=Alloy
+|Has Size =4.98
+|Has Size Error=0.80
+|Has Size Units=nm
+|Has Zeta potential=-43.4
+|Has Zeta Error=0.89
+|Has Zeta Units=mV
+}}</text>
+    </revision>
+    <revision>
+      <id>2158</id>
+      <timestamp>2013-09-12T07:15:51Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
 |Has Label=CdSe CYST
 |Has Identifier=134
 |Has NM Type=Alloy
@@ -42401,6 +44573,24 @@ CdSe quantum dots studied for dot size, surface charge, and functionalization.</
 |Has Zeta Units=mV
 }}</text>
     </revision>
+    <revision>
+      <id>2157</id>
+      <timestamp>2013-09-12T07:15:44Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=CdSe MUA
+|Has Identifier=135
+|Has NM Type=Alloy
+|Has Size =9.48
+|Has Size Error=1.26
+|Has Size Units=nm
+|Has Zeta potential=-21.0
+|Has Zeta Error=5.16
+|Has Zeta Units=mV
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Nagy2012 QD10</title>
@@ -42413,6 +44603,24 @@ CdSe quantum dots studied for dot size, surface charge, and functionalization.</
       </contributor>
       <comment>Created page with &quot;{{NanoMaterial |Has Label=CdSe MPA |Has Identifier=136 |Has NM Type=Alloy |Has Size =9.48 |Has Size Error=1.26 |Has Size Units=nm |Has Zeta potential=-39.0 |Has Zeta Error=4.98 |…&quot;</comment>
       <text xml:space="preserve">{{NanoMaterial
+|Has Label=CdSe MPA
+|Has Identifier=136
+|Has NM Type=Alloy
+|Has Size =9.48
+|Has Size Error=1.26
+|Has Size Units=nm
+|Has Zeta potential=-39.0
+|Has Zeta Error=4.98
+|Has Zeta Units=mV
+}}</text>
+    </revision>
+    <revision>
+      <id>2156</id>
+      <timestamp>2013-09-12T07:15:36Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
 |Has Label=CdSe MPA
 |Has Identifier=136
 |Has NM Type=Alloy
@@ -42465,6 +44673,24 @@ CdSe quantum dots studied for dot size, surface charge, and functionalization.</
 |Has Zeta Units=mV
 }}</text>
     </revision>
+    <revision>
+      <id>2155</id>
+      <timestamp>2013-09-12T07:15:28Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=CdSe AUT
+|Has Identifier=137
+|Has NM Type=Alloy
+|Has Size =9.48
+|Has Size Error=1.26
+|Has Size Units=nm
+|Has Zeta potential=60.6
+|Has Zeta Error=15.5
+|Has Zeta Units=mV
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Nagy2012 QD12</title>
@@ -42495,6 +44721,24 @@ CdSe quantum dots studied for dot size, surface charge, and functionalization.</
         <ip>127.0.0.1</ip>
       </contributor>
       <text xml:space="preserve">{{NanoMaterial
+|Has Label=CdSe CYST
+|Has Identifier=138
+|Has NM Type=Alloy
+|Has Size =9.48
+|Has Size Error=1.26
+|Has Size Units=nm
+|Has Zeta potential=46.7
+|Has Zeta Error=6.28
+|Has Zeta Units=mV
+}}</text>
+    </revision>
+    <revision>
+      <id>2154</id>
+      <timestamp>2013-09-12T07:15:21Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
 |Has Label=CdSe CYST
 |Has Identifier=138
 |Has NM Type=Alloy
@@ -42592,6 +44836,24 @@ CdSe quantum dots studied for dot size, surface charge, and functionalization.</
 
 {{#set:|Used in Study=Kim2012_S1}}</text>
     </revision>
+    <revision>
+      <id>2153</id>
+      <timestamp>2013-09-12T07:15:11Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=CuO
+|Has Identifier=139
+|Has Chemical Composition=CuO
+|Has NM Type=MetalOxide
+|Has Size=76
+|Has Size Error=10.6
+|Has Size Units=nm
+}}
+
+{{#set:|Used in Study=Kim2012_S1}}</text>
+    </revision>
   </page>
   <page>
     <title>Kim2012 NM2</title>
@@ -42619,6 +44881,23 @@ CdSe quantum dots studied for dot size, surface charge, and functionalization.</
         <ip>127.0.0.1</ip>
       </contributor>
       <text xml:space="preserve">{{NanoMaterial
+|Has Label=ZnO
+|Has Identifier=140
+|Has Chemical Composition=ZnO
+|Has NM Type=MetalOxide
+|Has Size=50
+|Has Size Units=nm
+}}
+
+{{#set:|Used in Study=Kim2012_S1}}</text>
+    </revision>
+    <revision>
+      <id>2152</id>
+      <timestamp>2013-09-12T07:15:02Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
 |Has Label=ZnO
 |Has Identifier=140
 |Has Chemical Composition=ZnO
@@ -42707,6 +44986,26 @@ CdSe quantum dots studied for dot size, surface charge, and functionalization.</
         <ip>127.0.0.1</ip>
       </contributor>
       <text xml:space="preserve">{{NanoMaterial
+|Has Label=TiO2
+|Has Identifier=141
+|Has Chemical Composition=TiO2
+|Has NM Type=MetalOxide
+|Has Size=29.2
+|Has Size Error=10
+|Has Size Units=nm
+|Has Zeta potential=-14.6
+|Has Zeta Units=eV
+}}
+
+{{#set:|Used in Study=Shi2012_S1}}</text>
+    </revision>
+    <revision>
+      <id>2151</id>
+      <timestamp>2013-09-12T07:14:45Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
 |Has Label=TiO2
 |Has Identifier=141
 |Has Chemical Composition=TiO2
@@ -42812,6 +45111,26 @@ CdSe quantum dots studied for dot size, surface charge, and functionalization.</
 
 {{#set:|Used in Study=Shi2012_S1}}</text>
     </revision>
+    <revision>
+      <id>2150</id>
+      <timestamp>2013-09-12T07:14:38Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=CeO2
+|Has Identifier=142
+|Has Chemical Composition=CeO2
+|Has NM Type=MetalOxide
+|Has Size=23.4
+|Has Size Error=4
+|Has Size Units=nm
+|Has Zeta potential=27.6
+|Has Zeta Units=eV
+}}
+
+{{#set:|Used in Study=Shi2012_S1}}</text>
+    </revision>
   </page>
   <page>
     <title>Shi2012 NM3</title>
@@ -42855,6 +45174,26 @@ CdSe quantum dots studied for dot size, surface charge, and functionalization.</
 
 {{#set:|Used in Study=Shi2012_S1}}</text>
     </revision>
+    <revision>
+      <id>2149</id>
+      <timestamp>2013-09-12T07:14:30Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=ZnO
+|Has Identifier=143
+|Has Chemical Composition=ZnO
+|Has NM Type=MetalOxide
+|Has Size=15.5
+|Has Size Error=4
+|Has Size Units=nm
+|Has Zeta potential=19.7
+|Has Zeta Units=eV
+}}
+
+{{#set:|Used in Study=Shi2012_S1}}</text>
+    </revision>
   </page>
   <page>
     <title>Shi2012 NM4</title>
@@ -42885,6 +45224,26 @@ CdSe quantum dots studied for dot size, surface charge, and functionalization.</
         <ip>127.0.0.1</ip>
       </contributor>
       <text xml:space="preserve">{{NanoMaterial
+|Has Label=SiO2
+|Has Identifier=144
+|Has Chemical Composition=SiO2
+|Has NM Type=MetalOxide
+|Has Size=12.0
+|Has Size Error=2
+|Has Size Units=nm
+|Has Zeta potential=-34.9
+|Has Zeta Units=eV
+}}
+
+{{#set:|Used in Study=Shi2012_S1}}</text>
+    </revision>
+    <revision>
+      <id>2148</id>
+      <timestamp>2013-09-12T07:14:22Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
 |Has Label=SiO2
 |Has Identifier=144
 |Has Chemical Composition=SiO2
@@ -43724,6 +46083,22 @@ CdSe quantum dots studied for dot size, surface charge, and functionalization.</
 |Has Size Units=nm
 }}</text>
     </revision>
+    <revision>
+      <id>2096</id>
+      <timestamp>2013-09-12T07:03:14Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=150
+|Has Label=TiO2-F
+|Has Chemical Composition=TiO2
+|Has NM Type=MetalOxide
+|Has Size Min=40
+|Has Size Max=300
+|Has Size Units=nm
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Gerloff2009 NM2</title>
@@ -43736,6 +46111,22 @@ CdSe quantum dots studied for dot size, surface charge, and functionalization.</
       </contributor>
       <comment>Created page with &quot;{{NanoMaterial |Has Identifier=151 |Has Label=TiO2 |Has Chemical Composition=TiO2 |Has NM Type=MetalOxide |Has Size Min=20 |Has Size Max=80 |Has Size Units=nm }}&quot;</comment>
       <text xml:space="preserve">{{NanoMaterial
+|Has Identifier=151
+|Has Label=TiO2
+|Has Chemical Composition=TiO2
+|Has NM Type=MetalOxide
+|Has Size Min=20
+|Has Size Max=80
+|Has Size Units=nm
+}}</text>
+    </revision>
+    <revision>
+      <id>2095</id>
+      <timestamp>2013-09-12T07:03:06Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
 |Has Identifier=151
 |Has Label=TiO2
 |Has Chemical Composition=TiO2
@@ -43766,6 +46157,22 @@ CdSe quantum dots studied for dot size, surface charge, and functionalization.</
 |Has Size Units=nm
 }}</text>
     </revision>
+    <revision>
+      <id>2094</id>
+      <timestamp>2013-09-12T07:02:58Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=152
+|Has Label=TiO2-HA
+|Has Chemical Composition=TiO2
+|Has NM Type=MetalOxide
+|Has Size Min=0
+|Has Size Max=10
+|Has Size Units=nm
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Gerloff2009 NM4</title>
@@ -43778,6 +46185,21 @@ CdSe quantum dots studied for dot size, surface charge, and functionalization.</
       </contributor>
       <comment>Created page with &quot;{{NanoMaterial |Has Identifier=153 |Has Label=SiO2 |Has Chemical Composition=SiO2 |Has NM Type=MetalOxide |Has Size=14 |Has Size Units=nm }}&quot;</comment>
       <text xml:space="preserve">{{NanoMaterial
+|Has Identifier=153
+|Has Label=SiO2
+|Has Chemical Composition=SiO2
+|Has NM Type=MetalOxide
+|Has Size=14
+|Has Size Units=nm
+}}</text>
+    </revision>
+    <revision>
+      <id>2093</id>
+      <timestamp>2013-09-12T07:02:50Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
 |Has Identifier=153
 |Has Label=SiO2
 |Has Chemical Composition=SiO2
@@ -43806,6 +46228,21 @@ CdSe quantum dots studied for dot size, surface charge, and functionalization.</
 |Has Size Units=nm
 }}</text>
     </revision>
+    <revision>
+      <id>2092</id>
+      <timestamp>2013-09-12T07:02:41Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=154
+|Has Label=CB
+|Has Chemical Composition=C
+|Has NM Type=CarbonNanoparticle
+|Has Size=14
+|Has Size Units=nm
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Gerloff2009 NM6</title>
@@ -43818,6 +46255,21 @@ CdSe quantum dots studied for dot size, surface charge, and functionalization.</
       </contributor>
       <comment>Created page with &quot;{{NanoMaterial |Has Identifier=155 |Has Label=MgO |Has Chemical Composition=SiO2 |Has NM Type=MetalOxide |Has Size=8 |Has Size Units=nm }}&quot;</comment>
       <text xml:space="preserve">{{NanoMaterial
+|Has Identifier=155
+|Has Label=MgO
+|Has Chemical Composition=SiO2
+|Has NM Type=MetalOxide
+|Has Size=8
+|Has Size Units=nm
+}}</text>
+    </revision>
+    <revision>
+      <id>2091</id>
+      <timestamp>2013-09-12T07:02:33Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
 |Has Identifier=155
 |Has Label=MgO
 |Has Chemical Composition=SiO2
@@ -43861,6 +46313,21 @@ CdSe quantum dots studied for dot size, surface charge, and functionalization.</
 |Has Size Units=nm
 }}</text>
     </revision>
+    <revision>
+      <id>2090</id>
+      <timestamp>2013-09-12T07:02:23Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=156
+|Has Label=ZnO
+|Has Chemical Composition=ZnO
+|Has NM Type=MetalOxide
+|Has Size=10
+|Has Size Units=nm
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Gerloff2009 NM8</title>
@@ -43873,6 +46340,21 @@ CdSe quantum dots studied for dot size, surface charge, and functionalization.</
       </contributor>
       <comment>Created page with &quot;{{NanoMaterial |Has Identifier=157 |Has Label=ZnO-Ns |Has Chemical Composition=ZnO |Has NM Type=MetalOxide |Has Size=20 |Has Size Units=nm }}&quot;</comment>
       <text xml:space="preserve">{{NanoMaterial
+|Has Identifier=157
+|Has Label=ZnO-Ns
+|Has Chemical Composition=ZnO
+|Has NM Type=MetalOxide
+|Has Size=20
+|Has Size Units=nm
+}}</text>
+    </revision>
+    <revision>
+      <id>2089</id>
+      <timestamp>2013-09-12T07:02:15Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
 |Has Identifier=157
 |Has Label=ZnO-Ns
 |Has Chemical Composition=ZnO
@@ -43906,6 +46388,19 @@ CdSe quantum dots studied for dot size, surface charge, and functionalization.</
         <ip>127.0.0.1</ip>
       </contributor>
       <text xml:space="preserve">{{NanoMaterial
+|Has Identifier=158
+|Has Label=ZnO-F
+|Has Chemical Composition=ZnO
+|Has NM Type=MetalOxide
+}}</text>
+    </revision>
+    <revision>
+      <id>2088</id>
+      <timestamp>2013-09-12T07:02:05Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
 |Has Identifier=158
 |Has Label=ZnO-F
 |Has Chemical Composition=ZnO
@@ -43965,6 +46460,22 @@ CdSe quantum dots studied for dot size, surface charge, and functionalization.</
 |Has Size Units=nm
 }}</text>
     </revision>
+    <revision>
+      <id>2087</id>
+      <timestamp>2013-09-12T07:01:50Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=159
+|Has Label=ZnO
+|Has Chemical Composition=ZnO
+|Has NM Type=MetalOxide
+|Has Size Min=40
+|Has Size Max=70
+|Has Size Units=nm
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Gopalan2009 NM2</title>
@@ -43977,6 +46488,22 @@ CdSe quantum dots studied for dot size, surface charge, and functionalization.</
       </contributor>
       <comment>Created page with &quot;{{NanoMaterial |Has Identifier=160 |Has Label=TiO2 |Has Chemical Composition=TiO2 |Has NM Type=MetalOxide |Has Size Min=40 |Has Size Max=70 |Has Size Units=nm }}&quot;</comment>
       <text xml:space="preserve">{{NanoMaterial
+|Has Identifier=160
+|Has Label=TiO2
+|Has Chemical Composition=TiO2
+|Has NM Type=MetalOxide
+|Has Size Min=40
+|Has Size Max=70
+|Has Size Units=nm
+}}</text>
+    </revision>
+    <revision>
+      <id>2086</id>
+      <timestamp>2013-09-12T07:01:42Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
 |Has Identifier=160
 |Has Label=TiO2
 |Has Chemical Composition=TiO2
@@ -44099,6 +46626,22 @@ CdSe quantum dots studied for dot size, surface charge, and functionalization.</
 |Has Size Units=nm
 }}</text>
     </revision>
+    <revision>
+      <id>2084</id>
+      <timestamp>2013-09-12T07:01:15Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=162
+|Has Label=CeO2 II
+|Has Chemical Composition=CeO2
+|Has NM Type=MetalOxide
+|Has Size Min=40
+|Has Size Max=80
+|Has Size Units=nm
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Limbach2005 NM1</title>
@@ -44120,6 +46663,22 @@ CdSe quantum dots studied for dot size, surface charge, and functionalization.</
 |Has Size Units=nm
 }}</text>
     </revision>
+    <revision>
+      <id>2085</id>
+      <timestamp>2013-09-12T07:01:33Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=161
+|Has Label=CeO2 I
+|Has Chemical Composition=CeO2
+|Has NM Type=MetalOxide
+|Has Size Min=20
+|Has Size Max=50
+|Has Size Units=nm
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Limbach2005 NM3</title>
@@ -44131,6 +46690,22 @@ CdSe quantum dots studied for dot size, surface charge, and functionalization.</
         <ip>127.0.0.1</ip>
       </contributor>
       <text xml:space="preserve">{{NanoMaterial
+|Has Identifier=163
+|Has Label=CeO2 III
+|Has Chemical Composition=CeO2
+|Has NM Type=MetalOxide
+|Has Size Min=80
+|Has Size Max=150
+|Has Size Units=nm
+}}</text>
+    </revision>
+    <revision>
+      <id>2083</id>
+      <timestamp>2013-09-12T07:01:07Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
 |Has Identifier=163
 |Has Label=CeO2 III
 |Has Chemical Composition=CeO2
@@ -44182,6 +46757,21 @@ CdSe quantum dots studied for dot size, surface charge, and functionalization.</
       </contributor>
       <comment>Created page with &quot;{{NanoMaterial |Has Identifier=164 |Has Label=Nano-ZnO |Has Chemical Composition=ZnO |Has NM Type=MetalOxide |Has Size=20 |Has Size Units=nm }}&quot;</comment>
       <text xml:space="preserve">{{NanoMaterial
+|Has Identifier=164
+|Has Label=Nano-ZnO
+|Has Chemical Composition=ZnO
+|Has NM Type=MetalOxide
+|Has Size=20
+|Has Size Units=nm
+}}</text>
+    </revision>
+    <revision>
+      <id>2082</id>
+      <timestamp>2013-09-12T07:00:58Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
 |Has Identifier=164
 |Has Label=Nano-ZnO
 |Has Chemical Composition=ZnO
@@ -44307,6 +46897,21 @@ CdSe quantum dots studied for dot size, surface charge, and functionalization.</
         <ip>127.0.0.1</ip>
       </contributor>
       <text xml:space="preserve">{{NanoMaterial
+|Has Identifier=168
+|Has Label=Nano-TiO2
+|Has Chemical Composition=TiO2
+|Has NM Type=MetalOxide
+|Has Size=50
+|Has Size Units=nm
+}}</text>
+    </revision>
+    <revision>
+      <id>2081</id>
+      <timestamp>2013-09-12T07:00:44Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
 |Has Identifier=168
 |Has Label=Nano-TiO2
 |Has Chemical Composition=TiO2
