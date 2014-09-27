@@ -18,7 +18,7 @@
 	xmlns:property="&property;">
 
 	<owl:Ontology rdf:about="">
-		<swivt:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-24T14:00:37+02:00</swivt:creationDate>
+		<swivt:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-28T00:00:10+02:00</swivt:creationDate>
 		<owl:imports rdf:resource="http://semantic-mediawiki.org/swivt/1.0"/>
 	</owl:Ontology>
 	<swivt:Subject rdf:about="&wiki;Main_Page">
@@ -26,7 +26,7 @@
 		<swivt:page rdf:resource="&wikiurl;Main_Page"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Main_Page"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T17:10:02</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-27T21:52:06</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;TestNM">
 		<rdfs:label>TestNM</rdfs:label>
@@ -170,7 +170,7 @@
 		<property:Has_Size_Max rdf:datatype="http://www.w3.org/2001/XMLSchema#double">90</property:Has_Size_Max>
 		<property:Has_Size_Min rdf:datatype="http://www.w3.org/2001/XMLSchema#double">15</property:Has_Size_Min>
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-06-15T08:13:07</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:24:43</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Cytotox2011Pyzun"/>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;MetalOxide">
@@ -224,7 +224,7 @@
 		<property:Has_Size_Max rdf:datatype="http://www.w3.org/2001/XMLSchema#double">90</property:Has_Size_Max>
 		<property:Has_Size_Min rdf:datatype="http://www.w3.org/2001/XMLSchema#double">15</property:Has_Size_Min>
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-06-15T08:13:21</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:24:35</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Cytotox2011Pyzun"/>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Cytotox2011Pyzun03">
@@ -242,7 +242,7 @@
 		<property:Has_Size_Max rdf:datatype="http://www.w3.org/2001/XMLSchema#double">90</property:Has_Size_Max>
 		<property:Has_Size_Min rdf:datatype="http://www.w3.org/2001/XMLSchema#double">15</property:Has_Size_Min>
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-06-15T08:13:39</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:24:28</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Cytotox2011Pyzun"/>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Cytotox2011Pyzun04">
@@ -260,7 +260,7 @@
 		<property:Has_Size_Max rdf:datatype="http://www.w3.org/2001/XMLSchema#double">90</property:Has_Size_Max>
 		<property:Has_Size_Min rdf:datatype="http://www.w3.org/2001/XMLSchema#double">15</property:Has_Size_Min>
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-06-15T08:13:51</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:21:34</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Cytotox2011Pyzun"/>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Cytotox2011Pyzun05">
@@ -278,7 +278,7 @@
 		<property:Has_Size_Max rdf:datatype="http://www.w3.org/2001/XMLSchema#double">90</property:Has_Size_Max>
 		<property:Has_Size_Min rdf:datatype="http://www.w3.org/2001/XMLSchema#double">15</property:Has_Size_Min>
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-06-15T08:14:03</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:21:27</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Cytotox2011Pyzun"/>
 	</swivt:Subject>
 	<owl:Class rdf:about="&wiki;Category-3AQSARStudies">
@@ -303,7 +303,7 @@
 		<property:Has_Size_Max rdf:datatype="http://www.w3.org/2001/XMLSchema#double">90</property:Has_Size_Max>
 		<property:Has_Size_Min rdf:datatype="http://www.w3.org/2001/XMLSchema#double">15</property:Has_Size_Min>
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-06-15T08:15:03</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:21:19</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Cytotox2011Pyzun"/>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Cytotox2011Pyzun07">
@@ -321,7 +321,7 @@
 		<property:Has_Size_Max rdf:datatype="http://www.w3.org/2001/XMLSchema#double">90</property:Has_Size_Max>
 		<property:Has_Size_Min rdf:datatype="http://www.w3.org/2001/XMLSchema#double">15</property:Has_Size_Min>
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-06-15T15:24:22</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:21:12</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Cytotox2011Pyzun"/>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Cytotox2011Pyzun08">
@@ -357,7 +357,7 @@
 		<property:Has_Size_Max rdf:datatype="http://www.w3.org/2001/XMLSchema#double">90</property:Has_Size_Max>
 		<property:Has_Size_Min rdf:datatype="http://www.w3.org/2001/XMLSchema#double">15</property:Has_Size_Min>
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-06-15T08:15:21</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:21:00</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Cytotox2011Pyzun"/>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Cytotox2011Pyzun10">
@@ -375,7 +375,7 @@
 		<property:Has_Size_Max rdf:datatype="http://www.w3.org/2001/XMLSchema#double">90</property:Has_Size_Max>
 		<property:Has_Size_Min rdf:datatype="http://www.w3.org/2001/XMLSchema#double">15</property:Has_Size_Min>
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-06-15T08:27:19</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:20:49</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Cytotox2011Pyzun"/>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Cytotox2011Pyzun11">
@@ -393,7 +393,7 @@
 		<property:Has_Size_Max rdf:datatype="http://www.w3.org/2001/XMLSchema#double">90</property:Has_Size_Max>
 		<property:Has_Size_Min rdf:datatype="http://www.w3.org/2001/XMLSchema#double">15</property:Has_Size_Min>
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-06-15T08:24:36</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:20:42</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Cytotox2011Pyzun"/>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Cytotox2011Pyzun12">
@@ -411,7 +411,7 @@
 		<property:Has_Size_Max rdf:datatype="http://www.w3.org/2001/XMLSchema#double">90</property:Has_Size_Max>
 		<property:Has_Size_Min rdf:datatype="http://www.w3.org/2001/XMLSchema#double">15</property:Has_Size_Min>
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-06-15T08:28:38</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:20:34</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Cytotox2011Pyzun"/>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Cytotox2011Pyzun13">
@@ -429,7 +429,7 @@
 		<property:Has_Size_Max rdf:datatype="http://www.w3.org/2001/XMLSchema#double">90</property:Has_Size_Max>
 		<property:Has_Size_Min rdf:datatype="http://www.w3.org/2001/XMLSchema#double">15</property:Has_Size_Min>
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-06-15T08:29:18</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:20:24</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Cytotox2011Pyzun"/>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Cytotox2011Pyzun14">
@@ -447,7 +447,7 @@
 		<property:Has_Size_Max rdf:datatype="http://www.w3.org/2001/XMLSchema#double">90</property:Has_Size_Max>
 		<property:Has_Size_Min rdf:datatype="http://www.w3.org/2001/XMLSchema#double">15</property:Has_Size_Min>
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-06-15T08:29:31</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:17:28</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Cytotox2011Pyzun"/>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Cytotox2011Pyzun15">
@@ -465,7 +465,7 @@
 		<property:Has_Size_Max rdf:datatype="http://www.w3.org/2001/XMLSchema#double">90</property:Has_Size_Max>
 		<property:Has_Size_Min rdf:datatype="http://www.w3.org/2001/XMLSchema#double">15</property:Has_Size_Min>
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-06-15T08:29:43</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:17:19</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Cytotox2011Pyzun"/>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Cytotox2011Pyzun16">
@@ -483,7 +483,7 @@
 		<property:Has_Size_Max rdf:datatype="http://www.w3.org/2001/XMLSchema#double">90</property:Has_Size_Max>
 		<property:Has_Size_Min rdf:datatype="http://www.w3.org/2001/XMLSchema#double">15</property:Has_Size_Min>
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-06-15T08:30:05</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:17:12</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Cytotox2011Pyzun"/>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Cytotox2011Pyzun17">
@@ -501,7 +501,7 @@
 		<property:Has_Size_Max rdf:datatype="http://www.w3.org/2001/XMLSchema#double">90</property:Has_Size_Max>
 		<property:Has_Size_Min rdf:datatype="http://www.w3.org/2001/XMLSchema#double">15</property:Has_Size_Min>
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-06-15T08:30:22</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:17:04</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Cytotox2011Pyzun"/>
 	</swivt:Subject>
 	<owl:DatatypeProperty rdf:about="&property;HasLogReciprocalEC50">
@@ -779,22 +779,6 @@
 		<property:Has_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010</property:Has_Year>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-11-10T07:49:32</swivt:wikiPageModificationDate>
 	</swivt:Subject>
-	<swivt:Subject rdf:about="&wiki;Katriztky2010QSAR">
-		<rdfs:label>Katriztky2010QSAR</rdfs:label>
-		<swivt:page rdf:resource="&wikiurl;Katriztky2010QSAR"/>
-		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Katriztky2010QSAR"/>
-		<rdf:type rdf:resource="&wiki;Category-3AStudies"/>
-		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
-		<property:For_Cell_line rdf:resource="&wiki;Leukemia_RBMI-2D8226"/>
-		<property:Has_Endpoint rdf:resource="&wiki;GI50"/>
-		<property:Has_Entities rdf:resource="&wiki;Compounds"/>
-		<property:Has_Object_Count rdf:datatype="http://www.w3.org/2001/XMLSchema#double">34</property:Has_Object_Count>
-		<property:Has_Q2 rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.602</property:Has_Q2>
-		<property:Has_R2 rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.771</property:Has_R2>
-		<property:Has_Source rdf:resource="&wiki;Katritzky2010"/>
-		<property:Has_Study_Type rdf:resource="&wiki;Regression"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-05-19T18:24:20</swivt:wikiPageModificationDate>
-	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Leukemia_RBMI-2D8226">
 		<rdfs:label>Leukemia RBMI-8226</rdfs:label>
 		<swivt:page rdf:resource="&wikiurl;Leukemia_RBMI-8226"/>
@@ -839,69 +823,6 @@
 		<property:Has_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2004</property:Has_Year>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-30T06:26:50</swivt:wikiPageModificationDate>
 		<property:Relationships_extracted rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yes</property:Relationships_extracted>
-	</swivt:Subject>
-	<swivt:Subject rdf:about="&wiki;Kamal2004Mean">
-		<rdfs:label>Kamal2004Mean</rdfs:label>
-		<swivt:page rdf:resource="&wikiurl;Kamal2004Mean"/>
-		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Kamal2004Mean"/>
-		<rdf:type rdf:resource="&wiki;Category-3AStudies"/>
-		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
-		<property:Has_Endpoint rdf:resource="&wiki;Negative_Log_GI50"/>
-		<property:Has_Entities rdf:resource="&wiki;Compounds"/>
-		<property:Has_Object_Count rdf:datatype="http://www.w3.org/2001/XMLSchema#double">13</property:Has_Object_Count>
-		<property:Has_R2 rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.93</property:Has_R2>
-		<property:Has_Source rdf:resource="&wiki;Kamal2004"/>
-		<property:Has_Study_Type rdf:resource="&wiki;Regression"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-05-20T05:08:04</swivt:wikiPageModificationDate>
-		<property:Uses_Descriptor rdf:resource="&wiki;Dipole"/>
-	</swivt:Subject>
-	<swivt:Subject rdf:about="&wiki;Kamal2004Prostate">
-		<rdfs:label>Kamal2004Prostate</rdfs:label>
-		<swivt:page rdf:resource="&wikiurl;Kamal2004Prostate"/>
-		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Kamal2004Prostate"/>
-		<rdf:type rdf:resource="&wiki;Category-3AStudies"/>
-		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
-		<property:For_Cell_line rdf:resource="&wiki;Prostate_DU_145"/>
-		<property:Has_Endpoint rdf:resource="&wiki;Negative_Log_GI50"/>
-		<property:Has_Entities rdf:resource="&wiki;Compounds"/>
-		<property:Has_Object_Count rdf:datatype="http://www.w3.org/2001/XMLSchema#double">11</property:Has_Object_Count>
-		<property:Has_R2 rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.88</property:Has_R2>
-		<property:Has_Source rdf:resource="&wiki;Kamal2004"/>
-		<property:Has_Study_Type rdf:resource="&wiki;Regression"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-05-20T05:32:20</swivt:wikiPageModificationDate>
-		<property:Uses_Descriptor rdf:resource="&wiki;Dipole"/>
-	</swivt:Subject>
-	<swivt:Subject rdf:about="&wiki;Kamal2004Colon">
-		<rdfs:label>Kamal2004Colon</rdfs:label>
-		<swivt:page rdf:resource="&wikiurl;Kamal2004Colon"/>
-		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Kamal2004Colon"/>
-		<rdf:type rdf:resource="&wiki;Category-3AStudies"/>
-		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
-		<property:For_Cell_line rdf:resource="&wiki;Colon_HT29"/>
-		<property:Has_Endpoint rdf:resource="&wiki;Negative_Log_GI50"/>
-		<property:Has_Entities rdf:resource="&wiki;Compounds"/>
-		<property:Has_Object_Count rdf:datatype="http://www.w3.org/2001/XMLSchema#double">13</property:Has_Object_Count>
-		<property:Has_R2 rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.85</property:Has_R2>
-		<property:Has_Source rdf:resource="&wiki;Kamal2004"/>
-		<property:Has_Study_Type rdf:resource="&wiki;Regression"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-05-20T05:09:11</swivt:wikiPageModificationDate>
-		<property:Uses_Descriptor rdf:resource="&wiki;Dipole"/>
-	</swivt:Subject>
-	<swivt:Subject rdf:about="&wiki;Kamal2004Breast">
-		<rdfs:label>Kamal2004Breast</rdfs:label>
-		<swivt:page rdf:resource="&wikiurl;Kamal2004Breast"/>
-		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Kamal2004Breast"/>
-		<rdf:type rdf:resource="&wiki;Category-3AStudies"/>
-		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
-		<property:For_Cell_line rdf:resource="&wiki;Breast_MCF7"/>
-		<property:Has_Endpoint rdf:resource="&wiki;Negative_Log_GI50"/>
-		<property:Has_Entities rdf:resource="&wiki;Compounds"/>
-		<property:Has_Object_Count rdf:datatype="http://www.w3.org/2001/XMLSchema#double">11</property:Has_Object_Count>
-		<property:Has_R2 rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.87</property:Has_R2>
-		<property:Has_Source rdf:resource="&wiki;Kamal2004"/>
-		<property:Has_Study_Type rdf:resource="&wiki;Regression"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-05-20T05:08:18</swivt:wikiPageModificationDate>
-		<property:Uses_Descriptor rdf:resource="&wiki;Dipole"/>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Negative_Log_GI50">
 		<rdfs:label>Negative Log GI50</rdfs:label>
@@ -1530,7 +1451,7 @@
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.9</property:Has_Zeta_potential>
 		<property:Has_alternative_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NP3</property:Has_alternative_Identifier>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T12:00:14</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:13:47</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Shaw51"/>
 		<property:Used_in_Study rdf:resource="&wiki;InVitro2010Fourches2"/>
 	</swivt:Subject>
@@ -1558,7 +1479,7 @@
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-19.9</property:Has_Zeta_potential>
 		<property:Has_alternative_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NP1</property:Has_alternative_Identifier>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T11:54:01</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:14:00</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Shaw51"/>
 		<property:Used_in_Study rdf:resource="&wiki;InVitro2010Fourches2"/>
 	</swivt:Subject>
@@ -1579,7 +1500,7 @@
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-9.22</property:Has_Zeta_potential>
 		<property:Has_alternative_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NP2</property:Has_alternative_Identifier>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T11:55:36</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:13:53</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Shaw51"/>
 		<property:Used_in_Study rdf:resource="&wiki;InVitro2010Fourches2"/>
 	</swivt:Subject>
@@ -1600,7 +1521,7 @@
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.72</property:Has_Zeta_potential>
 		<property:Has_alternative_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NP4</property:Has_alternative_Identifier>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T12:43:59</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:13:40</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Shaw51"/>
 		<property:Used_in_Study rdf:resource="&wiki;InVitro2010Fourches2"/>
 	</swivt:Subject>
@@ -1621,7 +1542,7 @@
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.34</property:Has_Zeta_potential>
 		<property:Has_alternative_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NP5</property:Has_alternative_Identifier>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T12:57:39</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:13:33</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Shaw51"/>
 		<property:Used_in_Study rdf:resource="&wiki;InVitro2010Fourches2"/>
 	</swivt:Subject>
@@ -1642,7 +1563,7 @@
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.95</property:Has_Zeta_potential>
 		<property:Has_alternative_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NP6</property:Has_alternative_Identifier>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T13:06:14</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:13:24</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Shaw51"/>
 		<property:Used_in_Study rdf:resource="&wiki;InVitro2010Fourches2"/>
 	</swivt:Subject>
@@ -1663,7 +1584,7 @@
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-10.1</property:Has_Zeta_potential>
 		<property:Has_alternative_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NP7</property:Has_alternative_Identifier>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T13:21:36</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:13:17</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Shaw51"/>
 		<property:Used_in_Study rdf:resource="&wiki;InVitro2010Fourches2"/>
 	</swivt:Subject>
@@ -1684,7 +1605,7 @@
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-19.5</property:Has_Zeta_potential>
 		<property:Has_alternative_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NP8</property:Has_alternative_Identifier>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T13:22:48</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:13:08</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Shaw51"/>
 		<property:Used_in_Study rdf:resource="&wiki;InVitro2010Fourches2"/>
 	</swivt:Subject>
@@ -1705,7 +1626,7 @@
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-14</property:Has_Zeta_potential>
 		<property:Has_alternative_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NP9</property:Has_alternative_Identifier>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T13:24:37</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:12:57</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Shaw51"/>
 		<property:Used_in_Study rdf:resource="&wiki;InVitro2010Fourches2"/>
 	</swivt:Subject>
@@ -1726,7 +1647,7 @@
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.24</property:Has_Zeta_potential>
 		<property:Has_alternative_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NP10</property:Has_alternative_Identifier>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T13:40:59</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:12:45</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Shaw51"/>
 		<property:Used_in_Study rdf:resource="&wiki;InVitro2010Fourches2"/>
 	</swivt:Subject>
@@ -1747,7 +1668,7 @@
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-9.46</property:Has_Zeta_potential>
 		<property:Has_alternative_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NP11</property:Has_alternative_Identifier>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T13:44:23</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:12:36</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Shaw51"/>
 		<property:Used_in_Study rdf:resource="&wiki;InVitro2010Fourches2"/>
 	</swivt:Subject>
@@ -1768,7 +1689,7 @@
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.64</property:Has_Zeta_potential>
 		<property:Has_alternative_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NP12</property:Has_alternative_Identifier>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T14:03:01</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:12:27</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Shaw51"/>
 		<property:Used_in_Study rdf:resource="&wiki;InVitro2010Fourches2"/>
 	</swivt:Subject>
@@ -1787,7 +1708,7 @@
 		<property:Has_NM_Type rdf:resource="&wiki;MetalOxide"/>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.09</property:Has_Zeta_potential>
 		<property:Has_alternative_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NP13</property:Has_alternative_Identifier>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T14:07:06</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:12:19</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Shaw51"/>
 		<property:Used_in_Study rdf:resource="&wiki;InVitro2010Fourches2"/>
 	</swivt:Subject>
@@ -1808,7 +1729,7 @@
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.34</property:Has_Zeta_potential>
 		<property:Has_alternative_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NP14</property:Has_alternative_Identifier>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T14:08:00</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:09:23</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Shaw51"/>
 		<property:Used_in_Study rdf:resource="&wiki;InVitro2010Fourches2"/>
 	</swivt:Subject>
@@ -1829,7 +1750,7 @@
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-11.7</property:Has_Zeta_potential>
 		<property:Has_alternative_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NP15</property:Has_alternative_Identifier>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T14:08:41</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:09:15</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Shaw51"/>
 		<property:Used_in_Study rdf:resource="&wiki;InVitro2010Fourches2"/>
 	</swivt:Subject>
@@ -1850,7 +1771,7 @@
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.766</property:Has_Zeta_potential>
 		<property:Has_alternative_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NP16</property:Has_alternative_Identifier>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T15:11:01</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:09:08</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Shaw51"/>
 		<property:Used_in_Study rdf:resource="&wiki;InVitro2010Fourches2"/>
 	</swivt:Subject>
@@ -1871,7 +1792,7 @@
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-20.7</property:Has_Zeta_potential>
 		<property:Has_alternative_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NP17</property:Has_alternative_Identifier>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T15:15:01</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:08:59</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Shaw51"/>
 		<property:Used_in_Study rdf:resource="&wiki;InVitro2010Fourches2"/>
 	</swivt:Subject>
@@ -1892,7 +1813,7 @@
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-9.08</property:Has_Zeta_potential>
 		<property:Has_alternative_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NP18</property:Has_alternative_Identifier>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T15:31:55</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:08:49</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Shaw51"/>
 		<property:Used_in_Study rdf:resource="&wiki;InVitro2010Fourches2"/>
 	</swivt:Subject>
@@ -1913,7 +1834,7 @@
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.61</property:Has_Zeta_potential>
 		<property:Has_alternative_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NP19</property:Has_alternative_Identifier>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T15:39:47</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:08:41</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Shaw51"/>
 		<property:Used_in_Study rdf:resource="&wiki;InVitro2010Fourches2"/>
 	</swivt:Subject>
@@ -1934,7 +1855,7 @@
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-9.34</property:Has_Zeta_potential>
 		<property:Has_alternative_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NP20</property:Has_alternative_Identifier>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T16:06:28</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:08:29</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Shaw51"/>
 		<property:Used_in_Study rdf:resource="&wiki;InVitro2010Fourches2"/>
 	</swivt:Subject>
@@ -1955,7 +1876,7 @@
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-9.23</property:Has_Zeta_potential>
 		<property:Has_alternative_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NP21</property:Has_alternative_Identifier>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-29T11:10:25</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:08:21</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Shaw51"/>
 		<property:Used_in_Study rdf:resource="&wiki;InVitro2010Fourches2"/>
 	</swivt:Subject>
@@ -1976,7 +1897,7 @@
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-21.9</property:Has_Zeta_potential>
 		<property:Has_alternative_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NP22</property:Has_alternative_Identifier>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-29T11:12:40</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:08:10</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Shaw51"/>
 		<property:Used_in_Study rdf:resource="&wiki;InVitro2010Fourches2"/>
 	</swivt:Subject>
@@ -1997,7 +1918,7 @@
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-6.11</property:Has_Zeta_potential>
 		<property:Has_alternative_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NP23</property:Has_alternative_Identifier>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-29T11:29:48</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:08:03</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Shaw51"/>
 		<property:Used_in_Study rdf:resource="&wiki;InVitro2010Fourches2"/>
 	</swivt:Subject>
@@ -2016,7 +1937,7 @@
 		<property:Has_NM_Type rdf:resource="&wiki;MetalOxide"/>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-18.4</property:Has_Zeta_potential>
 		<property:Has_alternative_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NP24</property:Has_alternative_Identifier>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-29T11:34:53</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:07:55</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Shaw51"/>
 		<property:Used_in_Study rdf:resource="&wiki;InVitro2010Fourches2"/>
 	</swivt:Subject>
@@ -2035,7 +1956,7 @@
 		<property:Has_NM_Type rdf:resource="&wiki;Metal"/>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-0.877</property:Has_Zeta_potential>
 		<property:Has_alternative_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NP25</property:Has_alternative_Identifier>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-29T11:36:22</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:07:47</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Shaw51"/>
 		<property:Used_in_Study rdf:resource="&wiki;InVitro2010Fourches2"/>
 	</swivt:Subject>
@@ -2057,7 +1978,7 @@
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-12</property:Has_Zeta_potential>
 		<property:Has_alternative_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NP26</property:Has_alternative_Identifier>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-29T11:44:58</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:07:39</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Shaw51"/>
 		<property:Used_in_Study rdf:resource="&wiki;InVitro2010Fourches2"/>
 	</swivt:Subject>
@@ -2079,7 +2000,7 @@
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.77</property:Has_Zeta_potential>
 		<property:Has_alternative_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NP27</property:Has_alternative_Identifier>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-29T11:48:42</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:07:31</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Shaw51"/>
 		<property:Used_in_Study rdf:resource="&wiki;InVitro2010Fourches2"/>
 	</swivt:Subject>
@@ -2101,7 +2022,7 @@
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-7.57</property:Has_Zeta_potential>
 		<property:Has_alternative_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NP28</property:Has_alternative_Identifier>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-29T12:13:59</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:07:24</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Shaw51"/>
 		<property:Used_in_Study rdf:resource="&wiki;InVitro2010Fourches2"/>
 	</swivt:Subject>
@@ -2123,7 +2044,7 @@
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.25</property:Has_Zeta_potential>
 		<property:Has_alternative_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NP29</property:Has_alternative_Identifier>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-29T12:14:38</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:07:16</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Shaw51"/>
 		<property:Used_in_Study rdf:resource="&wiki;InVitro2010Fourches2"/>
 	</swivt:Subject>
@@ -2145,7 +2066,7 @@
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-6.05</property:Has_Zeta_potential>
 		<property:Has_alternative_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NP30</property:Has_alternative_Identifier>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-09-29T19:20:00</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:07:06</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Shaw51"/>
 		<property:Used_in_Study rdf:resource="&wiki;InVitro2010Fourches2"/>
 	</swivt:Subject>
@@ -2166,7 +2087,7 @@
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-12.3</property:Has_Zeta_potential>
 		<property:Has_alternative_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NP31</property:Has_alternative_Identifier>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-29T12:18:45</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:06:58</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Shaw51"/>
 		<property:Used_in_Study rdf:resource="&wiki;InVitro2010Fourches2"/>
 	</swivt:Subject>
@@ -2187,7 +2108,7 @@
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-4.22</property:Has_Zeta_potential>
 		<property:Has_alternative_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NP32</property:Has_alternative_Identifier>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-29T12:19:27</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:06:50</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Shaw51"/>
 		<property:Used_in_Study rdf:resource="&wiki;InVitro2010Fourches2"/>
 	</swivt:Subject>
@@ -2206,7 +2127,7 @@
 		<property:Has_NM_Type rdf:resource="&wiki;MetalOxide"/>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-7.15</property:Has_Zeta_potential>
 		<property:Has_alternative_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NP33</property:Has_alternative_Identifier>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-29T12:21:00</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:06:42</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Shaw51"/>
 		<property:Used_in_Study rdf:resource="&wiki;InVitro2010Fourches2"/>
 	</swivt:Subject>
@@ -2227,7 +2148,7 @@
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-4.3</property:Has_Zeta_potential>
 		<property:Has_alternative_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NP34</property:Has_alternative_Identifier>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-29T12:22:43</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:06:34</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Shaw51"/>
 		<property:Used_in_Study rdf:resource="&wiki;InVitro2010Fourches2"/>
 	</swivt:Subject>
@@ -2248,7 +2169,7 @@
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-12.1</property:Has_Zeta_potential>
 		<property:Has_alternative_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NP35</property:Has_alternative_Identifier>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-29T12:25:34</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:06:27</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Shaw51"/>
 		<property:Used_in_Study rdf:resource="&wiki;InVitro2010Fourches2"/>
 	</swivt:Subject>
@@ -2269,7 +2190,7 @@
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-15.6</property:Has_Zeta_potential>
 		<property:Has_alternative_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NP36</property:Has_alternative_Identifier>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-07T21:27:39</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:06:18</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Shaw51"/>
 		<property:Used_in_Study rdf:resource="&wiki;InVitro2010Fourches2"/>
 	</swivt:Subject>
@@ -2290,7 +2211,7 @@
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-16.1</property:Has_Zeta_potential>
 		<property:Has_alternative_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NP37</property:Has_alternative_Identifier>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-29T12:27:58</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:06:10</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Shaw51"/>
 		<property:Used_in_Study rdf:resource="&wiki;InVitro2010Fourches2"/>
 	</swivt:Subject>
@@ -2311,7 +2232,7 @@
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-4.7</property:Has_Zeta_potential>
 		<property:Has_alternative_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NP38</property:Has_alternative_Identifier>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-29T12:29:14</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:06:02</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Shaw51"/>
 		<property:Used_in_Study rdf:resource="&wiki;InVitro2010Fourches2"/>
 	</swivt:Subject>
@@ -2332,7 +2253,7 @@
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-6.47</property:Has_Zeta_potential>
 		<property:Has_alternative_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NP39</property:Has_alternative_Identifier>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-29T12:30:50</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:05:52</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Shaw51"/>
 		<property:Used_in_Study rdf:resource="&wiki;InVitro2010Fourches2"/>
 	</swivt:Subject>
@@ -2353,7 +2274,7 @@
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-6.54</property:Has_Zeta_potential>
 		<property:Has_alternative_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NP40</property:Has_alternative_Identifier>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-29T12:33:07</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:05:42</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Shaw51"/>
 		<property:Used_in_Study rdf:resource="&wiki;InVitro2010Fourches2"/>
 	</swivt:Subject>
@@ -2374,7 +2295,7 @@
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-10.8</property:Has_Zeta_potential>
 		<property:Has_alternative_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NP41</property:Has_alternative_Identifier>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-29T12:33:49</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:05:23</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Shaw51"/>
 		<property:Used_in_Study rdf:resource="&wiki;InVitro2010Fourches2"/>
 	</swivt:Subject>
@@ -2395,7 +2316,7 @@
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-7.7</property:Has_Zeta_potential>
 		<property:Has_alternative_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NP42</property:Has_alternative_Identifier>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-29T12:35:31</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:05:16</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Shaw51"/>
 		<property:Used_in_Study rdf:resource="&wiki;InVitro2010Fourches2"/>
 	</swivt:Subject>
@@ -2416,7 +2337,7 @@
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-6.75</property:Has_Zeta_potential>
 		<property:Has_alternative_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NP43</property:Has_alternative_Identifier>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-29T12:35:48</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:05:09</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Shaw51"/>
 		<property:Used_in_Study rdf:resource="&wiki;InVitro2010Fourches2"/>
 	</swivt:Subject>
@@ -2436,7 +2357,7 @@
 		<property:Has_Size rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20</property:Has_Size>
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
 		<property:Has_alternative_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NP44</property:Has_alternative_Identifier>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-29T12:37:51</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:04:54</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Shaw51"/>
 		<property:Used_in_Study rdf:resource="&wiki;InVitro2010Fourches2"/>
 	</swivt:Subject>
@@ -2457,7 +2378,7 @@
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-13.6</property:Has_Zeta_potential>
 		<property:Has_alternative_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NP45</property:Has_alternative_Identifier>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-29T12:38:57</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:04:46</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Shaw51"/>
 		<property:Used_in_Study rdf:resource="&wiki;InVitro2010Fourches2"/>
 	</swivt:Subject>
@@ -2478,7 +2399,7 @@
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-14.5</property:Has_Zeta_potential>
 		<property:Has_alternative_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NP46</property:Has_alternative_Identifier>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-29T12:39:56</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:04:38</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Shaw51"/>
 		<property:Used_in_Study rdf:resource="&wiki;InVitro2010Fourches2"/>
 	</swivt:Subject>
@@ -2499,7 +2420,7 @@
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-9.23</property:Has_Zeta_potential>
 		<property:Has_alternative_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NP47</property:Has_alternative_Identifier>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-29T12:40:34</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:04:30</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Shaw51"/>
 		<property:Used_in_Study rdf:resource="&wiki;InVitro2010Fourches2"/>
 	</swivt:Subject>
@@ -2520,7 +2441,7 @@
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-37</property:Has_Zeta_potential>
 		<property:Has_alternative_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NP48</property:Has_alternative_Identifier>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-29T12:42:00</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:04:23</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Shaw51"/>
 		<property:Used_in_Study rdf:resource="&wiki;InVitro2010Fourches2"/>
 	</swivt:Subject>
@@ -2539,7 +2460,7 @@
 		<property:Has_NM_Type rdf:resource="&wiki;Alloy"/>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-11.3</property:Has_Zeta_potential>
 		<property:Has_alternative_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NP49</property:Has_alternative_Identifier>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-29T12:44:04</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:04:14</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Shaw51"/>
 		<property:Used_in_Study rdf:resource="&wiki;InVitro2010Fourches2"/>
 	</swivt:Subject>
@@ -2558,7 +2479,7 @@
 		<property:Has_NM_Type rdf:resource="&wiki;Alloy"/>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-16.8</property:Has_Zeta_potential>
 		<property:Has_alternative_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NP50</property:Has_alternative_Identifier>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-29T12:44:45</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:04:04</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Shaw51"/>
 		<property:Used_in_Study rdf:resource="&wiki;InVitro2010Fourches2"/>
 	</swivt:Subject>
@@ -2577,7 +2498,7 @@
 		<property:Has_NM_Type rdf:resource="&wiki;Alloy"/>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-16.8</property:Has_Zeta_potential>
 		<property:Has_alternative_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NP51</property:Has_alternative_Identifier>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-29T12:44:55</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:03:56</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Shaw51"/>
 		<property:Used_in_Study rdf:resource="&wiki;InVitro2010Fourches2"/>
 	</swivt:Subject>
@@ -4236,7 +4157,7 @@
 		<property:Has_NM_Type rdf:resource="&wiki;Metal"/>
 		<property:Has_Size rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.8</property:Has_Size>
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-30T07:05:26</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:31:35</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Harper2011InVivoTox"/>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Harper2011_2">
@@ -4254,7 +4175,7 @@
 		<property:Has_NM_Type rdf:resource="&wiki;Metal"/>
 		<property:Has_Size rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.5</property:Has_Size>
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-30T07:05:33</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:31:27</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Harper2011InVivoTox"/>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Harper2011_3">
@@ -4272,7 +4193,7 @@
 		<property:Has_NM_Type rdf:resource="&wiki;Metal"/>
 		<property:Has_Size rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.8</property:Has_Size>
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-30T07:13:00</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:31:20</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Harper2011InVivoTox"/>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;MEEECoating">
@@ -4362,7 +4283,7 @@
 		<property:Has_NM_Type rdf:resource="&wiki;Metal"/>
 		<property:Has_Size rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.8</property:Has_Size>
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-30T07:07:27</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:31:13</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Harper2011InVivoTox"/>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Harper2011_5">
@@ -4380,7 +4301,7 @@
 		<property:Has_NM_Type rdf:resource="&wiki;Metal"/>
 		<property:Has_Size rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.5</property:Has_Size>
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-30T07:15:10</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:31:06</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Harper2011InVivoTox"/>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Harper2011_6">
@@ -4398,7 +4319,7 @@
 		<property:Has_NM_Type rdf:resource="&wiki;Metal"/>
 		<property:Has_Size rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.5</property:Has_Size>
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-30T07:10:36</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:30:57</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Harper2011InVivoTox"/>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Harper2011_7">
@@ -4416,7 +4337,7 @@
 		<property:Has_NM_Type rdf:resource="&wiki;Metal"/>
 		<property:Has_Size rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10</property:Has_Size>
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-30T07:13:21</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:30:50</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Harper2011InVivoTox"/>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Harper2011_8">
@@ -4434,7 +4355,7 @@
 		<property:Has_NM_Type rdf:resource="&wiki;Metal"/>
 		<property:Has_Size rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.8</property:Has_Size>
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-30T07:14:18</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:30:43</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Harper2011InVivoTox"/>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Harper2011_9">
@@ -4452,7 +4373,7 @@
 		<property:Has_NM_Type rdf:resource="&wiki;Metal"/>
 		<property:Has_Size rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.5</property:Has_Size>
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-30T07:14:31</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:30:35</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Harper2011InVivoTox"/>
 	</swivt:Subject>
 	<owl:Class rdf:about="&wiki;Category-3AAlloys">
@@ -4496,7 +4417,7 @@
 		<property:Has_NM_Type rdf:resource="&wiki;MetalOxide"/>
 		<property:Has_Size rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12</property:Has_Size>
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-30T08:23:02</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:33:13</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Jugan5"/>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Jugan5_A25">
@@ -4513,7 +4434,7 @@
 		<property:Has_NM_Type rdf:resource="&wiki;MetalOxide"/>
 		<property:Has_Size rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24</property:Has_Size>
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-30T08:30:11</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:33:08</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Jugan5"/>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Jugan5_A140">
@@ -4530,7 +4451,7 @@
 		<property:Has_NM_Type rdf:resource="&wiki;MetalOxide"/>
 		<property:Has_Size rdf:datatype="http://www.w3.org/2001/XMLSchema#string">142</property:Has_Size>
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-30T08:30:35</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:33:03</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Jugan5"/>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Jugan5_R68">
@@ -4547,7 +4468,7 @@
 		<property:Has_NM_Type rdf:resource="&wiki;MetalOxide"/>
 		<property:Has_Size rdf:datatype="http://www.w3.org/2001/XMLSchema#string">68</property:Has_Size>
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-30T08:36:22</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:32:58</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Jugan5"/>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Jugan5_R20">
@@ -4564,7 +4485,7 @@
 		<property:Has_NM_Type rdf:resource="&wiki;MetalOxide"/>
 		<property:Has_Size rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21</property:Has_Size>
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-30T08:36:48</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:32:53</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Jugan5"/>
 	</swivt:Subject>
 	<owl:DatatypeProperty rdf:about="&property;Summary">
@@ -4628,8 +4549,9 @@
 		<swivt:page rdf:resource="&wikiurl;Particle_Size"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Particle_Size"/>
 		<rdf:type rdf:resource="&wiki;Category-3ADescriptors"/>
+		<rdf:type rdf:resource="&wiki;Category-3AParticle_Size"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-30T09:00:14</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-27T21:43:30</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Field2011_R2">
 		<rdfs:label>Field2011 R2</rdfs:label>
@@ -4700,7 +4622,7 @@
 		<property:Has_Zeta_Error rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.2</property:Has_Zeta_Error>
 		<property:Has_Zeta_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Zeta_Units>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">52</property:Has_Zeta_potential>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-30T10:45:43</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:33:46</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Field2011Cytotox"/>
 	</swivt:Subject>
 	<owl:DatatypeProperty rdf:about="&property;Has_Size_Error">
@@ -4743,7 +4665,7 @@
 		<property:Has_Zeta_Error rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.8</property:Has_Zeta_Error>
 		<property:Has_Zeta_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Zeta_Units>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">44</property:Has_Zeta_potential>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-30T10:46:00</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:33:41</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Field2011Cytotox"/>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Field2011_Batch3">
@@ -4765,7 +4687,7 @@
 		<property:Has_Zeta_Error rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.4</property:Has_Zeta_Error>
 		<property:Has_Zeta_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Zeta_Units>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">66</property:Has_Zeta_potential>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-30T10:46:23</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:33:34</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Field2011Cytotox"/>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Field2011_Micron">
@@ -4891,7 +4813,7 @@
 		<property:Has_Size_Max rdf:datatype="http://www.w3.org/2001/XMLSchema#double">70</property:Has_Size_Max>
 		<property:Has_Size_Min rdf:datatype="http://www.w3.org/2001/XMLSchema#double">50</property:Has_Size_Min>
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-11-09T07:20:26</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:32:30</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Jeng2006_S1"/>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Jeng2006_M2">
@@ -4909,7 +4831,7 @@
 		<property:Has_Size_Max rdf:datatype="http://www.w3.org/2001/XMLSchema#double">39</property:Has_Size_Max>
 		<property:Has_Size_Min rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Has_Size_Min>
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-11-09T07:20:14</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:32:22</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Jeng2006_S1"/>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Jeng2006_M3">
@@ -4927,7 +4849,7 @@
 		<property:Has_Size_Max rdf:datatype="http://www.w3.org/2001/XMLSchema#double">47</property:Has_Size_Max>
 		<property:Has_Size_Min rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40</property:Has_Size_Min>
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-11-09T07:20:06</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:32:15</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Jeng2006_S1"/>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Jeng2006_M4">
@@ -4944,7 +4866,7 @@
 		<property:Has_NM_Type rdf:resource="&wiki;MetalOxide"/>
 		<property:Has_Size rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25</property:Has_Size>
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-11-09T07:19:55</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:32:08</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Jeng2006_S1"/>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Jeng2006_S1">
@@ -4972,7 +4894,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">122</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CrO3</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;MetalOxide"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-11-09T07:22:47</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:32:00</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Jeng2006_S1"/>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Bhabra2009_S1">
@@ -5003,7 +4925,7 @@
 		<property:Has_Size rdf:datatype="http://www.w3.org/2001/XMLSchema#string">29.5</property:Has_Size>
 		<property:Has_Size_Error rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.3</property:Has_Size_Error>
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-11-10T07:36:19</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:31:49</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Bhabra2009_S1"/>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Bhabra2009_M2">
@@ -5277,7 +5199,7 @@
 		<property:Has_Zeta_Error rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.9</property:Has_Zeta_Error>
 		<property:Has_Zeta_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Zeta_Units>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-56</property:Has_Zeta_potential>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-04T13:50:15</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:16:37</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Nagy2012_QD3">
 		<rdfs:label>Nagy2012 QD3</rdfs:label>
@@ -5296,7 +5218,7 @@
 		<property:Has_Zeta_Error rdf:datatype="http://www.w3.org/2001/XMLSchema#double">9.83</property:Has_Zeta_Error>
 		<property:Has_Zeta_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Zeta_Units>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">86.8</property:Has_Zeta_potential>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-04T13:50:57</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:16:28</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Nagy2012_QD4">
 		<rdfs:label>Nagy2012 QD4</rdfs:label>
@@ -5315,7 +5237,7 @@
 		<property:Has_Zeta_Error rdf:datatype="http://www.w3.org/2001/XMLSchema#double">16.2</property:Has_Zeta_Error>
 		<property:Has_Zeta_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Zeta_Units>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">57.4</property:Has_Zeta_potential>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-04T13:53:53</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:16:20</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Nagy2012_QD5">
 		<rdfs:label>Nagy2012 QD5</rdfs:label>
@@ -5334,7 +5256,7 @@
 		<property:Has_Zeta_Error rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.6</property:Has_Zeta_Error>
 		<property:Has_Zeta_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Zeta_Units>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-53.5</property:Has_Zeta_potential>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-04T13:55:10</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:16:12</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Nagy2012_QD6">
 		<rdfs:label>Nagy2012 QD6</rdfs:label>
@@ -5353,7 +5275,7 @@
 		<property:Has_Zeta_Error rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.62</property:Has_Zeta_Error>
 		<property:Has_Zeta_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Zeta_Units>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-29.4</property:Has_Zeta_potential>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-04T13:55:50</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:16:05</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Nagy2012_QD7">
 		<rdfs:label>Nagy2012 QD7</rdfs:label>
@@ -5372,7 +5294,7 @@
 		<property:Has_Zeta_Error rdf:datatype="http://www.w3.org/2001/XMLSchema#double">17.4</property:Has_Zeta_Error>
 		<property:Has_Zeta_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Zeta_Units>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-73.7</property:Has_Zeta_potential>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-04T13:56:18</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:15:57</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Nagy2012_QD8">
 		<rdfs:label>Nagy2012 QD8</rdfs:label>
@@ -5391,7 +5313,7 @@
 		<property:Has_Zeta_Error rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.89</property:Has_Zeta_Error>
 		<property:Has_Zeta_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Zeta_Units>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-43.4</property:Has_Zeta_potential>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-04T13:56:47</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:15:51</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Nagy2012_QD9">
 		<rdfs:label>Nagy2012 QD9</rdfs:label>
@@ -5410,7 +5332,7 @@
 		<property:Has_Zeta_Error rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.16</property:Has_Zeta_Error>
 		<property:Has_Zeta_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Zeta_Units>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-21</property:Has_Zeta_potential>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-04T14:00:05</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:15:44</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Nagy2012_QD10">
 		<rdfs:label>Nagy2012 QD10</rdfs:label>
@@ -5429,7 +5351,7 @@
 		<property:Has_Zeta_Error rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.98</property:Has_Zeta_Error>
 		<property:Has_Zeta_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Zeta_Units>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-39</property:Has_Zeta_potential>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-04T13:59:40</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:15:36</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Nagy2012_QD11">
 		<rdfs:label>Nagy2012 QD11</rdfs:label>
@@ -5448,7 +5370,7 @@
 		<property:Has_Zeta_Error rdf:datatype="http://www.w3.org/2001/XMLSchema#double">15.5</property:Has_Zeta_Error>
 		<property:Has_Zeta_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Zeta_Units>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">60.6</property:Has_Zeta_potential>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-04T14:01:46</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:15:28</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Nagy2012_QD12">
 		<rdfs:label>Nagy2012 QD12</rdfs:label>
@@ -5467,7 +5389,7 @@
 		<property:Has_Zeta_Error rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.28</property:Has_Zeta_Error>
 		<property:Has_Zeta_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Zeta_Units>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">46.7</property:Has_Zeta_potential>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-04T14:01:39</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:15:21</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Kim2012">
 		<rdfs:label>Kim2012</rdfs:label>
@@ -5498,7 +5420,7 @@
 		<property:Has_Size rdf:datatype="http://www.w3.org/2001/XMLSchema#string">76</property:Has_Size>
 		<property:Has_Size_Error rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.6</property:Has_Size_Error>
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-06T06:51:19</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:15:11</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Kim2012_S1"/>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Kim2012_NM2">
@@ -5515,7 +5437,7 @@
 		<property:Has_NM_Type rdf:resource="&wiki;MetalOxide"/>
 		<property:Has_Size rdf:datatype="http://www.w3.org/2001/XMLSchema#string">50</property:Has_Size>
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-06T06:51:31</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:15:02</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Kim2012_S1"/>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Shi2012">
@@ -5547,9 +5469,9 @@
 		<property:Has_Size rdf:datatype="http://www.w3.org/2001/XMLSchema#string">29.2</property:Has_Size>
 		<property:Has_Size_Error rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10</property:Has_Size_Error>
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
-		<property:Has_Zeta_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eV</property:Has_Zeta_Units>
+		<property:Has_Zeta_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Zeta_Units>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-14.6</property:Has_Zeta_potential>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-06T07:05:09</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-27T21:19:56</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Shi2012_S1"/>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Kim2012_S1">
@@ -5593,9 +5515,9 @@
 		<property:Has_Size rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23.4</property:Has_Size>
 		<property:Has_Size_Error rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4</property:Has_Size_Error>
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
-		<property:Has_Zeta_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eV</property:Has_Zeta_Units>
+		<property:Has_Zeta_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Zeta_Units>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">27.6</property:Has_Zeta_potential>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-06T07:05:38</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-27T21:20:06</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Shi2012_S1"/>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Shi2012_NM3">
@@ -5613,9 +5535,9 @@
 		<property:Has_Size rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15.5</property:Has_Size>
 		<property:Has_Size_Error rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4</property:Has_Size_Error>
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
-		<property:Has_Zeta_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eV</property:Has_Zeta_Units>
+		<property:Has_Zeta_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Zeta_Units>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">19.7</property:Has_Zeta_potential>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-06T07:05:56</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-27T21:20:44</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Shi2012_S1"/>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Shi2012_NM4">
@@ -5633,9 +5555,9 @@
 		<property:Has_Size rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12.0</property:Has_Size>
 		<property:Has_Size_Error rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2</property:Has_Size_Error>
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
-		<property:Has_Zeta_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eV</property:Has_Zeta_Units>
+		<property:Has_Zeta_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Zeta_Units>
 		<property:Has_Zeta_potential rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-34.9</property:Has_Zeta_potential>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-06T07:06:20</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-27T21:20:53</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Shi2012_S1"/>
 	</swivt:Subject>
 	<owl:Class rdf:about="&wiki;Category-3AMaterials">
@@ -5755,8 +5677,10 @@
 		<property:Has_NM_Type rdf:resource="&wiki;MetalOxide"/>
 		<property:Has_Size rdf:datatype="http://www.w3.org/2001/XMLSchema#string">27</property:Has_Size>
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
-		<property:Has_Zeta_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eV</property:Has_Zeta_Units>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-02T11:51:55</swivt:wikiPageModificationDate>
+		<property:Has_Zeta_Max rdf:datatype="http://www.w3.org/2001/XMLSchema#string">45</property:Has_Zeta_Max>
+		<property:Has_Zeta_Min rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-60</property:Has_Zeta_Min>
+		<property:Has_Zeta_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Zeta_Units>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-27T21:21:12</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Berg2009_S1"/>
 		<property:Used_in_Study rdf:resource="&wiki;Berg2009_S2"/>
 	</swivt:Subject>
@@ -5775,8 +5699,10 @@
 		<property:Has_Size_Max rdf:datatype="http://www.w3.org/2001/XMLSchema#double">50</property:Has_Size_Max>
 		<property:Has_Size_Min rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Has_Size_Min>
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
-		<property:Has_Zeta_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eV</property:Has_Zeta_Units>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-02T11:52:11</swivt:wikiPageModificationDate>
+		<property:Has_Zeta_Max rdf:datatype="http://www.w3.org/2001/XMLSchema#string">48</property:Has_Zeta_Max>
+		<property:Has_Zeta_Min rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-35</property:Has_Zeta_Min>
+		<property:Has_Zeta_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Zeta_Units>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-27T21:21:24</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Berg2009_S1"/>
 		<property:Used_in_Study rdf:resource="&wiki;Berg2009_S2"/>
 	</swivt:Subject>
@@ -5795,8 +5721,10 @@
 		<property:Has_Size_Max rdf:datatype="http://www.w3.org/2001/XMLSchema#double">50</property:Has_Size_Max>
 		<property:Has_Size_Min rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Has_Size_Min>
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
-		<property:Has_Zeta_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eV</property:Has_Zeta_Units>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-02T11:52:25</swivt:wikiPageModificationDate>
+		<property:Has_Zeta_Max rdf:datatype="http://www.w3.org/2001/XMLSchema#string">55</property:Has_Zeta_Max>
+		<property:Has_Zeta_Min rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-45</property:Has_Zeta_Min>
+		<property:Has_Zeta_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Zeta_Units>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-27T21:21:30</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Berg2009_S1"/>
 		<property:Used_in_Study rdf:resource="&wiki;Berg2009_S2"/>
 	</swivt:Subject>
@@ -5815,8 +5743,10 @@
 		<property:Has_Size_Max rdf:datatype="http://www.w3.org/2001/XMLSchema#double">25</property:Has_Size_Max>
 		<property:Has_Size_Min rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Has_Size_Min>
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
-		<property:Has_Zeta_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eV</property:Has_Zeta_Units>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-02T11:52:35</swivt:wikiPageModificationDate>
+		<property:Has_Zeta_Max rdf:datatype="http://www.w3.org/2001/XMLSchema#string">35</property:Has_Zeta_Max>
+		<property:Has_Zeta_Min rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-20</property:Has_Zeta_Min>
+		<property:Has_Zeta_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Zeta_Units>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-27T21:21:48</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Berg2009_S1"/>
 		<property:Used_in_Study rdf:resource="&wiki;Berg2009_S2"/>
 	</swivt:Subject>
@@ -5835,8 +5765,10 @@
 		<property:Has_Size_Max rdf:datatype="http://www.w3.org/2001/XMLSchema#double">35</property:Has_Size_Max>
 		<property:Has_Size_Min rdf:datatype="http://www.w3.org/2001/XMLSchema#double">23</property:Has_Size_Min>
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
-		<property:Has_Zeta_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eV</property:Has_Zeta_Units>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-02T11:52:44</swivt:wikiPageModificationDate>
+		<property:Has_Zeta_Max rdf:datatype="http://www.w3.org/2001/XMLSchema#string">38</property:Has_Zeta_Max>
+		<property:Has_Zeta_Min rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-50</property:Has_Zeta_Min>
+		<property:Has_Zeta_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Zeta_Units>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-27T21:22:09</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Berg2009_S1"/>
 		<property:Used_in_Study rdf:resource="&wiki;Berg2009_S2"/>
 	</swivt:Subject>
@@ -5892,7 +5824,7 @@
 		<property:Has_Size_Max rdf:datatype="http://www.w3.org/2001/XMLSchema#double">300</property:Has_Size_Max>
 		<property:Has_Size_Min rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40</property:Has_Size_Min>
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-07T20:22:22</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:03:14</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Gerloff2009_NM2">
 		<rdfs:label>Gerloff2009 NM2</rdfs:label>
@@ -5909,7 +5841,7 @@
 		<property:Has_Size_Max rdf:datatype="http://www.w3.org/2001/XMLSchema#double">80</property:Has_Size_Max>
 		<property:Has_Size_Min rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20</property:Has_Size_Min>
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-07T20:23:05</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:03:06</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Gerloff2009_NM3">
 		<rdfs:label>Gerloff2009 NM3</rdfs:label>
@@ -5926,7 +5858,7 @@
 		<property:Has_Size_Max rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10</property:Has_Size_Max>
 		<property:Has_Size_Min rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Has_Size_Min>
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-07T20:23:36</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:02:58</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Gerloff2009_NM4">
 		<rdfs:label>Gerloff2009 NM4</rdfs:label>
@@ -5942,7 +5874,7 @@
 		<property:Has_NM_Type rdf:resource="&wiki;MetalOxide"/>
 		<property:Has_Size rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14</property:Has_Size>
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-07T20:24:59</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:02:50</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Gerloff2009_NM5">
 		<rdfs:label>Gerloff2009 NM5</rdfs:label>
@@ -5958,7 +5890,7 @@
 		<property:Has_NM_Type rdf:resource="&wiki;CarbonNanoparticle"/>
 		<property:Has_Size rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14</property:Has_Size>
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-07T20:27:56</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:02:41</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Gerloff2009_NM6">
 		<rdfs:label>Gerloff2009 NM6</rdfs:label>
@@ -5974,7 +5906,7 @@
 		<property:Has_NM_Type rdf:resource="&wiki;MetalOxide"/>
 		<property:Has_Size rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8</property:Has_Size>
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-07T20:29:02</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:02:33</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Gerloff2009_NM7">
 		<rdfs:label>Gerloff2009 NM7</rdfs:label>
@@ -5990,7 +5922,7 @@
 		<property:Has_NM_Type rdf:resource="&wiki;MetalOxide"/>
 		<property:Has_Size rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10</property:Has_Size>
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-07T20:30:26</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:02:23</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Gerloff2009_NM8">
 		<rdfs:label>Gerloff2009 NM8</rdfs:label>
@@ -6006,7 +5938,7 @@
 		<property:Has_NM_Type rdf:resource="&wiki;MetalOxide"/>
 		<property:Has_Size rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20</property:Has_Size>
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-07T20:30:13</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:02:15</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Gerloff2009_NM9">
 		<rdfs:label>Gerloff2009 NM9</rdfs:label>
@@ -6020,7 +5952,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">158</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZnO-F</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;MetalOxide"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-07T20:45:45</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:02:05</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Gopalan2009">
 		<rdfs:label>Gopalan2009</rdfs:label>
@@ -6050,7 +5982,7 @@
 		<property:Has_Size_Max rdf:datatype="http://www.w3.org/2001/XMLSchema#double">70</property:Has_Size_Max>
 		<property:Has_Size_Min rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40</property:Has_Size_Min>
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-07T20:47:08</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:01:50</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Gopalan2009_NM2">
 		<rdfs:label>Gopalan2009 NM2</rdfs:label>
@@ -6067,7 +5999,7 @@
 		<property:Has_Size_Max rdf:datatype="http://www.w3.org/2001/XMLSchema#double">70</property:Has_Size_Max>
 		<property:Has_Size_Min rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40</property:Has_Size_Min>
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-07T20:47:33</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:01:42</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Limbach2005">
 		<rdfs:label>Limbach2005</rdfs:label>
@@ -6111,7 +6043,7 @@
 		<property:Has_Size_Max rdf:datatype="http://www.w3.org/2001/XMLSchema#double">80</property:Has_Size_Max>
 		<property:Has_Size_Min rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40</property:Has_Size_Min>
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-07T21:24:05</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:01:15</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Limbach2005_NM1">
 		<rdfs:label>Limbach2005 NM1</rdfs:label>
@@ -6128,7 +6060,7 @@
 		<property:Has_Size_Max rdf:datatype="http://www.w3.org/2001/XMLSchema#double">50</property:Has_Size_Max>
 		<property:Has_Size_Min rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20</property:Has_Size_Min>
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-07T21:24:45</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:01:33</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Limbach2005_NM3">
 		<rdfs:label>Limbach2005 NM3</rdfs:label>
@@ -6145,7 +6077,7 @@
 		<property:Has_Size_Max rdf:datatype="http://www.w3.org/2001/XMLSchema#double">150</property:Has_Size_Max>
 		<property:Has_Size_Min rdf:datatype="http://www.w3.org/2001/XMLSchema#double">80</property:Has_Size_Min>
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-07T21:25:55</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:01:07</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Wang2009">
 		<rdfs:label>Wang2009</rdfs:label>
@@ -6174,7 +6106,7 @@
 		<property:Has_NM_Type rdf:resource="&wiki;MetalOxide"/>
 		<property:Has_Size rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20</property:Has_Size>
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-08T05:23:22</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:00:58</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Wang2009_NM2">
 		<rdfs:label>Wang2009 NM2</rdfs:label>
@@ -6238,7 +6170,7 @@
 		<property:Has_NM_Type rdf:resource="&wiki;MetalOxide"/>
 		<property:Has_Size rdf:datatype="http://www.w3.org/2001/XMLSchema#string">50</property:Has_Size>
 		<property:Has_Size_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Size_Units>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-08T05:27:31</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:00:44</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Wang2009_NM6">
 		<rdfs:label>Wang2009 NM6</rdfs:label>
@@ -7171,8 +7103,9 @@
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Hydrodynamic_size"/>
 		<rdf:type rdf:resource="&wiki;Category-3ADescriptors"/>
 		<rdf:type rdf:resource="&wiki;Category-3AEndpoints"/>
+		<rdf:type rdf:resource="&wiki;Category-3AParticle_Size"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-25T12:02:56</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-07-23T15:49:14</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Rancan2012">
 		<rdfs:label>Rancan2012</rdfs:label>
@@ -7239,7 +7172,7 @@
 		<property:Has_Endpoint rdf:resource="&wiki;Zeta_Potential"/>
 		<property:Has_Endpoint_Error rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3</property:Has_Endpoint_Error>
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-22</property:Has_Endpoint_Value>
-		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eV</property:Has_Endpoint_Value_Units>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Endpoint_Value_Units>
 		<property:Has_Entity rdf:resource="&wiki;Rancan2012_M1"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-09-10T20:46:59</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -7249,6 +7182,7 @@
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Diameter"/>
 		<rdf:type rdf:resource="&wiki;Category-3ADescriptors"/>
 		<rdf:type rdf:resource="&wiki;Category-3AEndpoints"/>
+		<rdf:type rdf:resource="&wiki;Category-3AParticle_Size"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-09-10T20:17:45</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -7438,7 +7372,7 @@
 		<property:Has_Endpoint rdf:resource="&wiki;Zeta_Potential"/>
 		<property:Has_Endpoint_Error rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4</property:Has_Endpoint_Error>
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-45</property:Has_Endpoint_Value>
-		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eV</property:Has_Endpoint_Value_Units>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Endpoint_Value_Units>
 		<property:Has_Entity rdf:resource="&wiki;Rancan2012_M2"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-09-10T20:52:45</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -7451,7 +7385,7 @@
 		<property:Has_Endpoint rdf:resource="&wiki;Zeta_Potential"/>
 		<property:Has_Endpoint_Error rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5</property:Has_Endpoint_Error>
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-56</property:Has_Endpoint_Value>
-		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eV</property:Has_Endpoint_Value_Units>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Endpoint_Value_Units>
 		<property:Has_Entity rdf:resource="&wiki;Rancan2012_M3"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-09-10T20:53:03</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -7464,7 +7398,7 @@
 		<property:Has_Endpoint rdf:resource="&wiki;Zeta_Potential"/>
 		<property:Has_Endpoint_Error rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2</property:Has_Endpoint_Error>
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-48</property:Has_Endpoint_Value>
-		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eV</property:Has_Endpoint_Value_Units>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Endpoint_Value_Units>
 		<property:Has_Entity rdf:resource="&wiki;Rancan2012_M4"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-09-10T20:53:23</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -7554,7 +7488,7 @@
 		<property:Has_Endpoint rdf:resource="&wiki;Zeta_Potential"/>
 		<property:Has_Endpoint_Error rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2</property:Has_Endpoint_Error>
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">12</property:Has_Endpoint_Value>
-		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eV</property:Has_Endpoint_Value_Units>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Endpoint_Value_Units>
 		<property:Has_Entity rdf:resource="&wiki;Rancan2012_M5"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-09-11T07:07:53</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -7567,7 +7501,7 @@
 		<property:Has_Endpoint rdf:resource="&wiki;Zeta_Potential"/>
 		<property:Has_Endpoint_Error rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3</property:Has_Endpoint_Error>
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">11</property:Has_Endpoint_Value>
-		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eV</property:Has_Endpoint_Value_Units>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Endpoint_Value_Units>
 		<property:Has_Entity rdf:resource="&wiki;Rancan2012_M6"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-09-11T08:19:16</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -7580,7 +7514,7 @@
 		<property:Has_Endpoint rdf:resource="&wiki;Zeta_Potential"/>
 		<property:Has_Endpoint_Error rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Has_Endpoint_Error>
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10</property:Has_Endpoint_Value>
-		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eV</property:Has_Endpoint_Value_Units>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Endpoint_Value_Units>
 		<property:Has_Entity rdf:resource="&wiki;Rancan2012_M7"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-09-11T08:19:26</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -7593,7 +7527,7 @@
 		<property:Has_Endpoint rdf:resource="&wiki;Zeta_Potential"/>
 		<property:Has_Endpoint_Error rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2</property:Has_Endpoint_Error>
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10</property:Has_Endpoint_Value>
-		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eV</property:Has_Endpoint_Value_Units>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Endpoint_Value_Units>
 		<property:Has_Entity rdf:resource="&wiki;Rancan2012_M8"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-09-11T08:19:45</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -10550,6 +10484,419 @@
 		<rdf:type rdf:resource="&wiki;Category-3AJournals"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-03T13:13:14</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Zhang2012">
+		<rdfs:label>Zhang2012</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Zhang2012"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Zhang2012"/>
+		<rdf:type rdf:resource="&wiki;Category-3APapers"/>
+		<rdf:type rdf:resource="&wiki;Category-3APapersToRead"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<owl:sameAs rdf:resource="http://dx.doi.org/10.1021/nn3010087"/>
+		<property:Has_DOI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1021/nn3010087</property:Has_DOI>
+		<property:Has_Journal rdf:resource="&wiki;ACS_Nano"/>
+		<property:Has_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2012</property:Has_Year>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-27T17:42:51</swivt:wikiPageModificationDate>
+		<property:Relationships_extracted rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No</property:Relationships_extracted>
+		<property:Substances_extracted rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No</property:Substances_extracted>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Zhang2013_M1">
+		<rdfs:label>Zhang2013 M1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Zhang2013_M1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Zhang2013_M1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
+		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Al2O3</property:Has_Chemical_Composition>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">306</property:Has_Identifier>
+		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Al2O3</property:Has_Label>
+		<property:Has_NM_Type rdf:resource="&wiki;MetalOxide"/>
+		<property:Has_Source rdf:resource="&wiki;Zhang2012"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-27T20:14:46</swivt:wikiPageModificationDate>
+		<property:Used_in_Study rdf:resource="&wiki;Liu2013_Cytotoxicity"/>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Zhang2013_M2">
+		<rdfs:label>Zhang2013 M2</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Zhang2013_M2"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Zhang2013_M2"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
+		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CuO</property:Has_Chemical_Composition>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">307</property:Has_Identifier>
+		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CuO</property:Has_Label>
+		<property:Has_NM_Type rdf:resource="&wiki;MetalOxide"/>
+		<property:Has_Source rdf:resource="&wiki;Zhang2012"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-27T20:15:34</swivt:wikiPageModificationDate>
+		<property:Used_in_Study rdf:resource="&wiki;Liu2013_Cytotoxicity"/>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Zhang2013_M3">
+		<rdfs:label>Zhang2013 M3</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Zhang2013_M3"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Zhang2013_M3"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
+		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CeO2</property:Has_Chemical_Composition>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">308</property:Has_Identifier>
+		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CeO2</property:Has_Label>
+		<property:Has_NM_Type rdf:resource="&wiki;MetalOxide"/>
+		<property:Has_Source rdf:resource="&wiki;Zhang2012"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-27T20:16:27</swivt:wikiPageModificationDate>
+		<property:Used_in_Study rdf:resource="&wiki;Liu2013_Cytotoxicity"/>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Zhang2013_M4">
+		<rdfs:label>Zhang2013 M4</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Zhang2013_M4"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Zhang2013_M4"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
+		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Co3O4</property:Has_Chemical_Composition>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">309</property:Has_Identifier>
+		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Co3O4</property:Has_Label>
+		<property:Has_NM_Type rdf:resource="&wiki;MetalOxide"/>
+		<property:Has_Source rdf:resource="&wiki;Zhang2012"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-27T20:17:23</swivt:wikiPageModificationDate>
+		<property:Used_in_Study rdf:resource="&wiki;Liu2013_Cytotoxicity"/>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Zhang2013_M5">
+		<rdfs:label>Zhang2013 M5</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Zhang2013_M5"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Zhang2013_M5"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
+		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CoO</property:Has_Chemical_Composition>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">310</property:Has_Identifier>
+		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CoO</property:Has_Label>
+		<property:Has_NM_Type rdf:resource="&wiki;MetalOxide"/>
+		<property:Has_Source rdf:resource="&wiki;Zhang2012"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-27T20:17:41</swivt:wikiPageModificationDate>
+		<property:Used_in_Study rdf:resource="&wiki;Liu2013_Cytotoxicity"/>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Zhang2013_M6">
+		<rdfs:label>Zhang2013 M6</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Zhang2013_M6"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Zhang2013_M6"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
+		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cr2O3</property:Has_Chemical_Composition>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">311</property:Has_Identifier>
+		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cr2O3</property:Has_Label>
+		<property:Has_NM_Type rdf:resource="&wiki;MetalOxide"/>
+		<property:Has_Source rdf:resource="&wiki;Zhang2012"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-27T20:19:05</swivt:wikiPageModificationDate>
+		<property:Used_in_Study rdf:resource="&wiki;Liu2013_Cytotoxicity"/>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Zhang2013_M7">
+		<rdfs:label>Zhang2013 M7</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Zhang2013_M7"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Zhang2013_M7"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
+		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fe2O3</property:Has_Chemical_Composition>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">312</property:Has_Identifier>
+		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fe2O3</property:Has_Label>
+		<property:Has_NM_Type rdf:resource="&wiki;MetalOxide"/>
+		<property:Has_Source rdf:resource="&wiki;Zhang2012"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-27T20:19:26</swivt:wikiPageModificationDate>
+		<property:Used_in_Study rdf:resource="&wiki;Liu2013_Cytotoxicity"/>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Zhang2013_M8">
+		<rdfs:label>Zhang2013 M8</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Zhang2013_M8"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Zhang2013_M8"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
+		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fe3O4</property:Has_Chemical_Composition>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">313</property:Has_Identifier>
+		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fe3O4</property:Has_Label>
+		<property:Has_NM_Type rdf:resource="&wiki;MetalOxide"/>
+		<property:Has_Source rdf:resource="&wiki;Zhang2012"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-27T20:19:48</swivt:wikiPageModificationDate>
+		<property:Used_in_Study rdf:resource="&wiki;Liu2013_Cytotoxicity"/>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Zhang2013_M9">
+		<rdfs:label>Zhang2013 M9</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Zhang2013_M9"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Zhang2013_M9"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
+		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gd2O3</property:Has_Chemical_Composition>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">314</property:Has_Identifier>
+		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gd2O3</property:Has_Label>
+		<property:Has_NM_Type rdf:resource="&wiki;MetalOxide"/>
+		<property:Has_Source rdf:resource="&wiki;Zhang2012"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-27T20:20:11</swivt:wikiPageModificationDate>
+		<property:Used_in_Study rdf:resource="&wiki;Liu2013_Cytotoxicity"/>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Zhang2013_M10">
+		<rdfs:label>Zhang2013 M10</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Zhang2013_M10"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Zhang2013_M10"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
+		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HfO2</property:Has_Chemical_Composition>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">315</property:Has_Identifier>
+		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HfO2</property:Has_Label>
+		<property:Has_NM_Type rdf:resource="&wiki;MetalOxide"/>
+		<property:Has_Source rdf:resource="&wiki;Zhang2012"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-27T20:26:46</swivt:wikiPageModificationDate>
+		<property:Used_in_Study rdf:resource="&wiki;Liu2013_Cytotoxicity"/>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Zhang2013_M11">
+		<rdfs:label>Zhang2013 M11</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Zhang2013_M11"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Zhang2013_M11"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
+		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">In2O3</property:Has_Chemical_Composition>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">316</property:Has_Identifier>
+		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">In2O3</property:Has_Label>
+		<property:Has_NM_Type rdf:resource="&wiki;MetalOxide"/>
+		<property:Has_Source rdf:resource="&wiki;Zhang2012"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-27T20:27:05</swivt:wikiPageModificationDate>
+		<property:Used_in_Study rdf:resource="&wiki;Liu2013_Cytotoxicity"/>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Zhang2013_M12">
+		<rdfs:label>Zhang2013 M12</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Zhang2013_M12"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Zhang2013_M12"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
+		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">La2O3</property:Has_Chemical_Composition>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">317</property:Has_Identifier>
+		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">La2O3</property:Has_Label>
+		<property:Has_NM_Type rdf:resource="&wiki;MetalOxide"/>
+		<property:Has_Source rdf:resource="&wiki;Zhang2012"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-27T20:27:26</swivt:wikiPageModificationDate>
+		<property:Used_in_Study rdf:resource="&wiki;Liu2013_Cytotoxicity"/>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Zhang2013_M13">
+		<rdfs:label>Zhang2013 M13</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Zhang2013_M13"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Zhang2013_M13"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
+		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mn2O3</property:Has_Chemical_Composition>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">318</property:Has_Identifier>
+		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mn2O3</property:Has_Label>
+		<property:Has_NM_Type rdf:resource="&wiki;MetalOxide"/>
+		<property:Has_Source rdf:resource="&wiki;Zhang2012"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-27T20:27:45</swivt:wikiPageModificationDate>
+		<property:Used_in_Study rdf:resource="&wiki;Liu2013_Cytotoxicity"/>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Zhang2013_M14">
+		<rdfs:label>Zhang2013 M14</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Zhang2013_M14"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Zhang2013_M14"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
+		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NiO</property:Has_Chemical_Composition>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">319</property:Has_Identifier>
+		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NiO</property:Has_Label>
+		<property:Has_NM_Type rdf:resource="&wiki;MetalOxide"/>
+		<property:Has_Source rdf:resource="&wiki;Zhang2012"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-27T20:28:02</swivt:wikiPageModificationDate>
+		<property:Used_in_Study rdf:resource="&wiki;Liu2013_Cytotoxicity"/>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Zhang2013_M15">
+		<rdfs:label>Zhang2013 M15</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Zhang2013_M15"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Zhang2013_M15"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
+		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ni2O3</property:Has_Chemical_Composition>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">320</property:Has_Identifier>
+		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ni2O3</property:Has_Label>
+		<property:Has_NM_Type rdf:resource="&wiki;MetalOxide"/>
+		<property:Has_Source rdf:resource="&wiki;Zhang2012"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-27T20:28:24</swivt:wikiPageModificationDate>
+		<property:Used_in_Study rdf:resource="&wiki;Liu2013_Cytotoxicity"/>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Zhang2013_M16">
+		<rdfs:label>Zhang2013 M16</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Zhang2013_M16"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Zhang2013_M16"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
+		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sb2O3</property:Has_Chemical_Composition>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">321</property:Has_Identifier>
+		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sb2O3</property:Has_Label>
+		<property:Has_NM_Type rdf:resource="&wiki;MetalOxide"/>
+		<property:Has_Source rdf:resource="&wiki;Zhang2012"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-27T20:39:03</swivt:wikiPageModificationDate>
+		<property:Used_in_Study rdf:resource="&wiki;Liu2013_Cytotoxicity"/>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Zhang2013_M17">
+		<rdfs:label>Zhang2013 M17</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Zhang2013_M17"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Zhang2013_M17"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
+		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SiO2</property:Has_Chemical_Composition>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">322</property:Has_Identifier>
+		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SiO2</property:Has_Label>
+		<property:Has_NM_Type rdf:resource="&wiki;MetalOxide"/>
+		<property:Has_Source rdf:resource="&wiki;Zhang2012"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-27T20:39:25</swivt:wikiPageModificationDate>
+		<property:Used_in_Study rdf:resource="&wiki;Liu2013_Cytotoxicity"/>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Zhang2013_M18">
+		<rdfs:label>Zhang2013 M18</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Zhang2013_M18"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Zhang2013_M18"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
+		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SnO2</property:Has_Chemical_Composition>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">323</property:Has_Identifier>
+		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SnO2</property:Has_Label>
+		<property:Has_NM_Type rdf:resource="&wiki;MetalOxide"/>
+		<property:Has_Source rdf:resource="&wiki;Zhang2012"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-27T20:40:16</swivt:wikiPageModificationDate>
+		<property:Used_in_Study rdf:resource="&wiki;Liu2013_Cytotoxicity"/>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Zhang2013_M19">
+		<rdfs:label>Zhang2013 M19</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Zhang2013_M19"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Zhang2013_M19"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
+		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TiO2</property:Has_Chemical_Composition>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">324</property:Has_Identifier>
+		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TiO2</property:Has_Label>
+		<property:Has_NM_Type rdf:resource="&wiki;MetalOxide"/>
+		<property:Has_Source rdf:resource="&wiki;Zhang2012"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-27T20:40:46</swivt:wikiPageModificationDate>
+		<property:Used_in_Study rdf:resource="&wiki;Liu2013_Cytotoxicity"/>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Zhang2013_M20">
+		<rdfs:label>Zhang2013 M20</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Zhang2013_M20"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Zhang2013_M20"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
+		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WO3</property:Has_Chemical_Composition>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">325</property:Has_Identifier>
+		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WO3</property:Has_Label>
+		<property:Has_NM_Type rdf:resource="&wiki;MetalOxide"/>
+		<property:Has_Source rdf:resource="&wiki;Zhang2012"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-27T20:41:08</swivt:wikiPageModificationDate>
+		<property:Used_in_Study rdf:resource="&wiki;Liu2013_Cytotoxicity"/>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Zhang2013_M21">
+		<rdfs:label>Zhang2013 M21</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Zhang2013_M21"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Zhang2013_M21"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
+		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y2O3</property:Has_Chemical_Composition>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">326</property:Has_Identifier>
+		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y2O3</property:Has_Label>
+		<property:Has_NM_Type rdf:resource="&wiki;MetalOxide"/>
+		<property:Has_Source rdf:resource="&wiki;Zhang2012"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-27T20:41:25</swivt:wikiPageModificationDate>
+		<property:Used_in_Study rdf:resource="&wiki;Liu2013_Cytotoxicity"/>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Zhang2013_M22">
+		<rdfs:label>Zhang2013 M22</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Zhang2013_M22"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Zhang2013_M22"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
+		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yb2O3</property:Has_Chemical_Composition>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">327</property:Has_Identifier>
+		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yb2O3</property:Has_Label>
+		<property:Has_NM_Type rdf:resource="&wiki;MetalOxide"/>
+		<property:Has_Source rdf:resource="&wiki;Zhang2012"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-27T20:41:40</swivt:wikiPageModificationDate>
+		<property:Used_in_Study rdf:resource="&wiki;Liu2013_Cytotoxicity"/>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Zhang2013_M23">
+		<rdfs:label>Zhang2013 M23</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Zhang2013_M23"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Zhang2013_M23"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
+		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZnO</property:Has_Chemical_Composition>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">328</property:Has_Identifier>
+		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZnO</property:Has_Label>
+		<property:Has_NM_Type rdf:resource="&wiki;MetalOxide"/>
+		<property:Has_Source rdf:resource="&wiki;Zhang2012"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-27T20:42:04</swivt:wikiPageModificationDate>
+		<property:Used_in_Study rdf:resource="&wiki;Liu2013_Cytotoxicity"/>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Zhang2013_M24">
+		<rdfs:label>Zhang2013 M24</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Zhang2013_M24"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Zhang2013_M24"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMetalOxides"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
+		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZrO2</property:Has_Chemical_Composition>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">329</property:Has_Identifier>
+		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZrO2</property:Has_Label>
+		<property:Has_NM_Type rdf:resource="&wiki;MetalOxide"/>
+		<property:Has_Source rdf:resource="&wiki;Zhang2012"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-27T20:42:43</swivt:wikiPageModificationDate>
+		<property:Used_in_Study rdf:resource="&wiki;Liu2013_Cytotoxicity"/>
+	</swivt:Subject>
+	<owl:Class rdf:about="&wiki;Category-3AParticle_Size">
+		<rdfs:label>Particle Size</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Category:Particle_Size"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Category:Particle_Size"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</swivt:wikiNamespace>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-27T21:44:23</swivt:wikiPageModificationDate>
+	</owl:Class>
+	<swivt:Subject rdf:about="&wiki;In_Vitro">
+		<rdfs:label>In Vitro</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;In_Vitro"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/In_Vitro"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-27T21:48:28</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<owl:DatatypeProperty rdf:about="&swivt;creationDate" />
 	<owl:ObjectProperty rdf:about="&swivt;page" />
