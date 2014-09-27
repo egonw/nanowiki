@@ -2,7 +2,7 @@
   <siteinfo>
     <sitename>NanoWiki</sitename>
     <base>http://localhost/mediawiki/index.php/Main_Page</base>
-    <generator>MediaWiki 1.15.5-2squeeze5</generator>
+    <generator>MediaWiki 1.15.5-2squeeze6</generator>
     <case>first-letter</case>
     <namespaces>
       <namespace key="-2">Media</namespace>
@@ -1190,6 +1190,108 @@ You can browse this data via one of the following categories:
 * [[:Category:Studies|Studies]] ({{#ask: [[Category:Studies]] | format=count}}), [[:Category:Measurements|Measurements]] ({{#ask: [[Category:Measurements]] | format=count}}), [[:Category:Methods|Methods]] ({{#ask: [[Category:Methods]] | format=count}})
 ** [[:Category:NanoMaterials|NanoMaterials]] ({{#ask: [[Category:Studies]] [[Has Entities::!Compounds]] | format=count}}), of which Metal oxides ({{#ask: [[Category:Studies]] [[Has Entities::MetalOxides]] | format=count}}),
 ** [[:Category:Compounds|Compounds]] ({{#ask: [[Category:Studies]] [[Has Entities::Compounds]] | format=count}})
+* [[:Category:Papers|Papers]] ({{#ask: [[Category:Papers]] | format=count}}) , [[:Category:PapersToRead|To Read]] ({{#ask: [[Category:PapersToRead]] | format=count}}) from {{#ask: [[Category:Journals]] | format=count}} [[:Category:Journals|Journals]] 
+* [[:Category:Descriptors|Descriptors]] ({{#ask: [[Category:Descriptors]] | format=count}}),
+* [[:Category:Endpoints|Endpoints]] ({{#ask: [[Category:Endpoints]] | format=count}}),
+* [[:Category:Relationships|Relationships]] ({{#ask: [[Category:Relationships]] | format=count}}),
+* [[:Category:Toxicity|Toxicity]] ({{#ask: [[Category:Toxicity]] | format=count}}),
+* [[:Category:CellLines|Cell lines]] ({{#ask: [[Category:CellLines]] | format=count}}).
+
+== Admin ==
+
+* [[Installation]]
+* [[Git Repository]]
+* [[Backup and Restore]] of the data</text>
+    </revision>
+    <revision>
+      <id>2220</id>
+      <timestamp>2014-04-16T10:38:00Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>/* Nanomaterial Database */</comment>
+      <text xml:space="preserve">Egon's Lab Notebook.
+
+== Nanomaterial Database ==
+
+Database containing QSAR studies from literature with assay data from cell line experiments.
+You can browse this data via one of the following categories:
+
+* [[:Category:Chemical_Entities|Chemical Entities]] ({{#ask: [[Category:Chemical_Entities]] | format=count}}),
+** [[:Category:Materials|Materials]] ({{#ask: [[Category:Materials]] | format=count}}),
+*** [[:Category:MetalOxides|Metal oxides]] ({{#ask: [[Category:MetalOxides]] | format=count}}), [[:Category:Metals|Metals]] ({{#ask: [[Category:Metals]] | format=count}}), [[:Category:Alloys|Alloys]] ({{#ask: [[Category:Alloys]] | format=count}}), [[:Category:CarbonNanotubes|CarbonNanotubes]] ({{#ask: [[Category:CarbonNanotubes]] | format=count}})
+*** [[:Category:Coatings|Coatings]] ({{#ask: [[Category:Coatings]] | format=count}}), [[:Category:Coating_Parts|Coating Parts]] ({{#ask: [[Category:Coating_Parts]] | format=count}})
+* [[:Category:Studies|Studies]] ({{#ask: [[Category:Studies]] | format=count}}), [[:Category:Measurements|Measurements]] ({{#ask: [[Category:Measurements]] | format=count}}), [[:Category:Methods|Methods]] ({{#ask: [[Category:Methods]] | format=count}})
+** [[:Category:NanoMaterials|NanoMaterials]] ({{#ask: [[Category:Studies]] [[Has Entities::!Compounds]] | format=count}}), of which Metal oxides ({{#ask: [[Category:Studies]] [[Has Entities::MetalOxides]] | format=count}}),
+** [[:Category:Compounds|Compounds]] ({{#ask: [[Category:Studies]] [[Has Entities::Compounds]] | format=count}})
+* [[:Category:Papers|Papers]] ({{#ask: [[Category:Papers]] | format=count}}) , [[:Category:PapersToRead|To Read]] ({{#ask: [[Category:PapersToRead]] | format=count}}) from {{#ask: [[Category:Journals]] | format=count}} [[:Category:Journals|Journals]] 
+* [[:Category:Descriptors|Descriptors]] ({{#ask: [[Category:Descriptors]] | format=count}}),
+* [[:Category:Endpoints|Endpoints]] ({{#ask: [[Category:Endpoints]] | format=count}}),
+* [[:Category:Relationships|Relationships]] ({{#ask: [[Category:Relationships]] | format=count}}),
+* [[:Category:Toxicity|Toxicity]] ({{#ask: [[Category:Toxicity]] | format=count}}),
+* [[:Category:CellLines|Cell lines]] ({{#ask: [[Category:CellLines]] | format=count}}).
+
+== Admin ==
+
+* [[Installation]]
+* [[Git Repository]]
+* [[Backup and Restore]] of the data</text>
+    </revision>
+    <revision>
+      <id>2277</id>
+      <timestamp>2014-09-27T21:52:06Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>/* Nanomaterial Database */</comment>
+      <text xml:space="preserve">Egon's Lab Notebook.
+
+== Nanomaterial Database ==
+
+Database containing QSAR studies from literature with assay data from cell line experiments.
+You can browse this data via one of the following categories:
+
+* [[:Category:Chemical_Entities|Chemical Entities]] ({{#ask: [[Category:Chemical_Entities]] | format=count}}),
+** [[:Category:Materials|Materials]] ({{#ask: [[Category:Materials]] | format=count}}),
+*** [[:Category:MetalOxides|Metal oxides]] ({{#ask: [[Category:MetalOxides]] | format=count}}), [[:Category:Metals|Metals]] ({{#ask: [[Category:Metals]] | format=count}}), [[:Category:Alloys|Alloys]] ({{#ask: [[Category:Alloys]] | format=count}}), [[:Category:CarbonNanotubes|CarbonNanotubes]] ({{#ask: [[Category:CarbonNanotubes]] | format=count}})
+*** [[:Category:Coatings|Coatings]] ({{#ask: [[Category:Coatings]] | format=count}}), [[:Category:Coating_Parts|Coating Parts]] ({{#ask: [[Category:Coating_Parts]] | format=count}})
+* [[:Category:Studies|Studies]] ({{#ask: [[Category:Studies]] | format=count}}), [[:Category:Measurements|Measurements]] ({{#ask: [[Category:Measurements]] | format=count}}), [[:Category:Methods|Methods]] ({{#ask: [[Category:Methods]] | format=count}})
+** [[:Category:NanoMaterials|NanoMaterials]] ({{#ask: [[Category:Studies]] [[Has Entities::!Compounds]] | format=count}}), of which Metal oxides ({{#ask: [[Category:Studies]] [[Has Entities::MetalOxides]] | format=count}}),
+** [[:Category:Compounds|Compounds]] ({{#ask: [[Category:Studies]] [[Has Entities::Compounds]] | format=list}})
+* [[:Category:Papers|Papers]] ({{#ask: [[Category:Papers]] | format=count}}) , [[:Category:PapersToRead|To Read]] ({{#ask: [[Category:PapersToRead]] | format=count}}) from {{#ask: [[Category:Journals]] | format=count}} [[:Category:Journals|Journals]] 
+* [[:Category:Descriptors|Descriptors]] ({{#ask: [[Category:Descriptors]] | format=count}}),
+* [[:Category:Endpoints|Endpoints]] ({{#ask: [[Category:Endpoints]] | format=count}}),
+* [[:Category:Relationships|Relationships]] ({{#ask: [[Category:Relationships]] | format=count}}),
+* [[:Category:Toxicity|Toxicity]] ({{#ask: [[Category:Toxicity]] | format=count}}),
+* [[:Category:CellLines|Cell lines]] ({{#ask: [[Category:CellLines]] | format=count}}).
+
+== Admin ==
+
+* [[Installation]]
+* [[Git Repository]]
+* [[Backup and Restore]] of the data</text>
+    </revision>
+    <revision>
+      <id>2278</id>
+      <timestamp>2014-09-27T21:54:38Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>/* Nanomaterial Database */</comment>
+      <text xml:space="preserve">Egon's Lab Notebook.
+
+== Nanomaterial Database ==
+
+Database containing QSAR studies from literature with assay data from cell line experiments.
+You can browse this data via one of the following categories:
+
+* [[:Category:Chemical_Entities|Chemical Entities]] ({{#ask: [[Category:Chemical_Entities]] | format=count}}),
+** [[:Category:Materials|Materials]] ({{#ask: [[Category:Materials]] | format=count}}),
+*** [[:Category:MetalOxides|Metal oxides]] ({{#ask: [[Category:MetalOxides]] | format=count}}), [[:Category:Metals|Metals]] ({{#ask: [[Category:Metals]] | format=count}}), [[:Category:Alloys|Alloys]] ({{#ask: [[Category:Alloys]] | format=count}}), [[:Category:CarbonNanotubes|CarbonNanotubes]] ({{#ask: [[Category:CarbonNanotubes]] | format=count}})
+*** [[:Category:Coatings|Coatings]] ({{#ask: [[Category:Coatings]] | format=count}}), [[:Category:Coating_Parts|Coating Parts]] ({{#ask: [[Category:Coating_Parts]] | format=count}})
+* [[:Category:Studies|Studies]] ({{#ask: [[Category:Studies]] | format=count}}), [[:Category:Measurements|Measurements]] ({{#ask: [[Category:Measurements]] | format=count}}), [[:Category:Methods|Methods]] ({{#ask: [[Category:Methods]] | format=count}})
+** [[:Category:NanoMaterials|NanoMaterials]] ({{#ask: [[Category:Studies]] [[Has Entities::!Compounds]] | format=count}}), of which Metal oxides ({{#ask: [[Category:Studies]] [[Has Entities::MetalOxides]] | format=count}}),
 * [[:Category:Papers|Papers]] ({{#ask: [[Category:Papers]] | format=count}}) , [[:Category:PapersToRead|To Read]] ({{#ask: [[Category:PapersToRead]] | format=count}}) from {{#ask: [[Category:Journals]] | format=count}} [[:Category:Journals|Journals]] 
 * [[:Category:Descriptors|Descriptors]] ({{#ask: [[Category:Descriptors]] | format=count}}),
 * [[:Category:Endpoints|Endpoints]] ({{#ask: [[Category:Endpoints]] | format=count}}),
@@ -19235,6 +19337,16 @@ The allowed value for this property is:
       <comment>Created page with &quot;Any kind of toxicity.&quot;</comment>
       <text xml:space="preserve">Any kind of toxicity.</text>
     </revision>
+    <revision>
+      <id>2276</id>
+      <timestamp>2014-09-27T21:49:54Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">Any kind of toxicity.
+
+[[Category:Endpoints]]</text>
+    </revision>
   </page>
   <page>
     <title>Property:Has Entities</title>
@@ -20681,44 +20793,6 @@ Small molecule study.</text>
     </revision>
   </page>
   <page>
-    <title>Katriztky2010QSAR</title>
-    <id>84</id>
-    <revision>
-      <id>509</id>
-      <timestamp>2011-05-19T18:20:49Z</timestamp>
-      <contributor>
-        <ip>Egonw</ip>
-      </contributor>
-      <comment>Created page with &quot;{{Study |Has Source=Katritzky2010 |Has Entities=Compounds |Has Endpoint=GI50 |Has Study Type=Regression |Has Object Count=34 |Has R2=0.771 |Has Q2=0.602 }}&quot;</comment>
-      <text xml:space="preserve">{{Study
-|Has Source=Katritzky2010
-|Has Entities=Compounds
-|Has Endpoint=GI50
-|Has Study Type=Regression
-|Has Object Count=34
-|Has R2=0.771
-|Has Q2=0.602
-}}</text>
-    </revision>
-    <revision>
-      <id>510</id>
-      <timestamp>2011-05-19T18:24:20Z</timestamp>
-      <contributor>
-        <ip>Egonw</ip>
-      </contributor>
-      <text xml:space="preserve">{{Study
-|Has Source=Katritzky2010
-|Has Entities=Compounds
-|Has Endpoint=GI50
-|Has Study Type=Regression
-|Has Object Count=34
-|Has R2=0.771
-|Has Q2=0.602
-|For Cell line=Leukemia RBMI-8226
-}}</text>
-    </revision>
-  </page>
-  <page>
     <title>Leukemia RBMI-8226</title>
     <id>85</id>
     <revision>
@@ -20833,160 +20907,6 @@ Small molecule study.</text>
 }}
 
 &lt;pdf&gt;9/9a/Kamal2004.pdf&lt;/pdf&gt;</text>
-    </revision>
-  </page>
-  <page>
-    <title>Kamal2004Mean</title>
-    <id>90</id>
-    <revision>
-      <id>518</id>
-      <timestamp>2011-05-19T19:16:13Z</timestamp>
-      <contributor>
-        <ip>Egonw</ip>
-      </contributor>
-      <comment>Created page with &quot;{{Study |Has Source=Kamal2004 |Has Entities=Compounds |Has Endpoint=NegativeLogGI50 |Has Study Type=Regression |Has Object Count=13 |Has R2=0.93 }}&quot;</comment>
-      <text xml:space="preserve">{{Study
-|Has Source=Kamal2004
-|Has Entities=Compounds
-|Has Endpoint=NegativeLogGI50
-|Has Study Type=Regression
-|Has Object Count=13
-|Has R2=0.93
-}}</text>
-    </revision>
-    <revision>
-      <id>519</id>
-      <timestamp>2011-05-20T05:08:04Z</timestamp>
-      <contributor>
-        <ip>Egonw</ip>
-      </contributor>
-      <text xml:space="preserve">{{Study
-|Has Source=Kamal2004
-|Has Entities=Compounds
-|Has Endpoint=NegativeLogGI50
-|Has Study Type=Regression
-|Has Object Count=13
-|Has R2=0.93
-}}
-
-{{#set:|Uses Descriptor=[[Dipole]]}}</text>
-    </revision>
-  </page>
-  <page>
-    <title>Kamal2004Prostate</title>
-    <id>91</id>
-    <revision>
-      <id>520</id>
-      <timestamp>2011-05-19T19:17:36Z</timestamp>
-      <contributor>
-        <ip>Egonw</ip>
-      </contributor>
-      <comment>Created page with &quot;{{Study |Has Source=Kamal2004 |Has Entities=Compounds |Has Endpoint=NegativeLogGI50 |Has Study Type=Regression |Has Object Count=11 |Has R2=0.88 |For Cell line=Prostate DU 145 }}&quot;</comment>
-      <text xml:space="preserve">{{Study
-|Has Source=Kamal2004
-|Has Entities=Compounds
-|Has Endpoint=NegativeLogGI50
-|Has Study Type=Regression
-|Has Object Count=11
-|Has R2=0.88
-|For Cell line=Prostate DU 145
-}}</text>
-    </revision>
-    <revision>
-      <id>521</id>
-      <timestamp>2011-05-20T05:32:20Z</timestamp>
-      <contributor>
-        <ip>Egonw</ip>
-      </contributor>
-      <text xml:space="preserve">{{Study
-|Has Source=Kamal2004
-|Has Entities=Compounds
-|Has Endpoint=NegativeLogGI50
-|Has Study Type=Regression
-|Has Object Count=11
-|Has R2=0.88
-|For Cell line=Prostate DU 145
-}}
-
-{{#set:|Uses Descriptor=[[Dipole]]}}</text>
-    </revision>
-  </page>
-  <page>
-    <title>Kamal2004Colon</title>
-    <id>92</id>
-    <revision>
-      <id>522</id>
-      <timestamp>2011-05-19T19:18:38Z</timestamp>
-      <contributor>
-        <ip>Egonw</ip>
-      </contributor>
-      <comment>Created page with &quot;{{Study |Has Source=Kamal2004 |Has Entities=Compounds |Has Endpoint=NegativeLogGI50 |Has Study Type=Regression |Has Object Count=13 |Has R2=0.85 |For Cell line=Colon HT29 }}&quot;</comment>
-      <text xml:space="preserve">{{Study
-|Has Source=Kamal2004
-|Has Entities=Compounds
-|Has Endpoint=NegativeLogGI50
-|Has Study Type=Regression
-|Has Object Count=13
-|Has R2=0.85
-|For Cell line=Colon HT29
-}}</text>
-    </revision>
-    <revision>
-      <id>523</id>
-      <timestamp>2011-05-20T05:09:11Z</timestamp>
-      <contributor>
-        <ip>Egonw</ip>
-      </contributor>
-      <text xml:space="preserve">{{Study
-|Has Source=Kamal2004
-|Has Entities=Compounds
-|Has Endpoint=NegativeLogGI50
-|Has Study Type=Regression
-|Has Object Count=13
-|Has R2=0.85
-|For Cell line=Colon HT29
-}}
-
-{{#set:|Uses Descriptor=[[Dipole]]}}</text>
-    </revision>
-  </page>
-  <page>
-    <title>Kamal2004Breast</title>
-    <id>93</id>
-    <revision>
-      <id>524</id>
-      <timestamp>2011-05-19T19:19:34Z</timestamp>
-      <contributor>
-        <ip>Egonw</ip>
-      </contributor>
-      <comment>Created page with &quot;{{Study |Has Source=Kamal2004 |Has Entities=Compounds |Has Endpoint=NegativeLogGI50 |Has Study Type=Regression |Has Object Count=11 |Has R2=0.87 |For Cell line=Breast MCF7 }}&quot;</comment>
-      <text xml:space="preserve">{{Study
-|Has Source=Kamal2004
-|Has Entities=Compounds
-|Has Endpoint=NegativeLogGI50
-|Has Study Type=Regression
-|Has Object Count=11
-|Has R2=0.87
-|For Cell line=Breast MCF7
-}}</text>
-    </revision>
-    <revision>
-      <id>525</id>
-      <timestamp>2011-05-20T05:08:18Z</timestamp>
-      <contributor>
-        <ip>Egonw</ip>
-      </contributor>
-      <text xml:space="preserve">{{Study
-|Has Source=Kamal2004
-|Has Entities=Compounds
-|Has Endpoint=NegativeLogGI50
-|Has Study Type=Regression
-|Has Object Count=11
-|Has R2=0.87
-|For Cell line=Breast MCF7
-}}
-
-{{#set:|Uses Descriptor=[[Dipole]]}}</text>
     </revision>
   </page>
   <page>
@@ -21246,1091 +21166,6 @@ Small molecule study.</text>
     </revision>
   </page>
   <page>
-    <title>HannaK1</title>
-    <id>99</id>
-    <revision>
-      <id>540</id>
-      <timestamp>2011-05-26T12:06:37Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <comment>Created page with &quot;{{NanoMaterial |Has Label=CuO |Has NM Type=MetalOxide |Has Size=20-40 nm }}&quot;</comment>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=CuO
-|Has NM Type=MetalOxide
-|Has Size=20-40 nm
-}}</text>
-    </revision>
-    <revision>
-      <id>541</id>
-      <timestamp>2011-06-09T12:55:52Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=CuO
-|Has NM Type=MetalOxide
-|Has Size=20-40 nm
-}}
-
-{{#set:|Used in Study=Karlsson2008}}</text>
-    </revision>
-    <revision>
-      <id>542</id>
-      <timestamp>2011-06-09T12:56:24Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=CuO
-|Has NM Type=MetalOxide
-|Has Size=20-40 nm
-}}
-
-{{#set:|Used in Study=Karlsson2008Cytotox}}</text>
-    </revision>
-    <revision>
-      <id>543</id>
-      <timestamp>2011-06-13T13:42:41Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=CuO
-|Has NM Type=MetalOxide
-|Has Size=20-40 nm
-|Has Zeta potential=31.0
-|Has Zeta Units=mV
-}}
-
-{{#set:|Used in Study=Karlsson2008Cytotox}}</text>
-    </revision>
-    <revision>
-      <id>544</id>
-      <timestamp>2011-06-14T05:47:08Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=CuO
-|Has NM Type=MetalOxide
-|Has Size Min=20
-|Has Size Max=40
-|Has Size Units=nm
-|Has Zeta potential=31.0
-|Has Zeta Units=mV
-}}
-
-{{#set:|Used in Study=Karlsson2008Cytotox}}</text>
-    </revision>
-    <revision>
-      <id>545</id>
-      <timestamp>2011-06-15T08:36:14Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=CuO
-|Has Identifier=18
-|Has Chemical Composition=CuO
-|Has NM Type=MetalOxide
-|Has Size Min=20
-|Has Size Max=40
-|Has Size Units=nm
-|Has Zeta potential=31.0
-|Has Zeta Units=mV
-}}
-
-{{#set:|Used in Study=Karlsson2008Cytotox}}</text>
-    </revision>
-    <revision>
-      <id>546</id>
-      <timestamp>2011-10-26T05:14:17Z</timestamp>
-      <contributor>
-        <ip>Egonw</ip>
-      </contributor>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=CuO
-|Has Identifier=18
-|Has Chemical Composition=CuO
-|Has NM Type=MetalOxide
-|Has Size Min=20
-|Has Size Max=40
-|Has Size Units=nm
-|Has Zeta potential=31.0
-|Has Zeta Units=mV
-}}
-
-{{#set:|Used in Study=Karlsson2008Cytotox}}
-{{#set:|Used in Study=WillighagenS1}}
-{{#set:|Used in Study=WillighagenS2}}</text>
-    </revision>
-    <revision>
-      <id>547</id>
-      <timestamp>2011-10-30T10:42:36Z</timestamp>
-      <contributor>
-        <ip>Egonw</ip>
-      </contributor>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=CuO
-|Has Identifier=18
-|Has Chemical Composition=CuO
-|Has NM Type=MetalOxide
-|Has Size Min=20
-|Has Size Max=40
-|Has Size Units=nm
-|Has Size Method=TEM
-|Has Zeta potential=31.0
-|Has Zeta Units=mV
-}}
-
-{{#set:|Used in Study=Karlsson2008Cytotox}}
-{{#set:|Used in Study=WillighagenS1}}
-{{#set:|Used in Study=WillighagenS2}}</text>
-    </revision>
-    <revision>
-      <id>1932</id>
-      <timestamp>2013-09-02T10:02:52Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">{{Material
-|Has Label=CuO
-|Has Identifier=18
-|Has Chemical Composition=CuO
-|Has NM Type=MetalOxide
-|Has Size Min=20
-|Has Size Max=40
-|Has Size Units=nm
-|Has Size Method=TEM
-|Has Zeta potential=31.0
-|Has Zeta Units=mV
-}}
-
-{{#set:|Used in Study=Karlsson2008Cytotox}}
-{{#set:|Used in Study=WillighagenS1}}
-{{#set:|Used in Study=WillighagenS2}}</text>
-    </revision>
-  </page>
-  <page>
-    <title>HannaK2</title>
-    <id>100</id>
-    <revision>
-      <id>548</id>
-      <timestamp>2011-05-26T12:07:12Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <comment>Created page with &quot;{{NanoMaterial |Has Label=Ti2O |Has NM Type=MetalOxide |Has Size=20-100 nm }}&quot;</comment>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=Ti2O
-|Has NM Type=MetalOxide
-|Has Size=20-100 nm
-}}</text>
-    </revision>
-    <revision>
-      <id>549</id>
-      <timestamp>2011-05-26T12:08:09Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=TiO2
-|Has NM Type=MetalOxide
-|Has Size=20-100 nm
-}}</text>
-    </revision>
-    <revision>
-      <id>550</id>
-      <timestamp>2011-06-09T13:04:24Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=TiO2
-|Has NM Type=MetalOxide
-|Has Size=20-100 nm
-}}
-
-{{#set:|Used in Study=Karlsson2008Cytotox}}</text>
-    </revision>
-    <revision>
-      <id>551</id>
-      <timestamp>2011-06-13T13:43:47Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=TiO2
-|Has NM Type=MetalOxide
-|Has Size=20-100 nm
-|Has Zeta potential=5.9
-|Has Zeta Units=mV
-}}
-
-{{#set:|Used in Study=Karlsson2008Cytotox}}</text>
-    </revision>
-    <revision>
-      <id>552</id>
-      <timestamp>2011-06-14T05:47:23Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=TiO2
-|Has NM Type=MetalOxide
-|Has Size Min=20
-|Has Size Max=100
-|Has Size Units=nm
-|Has Zeta potential=5.9
-|Has Zeta Units=mV
-}}
-
-{{#set:|Used in Study=Karlsson2008Cytotox}}</text>
-    </revision>
-    <revision>
-      <id>553</id>
-      <timestamp>2011-06-15T08:36:27Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=TiO2
-|Has Identifier=19
-|Has Chemical Composition=TiO2
-|Has NM Type=MetalOxide
-|Has Size Min=20
-|Has Size Max=100
-|Has Size Units=nm
-|Has Zeta potential=5.9
-|Has Zeta Units=mV
-}}
-
-{{#set:|Used in Study=Karlsson2008Cytotox}}</text>
-    </revision>
-    <revision>
-      <id>554</id>
-      <timestamp>2011-10-26T05:14:02Z</timestamp>
-      <contributor>
-        <ip>Egonw</ip>
-      </contributor>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=TiO2
-|Has Identifier=19
-|Has Chemical Composition=TiO2
-|Has NM Type=MetalOxide
-|Has Size Min=20
-|Has Size Max=100
-|Has Size Units=nm
-|Has Zeta potential=5.9
-|Has Zeta Units=mV
-}}
-
-{{#set:|Used in Study=Karlsson2008Cytotox}}
-{{#set:|Used in Study=WillighagenS1}}
-{{#set:|Used in Study=WillighagenS2}}</text>
-    </revision>
-    <revision>
-      <id>555</id>
-      <timestamp>2011-10-30T10:50:31Z</timestamp>
-      <contributor>
-        <ip>Egonw</ip>
-      </contributor>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=TiO2
-|Has Identifier=19
-|Has Chemical Composition=TiO2
-|Has NM Type=MetalOxide
-|Has Size Min=20
-|Has Size Max=100
-|Has Size Units=nm
-|Has Size Method=TEM
-|Has Zeta potential=5.9
-|Has Zeta Units=mV
-}}
-
-{{#set:|Used in Study=Karlsson2008Cytotox}}
-{{#set:|Used in Study=WillighagenS1}}
-{{#set:|Used in Study=WillighagenS2}}</text>
-    </revision>
-    <revision>
-      <id>2190</id>
-      <timestamp>2013-09-12T07:28:50Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">{{Material
-|Has Label=TiO2
-|Has Identifier=19
-|Has Chemical Composition=TiO2
-|Has NM Type=MetalOxide
-|Has Size Min=20
-|Has Size Max=100
-|Has Size Units=nm
-|Has Size Method=TEM
-|Has Zeta potential=5.9
-|Has Zeta Units=mV
-}}
-
-{{#set:|Used in Study=Karlsson2008Cytotox}}
-{{#set:|Used in Study=WillighagenS1}}
-{{#set:|Used in Study=WillighagenS2}}</text>
-    </revision>
-  </page>
-  <page>
-    <title>HannaK3</title>
-    <id>101</id>
-    <revision>
-      <id>556</id>
-      <timestamp>2011-05-26T12:07:31Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <comment>Created page with &quot;{{NanoMaterial |Has Label=ZnO |Has NM Type=MetalOxide |Has Size=20-200 nm }}&quot;</comment>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=ZnO
-|Has NM Type=MetalOxide
-|Has Size=20-200 nm
-}}</text>
-    </revision>
-    <revision>
-      <id>557</id>
-      <timestamp>2011-06-09T13:04:34Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=ZnO
-|Has NM Type=MetalOxide
-|Has Size=20-200 nm
-}}
-
-{{#set:|Used in Study=Karlsson2008Cytotox}}</text>
-    </revision>
-    <revision>
-      <id>558</id>
-      <timestamp>2011-06-13T13:44:07Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=ZnO
-|Has NM Type=MetalOxide
-|Has Size=20-200 nm
-|Has Zeta potential=26.9
-|Has Zeta Units=mV
-}}
-
-{{#set:|Used in Study=Karlsson2008Cytotox}}</text>
-    </revision>
-    <revision>
-      <id>559</id>
-      <timestamp>2011-06-14T05:51:13Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=ZnO
-|Has NM Type=MetalOxide
-|Has Size Min=20
-|Has Size Max=200
-|Has Size Units=nm
-|Has Zeta potential=26.9
-|Has Zeta Units=mV
-}}
-
-{{#set:|Used in Study=Karlsson2008Cytotox}}</text>
-    </revision>
-    <revision>
-      <id>560</id>
-      <timestamp>2011-06-15T08:36:52Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=ZnO
-|Has Identifier=20
-|Has Chemical Composition=ZnO
-|Has NM Type=MetalOxide
-|Has Size Min=20
-|Has Size Max=200
-|Has Size Units=nm
-|Has Zeta potential=26.9
-|Has Zeta Units=mV
-}}
-
-{{#set:|Used in Study=Karlsson2008Cytotox}}</text>
-    </revision>
-    <revision>
-      <id>561</id>
-      <timestamp>2011-10-26T05:15:09Z</timestamp>
-      <contributor>
-        <ip>Egonw</ip>
-      </contributor>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=ZnO
-|Has Identifier=20
-|Has Chemical Composition=ZnO
-|Has NM Type=MetalOxide
-|Has Size Min=20
-|Has Size Max=200
-|Has Size Units=nm
-|Has Zeta potential=26.9
-|Has Zeta Units=mV
-}}
-
-{{#set:|Used in Study=Karlsson2008Cytotox}}
-{{#set:|Used in Study=WillighagenS1}}
-{{#set:|Used in Study=WillighagenS2}}</text>
-    </revision>
-    <revision>
-      <id>562</id>
-      <timestamp>2011-10-30T10:50:56Z</timestamp>
-      <contributor>
-        <ip>Egonw</ip>
-      </contributor>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=ZnO
-|Has Identifier=20
-|Has Chemical Composition=ZnO
-|Has NM Type=MetalOxide
-|Has Size Min=20
-|Has Size Max=200
-|Has Size Units=nm
-|Has Size Method=TEM
-|Has Zeta potential=26.9
-|Has Zeta Units=mV
-}}
-
-{{#set:|Used in Study=Karlsson2008Cytotox}}
-{{#set:|Used in Study=WillighagenS1}}
-{{#set:|Used in Study=WillighagenS2}}</text>
-    </revision>
-    <revision>
-      <id>2189</id>
-      <timestamp>2013-09-12T07:28:44Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">{{Material
-|Has Label=ZnO
-|Has Identifier=20
-|Has Chemical Composition=ZnO
-|Has NM Type=MetalOxide
-|Has Size Min=20
-|Has Size Max=200
-|Has Size Units=nm
-|Has Size Method=TEM
-|Has Zeta potential=26.9
-|Has Zeta Units=mV
-}}
-
-{{#set:|Used in Study=Karlsson2008Cytotox}}
-{{#set:|Used in Study=WillighagenS1}}
-{{#set:|Used in Study=WillighagenS2}}</text>
-    </revision>
-  </page>
-  <page>
-    <title>HannaK4</title>
-    <id>102</id>
-    <revision>
-      <id>563</id>
-      <timestamp>2011-05-26T12:09:19Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <comment>Created page with &quot;{{NanoMaterial |Has Label=CuZnFe2O4 |Has NM Type=MetalOxide |Has Size=10-100 nm }}&quot;</comment>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=CuZnFe2O4
-|Has NM Type=MetalOxide
-|Has Size=10-100 nm
-}}</text>
-    </revision>
-    <revision>
-      <id>564</id>
-      <timestamp>2011-06-09T13:04:37Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=CuZnFe2O4
-|Has NM Type=MetalOxide
-|Has Size=10-100 nm
-}}
-
-{{#set:|Used in Study=Karlsson2008Cytotox}}</text>
-    </revision>
-    <revision>
-      <id>565</id>
-      <timestamp>2011-06-13T13:44:28Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=CuZnFe2O4
-|Has NM Type=MetalOxide
-|Has Size=10-100 nm
-|Has Zeta potential=34.2
-|Has Zeta Units=mV
-}}
-
-{{#set:|Used in Study=Karlsson2008Cytotox}}</text>
-    </revision>
-    <revision>
-      <id>566</id>
-      <timestamp>2011-06-14T05:51:40Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=CuZnFe2O4
-|Has NM Type=MetalOxide
-|Has Size Min=10
-|Has Size Max=100
-|Has Size Units=nm
-|Has Zeta potential=34.2
-|Has Zeta Units=mV
-}}
-
-{{#set:|Used in Study=Karlsson2008Cytotox}}</text>
-    </revision>
-    <revision>
-      <id>567</id>
-      <timestamp>2011-06-15T08:37:31Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=CuZnFe2O4
-|Has Identifier=21
-|Has Chemical Composition=CuZnFe2O4
-|Has NM Type=MetalOxide
-|Has Size Min=10
-|Has Size Max=100
-|Has Size Units=nm
-|Has Zeta potential=34.2
-|Has Zeta Units=mV
-}}
-
-{{#set:|Used in Study=Karlsson2008Cytotox}}</text>
-    </revision>
-    <revision>
-      <id>568</id>
-      <timestamp>2011-10-26T05:15:19Z</timestamp>
-      <contributor>
-        <ip>Egonw</ip>
-      </contributor>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=CuZnFe2O4
-|Has Identifier=21
-|Has Chemical Composition=CuZnFe2O4
-|Has NM Type=MetalOxide
-|Has Size Min=10
-|Has Size Max=100
-|Has Size Units=nm
-|Has Zeta potential=34.2
-|Has Zeta Units=mV
-}}
-
-{{#set:|Used in Study=Karlsson2008Cytotox}}
-{{#set:|Used in Study=WillighagenS1}}
-{{#set:|Used in Study=WillighagenS2}}</text>
-    </revision>
-    <revision>
-      <id>569</id>
-      <timestamp>2011-10-30T10:51:09Z</timestamp>
-      <contributor>
-        <ip>Egonw</ip>
-      </contributor>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=CuZnFe2O4
-|Has Identifier=21
-|Has Chemical Composition=CuZnFe2O4
-|Has NM Type=MetalOxide
-|Has Size Min=10
-|Has Size Max=100
-|Has Size Units=nm
-|Has Size Method=TEM
-|Has Zeta potential=34.2
-|Has Zeta Units=mV
-}}
-
-{{#set:|Used in Study=Karlsson2008Cytotox}}
-{{#set:|Used in Study=WillighagenS1}}
-{{#set:|Used in Study=WillighagenS2}}</text>
-    </revision>
-    <revision>
-      <id>2188</id>
-      <timestamp>2013-09-12T07:28:39Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">{{Material
-|Has Label=CuZnFe2O4
-|Has Identifier=21
-|Has Chemical Composition=CuZnFe2O4
-|Has NM Type=MetalOxide
-|Has Size Min=10
-|Has Size Max=100
-|Has Size Units=nm
-|Has Size Method=TEM
-|Has Zeta potential=34.2
-|Has Zeta Units=mV
-}}
-
-{{#set:|Used in Study=Karlsson2008Cytotox}}
-{{#set:|Used in Study=WillighagenS1}}
-{{#set:|Used in Study=WillighagenS2}}</text>
-    </revision>
-  </page>
-  <page>
-    <title>HannaK5</title>
-    <id>103</id>
-    <revision>
-      <id>570</id>
-      <timestamp>2011-05-26T12:10:27Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <comment>Created page with &quot;{{NanoMaterial |Has Label=Fe2O3 |Has NM Type=MetalOxide |Has Size=30-60 nm }}&quot;</comment>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=Fe2O3
-|Has NM Type=MetalOxide
-|Has Size=30-60 nm
-}}</text>
-    </revision>
-    <revision>
-      <id>571</id>
-      <timestamp>2011-06-09T13:04:41Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=Fe2O3
-|Has NM Type=MetalOxide
-|Has Size=30-60 nm
-}}
-
-{{#set:|Used in Study=Karlsson2008Cytotox}}</text>
-    </revision>
-    <revision>
-      <id>572</id>
-      <timestamp>2011-06-13T13:48:43Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=Fe2O3
-|Has NM Type=MetalOxide
-|Has Size=30-60 nm
-|Has Zeta potential=-17.3
-|Has Zeta Units=mV
-}}
-
-{{#set:|Used in Study=Karlsson2008Cytotox}}</text>
-    </revision>
-    <revision>
-      <id>573</id>
-      <timestamp>2011-06-14T05:53:40Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=Fe2O3
-|Has NM Type=MetalOxide
-|Has Size Min=30
-|Has Size Max=60
-|Has Size Units=nm
-|Has Zeta potential=-17.3
-|Has Zeta Units=mV
-}}
-
-{{#set:|Used in Study=Karlsson2008Cytotox}}</text>
-    </revision>
-    <revision>
-      <id>574</id>
-      <timestamp>2011-06-15T08:37:51Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=Fe2O3
-|Has Identifier=22
-|Has Chemical Composition=Fe2O3
-|Has NM Type=MetalOxide
-|Has Size Min=30
-|Has Size Max=60
-|Has Size Units=nm
-|Has Zeta potential=-17.3
-|Has Zeta Units=mV
-}}
-
-{{#set:|Used in Study=Karlsson2008Cytotox}}</text>
-    </revision>
-    <revision>
-      <id>575</id>
-      <timestamp>2011-10-26T05:15:32Z</timestamp>
-      <contributor>
-        <ip>Egonw</ip>
-      </contributor>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=Fe2O3
-|Has Identifier=22
-|Has Chemical Composition=Fe2O3
-|Has NM Type=MetalOxide
-|Has Size Min=30
-|Has Size Max=60
-|Has Size Units=nm
-|Has Zeta potential=-17.3
-|Has Zeta Units=mV
-}}
-
-{{#set:|Used in Study=Karlsson2008Cytotox}}
-{{#set:|Used in Study=WillighagenS1}}
-{{#set:|Used in Study=WillighagenS2}}</text>
-    </revision>
-    <revision>
-      <id>576</id>
-      <timestamp>2011-10-30T10:51:18Z</timestamp>
-      <contributor>
-        <ip>Egonw</ip>
-      </contributor>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=Fe2O3
-|Has Identifier=22
-|Has Chemical Composition=Fe2O3
-|Has NM Type=MetalOxide
-|Has Size Min=30
-|Has Size Max=60
-|Has Size Units=nm
-|Has Size Method=TEM
-|Has Zeta potential=-17.3
-|Has Zeta Units=mV
-}}
-
-{{#set:|Used in Study=Karlsson2008Cytotox}}
-{{#set:|Used in Study=WillighagenS1}}
-{{#set:|Used in Study=WillighagenS2}}</text>
-    </revision>
-    <revision>
-      <id>2187</id>
-      <timestamp>2013-09-12T07:28:34Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">{{Material
-|Has Label=Fe2O3
-|Has Identifier=22
-|Has Chemical Composition=Fe2O3
-|Has NM Type=MetalOxide
-|Has Size Min=30
-|Has Size Max=60
-|Has Size Units=nm
-|Has Size Method=TEM
-|Has Zeta potential=-17.3
-|Has Zeta Units=mV
-}}
-
-{{#set:|Used in Study=Karlsson2008Cytotox}}
-{{#set:|Used in Study=WillighagenS1}}
-{{#set:|Used in Study=WillighagenS2}}</text>
-    </revision>
-  </page>
-  <page>
-    <title>HannaK6</title>
-    <id>104</id>
-    <revision>
-      <id>577</id>
-      <timestamp>2011-05-26T12:10:44Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <comment>Created page with &quot;{{NanoMaterial |Has Label=Fe3O4 |Has NM Type=MetalOxide |Has Size=20-30 nm }}&quot;</comment>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=Fe3O4
-|Has NM Type=MetalOxide
-|Has Size=20-30 nm
-}}</text>
-    </revision>
-    <revision>
-      <id>578</id>
-      <timestamp>2011-06-09T13:04:45Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=Fe3O4
-|Has NM Type=MetalOxide
-|Has Size=20-30 nm
-}}
-
-{{#set:|Used in Study=Karlsson2008Cytotox}}</text>
-    </revision>
-    <revision>
-      <id>579</id>
-      <timestamp>2011-06-13T13:49:07Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=Fe3O4
-|Has NM Type=MetalOxide
-|Has Size=20-30 nm
-|Has Zeta potential=1.8
-|Has Zeta Units=mV
-}}
-
-{{#set:|Used in Study=Karlsson2008Cytotox}}</text>
-    </revision>
-    <revision>
-      <id>580</id>
-      <timestamp>2011-06-14T05:54:18Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=Fe3O4
-|Has NM Type=MetalOxide
-|Has Size Min=20
-|Has Size Max=30
-|Has Size Units=nm
-|Has Zeta potential=1.8
-|Has Zeta Units=mV
-}}
-
-{{#set:|Used in Study=Karlsson2008Cytotox}}</text>
-    </revision>
-    <revision>
-      <id>581</id>
-      <timestamp>2011-06-15T08:38:25Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=Fe3O4
-|Has Identifier=23
-|Has Chemical Composition=Fe3O4
-|Has NM Type=MetalOxide
-|Has Size Min=20
-|Has Size Max=30
-|Has Size Units=nm
-|Has Zeta potential=1.8
-|Has Zeta Units=mV
-}}
-
-{{#set:|Used in Study=Karlsson2008Cytotox}}</text>
-    </revision>
-    <revision>
-      <id>582</id>
-      <timestamp>2011-10-26T05:13:25Z</timestamp>
-      <contributor>
-        <ip>Egonw</ip>
-      </contributor>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=Fe3O4
-|Has Identifier=23
-|Has Chemical Composition=Fe3O4
-|Has NM Type=MetalOxide
-|Has Size Min=20
-|Has Size Max=30
-|Has Size Units=nm
-|Has Zeta potential=1.8
-|Has Zeta Units=mV
-}}
-
-{{#set:|Used in Study=Karlsson2008Cytotox}}
-{{#set:|Used in Study=WillighagenS1}}
-{{#set:|Used in Study=WillighagenS2}}</text>
-    </revision>
-    <revision>
-      <id>583</id>
-      <timestamp>2011-10-30T10:51:29Z</timestamp>
-      <contributor>
-        <ip>Egonw</ip>
-      </contributor>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=Fe3O4
-|Has Identifier=23
-|Has Chemical Composition=Fe3O4
-|Has NM Type=MetalOxide
-|Has Size Min=20
-|Has Size Max=30
-|Has Size Units=nm
-|Has Size Method=TEM
-|Has Zeta potential=1.8
-|Has Zeta Units=mV
-}}
-
-{{#set:|Used in Study=Karlsson2008Cytotox}}
-{{#set:|Used in Study=WillighagenS1}}
-{{#set:|Used in Study=WillighagenS2}}</text>
-    </revision>
-    <revision>
-      <id>2186</id>
-      <timestamp>2013-09-12T07:28:29Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">{{Material
-|Has Label=Fe3O4
-|Has Identifier=23
-|Has Chemical Composition=Fe3O4
-|Has NM Type=MetalOxide
-|Has Size Min=20
-|Has Size Max=30
-|Has Size Units=nm
-|Has Size Method=TEM
-|Has Zeta potential=1.8
-|Has Zeta Units=mV
-}}
-
-{{#set:|Used in Study=Karlsson2008Cytotox}}
-{{#set:|Used in Study=WillighagenS1}}
-{{#set:|Used in Study=WillighagenS2}}</text>
-    </revision>
-  </page>
-  <page>
-    <title>HannaK7</title>
-    <id>105</id>
-    <revision>
-      <id>584</id>
-      <timestamp>2011-05-26T12:11:42Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <comment>Created page with &quot;{{NanoMaterial |Has Label=carbon nanoparticle |Has NM Type=CarbonNanoparticle |Has Size=20-40 nm }}&quot;</comment>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=carbon nanoparticle
-|Has NM Type=CarbonNanoparticle
-|Has Size=20-40 nm
-}}</text>
-    </revision>
-    <revision>
-      <id>585</id>
-      <timestamp>2011-06-09T13:04:49Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=carbon nanoparticle
-|Has NM Type=CarbonNanoparticle
-|Has Size=20-40 nm
-}}
-
-{{#set:|Used in Study=Karlsson2008Cytotox}}</text>
-    </revision>
-    <revision>
-      <id>586</id>
-      <timestamp>2011-06-13T12:30:14Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=carbon nanotubes
-|Has NM Type=CarbonNanoparticle
-|Has Size=20-40 nm
-}}
-
-{{#set:|Used in Study=Karlsson2008Cytotox}}</text>
-    </revision>
-    <revision>
-      <id>587</id>
-      <timestamp>2011-06-13T13:49:26Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=carbon nanotubes
-|Has NM Type=CarbonNanoparticle
-|Has Size=20-40 nm
-|Has Zeta potential=6.9
-|Has Zeta Units=mV
-}}
-
-{{#set:|Used in Study=Karlsson2008Cytotox}}</text>
-    </revision>
-    <revision>
-      <id>588</id>
-      <timestamp>2011-06-14T05:54:32Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=carbon nanotubes
-|Has NM Type=CarbonNanoparticle
-|Has Size Min=20
-|Has Size Max=40
-|Has Size Units=nm
-|Has Zeta potential=6.9
-|Has Zeta Units=mV
-}}
-
-{{#set:|Used in Study=Karlsson2008Cytotox}}</text>
-    </revision>
-    <revision>
-      <id>589</id>
-      <timestamp>2011-06-15T08:38:40Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=carbon nanotubes
-|Has Identifier=24
-|Has Chemical Composition=C
-|Has NM Type=CarbonNanoparticle
-|Has Size Min=20
-|Has Size Max=40
-|Has Size Units=nm
-|Has Zeta potential=6.9
-|Has Zeta Units=mV
-}}
-
-{{#set:|Used in Study=Karlsson2008Cytotox}}</text>
-    </revision>
-    <revision>
-      <id>590</id>
-      <timestamp>2011-10-30T10:51:41Z</timestamp>
-      <contributor>
-        <ip>Egonw</ip>
-      </contributor>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=carbon nanotubes
-|Has Identifier=24
-|Has Chemical Composition=C
-|Has NM Type=CarbonNanoparticle
-|Has Size Min=20
-|Has Size Max=40
-|Has Size Units=nm
-|Has Size Method=TEM
-|Has Zeta potential=6.9
-|Has Zeta Units=mV
-}}
-
-{{#set:|Used in Study=Karlsson2008Cytotox}}</text>
-    </revision>
-    <revision>
-      <id>2185</id>
-      <timestamp>2013-09-12T07:28:22Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">{{Material
-|Has Label=carbon nanotubes
-|Has Identifier=24
-|Has Chemical Composition=C
-|Has NM Type=CarbonNanoparticle
-|Has Size Min=20
-|Has Size Max=40
-|Has Size Units=nm
-|Has Size Method=TEM
-|Has Zeta potential=6.9
-|Has Zeta Units=mV
-}}
-
-{{#set:|Used in Study=Karlsson2008Cytotox}}</text>
-    </revision>
-  </page>
-  <page>
     <title>Category:CarbonNanoparticles</title>
     <id>106</id>
     <revision>
@@ -22364,141 +21199,6 @@ Small molecule study.</text>
  |offset=0
  |limit=250
 }}</text>
-    </revision>
-  </page>
-  <page>
-    <title>HannaK8</title>
-    <id>108</id>
-    <revision>
-      <id>593</id>
-      <timestamp>2011-05-26T12:28:31Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <comment>Created page with &quot;{{NanoMaterial |Has Label=carbon nanoparticle |Has NM Type=CarbonNanotube |Has Size=100-200 nm x 3-7 µm }}&quot;</comment>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=carbon nanoparticle
-|Has NM Type=CarbonNanotube
-|Has Size=100-200 nm x 3-7 µm
-}}</text>
-    </revision>
-    <revision>
-      <id>594</id>
-      <timestamp>2011-06-09T13:04:53Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=carbon nanoparticle
-|Has NM Type=CarbonNanotube
-|Has Size=100-200 nm x 3-7 µm
-}}
-
-{{#set:|Used in Study=Karlsson2008Cytotox}}</text>
-    </revision>
-    <revision>
-      <id>595</id>
-      <timestamp>2011-06-13T13:49:51Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=carbon nanoparticle
-|Has NM Type=CarbonNanotube
-|Has Size=100-200 nm x 3-7 µm
-|Has Zeta potential= -45.4
-|Has Zeta Units=mV
-}}
-
-{{#set:|Used in Study=Karlsson2008Cytotox}}</text>
-    </revision>
-    <revision>
-      <id>596</id>
-      <timestamp>2011-06-14T06:02:15Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=carbon nanoparticle
-|Has NM Type=CarbonNanotube
-|Has Size Min=100
-|Has Size Max=7000
-|Has Size Units=nm
-|Has Zeta potential= -45.4
-|Has Zeta Units=mV
-}}
-
-Asymetrically shaped particles, of 100-200 nm in one direction, and 3-7 µm in the other.
-
-{{#set:|Used in Study=Karlsson2008Cytotox}}</text>
-    </revision>
-    <revision>
-      <id>597</id>
-      <timestamp>2011-06-15T08:38:54Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=carbon nanoparticle
-|Has Identifier=25
-|Has Chemical Composition=C
-|Has NM Type=CarbonNanotube
-|Has Size Min=100
-|Has Size Max=7000
-|Has Size Units=nm
-|Has Zeta potential= -45.4
-|Has Zeta Units=mV
-}}
-
-Asymetrically shaped particles, of 100-200 nm in one direction, and 3-7 µm in the other.
-
-{{#set:|Used in Study=Karlsson2008Cytotox}}</text>
-    </revision>
-    <revision>
-      <id>598</id>
-      <timestamp>2011-10-30T10:51:55Z</timestamp>
-      <contributor>
-        <ip>Egonw</ip>
-      </contributor>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=carbon nanoparticle
-|Has Identifier=25
-|Has Chemical Composition=C
-|Has NM Type=CarbonNanotube
-|Has Size Min=100
-|Has Size Max=7000
-|Has Size Units=nm
-|Has Size Method=TEM
-|Has Zeta potential= -45.4
-|Has Zeta Units=mV
-}}
-
-Asymetrically shaped particles, of 100-200 nm in one direction, and 3-7 µm in the other.
-
-{{#set:|Used in Study=Karlsson2008Cytotox}}</text>
-    </revision>
-    <revision>
-      <id>2184</id>
-      <timestamp>2013-09-12T07:25:24Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">{{Material
-|Has Label=carbon nanoparticle
-|Has Identifier=25
-|Has Chemical Composition=C
-|Has NM Type=CarbonNanotube
-|Has Size Min=100
-|Has Size Max=7000
-|Has Size Units=nm
-|Has Size Method=TEM
-|Has Zeta potential= -45.4
-|Has Zeta Units=mV
-}}
-
-Asymetrically shaped particles, of 100-200 nm in one direction, and 3-7 µm in the other.
-
-{{#set:|Used in Study=Karlsson2008Cytotox}}</text>
     </revision>
   </page>
   <page>
@@ -23111,270 +21811,6 @@ Graphenes.</text>
 }}
 
 Graphenes.</text>
-    </revision>
-  </page>
-  <page>
-    <title>Karlsson2008Cytotox</title>
-    <id>116</id>
-    <revision>
-      <id>628</id>
-      <timestamp>2011-06-09T11:15:10Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <comment>Created page with &quot;{{Study |Has Source=Karlsson2008 |Has Entities=MetalOxides |Has Endpoint=PercentageNonViableCells |Has Study Type=Descriptive |Has Object Count=8 }}&quot;</comment>
-      <text xml:space="preserve">{{Study
-|Has Source=Karlsson2008
-|Has Entities=MetalOxides
-|Has Endpoint=PercentageNonViableCells
-|Has Study Type=Descriptive
-|Has Object Count=8
-}}</text>
-    </revision>
-    <revision>
-      <id>629</id>
-      <timestamp>2011-06-09T11:30:30Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">{{Study
-|Has Source=Karlsson2008
-|Has Entities=MetalOxides
-|Has Endpoint=PercentageNonViableCells
-|Has Study Type=Descriptive
-|Has Object Count=8
-}}
-
-= Nanomaterials =
-
-Studies 17 nanomaterials: [[HannaK1]], [[HannaK2]], [[HannaK3]], [[HannaK4]], [[HannaK5]], [[HannaK6]], [[HannaK7]], and [[HannaK8]].</text>
-    </revision>
-    <revision>
-      <id>630</id>
-      <timestamp>2011-06-09T13:05:38Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">{{Study
-|Has Source=Karlsson2008
-|Has Entities=MetalOxides
-|Has Endpoint=PercentageNonViableCells
-|Has Study Type=Descriptive
-|Has Object Count=8
-}}</text>
-    </revision>
-    <revision>
-      <id>631</id>
-      <timestamp>2011-06-09T20:38:28Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">{{Study
-|Has Source=Karlsson2008
-|Has Entities=MetalOxides
-|Has Endpoint=PercentageNonViableCells
-|Has Study Type=Descriptive
-|Has Object Count=8
-}}
-
-= Plot = 
-
-{{#ask: [[Category:Measurements]] [[Has Study::{{PAGENAME}}]] [[Has Endpoint::PercentageNonViableCells]]
-| ?Has Endpoint Value
-| format=jqplotbar
-| height=250
-| width=600
-}}
-{{#ask: [[Category:Measurements]] [[Has Study::{{PAGENAME}}]] [[Has Endpoint::PercentageNonViableCells]]
-| ?Has Entity #
-| ?Has Dose #
-| ?Has Endpoint Value #
-| format = template
-| template = MeasurementDetails
-| introtemplate = MeasurementDetailsHeader
-| outrotemplate = MeasurementDetailsFooter
-}}</text>
-    </revision>
-    <revision>
-      <id>632</id>
-      <timestamp>2011-06-09T21:06:50Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">{{Study
-|Has Source=Karlsson2008
-|Has Entities=MetalOxides
-|Has Endpoint=PercentageNonViableCells
-|Has Study Type=Descriptive
-|Has Object Count=8
-}}
-
-= Plot = 
-
-{{#ask: [[Category:Measurements]] [[Has Study::{{PAGENAME}}]] [[Has Endpoint::PercentageNonViableCells]]
-| ?Has Endpoint Value
-| format=jqplotbar
-| sort=Had Endpoint Value
-| order=ascending
-| height=250
-| width=600
-}}
-{{#ask: [[Category:Measurements]] [[Has Study::{{PAGENAME}}]] [[Has Endpoint::PercentageNonViableCells]]
-| ?Has Entity #
-| ?Has Dose #
-| ?Has Endpoint Value #
-| format = template
-| template = MeasurementDetails
-| introtemplate = MeasurementDetailsHeader
-| outrotemplate = MeasurementDetailsFooter
-}}</text>
-    </revision>
-    <revision>
-      <id>633</id>
-      <timestamp>2011-06-09T21:10:49Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">{{Study
-|Has Source=Karlsson2008
-|Has Entities=MetalOxides
-|Has Endpoint=PercentageNonViableCells
-|Has Study Type=Descriptive
-|Has Object Count=8
-}}
-
-= Plot = 
-
-{{#ask: [[Category:Measurements]] [[Has Study::{{PAGENAME}}]] [[Has Endpoint::PercentageNonViableCells]]
-| ?Has Endpoint Value
-| format=jqplotbar
-| sort=Has Endpoint Value
-| order=ascending
-| height=250
-| width=600
-}}
-{{#ask: [[Category:Measurements]] [[Has Study::{{PAGENAME}}]] [[Has Endpoint::PercentageNonViableCells]]
-| ?Has Entity #
-| ?Has Dose #
-| ?Has Endpoint Value #
-| sort=Has Endpoint Value
-| order=ascending
-| format = template
-| template = MeasurementDetails
-| introtemplate = MeasurementDetailsHeader
-| outrotemplate = MeasurementDetailsFooter
-}}</text>
-    </revision>
-    <revision>
-      <id>634</id>
-      <timestamp>2011-06-15T07:44:57Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">{{Study
-|Has Identifier=2
-|Has Source=Karlsson2008
-|Has Entities=MetalOxides
-|Has Endpoint=PercentageNonViableCells
-|Has Study Type=Descriptive
-|Has Object Count=8
-}}
-
-= Plot = 
-
-{{#ask: [[Category:Measurements]] [[Has Study::{{PAGENAME}}]] [[Has Endpoint::PercentageNonViableCells]]
-| ?Has Endpoint Value
-| format=jqplotbar
-| sort=Has Endpoint Value
-| order=ascending
-| height=250
-| width=600
-}}
-{{#ask: [[Category:Measurements]] [[Has Study::{{PAGENAME}}]] [[Has Endpoint::PercentageNonViableCells]]
-| ?Has Entity #
-| ?Has Dose #
-| ?Has Endpoint Value #
-| sort=Has Endpoint Value
-| order=ascending
-| format = template
-| template = MeasurementDetails
-| introtemplate = MeasurementDetailsHeader
-| outrotemplate = MeasurementDetailsFooter
-}}</text>
-    </revision>
-    <revision>
-      <id>635</id>
-      <timestamp>2011-10-26T05:11:23Z</timestamp>
-      <contributor>
-        <ip>Egonw</ip>
-      </contributor>
-      <text xml:space="preserve">{{Study
-|Has Identifier=2
-|Has Source=Karlsson2008
-|Has Entities=Nanomaterials
-|Has Endpoint=PercentageNonViableCells
-|Has Study Type=Descriptive
-|Has Object Count=8
-}}
-
-= Plot = 
-
-{{#ask: [[Category:Measurements]] [[Has Study::{{PAGENAME}}]] [[Has Endpoint::PercentageNonViableCells]]
-| ?Has Endpoint Value
-| format=jqplotbar
-| sort=Has Endpoint Value
-| order=ascending
-| height=250
-| width=600
-}}
-{{#ask: [[Category:Measurements]] [[Has Study::{{PAGENAME}}]] [[Has Endpoint::PercentageNonViableCells]]
-| ?Has Entity #
-| ?Has Dose #
-| ?Has Endpoint Value #
-| sort=Has Endpoint Value
-| order=ascending
-| format = template
-| template = MeasurementDetails
-| introtemplate = MeasurementDetailsHeader
-| outrotemplate = MeasurementDetailsFooter
-}}</text>
-    </revision>
-    <revision>
-      <id>636</id>
-      <timestamp>2011-10-28T06:52:17Z</timestamp>
-      <contributor>
-        <ip>Egonw</ip>
-      </contributor>
-      <text xml:space="preserve">{{Study
-|Has Identifier=2
-|Has Source=Karlsson2008
-|Has Entities=NanoMaterials
-|Has Endpoint=PercentageNonViableCells
-|Has Study Type=Descriptive
-|Has Object Count=8
-}}
-
-= Plot = 
-
-{{#ask: [[Category:Measurements]] [[Has Study::{{PAGENAME}}]] [[Has Endpoint::PercentageNonViableCells]]
-| ?Has Endpoint Value
-| format=jqplotbar
-| sort=Has Endpoint Value
-| order=ascending
-| height=250
-| width=600
-}}
-{{#ask: [[Category:Measurements]] [[Has Study::{{PAGENAME}}]] [[Has Endpoint::PercentageNonViableCells]]
-| ?Has Entity #
-| ?Has Dose #
-| ?Has Endpoint Value #
-| sort=Has Endpoint Value
-| order=ascending
-| format = template
-| template = MeasurementDetails
-| introtemplate = MeasurementDetailsHeader
-| outrotemplate = MeasurementDetailsFooter
-}}</text>
     </revision>
   </page>
   <page>
@@ -24893,6 +23329,26 @@ How many cells are still viable after a given amount of time.
       <comment>Created page with &quot;All Measurements.&quot;</comment>
       <text xml:space="preserve">All Measurements.</text>
     </revision>
+    <revision>
+      <id>2256</id>
+      <timestamp>2014-09-27T20:53:25Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">All Measurements.
+
+{{#ask: [[Category:Measurements]]
+ | ? Has Entity #
+ | ? Has Endpoint Value #
+ | ? Has Endpoint Error #
+ | ? Has Endpoint Value Units #
+ | ? Has Endpoint #
+ |sort = Has Entity
+ |order= descending
+ |offset=0
+ |limit=500
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Property:Has Entity</title>
@@ -25506,347 +23962,6 @@ Shows the label of a NanoMaterial.
     </revision>
   </page>
   <page>
-    <title>HannaK1 M1</title>
-    <id>146</id>
-    <revision>
-      <id>695</id>
-      <timestamp>2011-06-09T20:42:34Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <comment>Created page with &quot;{{Measurement |Has Entity=HannaK1 |Has Endpoint Value=2.82 |Has Endpoint=PercentageNonViableCells |Has Study=Karlsson2008Cytotox }}&quot;</comment>
-      <text xml:space="preserve">{{Measurement
-|Has Entity=HannaK1
-|Has Endpoint Value=2.82
-|Has Endpoint=PercentageNonViableCells
-|Has Study=Karlsson2008Cytotox
-}}</text>
-    </revision>
-    <revision>
-      <id>696</id>
-      <timestamp>2011-06-09T20:58:48Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">{{Measurement
-|Has Entity=HannaK1
-|Has Endpoint Value=90
-|Has Endpoint=PercentageNonViableCells
-|Has Study=Karlsson2008Cytotox
-}}</text>
-    </revision>
-    <revision>
-      <id>697</id>
-      <timestamp>2011-06-10T10:35:01Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">{{Measurement
-|Has Entity=HannaK1
-|Has Endpoint Value=95
-|Has Dose=40
-|Has Dose Units=μg/cm²
-|Has Endpoint=PercentageNonViableCells
-|Has Study=Karlsson2008Cytotox
-}}</text>
-    </revision>
-  </page>
-  <page>
-    <title>HannaK2 M1</title>
-    <id>147</id>
-    <revision>
-      <id>698</id>
-      <timestamp>2011-06-09T21:00:38Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <comment>Created page with &quot;{{Measurement |Has Entity=HannaK2 |Has Endpoint Value=3 |Has Endpoint=PercentageNonViableCells |Has Study=Karlsson2008Cytotox }}&quot;</comment>
-      <text xml:space="preserve">{{Measurement
-|Has Entity=HannaK2
-|Has Endpoint Value=3
-|Has Endpoint=PercentageNonViableCells
-|Has Study=Karlsson2008Cytotox
-}}</text>
-    </revision>
-    <revision>
-      <id>699</id>
-      <timestamp>2011-06-13T12:07:57Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">{{Measurement
-|Has Entity=HannaK2
-|Has Dose=40
-|Has Dose Units=μg/cm²
-|Has Endpoint Value=3
-|Has Endpoint=PercentageNonViableCells
-|Has Study=Karlsson2008Cytotox
-}}</text>
-    </revision>
-  </page>
-  <page>
-    <title>HannaK3 M1</title>
-    <id>148</id>
-    <revision>
-      <id>700</id>
-      <timestamp>2011-06-09T21:01:49Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <comment>Created page with &quot;{{Measurement |Has Entity=HannaK3 |Has Endpoint Value=35 |Has Endpoint=PercentageNonViableCells |Has Study=Karlsson2008Cytotox }}&quot;</comment>
-      <text xml:space="preserve">{{Measurement
-|Has Entity=HannaK3
-|Has Endpoint Value=35
-|Has Endpoint=PercentageNonViableCells
-|Has Study=Karlsson2008Cytotox
-}}</text>
-    </revision>
-    <revision>
-      <id>701</id>
-      <timestamp>2011-06-10T11:33:57Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">{{Measurement
-|Has Entity=HannaK3
-|Has Endpoint Value=35
-|Has Dose=40
-|Has Dose Units=μg/cm²
-|Has Endpoint=PercentageNonViableCells
-|Has Study=Karlsson2008Cytotox
-}}</text>
-    </revision>
-    <revision>
-      <id>702</id>
-      <timestamp>2011-06-10T21:25:38Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">{{Measurement
-|Has Entity=HannaK3
-|Has Endpoint Value=40
-|Has Dose=40
-|Has Dose Units=μg/cm²
-|Has Endpoint=PercentageNonViableCells
-|Has Study=Karlsson2008Cytotox
-}}</text>
-    </revision>
-  </page>
-  <page>
-    <title>HannaK4 M1</title>
-    <id>149</id>
-    <revision>
-      <id>703</id>
-      <timestamp>2011-06-09T21:02:33Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <comment>Created page with &quot;{{Measurement |Has Entity=HannaK4 |Has Endpoint Value=6 |Has Endpoint=PercentageNonViableCells |Has Study=Karlsson2008Cytotox }}&quot;</comment>
-      <text xml:space="preserve">{{Measurement
-|Has Entity=HannaK4
-|Has Endpoint Value=6
-|Has Endpoint=PercentageNonViableCells
-|Has Study=Karlsson2008Cytotox
-}}</text>
-    </revision>
-    <revision>
-      <id>704</id>
-      <timestamp>2011-06-10T21:29:25Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">{{Measurement
-|Has Entity=HannaK4
-|Has Endpoint Value=10
-|Has Endpoint Units=μg/cm²
-|Has Endpoint=PercentageNonViableCells
-|Has Study=Karlsson2008Cytotox
-}}</text>
-    </revision>
-    <revision>
-      <id>705</id>
-      <timestamp>2011-06-10T21:30:50Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">{{Measurement
-|Has Entity=HannaK4
-|Has Dose=40
-|Has Dose Units=μg/cm²
-|Has Endpoint Value=10
-|Has Endpoint=PercentageNonViableCells
-|Has Study=Karlsson2008Cytotox
-}}</text>
-    </revision>
-  </page>
-  <page>
-    <title>HannaK5 M1</title>
-    <id>150</id>
-    <revision>
-      <id>706</id>
-      <timestamp>2011-06-09T21:03:07Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <comment>Created page with &quot;{{Measurement |Has Entity=HannaK5 |Has Endpoint Value=6 |Has Endpoint=PercentageNonViableCells |Has Study=Karlsson2008Cytotox }}&quot;</comment>
-      <text xml:space="preserve">{{Measurement
-|Has Entity=HannaK5
-|Has Endpoint Value=6
-|Has Endpoint=PercentageNonViableCells
-|Has Study=Karlsson2008Cytotox
-}}</text>
-    </revision>
-    <revision>
-      <id>707</id>
-      <timestamp>2011-06-13T12:09:15Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">{{Measurement
-|Has Entity=HannaK5
-|Has Dose=50
-|Has Dose Units=μg/cm²
-|Has Endpoint Value=7
-|Has Endpoint=PercentageNonViableCells
-|Has Study=Karlsson2008Cytotox
-}}</text>
-    </revision>
-    <revision>
-      <id>708</id>
-      <timestamp>2011-06-13T12:09:31Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">{{Measurement
-|Has Entity=HannaK5
-|Has Dose=40
-|Has Dose Units=μg/cm²
-|Has Endpoint Value=7
-|Has Endpoint=PercentageNonViableCells
-|Has Study=Karlsson2008Cytotox
-}}</text>
-    </revision>
-  </page>
-  <page>
-    <title>HannaK6 M1</title>
-    <id>151</id>
-    <revision>
-      <id>709</id>
-      <timestamp>2011-06-09T21:04:46Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <comment>Created page with &quot;{{Measurement |Has Entity=HannaK6 |Has Endpoint Value=2 |Has Endpoint=PercentageNonViableCells |Has Study=Karlsson2008Cytotox }}&quot;</comment>
-      <text xml:space="preserve">{{Measurement
-|Has Entity=HannaK6
-|Has Endpoint Value=2
-|Has Endpoint=PercentageNonViableCells
-|Has Study=Karlsson2008Cytotox
-}}</text>
-    </revision>
-    <revision>
-      <id>710</id>
-      <timestamp>2011-06-13T12:27:40Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">{{Measurement
-|Has Entity=HannaK6
-|Has Dose=20
-|Has Dose Units=μg/cm²
-|Has Endpoint Value=0
-|Has Endpoint=PercentageNonViableCells
-|Has Study=Karlsson2008Cytotox
-}}</text>
-    </revision>
-  </page>
-  <page>
-    <title>HannaK7 M1</title>
-    <id>152</id>
-    <revision>
-      <id>711</id>
-      <timestamp>2011-06-09T21:05:17Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <comment>Created page with &quot;{{Measurement |Has Entity=HannaK7 |Has Endpoint Value=20 |Has Endpoint=PercentageNonViableCells |Has Study=Karlsson2008Cytotox }}&quot;</comment>
-      <text xml:space="preserve">{{Measurement
-|Has Entity=HannaK7
-|Has Endpoint Value=20
-|Has Endpoint=PercentageNonViableCells
-|Has Study=Karlsson2008Cytotox
-}}</text>
-    </revision>
-    <revision>
-      <id>712</id>
-      <timestamp>2011-06-13T12:29:26Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">{{Measurement
-|Has Entity=HannaK7
-|Has Dose=40
-|Has Dose Units=μg/cm²
-|Has Endpoint Value=22
-|Has Endpoint=PercentageNonViableCells
-|Has Study=Karlsson2008Cytotox
-}}</text>
-    </revision>
-  </page>
-  <page>
-    <title>HannaK8 M1</title>
-    <id>153</id>
-    <revision>
-      <id>713</id>
-      <timestamp>2011-06-09T21:06:00Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <comment>Created page with &quot;{{Measurement |Has Entity=HannaK8 |Has Endpoint Value=3 |Has Endpoint=PercentageNonViableCells |Has Study=Karlsson2008Cytotox }}&quot;</comment>
-      <text xml:space="preserve">{{Measurement
-|Has Entity=HannaK8
-|Has Endpoint Value=3
-|Has Endpoint=PercentageNonViableCells
-|Has Study=Karlsson2008Cytotox
-}}</text>
-    </revision>
-    <revision>
-      <id>714</id>
-      <timestamp>2011-06-13T12:46:43Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">{{Measurement
-|Has Entity=HannaK8
-|Has Dose=40
-|Has Dose Units=μg/cm²
-|Has Endpoint Value=3
-|Has Endpoint=PercentageNonViableCells
-|Has Study=Karlsson2008Cytotox
-}}</text>
-    </revision>
-  </page>
-  <page>
-    <title>HannaK1 M2</title>
-    <id>154</id>
-    <revision>
-      <id>715</id>
-      <timestamp>2011-06-10T10:38:55Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <comment>Created page with &quot;{{Measurement |Has Entity=HannaK1 |Has Endpoint Value=93 |Has Dose=20 |Has Dose Units=μg/cm² |Has Endpoint=PercentageNonViableCells |Has Study=Karlsson2008Cytotox }}&quot;</comment>
-      <text xml:space="preserve">{{Measurement
-|Has Entity=HannaK1
-|Has Endpoint Value=93
-|Has Dose=20
-|Has Dose Units=μg/cm²
-|Has Endpoint=PercentageNonViableCells
-|Has Study=Karlsson2008Cytotox
-}}</text>
-    </revision>
-  </page>
-  <page>
     <title>Property:Has Dose Units</title>
     <id>155</id>
     <revision>
@@ -25870,176 +23985,6 @@ Shows the label of a NanoMaterial.
       </contributor>
       <comment>Created page with &quot;This is a property of type [[Has type::Number]].&quot;</comment>
       <text xml:space="preserve">This is a property of type [[Has type::Number]].</text>
-    </revision>
-  </page>
-  <page>
-    <title>HannaK3 M2</title>
-    <id>157</id>
-    <revision>
-      <id>718</id>
-      <timestamp>2011-06-10T21:23:31Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <comment>Created page with &quot;{{Measurement |Has Entity=HannaK3 |Has Endpoint Value=12 |Has Dose=20 |Has Dose Units=μg/cm² |Has Endpoint=PercentageNonViableCells |Has Study=Karlsson2008Cytotox }}&quot;</comment>
-      <text xml:space="preserve">{{Measurement
-|Has Entity=HannaK3
-|Has Endpoint Value=12
-|Has Dose=20
-|Has Dose Units=μg/cm²
-|Has Endpoint=PercentageNonViableCells
-|Has Study=Karlsson2008Cytotox
-}}</text>
-    </revision>
-    <revision>
-      <id>719</id>
-      <timestamp>2011-06-10T21:25:19Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">{{Measurement
-|Has Entity=HannaK3
-|Has Endpoint Value=22
-|Has Dose=20
-|Has Dose Units=μg/cm²
-|Has Endpoint=PercentageNonViableCells
-|Has Study=Karlsson2008Cytotox
-}}</text>
-    </revision>
-  </page>
-  <page>
-    <title>HannaK4 M2</title>
-    <id>158</id>
-    <revision>
-      <id>720</id>
-      <timestamp>2011-06-10T21:30:07Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <comment>Created page with &quot;{{Measurement |Has Entity=HannaK4 |Has Dose=20 |Has Endpoint Value=5 |Has Endpoint Units=μg/cm² |Has Endpoint=PercentageNonViableCells |Has Study=Karlsson2008Cytotox }}&quot;</comment>
-      <text xml:space="preserve">{{Measurement
-|Has Entity=HannaK4
-|Has Dose=20
-|Has Endpoint Value=5
-|Has Endpoint Units=μg/cm²
-|Has Endpoint=PercentageNonViableCells
-|Has Study=Karlsson2008Cytotox
-}}</text>
-    </revision>
-    <revision>
-      <id>721</id>
-      <timestamp>2011-06-10T21:30:32Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">{{Measurement
-|Has Entity=HannaK4
-|Has Dose=20
-|Has Dose Units=μg/cm²
-|Has Endpoint Value=5
-|Has Endpoint=PercentageNonViableCells
-|Has Study=Karlsson2008Cytotox
-}}</text>
-    </revision>
-  </page>
-  <page>
-    <title>HannaK2 M2</title>
-    <id>159</id>
-    <revision>
-      <id>722</id>
-      <timestamp>2011-06-13T12:08:29Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <comment>Created page with &quot;{{Measurement |Has Entity=HannaK2 |Has Dose=20 |Has Dose Units=μg/cm² |Has Endpoint Value=0 |Has Endpoint=PercentageNonViableCells |Has Study=Karlsson2008Cytotox }}&quot;</comment>
-      <text xml:space="preserve">{{Measurement
-|Has Entity=HannaK2
-|Has Dose=20
-|Has Dose Units=μg/cm²
-|Has Endpoint Value=0
-|Has Endpoint=PercentageNonViableCells
-|Has Study=Karlsson2008Cytotox
-}}</text>
-    </revision>
-  </page>
-  <page>
-    <title>HannaK5 M2</title>
-    <id>160</id>
-    <revision>
-      <id>723</id>
-      <timestamp>2011-06-13T12:09:25Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <comment>Created page with &quot;{{Measurement |Has Entity=HannaK5 |Has Dose=20 |Has Dose Units=μg/cm² |Has Endpoint Value=5 |Has Endpoint=PercentageNonViableCells |Has Study=Karlsson2008Cytotox }}&quot;</comment>
-      <text xml:space="preserve">{{Measurement
-|Has Entity=HannaK5
-|Has Dose=20
-|Has Dose Units=μg/cm²
-|Has Endpoint Value=5
-|Has Endpoint=PercentageNonViableCells
-|Has Study=Karlsson2008Cytotox
-}}</text>
-    </revision>
-  </page>
-  <page>
-    <title>HannaK6 M2</title>
-    <id>161</id>
-    <revision>
-      <id>724</id>
-      <timestamp>2011-06-13T12:27:43Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <comment>Created page with &quot;{{Measurement |Has Entity=HannaK6 |Has Dose=40 |Has Dose Units=μg/cm² |Has Endpoint Value=3 |Has Endpoint=PercentageNonViableCells |Has Study=Karlsson2008Cytotox }}&quot;</comment>
-      <text xml:space="preserve">{{Measurement
-|Has Entity=HannaK6
-|Has Dose=40
-|Has Dose Units=μg/cm²
-|Has Endpoint Value=3
-|Has Endpoint=PercentageNonViableCells
-|Has Study=Karlsson2008Cytotox
-}}</text>
-    </revision>
-  </page>
-  <page>
-    <title>HannaK7 M2</title>
-    <id>162</id>
-    <revision>
-      <id>725</id>
-      <timestamp>2011-06-13T12:29:39Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <comment>Created page with &quot;{{Measurement |Has Entity=HannaK7 |Has Dose=20 |Has Dose Units=μg/cm² |Has Endpoint Value=12 |Has Endpoint=PercentageNonViableCells |Has Study=Karlsson2008Cytotox }}&quot;</comment>
-      <text xml:space="preserve">{{Measurement
-|Has Entity=HannaK7
-|Has Dose=20
-|Has Dose Units=μg/cm²
-|Has Endpoint Value=12
-|Has Endpoint=PercentageNonViableCells
-|Has Study=Karlsson2008Cytotox
-}}</text>
-    </revision>
-  </page>
-  <page>
-    <title>HannaK8 M2</title>
-    <id>163</id>
-    <revision>
-      <id>726</id>
-      <timestamp>2011-06-13T12:46:53Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <comment>Created page with &quot;{{Measurement |Has Entity=HannaK8 |Has Dose=20 |Has Dose Units=μg/cm² |Has Endpoint Value=0 |Has Endpoint=PercentageNonViableCells |Has Study=Karlsson2008Cytotox }}&quot;</comment>
-      <text xml:space="preserve">{{Measurement
-|Has Entity=HannaK8
-|Has Dose=20
-|Has Dose Units=μg/cm²
-|Has Endpoint Value=0
-|Has Endpoint=PercentageNonViableCells
-|Has Study=Karlsson2008Cytotox
-}}</text>
     </revision>
   </page>
   <page>
@@ -26167,113 +24112,6 @@ Coated gold particles.
     </revision>
   </page>
   <page>
-    <title>HannaK9</title>
-    <id>167</id>
-    <revision>
-      <id>734</id>
-      <timestamp>2011-06-13T14:07:49Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <comment>Created page with &quot;{{NanoMaterial |Has Label=Ag |Has NM Type=MetalOxide |Has Size=7-516 nm |Has Zeta potential=-39.9 |Has Zeta Units=mV }}&quot;</comment>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=Ag
-|Has NM Type=MetalOxide
-|Has Size=7-516 nm
-|Has Zeta potential=-39.9
-|Has Zeta Units=mV
-}}</text>
-    </revision>
-    <revision>
-      <id>735</id>
-      <timestamp>2011-06-13T14:08:04Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=Ag
-|Has NM Type=Metal
-|Has Size=7-516 nm
-|Has Zeta potential=-39.9
-|Has Zeta Units=mV
-}}</text>
-    </revision>
-    <revision>
-      <id>736</id>
-      <timestamp>2011-06-14T06:10:33Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=Ag
-|Has NM Type=Metal
-|Has Size Min=7
-|Has Size Max=516
-|Has Size Units=nm
-|Has Zeta potential=-39.9
-|Has Zeta Units=mV
-}}</text>
-    </revision>
-    <revision>
-      <id>737</id>
-      <timestamp>2011-06-15T08:39:11Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=Ag
-|Has Identifier=26
-|Has Chemical Composition=Ag
-|Has NM Type=Metal
-|Has Size Min=7
-|Has Size Max=516
-|Has Size Units=nm
-|Has Zeta potential=-39.9
-|Has Zeta Units=mV
-}}</text>
-    </revision>
-    <revision>
-      <id>738</id>
-      <timestamp>2011-10-28T07:04:01Z</timestamp>
-      <contributor>
-        <ip>Egonw</ip>
-      </contributor>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=Ag
-|Has Identifier=26
-|Has Chemical Composition=Ag
-|Has NM Type=Metal
-|Has Size Min=7
-|Has Size Max=516
-|Has Size Units=nm
-|Has Zeta potential=-39.9
-|Has Zeta Units=mV
-}}
-
-{{#set:|Used in Study=Karlsson2008CytotoxFollowup}}</text>
-    </revision>
-    <revision>
-      <id>2183</id>
-      <timestamp>2013-09-12T07:25:18Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">{{Material
-|Has Label=Ag
-|Has Identifier=26
-|Has Chemical Composition=Ag
-|Has NM Type=Metal
-|Has Size Min=7
-|Has Size Max=516
-|Has Size Units=nm
-|Has Zeta potential=-39.9
-|Has Zeta Units=mV
-}}
-
-{{#set:|Used in Study=Karlsson2008CytotoxFollowup}}</text>
-    </revision>
-  </page>
-  <page>
     <title>Metal</title>
     <id>168</id>
     <revision>
@@ -26340,414 +24178,6 @@ Coated gold particles.
  |offset=0
  |limit=250
 }}</text>
-    </revision>
-  </page>
-  <page>
-    <title>HannaK10</title>
-    <id>170</id>
-    <revision>
-      <id>742</id>
-      <timestamp>2011-06-13T14:14:46Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <comment>Created page with &quot;{{NanoMaterial |Has Label=CeO2 |Has NM Type=MetalOxide |Has Size=4-25 nm |Has Zeta potential=4.0 |Has Zeta Units=mV }}&quot;</comment>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=CeO2
-|Has NM Type=MetalOxide
-|Has Size=4-25 nm
-|Has Zeta potential=4.0
-|Has Zeta Units=mV
-}}</text>
-    </revision>
-    <revision>
-      <id>743</id>
-      <timestamp>2011-06-14T06:10:48Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=CeO2
-|Has NM Type=MetalOxide
-|Has Size Min=4
-|Has Size Max=25
-|Has Size Units=nm
-|Has Zeta potential=4.0
-|Has Zeta Units=mV
-}}</text>
-    </revision>
-    <revision>
-      <id>744</id>
-      <timestamp>2011-06-15T08:39:38Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=CeO2
-|Has Identifier=27
-|Has Chemical Composition=CeO2
-|Has NM Type=MetalOxide
-|Has Size Min=4
-|Has Size Max=25
-|Has Size Units=nm
-|Has Zeta potential=4.0
-|Has Zeta Units=mV
-}}</text>
-    </revision>
-    <revision>
-      <id>745</id>
-      <timestamp>2011-10-28T07:04:16Z</timestamp>
-      <contributor>
-        <ip>Egonw</ip>
-      </contributor>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=CeO2
-|Has Identifier=27
-|Has Chemical Composition=CeO2
-|Has NM Type=MetalOxide
-|Has Size Min=4
-|Has Size Max=25
-|Has Size Units=nm
-|Has Zeta potential=4.0
-|Has Zeta Units=mV
-}}
-
-{{#set:|Used in Study=Karlsson2008CytotoxFollowup}}</text>
-    </revision>
-    <revision>
-      <id>1959</id>
-      <timestamp>2013-09-02T12:27:43Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">{{Material
-|Has Label=CeO2
-|Has Identifier=27
-|Has Chemical Composition=CeO2
-|Has NM Type=MetalOxide
-|Has Size Min=4
-|Has Size Max=25
-|Has Size Units=nm
-|Has Zeta potential=4.0
-|Has Zeta Units=mV
-}}
-
-{{#set:|Used in Study=Karlsson2008CytotoxFollowup}}</text>
-    </revision>
-  </page>
-  <page>
-    <title>HannaK11</title>
-    <id>171</id>
-    <revision>
-      <id>746</id>
-      <timestamp>2011-06-13T14:15:12Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <comment>Created page with &quot;{{NanoMaterial |Has Label=Co3O4 |Has NM Type=MetalOxide |Has Size=9-62 nm |Has Zeta potential=30.2 |Has Zeta Units=mV }}&quot;</comment>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=Co3O4
-|Has NM Type=MetalOxide
-|Has Size=9-62 nm
-|Has Zeta potential=30.2
-|Has Zeta Units=mV
-}}</text>
-    </revision>
-    <revision>
-      <id>747</id>
-      <timestamp>2011-06-14T06:11:03Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=Co3O4
-|Has NM Type=MetalOxide
-|Has Size Min=9
-|Has Size Max=62
-|Has Size Units=nm
-|Has Zeta potential=30.2
-|Has Zeta Units=mV
-}}</text>
-    </revision>
-    <revision>
-      <id>748</id>
-      <timestamp>2011-06-15T08:39:54Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=Co3O4
-|Has Identifier=28
-|Has Chemical Composition=Co3O4
-|Has NM Type=MetalOxide
-|Has Size Min=9
-|Has Size Max=62
-|Has Size Units=nm
-|Has Zeta potential=30.2
-|Has Zeta Units=mV
-}}</text>
-    </revision>
-    <revision>
-      <id>749</id>
-      <timestamp>2011-10-28T07:04:29Z</timestamp>
-      <contributor>
-        <ip>Egonw</ip>
-      </contributor>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=Co3O4
-|Has Identifier=28
-|Has Chemical Composition=Co3O4
-|Has NM Type=MetalOxide
-|Has Size Min=9
-|Has Size Max=62
-|Has Size Units=nm
-|Has Zeta potential=30.2
-|Has Zeta Units=mV
-}}
-
-{{#set:|Used in Study=Karlsson2008CytotoxFollowup}}</text>
-    </revision>
-    <revision>
-      <id>2182</id>
-      <timestamp>2013-09-12T07:25:13Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">{{Material
-|Has Label=Co3O4
-|Has Identifier=28
-|Has Chemical Composition=Co3O4
-|Has NM Type=MetalOxide
-|Has Size Min=9
-|Has Size Max=62
-|Has Size Units=nm
-|Has Zeta potential=30.2
-|Has Zeta Units=mV
-}}
-
-{{#set:|Used in Study=Karlsson2008CytotoxFollowup}}</text>
-    </revision>
-  </page>
-  <page>
-    <title>HannaK12</title>
-    <id>172</id>
-    <revision>
-      <id>750</id>
-      <timestamp>2011-06-13T14:20:24Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <comment>Created page with &quot;{{NanoMaterial |Has Label=NiO |Has NM Type=MetalOxide |Has Size=2-67 nm |Has Zeta potential=30.3 |Has Zeta Units=mV }}&quot;</comment>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=NiO
-|Has NM Type=MetalOxide
-|Has Size=2-67 nm
-|Has Zeta potential=30.3
-|Has Zeta Units=mV
-}}</text>
-    </revision>
-    <revision>
-      <id>751</id>
-      <timestamp>2011-06-14T06:11:38Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=NiO
-|Has NM Type=MetalOxide
-|Has Size Min=2
-|Has Size Max=67
-|Has Size Units=nm
-|Has Zeta potential=30.3
-|Has Zeta Units=mV
-}}</text>
-    </revision>
-    <revision>
-      <id>752</id>
-      <timestamp>2011-06-15T08:40:07Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=NiO
-|Has Identifier=29
-|Has Chemical Composition=NiO
-|Has NM Type=MetalOxide
-|Has Size Min=2
-|Has Size Max=67
-|Has Size Units=nm
-|Has Zeta potential=30.3
-|Has Zeta Units=mV
-}}</text>
-    </revision>
-    <revision>
-      <id>753</id>
-      <timestamp>2011-10-28T07:04:42Z</timestamp>
-      <contributor>
-        <ip>Egonw</ip>
-      </contributor>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=NiO
-|Has Identifier=29
-|Has Chemical Composition=NiO
-|Has NM Type=MetalOxide
-|Has Size Min=2
-|Has Size Max=67
-|Has Size Units=nm
-|Has Zeta potential=30.3
-|Has Zeta Units=mV
-}}
-
-{{#set:|Used in Study=Karlsson2008CytotoxFollowup}}</text>
-    </revision>
-    <revision>
-      <id>1958</id>
-      <timestamp>2013-09-02T12:27:36Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">{{Material
-|Has Label=NiO
-|Has Identifier=29
-|Has Chemical Composition=NiO
-|Has NM Type=MetalOxide
-|Has Size Min=2
-|Has Size Max=67
-|Has Size Units=nm
-|Has Zeta potential=30.3
-|Has Zeta Units=mV
-}}
-
-{{#set:|Used in Study=Karlsson2008CytotoxFollowup}}</text>
-    </revision>
-  </page>
-  <page>
-    <title>HannaK13</title>
-    <id>173</id>
-    <revision>
-      <id>754</id>
-      <timestamp>2011-06-13T14:20:56Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <comment>Created page with &quot;{{NanoMaterial |Has Label=SiO2 |Has NM Type=MetalOxide |Has Size=5-15 nm |Has Zeta potential=-11.0 |Has Zeta Units=mV }}&quot;</comment>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=SiO2
-|Has NM Type=MetalOxide
-|Has Size=5-15 nm
-|Has Zeta potential=-11.0
-|Has Zeta Units=mV
-}}</text>
-    </revision>
-    <revision>
-      <id>755</id>
-      <timestamp>2011-06-14T06:11:53Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=SiO2
-|Has NM Type=MetalOxide
-|Has Size Min=5
-|Has Size Max=15
-|Has Size Units=nm
-|Has Zeta potential=-11.0
-|Has Zeta Units=mV
-}}</text>
-    </revision>
-    <revision>
-      <id>756</id>
-      <timestamp>2011-06-15T08:42:23Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=SiO2
-|Has Identifier=30
-|Has Chemical Composition=SiO2
-|Has NM Type=MetalOxide
-|Has Size Min=5
-|Has Size Max=15
-|Has Size Units=nm
-|Has Zeta potential=-11.0
-|Has Zeta Units=mV
-}}</text>
-    </revision>
-    <revision>
-      <id>757</id>
-      <timestamp>2011-06-15T08:46:29Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=SiO2
-|Has Chemical Composition=SiO2
-|Has NM Type=MetalOxide
-|Has Size Min=5
-|Has Size Max=15
-|Has Size Units=nm
-|Has Zeta potential=-11.0
-|Has Zeta Units=mV
-}}</text>
-    </revision>
-    <revision>
-      <id>758</id>
-      <timestamp>2011-06-15T08:52:47Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <comment>Undo revision 593 by [[Special:Contributions/127.0.0.1|127.0.0.1]] ([[User talk:127.0.0.1|Talk]])</comment>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=SiO2
-|Has Identifier=30
-|Has Chemical Composition=SiO2
-|Has NM Type=MetalOxide
-|Has Size Min=5
-|Has Size Max=15
-|Has Size Units=nm
-|Has Zeta potential=-11.0
-|Has Zeta Units=mV
-}}</text>
-    </revision>
-    <revision>
-      <id>759</id>
-      <timestamp>2011-10-28T07:05:16Z</timestamp>
-      <contributor>
-        <ip>Egonw</ip>
-      </contributor>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=SiO2
-|Has Identifier=30
-|Has Chemical Composition=SiO2
-|Has NM Type=MetalOxide
-|Has Size Min=5
-|Has Size Max=15
-|Has Size Units=nm
-|Has Zeta potential=-11.0
-|Has Zeta Units=mV
-}}
-
-{{#set:|Used in Study=Karlsson2008CytotoxFollowup}}</text>
-    </revision>
-    <revision>
-      <id>2181</id>
-      <timestamp>2013-09-12T07:24:56Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">{{Material
-|Has Label=SiO2
-|Has Identifier=30
-|Has Chemical Composition=SiO2
-|Has NM Type=MetalOxide
-|Has Size Min=5
-|Has Size Max=15
-|Has Size Units=nm
-|Has Zeta potential=-11.0
-|Has Zeta Units=mV
-}}
-
-{{#set:|Used in Study=Karlsson2008CytotoxFollowup}}</text>
     </revision>
   </page>
   <page>
@@ -26928,234 +24358,6 @@ Coated gold particles.
       </contributor>
       <comment>Created page with &quot;This is a property of type [[Has type::Number]].&quot;</comment>
       <text xml:space="preserve">This is a property of type [[Has type::Number]].</text>
-    </revision>
-  </page>
-  <page>
-    <title>HannaK10 M1</title>
-    <id>182</id>
-    <revision>
-      <id>770</id>
-      <timestamp>2011-06-15T10:53:44Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <comment>Created page with &quot;{{Measurement |Has Entity=HannaK10 |Has Study=Karlsson2008CytotoxFollowup }}&quot;</comment>
-      <text xml:space="preserve">{{Measurement
-|Has Entity=HannaK10
-|Has Study=Karlsson2008CytotoxFollowup
-}}</text>
-    </revision>
-    <revision>
-      <id>771</id>
-      <timestamp>2011-10-28T09:01:36Z</timestamp>
-      <contributor>
-        <ip>Egonw</ip>
-      </contributor>
-      <text xml:space="preserve">{{Measurement
-|Has Entity=HannaK10
-|Has Study=Karlsson2008CytotoxFollowup
-|Has Endpoint Value=15.597
-|Has Dose=20
-|Has Dose Units=μg/cm²
-|Has Endpoint=DNA Damage
-}}</text>
-    </revision>
-  </page>
-  <page>
-    <title>Karlsson2008CytotoxFollowup</title>
-    <id>183</id>
-    <revision>
-      <id>772</id>
-      <timestamp>2011-06-15T10:54:27Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <comment>Created page with &quot;{{Study |Has Identifier=3 |Has Entities=MetalOxides }}&quot;</comment>
-      <text xml:space="preserve">{{Study
-|Has Identifier=3
-|Has Entities=MetalOxides
-}}</text>
-    </revision>
-    <revision>
-      <id>773</id>
-      <timestamp>2011-09-29T04:35:49Z</timestamp>
-      <contributor>
-        <ip>Egonw</ip>
-      </contributor>
-      <text xml:space="preserve">{{Study
-|Has Identifier=3
-|Has Entities=MetalOxides
-|Has Study Type=Descriptive
-}}</text>
-    </revision>
-    <revision>
-      <id>774</id>
-      <timestamp>2011-10-28T06:51:39Z</timestamp>
-      <contributor>
-        <ip>Egonw</ip>
-      </contributor>
-      <text xml:space="preserve">{{Study
-|Has Identifier=3
-|Has Entities=NanoMaterials
-|Has Study Type=Descriptive
-}}</text>
-    </revision>
-    <revision>
-      <id>775</id>
-      <timestamp>2011-10-28T08:05:59Z</timestamp>
-      <contributor>
-        <ip>Egonw</ip>
-      </contributor>
-      <text xml:space="preserve">{{Study
-|Has Identifier=3
-|Has Entities=NanoMaterials
-|Has Study Type=Descriptive
-}}
-
-{{#ask: [[Category:Measurements]] [[Has Study::{{PAGENAME}}]] [[Has Endpoint::PercentageNonViableCells]]
-| ?Has Endpoint Value
-| format=jqplotbar
-| sort=Has Endpoint Value
-| order=ascending
-| height=250
-| width=600
-}}
-{{#ask: [[Category:Measurements]] [[Has Study::{{PAGENAME}}]] [[Has Endpoint::PercentageNonViableCells]]
-| ?Has Entity #
-| ?Has Dose #
-| ?Has Endpoint Value #
-| sort=Has Endpoint Value
-| order=ascending
-| format = template
-| template = MeasurementDetails
-| introtemplate = MeasurementDetailsHeader
-| outrotemplate = MeasurementDetailsFooter
-}}</text>
-    </revision>
-    <revision>
-      <id>776</id>
-      <timestamp>2011-10-28T08:06:40Z</timestamp>
-      <contributor>
-        <ip>Egonw</ip>
-      </contributor>
-      <text xml:space="preserve">{{Study
-|Has Identifier=3
-|Has Entities=NanoMaterials
-|Has Study Type=Descriptive
-}}
-
-{{#ask: [[Category:Measurements]] [[Has Study::{{PAGENAME}}]] [[Has Endpoint::DNA Damage]]
-| ?Has Endpoint Value
-| format=jqplotbar
-| sort=Has Endpoint Value
-| order=ascending
-| height=250
-| width=600
-}}
-{{#ask: [[Category:Measurements]] [[Has Study::{{PAGENAME}}]] [[Has Endpoint::DNA Damage]]
-| ?Has Entity #
-| ?Has Dose #
-| ?Has Endpoint Value #
-| sort=Has Endpoint Value
-| order=ascending
-| format = template
-| template = MeasurementDetails
-| introtemplate = MeasurementDetailsHeader
-| outrotemplate = MeasurementDetailsFooter
-}}</text>
-    </revision>
-  </page>
-  <page>
-    <title>HannaK11 M1</title>
-    <id>184</id>
-    <revision>
-      <id>777</id>
-      <timestamp>2011-06-15T10:54:52Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <comment>Created page with &quot;{{Measurement |Has Entity=HannaK11 |Has Study=Karlsson2008CytotoxFollowup }}&quot;</comment>
-      <text xml:space="preserve">{{Measurement
-|Has Entity=HannaK11
-|Has Study=Karlsson2008CytotoxFollowup
-}}</text>
-    </revision>
-    <revision>
-      <id>778</id>
-      <timestamp>2011-10-28T09:02:59Z</timestamp>
-      <contributor>
-        <ip>Egonw</ip>
-      </contributor>
-      <text xml:space="preserve">{{Measurement
-|Has Entity=HannaK11
-|Has Study=Karlsson2008CytotoxFollowup
-|Has Endpoint Value=14.616
-|Has Dose=20
-|Has Dose Units=μg/cm²
-|Has Endpoint=DNA Damage
-}}</text>
-    </revision>
-  </page>
-  <page>
-    <title>HannaK12 M1</title>
-    <id>185</id>
-    <revision>
-      <id>779</id>
-      <timestamp>2011-06-15T10:55:02Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <comment>Created page with &quot;{{Measurement |Has Entity=HannaK12 |Has Study=Karlsson2008CytotoxFollowup }}&quot;</comment>
-      <text xml:space="preserve">{{Measurement
-|Has Entity=HannaK12
-|Has Study=Karlsson2008CytotoxFollowup
-}}</text>
-    </revision>
-    <revision>
-      <id>780</id>
-      <timestamp>2011-10-28T09:03:51Z</timestamp>
-      <contributor>
-        <ip>Egonw</ip>
-      </contributor>
-      <text xml:space="preserve">{{Measurement
-|Has Entity=HannaK12
-|Has Study=Karlsson2008CytotoxFollowup
-|Has Endpoint Value=31.598
-|Has Dose=20
-|Has Dose Units=μg/cm²
-|Has Endpoint=DNA Damage
-}}</text>
-    </revision>
-  </page>
-  <page>
-    <title>HannaK13 M1</title>
-    <id>186</id>
-    <revision>
-      <id>781</id>
-      <timestamp>2011-06-15T10:55:15Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <comment>Created page with &quot;{{Measurement |Has Entity=HannaK13 |Has Study=Karlsson2008CytotoxFollowup }}&quot;</comment>
-      <text xml:space="preserve">{{Measurement
-|Has Entity=HannaK13
-|Has Study=Karlsson2008CytotoxFollowup
-}}</text>
-    </revision>
-    <revision>
-      <id>782</id>
-      <timestamp>2011-10-28T09:37:53Z</timestamp>
-      <contributor>
-        <ip>Egonw</ip>
-      </contributor>
-      <text xml:space="preserve">{{Measurement
-|Has Entity=HannaK13
-|Has Study=Karlsson2008CytotoxFollowup
-|Has Endpoint Value=8.291
-|Has Dose=20
-|Has Dose Units=μg/cm²
-|Has Endpoint=DNA Damage
-}}</text>
     </revision>
   </page>
   <page>
@@ -34846,37 +32048,6 @@ The allowed value for this property is:
     </revision>
   </page>
   <page>
-    <title>Karlsson2008 R1</title>
-    <id>315</id>
-    <revision>
-      <id>1094</id>
-      <timestamp>2011-10-13T09:25:37Z</timestamp>
-      <contributor>
-        <ip>Egonw</ip>
-      </contributor>
-      <comment>Created page with &quot;{{Relationship |Descriptor=ParticleClass |Relation=CorrelatesWith |End point=Percentage Non-Viable Cells |Has Source=Puzyn2011 }}&quot;</comment>
-      <text xml:space="preserve">{{Relationship
-|Descriptor=ParticleClass
-|Relation=CorrelatesWith
-|End point=Percentage Non-Viable Cells
-|Has Source=Puzyn2011
-}}</text>
-    </revision>
-    <revision>
-      <id>1095</id>
-      <timestamp>2011-10-30T08:58:55Z</timestamp>
-      <contributor>
-        <ip>Egonw</ip>
-      </contributor>
-      <text xml:space="preserve">{{Relationship
-|Descriptor=Particle Class
-|Relation=Correlates With
-|End point=Percentage Non-Viable Cells
-|Has Source=Puzyn2011
-}}</text>
-    </revision>
-  </page>
-  <page>
     <title>CorrelatesWith</title>
     <id>316</id>
     <revision>
@@ -35065,335 +32236,6 @@ carcinogenicity.
     </revision>
   </page>
   <page>
-    <title>WillighagenS1</title>
-    <id>324</id>
-    <revision>
-      <id>1105</id>
-      <timestamp>2011-10-26T05:09:13Z</timestamp>
-      <contributor>
-        <ip>Egonw</ip>
-      </contributor>
-      <comment>Created page with &quot;{{Study |Has Identifier=10 |Has Entities=MetalOxides |Has Endpoint=PercentageNonViableCells |Has Study Type=Classification |Has Object Count=8 }}&quot;</comment>
-      <text xml:space="preserve">{{Study
-|Has Identifier=10
-|Has Entities=MetalOxides
-|Has Endpoint=PercentageNonViableCells
-|Has Study Type=Classification
-|Has Object Count=8
-}}</text>
-    </revision>
-    <revision>
-      <id>1106</id>
-      <timestamp>2011-10-30T09:11:43Z</timestamp>
-      <contributor>
-        <ip>Egonw</ip>
-      </contributor>
-      <text xml:space="preserve">{{Study
-|Has Identifier=10
-|Has Entities=MetalOxides
-|Has Endpoint=Percentage Non-Viable Cells
-|Has Study Type=Regression
-|Has Object Count=8
-}}</text>
-    </revision>
-    <revision>
-      <id>1107</id>
-      <timestamp>2011-10-30T13:04:45Z</timestamp>
-      <contributor>
-        <ip>Egonw</ip>
-      </contributor>
-      <text xml:space="preserve">{{Study
-|Has Identifier=10
-|Has Entities=MetalOxides
-|Has Endpoint=Percentage Non-Viable Cells
-|Has Study Type=Regression
-|Has Object Count=8
-}}
-
-= Plot = 
-
-{{#ask: [[Category:Measurements]] [[Has Study::{{PAGENAME}}]] [[Has Endpoint::PercentageNonViableCells]]
-| ?Has Endpoint Value
-| format=jqplotbar
-| sort=Has Endpoint Value
-| order=ascending
-| height=250
-| width=600
-}}
-{{#ask: [[Category:Measurements]] [[Has Study::{{PAGENAME}}]] [[Has Endpoint::PercentageNonViableCells]]
-| ?Has Entity #
-| ?Has Dose #
-| ?Has Endpoint Value #
-| sort=Has Endpoint Value
-| order=ascending
-| format = template
-| template = MeasurementDetails
-| introtemplate = MeasurementDetailsHeader
-| outrotemplate = MeasurementDetailsFooter
-}}</text>
-    </revision>
-    <revision>
-      <id>1108</id>
-      <timestamp>2011-10-30T13:05:09Z</timestamp>
-      <contributor>
-        <ip>Egonw</ip>
-      </contributor>
-      <text xml:space="preserve">{{Study
-|Has Identifier=10
-|Has Entities=MetalOxides
-|Has Endpoint=Percentage Non-Viable Cells
-|Has Study Type=Regression
-|Has Object Count=8
-}}
-
-= Plot = 
-
-{{#ask: [[Category:Measurements]] [[Used in Study::{{PAGENAME}}]] [[Has Endpoint::PercentageNonViableCells]]
-| ?Has Endpoint Value
-| format=jqplotbar
-| sort=Has Endpoint Value
-| order=ascending
-| height=250
-| width=600
-}}
-{{#ask: [[Category:Measurements]] [[Used in Study::{{PAGENAME}}]] [[Has Endpoint::PercentageNonViableCells]]
-| ?Has Entity #
-| ?Has Dose #
-| ?Has Endpoint Value #
-| sort=Has Endpoint Value
-| order=ascending
-| format = template
-| template = MeasurementDetails
-| introtemplate = MeasurementDetailsHeader
-| outrotemplate = MeasurementDetailsFooter
-}}</text>
-    </revision>
-    <revision>
-      <id>1109</id>
-      <timestamp>2011-10-30T13:05:36Z</timestamp>
-      <contributor>
-        <ip>Egonw</ip>
-      </contributor>
-      <text xml:space="preserve">{{Study
-|Has Identifier=10
-|Has Entities=MetalOxides
-|Has Endpoint=Percentage Non-Viable Cells
-|Has Study Type=Regression
-|Has Object Count=8
-}}</text>
-    </revision>
-  </page>
-  <page>
-    <title>WillighagenS2</title>
-    <id>325</id>
-    <revision>
-      <id>1110</id>
-      <timestamp>2011-10-26T05:09:44Z</timestamp>
-      <contributor>
-        <ip>Egonw</ip>
-      </contributor>
-      <comment>Created page with &quot;{{Study |Has Identifier=10 |Has Entities=MetalOxides |Has Endpoint=DNADamage |Has Study Type=Classification |Has Object Count=8 }}&quot;</comment>
-      <text xml:space="preserve">{{Study
-|Has Identifier=10
-|Has Entities=MetalOxides
-|Has Endpoint=DNADamage
-|Has Study Type=Classification
-|Has Object Count=8
-}}</text>
-    </revision>
-    <revision>
-      <id>1111</id>
-      <timestamp>2011-10-30T06:37:41Z</timestamp>
-      <contributor>
-        <ip>Egonw</ip>
-      </contributor>
-      <text xml:space="preserve">{{Study
-|Has Identifier=11
-|Has Entities=MetalOxides
-|Has Endpoint=DNADamage
-|Has Study Type=Classification
-|Has Object Count=8
-}}</text>
-    </revision>
-    <revision>
-      <id>1112</id>
-      <timestamp>2011-10-30T09:10:57Z</timestamp>
-      <contributor>
-        <ip>Egonw</ip>
-      </contributor>
-      <text xml:space="preserve">{{Study
-|Has Identifier=11
-|Has Entities=MetalOxides
-|Has Endpoint=DNA Damage
-|Has Study Type=Classification
-|Has Object Count=8
-}}</text>
-    </revision>
-  </page>
-  <page>
-    <title>HannaK14</title>
-    <id>326</id>
-    <revision>
-      <id>1113</id>
-      <timestamp>2011-10-28T07:07:21Z</timestamp>
-      <contributor>
-        <ip>Egonw</ip>
-      </contributor>
-      <comment>Created page with &quot;{{NanoMaterial |Has Label=MnO2 |Has Identifier=90 |Has Chemical Composition=MnO2 |Has NM Type=MetalOxide }}  {{#set:|Used in Study=Karlsson2008CytotoxFollowup}}&quot;</comment>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=MnO2
-|Has Identifier=90
-|Has Chemical Composition=MnO2
-|Has NM Type=MetalOxide
-}}
-
-{{#set:|Used in Study=Karlsson2008CytotoxFollowup}}</text>
-    </revision>
-    <revision>
-      <id>1114</id>
-      <timestamp>2011-10-28T07:32:44Z</timestamp>
-      <contributor>
-        <ip>Egonw</ip>
-      </contributor>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=MnO2
-|Has Identifier=90
-|Has Chemical Composition=MnO2
-|Has NM Type=MetalOxide
-|Has Size Min=300
-|Has Size Max=800
-|Has Size Units=nm
-}}
-
-{{#set:|Used in Study=Karlsson2008CytotoxFollowup}}</text>
-    </revision>
-    <revision>
-      <id>1115</id>
-      <timestamp>2011-10-28T07:33:29Z</timestamp>
-      <contributor>
-        <ip>Egonw</ip>
-      </contributor>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=MnO2
-|Has Identifier=90
-|Has Chemical Composition=MnO2
-|Has NM Type=MetalOxide
-|Has Size Min=300
-|Has Size Max=800
-|Has Size Units=nm
-}}
-
-Particles of size down to 35 nm have been observed in clusters.
-
-{{#set:|Used in Study=Karlsson2008CytotoxFollowup}}</text>
-    </revision>
-    <revision>
-      <id>1116</id>
-      <timestamp>2011-11-09T06:52:01Z</timestamp>
-      <contributor>
-        <ip>Egonw</ip>
-      </contributor>
-      <text xml:space="preserve">{{Material
-|Has Label=MnO2
-|Has Identifier=90
-|Has Chemical Composition=MnO2
-|Has NM Type=MetalOxide
-|Has Size Min=300
-|Has Size Max=800
-|Has Size Units=nm
-}}
-
-Particles of size down to 35 nm have been observed in clusters.
-
-{{#set:|Used in Study=Karlsson2008CytotoxFollowup}}</text>
-    </revision>
-  </page>
-  <page>
-    <title>HannaK14 M1</title>
-    <id>327</id>
-    <revision>
-      <id>1117</id>
-      <timestamp>2011-10-28T07:36:55Z</timestamp>
-      <contributor>
-        <ip>Egonw</ip>
-      </contributor>
-      <comment>Created page with &quot;{{Measurement |Has Entity=HannaK14 |Has Endpoint Value=16.085 |Has Dose=20 |Has Dose Units=μg/cm² |Has Endpoint=DNA Damage |Has Study=Karlsson2008CytotoxFollowUp }}&quot;</comment>
-      <text xml:space="preserve">{{Measurement
-|Has Entity=HannaK14
-|Has Endpoint Value=16.085
-|Has Dose=20
-|Has Dose Units=μg/cm²
-|Has Endpoint=DNA Damage
-|Has Study=Karlsson2008CytotoxFollowUp
-}}</text>
-    </revision>
-    <revision>
-      <id>1118</id>
-      <timestamp>2011-10-28T08:07:05Z</timestamp>
-      <contributor>
-        <ip>Egonw</ip>
-      </contributor>
-      <text xml:space="preserve">{{Measurement
-|Has Entity=HannaK14
-|Has Endpoint Value=16.085
-|Has Dose=20
-|Has Dose Units=μg/cm²
-|Has Endpoint=DNA Damage
-|Has Study=Karlsson2008CytotoxFollowup
-}}</text>
-    </revision>
-  </page>
-  <page>
-    <title>HannaK14 M2</title>
-    <id>328</id>
-    <revision>
-      <id>1119</id>
-      <timestamp>2011-10-28T07:37:13Z</timestamp>
-      <contributor>
-        <ip>Egonw</ip>
-      </contributor>
-      <comment>Created page with &quot;{{Measurement |Has Entity=HannaK14 |Has Endpoint Value=18.849 |Has Dose=40 |Has Dose Units=μg/cm² |Has Endpoint=DNA Damage |Has Study=Karlsson2008CytotoxFollowUp }}&quot;</comment>
-      <text xml:space="preserve">{{Measurement
-|Has Entity=HannaK14
-|Has Endpoint Value=18.849
-|Has Dose=40
-|Has Dose Units=μg/cm²
-|Has Endpoint=DNA Damage
-|Has Study=Karlsson2008CytotoxFollowUp
-}}</text>
-    </revision>
-    <revision>
-      <id>1120</id>
-      <timestamp>2011-10-28T08:06:56Z</timestamp>
-      <contributor>
-        <ip>Egonw</ip>
-      </contributor>
-      <text xml:space="preserve">{{Measurement
-|Has Entity=HannaK14
-|Has Endpoint Value=18.849
-|Has Dose=40
-|Has Dose Units=μg/cm²
-|Has Endpoint=DNA Damage
-|Has Study=Karlsson2008CytotoxFollowyp
-}}</text>
-    </revision>
-    <revision>
-      <id>1121</id>
-      <timestamp>2011-10-28T08:07:43Z</timestamp>
-      <contributor>
-        <ip>Egonw</ip>
-      </contributor>
-      <text xml:space="preserve">{{Measurement
-|Has Entity=HannaK14
-|Has Endpoint Value=18.849
-|Has Dose=40
-|Has Dose Units=μg/cm²
-|Has Endpoint=DNA Damage
-|Has Study=Karlsson2008CytotoxFollowup
-}}</text>
-    </revision>
-  </page>
-  <page>
     <title>DNA Damage</title>
     <id>329</id>
     <revision>
@@ -35406,126 +32248,6 @@ Particles of size down to 35 nm have been observed in clusters.
       <text xml:space="preserve">{{Endpoint
 |Description=DNA Damage
 |Has Assay Type=In Vitro
-}}</text>
-    </revision>
-  </page>
-  <page>
-    <title>HannaK9 M1</title>
-    <id>330</id>
-    <revision>
-      <id>1123</id>
-      <timestamp>2011-10-28T09:00:14Z</timestamp>
-      <contributor>
-        <ip>Egonw</ip>
-      </contributor>
-      <comment>Created page with &quot;{{Measurement |Has Entity=HannaK9 |Has Endpoint Value=9.273 |Has Dose=20 |Has Dose Units=μg/cm² |Has Endpoint=DNA Damage |Has Study=Karlsson2008CytotoxFollowup }}&quot;</comment>
-      <text xml:space="preserve">{{Measurement
-|Has Entity=HannaK9
-|Has Endpoint Value=9.273
-|Has Dose=20
-|Has Dose Units=μg/cm²
-|Has Endpoint=DNA Damage
-|Has Study=Karlsson2008CytotoxFollowup
-}}</text>
-    </revision>
-  </page>
-  <page>
-    <title>HannaK9 M2</title>
-    <id>331</id>
-    <revision>
-      <id>1124</id>
-      <timestamp>2011-10-28T09:00:31Z</timestamp>
-      <contributor>
-        <ip>Egonw</ip>
-      </contributor>
-      <comment>Created page with &quot;{{Measurement |Has Entity=HannaK9 |Has Endpoint Value=10.732 |Has Dose=40 |Has Dose Units=μg/cm² |Has Endpoint=DNA Damage |Has Study=Karlsson2008CytotoxFollowup }}&quot;</comment>
-      <text xml:space="preserve">{{Measurement
-|Has Entity=HannaK9
-|Has Endpoint Value=10.732
-|Has Dose=40
-|Has Dose Units=μg/cm²
-|Has Endpoint=DNA Damage
-|Has Study=Karlsson2008CytotoxFollowup
-}}</text>
-    </revision>
-  </page>
-  <page>
-    <title>HannaK10 M2</title>
-    <id>332</id>
-    <revision>
-      <id>1125</id>
-      <timestamp>2011-10-28T09:02:09Z</timestamp>
-      <contributor>
-        <ip>Egonw</ip>
-      </contributor>
-      <comment>Created page with &quot;{{Measurement |Has Entity=HannaK10 |Has Study=Karlsson2008CytotoxFollowup |Has Endpoint Value=23.619 |Has Dose=40 |Has Dose Units=μg/cm² |Has Endpoint=DNA Damage }}&quot;</comment>
-      <text xml:space="preserve">{{Measurement
-|Has Entity=HannaK10
-|Has Study=Karlsson2008CytotoxFollowup
-|Has Endpoint Value=23.619
-|Has Dose=40
-|Has Dose Units=μg/cm²
-|Has Endpoint=DNA Damage
-}}</text>
-    </revision>
-  </page>
-  <page>
-    <title>HannaK11 M2</title>
-    <id>333</id>
-    <revision>
-      <id>1126</id>
-      <timestamp>2011-10-28T09:03:16Z</timestamp>
-      <contributor>
-        <ip>Egonw</ip>
-      </contributor>
-      <comment>Created page with &quot;{{Measurement |Has Entity=HannaK11 |Has Study=Karlsson2008CytotoxFollowup |Has Endpoint Value=12.302 |Has Dose=40 |Has Dose Units=μg/cm² |Has Endpoint=DNA Damage }}&quot;</comment>
-      <text xml:space="preserve">{{Measurement
-|Has Entity=HannaK11
-|Has Study=Karlsson2008CytotoxFollowup
-|Has Endpoint Value=12.302
-|Has Dose=40
-|Has Dose Units=μg/cm²
-|Has Endpoint=DNA Damage
-}}</text>
-    </revision>
-  </page>
-  <page>
-    <title>HannaK12 M2</title>
-    <id>334</id>
-    <revision>
-      <id>1127</id>
-      <timestamp>2011-10-28T09:04:12Z</timestamp>
-      <contributor>
-        <ip>Egonw</ip>
-      </contributor>
-      <comment>Created page with &quot;{{Measurement |Has Entity=HannaK12 |Has Study=Karlsson2008CytotoxFollowup |Has Endpoint Value=29.918 |Has Dose=40 |Has Dose Units=μg/cm² |Has Endpoint=DNA Damage }}&quot;</comment>
-      <text xml:space="preserve">{{Measurement
-|Has Entity=HannaK12
-|Has Study=Karlsson2008CytotoxFollowup
-|Has Endpoint Value=29.918
-|Has Dose=40
-|Has Dose Units=μg/cm²
-|Has Endpoint=DNA Damage
-}}</text>
-    </revision>
-  </page>
-  <page>
-    <title>HannaK13 M2</title>
-    <id>335</id>
-    <revision>
-      <id>1128</id>
-      <timestamp>2011-10-28T09:38:16Z</timestamp>
-      <contributor>
-        <ip>Egonw</ip>
-      </contributor>
-      <comment>Created page with &quot;{{Measurement |Has Entity=HannaK13 |Has Study=Karlsson2008CytotoxFollowup |Has Endpoint Value=8.937 |Has Dose=40 |Has Dose Units=μg/cm² |Has Endpoint=DNA Damage }}&quot;</comment>
-      <text xml:space="preserve">{{Measurement
-|Has Entity=HannaK13
-|Has Study=Karlsson2008CytotoxFollowup
-|Has Endpoint Value=8.937
-|Has Dose=40
-|Has Dose Units=μg/cm²
-|Has Endpoint=DNA Damage
 }}</text>
     </revision>
   </page>
@@ -38667,6 +35389,34 @@ The allowed value for this property is:
       <comment>Created page with &quot;{{Descriptor}}&quot;</comment>
       <text xml:space="preserve">{{Descriptor}}</text>
     </revision>
+    <revision>
+      <id>2268</id>
+      <timestamp>2014-09-27T21:43:14Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Descriptor}}
+
+[[Category:Particle Sizes]]</text>
+    </revision>
+    <revision>
+      <id>2269</id>
+      <timestamp>2014-09-27T21:43:30Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Descriptor}}</text>
+    </revision>
+    <revision>
+      <id>2273</id>
+      <timestamp>2014-09-27T21:45:42Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Descriptor}}
+
+[[Category:Particle Size]]</text>
+    </revision>
   </page>
   <page>
     <title>Field2011 R2</title>
@@ -38757,55 +35507,6 @@ The allowed value for this property is:
       </contributor>
       <comment>Created page with &quot;This is a property of type [[Has type::Page]].&quot;</comment>
       <text xml:space="preserve">This is a property of type [[Has type::Page]].</text>
-    </revision>
-  </page>
-  <page>
-    <title>WillighagenS1 R1</title>
-    <id>472</id>
-    <revision>
-      <id>1309</id>
-      <timestamp>2011-10-30T09:50:46Z</timestamp>
-      <contributor>
-        <ip>Egonw</ip>
-      </contributor>
-      <comment>Created page with &quot;{{Relationship |Descriptor=Ionozation Enthalpy |Relation=Negatively Correlates With |End point=Log Reciprocal EC50 |From Study=WillighagenS1 }}&quot;</comment>
-      <text xml:space="preserve">{{Relationship
-|Descriptor=Ionozation Enthalpy
-|Relation=Negatively Correlates With
-|End point=Log Reciprocal EC50
-|From Study=WillighagenS1
-}}</text>
-    </revision>
-    <revision>
-      <id>1310</id>
-      <timestamp>2011-10-30T09:50:57Z</timestamp>
-      <contributor>
-        <ip>Egonw</ip>
-      </contributor>
-      <text xml:space="preserve">{{Relationship
-|Descriptor=Ionization Enthalpy
-|Relation=Negatively Correlates With
-|End point=Log Reciprocal EC50
-|From Study=WillighagenS1
-}}</text>
-    </revision>
-  </page>
-  <page>
-    <title>WillighagenS1 R2</title>
-    <id>473</id>
-    <revision>
-      <id>1311</id>
-      <timestamp>2011-10-30T09:52:14Z</timestamp>
-      <contributor>
-        <ip>Egonw</ip>
-      </contributor>
-      <comment>Created page with &quot;{{Relationship |Descriptor=Particle Size |Relation=Correlates With |End point=Log Reciprocal EC50 |From Study=WillighagenS1 }}&quot;</comment>
-      <text xml:space="preserve">{{Relationship
-|Descriptor=Particle Size
-|Relation=Correlates With
-|End point=Log Reciprocal EC50
-|From Study=WillighagenS1
-}}</text>
     </revision>
   </page>
   <page>
@@ -39268,440 +35969,6 @@ The allowed value for this property is:
 }}
 
 &lt;pdf height=&quot;300&quot;&gt;c/c0/Karlsson2009.pdf&lt;/pdf&gt;</text>
-    </revision>
-  </page>
-  <page>
-    <title>HannaK15</title>
-    <id>484</id>
-    <revision>
-      <id>1331</id>
-      <timestamp>2011-10-30T11:01:01Z</timestamp>
-      <contributor>
-        <ip>Egonw</ip>
-      </contributor>
-      <comment>Created page with &quot;{{NanoMaterial |Has Label=Fe2O3 nano |Has Identifier=25 |Has Chemical Composition=Fe2O3 |Has NM Type=MetalOxide |Has Size Min=30 |Has Size Max=60 |Has Size Units=nm |Has Size Met…&quot;</comment>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=Fe2O3 nano
-|Has Identifier=25
-|Has Chemical Composition=Fe2O3
-|Has NM Type=MetalOxide
-|Has Size Min=30
-|Has Size Max=60
-|Has Size Units=nm
-|Has Size Method=TEM
-}}</text>
-    </revision>
-    <revision>
-      <id>1332</id>
-      <timestamp>2011-10-30T11:01:36Z</timestamp>
-      <contributor>
-        <ip>Egonw</ip>
-      </contributor>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=Fe2O3 nano
-|Has Identifier=110
-|Has Chemical Composition=Fe2O3
-|Has NM Type=MetalOxide
-|Has Size Min=30
-|Has Size Max=60
-|Has Size Units=nm
-|Has Size Method=TEM
-}}</text>
-    </revision>
-    <revision>
-      <id>1937</id>
-      <timestamp>2013-09-02T11:30:53Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">{{Material
-|Has Label=Fe2O3 nano
-|Has Identifier=110
-|Has Chemical Composition=Fe2O3
-|Has NM Type=MetalOxide
-|Has Size Min=30
-|Has Size Max=60
-|Has Size Units=nm
-|Has Size Method=TEM
-}}</text>
-    </revision>
-    <revision>
-      <id>2070</id>
-      <timestamp>2013-09-03T14:49:02Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">This used to be a material, but turned out to be the same as [[HannaK5]].
-
-{{set:Has Identifier=110}}</text>
-    </revision>
-    <revision>
-      <id>2071</id>
-      <timestamp>2013-09-03T14:51:00Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">This used to be a material, but turned out to be the same as [[HannaK5]].
-
-{{#set:Has Identifier=110}}</text>
-    </revision>
-  </page>
-  <page>
-    <title>HannaK16</title>
-    <id>485</id>
-    <revision>
-      <id>1333</id>
-      <timestamp>2011-10-30T11:02:32Z</timestamp>
-      <contributor>
-        <ip>Egonw</ip>
-      </contributor>
-      <comment>Created page with &quot;{{NanoMaterial |Has Label=Fe2O3 micro |Has Identifier=111 |Has Chemical Composition=Fe2O3 |Has NM Type=MetalOxide |Has Size Min=150 |Has Size Max=1000 |Has Size Units=nm |Has Siz…&quot;</comment>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=Fe2O3 micro
-|Has Identifier=111
-|Has Chemical Composition=Fe2O3
-|Has NM Type=MetalOxide
-|Has Size Min=150
-|Has Size Max=1000
-|Has Size Units=nm
-|Has Size Method=TEM
-}}</text>
-    </revision>
-    <revision>
-      <id>1334</id>
-      <timestamp>2011-11-09T06:53:05Z</timestamp>
-      <contributor>
-        <ip>Egonw</ip>
-      </contributor>
-      <text xml:space="preserve">{{Material
-|Has Label=Fe2O3 micro
-|Has Identifier=111
-|Has Chemical Composition=Fe2O3
-|Has NM Type=MetalOxide
-|Has Size Min=150
-|Has Size Max=1000
-|Has Size Units=nm
-|Has Size Method=TEM
-}}</text>
-    </revision>
-  </page>
-  <page>
-    <title>HannaK17</title>
-    <id>486</id>
-    <revision>
-      <id>1335</id>
-      <timestamp>2011-10-30T11:03:08Z</timestamp>
-      <contributor>
-        <ip>Egonw</ip>
-      </contributor>
-      <comment>Created page with &quot;{{NanoMaterial |Has Label=Fe3O4 nano |Has Identifier=111 |Has Chemical Composition=Fe3O4 |Has NM Type=MetalOxide |Has Size Min=20 |Has Size Max=40 |Has Size Units=nm |Has Size Me…&quot;</comment>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=Fe3O4 nano
-|Has Identifier=111
-|Has Chemical Composition=Fe3O4
-|Has NM Type=MetalOxide
-|Has Size Min=20
-|Has Size Max=40
-|Has Size Units=nm
-|Has Size Method=TEM
-}}</text>
-    </revision>
-    <revision>
-      <id>1336</id>
-      <timestamp>2011-10-30T11:06:45Z</timestamp>
-      <contributor>
-        <ip>Egonw</ip>
-      </contributor>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=Fe3O4 nano
-|Has Identifier=116
-|Has Chemical Composition=Fe3O4
-|Has NM Type=MetalOxide
-|Has Size Min=20
-|Has Size Max=40
-|Has Size Units=nm
-|Has Size Method=TEM
-}}</text>
-    </revision>
-    <revision>
-      <id>1400</id>
-      <timestamp>2012-05-22T16:33:34Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=Fe3O4 nano
-|Has Identifier=116
-|Has Chemical Composition=Fe3O4
-|Has NM Type=MetalOxide
-|Has Size Min=20
-|Has Size Max=40
-|Has Size Units=nm
-|Has Size Method=TEM
-|Has Zeta potential=1.8
-|Has Zeta Units=mV
-}}</text>
-    </revision>
-    <revision>
-      <id>1934</id>
-      <timestamp>2013-09-02T11:30:31Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">{{Material
-|Has Label=Fe3O4 nano
-|Has Identifier=116
-|Has Chemical Composition=Fe3O4
-|Has NM Type=MetalOxide
-|Has Size Min=20
-|Has Size Max=40
-|Has Size Units=nm
-|Has Size Method=TEM
-|Has Zeta potential=1.8
-|Has Zeta Units=mV
-}}</text>
-    </revision>
-    <revision>
-      <id>2072</id>
-      <timestamp>2013-09-03T15:01:43Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">This used to be &quot;Fe3O4 nano&quot;, but turned out the be the same material as [[Hanna6]].
-
-{{#set:Has Identifier=116}}</text>
-    </revision>
-  </page>
-  <page>
-    <title>HannaK18</title>
-    <id>487</id>
-    <revision>
-      <id>1337</id>
-      <timestamp>2011-10-30T11:03:32Z</timestamp>
-      <contributor>
-        <ip>Egonw</ip>
-      </contributor>
-      <comment>Created page with &quot;{{NanoMaterial |Has Label=Fe3O4 micro |Has Identifier=112 |Has Chemical Composition=Fe3O4 |Has NM Type=MetalOxide |Has Size Min=100 |Has Size Max=500 |Has Size Units=nm |Has Size…&quot;</comment>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=Fe3O4 micro
-|Has Identifier=112
-|Has Chemical Composition=Fe3O4
-|Has NM Type=MetalOxide
-|Has Size Min=100
-|Has Size Max=500
-|Has Size Units=nm
-|Has Size Method=TEM
-}}</text>
-    </revision>
-    <revision>
-      <id>1338</id>
-      <timestamp>2011-11-09T07:12:27Z</timestamp>
-      <contributor>
-        <ip>Egonw</ip>
-      </contributor>
-      <text xml:space="preserve">{{Material
-|Has Label=Fe3O4 micro
-|Has Identifier=112
-|Has Chemical Composition=Fe3O4
-|Has NM Type=MetalOxide
-|Has Size Min=100
-|Has Size Max=500
-|Has Size Units=nm
-|Has Size Method=TEM
-}}</text>
-    </revision>
-  </page>
-  <page>
-    <title>HannaK19</title>
-    <id>488</id>
-    <revision>
-      <id>1339</id>
-      <timestamp>2011-10-30T11:04:10Z</timestamp>
-      <contributor>
-        <ip>Egonw</ip>
-      </contributor>
-      <comment>Created page with &quot;{{NanoMaterial |Has Label=TiO2 nano |Has Identifier=113 |Has Chemical Composition=TiO2 |Has NM Type=MetalOxide |Has Size Min=20 |Has Size Max=100 |Has Size Units=nm |Has Size Met…&quot;</comment>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=TiO2 nano
-|Has Identifier=113
-|Has Chemical Composition=TiO2
-|Has NM Type=MetalOxide
-|Has Size Min=20
-|Has Size Max=100
-|Has Size Units=nm
-|Has Size Method=TEM
-}}</text>
-    </revision>
-    <revision>
-      <id>1936</id>
-      <timestamp>2013-09-02T11:30:46Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">{{Material
-|Has Label=TiO2 nano
-|Has Identifier=113
-|Has Chemical Composition=TiO2
-|Has NM Type=MetalOxide
-|Has Size Min=20
-|Has Size Max=100
-|Has Size Units=nm
-|Has Size Method=TEM
-}}</text>
-    </revision>
-    <revision>
-      <id>2073</id>
-      <timestamp>2013-09-03T15:35:41Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">This used to be &quot;TiO2 nano&quot;, but was found identical to [[HannaK2]].
-
-{{#set:Has Identifier=113}}</text>
-    </revision>
-  </page>
-  <page>
-    <title>HannaK20</title>
-    <id>489</id>
-    <revision>
-      <id>1340</id>
-      <timestamp>2011-10-30T11:04:31Z</timestamp>
-      <contributor>
-        <ip>Egonw</ip>
-      </contributor>
-      <comment>Created page with &quot;{{NanoMaterial |Has Label=TiO2 micro |Has Identifier=114 |Has Chemical Composition=TiO2 |Has NM Type=MetalOxide |Has Size Min=300 |Has Size Max=1000 |Has Size Units=nm |Has Size …&quot;</comment>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=TiO2 micro
-|Has Identifier=114
-|Has Chemical Composition=TiO2
-|Has NM Type=MetalOxide
-|Has Size Min=300
-|Has Size Max=1000
-|Has Size Units=nm
-|Has Size Method=TEM
-}}</text>
-    </revision>
-    <revision>
-      <id>1341</id>
-      <timestamp>2011-10-30T11:06:51Z</timestamp>
-      <contributor>
-        <ip>Egonw</ip>
-      </contributor>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=TiO2 micro
-|Has Identifier=117
-|Has Chemical Composition=TiO2
-|Has NM Type=MetalOxide
-|Has Size Min=300
-|Has Size Max=1000
-|Has Size Units=nm
-|Has Size Method=TEM
-}}</text>
-    </revision>
-    <revision>
-      <id>1342</id>
-      <timestamp>2011-11-09T07:12:18Z</timestamp>
-      <contributor>
-        <ip>Egonw</ip>
-      </contributor>
-      <text xml:space="preserve">{{Material
-|Has Label=TiO2 micro
-|Has Identifier=117
-|Has Chemical Composition=TiO2
-|Has NM Type=MetalOxide
-|Has Size Min=300
-|Has Size Max=1000
-|Has Size Units=nm
-|Has Size Method=TEM
-}}</text>
-    </revision>
-  </page>
-  <page>
-    <title>HannaK21</title>
-    <id>490</id>
-    <revision>
-      <id>1343</id>
-      <timestamp>2011-10-30T11:05:22Z</timestamp>
-      <contributor>
-        <ip>Egonw</ip>
-      </contributor>
-      <comment>Created page with &quot;{{NanoMaterial |Has Label=CuO nano |Has Identifier=114 |Has Chemical Composition=CuO |Has NM Type=MetalOxide |Has Size Min=20 |Has Size Max=40 |Has Size Units=nm |Has Size Method…&quot;</comment>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=CuO nano
-|Has Identifier=114
-|Has Chemical Composition=CuO
-|Has NM Type=MetalOxide
-|Has Size Min=20
-|Has Size Max=40
-|Has Size Units=nm
-|Has Size Method=TEM
-}}</text>
-    </revision>
-    <revision>
-      <id>1935</id>
-      <timestamp>2013-09-02T11:30:39Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">{{Material
-|Has Label=CuO nano
-|Has Identifier=114
-|Has Chemical Composition=CuO
-|Has NM Type=MetalOxide
-|Has Size Min=20
-|Has Size Max=40
-|Has Size Units=nm
-|Has Size Method=TEM
-}}</text>
-    </revision>
-    <revision>
-      <id>2074</id>
-      <timestamp>2013-09-03T15:38:24Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">This used to be &quot;CuO nano&quot;, but was found the be a duplicate of [[HannaK1]].
-
-{{#set:Has Identifier=114}}</text>
-    </revision>
-  </page>
-  <page>
-    <title>HannaK22</title>
-    <id>491</id>
-    <revision>
-      <id>1344</id>
-      <timestamp>2011-10-30T11:06:09Z</timestamp>
-      <contributor>
-        <ip>Egonw</ip>
-      </contributor>
-      <comment>Created page with &quot;{{NanoMaterial |Has Label=CuO micro |Has Identifier=115 |Has Chemical Composition=CuO |Has NM Type=MetalOxide |Has Size Min=500 |Has Size Max=1000 |Has Size Units=nm |Has Size Me…&quot;</comment>
-      <text xml:space="preserve">{{NanoMaterial
-|Has Label=CuO micro
-|Has Identifier=115
-|Has Chemical Composition=CuO
-|Has NM Type=MetalOxide
-|Has Size Min=500
-|Has Size Max=1000
-|Has Size Units=nm
-|Has Size Method=TEM
-}}</text>
-    </revision>
-    <revision>
-      <id>1345</id>
-      <timestamp>2011-11-09T07:12:09Z</timestamp>
-      <contributor>
-        <ip>Egonw</ip>
-      </contributor>
-      <text xml:space="preserve">{{Material
-|Has Label=CuO micro
-|Has Identifier=115
-|Has Chemical Composition=CuO
-|Has NM Type=MetalOxide
-|Has Size Min=500
-|Has Size Max=1000
-|Has Size Units=nm
-|Has Size Method=TEM
-}}</text>
     </revision>
   </page>
   <page>
@@ -41796,6 +38063,442 @@ This paper is purely theoretical and does not have experimental data; therefore,
 [[Category:Chemical_Entities]]__NOEDITSECTION____NOTOC__
 &lt;/includeonly&gt;</text>
     </revision>
+    <revision>
+      <id>2266</id>
+      <timestamp>2014-09-27T21:23:33Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">&lt;noinclude&gt;
+&lt;pre&gt;
+{{Material
+|Has Identifier=
+|Has Label=
+|Has Source=
+|Has Chemical Composition=
+|Has Chemical Coating=
+|Image=
+|Has NM Type=
+|Has Size=
+|Has Size Min=
+|Has Size Max=
+|Has Size Error=
+|Has Size Units=
+|Has Size Method=
+|Has Zeta potential=
+|Has Zeta Min=
+|Has Zeta Max=
+|Has Zeta Units=
+|Has Zeta Error=
+|Has IEP=
+}}
+&lt;/pre&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: right; table-layout:fixed; word-wrap: break-word;&quot;
+! colspan=2 style=&quot;text-align: center;background-color: #ddd;&quot; | Material
+|-
+! colspan=2 style=&quot;text-align: center; font-size: 125%&quot; | {{{Name|{{PAGENAME}}}}}
+{{#if:{{{Image|}}}|
+{{!}}-
+{{!}} Image
+{{!}} {{{Image}}}
+}}
+|-
+{{#if:{{{Has Label|}}}|
+{{!}}-
+{{!}} Label
+{{!}} {{{Has Label}}} 
+}}
+|-
+{{#if:{{{Has Source|}}}|
+{{!}}-
+{{!}} Source
+{{!}} {{{Has Source}}} 
+}}
+|-
+{{#if:{{{Has Identifier|}}}|
+{{!}}-
+{{!}} Identifier
+{{!}} {{{Has Identifier}}} 
+}}
+|-
+{{#if:{{{Has Chemical Composition|}}}|
+{{!}}-
+{{!}} Chemical Composition
+{{!}} {{{Has Chemical Composition}}} 
+}}
+|-
+{{#if:{{{Has Chemical Coating|}}}|
+{{!}}-
+{{!}} Chemical Coating
+{{!}} {{{Has Chemical Coating}}} 
+}}
+|-
+! colspan=2 style=&quot;text-align: center;background-color: #ddd;&quot; | Properties
+|-
+{{#if:{{{Has Size|}}}|
+{{!}}-
+{{!}} Size
+{{!}} {{{Has Size}}} {{#if:{{{Has Size Error|}}}|± {{{Has Size Error}}}}} {{#if:{{{Has Size Units|}}}|{{{Has Size Units}}}}} {{#if:{{{Has Size Method|}}}| ({{{Has Size Method}}})}}
+}}
+{{#if:{{{Has Size Min|}}}|
+{{!}}-
+{{!}} Size
+{{!}} {{{Has Size Min}}} - {{{Has Size Max}}} {{#if:{{{Has Size Units|}}}|{{{Has Size Units}}}}} {{#if:{{{Has Size Method|}}}| ({{{Has Size Method}}})}}
+}}
+{{#if:{{{Has NM Type|}}}|
+{{!}}-
+{{!}} Type
+{{!}} {{{Has NM Type}}} 
+}}
+{{#if:{{{Has Zeta potential|}}}|
+{{!}}-
+{{!}} Zeta potential
+{{!}} {{{Has Zeta potential}}} {{#if:{{{Has Zeta Error|}}}|± {{{Has Zeta Error}}}}} {{#if:{{{Has Zeta Units|}}}|{{{Has Zeta Units}}}}}
+}}
+{{#if:{{{Has Zeta Min|}}}|
+{{!}}-
+{{!}} Size
+{{!}} {{{Has Zeta Min}}} - {{{Has Zeta Max}}} {{#if:{{{Has Zeta Units|}}}|{{{Has Zeta Units}}}}}
+}}
+{{#if:{{{Has IEP|}}}|
+{{!}}-
+{{!}} IEP
+{{!}} {{{Has IEP}}}
+}}
+|}
+&lt;br&gt;
+= Measurements =
+{{#ask: [[Category:Measurements]] [[Has Entity::{{PAGENAME}}]]
+| ?Has Dose #
+| ?Has Endpoint
+| ?Has Endpoint Value
+| ?Has Endpoint Error
+| ?Has Endpoint Value Units
+| ?Has Method
+| format=jqplotbar
+| sort=Has Endpoint Value
+| order=ascending
+| height=250
+| width=600
+}}
+{{#ask: [[Category:Measurements]] [[Has Entity::{{PAGENAME}}]]
+| ?Has Dose #
+| ?Has Endpoint
+| ?Has Endpoint Class
+| ?Has Method
+| format=jqplotbar
+| sort=Has Endpoint Class
+| order=ascending
+| height=250
+| width=600
+}}
+{{#if:{{{Has Size|}}} |
+{{#set:
+|Has Size={{{Has Size|}}}
+}}
+| }}
+{{#if:{{{Has Size Min|}}} |
+{{#set:
+|Has Size Min={{{Has Size Min|}}}
+}}
+| }}
+{{#if:{{{Has Size Max|}}} |
+{{#set:
+|Has Size Max={{{Has Size Max|}}}
+}}
+| }}
+{{#if:{{{Has Size Error|}}} |
+{{#set:
+|Has Size Error={{{Has Size Error|}}}
+}}
+| }}
+{{#if:{{{Has Size Units|}}} |
+{{#set:
+|Has Size Units={{{Has Size Units|}}}
+}}
+| }}
+{{#if:{{{Has Size Method|}}} |
+  {{#set: |Has Size Method={{{Has Size Method|}}} }}
+| }}
+{{#if:{{{Has Label|}}} |
+{{#set:
+|Has Label={{{Has Label|}}}
+}}
+| }}
+{{#if:{{{Has Source|}}} |
+{{#set:
+|Has Source={{{Has Source|}}}
+}}
+| }}
+{{#if:{{{Has Identifier|}}} |
+{{#set:
+|Has Identifier={{{Has Identifier|}}}
+}}
+| }}
+{{#if:{{{Has Chemical Composition|}}} |
+{{#set:
+|Has Chemical Composition={{{Has Chemical Composition|}}}
+}}
+| }}
+{{#if:{{{Has Chemical Coating|}}} |
+{{#set:
+|Has Chemical Coating={{{Has Chemical Coating|}}}
+}}
+| }}
+{{#if:{{{Has NM Type|}}} |
+{{#set:
+|Has NM Type={{{Has NM Type|}}}
+}}
+[[Category:{{{Has NM Type|}}}s]]
+| }}
+{{#if:{{{Has Zeta potential|}}} |
+{{#set:
+|Has Zeta potential={{{Has Zeta potential|}}}
+}}
+| }}
+{{#if:{{{Has Zeta Units|}}} |
+{{#set:
+|Has Zeta Units={{{Has Zeta Units|}}}
+}}
+| }}
+{{#if:{{{Has Zeta Error|}}} |
+{{#set:
+|Has Zeta Error={{{Has Zeta Error|}}}
+}}
+| }}
+{{#if:{{{Has IEP|}}} |
+{{#set:
+|Has IEP={{{Has IEP|}}}
+}}
+| }}
+[[Category:Materials]]__NOEDITSECTION____NOTOC__
+[[Category:Chemical_Entities]]__NOEDITSECTION____NOTOC__
+&lt;/includeonly&gt;</text>
+    </revision>
+    <revision>
+      <id>2267</id>
+      <timestamp>2014-09-27T21:24:54Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">&lt;noinclude&gt;
+&lt;pre&gt;
+{{Material
+|Has Identifier=
+|Has Label=
+|Has Source=
+|Has Chemical Composition=
+|Has Chemical Coating=
+|Image=
+|Has NM Type=
+|Has Size=
+|Has Size Min=
+|Has Size Max=
+|Has Size Error=
+|Has Size Units=
+|Has Size Method=
+|Has Zeta potential=
+|Has Zeta Min=
+|Has Zeta Max=
+|Has Zeta Units=
+|Has Zeta Error=
+|Has IEP=
+}}
+&lt;/pre&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: right; table-layout:fixed; word-wrap: break-word;&quot;
+! colspan=2 style=&quot;text-align: center;background-color: #ddd;&quot; | Material
+|-
+! colspan=2 style=&quot;text-align: center; font-size: 125%&quot; | {{{Name|{{PAGENAME}}}}}
+{{#if:{{{Image|}}}|
+{{!}}-
+{{!}} Image
+{{!}} {{{Image}}}
+}}
+|-
+{{#if:{{{Has Label|}}}|
+{{!}}-
+{{!}} Label
+{{!}} {{{Has Label}}} 
+}}
+|-
+{{#if:{{{Has Source|}}}|
+{{!}}-
+{{!}} Source
+{{!}} {{{Has Source}}} 
+}}
+|-
+{{#if:{{{Has Identifier|}}}|
+{{!}}-
+{{!}} Identifier
+{{!}} {{{Has Identifier}}} 
+}}
+|-
+{{#if:{{{Has Chemical Composition|}}}|
+{{!}}-
+{{!}} Chemical Composition
+{{!}} {{{Has Chemical Composition}}} 
+}}
+|-
+{{#if:{{{Has Chemical Coating|}}}|
+{{!}}-
+{{!}} Chemical Coating
+{{!}} {{{Has Chemical Coating}}} 
+}}
+|-
+! colspan=2 style=&quot;text-align: center;background-color: #ddd;&quot; | Properties
+|-
+{{#if:{{{Has Size|}}}|
+{{!}}-
+{{!}} Size
+{{!}} {{{Has Size}}} {{#if:{{{Has Size Error|}}}|± {{{Has Size Error}}}}} {{#if:{{{Has Size Units|}}}|{{{Has Size Units}}}}} {{#if:{{{Has Size Method|}}}| ({{{Has Size Method}}})}}
+}}
+{{#if:{{{Has Size Min|}}}|
+{{!}}-
+{{!}} Size
+{{!}} {{{Has Size Min}}} - {{{Has Size Max}}} {{#if:{{{Has Size Units|}}}|{{{Has Size Units}}}}} {{#if:{{{Has Size Method|}}}| ({{{Has Size Method}}})}}
+}}
+{{#if:{{{Has NM Type|}}}|
+{{!}}-
+{{!}} Type
+{{!}} {{{Has NM Type}}} 
+}}
+{{#if:{{{Has Zeta potential|}}}|
+{{!}}-
+{{!}} Zeta potential
+{{!}} {{{Has Zeta potential}}} {{#if:{{{Has Zeta Error|}}}|± {{{Has Zeta Error}}}}} {{#if:{{{Has Zeta Units|}}}|{{{Has Zeta Units}}}}}
+}}
+{{#if:{{{Has Zeta Min|}}}|
+{{!}}-
+{{!}} Size
+{{!}} {{{Has Zeta Min}}} - {{{Has Zeta Max}}} {{#if:{{{Has Zeta Units|}}}|{{{Has Zeta Units}}}}}
+}}
+{{#if:{{{Has IEP|}}}|
+{{!}}-
+{{!}} IEP
+{{!}} {{{Has IEP}}}
+}}
+|}
+&lt;br&gt;
+= Measurements =
+{{#ask: [[Category:Measurements]] [[Has Entity::{{PAGENAME}}]]
+| ?Has Dose #
+| ?Has Endpoint
+| ?Has Endpoint Value
+| ?Has Endpoint Error
+| ?Has Endpoint Value Units
+| ?Has Method
+| format=jqplotbar
+| sort=Has Endpoint Value
+| order=ascending
+| height=250
+| width=600
+}}
+{{#ask: [[Category:Measurements]] [[Has Entity::{{PAGENAME}}]]
+| ?Has Dose #
+| ?Has Endpoint
+| ?Has Endpoint Class
+| ?Has Method
+| format=jqplotbar
+| sort=Has Endpoint Class
+| order=ascending
+| height=250
+| width=600
+}}
+{{#if:{{{Has Size|}}} |
+{{#set:
+|Has Size={{{Has Size|}}}
+}}
+| }}
+{{#if:{{{Has Size Min|}}} |
+{{#set:
+|Has Size Min={{{Has Size Min|}}}
+}}
+| }}
+{{#if:{{{Has Size Max|}}} |
+{{#set:
+|Has Size Max={{{Has Size Max|}}}
+}}
+| }}
+{{#if:{{{Has Size Error|}}} |
+{{#set:
+|Has Size Error={{{Has Size Error|}}}
+}}
+| }}
+{{#if:{{{Has Size Units|}}} |
+{{#set:
+|Has Size Units={{{Has Size Units|}}}
+}}
+| }}
+{{#if:{{{Has Size Method|}}} |
+  {{#set: |Has Size Method={{{Has Size Method|}}} }}
+| }}
+{{#if:{{{Has Label|}}} |
+{{#set:
+|Has Label={{{Has Label|}}}
+}}
+| }}
+{{#if:{{{Has Source|}}} |
+{{#set:
+|Has Source={{{Has Source|}}}
+}}
+| }}
+{{#if:{{{Has Identifier|}}} |
+{{#set:
+|Has Identifier={{{Has Identifier|}}}
+}}
+| }}
+{{#if:{{{Has Chemical Composition|}}} |
+{{#set:
+|Has Chemical Composition={{{Has Chemical Composition|}}}
+}}
+| }}
+{{#if:{{{Has Chemical Coating|}}} |
+{{#set:
+|Has Chemical Coating={{{Has Chemical Coating|}}}
+}}
+| }}
+{{#if:{{{Has NM Type|}}} |
+{{#set:
+|Has NM Type={{{Has NM Type|}}}
+}}
+[[Category:{{{Has NM Type|}}}s]]
+| }}
+{{#if:{{{Has Zeta potential|}}} |
+{{#set:
+|Has Zeta potential={{{Has Zeta potential|}}}
+}}
+| }}
+{{#if:{{{Has Zeta Min|}}} |
+{{#set:
+|Has Zeta Min={{{Has Zeta Min|}}}
+}}
+| }}
+{{#if:{{{Has Zeta Max|}}} |
+{{#set:
+|Has Zeta Max={{{Has Zeta Max|}}}
+}}
+| }}
+{{#if:{{{Has Zeta Units|}}} |
+{{#set:
+|Has Zeta Units={{{Has Zeta Units|}}}
+}}
+| }}
+{{#if:{{{Has Zeta Error|}}} |
+{{#set:
+|Has Zeta Error={{{Has Zeta Error|}}}
+}}
+| }}
+{{#if:{{{Has IEP|}}} |
+{{#set:
+|Has IEP={{{Has IEP|}}}
+}}
+| }}
+[[Category:Materials]]__NOEDITSECTION____NOTOC__
+[[Category:Chemical_Entities]]__NOEDITSECTION____NOTOC__
+&lt;/includeonly&gt;</text>
+    </revision>
   </page>
   <page>
     <title>Category:Chemical Entities</title>
@@ -42199,6 +38902,20 @@ This paper is purely theoretical and does not have experimental data; therefore,
 |Has Source=Bhabra2009
 |Has Entities=Alloy
 |Has Study Type=Descriptive
+}}</text>
+    </revision>
+    <revision>
+      <id>2216</id>
+      <timestamp>2014-02-12T13:30:22Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Study
+|Has Identifier=16
+|Has Source=Bhabra2009
+|Has Entities=Alloy
+|Has Study Type=Descriptive
+|Has Object Count=2
 }}</text>
     </revision>
   </page>
@@ -43814,76 +40531,6 @@ Check the [http://www.mediawiki.org/wiki/Extension:RDFIO general instructions].
     </revision>
   </page>
   <page>
-    <title>HannaK23</title>
-    <id>521</id>
-    <revision>
-      <id>1401</id>
-      <timestamp>2012-05-22T16:54:15Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <comment>Created page with &quot;{{Material |Has Label=Cr2O3 |Has Identifier=127 |Has Chemical Composition=Cr2O3 |Has NM Type=MetalOxide }}&quot;</comment>
-      <text xml:space="preserve">{{Material
-|Has Label=Cr2O3
-|Has Identifier=127
-|Has Chemical Composition=Cr2O3
-|Has NM Type=MetalOxide
-}}</text>
-    </revision>
-    <revision>
-      <id>1419</id>
-      <timestamp>2012-05-23T05:58:08Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">{{Material
-|Has Label=Cr2O3
-|Has Identifier=127
-|Has Chemical Composition=Cr2O3
-|Has NM Type=MetalOxide
-}}
-
-{{#set:|Used in Study=Karlsson2008CytotoxFollowup}}</text>
-    </revision>
-    <revision>
-      <id>1420</id>
-      <timestamp>2012-06-04T10:51:52Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">{{Material
-|Has Label=Cr2O3
-|Has Identifier=127
-|Has Chemical Composition=Cr2O3
-|Has NM Type=MetalOxide
-|Has Size Min=470
-|Has Size Max=1230
-|Has Size Units=nm
-}}
-
-{{#set:|Used in Study=Karlsson2008CytotoxFollowup}}</text>
-    </revision>
-    <revision>
-      <id>1679</id>
-      <timestamp>2012-09-11T08:29:05Z</timestamp>
-      <contributor>
-        <username>Egonw</username>
-        <id>2</id>
-      </contributor>
-      <text xml:space="preserve">{{Material
-|Has Label=Cr2O3
-|Has Identifier=211
-|Has Chemical Composition=Cr2O3
-|Has NM Type=MetalOxide
-|Has Size Min=470
-|Has Size Max=1230
-|Has Size Units=nm
-}}
-
-{{#set:|Used in Study=Karlsson2008CytotoxFollowup}}</text>
-    </revision>
-  </page>
-  <page>
     <title>HedbergS1</title>
     <id>522</id>
     <revision>
@@ -43982,87 +40629,6 @@ Check the [http://www.mediawiki.org/wiki/Extension:RDFIO general instructions].
       <text xml:space="preserve">{{Endpoint
 |Description=Particle toxicity
 |Has Assay Type=In Vitro
-}}</text>
-    </revision>
-  </page>
-  <page>
-    <title>HannaK23 M1</title>
-    <id>526</id>
-    <revision>
-      <id>1412</id>
-      <timestamp>2012-05-22T20:40:56Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <comment>Created page with &quot;{{Measurement |Has Entity=HannaK23 |Has Endpoint Value=95 |Has Endpoint=DNA Damage |Has Study=WillighagenS1 }}&quot;</comment>
-      <text xml:space="preserve">{{Measurement
-|Has Entity=HannaK23
-|Has Endpoint Value=95
-|Has Endpoint=DNA Damage
-|Has Study=WillighagenS1
-}}</text>
-    </revision>
-    <revision>
-      <id>1415</id>
-      <timestamp>2012-05-22T20:50:48Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">{{Measurement
-|Has Entity=HannaK23
-|Has Endpoint Value=6.5
-|Has Endpoint=DNA Damage
-|Has Study=WillighagenS1
-}}</text>
-    </revision>
-    <revision>
-      <id>1417</id>
-      <timestamp>2012-05-22T21:08:42Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">{{Measurement
-|Has Entity=HannaK23
-|Has Endpoint Value=6.5
-|Has Endpoint=DNA Damage
-|Has Study=WillighagenS1
-|Has Dose=30
-|Has Dose Units=μg/cm²
-}}</text>
-    </revision>
-    <revision>
-      <id>1418</id>
-      <timestamp>2012-05-22T21:09:39Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <text xml:space="preserve">{{Measurement
-|Has Entity=HannaK23
-|Has Endpoint Value=6.5
-|Has Endpoint=DNA Damage
-|Has Study=WillighagenS1
-|Has Dose=30
-|Has Dose Units=μg/cm²
-}}
-
-[[Has Study::Karlsson2008CytotoxFollowup]]</text>
-    </revision>
-  </page>
-  <page>
-    <title>HannaK23 M2</title>
-    <id>527</id>
-    <revision>
-      <id>1416</id>
-      <timestamp>2012-05-22T20:52:37Z</timestamp>
-      <contributor>
-        <ip>127.0.0.1</ip>
-      </contributor>
-      <comment>Created page with &quot;{{Measurement |Has Entity=HannaK23 |Has Endpoint Value=3.5 |Has Endpoint=Cytotoxicity |Has Study=WillighagenS1 }}&quot;</comment>
-      <text xml:space="preserve">{{Measurement
-|Has Entity=HannaK23
-|Has Endpoint Value=3.5
-|Has Endpoint=Cytotoxicity
-|Has Study=WillighagenS1
 }}</text>
     </revision>
   </page>
@@ -45019,6 +41585,26 @@ CdSe quantum dots studied for dot size, surface charge, and functionalization.</
 
 {{#set:|Used in Study=Shi2012_S1}}</text>
     </revision>
+    <revision>
+      <id>2257</id>
+      <timestamp>2014-09-27T21:19:56Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=TiO2
+|Has Identifier=141
+|Has Chemical Composition=TiO2
+|Has NM Type=MetalOxide
+|Has Size=29.2
+|Has Size Error=10
+|Has Size Units=nm
+|Has Zeta potential=-14.6
+|Has Zeta Units=mV
+}}
+
+{{#set:|Used in Study=Shi2012_S1}}</text>
+    </revision>
   </page>
   <page>
     <title>Kim2012 S1</title>
@@ -45035,6 +41621,20 @@ CdSe quantum dots studied for dot size, surface charge, and functionalization.</
 |Has Source=Kim2012
 |Has Entities=MetalOxide
 |Has Study Type=Descriptive
+}}</text>
+    </revision>
+    <revision>
+      <id>2217</id>
+      <timestamp>2014-02-12T13:30:41Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Study
+|Has Identifier=21
+|Has Source=Kim2012
+|Has Entities=MetalOxide
+|Has Study Type=Descriptive
+|Has Object Count=2
 }}</text>
     </revision>
   </page>
@@ -45066,6 +41666,20 @@ CdSe quantum dots studied for dot size, surface charge, and functionalization.</
 |Has Source=Shi2012
 |Has Entities=MetalOxide
 |Has Study Type=Descriptive
+}}</text>
+    </revision>
+    <revision>
+      <id>2219</id>
+      <timestamp>2014-02-12T13:31:39Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Study
+|Has Identifier=22
+|Has Source=Shi2012
+|Has Entities=MetalOxide
+|Has Study Type=Descriptive
+|Has Object Count=4
 }}</text>
     </revision>
   </page>
@@ -45127,6 +41741,26 @@ CdSe quantum dots studied for dot size, surface charge, and functionalization.</
 |Has Size Units=nm
 |Has Zeta potential=27.6
 |Has Zeta Units=eV
+}}
+
+{{#set:|Used in Study=Shi2012_S1}}</text>
+    </revision>
+    <revision>
+      <id>2258</id>
+      <timestamp>2014-09-27T21:20:06Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=CeO2
+|Has Identifier=142
+|Has Chemical Composition=CeO2
+|Has NM Type=MetalOxide
+|Has Size=23.4
+|Has Size Error=4
+|Has Size Units=nm
+|Has Zeta potential=27.6
+|Has Zeta Units=mV
 }}
 
 {{#set:|Used in Study=Shi2012_S1}}</text>
@@ -45194,6 +41828,26 @@ CdSe quantum dots studied for dot size, surface charge, and functionalization.</
 
 {{#set:|Used in Study=Shi2012_S1}}</text>
     </revision>
+    <revision>
+      <id>2259</id>
+      <timestamp>2014-09-27T21:20:44Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=ZnO
+|Has Identifier=143
+|Has Chemical Composition=ZnO
+|Has NM Type=MetalOxide
+|Has Size=15.5
+|Has Size Error=4
+|Has Size Units=nm
+|Has Zeta potential=19.7
+|Has Zeta Units=mV
+}}
+
+{{#set:|Used in Study=Shi2012_S1}}</text>
+    </revision>
   </page>
   <page>
     <title>Shi2012 NM4</title>
@@ -45253,6 +41907,26 @@ CdSe quantum dots studied for dot size, surface charge, and functionalization.</
 |Has Size Units=nm
 |Has Zeta potential=-34.9
 |Has Zeta Units=eV
+}}
+
+{{#set:|Used in Study=Shi2012_S1}}</text>
+    </revision>
+    <revision>
+      <id>2260</id>
+      <timestamp>2014-09-27T21:20:53Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=SiO2
+|Has Identifier=144
+|Has Chemical Composition=SiO2
+|Has NM Type=MetalOxide
+|Has Size=12.0
+|Has Size Error=2
+|Has Size Units=nm
+|Has Zeta potential=-34.9
+|Has Zeta Units=mV
 }}
 
 {{#set:|Used in Study=Shi2012_S1}}</text>
@@ -45319,6 +41993,32 @@ CdSe quantum dots studied for dot size, surface charge, and functionalization.</
 
 {{#ask: [[Category:Materials]]
  | ? Has Identifier #
+ | ? Has Label #
+ | ? Has Size #
+ | ? Has Size Min #
+ | ? Has Size Max #
+ | ? Has NM Type #
+ | ? Has Zeta potential #
+ | ? Has Chemical Composition #
+ | ? Has Chemical Coating #
+ |sort = Has Identifier
+ |order= descending
+ |offset=0
+ |limit=500
+}}</text>
+    </revision>
+    <revision>
+      <id>2221</id>
+      <timestamp>2014-04-23T15:52:36Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">A list of materials:
+
+{{#ask: [[Category:Materials]]
+ | ? Has Identifier #
+ | ? Has Source #
  | ? Has Label #
  | ? Has Size #
  | ? Has Size Min #
@@ -45587,6 +42287,21 @@ CdSe quantum dots studied for dot size, surface charge, and functionalization.</
 |Has Study Type=Descriptive
 }}</text>
     </revision>
+    <revision>
+      <id>2214</id>
+      <timestamp>2014-02-12T13:29:28Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Study
+|Has Source=Berg2009
+|Has Identifier=23
+|Has Entities=MetalOxides
+|Has Endpoint=Zeta Potential
+|Has Study Type=Descriptive
+|Has Object Count=5
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Berg2009 S2</title>
@@ -45618,6 +42333,21 @@ CdSe quantum dots studied for dot size, surface charge, and functionalization.</
 |Has Entities=MetalOxides
 |Has Endpoint=Percentage Non-Viable Cells
 |Has Study Type=Descriptive
+}}</text>
+    </revision>
+    <revision>
+      <id>2215</id>
+      <timestamp>2014-02-12T13:29:40Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Study
+|Has Source=Berg2009
+|Has Identifier=23
+|Has Entities=MetalOxides
+|Has Endpoint=Percentage Non-Viable Cells
+|Has Study Type=Descriptive
+|Has Object Count=5
 }}</text>
     </revision>
   </page>
@@ -45696,6 +42426,27 @@ CdSe quantum dots studied for dot size, surface charge, and functionalization.</
 {{#set:|Used in Study=Berg2009_S1}}
 {{#set:|Used in Study=Berg2009_S2}}</text>
     </revision>
+    <revision>
+      <id>2261</id>
+      <timestamp>2014-09-27T21:21:12Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=145
+|Has Label=TiO2
+|Has Chemical Composition=TiO2
+|Has NM Type=MetalOxide
+|Has Size=27
+|Has Size Units=nm
+|Has Zeta Min=-60
+|Has Zeta Max=45
+|Has Zeta Units=mV
+}}
+
+{{#set:|Used in Study=Berg2009_S1}}
+{{#set:|Used in Study=Berg2009_S2}}</text>
+    </revision>
   </page>
   <page>
     <title>Berg2009 NM2</title>
@@ -45758,6 +42509,28 @@ CdSe quantum dots studied for dot size, surface charge, and functionalization.</
 {{#set:|Used in Study=Berg2009_S1}}
 {{#set:|Used in Study=Berg2009_S2}}</text>
     </revision>
+    <revision>
+      <id>2262</id>
+      <timestamp>2014-09-27T21:21:24Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=146
+|Has Label=Al2O3
+|Has Chemical Composition=Al2O3
+|Has NM Type=MetalOxide
+|Has Size Min=0
+|Has Size Max=50
+|Has Size Units=nm
+|Has Zeta Min=-35
+|Has Zeta Max=48
+|Has Zeta Units=mV
+}}
+
+{{#set:|Used in Study=Berg2009_S1}}
+{{#set:|Used in Study=Berg2009_S2}}</text>
+    </revision>
   </page>
   <page>
     <title>Berg2009 NM3</title>
@@ -45815,6 +42588,28 @@ CdSe quantum dots studied for dot size, surface charge, and functionalization.</
 |Has Zeta Min=-45
 |Has Zeta Max=55
 |Has Zeta Units=eV
+}}
+
+{{#set:|Used in Study=Berg2009_S1}}
+{{#set:|Used in Study=Berg2009_S2}}</text>
+    </revision>
+    <revision>
+      <id>2263</id>
+      <timestamp>2014-09-27T21:21:30Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=147
+|Has Label=ZnO
+|Has Chemical Composition=ZnO
+|Has NM Type=MetalOxide
+|Has Size Min=0
+|Has Size Max=50
+|Has Size Units=nm
+|Has Zeta Min=-45
+|Has Zeta Max=55
+|Has Zeta Units=mV
 }}
 
 {{#set:|Used in Study=Berg2009_S1}}
@@ -45914,6 +42709,28 @@ CdSe quantum dots studied for dot size, surface charge, and functionalization.</
 {{#set:|Used in Study=Berg2009_S1}}
 {{#set:|Used in Study=Berg2009_S2}}</text>
     </revision>
+    <revision>
+      <id>2264</id>
+      <timestamp>2014-09-27T21:21:48Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=148
+|Has Label=CeO2
+|Has Chemical Composition=CeO2
+|Has NM Type=MetalOxide
+|Has Size Min=0
+|Has Size Max=25
+|Has Size Units=nm
+|Has Zeta Min=-20
+|Has Zeta Max=35
+|Has Zeta Units=mV
+}}
+
+{{#set:|Used in Study=Berg2009_S1}}
+{{#set:|Used in Study=Berg2009_S2}}</text>
+    </revision>
   </page>
   <page>
     <title>Berg2009 NM5</title>
@@ -45971,6 +42788,28 @@ CdSe quantum dots studied for dot size, surface charge, and functionalization.</
 |Has Zeta Min=-50
 |Has Zeta Max=38
 |Has Zeta Units=eV
+}}
+
+{{#set:|Used in Study=Berg2009_S1}}
+{{#set:|Used in Study=Berg2009_S2}}</text>
+    </revision>
+    <revision>
+      <id>2265</id>
+      <timestamp>2014-09-27T21:22:09Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=149
+|Has Label=Fe2O3
+|Has Chemical Composition=Fe2O3
+|Has NM Type=MetalOxide
+|Has Size Min=23
+|Has Size Max=35
+|Has Size Units=nm
+|Has Zeta Min=-50
+|Has Zeta Max=38
+|Has Zeta Units=mV
 }}
 
 {{#set:|Used in Study=Berg2009_S1}}
@@ -48619,6 +45458,20 @@ Size measured with DLS.
 
 [[Category:Endpoints]]</text>
     </revision>
+    <revision>
+      <id>2270</id>
+      <timestamp>2014-09-27T21:43:51Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Descriptor
+}}
+
+Size measured with DLS.
+
+[[Category:Endpoints]]
+[[Category:Particle Size]]</text>
+    </revision>
   </page>
   <page>
     <title>Rancan2012</title>
@@ -48814,6 +45667,20 @@ Size measured with DLS.
 |Has Endpoint=Zeta Potential
 }}</text>
     </revision>
+    <revision>
+      <id>2249</id>
+      <timestamp>2014-09-27T20:50:11Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Rancan2012 M1
+|Has Endpoint Value=-22
+|Has Endpoint Error=3
+|Has Endpoint Value Units=mV
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Diameter</title>
@@ -48830,6 +45697,18 @@ Size measured with DLS.
 }}
 
 [[Category:Endpoints]]</text>
+    </revision>
+    <revision>
+      <id>2272</id>
+      <timestamp>2014-09-27T21:45:01Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Descriptor
+}}
+
+[[Category:Endpoints]]
+[[Category:Particle Size]]</text>
     </revision>
   </page>
   <page>
@@ -49214,6 +46093,20 @@ For Measurement=Rancan2012 M8 M3
 |Has Endpoint=Zeta Potential
 }}</text>
     </revision>
+    <revision>
+      <id>2250</id>
+      <timestamp>2014-09-27T20:50:20Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Rancan2012 M2
+|Has Endpoint Value=-45
+|Has Endpoint Error=4
+|Has Endpoint Value Units=mV
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Rancan2012 M3 M3</title>
@@ -49234,6 +46127,20 @@ For Measurement=Rancan2012 M8 M3
 |Has Endpoint=Zeta Potential
 }}</text>
     </revision>
+    <revision>
+      <id>2251</id>
+      <timestamp>2014-09-27T20:50:43Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Rancan2012 M3
+|Has Endpoint Value=-56
+|Has Endpoint Error=5
+|Has Endpoint Value Units=mV
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Rancan2012 M4 M3</title>
@@ -49251,6 +46158,20 @@ For Measurement=Rancan2012 M8 M3
 |Has Endpoint Value=-48
 |Has Endpoint Error=2
 |Has Endpoint Value Units=eV
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+    <revision>
+      <id>2252</id>
+      <timestamp>2014-09-27T20:50:50Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Rancan2012 M4
+|Has Endpoint Value=-48
+|Has Endpoint Error=2
+|Has Endpoint Value Units=mV
 |Has Endpoint=Zeta Potential
 }}</text>
     </revision>
@@ -49384,6 +46305,20 @@ For Measurement=Rancan2012 M8 M3
 |Has Endpoint=Zeta Potential
 }}</text>
     </revision>
+    <revision>
+      <id>2253</id>
+      <timestamp>2014-09-27T20:50:57Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Rancan2012 M5
+|Has Endpoint Value=12
+|Has Endpoint Error=2
+|Has Endpoint Value Units=mV
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Rancan2012 M6 M3</title>
@@ -49419,6 +46354,20 @@ For Measurement=Rancan2012 M8 M3
 |Has Endpoint=Zeta Potential
 }}</text>
     </revision>
+    <revision>
+      <id>2254</id>
+      <timestamp>2014-09-27T20:51:05Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Rancan2012 M6
+|Has Endpoint Value=11
+|Has Endpoint Error=3
+|Has Endpoint Value Units=mV
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Rancan2012 M7 M3</title>
@@ -49439,6 +46388,20 @@ For Measurement=Rancan2012 M8 M3
 |Has Endpoint=Zeta Potential
 }}</text>
     </revision>
+    <revision>
+      <id>2248</id>
+      <timestamp>2014-09-27T20:49:08Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Rancan2012 M7
+|Has Endpoint Value=10
+|Has Endpoint Error=1
+|Has Endpoint Value Units=mV
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Rancan2012 M8 M3</title>
@@ -49456,6 +46419,20 @@ For Measurement=Rancan2012 M8 M3
 |Has Endpoint Value=10
 |Has Endpoint Error=2
 |Has Endpoint Value Units=eV
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+    <revision>
+      <id>2255</id>
+      <timestamp>2014-09-27T20:51:14Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Rancan2012 M8
+|Has Endpoint Value=10
+|Has Endpoint Error=2
+|Has Endpoint Value Units=mV
 |Has Endpoint=Zeta Potential
 }}</text>
     </revision>
@@ -54584,64 +51561,583 @@ Our study clearly highlights the difference of sensitivity between cell types an
     </revision>
   </page>
   <page>
-    <title>HannaK24</title>
+    <title>Zhang2012</title>
     <id>918</id>
     <revision>
-      <id>2075</id>
-      <timestamp>2013-09-03T16:01:26Z</timestamp>
+      <id>2222</id>
+      <timestamp>2014-09-27T17:42:51Z</timestamp>
       <contributor>
         <ip>127.0.0.1</ip>
       </contributor>
-      <comment>Created page with &quot;{{Material |Has Label=Cu |Has Identifier=306 |Has Chemical Composition=Cu |Has NM Type=Metal |Has Size Min=5000 |Has Size Max=20000 |Has Size Units=nm }}&quot;</comment>
-      <text xml:space="preserve">{{Material
-|Has Label=Cu
-|Has Identifier=306
-|Has Chemical Composition=Cu
-|Has NM Type=Metal
-|Has Size Min=5000
-|Has Size Max=20000
-|Has Size Units=nm
+      <comment>Created page with &quot;{{Paper |Has Year=2012 |Has DOI=10.1021/nn3010087 |Has Journal=ACS Nano |Relationships extracted=No |Substances extracted=No }}&quot;</comment>
+      <text xml:space="preserve">{{Paper
+|Has Year=2012
+|Has DOI=10.1021/nn3010087
+|Has Journal=ACS Nano
+|Relationships extracted=No
+|Substances extracted=No
 }}</text>
+    </revision>
+    <revision>
+      <id>2223</id>
+      <timestamp>2014-09-27T17:43:29Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Paper
+|Has Year=2012
+|Has DOI=10.1021/nn3010087
+|Has Journal=ACS Nano
+|Relationships extracted=No
+|Substances extracted=No
+}}
+
+[[Category:PapersToRead]]
+
+== Abstract ==
+
+We demonstrate for 24 metal oxide (MOx) nanoparticles that it is possible to use conduction band energy levels to delineate their toxicological potential at cellular and whole animal levels. Among the materials, the overlap of conduction band energy (Ec) levels with the cellular redox potential (−4.12 to −4.84 eV) was strongly correlated to the ability of Co3O4, Cr2O3, Ni2O3, Mn2O3, and CoO nanoparticles to induce oxygen radicals, oxidative stress, and inflammation. This outcome is premised on permissible electron transfers from the biological redox couples that maintain the cellular redox equilibrium to the conduction band of the semiconductor particles. Both single-parameter cytotoxic as well as multi-parameter oxidative stress assays in cells showed excellent correlation to the generation of acute neutrophilic inflammation and cytokine responses in the lungs of C57 BL/6 mice. Co3O4, Ni2O3, Mn2O3, and CoO nanoparticles could also oxidize cytochrome c as a representative redox couple involved in redox homeostasis. While CuO and ZnO generated oxidative stress and acute pulmonary inflammation that is not predicted by Ec levels, the adverse biological effects of these materials could be explained by their solubility, as demonstrated by ICP-MS analysis. These results demonstrate that it is possible to predict the toxicity of a large series of MOx nanoparticles in the lung premised on semiconductor properties and an integrated in vitro/in vivo hazard ranking model premised on oxidative stress. This establishes a robust platform for modeling of MOx structure–activity relationships based on band gap energy levels and particle dissolution. This predictive toxicological paradigm is also of considerable importance for regulatory decision-making about this important class of engineered nanomaterials.</text>
     </revision>
   </page>
   <page>
-    <title>HannaK25</title>
+    <title>Zhang2013 M1</title>
     <id>919</id>
     <revision>
-      <id>2076</id>
-      <timestamp>2013-09-03T16:02:18Z</timestamp>
+      <id>2224</id>
+      <timestamp>2014-09-27T20:14:46Z</timestamp>
       <contributor>
         <ip>127.0.0.1</ip>
       </contributor>
-      <comment>Created page with &quot;{{Material |Has Label=Fe |Has Identifier=307 |Has Chemical Composition=Fe |Has NM Type=Metal |Has Size=15000 |Has Size Units=nm }}&quot;</comment>
+      <comment>Created page with &quot;{{Material |Has Identifier=306 |Has Label=Al2O3 |Has Chemical Composition=Al2O3 |Has NM Type=MetalOxide |Has Source=Zhang2012 }}  {{#set:|Used in Study=Liu2013 Cytotoxicity}}&quot;</comment>
       <text xml:space="preserve">{{Material
-|Has Label=Fe
-|Has Identifier=307
-|Has Chemical Composition=Fe
-|Has NM Type=Metal
-|Has Size=15000
-|Has Size Units=nm
-}}</text>
+|Has Identifier=306
+|Has Label=Al2O3
+|Has Chemical Composition=Al2O3
+|Has NM Type=MetalOxide
+|Has Source=Zhang2012
+}}
+
+{{#set:|Used in Study=Liu2013 Cytotoxicity}}</text>
     </revision>
   </page>
   <page>
-    <title>HannaK26</title>
+    <title>Zhang2013 M2</title>
     <id>920</id>
     <revision>
-      <id>2077</id>
-      <timestamp>2013-09-03T16:02:45Z</timestamp>
+      <id>2225</id>
+      <timestamp>2014-09-27T20:15:34Z</timestamp>
       <contributor>
         <ip>127.0.0.1</ip>
       </contributor>
-      <comment>Created page with &quot;{{Material |Has Label=Cr |Has Identifier=308 |Has Chemical Composition=Cr |Has NM Type=Metal |Has Size=40000 |Has Size Units=nm }}&quot;</comment>
+      <comment>Created page with &quot;{{Material |Has Identifier=307 |Has Label=CuO |Has Chemical Composition=CuO |Has NM Type=MetalOxide |Has Source=Zhang2012 }}  {{#set:|Used in Study=Liu2013 Cytotoxicity}}&quot;</comment>
       <text xml:space="preserve">{{Material
-|Has Label=Cr
+|Has Identifier=307
+|Has Label=CuO
+|Has Chemical Composition=CuO
+|Has NM Type=MetalOxide
+|Has Source=Zhang2012
+}}
+
+{{#set:|Used in Study=Liu2013 Cytotoxicity}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhang2013 M3</title>
+    <id>921</id>
+    <revision>
+      <id>2226</id>
+      <timestamp>2014-09-27T20:16:27Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=308 |Has Label=CeO2 |Has Chemical Composition=CeO2 |Has NM Type=MetalOxide |Has Source=Zhang2012 }}  {{#set:|Used in Study=Liu2013 Cytotoxicity}}&quot;</comment>
+      <text xml:space="preserve">{{Material
 |Has Identifier=308
-|Has Chemical Composition=Cr
-|Has NM Type=Metal
-|Has Size=40000
-|Has Size Units=nm
-}}</text>
+|Has Label=CeO2
+|Has Chemical Composition=CeO2
+|Has NM Type=MetalOxide
+|Has Source=Zhang2012
+}}
+
+{{#set:|Used in Study=Liu2013 Cytotoxicity}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhang2013 M4</title>
+    <id>922</id>
+    <revision>
+      <id>2227</id>
+      <timestamp>2014-09-27T20:17:23Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=309 |Has Label=Co3O4 |Has Chemical Composition=Co3O4 |Has NM Type=MetalOxide |Has Source=Zhang2012 }}  {{#set:|Used in Study=Liu2013 Cytotoxicity}}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=309
+|Has Label=Co3O4
+|Has Chemical Composition=Co3O4
+|Has NM Type=MetalOxide
+|Has Source=Zhang2012
+}}
+
+{{#set:|Used in Study=Liu2013 Cytotoxicity}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhang2013 M5</title>
+    <id>923</id>
+    <revision>
+      <id>2228</id>
+      <timestamp>2014-09-27T20:17:41Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=310 |Has Label=CoO |Has Chemical Composition=CoO |Has NM Type=MetalOxide |Has Source=Zhang2012 }}  {{#set:|Used in Study=Liu2013 Cytotoxicity}}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=310
+|Has Label=CoO
+|Has Chemical Composition=CoO
+|Has NM Type=MetalOxide
+|Has Source=Zhang2012
+}}
+
+{{#set:|Used in Study=Liu2013 Cytotoxicity}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhang2013 M6</title>
+    <id>924</id>
+    <revision>
+      <id>2229</id>
+      <timestamp>2014-09-27T20:19:05Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=311 |Has Label=Cr2O3 |Has Chemical Composition=Cr2O3 |Has NM Type=MetalOxide |Has Source=Zhang2012 }}  {{#set:|Used in Study=Liu2013 Cytotoxicity}}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=311
+|Has Label=Cr2O3
+|Has Chemical Composition=Cr2O3
+|Has NM Type=MetalOxide
+|Has Source=Zhang2012
+}}
+
+{{#set:|Used in Study=Liu2013 Cytotoxicity}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhang2013 M7</title>
+    <id>925</id>
+    <revision>
+      <id>2230</id>
+      <timestamp>2014-09-27T20:19:26Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=312 |Has Label=Fe2O3 |Has Chemical Composition=Fe2O3 |Has NM Type=MetalOxide |Has Source=Zhang2012 }}  {{#set:|Used in Study=Liu2013 Cytotoxicity}}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=312
+|Has Label=Fe2O3
+|Has Chemical Composition=Fe2O3
+|Has NM Type=MetalOxide
+|Has Source=Zhang2012
+}}
+
+{{#set:|Used in Study=Liu2013 Cytotoxicity}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhang2013 M8</title>
+    <id>926</id>
+    <revision>
+      <id>2231</id>
+      <timestamp>2014-09-27T20:19:48Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=313 |Has Label=Fe3O4 |Has Chemical Composition=Fe3O4 |Has NM Type=MetalOxide |Has Source=Zhang2012 }}  {{#set:|Used in Study=Liu2013 Cytotoxicity}}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=313
+|Has Label=Fe3O4
+|Has Chemical Composition=Fe3O4
+|Has NM Type=MetalOxide
+|Has Source=Zhang2012
+}}
+
+{{#set:|Used in Study=Liu2013 Cytotoxicity}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhang2013 M9</title>
+    <id>927</id>
+    <revision>
+      <id>2232</id>
+      <timestamp>2014-09-27T20:20:11Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=314 |Has Label=Gd2O3 |Has Chemical Composition=Gd2O3 |Has NM Type=MetalOxide |Has Source=Zhang2012 }}  {{#set:|Used in Study=Liu2013 Cytotoxicity}}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=314
+|Has Label=Gd2O3
+|Has Chemical Composition=Gd2O3
+|Has NM Type=MetalOxide
+|Has Source=Zhang2012
+}}
+
+{{#set:|Used in Study=Liu2013 Cytotoxicity}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhang2013 M10</title>
+    <id>928</id>
+    <revision>
+      <id>2233</id>
+      <timestamp>2014-09-27T20:26:46Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=315 |Has Label=HfO2 |Has Chemical Composition=HfO2 |Has NM Type=MetalOxide |Has Source=Zhang2012 }}  {{#set:|Used in Study=Liu2013 Cytotoxicity}}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=315
+|Has Label=HfO2
+|Has Chemical Composition=HfO2
+|Has NM Type=MetalOxide
+|Has Source=Zhang2012
+}}
+
+{{#set:|Used in Study=Liu2013 Cytotoxicity}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhang2013 M11</title>
+    <id>929</id>
+    <revision>
+      <id>2234</id>
+      <timestamp>2014-09-27T20:27:05Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=316 |Has Label=In2O3 |Has Chemical Composition=In2O3 |Has NM Type=MetalOxide |Has Source=Zhang2012 }}  {{#set:|Used in Study=Liu2013 Cytotoxicity}}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=316
+|Has Label=In2O3
+|Has Chemical Composition=In2O3
+|Has NM Type=MetalOxide
+|Has Source=Zhang2012
+}}
+
+{{#set:|Used in Study=Liu2013 Cytotoxicity}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhang2013 M12</title>
+    <id>930</id>
+    <revision>
+      <id>2235</id>
+      <timestamp>2014-09-27T20:27:26Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=317 |Has Label=La2O3 |Has Chemical Composition=La2O3 |Has NM Type=MetalOxide |Has Source=Zhang2012 }}  {{#set:|Used in Study=Liu2013 Cytotoxicity}}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=317
+|Has Label=La2O3
+|Has Chemical Composition=La2O3
+|Has NM Type=MetalOxide
+|Has Source=Zhang2012
+}}
+
+{{#set:|Used in Study=Liu2013 Cytotoxicity}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhang2013 M13</title>
+    <id>931</id>
+    <revision>
+      <id>2236</id>
+      <timestamp>2014-09-27T20:27:45Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=318 |Has Label=Mn2O3 |Has Chemical Composition=Mn2O3 |Has NM Type=MetalOxide |Has Source=Zhang2012 }}  {{#set:|Used in Study=Liu2013 Cytotoxicity}}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=318
+|Has Label=Mn2O3
+|Has Chemical Composition=Mn2O3
+|Has NM Type=MetalOxide
+|Has Source=Zhang2012
+}}
+
+{{#set:|Used in Study=Liu2013 Cytotoxicity}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhang2013 M14</title>
+    <id>932</id>
+    <revision>
+      <id>2237</id>
+      <timestamp>2014-09-27T20:28:02Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=319 |Has Label=NiO |Has Chemical Composition=NiO |Has NM Type=MetalOxide |Has Source=Zhang2012 }}  {{#set:|Used in Study=Liu2013 Cytotoxicity}}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=319
+|Has Label=NiO
+|Has Chemical Composition=NiO
+|Has NM Type=MetalOxide
+|Has Source=Zhang2012
+}}
+
+{{#set:|Used in Study=Liu2013 Cytotoxicity}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhang2013 M15</title>
+    <id>933</id>
+    <revision>
+      <id>2238</id>
+      <timestamp>2014-09-27T20:28:24Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=320 |Has Label=Ni2O3 |Has Chemical Composition=Ni2O3 |Has NM Type=MetalOxide |Has Source=Zhang2012 }}  {{#set:|Used in Study=Liu2013 Cytotoxicity}}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=320
+|Has Label=Ni2O3
+|Has Chemical Composition=Ni2O3
+|Has NM Type=MetalOxide
+|Has Source=Zhang2012
+}}
+
+{{#set:|Used in Study=Liu2013 Cytotoxicity}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhang2013 M16</title>
+    <id>934</id>
+    <revision>
+      <id>2239</id>
+      <timestamp>2014-09-27T20:39:03Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=321 |Has Label=Sb2O3 |Has Chemical Composition=Sb2O3 |Has NM Type=MetalOxide |Has Source=Zhang2012 }}  {{#set:|Used in Study=Liu2013 Cytotoxicity}}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=321
+|Has Label=Sb2O3
+|Has Chemical Composition=Sb2O3
+|Has NM Type=MetalOxide
+|Has Source=Zhang2012
+}}
+
+{{#set:|Used in Study=Liu2013 Cytotoxicity}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhang2013 M17</title>
+    <id>935</id>
+    <revision>
+      <id>2240</id>
+      <timestamp>2014-09-27T20:39:25Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=322 |Has Label=SiO2 |Has Chemical Composition=SiO2 |Has NM Type=MetalOxide |Has Source=Zhang2012 }}  {{#set:|Used in Study=Liu2013 Cytotoxicity}}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=322
+|Has Label=SiO2
+|Has Chemical Composition=SiO2
+|Has NM Type=MetalOxide
+|Has Source=Zhang2012
+}}
+
+{{#set:|Used in Study=Liu2013 Cytotoxicity}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhang2013 M18</title>
+    <id>936</id>
+    <revision>
+      <id>2241</id>
+      <timestamp>2014-09-27T20:40:16Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=323 |Has Label=SnO2 |Has Chemical Composition=SnO2 |Has NM Type=MetalOxide |Has Source=Zhang2012 }}  {{#set:|Used in Study=Liu2013 Cytotoxicity}}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=323
+|Has Label=SnO2
+|Has Chemical Composition=SnO2
+|Has NM Type=MetalOxide
+|Has Source=Zhang2012
+}}
+
+{{#set:|Used in Study=Liu2013 Cytotoxicity}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhang2013 M19</title>
+    <id>937</id>
+    <revision>
+      <id>2242</id>
+      <timestamp>2014-09-27T20:40:46Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=324 |Has Label=TiO2 |Has Chemical Composition=TiO2 |Has NM Type=MetalOxide |Has Source=Zhang2012 }}  {{#set:|Used in Study=Liu2013 Cytotoxicity}}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=324
+|Has Label=TiO2
+|Has Chemical Composition=TiO2
+|Has NM Type=MetalOxide
+|Has Source=Zhang2012
+}}
+
+{{#set:|Used in Study=Liu2013 Cytotoxicity}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhang2013 M20</title>
+    <id>938</id>
+    <revision>
+      <id>2243</id>
+      <timestamp>2014-09-27T20:41:08Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=325 |Has Label=WO3 |Has Chemical Composition=WO3 |Has NM Type=MetalOxide |Has Source=Zhang2012 }}  {{#set:|Used in Study=Liu2013 Cytotoxicity}}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=325
+|Has Label=WO3
+|Has Chemical Composition=WO3
+|Has NM Type=MetalOxide
+|Has Source=Zhang2012
+}}
+
+{{#set:|Used in Study=Liu2013 Cytotoxicity}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhang2013 M21</title>
+    <id>939</id>
+    <revision>
+      <id>2244</id>
+      <timestamp>2014-09-27T20:41:25Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=326 |Has Label=Y2O3 |Has Chemical Composition=Y2O3 |Has NM Type=MetalOxide |Has Source=Zhang2012 }}  {{#set:|Used in Study=Liu2013 Cytotoxicity}}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=326
+|Has Label=Y2O3
+|Has Chemical Composition=Y2O3
+|Has NM Type=MetalOxide
+|Has Source=Zhang2012
+}}
+
+{{#set:|Used in Study=Liu2013 Cytotoxicity}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhang2013 M22</title>
+    <id>940</id>
+    <revision>
+      <id>2245</id>
+      <timestamp>2014-09-27T20:41:40Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=327 |Has Label=Yb2O3 |Has Chemical Composition=Yb2O3 |Has NM Type=MetalOxide |Has Source=Zhang2012 }}  {{#set:|Used in Study=Liu2013 Cytotoxicity}}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=327
+|Has Label=Yb2O3
+|Has Chemical Composition=Yb2O3
+|Has NM Type=MetalOxide
+|Has Source=Zhang2012
+}}
+
+{{#set:|Used in Study=Liu2013 Cytotoxicity}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhang2013 M23</title>
+    <id>941</id>
+    <revision>
+      <id>2246</id>
+      <timestamp>2014-09-27T20:42:04Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=328 |Has Label=ZnO |Has Chemical Composition=ZnO |Has NM Type=MetalOxide |Has Source=Zhang2012 }}  {{#set:|Used in Study=Liu2013 Cytotoxicity}}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=328
+|Has Label=ZnO
+|Has Chemical Composition=ZnO
+|Has NM Type=MetalOxide
+|Has Source=Zhang2012
+}}
+
+{{#set:|Used in Study=Liu2013 Cytotoxicity}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Zhang2013 M24</title>
+    <id>942</id>
+    <revision>
+      <id>2247</id>
+      <timestamp>2014-09-27T20:42:43Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=329 |Has Label=ZrO2 |Has Chemical Composition=ZrO2 |Has NM Type=MetalOxide |Has Source=Zhang2012 }}  {{#set:|Used in Study=Liu2013 Cytotoxicity}}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=329
+|Has Label=ZrO2
+|Has Chemical Composition=ZrO2
+|Has NM Type=MetalOxide
+|Has Source=Zhang2012
+}}
+
+{{#set:|Used in Study=Liu2013 Cytotoxicity}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Category:Particle Size</title>
+    <id>943</id>
+    <revision>
+      <id>2271</id>
+      <timestamp>2014-09-27T21:44:23Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;Particle size endpoints.&quot;</comment>
+      <text xml:space="preserve">Particle size endpoints.</text>
+    </revision>
+    <revision>
+      <id>2274</id>
+      <timestamp>2014-09-27T21:47:22Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">Particle size endpoints.
+
+[[Category:Endpoints]]
+[[Category:Descriptors]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>In Vitro</title>
+    <id>944</id>
+    <revision>
+      <id>2275</id>
+      <timestamp>2014-09-27T21:48:28Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;This is a value of type [[Has type::Page]].&quot;</comment>
+      <text xml:space="preserve">This is a value of type [[Has type::Page]].</text>
     </revision>
   </page>
 </mediawiki>
