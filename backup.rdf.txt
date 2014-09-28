@@ -18,7 +18,7 @@
 	xmlns:property="&property;">
 
 	<owl:Ontology rdf:about="">
-		<swivt:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-28T00:00:10+02:00</swivt:creationDate>
+		<swivt:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-28T11:47:33+02:00</swivt:creationDate>
 		<owl:imports rdf:resource="http://semantic-mediawiki.org/swivt/1.0"/>
 	</owl:Ontology>
 	<swivt:Subject rdf:about="&wiki;Main_Page">
@@ -26,7 +26,7 @@
 		<swivt:page rdf:resource="&wikiurl;Main_Page"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Main_Page"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-27T21:52:06</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-27T22:17:11</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;TestNM">
 		<rdfs:label>TestNM</rdfs:label>
@@ -86,6 +86,7 @@
 		<rdf:type rdf:resource="&wiki;Category-3AToxicity"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
 		<property:Description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">General cytotoxicity.</property:Description>
+		<property:Has_Assay_Type rdf:resource="&wiki;Cytotoxicity_Assay"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-30T09:31:41</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<owl:Class rdf:about="&wiki;Category-3AEndpoints">
@@ -129,7 +130,7 @@
 		<rdf:type rdf:resource="&wiki;Category-3AEndpoints"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
 		<property:Description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Log 1/EC_50</property:Description>
-		<property:Has_Assay_Type rdf:resource="&wiki;In_Vitro"/>
+		<property:Has_Assay_Type rdf:resource="&wiki;Cell_Viability_Assay"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-30T13:04:36</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<owl:Class rdf:about="&wiki;Category-3ACytotoxicity">
@@ -619,8 +620,8 @@
 		<rdf:type rdf:resource="&wiki;Category-3AEndpoints"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
 		<property:Description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GI_50</property:Description>
-		<property:Has_Assay_Type rdf:resource="&wiki;In_Vitro"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-09-29T15:06:26</swivt:wikiPageModificationDate>
+		<property:Has_Assay_Type rdf:resource="&wiki;Cell_Growth_Assay"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-28T08:31:55</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<owl:Class rdf:about="&wiki;Category-3AGI50">
 		<rdfs:label>GI50</rdfs:label>
@@ -833,7 +834,7 @@
 		<rdf:type rdf:resource="&wiki;Category-3AGI50"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
 		<property:Description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-log(GI_50)</property:Description>
-		<property:Has_Assay_Type rdf:resource="&wiki;In_Vitro"/>
+		<property:Has_Assay_Type rdf:resource="&wiki;Cell_Growth_Assay"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-11T09:39:56</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Dipole">
@@ -995,8 +996,8 @@
 		<rdf:type rdf:resource="&wiki;Category-3ACytotoxicity"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
 		<property:Description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Percentage Non-viable Cells</property:Description>
-		<property:Has_Assay_Type rdf:resource="&wiki;In_Vitro"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-11T09:39:01</swivt:wikiPageModificationDate>
+		<property:Has_Assay_Type rdf:resource="&wiki;Cell_Viability_Assay"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-02T13:02:37</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<owl:ObjectProperty rdf:about="&property;Used_in_Study">
 		<rdfs:label>Used in Study</rdfs:label>
@@ -2618,7 +2619,7 @@
 		<rdf:type rdf:resource="&wiki;Category-3AEndpoints"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
 		<property:Description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ROS Concentration</property:Description>
-		<property:Has_Assay_Type rdf:resource="&wiki;In_Vitro"/>
+		<property:Has_Assay_Type rdf:resource="&wiki;Oxidative_Stress_Assay"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-09-29T15:06:37</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Surface_Modification_Class">
@@ -3040,8 +3041,8 @@
 		<rdf:type rdf:resource="&wiki;Category-3ACytotoxicity"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
 		<property:Description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Percentage Non-viable Cells</property:Description>
-		<property:Has_Assay_Type rdf:resource="&wiki;In_Vitro"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-11T09:39:01</swivt:wikiPageModificationDate>
+		<property:Has_Assay_Type rdf:resource="&wiki;Cell_Viability_Assay"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-02T13:02:37</swivt:wikiPageModificationDate>
 		<owl:sameAs rdf:resource="&wiki;Percentage_Non-2DViable_Cells"/>
 	</swivt:Subject>
 	<owl:DatatypeProperty rdf:about="&property;Description">
@@ -3060,7 +3061,7 @@
 		<rdf:type rdf:resource="&wiki;Category-3AGI50"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
 		<property:Description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-log(GI_50)</property:Description>
-		<property:Has_Assay_Type rdf:resource="&wiki;In_Vitro"/>
+		<property:Has_Assay_Type rdf:resource="&wiki;Cell_Growth_Assay"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-11T09:39:56</swivt:wikiPageModificationDate>
 		<owl:sameAs rdf:resource="&wiki;Negative_Log_GI50"/>
 	</swivt:Subject>
@@ -3072,7 +3073,7 @@
 		<rdf:type rdf:resource="&wiki;Category-3AEndpoints"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
 		<property:Description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Log 1/EC_50</property:Description>
-		<property:Has_Assay_Type rdf:resource="&wiki;In_Vitro"/>
+		<property:Has_Assay_Type rdf:resource="&wiki;Cell_Viability_Assay"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-30T13:04:36</swivt:wikiPageModificationDate>
 		<owl:sameAs rdf:resource="&wiki;Log_Reciprocal_EC50"/>
 	</swivt:Subject>
@@ -3235,8 +3236,8 @@
 		<rdf:type rdf:resource="&wiki;Category-3AEndpoints"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
 		<property:Description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DNA Damage</property:Description>
-		<property:Has_Assay_Type rdf:resource="&wiki;In_Vitro"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T08:46:08</swivt:wikiPageModificationDate>
+		<property:Has_Assay_Type rdf:resource="&wiki;Genotoxicity_Assay"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-28T08:29:10</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;CLIO-2DFITC-2DCOOH">
 		<rdfs:label>CLIO-FITC-COOH</rdfs:label>
@@ -4581,7 +4582,7 @@
 		<rdf:type rdf:resource="&wiki;Category-3AEndpoints"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
 		<property:Description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Log GI_50</property:Description>
-		<property:Has_Assay_Type rdf:resource="&wiki;In_Vitro"/>
+		<property:Has_Assay_Type rdf:resource="&wiki;Cell_Growth_Assay"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-30T09:09:50</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Field2011Cytotox">
@@ -5121,7 +5122,7 @@
 		<rdf:type rdf:resource="&wiki;Category-3AEndpoints"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
 		<property:Description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Particle toxicity</property:Description>
-		<property:Has_Assay_Type rdf:resource="&wiki;In_Vitro"/>
+		<property:Has_Assay_Type rdf:resource="&wiki;Toxicity_Assay"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-05-22T17:26:04</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Nagy2012">
@@ -10897,6 +10898,80 @@
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/In_Vitro"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-27T21:48:28</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<owl:Class rdf:about="&wiki;Category-3ACell_Lines">
+		<rdfs:label>Cell Lines</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Category:Cell_Lines"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Category:Cell_Lines"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</swivt:wikiNamespace>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-27T22:13:24</swivt:wikiPageModificationDate>
+	</owl:Class>
+	<swivt:Subject rdf:about="&wiki;Cell_Viability_Assay">
+		<rdfs:label>Cell Viability Assay</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Cell_Viability_Assay"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Cell_Viability_Assay"/>
+		<rdf:type rdf:resource="&wiki;Category-3AAssays"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<owl:sameAs rdf:resource="http://www.bioassayontology.org/bao#BAO_0003009"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-27T22:37:54</swivt:wikiPageModificationDate>
+		<property:Original_URI rdf:resource="http://www.bioassayontology.org/bao#BAO_0003009"/>
+	</swivt:Subject>
+	<owl:Class rdf:about="&wiki;Category-3AAssays">
+		<rdfs:label>Assays</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Category:Assays"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Category:Assays"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</swivt:wikiNamespace>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-27T22:38:03</swivt:wikiPageModificationDate>
+	</owl:Class>
+	<swivt:Subject rdf:about="&wiki;Cytotoxicity_Assay">
+		<rdfs:label>Cytotoxicity Assay</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Cytotoxicity_Assay"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Cytotoxicity_Assay"/>
+		<rdf:type rdf:resource="&wiki;Category-3AAssays"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<owl:sameAs rdf:resource="http://www.bioassayontology.org/bao#BAO_0002993"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-28T08:31:07</swivt:wikiPageModificationDate>
+		<property:Original_URI rdf:resource="http://www.bioassayontology.org/bao#BAO_0002993"/>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Cell_Growth_Assay">
+		<rdfs:label>Cell Growth Assay</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Cell_Growth_Assay"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Cell_Growth_Assay"/>
+		<rdf:type rdf:resource="&wiki;Category-3AAssays"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<owl:sameAs rdf:resource="http://www.bioassayontology.org/bao#BAO_0002100"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-28T08:33:16</swivt:wikiPageModificationDate>
+		<property:Original_URI rdf:resource="http://www.bioassayontology.org/bao#BAO_0002100"/>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Genotoxicity_Assay">
+		<rdfs:label>Genotoxicity Assay</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Genotoxicity_Assay"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Genotoxicity_Assay"/>
+		<rdf:type rdf:resource="&wiki;Category-3AAssays"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<owl:sameAs rdf:resource="http://www.bioassayontology.org/bao#BAO_0002167"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-28T08:38:42</swivt:wikiPageModificationDate>
+		<property:Original_URI rdf:resource="http://www.bioassayontology.org/bao#BAO_0002167"/>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Oxidative_Stress_Assay">
+		<rdfs:label>Oxidative Stress Assay</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Oxidative_Stress_Assay"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Oxidative_Stress_Assay"/>
+		<rdf:type rdf:resource="&wiki;Category-3AAssays"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<owl:sameAs rdf:resource="http://www.bioassayontology.org/bao#BAO_0002168"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-28T08:42:43</swivt:wikiPageModificationDate>
+		<property:Original_URI rdf:resource="http://www.bioassayontology.org/bao#BAO_0002168"/>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Toxicity_Assay">
+		<rdfs:label>Toxicity Assay</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Toxicity_Assay"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Toxicity_Assay"/>
+		<rdf:type rdf:resource="&wiki;Category-3AAssays"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<owl:sameAs rdf:resource="http://www.bioassayontology.org/bao#BAO_0002189"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-28T08:53:06</swivt:wikiPageModificationDate>
+		<property:Original_URI rdf:resource="http://www.bioassayontology.org/bao#BAO_0002189"/>
 	</swivt:Subject>
 	<owl:DatatypeProperty rdf:about="&swivt;creationDate" />
 	<owl:ObjectProperty rdf:about="&swivt;page" />

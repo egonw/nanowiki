@@ -1305,6 +1305,74 @@ You can browse this data via one of the following categories:
 * [[Git Repository]]
 * [[Backup and Restore]] of the data</text>
     </revision>
+    <revision>
+      <id>2282</id>
+      <timestamp>2014-09-27T22:17:11Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>/* Nanomaterial Database */</comment>
+      <text xml:space="preserve">Egon's Lab Notebook.
+
+== Nanomaterial Database ==
+
+Database containing QSAR studies from literature with assay data from cell line experiments.
+You can browse this data via one of the following categories:
+
+* [[:Category:Chemical_Entities|Chemical Entities]] ({{#ask: [[Category:Chemical_Entities]] | format=count}}),
+** [[:Category:Materials|Materials]] ({{#ask: [[Category:Materials]] | format=count}}),
+*** [[:Category:MetalOxides|Metal oxides]] ({{#ask: [[Category:MetalOxides]] | format=count}}), [[:Category:Metals|Metals]] ({{#ask: [[Category:Metals]] | format=count}}), [[:Category:Alloys|Alloys]] ({{#ask: [[Category:Alloys]] | format=count}}), [[:Category:CarbonNanotubes|CarbonNanotubes]] ({{#ask: [[Category:CarbonNanotubes]] | format=count}})
+*** [[:Category:Coatings|Coatings]] ({{#ask: [[Category:Coatings]] | format=count}}), [[:Category:Coating_Parts|Coating Parts]] ({{#ask: [[Category:Coating_Parts]] | format=count}})
+* [[:Category:Studies|Studies]] ({{#ask: [[Category:Studies]] | format=count}}), [[:Category:Measurements|Measurements]] ({{#ask: [[Category:Measurements]] | format=count}}), [[:Category:Methods|Methods]] ({{#ask: [[Category:Methods]] | format=count}})
+** [[:Category:NanoMaterials|NanoMaterials]] ({{#ask: [[Category:Studies]] [[Has Entities::!Compounds]] | format=count}}), of which Metal oxides ({{#ask: [[Category:Studies]] [[Has Entities::MetalOxides]] | format=count}}),
+* [[:Category:Papers|Papers]] ({{#ask: [[Category:Papers]] | format=count}}) , [[:Category:PapersToRead|To Read]] ({{#ask: [[Category:PapersToRead]] | format=count}}) from {{#ask: [[Category:Journals]] | format=count}} [[:Category:Journals|Journals]] 
+* [[:Category:Descriptors|Descriptors]] ({{#ask: [[Category:Descriptors]] | format=count}}),
+* [[:Category:Endpoints|Endpoints]] ({{#ask: [[Category:Endpoints]] | format=count}}),
+* [[:Category:Relationships|Relationships]] ({{#ask: [[Category:Relationships]] | format=count}}),
+* [[:Category:Toxicity|Toxicity]] ({{#ask: [[Category:Toxicity]] | format=count}}),
+* [[:Category:Cell Lines|Cell lines]] ({{#ask: [[Category:Cell Lines]] | format=count}}).
+
+== Admin ==
+
+* [[Installation]]
+* [[Git Repository]]
+* [[Backup and Restore]] of the data</text>
+    </revision>
+    <revision>
+      <id>2308</id>
+      <timestamp>2014-09-28T09:45:14Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>/* Nanomaterial Database */</comment>
+      <text xml:space="preserve">Egon's Lab Notebook.
+
+== Nanomaterial Database ==
+
+Database containing QSAR studies from literature with assay data from cell line experiments.
+You can browse this data via one of the following categories:
+
+* [[:Category:Chemical_Entities|Chemical Entities]] ({{#ask: [[Category:Chemical_Entities]] | format=count}}),
+** [[:Category:Materials|Materials]] ({{#ask: [[Category:Materials]] | format=count}}),
+*** [[:Category:MetalOxides|Metal oxides]] ({{#ask: [[Category:MetalOxides]] | format=count}}), [[:Category:Metals|Metals]] ({{#ask: [[Category:Metals]] | format=count}}), [[:Category:Alloys|Alloys]] ({{#ask: [[Category:Alloys]] | format=count}}), [[:Category:CarbonNanotubes|CarbonNanotubes]] ({{#ask: [[Category:CarbonNanotubes]] | format=count}})
+*** [[:Category:Coatings|Coatings]] ({{#ask: [[Category:Coatings]] | format=count}}), [[:Category:Coating_Parts|Coating Parts]] ({{#ask: [[Category:Coating_Parts]] | format=count}})
+* [[:Category:Studies|Studies]] ({{#ask: [[Category:Studies]] | format=count}}), [[:Category:Measurements|Measurements]] ({{#ask: [[Category:Measurements]] | format=count}}), [[:Category:Methods|Methods]] ({{#ask: [[Category:Methods]] | format=count}})
+** [[:Category:NanoMaterials|NanoMaterials]] ({{#ask: [[Category:Studies]] [[Has Entities::!Compounds]] | format=count}}), of which Metal oxides ({{#ask: [[Category:Studies]] [[Has Entities::MetalOxides]] | format=count}}),
+* [[:Category:Papers|Papers]] ({{#ask: [[Category:Papers]] | format=count}}) , [[:Category:PapersToRead|To Read]] ({{#ask: [[Category:PapersToRead]] | format=count}}) from {{#ask: [[Category:Journals]] | format=count}} [[:Category:Journals|Journals]] 
+* [[:Category:Descriptors|Descriptors]] ({{#ask: [[Category:Descriptors]] | format=count}}),
+* [[:Category:Endpoints|Endpoints]] ({{#ask: [[Category:Endpoints]] | format=count}}), [[:Category:Assays|Assays]] ({{#ask: [[Category:Assays]] | format=count}}),
+* [[:Category:Relationships|Relationships]] ({{#ask: [[Category:Relationships]] | format=count}}),
+* [[:Category:Toxicity|Toxicity]] ({{#ask: [[Category:Toxicity]] | format=count}}),
+* [[:Category:Cell Lines|Cell lines]] ({{#ask: [[Category:Cell Lines]] | format=count}}).
+
+== Admin ==
+
+* [[Installation]]
+* [[Git Repository]]
+* [[Backup and Restore]] of the data</text>
+    </revision>
   </page>
   <page>
     <title>MediaWiki:Smw uri blacklist</title>
@@ -14458,6 +14526,24 @@ bacterial viability by 50%).
 
 [[Category:Toxicity]]</text>
     </revision>
+    <revision>
+      <id>2294</id>
+      <timestamp>2014-09-28T08:30:37Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Endpoint
+|Description=General cytotoxicity.
+|Has Assay Type=Cytotoxicity Assay
+}}
+
+The cytotoxicity of the nanoparticles was expressed in terms of the logarithmic
+values of molar 1/EC50 (the effective concentration of a given oxide that reduces
+bacterial viability by 50%).
+
+[[Category:Toxicity]]</text>
+    </revision>
   </page>
   <page>
     <title>Template:Endpoints</title>
@@ -16382,6 +16468,24 @@ Higher value indicates higher toxicity.
       <text xml:space="preserve">{{Endpoint
 |Description=Log 1/EC_50
 |Has Assay Type=In Vitro
+}}
+
+The cytotoxicity of the nanoparticles was expressed in terms of the logarithmic
+values of molar 1/EC50 (the effective concentration of a given oxide that reduces
+bacterial viability by 50%).
+
+Higher value indicates higher toxicity.</text>
+    </revision>
+    <revision>
+      <id>2305</id>
+      <timestamp>2014-09-28T08:45:27Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Endpoint
+|Description=Log 1/EC_50
+|Has Assay Type=Cell Viability Assay
 }}
 
 The cytotoxicity of the nanoparticles was expressed in terms of the logarithmic
@@ -18851,6 +18955,15 @@ The allowed value for this property is:
 * [[Allows value::In Vivo]]
 * [[Allows value::In Vitro]]</text>
     </revision>
+    <revision>
+      <id>2286</id>
+      <timestamp>2014-09-27T22:29:37Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">This is a property of type [[Has type::Page]].</text>
+    </revision>
   </page>
   <page>
     <title>Fourches2010</title>
@@ -19301,6 +19414,30 @@ The allowed value for this property is:
       <text xml:space="preserve">{{Endpoint
 |Description=GI_50
 |Has Assay Type=In Vitro
+}}</text>
+    </revision>
+    <revision>
+      <id>2296</id>
+      <timestamp>2014-09-28T08:31:55Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Endpoint
+|Description=GI_50
+|Has Assay Type=Cell Growth Assay</text>
+    </revision>
+    <revision>
+      <id>2297</id>
+      <timestamp>2014-09-28T08:32:26Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Undo revision 2296 by [[Special:Contributions/Egonw|Egonw]] ([[User talk:Egonw|Talk]])</comment>
+      <text xml:space="preserve">{{Endpoint
+|Description=GI_50
+|Has Assay Type=Cell Growth Assay
 }}</text>
     </revision>
   </page>
@@ -20685,6 +20822,78 @@ The CHEMINF field does the same but then for the CHEMINF ontology.
 [[Category:CellLines]]__NOEDITSECTION____NOTOC__
 &lt;/includeonly&gt;</text>
     </revision>
+    <revision>
+      <id>2279</id>
+      <timestamp>2014-09-27T22:12:47Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">&lt;noinclude&gt;
+&lt;pre&gt;
+{{CellLine
+|Has Medium=
+}}
+&lt;/pre&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: right; table-layout:fixed; word-wrap: break-word;&quot;
+! colspan=2 style=&quot;text-align: center; font-size: 125%&quot; | {{{Name|{{PAGENAME}} }}}
+|-
+{{#if:{{{Has Medium|}}}|
+{{!}}-
+{{!}} Medium
+{{!}} {{{Has Medium}}} 
+}}
+|}
+&lt;br&gt;
+{{#ask: [[Category:Studies]] [[For Cell line::{{PAGENAME}}]]
+| ? Has Endpoint
+| ? Has Study Type
+}}
+{{#if:{{{Has Medium|}}} |
+{{#set:
+|Has Medium={{{Has Medium|}}}
+}}
+| }}
+[[Category:Cell Lines]]__NOEDITSECTION____NOTOC__
+&lt;/includeonly&gt;</text>
+    </revision>
+    <revision>
+      <id>2283</id>
+      <timestamp>2014-09-27T22:18:11Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">&lt;noinclude&gt;
+&lt;pre&gt;
+{{CellLine
+|Has Medium=
+}}
+&lt;/pre&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: right; table-layout:fixed; word-wrap: break-word;&quot;
+! colspan=2 style=&quot;text-align: center; font-size: 125%&quot; | {{{Name|{{PAGENAME}} }}}
+|-
+{{#if:{{{Has Medium|}}}|
+{{!}}-
+{{!}} Medium
+{{!}} {{{Has Medium}}} 
+}}
+|}
+&lt;br&gt;
+{{#ask: [[Category:Studies]] [[For Cell line::{{PAGENAME}}]]
+| ? Has Endpoint
+| ? Has Study Type
+}}
+{{#if:{{{Has Medium|}}} |
+{{#set:
+|Has Medium={{{Has Medium|}}}
+}}
+| }}
+[[Category:Cell Lines]]
+&lt;/includeonly&gt;</text>
+    </revision>
   </page>
   <page>
     <title>PaCa2</title>
@@ -20937,6 +21146,20 @@ Small molecule study.</text>
       <text xml:space="preserve">{{Endpoint
 |Description=-log(GI_50)
 |Has Assay Type=In Vitro
+}}
+
+[[Category:GI50]]</text>
+    </revision>
+    <revision>
+      <id>2302</id>
+      <timestamp>2014-09-28T08:39:19Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Endpoint
+|Description=-log(GI_50)
+|Has Assay Type=Cell Growth Assay
 }}
 
 [[Category:GI50]]</text>
@@ -21870,6 +22093,23 @@ How many cells are still viable after a given amount of time.</text>
       <text xml:space="preserve">{{Endpoint
 |Description=Percentage Non-viable Cells
 |Has Assay Type=In Vitro
+}}
+
+How many cells are still viable after a given amount of time.
+
+
+[[Category:Cytotoxicity]]</text>
+    </revision>
+    <revision>
+      <id>2287</id>
+      <timestamp>2014-09-27T22:35:28Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Endpoint
+|Description=Percentage Non-viable Cells
+|Has Assay Type=Cell Viability Assay
 }}
 
 How many cells are still viable after a given amount of time.
@@ -23243,6 +23483,153 @@ How many cells are still viable after a given amount of time.
 [[Category:Measurements]]__NOEDITSECTION____NOTOC__
 &lt;/includeonly&gt;</text>
     </revision>
+    <revision>
+      <id>2284</id>
+      <timestamp>2014-09-27T22:21:22Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Added 'Has Assay Type'</comment>
+      <text xml:space="preserve">&lt;noinclude&gt;
+&lt;pre&gt;
+{{Measurement
+|Has Entity=
+|For Measurement=
+|Has Dose=
+|Has Dose Units=
+|Has Assay Type=
+|Has Endpoint=
+|Has Endpoint Class=
+|Has Endpoint Error=
+|Has Endpoint Value=
+|Has Endpoint Value Units=
+|Has Study=
+|Has Method=
+}}
+&lt;/pre&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: right; table-layout:fixed; word-wrap: break-word;&quot;
+! colspan=2 style=&quot;text-align: center;background-color: #ddd;&quot; | Measurement
+|-
+! colspan=2 style=&quot;text-align: center; font-size: 125%&quot; | {{{Name|{{PAGENAME}} }}}
+|-
+{{#if:{{{Has Entity|}}}|
+{{!}}-
+{{!}} Entity
+{{!}} [[{{{Has Entity}}}]]
+}}
+{{#if:{{{For Measurement|}}}|
+{{!}}-
+{{!}} For Measurement
+{{!}} [[{{{For Measurement}}}]]
+}}
+{{#if:{{{Has Study|}}}|
+{{!}}-
+{{!}} Study
+{{!}} [[{{{Has Study}}}]]
+}}
+{{#if:{{{Has Dose|}}}|
+{{!}}-
+{{!}} Dose
+{{!}} {{{Has Dose}}} {{#if:{{{Has Dose Units|}}}|{{{Has Dose Units}}}}}
+}}
+{{#if:{{{Has Assay Type|}}}|
+{{!}}-
+{{!}} Assay Type
+{{!}} {{{Has Assay Type}}}
+}}
+{{#if:{{{Has Endpoint Class|}}}|
+{{!}}-
+{{!}} End point Class
+{{!}} {{{Has Endpoint Class}}}
+}}
+{{#if:{{{Has Endpoint Value|}}}|
+{{!}}-
+{{!}} End point Value
+{{!}} {{{Has Endpoint Value}}} {{#if:{{{Has Endpoint Error|}}}|± {{{Has Endpoint Error}}}}} {{#if:{{{Has Endpoint Value Units|}}}|{{{Has Endpoint Value Units}}}}}
+}}
+{{#if:{{{Has Endpoint|}}}|
+{{!}}-
+{{!}} End point
+{{!}} [[{{{Has Endpoint}}}]]
+}}
+|}
+&lt;br&gt;
+= Conditions =
+{{#ask: [[Category:Measurements]] [[For Measurement::{{PAGENAME}}]]
+| ?Has Endpoint
+| ?Has Endpoint Value
+| ?Has Endpoint Error
+| ?Has Endpoint Value Units
+| sort=Has Endpoint Value
+| order=ascending
+| height=250
+| width=600
+}}
+{{#if:{{{Has Study|}}} |
+{{#set:
+|Has Study={{{Has Study|}}}
+}}
+| }}
+{{#if:{{{Has Entity|}}} |
+{{#set:
+|Has Entity={{{Has Entity|}}}
+}}
+| }}
+{{#if:{{{For Measurement|}}} |
+{{#set:
+|For Measurement={{{For Measurement|}}}
+}}
+| }}
+{{#if:{{{Has Dose|}}} |
+{{#set:
+|Has Dose={{{Has Dose|}}}
+}}
+| }}
+{{#if:{{{Has Dose Units|}}} |
+{{#set:
+|Has Dose Units={{{Has Dose Units|}}}
+}}
+| }}
+{{#if:{{{Has Assay Type|}}} |
+{{#set:
+|Has Assay Type={{{Has Assay Type|}}}
+}}
+| }}
+{{#if:{{{Has Endpoint|}}} |
+{{#set:
+|Has Endpoint={{{Has Endpoint|}}}
+}}
+| }}
+{{#if:{{{Has Endpoint Class|}}} |
+{{#set:
+|Has Endpoint Class={{{Has Endpoint Class|}}}
+}}
+| }}
+{{#if:{{{Has Endpoint Value|}}} |
+{{#set:
+|Has Endpoint Value={{{Has Endpoint Value|}}}
+}}
+| }}
+{{#if:{{{Has Endpoint Error|}}} |
+{{#set:
+|Has Endpoint Error={{{Has Endpoint Error|}}}
+}}
+| }}
+{{#if:{{{Has Endpoint Value Units|}}} |
+{{#set:
+|Has Endpoint Value Units={{{Has Endpoint Value Units|}}}
+}}
+| }}
+{{#if:{{{Has Method|}}} |
+{{#set:
+|Has Method={{{Has Method|}}}
+}}
+| }}
+[[Category:Measurements]]__NOEDITSECTION____NOTOC__
+&lt;/includeonly&gt;</text>
+    </revision>
   </page>
   <page>
     <title>Cytotox2011Pyzun01 M1</title>
@@ -23960,6 +24347,21 @@ Shows the label of a NanoMaterial.
 |Has Study=Cytotox2011Pyzun
 }}</text>
     </revision>
+    <revision>
+      <id>2285</id>
+      <timestamp>2014-09-27T22:27:32Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Cytotox2011Pyzun17
+|Has Assay Type=Cytotoxicity
+|Has Endpoint Value=2.87
+|Has Endpoint=LogReciprocalEC50
+|Has Study=Cytotox2011Pyzun
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Property:Has Dose Units</title>
@@ -24500,6 +24902,30 @@ Coated gold particles.
 ** :Category:Descriptors|Descriptors
 ** :Category:Endpoints|End points
 ** :Category:Cell lines|Cell lines
+** :Category:Relationships|Relationships
+** recentchanges-url|recentchanges
+** randompage-url|randompage
+** helppage|help
+** Special:SPARQLEndpoint|SPARQL
+* SEARCH
+* TOOLBOX
+* LANGUAGES</text>
+    </revision>
+    <revision>
+      <id>2281</id>
+      <timestamp>2014-09-27T22:15:02Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">* navigation
+** mainpage|mainpage-description
+** :Category:Materials|Materials
+** :Category:Studies|Studies
+** :Category:Papers|Papers
+** :Category:Descriptors|Descriptors
+** :Category:Endpoints|Endpoints
+** :Category:Cell Lines|Cell lines
 ** :Category:Relationships|Relationships
 ** recentchanges-url|recentchanges
 ** randompage-url|randompage
@@ -30726,6 +31152,18 @@ The allowed value for this property is:
 |Has Assay Type=In Vitro
 }}</text>
     </revision>
+    <revision>
+      <id>2303</id>
+      <timestamp>2014-09-28T08:42:08Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Endpoint
+|Description=ROS Concentration
+|Has Assay Type=Oxidative Stress Assay
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Surface Modification Class</title>
@@ -32248,6 +32686,30 @@ carcinogenicity.
       <text xml:space="preserve">{{Endpoint
 |Description=DNA Damage
 |Has Assay Type=In Vitro
+}}</text>
+    </revision>
+    <revision>
+      <id>2293</id>
+      <timestamp>2014-09-28T08:29:10Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Endpoint
+|Description=DNA Damage
+|Has Assay Type=Cell Viability Assay
+}}</text>
+    </revision>
+    <revision>
+      <id>2299</id>
+      <timestamp>2014-09-28T08:38:21Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Endpoint
+|Description=DNA Damage
+|Has Assay Type=Genotoxicity Assay
 }}</text>
     </revision>
   </page>
@@ -35475,6 +35937,18 @@ The allowed value for this property is:
       <text xml:space="preserve">{{Endpoint
 |Description=Log GI_50
 |Has Assay Type=In Vitro
+}}</text>
+    </revision>
+    <revision>
+      <id>2301</id>
+      <timestamp>2014-09-28T08:39:12Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Endpoint
+|Description=Log GI_50
+|Has Assay Type=Cell Growth Assay
 }}</text>
     </revision>
   </page>
@@ -40629,6 +41103,18 @@ Check the [http://www.mediawiki.org/wiki/Extension:RDFIO general instructions].
       <text xml:space="preserve">{{Endpoint
 |Description=Particle toxicity
 |Has Assay Type=In Vitro
+}}</text>
+    </revision>
+    <revision>
+      <id>2306</id>
+      <timestamp>2014-09-28T08:46:54Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Endpoint
+|Description=Particle toxicity
+|Has Assay Type=Toxicity Assay
 }}</text>
     </revision>
   </page>
@@ -52138,6 +52624,197 @@ We demonstrate for 24 metal oxide (MOx) nanoparticles that it is possible to use
       </contributor>
       <comment>Created page with &quot;This is a value of type [[Has type::Page]].&quot;</comment>
       <text xml:space="preserve">This is a value of type [[Has type::Page]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Category:Cell Lines</title>
+    <id>945</id>
+    <revision>
+      <id>2280</id>
+      <timestamp>2014-09-27T22:13:24Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;Cell lines used in [[:Category:Studies]] described in these [[:Category:Papers]].&quot;</comment>
+      <text xml:space="preserve">Cell lines used in [[:Category:Studies]] described in these [[:Category:Papers]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Assay</title>
+    <id>946</id>
+    <revision>
+      <id>2288</id>
+      <timestamp>2014-09-27T22:37:10Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;&lt;noinclude&gt; &lt;pre&gt; {{Assay }} &lt;/pre&gt; &lt;/noinclude&gt;&lt;includeonly&gt; {| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: …&quot;</comment>
+      <text xml:space="preserve">&lt;noinclude&gt;
+&lt;pre&gt;
+{{Assay
+}}
+&lt;/pre&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: right; table-layout:fixed; word-wrap: break-word;&quot;
+! colspan=2 style=&quot;text-align: center; font-size: 125%&quot; | {{{Name|{{PAGENAME}} }}}
+|-
+|}
+&lt;br&gt;
+[[Category:Assays]]
+&lt;/includeonly&gt;</text>
+    </revision>
+    <revision>
+      <id>2289</id>
+      <timestamp>2014-09-27T22:37:43Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">&lt;noinclude&gt;
+&lt;pre&gt;
+{{Assay}}
+&lt;/pre&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: right; table-layout:fixed; word-wrap: break-word;&quot;
+! colspan=2 style=&quot;text-align: center; font-size: 125%&quot; | {{{Name|{{PAGENAME}} }}}
+|-
+|}
+&lt;br&gt;
+[[Category:Assays]]
+&lt;/includeonly&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Cell Viability Assay</title>
+    <id>947</id>
+    <revision>
+      <id>2290</id>
+      <timestamp>2014-09-27T22:37:54Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Assay}}&quot;</comment>
+      <text xml:space="preserve">{{Assay}}</text>
+    </revision>
+    <revision>
+      <id>2292</id>
+      <timestamp>2014-09-28T08:21:23Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Assay}}
+
+{{#set:Original URI=http://www.bioassayontology.org/bao#BAO_0003009}}
+{{#set:Equivalent URI=http://www.bioassayontology.org/bao#BAO_0003009}}
+{{#set:Has type=URL}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Category:Assays</title>
+    <id>948</id>
+    <revision>
+      <id>2291</id>
+      <timestamp>2014-09-27T22:38:03Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;Assays.&quot;</comment>
+      <text xml:space="preserve">Assays.</text>
+    </revision>
+  </page>
+  <page>
+    <title>Cytotoxicity Assay</title>
+    <id>949</id>
+    <revision>
+      <id>2295</id>
+      <timestamp>2014-09-28T08:31:07Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Assay}}  {{#set:Original URI=http://www.bioassayontology.org/bao#BAO_0002993}} {{#set:Equivalent URI=http://www.bioassayontology.org/bao#BAO_0002993}} {{#set:Has type=URL}}&quot;</comment>
+      <text xml:space="preserve">{{Assay}}
+
+{{#set:Original URI=http://www.bioassayontology.org/bao#BAO_0002993}}
+{{#set:Equivalent URI=http://www.bioassayontology.org/bao#BAO_0002993}}
+{{#set:Has type=URL}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Cell Growth Assay</title>
+    <id>950</id>
+    <revision>
+      <id>2298</id>
+      <timestamp>2014-09-28T08:33:16Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Assay}}  {{#set:Original URI=http://www.bioassayontology.org/bao#BAO_0002100}} {{#set:Equivalent URI=http://www.bioassayontology.org/bao#BAO_0002100}} {{#set:Has type=URL}}&quot;</comment>
+      <text xml:space="preserve">{{Assay}}
+
+{{#set:Original URI=http://www.bioassayontology.org/bao#BAO_0002100}}
+{{#set:Equivalent URI=http://www.bioassayontology.org/bao#BAO_0002100}}
+{{#set:Has type=URL}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Genotoxicity Assay</title>
+    <id>951</id>
+    <revision>
+      <id>2300</id>
+      <timestamp>2014-09-28T08:38:42Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Assay}}  {{#set:Original URI=http://www.bioassayontology.org/bao#BAO_0002167}} {{#set:Equivalent URI=http://www.bioassayontology.org/bao#BAO_0002167}} {{#set:Has type=URL}}&quot;</comment>
+      <text xml:space="preserve">{{Assay}}
+
+{{#set:Original URI=http://www.bioassayontology.org/bao#BAO_0002167}}
+{{#set:Equivalent URI=http://www.bioassayontology.org/bao#BAO_0002167}}
+{{#set:Has type=URL}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Oxidative Stress Assay</title>
+    <id>952</id>
+    <revision>
+      <id>2304</id>
+      <timestamp>2014-09-28T08:42:43Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Assay}}  {{#set:Original URI=http://www.bioassayontology.org/bao#BAO_0002168}} {{#set:Equivalent URI=http://www.bioassayontology.org/bao#BAO_0002168}} {{#set:Has type=URL}}&quot;</comment>
+      <text xml:space="preserve">{{Assay}}
+
+{{#set:Original URI=http://www.bioassayontology.org/bao#BAO_0002168}}
+{{#set:Equivalent URI=http://www.bioassayontology.org/bao#BAO_0002168}}
+{{#set:Has type=URL}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Toxicity Assay</title>
+    <id>953</id>
+    <revision>
+      <id>2307</id>
+      <timestamp>2014-09-28T08:53:06Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Assay}}  {{#set:Original URI=http://www.bioassayontology.org/bao#BAO_0002189}} {{#set:Equivalent URI=http://www.bioassayontology.org/bao#BAO_0002189}} {{#set:Has type=URL}}&quot;</comment>
+      <text xml:space="preserve">{{Assay}}
+
+{{#set:Original URI=http://www.bioassayontology.org/bao#BAO_0002189}}
+{{#set:Equivalent URI=http://www.bioassayontology.org/bao#BAO_0002189}}
+{{#set:Has type=URL}}</text>
     </revision>
   </page>
 </mediawiki>
