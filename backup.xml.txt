@@ -17963,6 +17963,15 @@ How many cells are still viable after a given amount of time.
       </contributor>
       <text xml:space="preserve">This is a property of type [[Has type::Number]].</text>
     </revision>
+    <revision>
+      <id>2625</id>
+      <timestamp>2014-10-03T14:55:35Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">This is a property of type [[Has type::String]].</text>
+    </revision>
   </page>
   <page>
     <title>Template:Measurement</title>
@@ -19414,6 +19423,513 @@ How many cells are still viable after a given amount of time.
 {{#if:{{{Has Endpoint Value|}}} |
 {{#set:
 |Has Endpoint Value={{{Has Endpoint Value|}}}
+}}
+| }}
+{{#if:{{{Has Endpoint Error|}}} |
+{{#set:
+|Has Endpoint Error={{{Has Endpoint Error|}}}
+}}
+| }}
+{{#if:{{{Has Endpoint Value Units|}}} |
+{{#set:
+|Has Endpoint Value Units={{{Has Endpoint Value Units|}}}
+}}
+| }}
+{{#if:{{{Has Method|}}} |
+{{#set:
+|Has Method={{{Has Method|}}}
+}}
+| }}
+[[Category:Measurements]]__NOEDITSECTION____NOTOC__
+&lt;/includeonly&gt;</text>
+    </revision>
+    <revision>
+      <id>2509</id>
+      <timestamp>2014-10-02T17:34:12Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">&lt;noinclude&gt;
+&lt;pre&gt;
+{{Measurement
+|Has Entity=
+|For Measurement=
+|Has Dose=
+|Has Dose Units=
+|Has Assay Type=
+|Has Endpoint=
+|Has Endpoint Class=
+|Has Endpoint Error=
+|Has Endpoint Value=
+|Has Endpoint Value Min=
+|Has Endpoint Value Max=
+|Has Endpoint Value Units=
+|Has Study=
+|Has Method=
+}}
+&lt;/pre&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: right; table-layout:fixed; word-wrap: break-word;&quot;
+! colspan=2 style=&quot;text-align: center;background-color: #ddd;&quot; | Measurement
+|-
+! colspan=2 style=&quot;text-align: center; font-size: 125%&quot; | {{{Name|{{PAGENAME}} }}}
+|-
+{{#if:{{{Has Entity|}}}|
+{{!}}-
+{{!}} Entity
+{{!}} [[{{{Has Entity}}}]]
+}}
+{{#if:{{{For Measurement|}}}|
+{{!}}-
+{{!}} For Measurement
+{{!}} [[{{{For Measurement}}}]]
+}}
+{{#if:{{{Has Study|}}}|
+{{!}}-
+{{!}} Study
+{{!}} [[{{{Has Study}}}]]
+}}
+{{#if:{{{Has Dose|}}}|
+{{!}}-
+{{!}} Dose
+{{!}} {{{Has Dose}}} {{#if:{{{Has Dose Units|}}}|{{{Has Dose Units}}}}}
+}}
+{{#if:{{{Has Assay Type|}}}|
+{{!}}-
+{{!}} Assay Type
+{{!}} {{{Has Assay Type}}}
+}}
+{{#if:{{{Has Endpoint Class|}}}|
+{{!}}-
+{{!}} End point Class
+{{!}} {{{Has Endpoint Class}}}
+}}
+{{#if:{{{Has Endpoint Value|}}}|
+{{!}}-
+{{!}} End point Value
+{{!}} {{{Has Endpoint Value}}} {{#if:{{{Has Endpoint Error|}}}|± {{{Has Endpoint Error}}}}} {{#if:{{{Has Endpoint Value Units|}}}|{{{Has Endpoint Value Units}}}}}
+}}
+{{#if:{{{Has Endpoint Value Min|}}}|
+{{!}}-
+{{!}} End point Value
+{{!}} {{{Has Endpoint Value Min}}} - {{{Has Endpoint Value Max}}} {{#if:{{{Has Endpoint Value Units|}}}|{{{Has Endpoint Value Units}}}}}
+}}
+{{#if:{{{Has Endpoint|}}}|
+{{!}}-
+{{!}} End point
+{{!}} [[{{{Has Endpoint}}}]]
+}}
+|}
+&lt;br&gt;
+= Conditions =
+{{#ask: [[Category:Measurements]] [[For Measurement::{{PAGENAME}}]]
+| ?Has Endpoint
+| ?Has Endpoint Value
+| ?Has Endpoint Error
+| ?Has Endpoint Value Min
+| ?Has Endpoint Value Max
+| ?Has Endpoint Value Units
+| sort=Has Endpoint Value
+| order=ascending
+| height=250
+| width=600
+}}
+{{#if:{{{Has Study|}}} |
+{{#set:
+|Has Study={{{Has Study|}}}
+}}
+| }}
+{{#if:{{{Has Entity|}}} |
+{{#set:
+|Has Entity={{{Has Entity|}}}
+}}
+| }}
+{{#if:{{{For Measurement|}}} |
+{{#set:
+|For Measurement={{{For Measurement|}}}
+}}
+| }}
+{{#if:{{{Has Dose|}}} |
+{{#set:
+|Has Dose={{{Has Dose|}}}
+}}
+| }}
+{{#if:{{{Has Dose Units|}}} |
+{{#set:
+|Has Dose Units={{{Has Dose Units|}}}
+}}
+| }}
+{{#if:{{{Has Assay Type|}}} |
+{{#set:
+|Has Assay Type={{{Has Assay Type|}}}
+}}
+| }}
+{{#if:{{{Has Endpoint|}}} |
+{{#set:
+|Has Endpoint={{{Has Endpoint|}}}
+}}
+| }}
+{{#if:{{{Has Endpoint Class|}}} |
+{{#set:
+|Has Endpoint Class={{{Has Endpoint Class|}}}
+}}
+| }}
+{{#if:{{{Has Endpoint Value|}}} |
+{{#set:
+|Has Endpoint Value={{{Has Endpoint Value|}}}
+}}
+| }}
+{{#if:{{{Has Endpoint Value Min|}}} |
+{{#set:
+|Has Endpoint Value Min={{{Has Endpoint Value Min|}}}
+}}
+| }}
+{{#if:{{{Has Endpoint Value Max|}}} |
+{{#set:
+|Has Endpoint Value Max={{{Has Endpoint Value Max|}}}
+}}
+| }}
+{{#if:{{{Has Endpoint Error|}}} |
+{{#set:
+|Has Endpoint Error={{{Has Endpoint Error|}}}
+}}
+| }}
+{{#if:{{{Has Endpoint Value Units|}}} |
+{{#set:
+|Has Endpoint Value Units={{{Has Endpoint Value Units|}}}
+}}
+| }}
+{{#if:{{{Has Method|}}} |
+{{#set:
+|Has Method={{{Has Method|}}}
+}}
+| }}
+[[Category:Measurements]]__NOEDITSECTION____NOTOC__
+&lt;/includeonly&gt;</text>
+    </revision>
+    <revision>
+      <id>2609</id>
+      <timestamp>2014-10-03T11:52:11Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">&lt;noinclude&gt;
+&lt;pre&gt;
+{{Measurement
+|Has Entity=
+|For Measurement=
+|Has Dose=
+|Has Dose Units=
+|Has Assay Type=
+|Has Endpoint=
+|Has Endpoint Class=
+|Has Endpoint Error=
+|Has Endpoint Value=
+|Has Endpoint Value Category=
+|Has Endpoint Value Min=
+|Has Endpoint Value Max=
+|Has Endpoint Value Units=
+|Has Study=
+|Has Method=
+}}
+&lt;/pre&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: right; table-layout:fixed; word-wrap: break-word;&quot;
+! colspan=2 style=&quot;text-align: center;background-color: #ddd;&quot; | Measurement
+|-
+! colspan=2 style=&quot;text-align: center; font-size: 125%&quot; | {{{Name|{{PAGENAME}} }}}
+|-
+{{#if:{{{Has Entity|}}}|
+{{!}}-
+{{!}} Entity
+{{!}} [[{{{Has Entity}}}]]
+}}
+{{#if:{{{For Measurement|}}}|
+{{!}}-
+{{!}} For Measurement
+{{!}} [[{{{For Measurement}}}]]
+}}
+{{#if:{{{Has Study|}}}|
+{{!}}-
+{{!}} Study
+{{!}} [[{{{Has Study}}}]]
+}}
+{{#if:{{{Has Dose|}}}|
+{{!}}-
+{{!}} Dose
+{{!}} {{{Has Dose}}} {{#if:{{{Has Dose Units|}}}|{{{Has Dose Units}}}}}
+}}
+{{#if:{{{Has Assay Type|}}}|
+{{!}}-
+{{!}} Assay Type
+{{!}} {{{Has Assay Type}}}
+}}
+{{#if:{{{Has Endpoint Class|}}}|
+{{!}}-
+{{!}} End point Class
+{{!}} {{{Has Endpoint Class}}}
+}}
+{{#if:{{{Has Endpoint Value|}}}|
+{{!}}-
+{{!}} End point Value
+{{!}} {{{Has Endpoint Value}}} {{#if:{{{Has Endpoint Error|}}}|± {{{Has Endpoint Error}}}}} {{#if:{{{Has Endpoint Value Units|}}}|{{{Has Endpoint Value Units}}}}}
+}}
+{{#if:{{{Has Endpoint Category|}}}|
+{{!}}-
+{{!}} End point Value
+{{!}} {{{Has Endpoint Category}}}
+}}
+{{#if:{{{Has Endpoint Value Min|}}}|
+{{!}}-
+{{!}} End point Value
+{{!}} {{{Has Endpoint Value Min}}} - {{{Has Endpoint Value Max}}} {{#if:{{{Has Endpoint Value Units|}}}|{{{Has Endpoint Value Units}}}}}
+}}
+{{#if:{{{Has Endpoint|}}}|
+{{!}}-
+{{!}} End point
+{{!}} [[{{{Has Endpoint}}}]]
+}}
+|}
+&lt;br&gt;
+= Conditions =
+{{#ask: [[Category:Measurements]] [[For Measurement::{{PAGENAME}}]]
+| ?Has Endpoint
+| ?Has Endpoint Value
+| ?Has Endpoint Error
+| ?Has Endpoint Value Min
+| ?Has Endpoint Value Max
+| ?Has Endpoint Value Units
+| ?Has Endpoint Value Category
+| sort=Has Endpoint Value
+| order=ascending
+| height=250
+| width=600
+}}
+{{#if:{{{Has Study|}}} |
+{{#set:
+|Has Study={{{Has Study|}}}
+}}
+| }}
+{{#if:{{{Has Entity|}}} |
+{{#set:
+|Has Entity={{{Has Entity|}}}
+}}
+| }}
+{{#if:{{{For Measurement|}}} |
+{{#set:
+|For Measurement={{{For Measurement|}}}
+}}
+| }}
+{{#if:{{{Has Dose|}}} |
+{{#set:
+|Has Dose={{{Has Dose|}}}
+}}
+| }}
+{{#if:{{{Has Dose Units|}}} |
+{{#set:
+|Has Dose Units={{{Has Dose Units|}}}
+}}
+| }}
+{{#if:{{{Has Assay Type|}}} |
+{{#set:
+|Has Assay Type={{{Has Assay Type|}}}
+}}
+| }}
+{{#if:{{{Has Endpoint|}}} |
+{{#set:
+|Has Endpoint={{{Has Endpoint|}}}
+}}
+| }}
+{{#if:{{{Has Endpoint Class|}}} |
+{{#set:
+|Has Endpoint Class={{{Has Endpoint Class|}}}
+}}
+| }}
+{{#if:{{{Has Endpoint Value|}}} |
+{{#set:
+|Has Endpoint Value={{{Has Endpoint Value|}}}
+}}
+| }}
+{{#if:{{{Has Endpoint Value Category|}}} |
+{{#set:
+|Has Endpoint Value Category={{{Has Endpoint Value Category|}}}
+}}
+| }}
+{{#if:{{{Has Endpoint Value Min|}}} |
+{{#set:
+|Has Endpoint Value Min={{{Has Endpoint Value Min|}}}
+}}
+| }}
+{{#if:{{{Has Endpoint Value Max|}}} |
+{{#set:
+|Has Endpoint Value Max={{{Has Endpoint Value Max|}}}
+}}
+| }}
+{{#if:{{{Has Endpoint Error|}}} |
+{{#set:
+|Has Endpoint Error={{{Has Endpoint Error|}}}
+}}
+| }}
+{{#if:{{{Has Endpoint Value Units|}}} |
+{{#set:
+|Has Endpoint Value Units={{{Has Endpoint Value Units|}}}
+}}
+| }}
+{{#if:{{{Has Method|}}} |
+{{#set:
+|Has Method={{{Has Method|}}}
+}}
+| }}
+[[Category:Measurements]]__NOEDITSECTION____NOTOC__
+&lt;/includeonly&gt;</text>
+    </revision>
+    <revision>
+      <id>2629</id>
+      <timestamp>2014-10-03T14:57:34Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">&lt;noinclude&gt;
+&lt;pre&gt;
+{{Measurement
+|Has Entity=
+|For Measurement=
+|Has Dose=
+|Has Dose Units=
+|Has Assay Type=
+|Has Endpoint=
+|Has Endpoint Class=
+|Has Endpoint Error=
+|Has Endpoint Value=
+|Has Endpoint Value Min=
+|Has Endpoint Value Max=
+|Has Endpoint Value Units=
+|Has Study=
+|Has Method=
+}}
+&lt;/pre&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: right; table-layout:fixed; word-wrap: break-word;&quot;
+! colspan=2 style=&quot;text-align: center;background-color: #ddd;&quot; | Measurement
+|-
+! colspan=2 style=&quot;text-align: center; font-size: 125%&quot; | {{{Name|{{PAGENAME}} }}}
+|-
+{{#if:{{{Has Entity|}}}|
+{{!}}-
+{{!}} Entity
+{{!}} [[{{{Has Entity}}}]]
+}}
+{{#if:{{{For Measurement|}}}|
+{{!}}-
+{{!}} For Measurement
+{{!}} [[{{{For Measurement}}}]]
+}}
+{{#if:{{{Has Study|}}}|
+{{!}}-
+{{!}} Study
+{{!}} [[{{{Has Study}}}]]
+}}
+{{#if:{{{Has Dose|}}}|
+{{!}}-
+{{!}} Dose
+{{!}} {{{Has Dose}}} {{#if:{{{Has Dose Units|}}}|{{{Has Dose Units}}}}}
+}}
+{{#if:{{{Has Assay Type|}}}|
+{{!}}-
+{{!}} Assay Type
+{{!}} {{{Has Assay Type}}}
+}}
+{{#if:{{{Has Endpoint Class|}}}|
+{{!}}-
+{{!}} End point Class
+{{!}} {{{Has Endpoint Class}}}
+}}
+{{#if:{{{Has Endpoint Value|}}}|
+{{!}}-
+{{!}} End point Value
+{{!}} {{{Has Endpoint Value}}} {{#if:{{{Has Endpoint Error|}}}|± {{{Has Endpoint Error}}}}} {{#if:{{{Has Endpoint Value Units|}}}|{{{Has Endpoint Value Units}}}}}
+}}
+{{#if:{{{Has Endpoint Value Min|}}}|
+{{!}}-
+{{!}} End point Value
+{{!}} {{{Has Endpoint Value Min}}} - {{{Has Endpoint Value Max}}} {{#if:{{{Has Endpoint Value Units|}}}|{{{Has Endpoint Value Units}}}}}
+}}
+{{#if:{{{Has Endpoint|}}}|
+{{!}}-
+{{!}} End point
+{{!}} [[{{{Has Endpoint}}}]]
+}}
+|}
+&lt;br&gt;
+= Conditions =
+{{#ask: [[Category:Measurements]] [[For Measurement::{{PAGENAME}}]]
+| ?Has Endpoint
+| ?Has Endpoint Value
+| ?Has Endpoint Error
+| ?Has Endpoint Value Min
+| ?Has Endpoint Value Max
+| ?Has Endpoint Value Units
+| sort=Has Endpoint Value
+| order=ascending
+| height=250
+| width=600
+}}
+{{#if:{{{Has Study|}}} |
+{{#set:
+|Has Study={{{Has Study|}}}
+}}
+| }}
+{{#if:{{{Has Entity|}}} |
+{{#set:
+|Has Entity={{{Has Entity|}}}
+}}
+| }}
+{{#if:{{{For Measurement|}}} |
+{{#set:
+|For Measurement={{{For Measurement|}}}
+}}
+| }}
+{{#if:{{{Has Dose|}}} |
+{{#set:
+|Has Dose={{{Has Dose|}}}
+}}
+| }}
+{{#if:{{{Has Dose Units|}}} |
+{{#set:
+|Has Dose Units={{{Has Dose Units|}}}
+}}
+| }}
+{{#if:{{{Has Assay Type|}}} |
+{{#set:
+|Has Assay Type={{{Has Assay Type|}}}
+}}
+| }}
+{{#if:{{{Has Endpoint|}}} |
+{{#set:
+|Has Endpoint={{{Has Endpoint|}}}
+}}
+| }}
+{{#if:{{{Has Endpoint Class|}}} |
+{{#set:
+|Has Endpoint Class={{{Has Endpoint Class|}}}
+}}
+| }}
+{{#if:{{{Has Endpoint Value|}}} |
+{{#set:
+|Has Endpoint Value={{{Has Endpoint Value|}}}
+}}
+| }}
+{{#if:{{{Has Endpoint Value Min|}}} |
+{{#set:
+|Has Endpoint Value Min={{{Has Endpoint Value Min|}}}
+}}
+| }}
+{{#if:{{{Has Endpoint Value Max|}}} |
+{{#set:
+|Has Endpoint Value Max={{{Has Endpoint Value Max|}}}
 }}
 | }}
 {{#if:{{{Has Endpoint Error|}}} |
@@ -21256,6 +21772,26 @@ Coated iron oxides particles.
 
 [[Has alternative Identifier::NP3]]</text>
     </revision>
+    <revision>
+      <id>2584</id>
+      <timestamp>2014-10-03T10:28:38Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=CLIO-47-NH2 no 9
+|Has Identifier=33
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=CLIO-NH2
+|Has NM Type=MetalOxide
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP3]]</text>
+    </revision>
   </page>
   <page>
     <title>Property:Has alternative Identifier</title>
@@ -21383,6 +21919,26 @@ Coated iron oxides particles.
 
 [[Has alternative Identifier::NP1]]</text>
     </revision>
+    <revision>
+      <id>2585</id>
+      <timestamp>2014-10-03T10:28:52Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=Carboxyl-CLIO-FITC-NH2 no. 3
+|Has Identifier=31
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=CLIO-FITC-COOH
+|Has NM Type=MetalOxide
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP1]]</text>
+    </revision>
   </page>
   <page>
     <title>Shaw51 02</title>
@@ -21489,6 +22045,26 @@ Coated iron oxides particles.
 |Has Size=30
 |Has Size Units=nm
 |Has Zeta potential=-9.22
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP2]]</text>
+    </revision>
+    <revision>
+      <id>2583</id>
+      <timestamp>2014-10-03T10:28:18Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=CLIO-47 no. 3
+|Has Identifier=32
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=CLIO-FITC
+|Has NM Type=MetalOxide
 }}
 
 {{#set:|Used in Study=Shaw51}}
@@ -21609,6 +22185,26 @@ Coated iron oxides particles.
 
 [[Has alternative Identifier::NP4]]</text>
     </revision>
+    <revision>
+      <id>2582</id>
+      <timestamp>2014-10-03T10:28:01Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=CLIO-48-NH2 no. 14
+|Has Identifier=34
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=CLIO-NH2
+|Has NM Type=MetalOxide
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP4]]</text>
+    </revision>
   </page>
   <page>
     <title>Shaw51 05</title>
@@ -21701,6 +22297,26 @@ Coated iron oxides particles.
 
 [[Has alternative Identifier::NP5]]</text>
     </revision>
+    <revision>
+      <id>2581</id>
+      <timestamp>2014-10-03T10:27:42Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=CLIO-AF488 no. 10
+|Has Identifier=35
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=CLIO-AF488
+|Has NM Type=MetalOxide
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP5]]</text>
+    </revision>
   </page>
   <page>
     <title>Shaw51 06</title>
@@ -21786,6 +22402,26 @@ Coated iron oxides particles.
 |Has Size=29
 |Has Size Units=nm
 |Has Zeta potential=1.95
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP6]]</text>
+    </revision>
+    <revision>
+      <id>2580</id>
+      <timestamp>2014-10-03T10:27:26Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=CLIO-AF750 no. 3
+|Has Identifier=36
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=CLIO-AF750
+|Has NM Type=MetalOxide
 }}
 
 {{#set:|Used in Study=Shaw51}}
@@ -21906,6 +22542,26 @@ Coated iron oxides particles.
 
 [[Has alternative Identifier::NP7]]</text>
     </revision>
+    <revision>
+      <id>2579</id>
+      <timestamp>2014-10-03T10:27:14Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=CLIO-bentri-FITC
+|Has Identifier=37
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=CLIO-FITC-RCOOH
+|Has NM Type=MetalOxide
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP7]]</text>
+    </revision>
   </page>
   <page>
     <title>Shaw51 08</title>
@@ -21998,6 +22654,26 @@ Coated iron oxides particles.
 
 [[Has alternative Identifier::NP8]]</text>
     </revision>
+    <revision>
+      <id>2578</id>
+      <timestamp>2014-10-03T10:26:26Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=CLIO-Biotin no.2
+|Has Identifier=38
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=BiotinCoating
+|Has NM Type=MetalOxide
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP8]]</text>
+    </revision>
   </page>
   <page>
     <title>Shaw51 09</title>
@@ -22083,6 +22759,26 @@ Coated iron oxides particles.
 |Has Size=36
 |Has Size Units=nm
 |Has Zeta potential=-14.0
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP9]]</text>
+    </revision>
+    <revision>
+      <id>2577</id>
+      <timestamp>2014-10-03T10:26:09Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=CLIO-COOH-FITC no.1
+|Has Identifier=39
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=FITC-COOH
+|Has NM Type=MetalOxide
 }}
 
 {{#set:|Used in Study=Shaw51}}
@@ -22204,6 +22900,26 @@ Coated iron oxides particles.
 
 [[Has alternative Identifier::NP10]]</text>
     </revision>
+    <revision>
+      <id>2576</id>
+      <timestamp>2014-10-03T10:18:40Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=CLIO-Cy3.5 no. 2
+|Has Identifier=40
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=CLIO-CY35
+|Has NM Type=MetalOxide
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP10]]</text>
+    </revision>
   </page>
   <page>
     <title>Shaw51 11</title>
@@ -22289,6 +23005,26 @@ Coated iron oxides particles.
 |Has Size=31
 |Has Size Units=nm
 |Has Zeta potential=-9.46
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP11]]</text>
+    </revision>
+    <revision>
+      <id>2575</id>
+      <timestamp>2014-10-03T10:18:26Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=CLIO- Cy5.5-Protamine no. 3
+|Has Identifier=41
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=CLIO-FITC-Protamine
+|Has NM Type=MetalOxide
 }}
 
 {{#set:|Used in Study=Shaw51}}
@@ -22388,6 +23124,26 @@ Coated iron oxides particles.
 
 [[Has alternative Identifier::NP12]]</text>
     </revision>
+    <revision>
+      <id>2574</id>
+      <timestamp>2014-10-03T10:18:01Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=CLIO-Cy5.5-tat no. 3
+|Has Identifier=42
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=CLIO-CY35-Tat
+|Has NM Type=MetalOxide
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP12]]</text>
+    </revision>
   </page>
   <page>
     <title>Shaw51 13</title>
@@ -22465,6 +23221,26 @@ Coated iron oxides particles.
 |Has Chemical Coating=CLIO-CY55
 |Has NM Type=MetalOxide
 |Has Zeta potential=3.09
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP13]]</text>
+    </revision>
+    <revision>
+      <id>2573</id>
+      <timestamp>2014-10-03T10:16:58Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=CLIO-Cy5.5-X no. 1
+|Has Identifier=43
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=CLIO-CY55
+|Has NM Type=MetalOxide
 }}
 
 {{#set:|Used in Study=Shaw51}}
@@ -22564,6 +23340,26 @@ Coated iron oxides particles.
 
 [[Has alternative Identifier::NP14]]</text>
     </revision>
+    <revision>
+      <id>2572</id>
+      <timestamp>2014-10-03T10:16:44Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=CLIO-Cy5 no. 2
+|Has Identifier=44
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=CLIO-CY5
+|Has NM Type=MetalOxide
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP14]]</text>
+    </revision>
   </page>
   <page>
     <title>Shaw51 15</title>
@@ -22649,6 +23445,26 @@ Coated iron oxides particles.
 |Has Size=24
 |Has Size Units=nm
 |Has Zeta potential=-11.7
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP15]]</text>
+    </revision>
+    <revision>
+      <id>2571</id>
+      <timestamp>2014-10-03T10:16:31Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=CLIO-Cy7 no. 2
+|Has Identifier=45
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=CLIO-CY7
+|Has NM Type=MetalOxide
 }}
 
 {{#set:|Used in Study=Shaw51}}
@@ -22748,6 +23564,26 @@ Coated iron oxides particles.
 
 [[Has alternative Identifier::NP16]]</text>
     </revision>
+    <revision>
+      <id>2570</id>
+      <timestamp>2014-10-03T10:15:40Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=CLIO-FITC no. 4
+|Has Identifier=46
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=CLIO-FITC
+|Has NM Type=MetalOxide
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP16]]</text>
+    </revision>
   </page>
   <page>
     <title>Shaw51 17</title>
@@ -22833,6 +23669,26 @@ Coated iron oxides particles.
 |Has Size=38
 |Has Size Units=nm
 |Has Zeta potential=-20.7
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP17]]</text>
+    </revision>
+    <revision>
+      <id>2569</id>
+      <timestamp>2014-10-03T10:15:09Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=CLIO-GLU-FITC
+|Has Identifier=47
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=CLIO-FITC-GlutamicAcid
+|Has NM Type=MetalOxide
 }}
 
 {{#set:|Used in Study=Shaw51}}
@@ -22932,6 +23788,26 @@ Coated iron oxides particles.
 
 [[Has alternative Identifier::NP18]]</text>
     </revision>
+    <revision>
+      <id>2568</id>
+      <timestamp>2014-10-03T10:14:55Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=CLIO-GLY
+|Has Identifier=48
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=CLIO-Glycine
+|Has NM Type=MetalOxide
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP18]]</text>
+    </revision>
   </page>
   <page>
     <title>Shaw51 19</title>
@@ -23017,6 +23893,26 @@ Coated iron oxides particles.
 |Has Size=31
 |Has Size Units=nm
 |Has Zeta potential=-3.61
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP19]]</text>
+    </revision>
+    <revision>
+      <id>2567</id>
+      <timestamp>2014-10-03T10:14:38Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=CLIO-Rhodamine-Protamine no. 1
+|Has Identifier=49
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=CLIO-Rhodamine-Protamine
+|Has NM Type=MetalOxide
 }}
 
 {{#set:|Used in Study=Shaw51}}
@@ -23137,6 +24033,26 @@ Coated iron oxides particles.
 
 [[Has alternative Identifier::NP20]]</text>
     </revision>
+    <revision>
+      <id>2566</id>
+      <timestamp>2014-10-03T10:12:42Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=CLIO-SIA-FITC
+|Has Identifier=50
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=CLIO-FTIC-SI
+|Has NM Type=MetalOxide
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP20]]</text>
+    </revision>
   </page>
   <page>
     <title>Shaw51 21</title>
@@ -23222,6 +24138,26 @@ Coated iron oxides particles.
 |Has Size=28
 |Has Size Units=nm
 |Has Zeta potential=-9.23
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP21]]</text>
+    </revision>
+    <revision>
+      <id>2565</id>
+      <timestamp>2014-10-03T10:12:04Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=CLIO-tat no. 26
+|Has Identifier=51
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=CLIO-TatPeptide
+|Has NM Type=MetalOxide
 }}
 
 {{#set:|Used in Study=Shaw51}}
@@ -23321,6 +24257,26 @@ Coated iron oxides particles.
 
 [[Has alternative Identifier::NP22]]</text>
     </revision>
+    <revision>
+      <id>2564</id>
+      <timestamp>2014-10-03T10:11:52Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=CLIO-VT680 no. 7
+|Has Identifier=52
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=CLIO-VT680
+|Has NM Type=MetalOxide
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP22]]</text>
+    </revision>
   </page>
   <page>
     <title>Shaw51 23</title>
@@ -23413,6 +24369,26 @@ Coated iron oxides particles.
 
 [[Has alternative Identifier::NP23]]</text>
     </revision>
+    <revision>
+      <id>2563</id>
+      <timestamp>2014-10-03T10:11:37Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=CLIO-VT680-protamine no. 2
+|Has Identifier=53
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=CLIO-VT680-Protamine
+|Has NM Type=MetalOxide
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP23]]</text>
+    </revision>
   </page>
   <page>
     <title>Shaw51 24</title>
@@ -23497,6 +24473,26 @@ Coated iron oxides particles.
 
 [[Has alternative Identifier::NP24]]</text>
     </revision>
+    <revision>
+      <id>2562</id>
+      <timestamp>2014-10-03T10:11:21Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=Feridex IV
+|Has Identifier=54
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=DextranCoating
+|Has NM Type=MetalOxide
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP24]]</text>
+    </revision>
   </page>
   <page>
     <title>Shaw51 25</title>
@@ -23574,6 +24570,26 @@ Coated iron oxides particles.
 |Has Chemical Coating=SucroseCoating
 |Has NM Type=Metal
 |Has Zeta potential=-0.877
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP25]]</text>
+    </revision>
+    <revision>
+      <id>2561</id>
+      <timestamp>2014-10-03T10:05:37Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=Ferrum Hausmann
+|Has Identifier=55
+|Has Chemical Composition=Fe
+|Has Chemical Coating=SucroseCoating
+|Has NM Type=Metal
 }}
 
 {{#set:|Used in Study=Shaw51}}
@@ -23677,6 +24693,26 @@ Coated iron oxides particles.
 
 [[Has alternative Identifier::NP26]]</text>
     </revision>
+    <revision>
+      <id>2560</id>
+      <timestamp>2014-10-03T10:05:18Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=PNP02
+|Has Identifier=56
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=PVA-COOH
+|Has NM Type=MetalOxide
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP26]]</text>
+    </revision>
   </page>
   <page>
     <title>Shaw51 27</title>
@@ -23766,6 +24802,26 @@ Coated iron oxides particles.
 |Has Size Max=60
 |Has Size Units=nm
 |Has Zeta potential=-3.77
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP27]]</text>
+    </revision>
+    <revision>
+      <id>2559</id>
+      <timestamp>2014-10-03T10:05:06Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=PNP03
+|Has Identifier=57
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=ED-PVA
+|Has NM Type=MetalOxide
 }}
 
 {{#set:|Used in Study=Shaw51}}
@@ -23869,6 +24925,26 @@ Coated iron oxides particles.
 
 [[Has alternative Identifier::NP28]]</text>
     </revision>
+    <revision>
+      <id>2558</id>
+      <timestamp>2014-10-03T10:04:48Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=PNP04
+|Has Identifier=58
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=PVA-ED-VT680
+|Has NM Type=MetalOxide
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP28]]</text>
+    </revision>
   </page>
   <page>
     <title>Shaw51 29</title>
@@ -23965,6 +25041,26 @@ Coated iron oxides particles.
 
 [[Has alternative Identifier::NP29]]</text>
     </revision>
+    <revision>
+      <id>2557</id>
+      <timestamp>2014-10-03T10:04:30Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=PNP10
+|Has Identifier=59
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=PVA-Rhodamine-Protamine
+|Has NM Type=MetalOxide
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP29]]</text>
+    </revision>
   </page>
   <page>
     <title>Shaw51 30</title>
@@ -24031,6 +25127,26 @@ Coated iron oxides particles.
 |Has Size Max=60
 |Has Size Units=nm
 |Has Zeta potential=-6.05
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP30]]</text>
+    </revision>
+    <revision>
+      <id>2556</id>
+      <timestamp>2014-10-03T10:04:15Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=PNP12
+|Has Identifier=60
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=&amp;1.&amp;2 1=&quot;PVA&quot; 2=&quot;L-arg8-COOH&quot;
+|Has NM Type=MetalOxide
 }}
 
 {{#set:|Used in Study=Shaw51}}
@@ -24130,6 +25246,26 @@ Coated iron oxides particles.
 
 [[Has alternative Identifier::NP31]]</text>
     </revision>
+    <revision>
+      <id>2555</id>
+      <timestamp>2014-10-03T10:04:01Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=PNP22
+|Has Identifier=61
+|Has Chemical Composition=Fe2O3
+|Has Chemical Coating=COOH-PVA
+|Has NM Type=MetalOxide
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP31]]</text>
+    </revision>
   </page>
   <page>
     <title>Shaw51 32</title>
@@ -24222,6 +25358,26 @@ Coated iron oxides particles.
 
 [[Has alternative Identifier::NP32]]</text>
     </revision>
+    <revision>
+      <id>2554</id>
+      <timestamp>2014-10-03T10:03:47Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=PNP23
+|Has Identifier=62
+|Has Chemical Composition=Fe2O3
+|Has Chemical Coating=PVA-ED
+|Has NM Type=MetalOxide
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP32]]</text>
+    </revision>
   </page>
   <page>
     <title>Shaw51 33</title>
@@ -24299,6 +25455,26 @@ Coated iron oxides particles.
 |Has Chemical Coating=PVA-AminoSPARK680
 |Has NM Type=MetalOxide
 |Has Zeta potential=-7.15
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP33]]</text>
+    </revision>
+    <revision>
+      <id>2553</id>
+      <timestamp>2014-10-03T10:03:30Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=PNP24
+|Has Identifier=63
+|Has Chemical Composition=Fe2O3
+|Has Chemical Coating=PVA-AminoSPARK680
+|Has NM Type=MetalOxide
 }}
 
 {{#set:|Used in Study=Shaw51}}
@@ -24398,6 +25574,26 @@ Coated iron oxides particles.
 
 [[Has alternative Identifier::NP34]]</text>
     </revision>
+    <revision>
+      <id>2552</id>
+      <timestamp>2014-10-03T10:03:03Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=PNP26
+|Has Identifier=64
+|Has Chemical Composition=Fe2O3
+|Has Chemical Coating=PVA-PEG-ED-AminoSPARK680
+|Has NM Type=MetalOxide
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP34]]</text>
+    </revision>
   </page>
   <page>
     <title>Shaw51 35</title>
@@ -24483,6 +25679,26 @@ Coated iron oxides particles.
 |Has Size=20
 |Has Size Units=nm
 |Has Zeta potential=-12.1
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP35]]</text>
+    </revision>
+    <revision>
+      <id>2551</id>
+      <timestamp>2014-10-03T10:02:46Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=PNP27
+|Has Identifier=65
+|Has Chemical Composition=Fe2O3
+|Has Chemical Coating=PVA-ED-SuccAminoSPARK680
+|Has NM Type=MetalOxide
 }}
 
 {{#set:|Used in Study=Shaw51}}
@@ -24604,6 +25820,26 @@ Coated iron oxides particles.
 
 [[Has alternative Identifier::NP36]]</text>
     </revision>
+    <revision>
+      <id>2550</id>
+      <timestamp>2014-10-03T10:02:34Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=PNP28
+|Has Identifier=66
+|Has Chemical Composition=Fe2O3
+|Has Chemical Coating=PVA-PEG-AminoSPARK680IVM
+|Has NM Type=MetalOxide
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP36]]</text>
+    </revision>
   </page>
   <page>
     <title>Shaw51 37</title>
@@ -24689,6 +25925,26 @@ Coated iron oxides particles.
 |Has Size=20
 |Has Size Units=nm
 |Has Zeta potential=-16.1
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP37]]</text>
+    </revision>
+    <revision>
+      <id>2549</id>
+      <timestamp>2014-10-03T10:00:59Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=PNP29
+|Has Identifier=67
+|Has Chemical Composition=Fe2O3
+|Has Chemical Coating=PVA-15merPeptide
+|Has NM Type=MetalOxide
 }}
 
 {{#set:|Used in Study=Shaw51}}
@@ -24788,6 +26044,26 @@ Coated iron oxides particles.
 
 [[Has alternative Identifier::NP38]]</text>
     </revision>
+    <revision>
+      <id>2548</id>
+      <timestamp>2014-10-03T10:00:31Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=PNP30
+|Has Identifier=68
+|Has Chemical Composition=Fe2O3
+|Has Chemical Coating=PVA-Protamine-Rhodamine
+|Has NM Type=MetalOxide
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP38]]</text>
+    </revision>
   </page>
   <page>
     <title>Shaw51 39</title>
@@ -24873,6 +26149,26 @@ Coated iron oxides particles.
 |Has Size=20
 |Has Size Units=nm
 |Has Zeta potential=-6.47
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP39]]</text>
+    </revision>
+    <revision>
+      <id>2547</id>
+      <timestamp>2014-10-03T09:52:40Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=PNP31
+|Has Identifier=69
+|Has Chemical Composition=Fe2O3
+|Has Chemical Coating=PVA-Arg7COOH
+|Has NM Type=MetalOxide
 }}
 
 {{#set:|Used in Study=Shaw51}}
@@ -24972,6 +26268,26 @@ Coated iron oxides particles.
 
 [[Has alternative Identifier::NP40]]</text>
     </revision>
+    <revision>
+      <id>2546</id>
+      <timestamp>2014-10-03T09:52:21Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=PNP34
+|Has Identifier=70
+|Has Chemical Composition=Fe2O3
+|Has Chemical Coating=PVA-ED-VT750
+|Has NM Type=MetalOxide
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP40]]</text>
+    </revision>
   </page>
   <page>
     <title>Shaw51 41</title>
@@ -25057,6 +26373,26 @@ Coated iron oxides particles.
 |Has Size=20
 |Has Size Units=nm
 |Has Zeta potential=-10.8
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP41]]</text>
+    </revision>
+    <revision>
+      <id>2545</id>
+      <timestamp>2014-10-03T09:52:06Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=PNP38
+|Has Identifier=71
+|Has Chemical Composition=Fe2O3
+|Has Chemical Coating=PVA-PEG-ED-VT750
+|Has NM Type=MetalOxide
 }}
 
 {{#set:|Used in Study=Shaw51}}
@@ -25156,6 +26492,26 @@ Coated iron oxides particles.
 
 [[Has alternative Identifier::NP42]]</text>
     </revision>
+    <revision>
+      <id>2544</id>
+      <timestamp>2014-10-03T09:51:54Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=PNP51
+|Has Identifier=72
+|Has Chemical Composition=Fe2O3
+|Has Chemical Coating=PVA-DArg7COOH
+|Has NM Type=MetalOxide
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP42]]</text>
+    </revision>
   </page>
   <page>
     <title>Shaw51 43</title>
@@ -25248,6 +26604,26 @@ Coated iron oxides particles.
 
 [[Has alternative Identifier::NP43]]</text>
     </revision>
+    <revision>
+      <id>2543</id>
+      <timestamp>2014-10-03T09:51:41Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=PNP54
+|Has Identifier=73
+|Has Chemical Composition=Fe2O3
+|Has Chemical Coating=PVA-ED-AminoSPARK680
+|Has NM Type=MetalOxide
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP43]]</text>
+    </revision>
   </page>
   <page>
     <title>Shaw51 44</title>
@@ -25329,6 +26705,26 @@ Coated iron oxides particles.
 |Has NM Type=MetalOxide
 |Has Size=20
 |Has Size Units=nm
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP44]]</text>
+    </revision>
+    <revision>
+      <id>2542</id>
+      <timestamp>2014-10-03T09:51:21Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=PNP55
+|Has Identifier=74
+|Has Chemical Composition=Fe2O3
+|Has Chemical Coating=PVA-PEG
+|Has NM Type=MetalOxide
 }}
 
 {{#set:|Used in Study=Shaw51}}
@@ -25449,6 +26845,26 @@ Coated iron oxides particles.
 
 [[Has alternative Identifier::NP45]]</text>
     </revision>
+    <revision>
+      <id>2541</id>
+      <timestamp>2014-10-03T09:08:20Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=MION-47 no. 35
+|Has Identifier=75
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=DextranCoating
+|Has NM Type=MetalOxide
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP45]]</text>
+    </revision>
   </page>
   <page>
     <title>Shaw51 46</title>
@@ -25534,6 +26950,26 @@ Coated iron oxides particles.
 |Has Size=33
 |Has Size Units=nm
 |Has Zeta potential=-14.5
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP46]]</text>
+    </revision>
+    <revision>
+      <id>2540</id>
+      <timestamp>2014-10-03T09:08:02Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=MION-48 no. 24
+|Has Identifier=76
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=ArabinoGalactanCoating
+|Has NM Type=MetalOxide
 }}
 
 {{#set:|Used in Study=Shaw51}}
@@ -25675,6 +27111,26 @@ Coated iron oxides particles.
 
 [[Has alternative Identifier::NP47]]</text>
     </revision>
+    <revision>
+      <id>2539</id>
+      <timestamp>2014-10-03T09:07:46Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=MION-AG no. 1
+|Has Identifier=77
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=ArabinoGalactanCoating
+|Has NM Type=MetalOxide
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP47]]</text>
+    </revision>
   </page>
   <page>
     <title>Shaw51 48</title>
@@ -25781,6 +27237,26 @@ Coated iron oxides particles.
 |Has Size=25
 |Has Size Units=nm
 |Has Zeta potential=-37.00
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP48]]</text>
+    </revision>
+    <revision>
+      <id>2538</id>
+      <timestamp>2014-10-03T09:04:54Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=MION-CM no. 1
+|Has Identifier=78
+|Has Chemical Composition=Fe3O4
+|Has Chemical Coating=Carboxymethyl Dextran
+|Has NM Type=MetalOxide
 }}
 
 {{#set:|Used in Study=Shaw51}}
@@ -25910,6 +27386,26 @@ Coated iron oxides particles.
 
 [[Has alternative Identifier::NP49]]</text>
     </revision>
+    <revision>
+      <id>2537</id>
+      <timestamp>2014-10-03T09:04:29Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=Qdot-NH2-PEG
+|Has Identifier=79
+|Has Chemical Composition=CdSe
+|Has Chemical Coating=AmphPolymer-PEG
+|Has NM Type=Alloy
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP49]]</text>
+    </revision>
   </page>
   <page>
     <title>Shaw51 50</title>
@@ -26006,6 +27502,26 @@ Coated iron oxides particles.
 |Has Chemical Coating=COOH-AmphPolymer
 |Has NM Type=Alloy
 |Has Zeta potential=-16.8
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP50]]</text>
+    </revision>
+    <revision>
+      <id>2536</id>
+      <timestamp>2014-10-03T09:04:12Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=Qdot-carboxyl
+|Has Identifier=80
+|Has Chemical Composition=CdSe
+|Has Chemical Coating=COOH-AmphPolymer
+|Has NM Type=Alloy
 }}
 
 {{#set:|Used in Study=Shaw51}}
@@ -26128,6 +27644,26 @@ Coated iron oxides particles.
 |Has Chemical Coating=COOH-AmphPolymer
 |Has NM Type=Alloy
 |Has Zeta potential=-16.8
+}}
+
+{{#set:|Used in Study=Shaw51}}
+{{#set:|Used in Study=InVitro2010Fourches2}}
+
+[[Has alternative Identifier::NP51]]</text>
+    </revision>
+    <revision>
+      <id>2535</id>
+      <timestamp>2014-10-03T09:03:47Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=Qdot-carboxyl (repeat)
+|Has Identifier=81
+|Has Chemical Composition=CdSe
+|Has Chemical Coating=COOH-AmphPolymer
+|Has NM Type=Alloy
 }}
 
 {{#set:|Used in Study=Shaw51}}
@@ -34894,6 +36430,232 @@ This paper is purely theoretical and does not have experimental data; therefore,
 [[Category:Chemical_Entities]]__NOEDITSECTION____NOTOC__
 &lt;/includeonly&gt;</text>
     </revision>
+    <revision>
+      <id>2513</id>
+      <timestamp>2014-10-02T17:38:08Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">&lt;noinclude&gt;
+&lt;pre&gt;
+{{Material
+|Has Identifier=
+|Has Label=
+|Has Source=
+|Has Chemical Composition=
+|Has Chemical Coating=
+|Image=
+|Has NM Type=
+|Has Size=
+|Has Size Min=
+|Has Size Max=
+|Has Size Error=
+|Has Size Units=
+|Has Size Method=
+|Has Zeta potential=
+|Has Zeta Min=
+|Has Zeta Max=
+|Has Zeta Units=
+|Has Zeta Error=
+|Has IEP=
+}}
+&lt;/pre&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: right; table-layout:fixed; word-wrap: break-word;&quot;
+! colspan=2 style=&quot;text-align: center;background-color: #ddd;&quot; | Material
+|-
+! colspan=2 style=&quot;text-align: center; font-size: 125%&quot; | {{{Name|{{PAGENAME}}}}}
+{{#if:{{{Image|}}}|
+{{!}}-
+{{!}} Image
+{{!}} {{{Image}}}
+}}
+|-
+{{#if:{{{Has Label|}}}|
+{{!}}-
+{{!}} Label
+{{!}} {{{Has Label}}} 
+}}
+|-
+{{#if:{{{Has Source|}}}|
+{{!}}-
+{{!}} Source
+{{!}} {{{Has Source}}} 
+}}
+|-
+{{#if:{{{Has Identifier|}}}|
+{{!}}-
+{{!}} Identifier
+{{!}} {{{Has Identifier}}} 
+}}
+|-
+{{#if:{{{Has Chemical Composition|}}}|
+{{!}}-
+{{!}} Chemical Composition
+{{!}} {{{Has Chemical Composition}}} 
+}}
+|-
+{{#if:{{{Has Chemical Coating|}}}|
+{{!}}-
+{{!}} Chemical Coating
+{{!}} {{{Has Chemical Coating}}} 
+}}
+|-
+! colspan=2 style=&quot;text-align: center;background-color: #ddd;&quot; | Properties
+|-
+{{#if:{{{Has Size|}}}|
+{{!}}-
+{{!}} Size
+{{!}} {{{Has Size}}} {{#if:{{{Has Size Error|}}}|± {{{Has Size Error}}}}} {{#if:{{{Has Size Units|}}}|{{{Has Size Units}}}}} {{#if:{{{Has Size Method|}}}| ({{{Has Size Method}}})}}
+}}
+{{#if:{{{Has Size Min|}}}|
+{{!}}-
+{{!}} Size
+{{!}} {{{Has Size Min}}} - {{{Has Size Max}}} {{#if:{{{Has Size Units|}}}|{{{Has Size Units}}}}} {{#if:{{{Has Size Method|}}}| ({{{Has Size Method}}})}}
+}}
+{{#if:{{{Has NM Type|}}}|
+{{!}}-
+{{!}} Type
+{{!}} {{{Has NM Type}}} 
+}}
+{{#if:{{{Has Zeta potential|}}}|
+{{!}}-
+{{!}} Zeta potential
+{{!}} {{{Has Zeta potential}}} {{#if:{{{Has Zeta Error|}}}|± {{{Has Zeta Error}}}}} {{#if:{{{Has Zeta Units|}}}|{{{Has Zeta Units}}}}}
+}}
+{{#if:{{{Has Zeta Min|}}}|
+{{!}}-
+{{!}} Size
+{{!}} {{{Has Zeta Min}}} - {{{Has Zeta Max}}} {{#if:{{{Has Zeta Units|}}}|{{{Has Zeta Units}}}}}
+}}
+{{#if:{{{Has IEP|}}}|
+{{!}}-
+{{!}} IEP
+{{!}} {{{Has IEP}}}
+}}
+|}
+&lt;br&gt;
+= Measurements =
+{{#ask: [[Category:Measurements]] [[Has Entity::{{PAGENAME}}]]
+| ?Has Dose #
+| ?Has Endpoint
+| ?Has Endpoint Value
+| ?Has Endpoint Error
+| ?Has Endpoint Value Min
+| ?Has Endpoint Value Max
+| ?Has Endpoint Value Units
+| ?Has Method
+| format=jqplotbar
+| sort=Has Endpoint
+| order=ascending
+| height=250
+| width=600
+}}
+{{#ask: [[Category:Measurements]] [[Has Entity::{{PAGENAME}}]]
+| ?Has Dose #
+| ?Has Endpoint
+| ?Has Endpoint Class
+| ?Has Method
+| format=jqplotbar
+| sort=Has Endpoint Class
+| order=ascending
+| height=250
+| width=600
+}}
+{{#if:{{{Has Size|}}} |
+{{#set:
+|Has Size={{{Has Size|}}}
+}}
+| }}
+{{#if:{{{Has Size Min|}}} |
+{{#set:
+|Has Size Min={{{Has Size Min|}}}
+}}
+| }}
+{{#if:{{{Has Size Max|}}} |
+{{#set:
+|Has Size Max={{{Has Size Max|}}}
+}}
+| }}
+{{#if:{{{Has Size Error|}}} |
+{{#set:
+|Has Size Error={{{Has Size Error|}}}
+}}
+| }}
+{{#if:{{{Has Size Units|}}} |
+{{#set:
+|Has Size Units={{{Has Size Units|}}}
+}}
+| }}
+{{#if:{{{Has Size Method|}}} |
+  {{#set: |Has Size Method={{{Has Size Method|}}} }}
+| }}
+{{#if:{{{Has Label|}}} |
+{{#set:
+|Has Label={{{Has Label|}}}
+}}
+| }}
+{{#if:{{{Has Source|}}} |
+{{#set:
+|Has Source={{{Has Source|}}}
+}}
+| }}
+{{#if:{{{Has Identifier|}}} |
+{{#set:
+|Has Identifier={{{Has Identifier|}}}
+}}
+| }}
+{{#if:{{{Has Chemical Composition|}}} |
+{{#set:
+|Has Chemical Composition={{{Has Chemical Composition|}}}
+}}
+| }}
+{{#if:{{{Has Chemical Coating|}}} |
+{{#set:
+|Has Chemical Coating={{{Has Chemical Coating|}}}
+}}
+| }}
+{{#if:{{{Has NM Type|}}} |
+{{#set:
+|Has NM Type={{{Has NM Type|}}}
+}}
+[[Category:{{{Has NM Type|}}}s]]
+| }}
+{{#if:{{{Has Zeta potential|}}} |
+{{#set:
+|Has Zeta potential={{{Has Zeta potential|}}}
+}}
+| }}
+{{#if:{{{Has Zeta Min|}}} |
+{{#set:
+|Has Zeta Min={{{Has Zeta Min|}}}
+}}
+| }}
+{{#if:{{{Has Zeta Max|}}} |
+{{#set:
+|Has Zeta Max={{{Has Zeta Max|}}}
+}}
+| }}
+{{#if:{{{Has Zeta Units|}}} |
+{{#set:
+|Has Zeta Units={{{Has Zeta Units|}}}
+}}
+| }}
+{{#if:{{{Has Zeta Error|}}} |
+{{#set:
+|Has Zeta Error={{{Has Zeta Error|}}}
+}}
+| }}
+{{#if:{{{Has IEP|}}} |
+{{#set:
+|Has IEP={{{Has IEP|}}}
+}}
+| }}
+[[Category:Materials]]__NOEDITSECTION____NOTOC__
+[[Category:Chemical_Entities]]__NOEDITSECTION____NOTOC__
+&lt;/includeonly&gt;</text>
+    </revision>
   </page>
   <page>
     <title>Category:Chemical Entities</title>
@@ -35013,6 +36775,26 @@ This paper is purely theoretical and does not have experimental data; therefore,
 
 {{#set:|Used in Study=Jeng2006_S1}}</text>
     </revision>
+    <revision>
+      <id>2600</id>
+      <timestamp>2014-10-03T11:09:35Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=118
+|Has Label=ZnO
+|Has Chemical Composition=ZnO
+|Has NM Type=MetalOxide
+|Has Size Min=50
+|Has Size Max=70
+|Has Size Units=nm
+|Has Source=Jeng2006
+}}
+
+{{#set:|Used in Study=Jeng2006_S1}}</text>
+    </revision>
   </page>
   <page>
     <title>Jeng2006 M2</title>
@@ -35068,6 +36850,26 @@ This paper is purely theoretical and does not have experimental data; therefore,
 |Has Size Min=1
 |Has Size Max=39
 |Has Size Units=nm
+}}
+
+{{#set:|Used in Study=Jeng2006_S1}}</text>
+    </revision>
+    <revision>
+      <id>2601</id>
+      <timestamp>2014-10-03T11:09:41Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=119
+|Has Label=TiO2
+|Has Chemical Composition=TiO2
+|Has NM Type=MetalOxide
+|Has Size Min=1
+|Has Size Max=39
+|Has Size Units=nm
+|Has Source=Jeng2006
 }}
 
 {{#set:|Used in Study=Jeng2006_S1}}</text>
@@ -35131,6 +36933,26 @@ This paper is purely theoretical and does not have experimental data; therefore,
 
 {{#set:|Used in Study=Jeng2006_S1}}</text>
     </revision>
+    <revision>
+      <id>2602</id>
+      <timestamp>2014-10-03T11:09:46Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=120
+|Has Label=Al2O3
+|Has Chemical Composition=Al2O3
+|Has NM Type=MetalOxide
+|Has Size Min=40
+|Has Size Max=47
+|Has Size Units=nm
+|Has Source=Jeng2006
+}}
+
+{{#set:|Used in Study=Jeng2006_S1}}</text>
+    </revision>
   </page>
   <page>
     <title>Jeng2006 M4</title>
@@ -35183,6 +37005,25 @@ This paper is purely theoretical and does not have experimental data; therefore,
 |Has NM Type=MetalOxide
 |Has Size=25
 |Has Size Units=nm
+}}
+
+{{#set:|Used in Study=Jeng2006_S1}}</text>
+    </revision>
+    <revision>
+      <id>2603</id>
+      <timestamp>2014-10-03T11:09:51Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=121
+|Has Label=Fe3O4
+|Has Chemical Composition=Fe3O4
+|Has NM Type=MetalOxide
+|Has Size=25
+|Has Size Units=nm
+|Has Source=Jeng2006
 }}
 
 {{#set:|Used in Study=Jeng2006_S1}}</text>
@@ -35251,6 +37092,23 @@ This paper is purely theoretical and does not have experimental data; therefore,
 |Has Label=CrO3
 |Has Chemical Composition=CrO3
 |Has NM Type=MetalOxide
+}}
+
+{{#set:|Used in Study=Jeng2006_S1}}</text>
+    </revision>
+    <revision>
+      <id>2604</id>
+      <timestamp>2014-10-03T11:09:57Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=122
+|Has Label=CrO3
+|Has Chemical Composition=CrO3
+|Has NM Type=MetalOxide
+|Has Source=Jeng2006
 }}
 
 {{#set:|Used in Study=Jeng2006_S1}}</text>
@@ -46270,20 +48128,16 @@ American Chemical Society's Nano journal.</text>
 |Has Source=Antisari2013
 }}</text>
     </revision>
-  </page>
-  <page>
-    <title>Antisari2013 M2</title>
-    <id>821</id>
     <revision>
-      <id>1926</id>
-      <timestamp>2013-03-04T14:35:47Z</timestamp>
+      <id>2590</id>
+      <timestamp>2014-10-03T10:42:16Z</timestamp>
       <contributor>
-        <ip>127.0.0.1</ip>
+        <username>Egonw</username>
+        <id>2</id>
       </contributor>
-      <comment>Created page with &quot;{{Material |Has Identifier=301 |Has Label=CeO2-100 |Has Chemical Composition=CeO2 |Has NM Type=MetalOxide |Has Source=Antisari2013 }}&quot;</comment>
       <text xml:space="preserve">{{Material
-|Has Identifier=301
-|Has Label=CeO2-100
+|Has Identifier=300
+|Has Label=CeO2
 |Has Chemical Composition=CeO2
 |Has NM Type=MetalOxide
 |Has Source=Antisari2013
@@ -46308,20 +48162,16 @@ American Chemical Society's Nano journal.</text>
 |Has Source=Antisari2013
 }}</text>
     </revision>
-  </page>
-  <page>
-    <title>Antisari2013 M4</title>
-    <id>823</id>
     <revision>
-      <id>1928</id>
-      <timestamp>2013-03-04T14:36:22Z</timestamp>
+      <id>2591</id>
+      <timestamp>2014-10-03T10:42:39Z</timestamp>
       <contributor>
-        <ip>127.0.0.1</ip>
+        <username>Egonw</username>
+        <id>2</id>
       </contributor>
-      <comment>Created page with &quot;{{Material |Has Identifier=303 |Has Label=Fe3O4-100 |Has Chemical Composition=Fe3O4 |Has NM Type=MetalOxide |Has Source=Antisari2013 }}&quot;</comment>
       <text xml:space="preserve">{{Material
-|Has Identifier=303
-|Has Label=Fe3O4-100
+|Has Identifier=302
+|Has Label=Fe3O4
 |Has Chemical Composition=Fe3O4
 |Has NM Type=MetalOxide
 |Has Source=Antisari2013
@@ -46346,20 +48196,16 @@ American Chemical Society's Nano journal.</text>
 |Has Source=Antisari2013
 }}</text>
     </revision>
-  </page>
-  <page>
-    <title>Antisari2013 M6</title>
-    <id>825</id>
     <revision>
-      <id>1930</id>
-      <timestamp>2013-03-04T14:36:59Z</timestamp>
+      <id>2592</id>
+      <timestamp>2014-10-03T10:42:56Z</timestamp>
       <contributor>
-        <ip>127.0.0.1</ip>
+        <username>Egonw</username>
+        <id>2</id>
       </contributor>
-      <comment>Created page with &quot;{{Material |Has Identifier=305 |Has Label=SnO2-100 |Has Chemical Composition=SnO2 |Has NM Type=MetalOxide |Has Source=Antisari2013 }}&quot;</comment>
       <text xml:space="preserve">{{Material
-|Has Identifier=305
-|Has Label=SnO2-100
+|Has Identifier=304
+|Has Label=SnO2
 |Has Chemical Composition=SnO2
 |Has NM Type=MetalOxide
 |Has Source=Antisari2013
@@ -50079,6 +51925,21 @@ leading to ENM effects on the development of the zebrafish embryo.
 |Has Endpoint=Zeta Potential
 }}</text>
     </revision>
+    <revision>
+      <id>2589</id>
+      <timestamp>2014-10-03T10:33:01Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Lin2011 M4
+|Has Endpoint Value=-15.1
+|Has Endpoint Error=2.10
+|Has Endpoint Value Units=mV
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Lin2011 M1 M3</title>
@@ -50096,6 +51957,21 @@ leading to ENM effects on the development of the zebrafish embryo.
 |Has Endpoint Value=-12.2
 |Has Endpoint Error=0.97
 |Has Endpoint Value Units=nm
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+    <revision>
+      <id>2586</id>
+      <timestamp>2014-10-03T10:32:41Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Lin2011 M1
+|Has Endpoint Value=-12.2
+|Has Endpoint Error=0.97
+|Has Endpoint Value Units=mV
 |Has Endpoint=Zeta Potential
 }}</text>
     </revision>
@@ -50119,6 +51995,21 @@ leading to ENM effects on the development of the zebrafish embryo.
 |Has Endpoint=Zeta Potential
 }}</text>
     </revision>
+    <revision>
+      <id>2587</id>
+      <timestamp>2014-10-03T10:32:48Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Lin2011 M2
+|Has Endpoint Value=-11.9
+|Has Endpoint Error=1.61
+|Has Endpoint Value Units=mV
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Lin2011 M3 M3</title>
@@ -50136,6 +52027,21 @@ leading to ENM effects on the development of the zebrafish embryo.
 |Has Endpoint Value=-13.2
 |Has Endpoint Error=1.70
 |Has Endpoint Value Units=nm
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+    <revision>
+      <id>2588</id>
+      <timestamp>2014-10-03T10:32:54Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Lin2011 M3
+|Has Endpoint Value=-13.2
+|Has Endpoint Error=1.70
+|Has Endpoint Value Units=mV
 |Has Endpoint=Zeta Potential
 }}</text>
     </revision>
@@ -50851,6 +52757,3100 @@ As experimental evaluation of the safety of nanoparticles (NPs) is expensive and
       </contributor>
       <comment>Created page with &quot;{{Journal}}&quot;</comment>
       <text xml:space="preserve">{{Journal}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 51 M1</title>
+    <id>1027</id>
+    <revision>
+      <id>2435</id>
+      <timestamp>2014-09-30T16:17:09Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 51 |Has Endpoint Value=-16.8 |Has Endpoint=Zeta potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 51
+|Has Endpoint Value=-16.8
+|Has Endpoint=Zeta potential
+}}</text>
+    </revision>
+    <revision>
+      <id>2436</id>
+      <timestamp>2014-09-30T16:17:55Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 51
+|Has Endpoint Value=-16.8
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 50 M1</title>
+    <id>1028</id>
+    <revision>
+      <id>2437</id>
+      <timestamp>2014-09-30T16:18:29Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 51 |Has Endpoint Value=-16.8 |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 51
+|Has Endpoint Value=-16.8
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+    <revision>
+      <id>2439</id>
+      <timestamp>2014-09-30T16:19:29Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 50
+|Has Endpoint Value=-16.8
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 49 M1</title>
+    <id>1029</id>
+    <revision>
+      <id>2438</id>
+      <timestamp>2014-09-30T16:19:15Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 49 |Has Endpoint Value=-11.3 |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 49
+|Has Endpoint Value=-11.3
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 48 M1</title>
+    <id>1030</id>
+    <revision>
+      <id>2440</id>
+      <timestamp>2014-09-30T16:19:56Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 48 |Has Endpoint Value=-37.0 |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 48
+|Has Endpoint Value=-37.0
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 47 M1</title>
+    <id>1031</id>
+    <revision>
+      <id>2441</id>
+      <timestamp>2014-09-30T16:20:28Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 47 |Has Endpoint Value=-9.23 |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 47
+|Has Endpoint Value=-9.23
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 46 M1</title>
+    <id>1032</id>
+    <revision>
+      <id>2442</id>
+      <timestamp>2014-09-30T16:20:53Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 46 |Has Endpoint Value=-14.5 |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 46
+|Has Endpoint Value=-14.5
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 45 M1</title>
+    <id>1033</id>
+    <revision>
+      <id>2443</id>
+      <timestamp>2014-09-30T16:21:17Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 45 |Has Endpoint Value=-13.6 |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 45
+|Has Endpoint Value=-13.6
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 43 M1</title>
+    <id>1034</id>
+    <revision>
+      <id>2444</id>
+      <timestamp>2014-09-30T16:22:48Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 43 |Has Endpoint Value=-6.75 |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 43
+|Has Endpoint Value=-6.75
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 42 M1</title>
+    <id>1035</id>
+    <revision>
+      <id>2445</id>
+      <timestamp>2014-09-30T16:23:14Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 42 |Has Endpoint Value=-7.7 |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 42
+|Has Endpoint Value=-7.7
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 41 M1</title>
+    <id>1036</id>
+    <revision>
+      <id>2446</id>
+      <timestamp>2014-09-30T16:23:55Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 41 |Has Endpoint Value=-10.8 |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 41
+|Has Endpoint Value=-10.8
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 40 M1</title>
+    <id>1037</id>
+    <revision>
+      <id>2447</id>
+      <timestamp>2014-09-30T16:24:46Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 40 |Has Endpoint Value=-6.54 |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 40
+|Has Endpoint Value=-6.54
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 39 M1</title>
+    <id>1038</id>
+    <revision>
+      <id>2448</id>
+      <timestamp>2014-09-30T16:25:18Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 39 |Has Endpoint Value=-6.47 |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 39
+|Has Endpoint Value=-6.47
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 38 M1</title>
+    <id>1039</id>
+    <revision>
+      <id>2449</id>
+      <timestamp>2014-09-30T16:25:40Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 38 |Has Endpoint Value=-4.70 |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 38
+|Has Endpoint Value=-4.70
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 37 M1</title>
+    <id>1040</id>
+    <revision>
+      <id>2450</id>
+      <timestamp>2014-09-30T16:34:18Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 37 |Has Endpoint Value=-16.1 |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 37
+|Has Endpoint Value=-16.1
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 36 M1</title>
+    <id>1041</id>
+    <revision>
+      <id>2451</id>
+      <timestamp>2014-09-30T16:36:45Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 36 |Has Endpoint Value=-15.6 |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 36
+|Has Endpoint Value=-15.6
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 35 M1</title>
+    <id>1042</id>
+    <revision>
+      <id>2452</id>
+      <timestamp>2014-09-30T16:37:03Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 35 |Has Endpoint Value=-12.1 |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 35
+|Has Endpoint Value=-12.1
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 34 M1</title>
+    <id>1043</id>
+    <revision>
+      <id>2453</id>
+      <timestamp>2014-09-30T16:37:22Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 34 |Has Endpoint Value=-4.3 |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 34
+|Has Endpoint Value=-4.3
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 33 M1</title>
+    <id>1044</id>
+    <revision>
+      <id>2454</id>
+      <timestamp>2014-09-30T16:37:44Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 33 |Has Endpoint Value=-7.15 |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 33
+|Has Endpoint Value=-7.15
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 32 M1</title>
+    <id>1045</id>
+    <revision>
+      <id>2455</id>
+      <timestamp>2014-09-30T16:38:06Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 32 |Has Endpoint Value=-4.22 |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 32
+|Has Endpoint Value=-4.22
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 31 M1</title>
+    <id>1046</id>
+    <revision>
+      <id>2456</id>
+      <timestamp>2014-09-30T16:38:27Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 31 |Has Endpoint Value=-12.3 |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 31
+|Has Endpoint Value=-12.3
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 30 M1</title>
+    <id>1047</id>
+    <revision>
+      <id>2457</id>
+      <timestamp>2014-09-30T16:38:55Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 30 |Has Endpoint Value=-6.05 |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 30
+|Has Endpoint Value=-6.05
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 29 M1</title>
+    <id>1048</id>
+    <revision>
+      <id>2458</id>
+      <timestamp>2014-09-30T16:39:59Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 29 |Has Endpoint Value=0.25 |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 29
+|Has Endpoint Value=0.25
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 28 M1</title>
+    <id>1049</id>
+    <revision>
+      <id>2459</id>
+      <timestamp>2014-09-30T16:40:21Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 28 |Has Endpoint Value=-7.57 |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 28
+|Has Endpoint Value=-7.57
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 27 M1</title>
+    <id>1050</id>
+    <revision>
+      <id>2460</id>
+      <timestamp>2014-09-30T16:40:44Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 27 |Has Endpoint Value=-3.77 |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 27
+|Has Endpoint Value=-3.77
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 26 M1</title>
+    <id>1051</id>
+    <revision>
+      <id>2461</id>
+      <timestamp>2014-09-30T16:41:06Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 26 |Has Endpoint Value=-12.0 |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 26
+|Has Endpoint Value=-12.0
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 25 M1</title>
+    <id>1052</id>
+    <revision>
+      <id>2462</id>
+      <timestamp>2014-09-30T16:41:29Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 25 |Has Endpoint Value=-0.877 |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 25
+|Has Endpoint Value=-0.877
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 24 M1</title>
+    <id>1053</id>
+    <revision>
+      <id>2463</id>
+      <timestamp>2014-09-30T16:41:51Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 24 |Has Endpoint Value=-18.4 |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 24
+|Has Endpoint Value=-18.4
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 23 M1</title>
+    <id>1054</id>
+    <revision>
+      <id>2464</id>
+      <timestamp>2014-09-30T16:42:14Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 23 |Has Endpoint Value=-6.11 |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 23
+|Has Endpoint Value=-6.11
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 22 M1</title>
+    <id>1055</id>
+    <revision>
+      <id>2465</id>
+      <timestamp>2014-09-30T16:42:30Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 22 |Has Endpoint Value=-21.9 |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 22
+|Has Endpoint Value=-21.9
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 21 M1</title>
+    <id>1056</id>
+    <revision>
+      <id>2466</id>
+      <timestamp>2014-09-30T16:42:58Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 21 |Has Endpoint Value=-9.23 |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 21
+|Has Endpoint Value=-9.23
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 20 M1</title>
+    <id>1057</id>
+    <revision>
+      <id>2467</id>
+      <timestamp>2014-09-30T16:43:22Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 20 |Has Endpoint Value=-9.34 |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 20
+|Has Endpoint Value=-9.34
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 19 M1</title>
+    <id>1058</id>
+    <revision>
+      <id>2468</id>
+      <timestamp>2014-09-30T16:43:44Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 19 |Has Endpoint Value=-3.61 |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 19
+|Has Endpoint Value=-3.61
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 18 M1</title>
+    <id>1059</id>
+    <revision>
+      <id>2469</id>
+      <timestamp>2014-09-30T16:44:06Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 18 |Has Endpoint Value=-9.08 |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 18
+|Has Endpoint Value=-9.08
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 17 M1</title>
+    <id>1060</id>
+    <revision>
+      <id>2470</id>
+      <timestamp>2014-09-30T16:44:26Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 17 |Has Endpoint Value=-20.7 |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 17
+|Has Endpoint Value=-20.7
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 16 M1</title>
+    <id>1061</id>
+    <revision>
+      <id>2471</id>
+      <timestamp>2014-09-30T16:44:52Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 16 |Has Endpoint Value=0.766 |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 16
+|Has Endpoint Value=0.766
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 15 M1</title>
+    <id>1062</id>
+    <revision>
+      <id>2472</id>
+      <timestamp>2014-09-30T16:45:11Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 15 |Has Endpoint Value=-11.7 |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 15
+|Has Endpoint Value=-11.7
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 14 M1</title>
+    <id>1063</id>
+    <revision>
+      <id>2473</id>
+      <timestamp>2014-09-30T16:45:33Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 14 |Has Endpoint Value=2.34 |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 14
+|Has Endpoint Value=2.34
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 13 M1</title>
+    <id>1064</id>
+    <revision>
+      <id>2474</id>
+      <timestamp>2014-09-30T16:45:55Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 13 |Has Endpoint Value=3.09 |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 13
+|Has Endpoint Value=3.09
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 12 M1</title>
+    <id>1065</id>
+    <revision>
+      <id>2475</id>
+      <timestamp>2014-09-30T16:46:32Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 12 |Has Endpoint Value=3.64 |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 12
+|Has Endpoint Value=3.64
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 11 M1</title>
+    <id>1066</id>
+    <revision>
+      <id>2476</id>
+      <timestamp>2014-09-30T16:46:55Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 11 |Has Endpoint Value=-9.46 |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 11
+|Has Endpoint Value=-9.46
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 10 M1</title>
+    <id>1067</id>
+    <revision>
+      <id>2477</id>
+      <timestamp>2014-09-30T16:48:47Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 10 |Has Endpoint Value=3.24 |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 10
+|Has Endpoint Value=3.24
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 09 M1</title>
+    <id>1068</id>
+    <revision>
+      <id>2478</id>
+      <timestamp>2014-09-30T16:49:20Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 09 |Has Endpoint Value=-14.0 |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 09
+|Has Endpoint Value=-14.0
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 08 M1</title>
+    <id>1069</id>
+    <revision>
+      <id>2479</id>
+      <timestamp>2014-09-30T16:49:40Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 08 |Has Endpoint Value=-19.5 |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 08
+|Has Endpoint Value=-19.5
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 07 M1</title>
+    <id>1070</id>
+    <revision>
+      <id>2480</id>
+      <timestamp>2014-09-30T16:49:58Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 07 |Has Endpoint Value=-10.1 |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 07
+|Has Endpoint Value=-10.1
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 06 M1</title>
+    <id>1071</id>
+    <revision>
+      <id>2481</id>
+      <timestamp>2014-09-30T16:50:23Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 06 |Has Endpoint Value=1.95 |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 06
+|Has Endpoint Value=1.95
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 05 M1</title>
+    <id>1072</id>
+    <revision>
+      <id>2482</id>
+      <timestamp>2014-09-30T16:50:42Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 05 |Has Endpoint Value=-3.34 |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 05
+|Has Endpoint Value=-3.34
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 04 M1</title>
+    <id>1073</id>
+    <revision>
+      <id>2483</id>
+      <timestamp>2014-09-30T16:51:06Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 04 |Has Endpoint Value=-2.72 |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 04
+|Has Endpoint Value=-2.72
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 03 M1</title>
+    <id>1074</id>
+    <revision>
+      <id>2484</id>
+      <timestamp>2014-09-30T16:51:26Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 03 |Has Endpoint Value=5.9 |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 03
+|Has Endpoint Value=5.9
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 02 M1</title>
+    <id>1075</id>
+    <revision>
+      <id>2485</id>
+      <timestamp>2014-09-30T16:51:50Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 02 |Has Endpoint Value=-9.22 |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 02
+|Has Endpoint Value=-9.22
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 01 M1</title>
+    <id>1076</id>
+    <revision>
+      <id>2486</id>
+      <timestamp>2014-09-30T16:52:09Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 01 |Has Endpoint Value=-11.9 |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 01
+|Has Endpoint Value=-11.9
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 01 M2</title>
+    <id>1077</id>
+    <revision>
+      <id>2487</id>
+      <timestamp>2014-09-30T17:00:13Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 01 |Has Endpoint Value=36 |Has Endpoint Value Units=nm |Has Endpoint=Primary Particle Size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 01
+|Has Endpoint Value=36
+|Has Endpoint Value Units=nm
+|Has Endpoint=Primary Particle Size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 02 M2</title>
+    <id>1078</id>
+    <revision>
+      <id>2488</id>
+      <timestamp>2014-09-30T17:00:32Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 02 |Has Endpoint Value=30 |Has Endpoint Value Units=nm |Has Endpoint=Primary Particle Size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 02
+|Has Endpoint Value=30
+|Has Endpoint Value Units=nm
+|Has Endpoint=Primary Particle Size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 03 M2</title>
+    <id>1079</id>
+    <revision>
+      <id>2489</id>
+      <timestamp>2014-09-30T17:00:51Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 03 |Has Endpoint Value=74 |Has Endpoint Value Units=nm |Has Endpoint=Primary Particle Size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 03
+|Has Endpoint Value=74
+|Has Endpoint Value Units=nm
+|Has Endpoint=Primary Particle Size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 04 M2</title>
+    <id>1080</id>
+    <revision>
+      <id>2490</id>
+      <timestamp>2014-09-30T17:01:13Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 04 |Has Endpoint Value=74 |Has Endpoint Value Units=nm |Has Endpoint=Primary Particle Size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 04
+|Has Endpoint Value=74
+|Has Endpoint Value Units=nm
+|Has Endpoint=Primary Particle Size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 05 M2</title>
+    <id>1081</id>
+    <revision>
+      <id>2491</id>
+      <timestamp>2014-09-30T17:01:34Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 05 |Has Endpoint Value=27 |Has Endpoint Value Units=nm |Has Endpoint=Primary Particle Size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 05
+|Has Endpoint Value=27
+|Has Endpoint Value Units=nm
+|Has Endpoint=Primary Particle Size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 06 M2</title>
+    <id>1082</id>
+    <revision>
+      <id>2492</id>
+      <timestamp>2014-09-30T17:01:51Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 06 |Has Endpoint Value=29 |Has Endpoint Value Units=nm |Has Endpoint=Primary Particle Size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 06
+|Has Endpoint Value=29
+|Has Endpoint Value Units=nm
+|Has Endpoint=Primary Particle Size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 07 M2</title>
+    <id>1083</id>
+    <revision>
+      <id>2493</id>
+      <timestamp>2014-09-30T17:02:12Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 07 |Has Endpoint Value=38 |Has Endpoint Value Units=nm |Has Endpoint=Primary Particle Size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 07
+|Has Endpoint Value=38
+|Has Endpoint Value Units=nm
+|Has Endpoint=Primary Particle Size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 08 M2</title>
+    <id>1084</id>
+    <revision>
+      <id>2494</id>
+      <timestamp>2014-10-02T17:16:13Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 08 |Has Endpoint Value=33 |Has Endpoint Value Units=nm |Has Endpoint=Primary Particle Size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 08
+|Has Endpoint Value=33
+|Has Endpoint Value Units=nm
+|Has Endpoint=Primary Particle Size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 09 M2</title>
+    <id>1085</id>
+    <revision>
+      <id>2495</id>
+      <timestamp>2014-10-02T17:16:38Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 09 |Has Endpoint Value=36 |Has Endpoint Value Units=nm |Has Endpoint=Primary Particle Size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 09
+|Has Endpoint Value=36
+|Has Endpoint Value Units=nm
+|Has Endpoint=Primary Particle Size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 10 M2</title>
+    <id>1086</id>
+    <revision>
+      <id>2496</id>
+      <timestamp>2014-10-02T17:16:58Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 10 |Has Endpoint Value=31 |Has Endpoint Value Units=nm |Has Endpoint=Primary Particle Size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 10
+|Has Endpoint Value=31
+|Has Endpoint Value Units=nm
+|Has Endpoint=Primary Particle Size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 11 M2</title>
+    <id>1087</id>
+    <revision>
+      <id>2497</id>
+      <timestamp>2014-10-02T17:17:14Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 11 |Has Endpoint Value=31 |Has Endpoint Value Units=nm |Has Endpoint=Primary Particle Size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 11
+|Has Endpoint Value=31
+|Has Endpoint Value Units=nm
+|Has Endpoint=Primary Particle Size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 12 M2</title>
+    <id>1088</id>
+    <revision>
+      <id>2498</id>
+      <timestamp>2014-10-02T17:17:39Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 12 |Has Endpoint Value=31 |Has Endpoint Value Units=nm |Has Endpoint=Primary Particle Size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 12
+|Has Endpoint Value=31
+|Has Endpoint Value Units=nm
+|Has Endpoint=Primary Particle Size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 14 M2</title>
+    <id>1089</id>
+    <revision>
+      <id>2499</id>
+      <timestamp>2014-10-02T17:18:31Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 14 |Has Endpoint Value=28 |Has Endpoint Value Units=nm |Has Endpoint=Primary Particle Size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 14
+|Has Endpoint Value=28
+|Has Endpoint Value Units=nm
+|Has Endpoint=Primary Particle Size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 15 M2</title>
+    <id>1090</id>
+    <revision>
+      <id>2500</id>
+      <timestamp>2014-10-02T17:18:58Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 15 |Has Endpoint Value=24 |Has Endpoint Value Units=nm |Has Endpoint=Primary Particle Size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 15
+|Has Endpoint Value=24
+|Has Endpoint Value Units=nm
+|Has Endpoint=Primary Particle Size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 16 M2</title>
+    <id>1091</id>
+    <revision>
+      <id>2501</id>
+      <timestamp>2014-10-02T17:19:18Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 16 |Has Endpoint Value=37 |Has Endpoint Value Units=nm |Has Endpoint=Primary Particle Size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 16
+|Has Endpoint Value=37
+|Has Endpoint Value Units=nm
+|Has Endpoint=Primary Particle Size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 17 M2</title>
+    <id>1092</id>
+    <revision>
+      <id>2502</id>
+      <timestamp>2014-10-02T17:19:39Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 17 |Has Endpoint Value=38 |Has Endpoint Value Units=nm |Has Endpoint=Primary Particle Size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 17
+|Has Endpoint Value=38
+|Has Endpoint Value Units=nm
+|Has Endpoint=Primary Particle Size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 18 M2</title>
+    <id>1093</id>
+    <revision>
+      <id>2503</id>
+      <timestamp>2014-10-02T17:20:00Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 18 |Has Endpoint Value=38 |Has Endpoint Value Units=nm |Has Endpoint=Primary Particle Size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 18
+|Has Endpoint Value=38
+|Has Endpoint Value Units=nm
+|Has Endpoint=Primary Particle Size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 19 M2</title>
+    <id>1094</id>
+    <revision>
+      <id>2504</id>
+      <timestamp>2014-10-02T17:20:22Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 19 |Has Endpoint Value=31 |Has Endpoint Value Units=nm |Has Endpoint=Primary Particle Size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 19
+|Has Endpoint Value=31
+|Has Endpoint Value Units=nm
+|Has Endpoint=Primary Particle Size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 20 M2</title>
+    <id>1095</id>
+    <revision>
+      <id>2505</id>
+      <timestamp>2014-10-02T17:20:43Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 20 |Has Endpoint Value=38 |Has Endpoint Value Units=nm |Has Endpoint=Primary Particle Size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 20
+|Has Endpoint Value=38
+|Has Endpoint Value Units=nm
+|Has Endpoint=Primary Particle Size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 21 M2</title>
+    <id>1096</id>
+    <revision>
+      <id>2506</id>
+      <timestamp>2014-10-02T17:21:03Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 21 |Has Endpoint Value=28 |Has Endpoint Value Units=nm |Has Endpoint=Primary Particle Size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 21
+|Has Endpoint Value=28
+|Has Endpoint Value Units=nm
+|Has Endpoint=Primary Particle Size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 22 M2</title>
+    <id>1097</id>
+    <revision>
+      <id>2507</id>
+      <timestamp>2014-10-02T17:22:48Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 22 |Has Endpoint Value=36 |Has Endpoint Value Units=nm |Has Endpoint=Primary Particle Size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 22
+|Has Endpoint Value=36
+|Has Endpoint Value Units=nm
+|Has Endpoint=Primary Particle Size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 23 M2</title>
+    <id>1098</id>
+    <revision>
+      <id>2508</id>
+      <timestamp>2014-10-02T17:23:17Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 23 |Has Endpoint Value=31 |Has Endpoint Value Units=nm |Has Endpoint=Primary Particle Size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 23
+|Has Endpoint Value=31
+|Has Endpoint Value Units=nm
+|Has Endpoint=Primary Particle Size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 26 M2</title>
+    <id>1099</id>
+    <revision>
+      <id>2510</id>
+      <timestamp>2014-10-02T17:35:14Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 26 |Has Endpoint Value Min=20 |Has Endpoint Value Max=60 |Has Endpoint Value Units=nm |Has Endpoint=Primary Particle Size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 26
+|Has Endpoint Value Min=20
+|Has Endpoint Value Max=60
+|Has Endpoint Value Units=nm
+|Has Endpoint=Primary Particle Size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Has Endpoint Value Min</title>
+    <id>1100</id>
+    <revision>
+      <id>2511</id>
+      <timestamp>2014-10-02T17:36:22Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;This is a property of type [[Has type::Number]].&quot;</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Number]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Has Endpoint Value Max</title>
+    <id>1101</id>
+    <revision>
+      <id>2512</id>
+      <timestamp>2014-10-02T17:36:28Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;This is a property of type [[Has type::Number]].&quot;</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Number]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 27 M2</title>
+    <id>1102</id>
+    <revision>
+      <id>2514</id>
+      <timestamp>2014-10-02T17:39:10Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 27 |Has Endpoint Value Min=20 |Has Endpoint Value Max=60 |Has Endpoint Value Units=nm |Has Endpoint=Primary Particle Size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 27
+|Has Endpoint Value Min=20
+|Has Endpoint Value Max=60
+|Has Endpoint Value Units=nm
+|Has Endpoint=Primary Particle Size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 28 M2</title>
+    <id>1103</id>
+    <revision>
+      <id>2515</id>
+      <timestamp>2014-10-02T17:39:31Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 28 |Has Endpoint Value Min=20 |Has Endpoint Value Max=60 |Has Endpoint Value Units=nm |Has Endpoint=Primary Particle Size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 28
+|Has Endpoint Value Min=20
+|Has Endpoint Value Max=60
+|Has Endpoint Value Units=nm
+|Has Endpoint=Primary Particle Size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 29 M2</title>
+    <id>1104</id>
+    <revision>
+      <id>2516</id>
+      <timestamp>2014-10-02T17:39:54Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 29 |Has Endpoint Value Min=20 |Has Endpoint Value Max=60 |Has Endpoint Value Units=nm |Has Endpoint=Primary Particle Size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 29
+|Has Endpoint Value Min=20
+|Has Endpoint Value Max=60
+|Has Endpoint Value Units=nm
+|Has Endpoint=Primary Particle Size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 30 M2</title>
+    <id>1105</id>
+    <revision>
+      <id>2517</id>
+      <timestamp>2014-10-02T17:40:17Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 30 |Has Endpoint Value Min=20 |Has Endpoint Value Max=60 |Has Endpoint Value Units=nm |Has Endpoint=Primary Particle Size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 30
+|Has Endpoint Value Min=20
+|Has Endpoint Value Max=60
+|Has Endpoint Value Units=nm
+|Has Endpoint=Primary Particle Size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 31 M2</title>
+    <id>1106</id>
+    <revision>
+      <id>2518</id>
+      <timestamp>2014-10-02T17:40:57Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 31 |Has Endpoint Value=20 |Has Endpoint Value Units=nm |Has Endpoint=Primary Particle Size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 31
+|Has Endpoint Value=20
+|Has Endpoint Value Units=nm
+|Has Endpoint=Primary Particle Size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 32 M2</title>
+    <id>1107</id>
+    <revision>
+      <id>2519</id>
+      <timestamp>2014-10-02T17:41:17Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 32 |Has Endpoint Value=20 |Has Endpoint Value Units=nm |Has Endpoint=Primary Particle Size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 32
+|Has Endpoint Value=20
+|Has Endpoint Value Units=nm
+|Has Endpoint=Primary Particle Size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 34 M2</title>
+    <id>1108</id>
+    <revision>
+      <id>2520</id>
+      <timestamp>2014-10-02T17:41:52Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 34 |Has Endpoint Value=20 |Has Endpoint Value Units=nm |Has Endpoint=Primary Particle Size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 34
+|Has Endpoint Value=20
+|Has Endpoint Value Units=nm
+|Has Endpoint=Primary Particle Size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 35 M2</title>
+    <id>1109</id>
+    <revision>
+      <id>2521</id>
+      <timestamp>2014-10-03T08:49:45Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 35 |Has Endpoint Value=20 |Has Endpoint Value Units=nm |Has Endpoint=Primary Particle Size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 35
+|Has Endpoint Value=20
+|Has Endpoint Value Units=nm
+|Has Endpoint=Primary Particle Size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 36 M2</title>
+    <id>1110</id>
+    <revision>
+      <id>2522</id>
+      <timestamp>2014-10-03T08:50:06Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 36 |Has Endpoint Value=20 |Has Endpoint Value Units=nm |Has Endpoint=Primary Particle Size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 36
+|Has Endpoint Value=20
+|Has Endpoint Value Units=nm
+|Has Endpoint=Primary Particle Size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 37 M2</title>
+    <id>1111</id>
+    <revision>
+      <id>2523</id>
+      <timestamp>2014-10-03T08:50:25Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 37 |Has Endpoint Value=20 |Has Endpoint Value Units=nm |Has Endpoint=Primary Particle Size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 37
+|Has Endpoint Value=20
+|Has Endpoint Value Units=nm
+|Has Endpoint=Primary Particle Size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 38 M2</title>
+    <id>1112</id>
+    <revision>
+      <id>2524</id>
+      <timestamp>2014-10-03T08:50:42Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 38 |Has Endpoint Value=20 |Has Endpoint Value Units=nm |Has Endpoint=Primary Particle Size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 38
+|Has Endpoint Value=20
+|Has Endpoint Value Units=nm
+|Has Endpoint=Primary Particle Size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 39 M2</title>
+    <id>1113</id>
+    <revision>
+      <id>2525</id>
+      <timestamp>2014-10-03T08:51:01Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 39 |Has Endpoint Value=20 |Has Endpoint Value Units=nm |Has Endpoint=Primary Particle Size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 39
+|Has Endpoint Value=20
+|Has Endpoint Value Units=nm
+|Has Endpoint=Primary Particle Size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 40 M2</title>
+    <id>1114</id>
+    <revision>
+      <id>2526</id>
+      <timestamp>2014-10-03T08:51:16Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 40 |Has Endpoint Value=20 |Has Endpoint Value Units=nm |Has Endpoint=Primary Particle Size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 40
+|Has Endpoint Value=20
+|Has Endpoint Value Units=nm
+|Has Endpoint=Primary Particle Size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 41 M2</title>
+    <id>1115</id>
+    <revision>
+      <id>2527</id>
+      <timestamp>2014-10-03T08:58:14Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 41 |Has Endpoint Value=20 |Has Endpoint Value Units=nm |Has Endpoint=Primary Particle Size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 41
+|Has Endpoint Value=20
+|Has Endpoint Value Units=nm
+|Has Endpoint=Primary Particle Size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 42 M2</title>
+    <id>1116</id>
+    <revision>
+      <id>2528</id>
+      <timestamp>2014-10-03T09:01:02Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 42 |Has Endpoint Value=20 |Has Endpoint Value Units=nm |Has Endpoint=Primary Particle Size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 42
+|Has Endpoint Value=20
+|Has Endpoint Value Units=nm
+|Has Endpoint=Primary Particle Size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 43 M2</title>
+    <id>1117</id>
+    <revision>
+      <id>2529</id>
+      <timestamp>2014-10-03T09:01:24Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 43 |Has Endpoint Value=20 |Has Endpoint Value Units=nm |Has Endpoint=Primary Particle Size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 43
+|Has Endpoint Value=20
+|Has Endpoint Value Units=nm
+|Has Endpoint=Primary Particle Size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 44 M2</title>
+    <id>1118</id>
+    <revision>
+      <id>2530</id>
+      <timestamp>2014-10-03T09:01:41Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 44 |Has Endpoint Value=20 |Has Endpoint Value Units=nm |Has Endpoint=Primary Particle Size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 44
+|Has Endpoint Value=20
+|Has Endpoint Value Units=nm
+|Has Endpoint=Primary Particle Size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 45 M2</title>
+    <id>1119</id>
+    <revision>
+      <id>2531</id>
+      <timestamp>2014-10-03T09:02:05Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 45 |Has Endpoint Value=20 |Has Endpoint Value Units=nm |Has Endpoint=Primary Particle Size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 45
+|Has Endpoint Value=20
+|Has Endpoint Value Units=nm
+|Has Endpoint=Primary Particle Size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 46 M2</title>
+    <id>1120</id>
+    <revision>
+      <id>2532</id>
+      <timestamp>2014-10-03T09:02:23Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 46 |Has Endpoint Value=33 |Has Endpoint Value Units=nm |Has Endpoint=Primary Particle Size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 46
+|Has Endpoint Value=33
+|Has Endpoint Value Units=nm
+|Has Endpoint=Primary Particle Size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 47 M2</title>
+    <id>1121</id>
+    <revision>
+      <id>2533</id>
+      <timestamp>2014-10-03T09:02:48Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 47 |Has Endpoint Value=28 |Has Endpoint Value Units=nm |Has Endpoint=Primary Particle Size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 47
+|Has Endpoint Value=28
+|Has Endpoint Value Units=nm
+|Has Endpoint=Primary Particle Size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shaw51 48 M2</title>
+    <id>1122</id>
+    <revision>
+      <id>2534</id>
+      <timestamp>2014-10-03T09:03:10Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Shaw51 48 |Has Endpoint Value=25 |Has Endpoint Value Units=nm |Has Endpoint=Primary Particle Size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Shaw51 48
+|Has Endpoint Value=25
+|Has Endpoint Value Units=nm
+|Has Endpoint=Primary Particle Size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Specific Surface Area</title>
+    <id>1123</id>
+    <revision>
+      <id>2593</id>
+      <timestamp>2014-10-03T10:53:14Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Descriptor}}  [[Category:Endpoints]]&quot;</comment>
+      <text xml:space="preserve">{{Descriptor}}
+
+[[Category:Endpoints]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Antisari2013 M1 M1</title>
+    <id>1124</id>
+    <revision>
+      <id>2594</id>
+      <timestamp>2014-10-03T10:59:01Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Antisari2013 M1 |Has Endpoint Value Min=50 |Has Endpoint Value Max=105 |Has Endpoint Value Units=nm |Has Endpoint=Particle Size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Antisari2013 M1
+|Has Endpoint Value Min=50
+|Has Endpoint Value Max=105
+|Has Endpoint Value Units=nm
+|Has Endpoint=Particle Size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Antisari2013 M3 M1</title>
+    <id>1125</id>
+    <revision>
+      <id>2595</id>
+      <timestamp>2014-10-03T10:59:26Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Antisari2013 M3 |Has Endpoint Value Min=20 |Has Endpoint Value Max=30 |Has Endpoint Value Units=nm |Has Endpoint=Particle Size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Antisari2013 M3
+|Has Endpoint Value Min=20
+|Has Endpoint Value Max=30
+|Has Endpoint Value Units=nm
+|Has Endpoint=Particle Size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Antisari2013 M5 M1</title>
+    <id>1126</id>
+    <revision>
+      <id>2596</id>
+      <timestamp>2014-10-03T11:00:03Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Antisari2013 M5 |Has Endpoint Value=61 |Has Endpoint Value Units=nm |Has Endpoint=Particle Size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Antisari2013 M5
+|Has Endpoint Value=61
+|Has Endpoint Value Units=nm
+|Has Endpoint=Particle Size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Antisari2013 M1 M2</title>
+    <id>1127</id>
+    <revision>
+      <id>2597</id>
+      <timestamp>2014-10-03T11:03:21Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Antisari2013 M1 |Has Endpoint Value Min=8 |Has Endpoint Value Max=15 |Has Endpoint Value Units=m^2/g |Has Endpoint=Specific Surface Area }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Antisari2013 M1
+|Has Endpoint Value Min=8
+|Has Endpoint Value Max=15
+|Has Endpoint Value Units=m^2/g
+|Has Endpoint=Specific Surface Area
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Antisari2013 M3 M2</title>
+    <id>1128</id>
+    <revision>
+      <id>2598</id>
+      <timestamp>2014-10-03T11:03:39Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Antisari2013 M3 |Has Endpoint Value Min=40 |Has Endpoint Value Units=m^2/g |Has Endpoint=Specific Surface Area }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Antisari2013 M3
+|Has Endpoint Value Min=40
+|Has Endpoint Value Units=m^2/g
+|Has Endpoint=Specific Surface Area
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Antisari2013 M5 M2</title>
+    <id>1129</id>
+    <revision>
+      <id>2599</id>
+      <timestamp>2014-10-03T11:03:55Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Antisari2013 M5 |Has Endpoint Value=14 |Has Endpoint Value Units=m^2/g |Has Endpoint=Specific Surface Area }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Antisari2013 M5
+|Has Endpoint Value=14
+|Has Endpoint Value Units=m^2/g
+|Has Endpoint=Specific Surface Area
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Jeng2006 M4 M1</title>
+    <id>1130</id>
+    <revision>
+      <id>2605</id>
+      <timestamp>2014-10-03T11:17:13Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Jeng2006 M4 |Has Endpoint Value Min=50 |Has Endpoint Value Max=245 |Has Endpoint Value Units=m^2/g |Has Endpoint=Surface Area }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Jeng2006 M4
+|Has Endpoint Value Min=50
+|Has Endpoint Value Max=245
+|Has Endpoint Value Units=m^2/g
+|Has Endpoint=Surface Area
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Jeng2006 M3 M1</title>
+    <id>1131</id>
+    <revision>
+      <id>2606</id>
+      <timestamp>2014-10-03T11:17:36Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Jeng2006 M3 |Has Endpoint Value Min=45 |Has Endpoint Value Max=43 |Has Endpoint Value Units=m^2/g |Has Endpoint=Surface Area }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Jeng2006 M3
+|Has Endpoint Value Min=45
+|Has Endpoint Value Max=43
+|Has Endpoint Value Units=m^2/g
+|Has Endpoint=Surface Area
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Jeng2006 M2 M1</title>
+    <id>1132</id>
+    <revision>
+      <id>2607</id>
+      <timestamp>2014-10-03T11:17:59Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Jeng2006 M2 |Has Endpoint Value Min=20 |Has Endpoint Value Max=40 |Has Endpoint Value Units=m^2/g |Has Endpoint=Surface Area }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Jeng2006 M2
+|Has Endpoint Value Min=20
+|Has Endpoint Value Max=40
+|Has Endpoint Value Units=m^2/g
+|Has Endpoint=Surface Area
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Jeng2006 M1 M1</title>
+    <id>1133</id>
+    <revision>
+      <id>2608</id>
+      <timestamp>2014-10-03T11:18:21Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Jeng2006 M1 |Has Endpoint Value Min=15 |Has Endpoint Value Max=25 |Has Endpoint Value Units=m^2/g |Has Endpoint=Surface Area }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Jeng2006 M1
+|Has Endpoint Value Min=15
+|Has Endpoint Value Max=25
+|Has Endpoint Value Units=m^2/g
+|Has Endpoint=Surface Area
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Jeng2006 M2 M2</title>
+    <id>1134</id>
+    <revision>
+      <id>2610</id>
+      <timestamp>2014-10-03T11:56:19Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Jeng2006 M2 |Has Endpoint Value Category=Spherical  |Has Endpoint=Shape }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Jeng2006 M2
+|Has Endpoint Value Category=Spherical 
+|Has Endpoint=Shape
+}}</text>
+    </revision>
+    <revision>
+      <id>2626</id>
+      <timestamp>2014-10-03T14:56:17Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Jeng2006 M2
+|Has Endpoint Value=Spherical 
+|Has Endpoint=Shape
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Shape</title>
+    <id>1137</id>
+    <revision>
+      <id>2612</id>
+      <timestamp>2014-10-03T11:57:24Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Descriptor}}  [[Category:Endpoints]]&quot;</comment>
+      <text xml:space="preserve">{{Descriptor}}
+
+[[Category:Endpoints]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Jeng2006 M3 M2</title>
+    <id>1138</id>
+    <revision>
+      <id>2614</id>
+      <timestamp>2014-10-03T12:00:06Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Jeng2006 M2 |Has Endpoint Value Category=Gamma phase  |Has Endpoint=Shape }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Jeng2006 M2
+|Has Endpoint Value Category=Gamma phase 
+|Has Endpoint=Shape
+}}</text>
+    </revision>
+    <revision>
+      <id>2627</id>
+      <timestamp>2014-10-03T14:56:26Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Jeng2006 M2
+|Has Endpoint Value=Gamma phase 
+|Has Endpoint=Shape
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Jeng2006 M4 M2</title>
+    <id>1139</id>
+    <revision>
+      <id>2615</id>
+      <timestamp>2014-10-03T12:00:46Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Jeng2006 M4 |Has Endpoint Value Category=Primarily gamma phase  |Has Endpoint=Shape }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Jeng2006 M4
+|Has Endpoint Value Category=Primarily gamma phase 
+|Has Endpoint=Shape
+}}</text>
+    </revision>
+    <revision>
+      <id>2628</id>
+      <timestamp>2014-10-03T14:56:35Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Jeng2006 M4
+|Has Endpoint Value=Primarily gamma phase 
+|Has Endpoint=Shape
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lesniak2013 NM1 M1</title>
+    <id>1140</id>
+    <revision>
+      <id>2616</id>
+      <timestamp>2014-10-03T13:34:50Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Lesniak2013 NM1 |Has Endpoint Value=73 |Has Endpoint Value Error=1 |Has Endpoint Value Units=nm |Has Endpoint=Hydrodynamic Particle Size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Lesniak2013 NM1
+|Has Endpoint Value=73
+|Has Endpoint Value Error=1
+|Has Endpoint Value Units=nm
+|Has Endpoint=Hydrodynamic Particle Size
+}}</text>
+    </revision>
+    <revision>
+      <id>2617</id>
+      <timestamp>2014-10-03T13:35:20Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Lesniak2013 NM1
+|Has Endpoint Value=73
+|Has Endpoint Value Error=1
+|Has Endpoint Value Units=nm
+|Has Endpoint=Hydrodynamic size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lesniak2013 PBS</title>
+    <id>1141</id>
+    <revision>
+      <id>2618</id>
+      <timestamp>2014-10-03T14:44:18Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Endpoint=Serum }}  {{#set: For Measurement=Lesniak2013 NM1 M1| For Measurement=Lesniak2013 NM2 M1| For Measurement=Lesniak2013 NM3 M1| For Measurement=Lesniak2…&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Endpoint=Serum
+}}
+
+{{#set:
+For Measurement=Lesniak2013 NM1 M1|
+For Measurement=Lesniak2013 NM2 M1|
+For Measurement=Lesniak2013 NM3 M1|
+For Measurement=Lesniak2013 NM4 M1
+}}</text>
+    </revision>
+    <revision>
+      <id>2623</id>
+      <timestamp>2014-10-03T14:52:33Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Endpoint=Serum
+|Has Endpoint Value=PBS
+}}
+
+{{#set:
+For Measurement=Lesniak2013 NM1 M1|
+For Measurement=Lesniak2013 NM2 M1|
+For Measurement=Lesniak2013 NM3 M1|
+For Measurement=Lesniak2013 NM4 M1
+}}</text>
+    </revision>
+    <revision>
+      <id>2630</id>
+      <timestamp>2014-10-03T15:00:34Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Endpoint=Serum
+|Has Endpoint Value=PBS
+}}
+
+{{#set:
+For Measurement=Lesniak2013 NM1 M1|
+For Measurement=Lesniak2013 NM2 M1|
+For Measurement=Lesniak2013 NM3 M1|
+For Measurement=Lesniak2013 NM4 M1|
+For Measurement=Lesniak2013 NM1 M2|
+For Measurement=Lesniak2013 NM2 M2|
+For Measurement=Lesniak2013 NM3 M2|
+For Measurement=Lesniak2013 NM4 M2
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Serum</title>
+    <id>1142</id>
+    <revision>
+      <id>2619</id>
+      <timestamp>2014-10-03T14:44:51Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Endpoint}}&quot;</comment>
+      <text xml:space="preserve">{{Endpoint}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lesniak2013 NM2 M1</title>
+    <id>1143</id>
+    <revision>
+      <id>2620</id>
+      <timestamp>2014-10-03T14:45:42Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Lesniak2013 NM2 |Has Endpoint Value=120 |Has Endpoint Value Error=2 |Has Endpoint Value Units=nm |Has Endpoint=Hydrodynamic size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Lesniak2013 NM2
+|Has Endpoint Value=120
+|Has Endpoint Value Error=2
+|Has Endpoint Value Units=nm
+|Has Endpoint=Hydrodynamic size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lesniak2013 NM3 M1</title>
+    <id>1144</id>
+    <revision>
+      <id>2621</id>
+      <timestamp>2014-10-03T14:46:01Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Lesniak2013 NM3 |Has Endpoint Value=76 |Has Endpoint Value Error=1 |Has Endpoint Value Units=nm |Has Endpoint=Hydrodynamic size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Lesniak2013 NM3
+|Has Endpoint Value=76
+|Has Endpoint Value Error=1
+|Has Endpoint Value Units=nm
+|Has Endpoint=Hydrodynamic size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lesniak2013 NM4 M1</title>
+    <id>1145</id>
+    <revision>
+      <id>2622</id>
+      <timestamp>2014-10-03T14:46:20Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Lesniak2013 NM4 |Has Endpoint Value=158 |Has Endpoint Value Error=2 |Has Endpoint Value Units=nm |Has Endpoint=Hydrodynamic size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Lesniak2013 NM4
+|Has Endpoint Value=158
+|Has Endpoint Value Error=2
+|Has Endpoint Value Units=nm
+|Has Endpoint=Hydrodynamic size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lesniak2013 NM4 M2</title>
+    <id>1146</id>
+    <revision>
+      <id>2624</id>
+      <timestamp>2014-10-03T14:55:06Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Lesniak2013 NM4 |Has Endpoint Value=-36 |Has Endpoint Value Error=1 |Has Endpoint Value Units=mV |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Lesniak2013 NM4
+|Has Endpoint Value=-36
+|Has Endpoint Value Error=1
+|Has Endpoint Value Units=mV
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+    <revision>
+      <id>2635</id>
+      <timestamp>2014-10-03T16:02:27Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Lesniak2013 NM4
+|Has Endpoint Value=-22.2
+|Has Endpoint Value Error=2
+|Has Endpoint Value Units=mV
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lesniak2013 NM1 M2</title>
+    <id>1147</id>
+    <revision>
+      <id>2631</id>
+      <timestamp>2014-10-03T15:01:40Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Lesniak2013 NM1 |Has Endpoint Value=-36 |Has Endpoint Value Error=1 |Has Endpoint Value Units=mV |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Lesniak2013 NM1
+|Has Endpoint Value=-36
+|Has Endpoint Value Error=1
+|Has Endpoint Value Units=mV
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lesniak2013 NM2 M2</title>
+    <id>1148</id>
+    <revision>
+      <id>2632</id>
+      <timestamp>2014-10-03T15:02:25Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Lesniak2013 NM2 |Has Endpoint Value=-42 |Has Endpoint Value Error=1 |Has Endpoint Value Units=mV |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Lesniak2013 NM2
+|Has Endpoint Value=-42
+|Has Endpoint Value Error=1
+|Has Endpoint Value Units=mV
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lesniak2013 NM3 M2</title>
+    <id>1149</id>
+    <revision>
+      <id>2633</id>
+      <timestamp>2014-10-03T15:02:44Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Lesniak2013 NM2 |Has Endpoint Value=-27 |Has Endpoint Value Error=1 |Has Endpoint Value Units=mV |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Lesniak2013 NM2
+|Has Endpoint Value=-27
+|Has Endpoint Value Error=1
+|Has Endpoint Value Units=mV
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lesniak2013 NM4 M2 C1</title>
+    <id>1150</id>
+    <revision>
+      <id>2634</id>
+      <timestamp>2014-10-03T15:03:47Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Endpoint=pH |Has Endpoint Value=8.12 }}  {{#set: For Measurement=Lesniak2013 NM4 M2 }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Endpoint=pH
+|Has Endpoint Value=8.12
+}}
+
+{{#set:
+For Measurement=Lesniak2013 NM4 M2
+}}</text>
+    </revision>
+    <revision>
+      <id>2636</id>
+      <timestamp>2014-10-03T16:02:44Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Endpoint=pH
+|Has Endpoint Value=7.11
+}}
+
+{{#set:
+For Measurement=Lesniak2013 NM4 M2
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lesniak2013 NM3 M2 C1</title>
+    <id>1151</id>
+    <revision>
+      <id>2637</id>
+      <timestamp>2014-10-03T16:03:28Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Endpoint=pH |Has Endpoint Value=7.15 }}  {{#set: For Measurement=Lesniak2013 NM3 M2 }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Endpoint=pH
+|Has Endpoint Value=7.15
+}}
+
+{{#set:
+For Measurement=Lesniak2013 NM3 M2
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lesniak2013 NM2 M2 C1</title>
+    <id>1152</id>
+    <revision>
+      <id>2638</id>
+      <timestamp>2014-10-03T16:04:09Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Endpoint=pH |Has Endpoint Value=7.54 }}  {{#set: For Measurement=Lesniak2013 NM3 M2 }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Endpoint=pH
+|Has Endpoint Value=7.54
+}}
+
+{{#set:
+For Measurement=Lesniak2013 NM3 M2
+}}</text>
+    </revision>
+    <revision>
+      <id>2667</id>
+      <timestamp>2014-10-03T16:30:34Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Endpoint=pH
+|Has Endpoint Value=7.54
+}}
+
+{{#set:
+For Measurement=Lesniak2013 NM2 M2
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lesniak2013 NM1 M2 C1</title>
+    <id>1153</id>
+    <revision>
+      <id>2639</id>
+      <timestamp>2014-10-03T16:04:57Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Endpoint=pH |Has Endpoint Value=7.45 }}  {{#set: For Measurement=Lesniak2013 NM1 M2 }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Endpoint=pH
+|Has Endpoint Value=7.45
+}}
+
+{{#set:
+For Measurement=Lesniak2013 NM1 M2
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lesniak2013 NM1 M3</title>
+    <id>1154</id>
+    <revision>
+      <id>2640</id>
+      <timestamp>2014-10-03T16:13:49Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Lesniak2013 NM1 |Has Endpoint Value=81 |Has Endpoint Value Error=2 |Has Endpoint Value Units=nm |Has Endpoint=Hydrodynamic size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Lesniak2013 NM1
+|Has Endpoint Value=81
+|Has Endpoint Value Error=2
+|Has Endpoint Value Units=nm
+|Has Endpoint=Hydrodynamic size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lesniak2013 NM2 M3</title>
+    <id>1155</id>
+    <revision>
+      <id>2641</id>
+      <timestamp>2014-10-03T16:14:09Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Lesniak2013 NM2 |Has Endpoint Value=166 |Has Endpoint Value Error=5 |Has Endpoint Value Units=nm |Has Endpoint=Hydrodynamic size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Lesniak2013 NM2
+|Has Endpoint Value=166
+|Has Endpoint Value Error=5
+|Has Endpoint Value Units=nm
+|Has Endpoint=Hydrodynamic size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lesniak2013 NM3 M3</title>
+    <id>1156</id>
+    <revision>
+      <id>2642</id>
+      <timestamp>2014-10-03T16:14:28Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Lesniak2013 NM3 |Has Endpoint Value=137 |Has Endpoint Value Error=2 |Has Endpoint Value Units=nm |Has Endpoint=Hydrodynamic size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Lesniak2013 NM3
+|Has Endpoint Value=137
+|Has Endpoint Value Error=2
+|Has Endpoint Value Units=nm
+|Has Endpoint=Hydrodynamic size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lesniak2013 NM4 M3</title>
+    <id>1157</id>
+    <revision>
+      <id>2643</id>
+      <timestamp>2014-10-03T16:14:49Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Lesniak2013 NM4 |Has Endpoint Value=206 |Has Endpoint Value Error=7 |Has Endpoint Value Units=nm |Has Endpoint=Hydrodynamic size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Lesniak2013 NM4
+|Has Endpoint Value=206
+|Has Endpoint Value Error=7
+|Has Endpoint Value Units=nm
+|Has Endpoint=Hydrodynamic size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lesniak2013 NM4 M5</title>
+    <id>1158</id>
+    <revision>
+      <id>2644</id>
+      <timestamp>2014-10-03T16:15:24Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Lesniak2013 NM4 |Has Endpoint Value=160 |Has Endpoint Value Error=4 |Has Endpoint Value Units=nm |Has Endpoint=Hydrodynamic size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Lesniak2013 NM4
+|Has Endpoint Value=160
+|Has Endpoint Value Error=4
+|Has Endpoint Value Units=nm
+|Has Endpoint=Hydrodynamic size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lesniak2013 NM3 M5</title>
+    <id>1159</id>
+    <revision>
+      <id>2645</id>
+      <timestamp>2014-10-03T16:15:50Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Lesniak2013 NM3 |Has Endpoint Value=65 |Has Endpoint Value Error=1 |Has Endpoint Value Units=nm |Has Endpoint=Hydrodynamic size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Lesniak2013 NM3
+|Has Endpoint Value=65
+|Has Endpoint Value Error=1
+|Has Endpoint Value Units=nm
+|Has Endpoint=Hydrodynamic size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lesniak2013 NM2 M5</title>
+    <id>1160</id>
+    <revision>
+      <id>2646</id>
+      <timestamp>2014-10-03T16:16:09Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Lesniak2013 NM2 |Has Endpoint Value=106 |Has Endpoint Value Error=2 |Has Endpoint Value Units=nm |Has Endpoint=Hydrodynamic size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Lesniak2013 NM2
+|Has Endpoint Value=106
+|Has Endpoint Value Error=2
+|Has Endpoint Value Units=nm
+|Has Endpoint=Hydrodynamic size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lesniak2013 NM1 M5</title>
+    <id>1161</id>
+    <revision>
+      <id>2647</id>
+      <timestamp>2014-10-03T16:16:27Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Lesniak2013 NM1 |Has Endpoint Value=63 |Has Endpoint Value Error=2 |Has Endpoint Value Units=nm |Has Endpoint=Hydrodynamic size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Lesniak2013 NM1
+|Has Endpoint Value=63
+|Has Endpoint Value Error=2
+|Has Endpoint Value Units=nm
+|Has Endpoint=Hydrodynamic size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lesniak2013 cMEM</title>
+    <id>1162</id>
+    <revision>
+      <id>2648</id>
+      <timestamp>2014-10-03T16:18:03Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Endpoint=Serum |Has Endpoint Value=cMEM }}  {{#set: For Measurement=Lesniak2013 NM1 M3| For Measurement=Lesniak2013 NM2 M3| For Measurement=Lesniak2013 NM3 M3|…&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Endpoint=Serum
+|Has Endpoint Value=cMEM
+}}
+
+{{#set:
+For Measurement=Lesniak2013 NM1 M3|
+For Measurement=Lesniak2013 NM2 M3|
+For Measurement=Lesniak2013 NM3 M3|
+For Measurement=Lesniak2013 NM4 M3|
+For Measurement=Lesniak2013 NM1 M4|
+For Measurement=Lesniak2013 NM2 M4|
+For Measurement=Lesniak2013 NM3 M4|
+For Measurement=Lesniak2013 NM4 M4
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lesniak2013 sfMEM</title>
+    <id>1163</id>
+    <revision>
+      <id>2649</id>
+      <timestamp>2014-10-03T16:18:30Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Endpoint=Serum |Has Endpoint Value=sfMEM }}  {{#set: For Measurement=Lesniak2013 NM1 M5| For Measurement=Lesniak2013 NM2 M5| For Measurement=Lesniak2013 NM3 M5…&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Endpoint=Serum
+|Has Endpoint Value=sfMEM
+}}
+
+{{#set:
+For Measurement=Lesniak2013 NM1 M5|
+For Measurement=Lesniak2013 NM2 M5|
+For Measurement=Lesniak2013 NM3 M5|
+For Measurement=Lesniak2013 NM4 M5|
+For Measurement=Lesniak2013 NM1 M6|
+For Measurement=Lesniak2013 NM2 M6|
+For Measurement=Lesniak2013 NM3 M6|
+For Measurement=Lesniak2013 NM4 M6
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lesniak2013 NM1 M4</title>
+    <id>1164</id>
+    <revision>
+      <id>2650</id>
+      <timestamp>2014-10-03T16:19:19Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Lesniak2013 NM1 |Has Endpoint Value=-20 |Has Endpoint Value Error=1 |Has Endpoint Value Units=mV |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Lesniak2013 NM1
+|Has Endpoint Value=-20
+|Has Endpoint Value Error=1
+|Has Endpoint Value Units=mV
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lesniak2013 NM2 M4</title>
+    <id>1165</id>
+    <revision>
+      <id>2651</id>
+      <timestamp>2014-10-03T16:19:46Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Lesniak2013 NM2 |Has Endpoint Value=-19 |Has Endpoint Value Error=2 |Has Endpoint Value Units=mV |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Lesniak2013 NM2
+|Has Endpoint Value=-19
+|Has Endpoint Value Error=2
+|Has Endpoint Value Units=mV
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lesniak2013 NM3 M4</title>
+    <id>1166</id>
+    <revision>
+      <id>2652</id>
+      <timestamp>2014-10-03T16:20:08Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Lesniak2013 NM3 |Has Endpoint Value=-10 |Has Endpoint Value Error=1 |Has Endpoint Value Units=mV |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Lesniak2013 NM3
+|Has Endpoint Value=-10
+|Has Endpoint Value Error=1
+|Has Endpoint Value Units=mV
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lesniak2013 NM4 M4</title>
+    <id>1167</id>
+    <revision>
+      <id>2653</id>
+      <timestamp>2014-10-03T16:20:25Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Lesniak2013 NM4 |Has Endpoint Value=-11 |Has Endpoint Value Error=1 |Has Endpoint Value Units=mV |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Lesniak2013 NM4
+|Has Endpoint Value=-11
+|Has Endpoint Value Error=1
+|Has Endpoint Value Units=mV
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lesniak2013 NM4 M6</title>
+    <id>1168</id>
+    <revision>
+      <id>2654</id>
+      <timestamp>2014-10-03T16:20:41Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Lesniak2013 NM4 |Has Endpoint Value=-30 |Has Endpoint Value Error=3 |Has Endpoint Value Units=mV |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Lesniak2013 NM4
+|Has Endpoint Value=-30
+|Has Endpoint Value Error=3
+|Has Endpoint Value Units=mV
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lesniak2013 NM3 M6</title>
+    <id>1169</id>
+    <revision>
+      <id>2655</id>
+      <timestamp>2014-10-03T16:21:01Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Lesniak2013 NM3 |Has Endpoint Value=-20 |Has Endpoint Value Error=2 |Has Endpoint Value Units=mV |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Lesniak2013 NM3
+|Has Endpoint Value=-20
+|Has Endpoint Value Error=2
+|Has Endpoint Value Units=mV
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lesniak2013 NM2 M6</title>
+    <id>1170</id>
+    <revision>
+      <id>2656</id>
+      <timestamp>2014-10-03T16:21:16Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Lesniak2013 NM2 |Has Endpoint Value=-36 |Has Endpoint Value Error=2 |Has Endpoint Value Units=mV |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Lesniak2013 NM2
+|Has Endpoint Value=-36
+|Has Endpoint Value Error=2
+|Has Endpoint Value Units=mV
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lesniak2013 NM1 M6</title>
+    <id>1171</id>
+    <revision>
+      <id>2657</id>
+      <timestamp>2014-10-03T16:21:32Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Lesniak2013 NM1 |Has Endpoint Value=-21 |Has Endpoint Value Error=1 |Has Endpoint Value Units=mV |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Lesniak2013 NM1
+|Has Endpoint Value=-21
+|Has Endpoint Value Error=1
+|Has Endpoint Value Units=mV
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lesniak2013 NM1 M4 C1</title>
+    <id>1172</id>
+    <revision>
+      <id>2658</id>
+      <timestamp>2014-10-03T16:25:00Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Endpoint=pH |Has Endpoint Value=7.21 }}  {{#set: For Measurement=Lesniak2013 NM1 M4 }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Endpoint=pH
+|Has Endpoint Value=7.21
+}}
+
+{{#set:
+For Measurement=Lesniak2013 NM1 M4
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lesniak2013 NM2 M4 C1</title>
+    <id>1173</id>
+    <revision>
+      <id>2659</id>
+      <timestamp>2014-10-03T16:25:17Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Endpoint=pH |Has Endpoint Value=7.26 }}  {{#set: For Measurement=Lesniak2013 NM2 M4 }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Endpoint=pH
+|Has Endpoint Value=7.26
+}}
+
+{{#set:
+For Measurement=Lesniak2013 NM2 M4
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lesniak2013 NM3 M4 C1</title>
+    <id>1174</id>
+    <revision>
+      <id>2660</id>
+      <timestamp>2014-10-03T16:25:44Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Endpoint=pH |Has Endpoint Value=7.83 }}  {{#set: For Measurement=Lesniak2013 NM3 M4 }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Endpoint=pH
+|Has Endpoint Value=7.83
+}}
+
+{{#set:
+For Measurement=Lesniak2013 NM3 M4
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lesniak2013 NM4 M4 C1</title>
+    <id>1175</id>
+    <revision>
+      <id>2661</id>
+      <timestamp>2014-10-03T16:25:59Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Endpoint=pH |Has Endpoint Value=7.88 }}  {{#set: For Measurement=Lesniak2013 NM4 M4 }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Endpoint=pH
+|Has Endpoint Value=7.88
+}}
+
+{{#set:
+For Measurement=Lesniak2013 NM4 M4
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lesniak2013 NM4 M6 C1</title>
+    <id>1176</id>
+    <revision>
+      <id>2662</id>
+      <timestamp>2014-10-03T16:26:21Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Endpoint=pH |Has Endpoint Value=8.12 }}  {{#set: For Measurement=Lesniak2013 NM4 M6 }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Endpoint=pH
+|Has Endpoint Value=8.12
+}}
+
+{{#set:
+For Measurement=Lesniak2013 NM4 M6
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lesniak2013 NM3 M6 C1</title>
+    <id>1177</id>
+    <revision>
+      <id>2663</id>
+      <timestamp>2014-10-03T16:26:34Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Endpoint=pH |Has Endpoint Value=8.11 }}  {{#set: For Measurement=Lesniak2013 NM4 M6 }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Endpoint=pH
+|Has Endpoint Value=8.11
+}}
+
+{{#set:
+For Measurement=Lesniak2013 NM4 M6
+}}</text>
+    </revision>
+    <revision>
+      <id>2669</id>
+      <timestamp>2014-10-03T16:32:31Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Endpoint=pH
+|Has Endpoint Value=8.11
+}}
+
+{{#set:
+For Measurement=Lesniak2013 NM3 M6
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lesniak2013 NM2 M6 C1</title>
+    <id>1178</id>
+    <revision>
+      <id>2664</id>
+      <timestamp>2014-10-03T16:26:48Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Endpoint=pH |Has Endpoint Value=8.12 }}  {{#set: For Measurement=Lesniak2013 NM4 M6 }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Endpoint=pH
+|Has Endpoint Value=8.12
+}}
+
+{{#set:
+For Measurement=Lesniak2013 NM4 M6
+}}</text>
+    </revision>
+    <revision>
+      <id>2668</id>
+      <timestamp>2014-10-03T16:31:58Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Endpoint=pH
+|Has Endpoint Value=8.12
+}}
+
+{{#set:
+For Measurement=Lesniak2013 NM2 M6
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lesniak2013 NM1 M6 C1</title>
+    <id>1179</id>
+    <revision>
+      <id>2665</id>
+      <timestamp>2014-10-03T16:27:11Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Endpoint=pH |Has Endpoint Value=7.98 }}  {{#set: For Measurement=Lesniak2013 NM4 M6 }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Endpoint=pH
+|Has Endpoint Value=7.98
+}}
+
+{{#set:
+For Measurement=Lesniak2013 NM4 M6
+}}</text>
+    </revision>
+    <revision>
+      <id>2666</id>
+      <timestamp>2014-10-03T16:29:48Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Endpoint=pH
+|Has Endpoint Value=7.98
+}}
+
+{{#set:
+For Measurement=Lesniak2013 NM1 M6
+}}</text>
     </revision>
   </page>
 </mediawiki>
