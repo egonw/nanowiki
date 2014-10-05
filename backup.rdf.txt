@@ -18,7 +18,7 @@
 	xmlns:property="&property;">
 
 	<owl:Ontology rdf:about="">
-		<swivt:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-03T18:47:55+02:00</swivt:creationDate>
+		<swivt:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-05T12:33:12+02:00</swivt:creationDate>
 		<owl:imports rdf:resource="http://semantic-mediawiki.org/swivt/1.0"/>
 	</owl:Ontology>
 	<swivt:Subject rdf:about="&wiki;Main_Page">
@@ -26,7 +26,7 @@
 		<swivt:page rdf:resource="&wikiurl;Main_Page"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Main_Page"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-27T22:17:11</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-28T09:45:14</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;TestNM">
 		<rdfs:label>TestNM</rdfs:label>
@@ -66,7 +66,7 @@
 		<property:Has_DOI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1038/nnano.2011.10</property:Has_DOI>
 		<property:Has_Journal rdf:resource="&wiki;Nature_Nanotechnology"/>
 		<property:Has_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011</property:Has_Year>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-09-29T05:20:06</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-02T21:37:47</swivt:wikiPageModificationDate>
 		<property:Relationships_extracted rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yes</property:Relationships_extracted>
 		<property:Substances_extracted rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yes</property:Substances_extracted>
 	</swivt:Subject>
@@ -96,24 +96,11 @@
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</swivt:wikiNamespace>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-05-01T16:14:40</swivt:wikiPageModificationDate>
 	</owl:Class>
-	<swivt:Subject rdf:about="&wiki;Cytotox2011Pyzun">
-		<rdfs:label>Cytotox2011Pyzun</rdfs:label>
-		<swivt:page rdf:resource="&wikiurl;Cytotox2011Pyzun"/>
-		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Cytotox2011Pyzun"/>
-		<rdf:type rdf:resource="&wiki;Category-3AStudies"/>
+	<swivt:Subject rdf:about="&wiki;Cytotox2011Pyzun_S1">
+		<rdfs:label>Cytotox2011Pyzun S1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Cytotox2011Pyzun_S1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Cytotox2011Pyzun_S1"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
-		<property:Has_Endpoint rdf:resource="&wiki;Log_Reciprocal_EC50"/>
-		<property:Has_Entities rdf:resource="&wiki;MetalOxides"/>
-		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Has_Identifier>
-		<property:Has_Object_Count rdf:datatype="http://www.w3.org/2001/XMLSchema#double">17</property:Has_Object_Count>
-		<property:Has_Q2 rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.77</property:Has_Q2>
-		<property:Has_R2 rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.85</property:Has_R2>
-		<property:Has_RMSEP rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.19</property:Has_RMSEP>
-		<property:Has_Source rdf:resource="&wiki;Puzyn2011"/>
-		<property:Has_Study_Type rdf:resource="&wiki;Regression"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-11T09:54:21</swivt:wikiPageModificationDate>
-		<property:Uses_Descriptor rdf:resource="&wiki;Ionization_Enthalpy"/>
-		<property:Uses_Descriptor rdf:resource="&wiki;Heat_of_Formation"/>
 	</swivt:Subject>
 	<owl:DatatypeProperty rdf:about="&property;Has_Object_Count">
 		<rdfs:label>Has Object Count</rdfs:label>
@@ -578,7 +565,7 @@
 		<property:Has_DOI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1021/nn1013484</property:Has_DOI>
 		<property:Has_Journal rdf:resource="&wiki;ACS_Nano"/>
 		<property:Has_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010</property:Has_Year>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-11-09T06:39:34</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-02T21:30:42</swivt:wikiPageModificationDate>
 		<property:Substances_extracted rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yes</property:Substances_extracted>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;InVitro2010Fourches">
@@ -746,7 +733,7 @@
 		<rdf:type rdf:resource="&wiki;Category-3ACell_Lines"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
 		<owl:sameAs rdf:resource="http://purl.obolibrary.org/obo/CLO_0007726"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-05-12T13:51:02</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-28T18:05:46</swivt:wikiPageModificationDate>
 		<property:Original_URI rdf:resource="http://purl.obolibrary.org/obo/CLO_0007726"/>
 	</swivt:Subject>
 	<owl:Class rdf:about="&wiki;Category-3ACellLines">
@@ -781,7 +768,7 @@
 		<property:Has_DOI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1016/j.ejmech.2010.08.033</property:Has_DOI>
 		<property:Has_Journal rdf:resource="&wiki;European_Journal_of_Medicinal_Chemistry"/>
 		<property:Has_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010</property:Has_Year>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-11-10T07:49:32</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T10:55:37</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Leukemia_RBMI-2D8226">
 		<rdfs:label>Leukemia RBMI-8226</rdfs:label>
@@ -790,7 +777,7 @@
 		<rdf:type rdf:resource="&wiki;Category-3ACell_Lines"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
 		<owl:sameAs rdf:resource="http://purl.obolibrary.org/obo/CLO_0008873"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-05-19T18:24:34</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-28T18:04:07</swivt:wikiPageModificationDate>
 		<property:Original_URI rdf:resource="http://purl.obolibrary.org/obo/CLO_0008873"/>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Prostate_DU_145">
@@ -800,7 +787,7 @@
 		<rdf:type rdf:resource="&wiki;Category-3ACell_Lines"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
 		<owl:sameAs rdf:resource="http://purl.obolibrary.org/obo/CLO_0002840"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-05-19T18:50:07</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-28T18:09:40</swivt:wikiPageModificationDate>
 		<property:Original_URI rdf:resource="http://purl.obolibrary.org/obo/CLO_0002840"/>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Colon_HT29">
@@ -810,7 +797,7 @@
 		<rdf:type rdf:resource="&wiki;Category-3ACell_Lines"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
 		<owl:sameAs rdf:resource="http://purl.obolibrary.org/obo/CLO_0004283"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-05-19T18:57:12</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-28T17:59:29</swivt:wikiPageModificationDate>
 		<property:Original_URI rdf:resource="http://purl.obolibrary.org/obo/CLO_0004283"/>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Breast_MCF7">
@@ -820,7 +807,7 @@
 		<rdf:type rdf:resource="&wiki;Category-3ACell_Lines"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
 		<owl:sameAs rdf:resource="http://purl.obolibrary.org/obo/CLO_0007606"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-05-19T19:11:45</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-28T17:55:02</swivt:wikiPageModificationDate>
 		<property:Original_URI rdf:resource="http://purl.obolibrary.org/obo/CLO_0007606"/>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Negative_Log_GI50">
@@ -853,7 +840,7 @@
 		<property:Has_DOI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1073/pnas.0802878105</property:Has_DOI>
 		<property:Has_Journal rdf:resource="&wiki;PNAS"/>
 		<property:Has_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2008</property:Has_Year>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-09-29T15:38:31</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T10:28:51</swivt:wikiPageModificationDate>
 		<property:Relationships_extracted rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yes</property:Relationships_extracted>
 		<property:Substances_extracted rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yes</property:Substances_extracted>
 	</swivt:Subject>
@@ -867,7 +854,7 @@
 		<property:Has_DOI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1021/tx800064j</property:Has_DOI>
 		<property:Has_Journal rdf:resource="&wiki;Chemical_Research_in_Toxicology"/>
 		<property:Has_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2008</property:Has_Year>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-30T05:59:47</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-02T21:35:36</swivt:wikiPageModificationDate>
 		<property:Relationships_extracted rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No</property:Relationships_extracted>
 		<property:Substances_extracted rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yes</property:Substances_extracted>
 	</swivt:Subject>
@@ -910,7 +897,7 @@
 		<property:Has_DOI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1038/NNANO.2009.313</property:Has_DOI>
 		<property:Has_Journal rdf:resource="&wiki;Nature_Nanotechnology"/>
 		<property:Has_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2009</property:Has_Year>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-11-10T07:39:06</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-02T21:37:25</swivt:wikiPageModificationDate>
 		<property:Substances_extracted rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yes</property:Substances_extracted>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Hu2008">
@@ -924,7 +911,7 @@
 		<property:Has_DOI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1021/nn200021j</property:Has_DOI>
 		<property:Has_Journal rdf:resource="&wiki;ACS_Nano"/>
 		<property:Has_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2008</property:Has_Year>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-02T21:31:27</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-28T16:41:32</swivt:wikiPageModificationDate>
 		<property:Relationships_extracted rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No</property:Relationships_extracted>
 		<property:Substances_extracted rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No</property:Substances_extracted>
 	</swivt:Subject>
@@ -938,7 +925,7 @@
 		<property:Has_DOI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1002/smll.201002366</property:Has_DOI>
 		<property:Has_Journal rdf:resource="&wiki;Small"/>
 		<property:Has_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011</property:Has_Year>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-30T08:01:25</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-02T21:33:37</swivt:wikiPageModificationDate>
 		<property:Relationships_extracted rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yes</property:Relationships_extracted>
 		<property:Substances_extracted rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yes</property:Substances_extracted>
 	</swivt:Subject>
@@ -953,7 +940,7 @@
 		<property:Has_DOI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1021/nn101390x</property:Has_DOI>
 		<property:Has_Journal rdf:resource="&wiki;ACS_Nano"/>
 		<property:Has_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010</property:Has_Year>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-02T21:17:34</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-28T16:41:51</swivt:wikiPageModificationDate>
 		<property:Relationships_extracted rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No</property:Relationships_extracted>
 		<property:Substances_extracted rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No</property:Substances_extracted>
 	</swivt:Subject>
@@ -968,7 +955,7 @@
 		<property:Has_DOI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1021/nn103265h</property:Has_DOI>
 		<property:Has_Journal rdf:resource="&wiki;ACS_Nano"/>
 		<property:Has_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011</property:Has_Year>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-02T21:31:21</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-28T17:19:29</swivt:wikiPageModificationDate>
 		<property:Relationships_extracted rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No</property:Relationships_extracted>
 		<property:Substances_extracted rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No</property:Substances_extracted>
 	</swivt:Subject>
@@ -982,7 +969,7 @@
 		<property:Has_DOI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1021/nn101097v</property:Has_DOI>
 		<property:Has_Journal rdf:resource="&wiki;ACS_Nano"/>
 		<property:Has_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010</property:Has_Year>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-30T07:24:57</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T10:54:33</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Descriptive">
 		<rdfs:label>Descriptive</rdfs:label>
@@ -1215,7 +1202,7 @@
 		<property:Has_Endpoint rdf:resource="&wiki;Log_Reciprocal_EC50"/>
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3.45</property:Has_Endpoint_Value>
 		<property:Has_Entity rdf:resource="&wiki;Cytotox2011Pyzun15"/>
-		<property:Has_Study rdf:resource="&wiki;Cytotox2011Pyzun"/>
+		<property:Has_Study rdf:resource="&wiki;Cytotox2011Pyzun_S1"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-06-09T20:16:32</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Cytotox2011Pyzun16_M1">
@@ -1227,7 +1214,7 @@
 		<property:Has_Endpoint rdf:resource="&wiki;Log_Reciprocal_EC50"/>
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.51</property:Has_Endpoint_Value>
 		<property:Has_Entity rdf:resource="&wiki;Cytotox2011Pyzun16"/>
-		<property:Has_Study rdf:resource="&wiki;Cytotox2011Pyzun"/>
+		<property:Has_Study rdf:resource="&wiki;Cytotox2011Pyzun_S1"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-06-09T20:17:28</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Cytotox2011Pyzun17_M1">
@@ -1240,7 +1227,7 @@
 		<property:Has_Endpoint rdf:resource="&wiki;Log_Reciprocal_EC50"/>
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.87</property:Has_Endpoint_Value>
 		<property:Has_Entity rdf:resource="&wiki;Cytotox2011Pyzun17"/>
-		<property:Has_Study rdf:resource="&wiki;Cytotox2011Pyzun"/>
+		<property:Has_Study rdf:resource="&wiki;Cytotox2011Pyzun_S1"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-27T22:27:32</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<owl:DatatypeProperty rdf:about="&property;Has_Dose_Units">
@@ -1281,7 +1268,7 @@
 		<property:Has_DOI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1021/nn200546k</property:Has_DOI>
 		<property:Has_Journal rdf:resource="&wiki;ACS_Nano"/>
 		<property:Has_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011</property:Has_Year>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-30T07:33:18</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-02T21:31:43</swivt:wikiPageModificationDate>
 		<property:Substances_extracted rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yes</property:Substances_extracted>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Metal">
@@ -1403,7 +1390,7 @@
 		<property:Has_DOI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1021/nn1013484</property:Has_DOI>
 		<property:Has_Journal rdf:resource="&wiki;ACS_Nano"/>
 		<property:Has_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2005</property:Has_Year>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-30T08:10:42</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-02T21:31:14</swivt:wikiPageModificationDate>
 		<property:Relationships_extracted rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yes</property:Relationships_extracted>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;File-3AWeissleder2005_Supp1.pdf">
@@ -3087,7 +3074,7 @@
 		<property:Has_DOI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.3109/17435390.2011.587903</property:Has_DOI>
 		<property:Has_Journal rdf:resource="&wiki;Nanotoxicology"/>
 		<property:Has_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011</property:Has_Year>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-30T08:37:19</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-02T21:43:02</swivt:wikiPageModificationDate>
 		<property:Substances_extracted rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yes</property:Substances_extracted>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;DNA_Damage">
@@ -4382,7 +4369,7 @@
 		<property:Has_DOI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1016/j.chemosphere.2011.04.067</property:Has_DOI>
 		<property:Has_Journal rdf:resource="&wiki;Chemosphere"/>
 		<property:Has_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011</property:Has_Year>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-30T09:46:12</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T10:53:39</swivt:wikiPageModificationDate>
 		<property:Relationships_extracted rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yes</property:Relationships_extracted>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;ParticleClass">
@@ -4599,7 +4586,7 @@
 		<property:Has_DOI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1016/j.toxlet.2009.03.014</property:Has_DOI>
 		<property:Has_Journal rdf:resource="&wiki;Toxicology_Letters"/>
 		<property:Has_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2009</property:Has_Year>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-30T11:24:20</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T11:13:36</swivt:wikiPageModificationDate>
 		<property:Substances_extracted rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yes</property:Substances_extracted>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Burello2011">
@@ -4612,7 +4599,7 @@
 		<property:Has_DOI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.3109/17435390.2010.502980</property:Has_DOI>
 		<property:Has_Journal rdf:resource="&wiki;Nanotoxicology"/>
 		<property:Has_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011</property:Has_Year>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-11-10T08:08:11</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-02T21:42:33</swivt:wikiPageModificationDate>
 		<property:Substances_extracted rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yes</property:Substances_extracted>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;File-3ABurello2011.pdf">
@@ -4639,7 +4626,7 @@
 		<property:Has_DOI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1186/1743-8977-7-23</property:Has_DOI>
 		<property:Has_Journal rdf:resource="&wiki;Particle_and_Fiber_Toxicology"/>
 		<property:Has_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010</property:Has_Year>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-05-22T17:27:24</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-02T21:45:17</swivt:wikiPageModificationDate>
 		<property:Relationships_extracted rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yes</property:Relationships_extracted>
 	</swivt:Subject>
 	<owl:Class rdf:about="&wiki;Category-3AChemical_Entities">
@@ -4659,7 +4646,7 @@
 		<property:Has_DOI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1080/10934520600966177</property:Has_DOI>
 		<property:Has_Journal rdf:resource="&wiki;Journal_of_Environmental_Science_and_Health_A"/>
 		<property:Has_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2006</property:Has_Year>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-11-10T07:18:42</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-02T21:47:58</swivt:wikiPageModificationDate>
 		<property:Substances_extracted rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yes</property:Substances_extracted>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Jeng2006_M1">
@@ -4832,7 +4819,7 @@
 		<property:Has_DOI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1063/1.2061873</property:Has_DOI>
 		<property:Has_Journal rdf:resource="&wiki;Applied_Physics_Letters"/>
 		<property:Has_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2005</property:Has_Year>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-12-10T10:06:48</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T10:46:57</swivt:wikiPageModificationDate>
 		<property:Relationships_extracted rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yes</property:Relationships_extracted>
 		<property:Substances_extracted rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yes</property:Substances_extracted>
 	</swivt:Subject>
@@ -4930,7 +4917,7 @@
 		<property:Has_DOI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1093/toxsci/kfn250</property:Has_DOI>
 		<property:Has_Journal rdf:resource="&wiki;Toxicological_Sciences"/>
 		<property:Has_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2008</property:Has_Year>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-02-24T16:18:38</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-02T21:40:23</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Backup_and_Restore">
 		<rdfs:label>Backup and Restore</rdfs:label>
@@ -5003,7 +4990,7 @@
 		<property:Has_DOI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1021/nn204886b</property:Has_DOI>
 		<property:Has_Journal rdf:resource="&wiki;ACS_Nano"/>
 		<property:Has_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2012</property:Has_Year>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-06T07:00:24</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-02T21:32:16</swivt:wikiPageModificationDate>
 		<property:Substances_extracted rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yes</property:Substances_extracted>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Nagy2012Necrosis">
@@ -5270,7 +5257,7 @@
 		<property:Has_DOI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1007/s11270-011-1067-3</property:Has_DOI>
 		<property:Has_Journal rdf:resource="&wiki;Water,_Air,_-26_Soil_Pollution"/>
 		<property:Has_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2012</property:Has_Year>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-06T06:22:29</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T10:50:23</swivt:wikiPageModificationDate>
 		<property:Relationships_extracted rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No</property:Relationships_extracted>
 		<property:Substances_extracted rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yes</property:Substances_extracted>
 	</swivt:Subject>
@@ -5319,7 +5306,7 @@
 		<property:Has_DOI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1021/nn2021056</property:Has_DOI>
 		<property:Has_Journal rdf:resource="&wiki;ACS_Nano"/>
 		<property:Has_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2012</property:Has_Year>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-06T06:40:04</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-02T21:32:03</swivt:wikiPageModificationDate>
 		<property:Relationships_extracted rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No</property:Relationships_extracted>
 		<property:Substances_extracted rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yes</property:Substances_extracted>
 	</swivt:Subject>
@@ -5450,7 +5437,7 @@
 		<property:Has_DOI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.3109/17435390903276941</property:Has_DOI>
 		<property:Has_Journal rdf:resource="&wiki;Nanotoxicology"/>
 		<property:Has_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2009</property:Has_Year>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-07T20:43:34</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-02T21:43:35</swivt:wikiPageModificationDate>
 		<property:Substances_extracted rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yes</property:Substances_extracted>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Berg2009_R1">
@@ -5679,7 +5666,7 @@
 		<property:Has_DOI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.3109/17435390903276933</property:Has_DOI>
 		<property:Has_Journal rdf:resource="&wiki;Nanotoxicology"/>
 		<property:Has_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2009</property:Has_Year>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-07T20:43:14</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-02T21:43:15</swivt:wikiPageModificationDate>
 		<property:Substances_extracted rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yes</property:Substances_extracted>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Gerloff2009_NM1">
@@ -5837,7 +5824,7 @@
 		<property:Has_DOI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1080/17435390802596456</property:Has_DOI>
 		<property:Has_Journal rdf:resource="&wiki;Nanotoxicology"/>
 		<property:Has_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2009</property:Has_Year>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-07T20:44:46</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-02T21:46:32</swivt:wikiPageModificationDate>
 		<property:Substances_extracted rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yes</property:Substances_extracted>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Gopalan2009_NM1">
@@ -5884,7 +5871,7 @@
 		<property:Has_DOI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1021/es051043o</property:Has_DOI>
 		<property:Has_Journal rdf:resource="&wiki;Environmental_Science_Technology"/>
 		<property:Has_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2005</property:Has_Year>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-07T21:20:15</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-02T21:51:38</swivt:wikiPageModificationDate>
 		<property:Substances_extracted rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yes</property:Substances_extracted>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Limbacj2005_NM1">
@@ -5962,7 +5949,7 @@
 		<property:Has_DOI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1016/j.envpol.2008.11.004</property:Has_DOI>
 		<property:Has_Journal rdf:resource="&wiki;Environmental_Pollution"/>
 		<property:Has_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2009</property:Has_Year>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-08T05:22:24</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T11:15:03</swivt:wikiPageModificationDate>
 		<property:Substances_extracted rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yes</property:Substances_extracted>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Wang2009_NM1">
@@ -6071,7 +6058,7 @@
 		<property:Has_DOI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1021/es9016975</property:Has_DOI>
 		<property:Has_Journal rdf:resource="&wiki;Environmental_Science_Technology"/>
 		<property:Has_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2009</property:Has_Year>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-08T07:18:50</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-02T21:51:52</swivt:wikiPageModificationDate>
 		<property:Substances_extracted rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yes</property:Substances_extracted>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;SimonDeckers2009_NM1">
@@ -6241,7 +6228,7 @@
 		<property:Has_DOI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1007/s12013-012-9367-9</property:Has_DOI>
 		<property:Has_Journal rdf:resource="&wiki;Cell_Biochemistry_and_Biophysics"/>
 		<property:Has_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2012</property:Has_Year>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-08T08:45:53</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T10:49:22</swivt:wikiPageModificationDate>
 		<property:Substances_extracted rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yes</property:Substances_extracted>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Horie2009">
@@ -6254,7 +6241,7 @@
 		<property:Has_DOI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1021/tx800289z</property:Has_DOI>
 		<property:Has_Journal rdf:resource="&wiki;Chemical_Research_in_Toxicology"/>
 		<property:Has_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2009</property:Has_Year>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-09T12:17:52</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-02T21:35:48</swivt:wikiPageModificationDate>
 		<property:Substances_extracted rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yes</property:Substances_extracted>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Horie2009_NM1">
@@ -6439,7 +6426,7 @@
 		<property:Has_DOI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1093/toxsci/kfs006</property:Has_DOI>
 		<property:Has_Journal rdf:resource="&wiki;Toxicological_Sciences"/>
 		<property:Has_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2012</property:Has_Year>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-09T12:18:06</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-02T21:40:09</swivt:wikiPageModificationDate>
 		<property:Substances_extracted rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yes</property:Substances_extracted>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Cho2012_NM1">
@@ -6991,7 +6978,7 @@
 		<property:Has_DOI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1021/nn301622h</property:Has_DOI>
 		<property:Has_Journal rdf:resource="&wiki;ACS_Nano"/>
 		<property:Has_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2012</property:Has_Year>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-02T21:32:31</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-28T16:14:35</swivt:wikiPageModificationDate>
 		<property:Relationships_extracted rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No</property:Relationships_extracted>
 		<property:Substances_extracted rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yes</property:Substances_extracted>
 	</swivt:Subject>
@@ -7442,7 +7429,7 @@
 		<property:Has_DOI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1038/nnano.2011.191</property:Has_DOI>
 		<property:Has_Journal rdf:resource="&wiki;Nature_Nanotechnology"/>
 		<property:Has_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011</property:Has_Year>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-02T21:37:57</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-04T13:46:30</swivt:wikiPageModificationDate>
 		<property:Substances_extracted rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yes</property:Substances_extracted>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Yu2011">
@@ -7456,7 +7443,7 @@
 		<property:Has_DOI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1021/nn2013904</property:Has_DOI>
 		<property:Has_Journal rdf:resource="&wiki;ACS_Nano"/>
 		<property:Has_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011</property:Has_Year>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-02T21:31:50</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-28T17:18:16</swivt:wikiPageModificationDate>
 		<property:Relationships_extracted rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No</property:Relationships_extracted>
 		<property:Substances_extracted rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No</property:Substances_extracted>
 	</swivt:Subject>
@@ -7471,7 +7458,7 @@
 		<property:Has_DOI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1021/nn201950e</property:Has_DOI>
 		<property:Has_Journal rdf:resource="&wiki;ACS_Nano"/>
 		<property:Has_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011</property:Has_Year>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-02T21:31:56</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-28T17:29:17</swivt:wikiPageModificationDate>
 		<property:Relationships_extracted rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No</property:Relationships_extracted>
 		<property:Substances_extracted rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No</property:Substances_extracted>
 	</swivt:Subject>
@@ -7486,7 +7473,7 @@
 		<property:Has_DOI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1021/ja107583h</property:Has_DOI>
 		<property:Has_Journal rdf:resource="&wiki;JACS"/>
 		<property:Has_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011</property:Has_Year>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T10:51:51</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-28T17:19:01</swivt:wikiPageModificationDate>
 		<property:Relationships_extracted rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No</property:Relationships_extracted>
 		<property:Substances_extracted rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No</property:Substances_extracted>
 	</swivt:Subject>
@@ -7501,7 +7488,7 @@
 		<property:Has_DOI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1021/nn300626q</property:Has_DOI>
 		<property:Has_Journal rdf:resource="&wiki;ACS_Nano"/>
 		<property:Has_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2012</property:Has_Year>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-02T21:32:24</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-28T17:22:35</swivt:wikiPageModificationDate>
 		<property:Relationships_extracted rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No</property:Relationships_extracted>
 		<property:Substances_extracted rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No</property:Substances_extracted>
 	</swivt:Subject>
@@ -7610,7 +7597,7 @@
 		<property:Has_DOI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1021/nl0730155</property:Has_DOI>
 		<property:Has_Journal rdf:resource="&wiki;Nano_Letters"/>
 		<property:Has_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2008</property:Has_Year>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-02T21:58:26</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-03T20:40:45</swivt:wikiPageModificationDate>
 		<property:Substances_extracted rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yes</property:Substances_extracted>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Journal_of_Chemical_Information_and_Modeling">
@@ -7632,7 +7619,7 @@
 		<property:Has_DOI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1021/ci3005308</property:Has_DOI>
 		<property:Has_Journal rdf:resource="&wiki;Journal_of_Chemical_Information_and_Modeling"/>
 		<property:Has_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2013</property:Has_Year>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-02T22:00:36</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-28T11:57:09</swivt:wikiPageModificationDate>
 		<property:Substances_extracted rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yes</property:Substances_extracted>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;PNAS">
@@ -9008,7 +8995,7 @@
 		<property:Has_DOI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1021/ja309812z</property:Has_DOI>
 		<property:Has_Journal rdf:resource="&wiki;JACS"/>
 		<property:Has_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2013</property:Has_Year>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-04T13:58:59</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-04T14:18:07</swivt:wikiPageModificationDate>
 		<property:Substances_extracted rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yes</property:Substances_extracted>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Lesniak2013_NM1">
@@ -9162,7 +9149,7 @@
 		<property:Has_DOI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1039/c3nr01533e</property:Has_DOI>
 		<property:Has_Journal rdf:resource="&wiki;Nanoscale"/>
 		<property:Has_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2013</property:Has_Year>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-03T16:04:05</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-28T11:54:39</swivt:wikiPageModificationDate>
 		<property:Relationships_extracted rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No</property:Relationships_extracted>
 		<property:Substances_extracted rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yes</property:Substances_extracted>
 	</swivt:Subject>
@@ -10319,7 +10306,7 @@
 		<property:Has_DOI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1186/1743-8977-6-14</property:Has_DOI>
 		<property:Has_Journal rdf:resource="&wiki;Particle_and_Fibre_Toxicology"/>
 		<property:Has_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2009</property:Has_Year>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-03T13:12:49</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-03T16:03:32</swivt:wikiPageModificationDate>
 		<property:Relationships_extracted rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No</property:Relationships_extracted>
 		<property:Substances_extracted rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No</property:Substances_extracted>
 	</swivt:Subject>
@@ -10342,7 +10329,7 @@
 		<property:Has_DOI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1021/nn3010087</property:Has_DOI>
 		<property:Has_Journal rdf:resource="&wiki;ACS_Nano"/>
 		<property:Has_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2012</property:Has_Year>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-27T17:43:29</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-28T11:54:26</swivt:wikiPageModificationDate>
 		<property:Relationships_extracted rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No</property:Relationships_extracted>
 		<property:Substances_extracted rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yes</property:Substances_extracted>
 	</swivt:Subject>
@@ -10755,10 +10742,10 @@
 		<rdfs:label>Cell Viability Assay</rdfs:label>
 		<swivt:page rdf:resource="&wikiurl;Cell_Viability_Assay"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Cell_Viability_Assay"/>
-		<rdf:type rdf:resource="&wiki;Category-3AAssays"/>
+		<rdf:type rdf:resource="&wiki;Category-3AAssayTypes"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
 		<owl:sameAs rdf:resource="http://www.bioassayontology.org/bao#BAO_0003009"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-27T22:37:54</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-28T08:21:23</swivt:wikiPageModificationDate>
 		<property:Original_URI rdf:resource="http://www.bioassayontology.org/bao#BAO_0003009"/>
 	</swivt:Subject>
 	<owl:Class rdf:about="&wiki;Category-3AAssays">
@@ -10772,7 +10759,7 @@
 		<rdfs:label>Cytotoxicity Assay</rdfs:label>
 		<swivt:page rdf:resource="&wikiurl;Cytotoxicity_Assay"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Cytotoxicity_Assay"/>
-		<rdf:type rdf:resource="&wiki;Category-3AAssays"/>
+		<rdf:type rdf:resource="&wiki;Category-3AAssayTypes"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
 		<owl:sameAs rdf:resource="http://www.bioassayontology.org/bao#BAO_0002993"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-28T08:31:07</swivt:wikiPageModificationDate>
@@ -10782,7 +10769,7 @@
 		<rdfs:label>Cell Growth Assay</rdfs:label>
 		<swivt:page rdf:resource="&wikiurl;Cell_Growth_Assay"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Cell_Growth_Assay"/>
-		<rdf:type rdf:resource="&wiki;Category-3AAssays"/>
+		<rdf:type rdf:resource="&wiki;Category-3AAssayTypes"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
 		<owl:sameAs rdf:resource="http://www.bioassayontology.org/bao#BAO_0002100"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-28T08:33:16</swivt:wikiPageModificationDate>
@@ -10792,7 +10779,7 @@
 		<rdfs:label>Genotoxicity Assay</rdfs:label>
 		<swivt:page rdf:resource="&wikiurl;Genotoxicity_Assay"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Genotoxicity_Assay"/>
-		<rdf:type rdf:resource="&wiki;Category-3AAssays"/>
+		<rdf:type rdf:resource="&wiki;Category-3AAssayTypes"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
 		<owl:sameAs rdf:resource="http://www.bioassayontology.org/bao#BAO_0002167"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-28T08:38:42</swivt:wikiPageModificationDate>
@@ -10802,7 +10789,7 @@
 		<rdfs:label>Oxidative Stress Assay</rdfs:label>
 		<swivt:page rdf:resource="&wikiurl;Oxidative_Stress_Assay"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Oxidative_Stress_Assay"/>
-		<rdf:type rdf:resource="&wiki;Category-3AAssays"/>
+		<rdf:type rdf:resource="&wiki;Category-3AAssayTypes"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
 		<owl:sameAs rdf:resource="http://www.bioassayontology.org/bao#BAO_0002168"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-28T08:42:43</swivt:wikiPageModificationDate>
@@ -10812,7 +10799,7 @@
 		<rdfs:label>Toxicity Assay</rdfs:label>
 		<swivt:page rdf:resource="&wikiurl;Toxicity_Assay"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Toxicity_Assay"/>
-		<rdf:type rdf:resource="&wiki;Category-3AAssays"/>
+		<rdf:type rdf:resource="&wiki;Category-3AAssayTypes"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
 		<owl:sameAs rdf:resource="http://www.bioassayontology.org/bao#BAO_0002189"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-28T08:53:06</swivt:wikiPageModificationDate>
@@ -10846,7 +10833,7 @@
 		<rdfs:label>Physicochemical Characterization</rdfs:label>
 		<swivt:page rdf:resource="&wikiurl;Physicochemical_Characterization"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Physicochemical_Characterization"/>
-		<rdf:type rdf:resource="&wiki;Category-3AAssays"/>
+		<rdf:type rdf:resource="&wiki;Category-3AAssayTypes"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-28T10:32:42</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -11160,7 +11147,7 @@
 		<property:Has_DOI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1021/nn202116p</property:Has_DOI>
 		<property:Has_Journal rdf:resource="&wiki;ACS_Nano"/>
 		<property:Has_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011</property:Has_Year>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-28T13:04:27</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-28T13:17:35</swivt:wikiPageModificationDate>
 		<property:Substances_extracted rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yes</property:Substances_extracted>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Lin2011_M1">
@@ -11390,7 +11377,7 @@
 		<property:Has_DOI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.3762/bjnano.5.151</property:Has_DOI>
 		<property:Has_Journal rdf:resource="&wiki;Beilstein_J_Nanotechnology"/>
 		<property:Has_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2014</property:Has_Year>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-28T13:30:27</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-28T13:54:11</swivt:wikiPageModificationDate>
 		<property:Substances_extracted rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yes</property:Substances_extracted>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Docter2014_M1">
@@ -11668,7 +11655,7 @@
 		<property:Has_DOI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1021/nn301669t</property:Has_DOI>
 		<property:Has_Journal rdf:resource="&wiki;ACS_Nano"/>
 		<property:Has_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2014</property:Has_Year>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-28T15:48:41</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-28T15:52:05</swivt:wikiPageModificationDate>
 		<property:Substances_extracted rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No</property:Substances_extracted>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;MaurerJones2010">
@@ -11710,7 +11697,7 @@
 		<property:Has_DOI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1039/C4RA01274G</property:Has_DOI>
 		<property:Has_Journal rdf:resource="&wiki;RSC_Advances"/>
 		<property:Has_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2014</property:Has_Year>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-28T16:12:49</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-28T16:13:00</swivt:wikiPageModificationDate>
 		<property:Substances_extracted rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No</property:Substances_extracted>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;RSC_Advances">
@@ -11732,7 +11719,7 @@
 		<property:Has_DOI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1038/nbt1159</property:Has_DOI>
 		<property:Has_Journal rdf:resource="&wiki;Nature_Biotechnology"/>
 		<property:Has_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2005</property:Has_Year>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-28T16:29:56</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-28T16:40:36</swivt:wikiPageModificationDate>
 		<property:Relationships_extracted rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No</property:Relationships_extracted>
 		<property:Substances_extracted rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No</property:Substances_extracted>
 	</swivt:Subject>
@@ -13028,7 +13015,7 @@
 		<property:Has_Endpoint rdf:resource="&wiki;Shape"/>
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gamma phase</property:Has_Endpoint_Value>
 		<property:Has_Entity rdf:resource="&wiki;Jeng2006_M2"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-03T12:00:06</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-03T14:56:26</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Jeng2006_M4_M2">
 		<rdfs:label>Jeng2006 M4 M2</rdfs:label>
@@ -13039,7 +13026,7 @@
 		<property:Has_Endpoint rdf:resource="&wiki;Shape"/>
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Primarily gamma phase</property:Has_Endpoint_Value>
 		<property:Has_Entity rdf:resource="&wiki;Jeng2006_M4"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-03T12:00:46</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-03T14:56:35</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Lesniak2013_NM1_M1">
 		<rdfs:label>Lesniak2013 NM1 M1</rdfs:label>
@@ -13173,7 +13160,7 @@
 		<property:For_Measurement rdf:resource="&wiki;Lesniak2013_NM4_M2"/>
 		<property:Has_Endpoint rdf:resource="&wiki;PH"/>
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7.11</property:Has_Endpoint_Value>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-03T15:03:47</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-03T16:02:44</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Lesniak2013_NM3_M2_C1">
 		<rdfs:label>Lesniak2013 NM3 M2 C1</rdfs:label>
@@ -13195,7 +13182,7 @@
 		<property:For_Measurement rdf:resource="&wiki;Lesniak2013_NM2_M2"/>
 		<property:Has_Endpoint rdf:resource="&wiki;PH"/>
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7.54</property:Has_Endpoint_Value>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-03T16:04:09</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-03T16:30:34</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Lesniak2013_NM1_M2_C1">
 		<rdfs:label>Lesniak2013 NM1 M2 C1</rdfs:label>
@@ -13500,7 +13487,7 @@
 		<property:For_Measurement rdf:resource="&wiki;Lesniak2013_NM3_M6"/>
 		<property:Has_Endpoint rdf:resource="&wiki;PH"/>
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.11</property:Has_Endpoint_Value>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-03T16:26:34</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-03T16:32:31</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Lesniak2013_NM2_M6_C1">
 		<rdfs:label>Lesniak2013 NM2 M6 C1</rdfs:label>
@@ -13511,7 +13498,7 @@
 		<property:For_Measurement rdf:resource="&wiki;Lesniak2013_NM2_M6"/>
 		<property:Has_Endpoint rdf:resource="&wiki;PH"/>
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.12</property:Has_Endpoint_Value>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-03T16:26:48</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-03T16:31:58</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Lesniak2013_NM1_M6_C1">
 		<rdfs:label>Lesniak2013 NM1 M6 C1</rdfs:label>
@@ -13522,7 +13509,368 @@
 		<property:For_Measurement rdf:resource="&wiki;Lesniak2013_NM1_M6"/>
 		<property:Has_Endpoint rdf:resource="&wiki;PH"/>
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7.98</property:Has_Endpoint_Value>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-03T16:27:11</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-03T16:29:48</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Zhou2008_C1">
+		<rdfs:label>Zhou2008 C1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Zhou2008_C1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Zhou2008_C1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:For_Measurement rdf:resource="&wiki;Zhou2008_M5_M1"/>
+		<property:For_Measurement rdf:resource="&wiki;Zhou2008_M6_M1"/>
+		<property:For_Measurement rdf:resource="&wiki;Zhou2008_M7_M1"/>
+		<property:For_Measurement rdf:resource="&wiki;Zhou2008_M8_M1"/>
+		<property:For_Measurement rdf:resource="&wiki;Zhou2008_M9_M1"/>
+		<property:For_Measurement rdf:resource="&wiki;Zhou2008_M10_M1"/>
+		<property:For_Measurement rdf:resource="&wiki;Zhou2008_M11_M1"/>
+		<property:For_Measurement rdf:resource="&wiki;Zhou2008_M12_M1"/>
+		<property:For_Measurement rdf:resource="&wiki;Zhou2008_M22_M1"/>
+		<property:For_Measurement rdf:resource="&wiki;Zhou2008_M30_M1"/>
+		<property:For_Measurement rdf:resource="&wiki;Zhou2008_M38_M1"/>
+		<property:For_Measurement rdf:resource="&wiki;Zhou2008_M46_M1"/>
+		<property:For_Measurement rdf:resource="&wiki;Zhou2008_M54_M1"/>
+		<property:For_Measurement rdf:resource="&wiki;Zhou2008_M62_M1"/>
+		<property:For_Measurement rdf:resource="&wiki;Zhou2008_M70_M1"/>
+		<property:For_Measurement rdf:resource="&wiki;Zhou2008_M78_M1"/>
+		<property:For_Measurement rdf:resource="&wiki;Zhou2008_M25_M1"/>
+		<property:For_Measurement rdf:resource="&wiki;Zhou2008_M33_M1"/>
+		<property:For_Measurement rdf:resource="&wiki;Zhou2008_M41_M1"/>
+		<property:For_Measurement rdf:resource="&wiki;Zhou2008_M49_M1"/>
+		<property:For_Measurement rdf:resource="&wiki;Zhou2008_M57_M1"/>
+		<property:For_Measurement rdf:resource="&wiki;Zhou2008_M65_M1"/>
+		<property:For_Measurement rdf:resource="&wiki;Zhou2008_M73_M1"/>
+		<property:For_Measurement rdf:resource="&wiki;Zhou2008_M81_M1"/>
+		<property:Has_Endpoint rdf:resource="&wiki;PH"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6.5</property:Has_Endpoint_Value>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-03T18:26:43</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Zhou2008_M5_M1">
+		<rdfs:label>Zhou2008 M5 M1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Zhou2008_M5_M1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Zhou2008_M5_M1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Zeta_Potential"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-61.2</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Zhou2008_M1"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-03T18:41:10</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Zhou2008_M6_M1">
+		<rdfs:label>Zhou2008 M6 M1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Zhou2008_M6_M1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Zhou2008_M6_M1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Zeta_Potential"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-51.4</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Zhou2008_M2"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-03T18:41:45</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Zhou2008_M7_M1">
+		<rdfs:label>Zhou2008 M7 M1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Zhou2008_M7_M1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Zhou2008_M7_M1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Zeta_Potential"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-54.1</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Zhou2008_M3"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-03T18:42:03</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Zhou2008_M8_M1">
+		<rdfs:label>Zhou2008 M8 M1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Zhou2008_M8_M1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Zhou2008_M8_M1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Zeta_Potential"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-54.6</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Zhou2008_M4"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-03T18:44:18</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Zhou2008_M9_M1">
+		<rdfs:label>Zhou2008 M9 M1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Zhou2008_M9_M1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Zhou2008_M9_M1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Zeta_Potential"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-52.1</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Zhou2008_M5"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-03T18:44:39</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Zhou2008_M10_M1">
+		<rdfs:label>Zhou2008 M10 M1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Zhou2008_M10_M1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Zhou2008_M10_M1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Zeta_Potential"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-56.5</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Zhou2008_M6"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-03T18:45:03</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Zhou2008_M11_M1">
+		<rdfs:label>Zhou2008 M11 M1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Zhou2008_M11_M1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Zhou2008_M11_M1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Zeta_Potential"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-50.4</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Zhou2008_M7"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-03T18:45:16</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Zhou2008_M12_M1">
+		<rdfs:label>Zhou2008 M12 M1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Zhou2008_M12_M1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Zhou2008_M12_M1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Zeta_Potential"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-53.7</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Zhou2008_M8"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-03T18:45:29</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Zhou2008_M22_M1">
+		<rdfs:label>Zhou2008 M22 M1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Zhou2008_M22_M1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Zhou2008_M22_M1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Zeta_Potential"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-48.5</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Zhou2008_M18"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-03T18:45:47</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Zhou2008_M30_M1">
+		<rdfs:label>Zhou2008 M30 M1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Zhou2008_M30_M1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Zhou2008_M30_M1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Zeta_Potential"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-48.8</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Zhou2008_M26"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-03T18:46:01</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Zhou2008_M38_M1">
+		<rdfs:label>Zhou2008 M38 M1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Zhou2008_M38_M1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Zhou2008_M38_M1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Zeta_Potential"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-48.4</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Zhou2008_M34"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-03T18:47:29</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Zhou2008_M46_M1">
+		<rdfs:label>Zhou2008 M46 M1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Zhou2008_M46_M1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Zhou2008_M46_M1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Zeta_Potential"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-59.4</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Zhou2008_M42"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-03T18:47:47</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Zhou2008_M54_M1">
+		<rdfs:label>Zhou2008 M54 M1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Zhou2008_M54_M1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Zhou2008_M54_M1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Zeta_Potential"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-73.3</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Zhou2008_M50"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-03T18:48:09</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Zhou2008_M62_M1">
+		<rdfs:label>Zhou2008 M62 M1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Zhou2008_M62_M1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Zhou2008_M62_M1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Zeta_Potential"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-72.6</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Zhou2008_M58"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-03T18:48:32</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Zhou2008_M70_M1">
+		<rdfs:label>Zhou2008 M70 M1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Zhou2008_M70_M1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Zhou2008_M70_M1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Zeta_Potential"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-74.2</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Zhou2008_M66"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-03T18:48:54</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Zhou2008_M78_M1">
+		<rdfs:label>Zhou2008 M78 M1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Zhou2008_M78_M1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Zhou2008_M78_M1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Zeta_Potential"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-67.2</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Zhou2008_M74"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-03T18:49:13</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Zhou2008_M25_M1">
+		<rdfs:label>Zhou2008 M25 M1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Zhou2008_M25_M1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Zhou2008_M25_M1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Zeta_Potential"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-44.4</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Zhou2008_M21"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-03T18:49:49</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Zhou2008_M33_M1">
+		<rdfs:label>Zhou2008 M33 M1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Zhou2008_M33_M1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Zhou2008_M33_M1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Zeta_Potential"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-45.4</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Zhou2008_M29"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-03T18:50:11</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Zhou2008_M41_M1">
+		<rdfs:label>Zhou2008 M41 M1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Zhou2008_M41_M1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Zhou2008_M41_M1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Zeta_Potential"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-47.6</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Zhou2008_M37"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-03T18:50:29</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Zhou2008_M49_M1">
+		<rdfs:label>Zhou2008 M49 M1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Zhou2008_M49_M1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Zhou2008_M49_M1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Zeta_Potential"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-66.1</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Zhou2008_M45"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-03T18:50:52</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Zhou2008_M57_M1">
+		<rdfs:label>Zhou2008 M57 M1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Zhou2008_M57_M1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Zhou2008_M57_M1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Zeta_Potential"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-39.4</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Zhou2008_M53"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-03T18:51:12</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Zhou2008_M65_M1">
+		<rdfs:label>Zhou2008 M65 M1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Zhou2008_M65_M1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Zhou2008_M65_M1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Zeta_Potential"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-59.3</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Zhou2008_M61"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-03T18:51:36</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Zhou2008_M73_M1">
+		<rdfs:label>Zhou2008 M73 M1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Zhou2008_M73_M1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Zhou2008_M73_M1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Zeta_Potential"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-57.8</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Zhou2008_M69"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-03T18:51:56</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Zhou2008_M81_M1">
+		<rdfs:label>Zhou2008 M81 M1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Zhou2008_M81_M1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Zhou2008_M81_M1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Zeta_Potential"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-40.7</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Zhou2008_M77"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-03T18:52:15</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Escherichia_coli">
+		<rdfs:label>Escherichia coli</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Escherichia_coli"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Escherichia_coli"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACell_Lines"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<owl:sameAs rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-04T21:06:33</swivt:wikiPageModificationDate>
+		<property:Original_URI rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+	</swivt:Subject>
+	<owl:ObjectProperty rdf:about="&property;Has_Assay">
+		<rdfs:label>Has Assay</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Property:Has_Assay"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Property:Has_Assay"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">102</swivt:wikiNamespace>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-05T09:01:44</swivt:wikiPageModificationDate>
+	</owl:ObjectProperty>
+	<owl:Class rdf:about="&wiki;Category-3AAssayTypes">
+		<rdfs:label>AssayTypes</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Category:AssayTypes"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Category:AssayTypes"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</swivt:wikiNamespace>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-05T09:02:54</swivt:wikiPageModificationDate>
+	</owl:Class>
+	<swivt:Subject rdf:about="&wiki;Cytotox2011Pyzun">
+		<rdfs:label>Cytotox2011Pyzun</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Cytotox2011Pyzun"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Cytotox2011Pyzun"/>
+		<rdf:type rdf:resource="&wiki;Category-3AAssays"/>
+		<rdf:type rdf:resource="&wiki;Category-3AStudies"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:For_Cell_line rdf:resource="&wiki;Escherichia_coli"/>
+		<property:Has_Assay_Type rdf:resource="&wiki;Cytotoxicity"/>
+		<property:Has_Endpoint rdf:resource="&wiki;Log_Reciprocal_EC50"/>
+		<property:Has_Entities rdf:resource="&wiki;MetalOxides"/>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Has_Identifier>
+		<property:Has_Source rdf:resource="&wiki;Puzyn2011"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-05T09:56:23</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<owl:DatatypeProperty rdf:about="&swivt;creationDate" />
 	<owl:ObjectProperty rdf:about="&swivt;page" />
