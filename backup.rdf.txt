@@ -18,7 +18,7 @@
 	xmlns:property="&property;">
 
 	<owl:Ontology rdf:about="">
-		<swivt:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-05T12:33:12+02:00</swivt:creationDate>
+		<swivt:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-05T14:32:25+02:00</swivt:creationDate>
 		<owl:imports rdf:resource="http://semantic-mediawiki.org/swivt/1.0"/>
 	</owl:Ontology>
 	<swivt:Subject rdf:about="&wiki;Main_Page">
@@ -66,7 +66,7 @@
 		<property:Has_DOI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1038/nnano.2011.10</property:Has_DOI>
 		<property:Has_Journal rdf:resource="&wiki;Nature_Nanotechnology"/>
 		<property:Has_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011</property:Has_Year>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-02T21:37:47</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-05T09:38:19</swivt:wikiPageModificationDate>
 		<property:Relationships_extracted rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yes</property:Relationships_extracted>
 		<property:Substances_extracted rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yes</property:Substances_extracted>
 	</swivt:Subject>
@@ -568,22 +568,11 @@
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-02T21:30:42</swivt:wikiPageModificationDate>
 		<property:Substances_extracted rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yes</property:Substances_extracted>
 	</swivt:Subject>
-	<swivt:Subject rdf:about="&wiki;InVitro2010Fourches">
-		<rdfs:label>InVitro2010Fourches</rdfs:label>
-		<swivt:page rdf:resource="&wikiurl;InVitro2010Fourches"/>
-		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/InVitro2010Fourches"/>
-		<rdf:type rdf:resource="&wiki;Category-3AStudies"/>
+	<swivt:Subject rdf:about="&wiki;InVitro2010Fourches_S1">
+		<rdfs:label>InVitro2010Fourches S1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;InVitro2010Fourches_S1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/InVitro2010Fourches_S1"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
-		<property:For_Cell_line rdf:resource="&wiki;PaCa2"/>
-		<property:Has_Endpoint rdf:resource="&wiki;Cellular_uptake"/>
-		<property:Has_Entities rdf:resource="&wiki;MetalOxides"/>
-		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6</property:Has_Identifier>
-		<property:Has_Object_Count rdf:datatype="http://www.w3.org/2001/XMLSchema#double">109</property:Has_Object_Count>
-		<property:Has_R2 rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7</property:Has_R2>
-		<property:Has_Source rdf:resource="&wiki;Fourches2010"/>
-		<property:Has_Study_Type rdf:resource="&wiki;Regression"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-09-29T18:32:39</swivt:wikiPageModificationDate>
-		<property:Uses_Descriptor rdf:resource="&wiki;Lipophilicity"/>
 	</swivt:Subject>
 	<owl:ObjectProperty rdf:about="&property;Has_Study_Type">
 		<rdfs:label>Has Study Type</rdfs:label>
@@ -1010,10 +999,10 @@
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Cytotox2011Pyzun01_M1"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Assay rdf:resource="&wiki;Cytotox2011Pyzun"/>
 		<property:Has_Endpoint rdf:resource="&wiki;Log_Reciprocal_EC50"/>
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3.45</property:Has_Endpoint_Value>
 		<property:Has_Entity rdf:resource="&wiki;Cytotox2011Pyzun01"/>
-		<property:Has_Study rdf:resource="&wiki;Cytotox2011Pyzun"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-06-09T15:58:14</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Cytotox2011Pyzun02_M1">
@@ -1022,10 +1011,10 @@
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Cytotox2011Pyzun02_M1"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Assay rdf:resource="&wiki;Cytotox2011Pyzun"/>
 		<property:Has_Endpoint rdf:resource="&wiki;Log_Reciprocal_EC50"/>
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3.20</property:Has_Endpoint_Value>
 		<property:Has_Entity rdf:resource="&wiki;Cytotox2011Pyzun02"/>
-		<property:Has_Study rdf:resource="&wiki;Cytotox2011Pyzun"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-06-09T19:46:47</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<owl:Class rdf:about="&wiki;Category-3AMeasurements">
@@ -1055,10 +1044,10 @@
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Cytotox2011Pyzun03_M1"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Assay rdf:resource="&wiki;Cytotox2011Pyzun"/>
 		<property:Has_Endpoint rdf:resource="&wiki;Log_Reciprocal_EC50"/>
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3.14</property:Has_Endpoint_Value>
 		<property:Has_Entity rdf:resource="&wiki;Cytotox2011Pyzun03"/>
-		<property:Has_Study rdf:resource="&wiki;Cytotox2011Pyzun"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-06-09T19:53:28</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Cytotox2011Pyzun04_M1">
@@ -1067,10 +1056,10 @@
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Cytotox2011Pyzun04_M1"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Assay rdf:resource="&wiki;Cytotox2011Pyzun"/>
 		<property:Has_Endpoint rdf:resource="&wiki;Log_Reciprocal_EC50"/>
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.87</property:Has_Endpoint_Value>
 		<property:Has_Entity rdf:resource="&wiki;Cytotox2011Pyzun04"/>
-		<property:Has_Study rdf:resource="&wiki;Cytotox2011Pyzun"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-06-09T19:53:38</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Cytotox2011Pyzun05_M1">
@@ -1079,10 +1068,10 @@
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Cytotox2011Pyzun05_M1"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Assay rdf:resource="&wiki;Cytotox2011Pyzun"/>
 		<property:Has_Endpoint rdf:resource="&wiki;Log_Reciprocal_EC50"/>
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.82</property:Has_Endpoint_Value>
 		<property:Has_Entity rdf:resource="&wiki;Cytotox2011Pyzun05"/>
-		<property:Has_Study rdf:resource="&wiki;Cytotox2011Pyzun"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-06-09T19:54:04</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Cytotox2011Pyzun06_M1">
@@ -1091,10 +1080,10 @@
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Cytotox2011Pyzun06_M1"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Assay rdf:resource="&wiki;Cytotox2011Pyzun"/>
 		<property:Has_Endpoint rdf:resource="&wiki;Log_Reciprocal_EC50"/>
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.81</property:Has_Endpoint_Value>
 		<property:Has_Entity rdf:resource="&wiki;Cytotox2011Pyzun06"/>
-		<property:Has_Study rdf:resource="&wiki;Cytotox2011Pyzun"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-06-09T20:06:49</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Cytotox2011Pyzun07_M1">
@@ -1103,10 +1092,10 @@
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Cytotox2011Pyzun07_M1"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Assay rdf:resource="&wiki;Cytotox2011Pyzun"/>
 		<property:Has_Endpoint rdf:resource="&wiki;Log_Reciprocal_EC50"/>
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.64</property:Has_Endpoint_Value>
 		<property:Has_Entity rdf:resource="&wiki;Cytotox2011Pyzun07"/>
-		<property:Has_Study rdf:resource="&wiki;Cytotox2011Pyzun"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-06-09T20:07:36</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Cytotox2011Pyzun08_M1">
@@ -1115,10 +1104,10 @@
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Cytotox2011Pyzun08_M1"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Assay rdf:resource="&wiki;Cytotox2011Pyzun"/>
 		<property:Has_Endpoint rdf:resource="&wiki;Log_Reciprocal_EC50"/>
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.49</property:Has_Endpoint_Value>
 		<property:Has_Entity rdf:resource="&wiki;Cytotox2011Pyzun08"/>
-		<property:Has_Study rdf:resource="&wiki;Cytotox2011Pyzun"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-06-09T20:08:35</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Cytotox2011Pyzun09_M1">
@@ -1127,10 +1116,10 @@
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Cytotox2011Pyzun09_M1"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Assay rdf:resource="&wiki;Cytotox2011Pyzun"/>
 		<property:Has_Endpoint rdf:resource="&wiki;Log_Reciprocal_EC50"/>
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.29</property:Has_Endpoint_Value>
 		<property:Has_Entity rdf:resource="&wiki;Cytotox2011Pyzun09"/>
-		<property:Has_Study rdf:resource="&wiki;Cytotox2011Pyzun"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-06-09T20:10:04</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Cytotox2011Pyzun10_M1">
@@ -1139,10 +1128,10 @@
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Cytotox2011Pyzun10_M1"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Assay rdf:resource="&wiki;Cytotox2011Pyzun"/>
 		<property:Has_Endpoint rdf:resource="&wiki;Log_Reciprocal_EC50"/>
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.20</property:Has_Endpoint_Value>
 		<property:Has_Entity rdf:resource="&wiki;Cytotox2011Pyzun10"/>
-		<property:Has_Study rdf:resource="&wiki;Cytotox2011Pyzun"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-06-09T20:11:04</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Cytotox2011Pyzun11_M1">
@@ -1151,10 +1140,10 @@
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Cytotox2011Pyzun11_M1"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Assay rdf:resource="&wiki;Cytotox2011Pyzun"/>
 		<property:Has_Endpoint rdf:resource="&wiki;Log_Reciprocal_EC50"/>
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.15</property:Has_Endpoint_Value>
 		<property:Has_Entity rdf:resource="&wiki;Cytotox2011Pyzun11"/>
-		<property:Has_Study rdf:resource="&wiki;Cytotox2011Pyzun"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-06-09T20:11:32</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Cytotox2011Pyzun12_M1">
@@ -1163,10 +1152,10 @@
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Cytotox2011Pyzun12_M1"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Assay rdf:resource="&wiki;Cytotox2011Pyzun"/>
 		<property:Has_Endpoint rdf:resource="&wiki;Log_Reciprocal_EC50"/>
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.01</property:Has_Endpoint_Value>
 		<property:Has_Entity rdf:resource="&wiki;Cytotox2011Pyzun12"/>
-		<property:Has_Study rdf:resource="&wiki;Cytotox2011Pyzun"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-06-09T20:12:53</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Cytotox2011Pyzun13_M1">
@@ -1175,10 +1164,10 @@
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Cytotox2011Pyzun13_M1"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Assay rdf:resource="&wiki;Cytotox2011Pyzun"/>
 		<property:Has_Endpoint rdf:resource="&wiki;Log_Reciprocal_EC50"/>
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.74</property:Has_Endpoint_Value>
 		<property:Has_Entity rdf:resource="&wiki;Cytotox2011Pyzun13"/>
-		<property:Has_Study rdf:resource="&wiki;Cytotox2011Pyzun"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-06-09T20:14:07</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Cytotox2011Pyzun14_M1">
@@ -1187,10 +1176,10 @@
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Cytotox2011Pyzun14_M1"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Assay rdf:resource="&wiki;Cytotox2011Pyzun"/>
 		<property:Has_Endpoint rdf:resource="&wiki;Log_Reciprocal_EC50"/>
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3.51</property:Has_Endpoint_Value>
 		<property:Has_Entity rdf:resource="&wiki;Cytotox2011Pyzun14"/>
-		<property:Has_Study rdf:resource="&wiki;Cytotox2011Pyzun"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-06-09T20:14:43</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Cytotox2011Pyzun15_M1">
@@ -1199,10 +1188,10 @@
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Cytotox2011Pyzun15_M1"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Assay rdf:resource="&wiki;Cytotox2011Pyzun"/>
 		<property:Has_Endpoint rdf:resource="&wiki;Log_Reciprocal_EC50"/>
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3.45</property:Has_Endpoint_Value>
 		<property:Has_Entity rdf:resource="&wiki;Cytotox2011Pyzun15"/>
-		<property:Has_Study rdf:resource="&wiki;Cytotox2011Pyzun_S1"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-06-09T20:16:32</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Cytotox2011Pyzun16_M1">
@@ -1211,10 +1200,10 @@
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Cytotox2011Pyzun16_M1"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Assay rdf:resource="&wiki;Cytotox2011Pyzun"/>
 		<property:Has_Endpoint rdf:resource="&wiki;Log_Reciprocal_EC50"/>
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.51</property:Has_Endpoint_Value>
 		<property:Has_Entity rdf:resource="&wiki;Cytotox2011Pyzun16"/>
-		<property:Has_Study rdf:resource="&wiki;Cytotox2011Pyzun_S1"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-06-09T20:17:28</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Cytotox2011Pyzun17_M1">
@@ -1223,11 +1212,11 @@
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Cytotox2011Pyzun17_M1"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Assay rdf:resource="&wiki;Cytotox2011Pyzun"/>
 		<property:Has_Assay_Type rdf:resource="&wiki;Cytotoxicity"/>
 		<property:Has_Endpoint rdf:resource="&wiki;Log_Reciprocal_EC50"/>
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.87</property:Has_Endpoint_Value>
 		<property:Has_Entity rdf:resource="&wiki;Cytotox2011Pyzun17"/>
-		<property:Has_Study rdf:resource="&wiki;Cytotox2011Pyzun_S1"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-27T22:27:32</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<owl:DatatypeProperty rdf:about="&property;Has_Dose_Units">
@@ -1441,7 +1430,7 @@
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CLIO-47-NH2 no 9</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;MetalOxide"/>
 		<property:Has_alternative_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NP3</property:Has_alternative_Identifier>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:13:47</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-03T10:28:38</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Shaw51"/>
 		<property:Used_in_Study rdf:resource="&wiki;InVitro2010Fourches2"/>
 	</swivt:Subject>
@@ -1466,7 +1455,7 @@
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carboxyl-CLIO-FITC-NH2 no. 3</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;MetalOxide"/>
 		<property:Has_alternative_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NP1</property:Has_alternative_Identifier>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:14:00</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-03T10:28:52</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Shaw51"/>
 		<property:Used_in_Study rdf:resource="&wiki;InVitro2010Fourches2"/>
 	</swivt:Subject>
@@ -1484,7 +1473,7 @@
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CLIO-47 no. 3</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;MetalOxide"/>
 		<property:Has_alternative_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NP2</property:Has_alternative_Identifier>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:13:53</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-03T10:28:18</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Shaw51"/>
 		<property:Used_in_Study rdf:resource="&wiki;InVitro2010Fourches2"/>
 	</swivt:Subject>
@@ -1502,7 +1491,7 @@
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CLIO-48-NH2 no. 14</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;MetalOxide"/>
 		<property:Has_alternative_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NP4</property:Has_alternative_Identifier>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:13:40</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-03T10:28:01</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Shaw51"/>
 		<property:Used_in_Study rdf:resource="&wiki;InVitro2010Fourches2"/>
 	</swivt:Subject>
@@ -1520,7 +1509,7 @@
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CLIO-AF488 no. 10</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;MetalOxide"/>
 		<property:Has_alternative_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NP5</property:Has_alternative_Identifier>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:13:33</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-03T10:27:42</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Shaw51"/>
 		<property:Used_in_Study rdf:resource="&wiki;InVitro2010Fourches2"/>
 	</swivt:Subject>
@@ -1538,7 +1527,7 @@
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CLIO-AF750 no. 3</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;MetalOxide"/>
 		<property:Has_alternative_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NP6</property:Has_alternative_Identifier>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:13:24</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-03T10:27:26</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Shaw51"/>
 		<property:Used_in_Study rdf:resource="&wiki;InVitro2010Fourches2"/>
 	</swivt:Subject>
@@ -1556,7 +1545,7 @@
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CLIO-bentri-FITC</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;MetalOxide"/>
 		<property:Has_alternative_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NP7</property:Has_alternative_Identifier>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:13:17</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-03T10:27:14</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Shaw51"/>
 		<property:Used_in_Study rdf:resource="&wiki;InVitro2010Fourches2"/>
 	</swivt:Subject>
@@ -1574,7 +1563,7 @@
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CLIO-Biotin no.2</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;MetalOxide"/>
 		<property:Has_alternative_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NP8</property:Has_alternative_Identifier>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:13:08</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-03T10:26:26</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Shaw51"/>
 		<property:Used_in_Study rdf:resource="&wiki;InVitro2010Fourches2"/>
 	</swivt:Subject>
@@ -1592,7 +1581,7 @@
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CLIO-COOH-FITC no.1</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;MetalOxide"/>
 		<property:Has_alternative_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NP9</property:Has_alternative_Identifier>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:12:57</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-03T10:26:09</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Shaw51"/>
 		<property:Used_in_Study rdf:resource="&wiki;InVitro2010Fourches2"/>
 	</swivt:Subject>
@@ -1610,7 +1599,7 @@
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CLIO-Cy3.5 no. 2</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;MetalOxide"/>
 		<property:Has_alternative_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NP10</property:Has_alternative_Identifier>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:12:45</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-03T10:18:40</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Shaw51"/>
 		<property:Used_in_Study rdf:resource="&wiki;InVitro2010Fourches2"/>
 	</swivt:Subject>
@@ -1628,7 +1617,7 @@
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CLIO- Cy5.5-Protamine no. 3</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;MetalOxide"/>
 		<property:Has_alternative_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NP11</property:Has_alternative_Identifier>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:12:36</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-03T10:18:26</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Shaw51"/>
 		<property:Used_in_Study rdf:resource="&wiki;InVitro2010Fourches2"/>
 	</swivt:Subject>
@@ -1646,7 +1635,7 @@
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CLIO-Cy5.5-tat no. 3</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;MetalOxide"/>
 		<property:Has_alternative_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NP12</property:Has_alternative_Identifier>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:12:27</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-03T10:18:01</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Shaw51"/>
 		<property:Used_in_Study rdf:resource="&wiki;InVitro2010Fourches2"/>
 	</swivt:Subject>
@@ -1664,7 +1653,7 @@
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CLIO-Cy5.5-X no. 1</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;MetalOxide"/>
 		<property:Has_alternative_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NP13</property:Has_alternative_Identifier>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:12:19</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-03T10:16:58</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Shaw51"/>
 		<property:Used_in_Study rdf:resource="&wiki;InVitro2010Fourches2"/>
 	</swivt:Subject>
@@ -1682,7 +1671,7 @@
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CLIO-Cy5 no. 2</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;MetalOxide"/>
 		<property:Has_alternative_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NP14</property:Has_alternative_Identifier>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:09:23</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-03T10:16:44</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Shaw51"/>
 		<property:Used_in_Study rdf:resource="&wiki;InVitro2010Fourches2"/>
 	</swivt:Subject>
@@ -1700,7 +1689,7 @@
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CLIO-Cy7 no. 2</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;MetalOxide"/>
 		<property:Has_alternative_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NP15</property:Has_alternative_Identifier>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:09:15</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-03T10:16:31</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Shaw51"/>
 		<property:Used_in_Study rdf:resource="&wiki;InVitro2010Fourches2"/>
 	</swivt:Subject>
@@ -1718,7 +1707,7 @@
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CLIO-FITC no. 4</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;MetalOxide"/>
 		<property:Has_alternative_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NP16</property:Has_alternative_Identifier>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:09:08</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-03T10:15:40</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Shaw51"/>
 		<property:Used_in_Study rdf:resource="&wiki;InVitro2010Fourches2"/>
 	</swivt:Subject>
@@ -1736,7 +1725,7 @@
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CLIO-GLU-FITC</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;MetalOxide"/>
 		<property:Has_alternative_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NP17</property:Has_alternative_Identifier>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:08:59</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-03T10:15:09</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Shaw51"/>
 		<property:Used_in_Study rdf:resource="&wiki;InVitro2010Fourches2"/>
 	</swivt:Subject>
@@ -1754,7 +1743,7 @@
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CLIO-GLY</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;MetalOxide"/>
 		<property:Has_alternative_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NP18</property:Has_alternative_Identifier>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:08:49</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-03T10:14:55</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Shaw51"/>
 		<property:Used_in_Study rdf:resource="&wiki;InVitro2010Fourches2"/>
 	</swivt:Subject>
@@ -1772,7 +1761,7 @@
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CLIO-Rhodamine-Protamine no. 1</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;MetalOxide"/>
 		<property:Has_alternative_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NP19</property:Has_alternative_Identifier>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:08:41</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-03T10:14:38</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Shaw51"/>
 		<property:Used_in_Study rdf:resource="&wiki;InVitro2010Fourches2"/>
 	</swivt:Subject>
@@ -1790,7 +1779,7 @@
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CLIO-SIA-FITC</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;MetalOxide"/>
 		<property:Has_alternative_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NP20</property:Has_alternative_Identifier>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:08:29</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-03T10:12:42</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Shaw51"/>
 		<property:Used_in_Study rdf:resource="&wiki;InVitro2010Fourches2"/>
 	</swivt:Subject>
@@ -1808,7 +1797,7 @@
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CLIO-tat no. 26</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;MetalOxide"/>
 		<property:Has_alternative_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NP21</property:Has_alternative_Identifier>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T07:08:21</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-03T10:12:04</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Shaw51"/>
 		<property:Used_in_Study rdf:resource="&wiki;InVitro2010Fourches2"/>
 	</swivt:Subject>
@@ -4369,7 +4358,7 @@
 		<property:Has_DOI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1016/j.chemosphere.2011.04.067</property:Has_DOI>
 		<property:Has_Journal rdf:resource="&wiki;Chemosphere"/>
 		<property:Has_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011</property:Has_Year>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T10:53:39</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-05T12:17:03</swivt:wikiPageModificationDate>
 		<property:Relationships_extracted rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yes</property:Relationships_extracted>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;ParticleClass">
@@ -10736,7 +10725,7 @@
 		<swivt:page rdf:resource="&wikiurl;Category:Cell_Lines"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Category:Cell_Lines"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</swivt:wikiNamespace>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-27T22:13:24</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-05T11:36:45</swivt:wikiPageModificationDate>
 	</owl:Class>
 	<swivt:Subject rdf:about="&wiki;Cell_Viability_Assay">
 		<rdfs:label>Cell Viability Assay</rdfs:label>
@@ -13870,7 +13859,7 @@
 		<property:Has_Entities rdf:resource="&wiki;MetalOxides"/>
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Has_Identifier>
 		<property:Has_Source rdf:resource="&wiki;Puzyn2011"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-05T09:56:23</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-05T09:57:14</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<owl:DatatypeProperty rdf:about="&swivt;creationDate" />
 	<owl:ObjectProperty rdf:about="&swivt;page" />
