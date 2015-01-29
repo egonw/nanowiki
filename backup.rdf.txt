@@ -18,7 +18,7 @@
 	xmlns:property="&property;">
 
 	<owl:Ontology rdf:about="">
-		<swivt:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-01-27T18:46:27+01:00</swivt:creationDate>
+		<swivt:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-01-29T14:37:02+01:00</swivt:creationDate>
 		<owl:imports rdf:resource="http://semantic-mediawiki.org/swivt/1.0"/>
 	</owl:Ontology>
 	<swivt:Subject rdf:about="&wiki;Main_Page">
@@ -4007,7 +4007,7 @@
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/MES"/>
 		<rdf:type rdf:resource="&wiki;Category-3ACoating_Parts"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
-		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCCCS(=O)(=O)[O-].[Na+]</property:Has_SMILES>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCCS(=O)(=O)[O-].[Na+]</property:Has_SMILES>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-30T06:49:54</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;MESCoating">
