@@ -18,7 +18,7 @@
 	xmlns:property="&property;">
 
 	<owl:Ontology rdf:about="">
-		<swivt:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-01-29T14:37:02+01:00</swivt:creationDate>
+		<swivt:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-02-01T09:27:53+01:00</swivt:creationDate>
 		<owl:imports rdf:resource="http://semantic-mediawiki.org/swivt/1.0"/>
 	</owl:Ontology>
 	<swivt:Subject rdf:about="&wiki;Main_Page">
@@ -68,7 +68,7 @@
 		<swivt:page rdf:resource="&wikiurl;Category:Papers"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Category:Papers"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</swivt:wikiNamespace>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-02T21:26:30</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-28T16:27:28</swivt:wikiPageModificationDate>
 	</owl:Class>
 	<swivt:Subject rdf:about="&wiki;Cytotoxicity">
 		<rdfs:label>Cytotoxicity</rdfs:label>
@@ -5415,7 +5415,7 @@
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
 		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TiO2</property:Has_Chemical_Composition>
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">152</property:Has_Identifier>
-		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TiO2-HA</property:Has_Label>
+		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TiO2-HSA</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;MetalOxide"/>
 		<property:Has_Source rdf:resource="&wiki;Gerloff2009"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-12T10:09:48</swivt:wikiPageModificationDate>
@@ -10408,7 +10408,7 @@
 		<swivt:page rdf:resource="&wikiurl;Category:Assays"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Category:Assays"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</swivt:wikiNamespace>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-11T21:16:38</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-11T21:39:28</swivt:wikiPageModificationDate>
 	</owl:Class>
 	<swivt:Subject rdf:about="&wiki;Cytotoxicity_Assay">
 		<rdfs:label>Cytotoxicity Assay</rdfs:label>
@@ -13512,7 +13512,7 @@
 		<rdf:type rdf:resource="&wiki;Category-3AStudies"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
 		<property:For_Cell_line rdf:resource="&wiki;Escherichia_coli_cells"/>
-		<property:Has_Assay_Type rdf:resource="&wiki;Cytotoxicity"/>
+		<property:Has_Assay_Type rdf:resource="&wiki;Cytotoxicity_Assay"/>
 		<property:Has_Entities rdf:resource="&wiki;MetalOxides"/>
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Has_Identifier>
 		<property:Has_Source rdf:resource="&wiki;Puzyn2011"/>
@@ -13609,7 +13609,7 @@
 		<rdf:type rdf:resource="&wiki;Category-3AStudies"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
 		<property:For_Cell_line rdf:resource="&wiki;Escherichia_coli_cells"/>
-		<property:Has_Assay_Type rdf:resource="&wiki;Cytotoxicity"/>
+		<property:Has_Assay_Type rdf:resource="&wiki;Cytotoxicity_Assay"/>
 		<property:Has_Entities rdf:resource="&wiki;MetalOxides"/>
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Has_Identifier>
 		<property:Has_Source rdf:resource="&wiki;Puzyn2011"/>
@@ -15452,7 +15452,7 @@
 		<rdf:type rdf:resource="&wiki;Category-3AStudies"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
 		<property:For_Cell_line rdf:resource="&wiki;PaCa2"/>
-		<property:Has_Assay_Type rdf:resource="&wiki;Cellular_uptake"/>
+		<property:Has_Assay_Type rdf:resource="&wiki;Cellular_Uptake_Assay"/>
 		<property:Has_Entities rdf:resource="&wiki;NanoMaterials"/>
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4</property:Has_Identifier>
 		<property:Has_Source rdf:resource="&wiki;Weissleder2005"/>
@@ -15479,7 +15479,7 @@
 		<property:Has_Entities rdf:resource="&wiki;MetalOxides"/>
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5</property:Has_Identifier>
 		<property:Has_Source rdf:resource="&wiki;Berg2009"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-11T21:41:23</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-01-31T15:09:09</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Berg2009_NM5_M1">
 		<rdfs:label>Berg2009 NM5 M1</rdfs:label>
@@ -15595,7 +15595,7 @@
 		<property:Has_Endpoint_Value_Min rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-20</property:Has_Endpoint_Value_Min>
 		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Endpoint_Value_Units>
 		<property:Has_Entity rdf:resource="&wiki;Berg2009_NM4"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-11T12:37:20</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-11T12:38:38</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Berg2009_NM5_M2">
 		<rdfs:label>Berg2009 NM5 M2</rdfs:label>
@@ -15620,7 +15620,7 @@
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-14.6</property:Has_Endpoint_Value>
 		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Endpoint_Value_Units>
 		<property:Has_Entity rdf:resource="&wiki;Shi2012_NM1"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-11T12:49:18</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-11T12:59:04</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Shi2012_NM2_M1">
 		<rdfs:label>Shi2012 NM2 M1</rdfs:label>
@@ -15632,7 +15632,7 @@
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">27.6</property:Has_Endpoint_Value>
 		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Endpoint_Value_Units>
 		<property:Has_Entity rdf:resource="&wiki;Shi2012_NM2"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-11T12:50:22</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-11T12:59:17</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Shi2012_NM3_M1">
 		<rdfs:label>Shi2012 NM3 M1</rdfs:label>
@@ -15644,7 +15644,7 @@
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19.7</property:Has_Endpoint_Value>
 		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Endpoint_Value_Units>
 		<property:Has_Entity rdf:resource="&wiki;Shi2012_NM3"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-11T12:51:23</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-11T12:59:32</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Shi2012_NM4_M1">
 		<rdfs:label>Shi2012 NM4 M1</rdfs:label>
@@ -15656,7 +15656,7 @@
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-34.9</property:Has_Endpoint_Value>
 		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Endpoint_Value_Units>
 		<property:Has_Entity rdf:resource="&wiki;Shi2012_NM4"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-11T12:52:01</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-11T12:59:51</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Shi2012_NM4_M2">
 		<rdfs:label>Shi2012 NM4 M2</rdfs:label>
@@ -15744,7 +15744,7 @@
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20</property:Has_Endpoint_Value>
 		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Endpoint_Value_Units>
 		<property:Has_Entity rdf:resource="&wiki;SimonDeckers2009_NM3"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-11T13:05:22</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-11T13:06:39</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;SimonDeckers2009_NM4_M1">
 		<rdfs:label>SimonDeckers2009 NM4 M1</rdfs:label>
@@ -16979,7 +16979,7 @@
 		<property:For_Measurement rdf:resource="&wiki;Docter2014_M2_withPC_CT3"/>
 		<property:Has_Endpoint rdf:resource="&wiki;Incubation_Time"/>
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</property:Has_Endpoint_Value>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-12T09:48:49</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-12T09:57:13</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Incubation_Time">
 		<rdfs:label>Incubation Time</rdfs:label>
@@ -17016,7 +17016,7 @@
 		<property:Has_Endpoint rdf:resource="&wiki;Percentage_Viable_Cells"/>
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">95</property:Has_Endpoint_Value>
 		<property:Has_Entity rdf:resource="&wiki;Docter2014_M1"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-11T22:22:10</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-12T09:39:37</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Docter2014_M1_CT6">
 		<rdfs:label>Docter2014 M1 CT6</rdfs:label>
@@ -17030,7 +17030,7 @@
 		<property:Has_Endpoint rdf:resource="&wiki;Percentage_Viable_Cells"/>
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">96</property:Has_Endpoint_Value>
 		<property:Has_Entity rdf:resource="&wiki;Docter2014_M1"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-11T22:22:30</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-12T09:39:44</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Docter2014_T24">
 		<rdfs:label>Docter2014 T24</rdfs:label>
@@ -17055,7 +17055,7 @@
 		<property:For_Measurement rdf:resource="&wiki;Docter2014_M2_withPC_CT9"/>
 		<property:Has_Endpoint rdf:resource="&wiki;Incubation_Time"/>
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24</property:Has_Endpoint_Value>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-12T09:49:14</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-12T09:57:36</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Docter2014_M2_CT4">
 		<rdfs:label>Docter2014 M2 CT4</rdfs:label>
@@ -17083,7 +17083,7 @@
 		<property:Has_Endpoint rdf:resource="&wiki;Percentage_Viable_Cells"/>
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30</property:Has_Endpoint_Value>
 		<property:Has_Entity rdf:resource="&wiki;Docter2014_M2"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-12T08:17:31</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-12T09:38:58</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Docter2014_M2_CT6">
 		<rdfs:label>Docter2014 M2 CT6</rdfs:label>
@@ -17097,7 +17097,7 @@
 		<property:Has_Endpoint rdf:resource="&wiki;Percentage_Viable_Cells"/>
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15</property:Has_Endpoint_Value>
 		<property:Has_Entity rdf:resource="&wiki;Docter2014_M2"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-12T08:17:44</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-12T09:39:05</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Docter2014_M6_CT1">
 		<rdfs:label>Docter2014 M6 CT1</rdfs:label>
@@ -17234,7 +17234,7 @@
 		<property:Has_Endpoint rdf:resource="&wiki;Percentage_Viable_Cells"/>
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">90</property:Has_Endpoint_Value>
 		<property:Has_Entity rdf:resource="&wiki;Docter2014_M2"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-12T09:41:28</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-12T09:45:35</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Docter2014_M2_CT8">
 		<rdfs:label>Docter2014 M2 CT8</rdfs:label>
@@ -17248,7 +17248,7 @@
 		<property:Has_Endpoint rdf:resource="&wiki;Percentage_Viable_Cells"/>
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40</property:Has_Endpoint_Value>
 		<property:Has_Entity rdf:resource="&wiki;Docter2014_M2"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-12T09:42:14</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-12T09:45:42</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Docter2014_M2_CT9">
 		<rdfs:label>Docter2014 M2 CT9</rdfs:label>
@@ -17262,7 +17262,7 @@
 		<property:Has_Endpoint rdf:resource="&wiki;Percentage_Viable_Cells"/>
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10</property:Has_Endpoint_Value>
 		<property:Has_Entity rdf:resource="&wiki;Docter2014_M2"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-12T09:42:05</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-12T09:45:48</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Docter2014_M2_CT10">
 		<rdfs:label>Docter2014 M2 CT10</rdfs:label>
@@ -17276,7 +17276,7 @@
 		<property:Has_Endpoint rdf:resource="&wiki;Percentage_Viable_Cells"/>
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">100</property:Has_Endpoint_Value>
 		<property:Has_Entity rdf:resource="&wiki;Docter2014_M2"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-12T09:42:40</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-12T09:45:54</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Docter2014_M2_CT11">
 		<rdfs:label>Docter2014 M2 CT11</rdfs:label>
@@ -17290,7 +17290,7 @@
 		<property:Has_Endpoint rdf:resource="&wiki;Percentage_Viable_Cells"/>
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20</property:Has_Endpoint_Value>
 		<property:Has_Entity rdf:resource="&wiki;Docter2014_M2"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-12T09:42:57</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-12T09:46:00</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Docter2014_M2_CT12">
 		<rdfs:label>Docter2014 M2 CT12</rdfs:label>
@@ -17304,7 +17304,7 @@
 		<property:Has_Endpoint rdf:resource="&wiki;Percentage_Viable_Cells"/>
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5</property:Has_Endpoint_Value>
 		<property:Has_Entity rdf:resource="&wiki;Docter2014_M2"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-12T09:43:07</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-12T09:46:07</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Docter2014_M2_CT13">
 		<rdfs:label>Docter2014 M2 CT13</rdfs:label>
@@ -17318,7 +17318,7 @@
 		<property:Has_Endpoint rdf:resource="&wiki;Percentage_Viable_Cells"/>
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">102</property:Has_Endpoint_Value>
 		<property:Has_Entity rdf:resource="&wiki;Docter2014_M2"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-12T09:43:32</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-12T09:46:14</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Docter2014_M2_CT14">
 		<rdfs:label>Docter2014 M2 CT14</rdfs:label>
@@ -17332,7 +17332,7 @@
 		<property:Has_Endpoint rdf:resource="&wiki;Percentage_Viable_Cells"/>
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15</property:Has_Endpoint_Value>
 		<property:Has_Entity rdf:resource="&wiki;Docter2014_M2"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-12T09:43:47</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-12T09:46:20</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Docter2014_M2_CT15">
 		<rdfs:label>Docter2014 M2 CT15</rdfs:label>
@@ -17346,7 +17346,7 @@
 		<property:Has_Endpoint rdf:resource="&wiki;Percentage_Viable_Cells"/>
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</property:Has_Endpoint_Value>
 		<property:Has_Entity rdf:resource="&wiki;Docter2014_M2"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-12T09:43:57</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-12T09:46:26</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Docter2014_T8">
 		<rdfs:label>Docter2014 T8</rdfs:label>
@@ -17362,7 +17362,7 @@
 		<property:For_Measurement rdf:resource="&wiki;Docter2014_M2_withPC_CT6"/>
 		<property:Has_Endpoint rdf:resource="&wiki;Incubation_Time"/>
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8</property:Has_Endpoint_Value>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-12T09:48:33</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-12T09:57:25</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Docter2014_M2_withPC_CT1">
 		<rdfs:label>Docter2014 M2 withPC CT1</rdfs:label>
@@ -17390,7 +17390,7 @@
 		<property:Has_Endpoint rdf:resource="&wiki;Percentage_Viable_Cells"/>
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">102</property:Has_Endpoint_Value>
 		<property:Has_Entity rdf:resource="&wiki;Docter2014_M2_withPC"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-12T09:52:17</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-12T09:52:36</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Docter2014_M2_withPC_CT3">
 		<rdfs:label>Docter2014 M2 withPC CT3</rdfs:label>
@@ -18169,11 +18169,11 @@
 		<rdf:type rdf:resource="&wiki;Category-3AStudies"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
 		<property:For_Cell_line rdf:resource="&wiki;MRC-2D9_cell"/>
-		<property:Has_Assay_Type rdf:resource="&wiki;Cellular_uptake"/>
+		<property:Has_Assay_Type rdf:resource="&wiki;Cellular_Uptake_Assay"/>
 		<property:Has_Entities rdf:resource="&wiki;MetalOxides"/>
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8</property:Has_Identifier>
 		<property:Has_Source rdf:resource="&wiki;Limbach2005"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-12T14:51:15</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-12T15:17:44</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Limbach2005_NM4">
 		<rdfs:label>Limbach2005 NM4</rdfs:label>
@@ -18202,7 +18202,7 @@
 		<property:Has_Endpoint_Value_Min rdf:datatype="http://www.w3.org/2001/XMLSchema#double">250</property:Has_Endpoint_Value_Min>
 		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Endpoint_Value_Units>
 		<property:Has_Entity rdf:resource="&wiki;Limbach2005_NM4"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-12T15:22:42</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-12T15:25:01</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Limbach2005_NM4_M1_A1">
 		<rdfs:label>Limbach2005 NM4 M1 A1</rdfs:label>
@@ -18214,7 +18214,7 @@
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">45</property:Has_Endpoint_Value>
 		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ug/ml</property:Has_Endpoint_Value_Units>
 		<property:Has_Entity rdf:resource="&wiki;Limbach2005_NM4"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-12T15:24:20</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-12T18:14:21</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Concentration_in_cell">
 		<rdfs:label>Concentration in cell</rdfs:label>
@@ -18246,13 +18246,19 @@
 		<property:Has_Endpoint rdf:resource="&wiki;Concentration_in_culture_medium"/>
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">100</property:Has_Endpoint_Value>
 		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ng/g</property:Has_Endpoint_Value_Units>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-12T18:35:40</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-12T18:39:57</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Limbach2005_C2">
 		<rdfs:label>Limbach2005 C2</rdfs:label>
 		<swivt:page rdf:resource="&wikiurl;Limbach2005_C2"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Limbach2005_C2"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Concentration_in_culture_medium"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ug/g</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Limbach2005_NM4"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-12T18:03:22</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Concentration_in_culture_medium">
 		<rdfs:label>Concentration in culture medium</rdfs:label>
@@ -18276,7 +18282,7 @@
 		<property:Has_Endpoint rdf:resource="&wiki;Time"/>
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</property:Has_Endpoint_Value>
 		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">h</property:Has_Endpoint_Value_Units>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-12T18:35:57</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-12T18:40:08</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Time">
 		<rdfs:label>Time</rdfs:label>
@@ -18291,7 +18297,13 @@
 		<rdfs:label>Limbach2005 NM4 C2</rdfs:label>
 		<swivt:page rdf:resource="&wikiurl;Limbach2005_NM4_C2"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Limbach2005_NM4_C2"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Concentration_in_culture_medium"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ug/g</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Limbach2005_NM4"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-12T18:03:22</swivt:wikiPageModificationDate>
 		<owl:sameAs rdf:resource="&wiki;Limbach2005_C2"/>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Limbach2005_NM4_C1">
@@ -18315,7 +18327,7 @@
 		<property:Has_Endpoint rdf:resource="&wiki;Concentration_in_culture_medium"/>
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">100</property:Has_Endpoint_Value>
 		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ng/g</property:Has_Endpoint_Value_Units>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-12T18:35:40</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-12T18:39:57</swivt:wikiPageModificationDate>
 		<owl:sameAs rdf:resource="&wiki;Limbach2005_C1"/>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Limbach2005_T3">
@@ -18331,7 +18343,7 @@
 		<property:Has_Endpoint rdf:resource="&wiki;Time"/>
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</property:Has_Endpoint_Value>
 		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">h</property:Has_Endpoint_Value_Units>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-12T18:36:07</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-12T18:40:19</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Limbach2005_NM4_M2_A1">
 		<rdfs:label>Limbach2005 NM4 M2 A1</rdfs:label>
@@ -18343,7 +18355,7 @@
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">27</property:Has_Endpoint_Value>
 		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ug/ml</property:Has_Endpoint_Value_Units>
 		<property:Has_Entity rdf:resource="&wiki;Limbach2005_NM4"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-12T18:10:57</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-12T18:14:02</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Limbach2005_T1">
 		<rdfs:label>Limbach2005 T1</rdfs:label>
@@ -18358,7 +18370,7 @@
 		<property:Has_Endpoint rdf:resource="&wiki;Time"/>
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10</property:Has_Endpoint_Value>
 		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">m</property:Has_Endpoint_Value_Units>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-12T18:36:20</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-12T18:40:29</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Limbach2005_NM4_M3_A1">
 		<rdfs:label>Limbach2005 NM4 M3 A1</rdfs:label>
@@ -18370,7 +18382,7 @@
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5</property:Has_Endpoint_Value>
 		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ug/ml</property:Has_Endpoint_Value_Units>
 		<property:Has_Entity rdf:resource="&wiki;Limbach2005_NM4"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-12T18:12:29</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-12T18:13:48</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Limbach2005_NM4_M3_A1">
 		<rdfs:label>Limbach2005 NM4 M3 A1</rdfs:label>
@@ -18382,7 +18394,7 @@
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5</property:Has_Endpoint_Value>
 		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ug/ml</property:Has_Endpoint_Value_Units>
 		<property:Has_Entity rdf:resource="&wiki;Limbach2005_NM4"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-12T18:12:29</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-12T18:13:48</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Limbach2005_NM4_M_A2">
 		<rdfs:label>Limbach2005 NM4 M A2</rdfs:label>
@@ -18394,7 +18406,7 @@
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">27</property:Has_Endpoint_Value>
 		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ug/ml</property:Has_Endpoint_Value_Units>
 		<property:Has_Entity rdf:resource="&wiki;Limbach2005_NM4"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-12T18:10:57</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-12T18:14:02</swivt:wikiPageModificationDate>
 		<owl:sameAs rdf:resource="&wiki;Limbach2005_NM4_M2_A1"/>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Limbach2005_NM4_M_A1">
@@ -18407,7 +18419,7 @@
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">45</property:Has_Endpoint_Value>
 		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ug/ml</property:Has_Endpoint_Value_Units>
 		<property:Has_Entity rdf:resource="&wiki;Limbach2005_NM4"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-12T15:24:20</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-12T18:14:21</swivt:wikiPageModificationDate>
 		<owl:sameAs rdf:resource="&wiki;Limbach2005_NM4_M1_A1"/>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Limbach2005_NM3_M1_A1">
@@ -18444,7 +18456,7 @@
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</property:Has_Endpoint_Value>
 		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ug/ml</property:Has_Endpoint_Value_Units>
 		<property:Has_Entity rdf:resource="&wiki;Limbach2005_NM3"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-12T18:28:42</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-12T18:29:15</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Limbach2005_NM3_M3_A1">
 		<rdfs:label>Limbach2005 NM3 M3 A1</rdfs:label>
@@ -18456,7 +18468,7 @@
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</property:Has_Endpoint_Value>
 		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ug/ml</property:Has_Endpoint_Value_Units>
 		<property:Has_Entity rdf:resource="&wiki;Limbach2005_NM3"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-12T18:28:42</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-12T18:29:15</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Limbach2005_NM2_M1_A1">
 		<rdfs:label>Limbach2005 NM2 M1 A1</rdfs:label>
@@ -18468,7 +18480,7 @@
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18</property:Has_Endpoint_Value>
 		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ug/ml</property:Has_Endpoint_Value_Units>
 		<property:Has_Entity rdf:resource="&wiki;Limbach2005_NM2"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-12T18:33:09</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-12T18:33:46</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Limbach2005_NM2_M2_A1">
 		<rdfs:label>Limbach2005 NM2 M2 A1</rdfs:label>
@@ -18530,6 +18542,806 @@
 		<property:Has_Entity rdf:resource="&wiki;Limbach2005_NM1"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-12T18:39:42</swivt:wikiPageModificationDate>
 	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;BET">
+		<rdfs:label>BET</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;BET"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/BET"/>
+		<rdf:type rdf:resource="&wiki;Category-3ABET"/>
+		<rdf:type rdf:resource="&wiki;Category-3AEndpoints"/>
+		<rdf:type rdf:resource="&wiki;Category-3ASurface_Area"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-01-31T14:03:40</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Gerloff2009_NM1_BET">
+		<rdfs:label>Gerloff2009 NM1 BET</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Gerloff2009_NM1_BET"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Gerloff2009_NM1_BET"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;BET"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">m^2/g</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Gerloff2009_NM1"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-01-31T14:15:53</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Gerloff2009_NM2_BET">
+		<rdfs:label>Gerloff2009 NM2 BET</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Gerloff2009_NM2_BET"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Gerloff2009_NM2_BET"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;BET"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">50</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">m^2/g</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Gerloff2009_NM2"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-01-31T14:18:21</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Gerloff2009_NM3_BET">
+		<rdfs:label>Gerloff2009 NM3 BET</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Gerloff2009_NM3_BET"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Gerloff2009_NM3_BET"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;BET"/>
+		<property:Has_Endpoint_Value_Min rdf:datatype="http://www.w3.org/2001/XMLSchema#double">300</property:Has_Endpoint_Value_Min>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">m^2/g</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Gerloff2009_NM3"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-01-31T14:19:25</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Gerloff2009_NM4_BET">
+		<rdfs:label>Gerloff2009 NM4 BET</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Gerloff2009_NM4_BET"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Gerloff2009_NM4_BET"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;BET"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">200</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">m^2/g</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Gerloff2009_NM4"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-01-31T14:28:25</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Gerloff2009_NM5_BET">
+		<rdfs:label>Gerloff2009 NM5 BET</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Gerloff2009_NM5_BET"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Gerloff2009_NM5_BET"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;BET"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">300</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">m^2/g</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Gerloff2009_NM5"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-01-31T14:28:49</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Gerloff2009_NM6_BET">
+		<rdfs:label>Gerloff2009 NM6 BET</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Gerloff2009_NM6_BET"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Gerloff2009_NM6_BET"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;BET"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">600</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">m^2/g</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Gerloff2009_NM6"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-01-31T14:29:04</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Gerloff2009_NM7_BET">
+		<rdfs:label>Gerloff2009 NM7 BET</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Gerloff2009_NM7_BET"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Gerloff2009_NM7_BET"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;BET"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">70</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">m^2/g</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Gerloff2009_NM7"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-01-31T14:29:25</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Gerloff2009_NM8_BET">
+		<rdfs:label>Gerloff2009 NM8 BET</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Gerloff2009_NM8_BET"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Gerloff2009_NM8_BET"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;BET"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">50</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">m^2/g</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Gerloff2009_NM8"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-01-31T14:29:35</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Gerloff2009_NM9_BET">
+		<rdfs:label>Gerloff2009 NM9 BET</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Gerloff2009_NM9_BET"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Gerloff2009_NM9_BET"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;BET"/>
+		<property:Has_Endpoint_Value_Max rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10</property:Has_Endpoint_Value_Max>
+		<property:Has_Endpoint_Value_Min rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Has_Endpoint_Value_Min>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">m^2/g</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Gerloff2009_NM9"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-01-31T14:29:57</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Gerloff2009_A1">
+		<rdfs:label>Gerloff2009 A1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Gerloff2009_A1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Gerloff2009_A1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AAssays"/>
+		<rdf:type rdf:resource="&wiki;Category-3AStudies"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:For_Cell_line rdf:resource="&wiki;Caco-2D2_cell"/>
+		<property:Has_Assay_Method rdf:resource="&wiki;Lactate_Dehydrogenase_Activity"/>
+		<property:Has_Assay_Type rdf:resource="&wiki;Cell_Membrane_Integrity_Assay"/>
+		<property:Has_Endpoint rdf:resource="&wiki;LDH_Release"/>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">9</property:Has_Identifier>
+		<property:Has_Source rdf:resource="&wiki;Gerloff2009"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-01-31T21:29:15</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Gerloff2009_A2">
+		<rdfs:label>Gerloff2009 A2</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Gerloff2009_A2"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Gerloff2009_A2"/>
+		<rdf:type rdf:resource="&wiki;Category-3AAssays"/>
+		<rdf:type rdf:resource="&wiki;Category-3AStudies"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:For_Cell_line rdf:resource="&wiki;Caco-2D2_cell"/>
+		<property:Has_Assay_Method rdf:resource="&wiki;Tetrazolium_Salt_Cleavage"/>
+		<property:Has_Assay_Type rdf:resource="&wiki;Metabolic_Activity_Assay"/>
+		<property:Has_Endpoint rdf:resource="&wiki;Metabolic_Activity"/>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10</property:Has_Identifier>
+		<property:Has_Source rdf:resource="&wiki;Gerloff2009"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-01-31T21:29:48</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Cell_Membrane_Integrity">
+		<rdfs:label>Cell Membrane Integrity</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Cell_Membrane_Integrity"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Cell_Membrane_Integrity"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACell_Membrane_Integrity"/>
+		<rdf:type rdf:resource="&wiki;Category-3AEndpoints"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cel Membrane Integrity</property:Description>
+		<property:Has_Assay_Type rdf:resource="&wiki;Cell_Membrane_Integrity_Assay"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-01-31T21:36:38</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Metabolic_Activity">
+		<rdfs:label>Metabolic Activity</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Metabolic_Activity"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Metabolic_Activity"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMetabolic_Activity"/>
+		<rdf:type rdf:resource="&wiki;Category-3AEndpoints"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Metabolic Activity</property:Description>
+		<property:Has_Assay_Type rdf:resource="&wiki;Metabolic_Activity_Assay"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-01-31T15:10:41</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Tetrazolium_Salt_Cleavage">
+		<rdfs:label>Tetrazolium Salt Cleavage</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Tetrazolium_Salt_Cleavage"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Tetrazolium_Salt_Cleavage"/>
+		<rdf:type rdf:resource="&wiki;Category-3AAssayMethods"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-02-01T07:50:53</swivt:wikiPageModificationDate>
+		<property:Subclass_Of rdf:resource="http://www.bioassayontology.org/bao#BAO_0000166"/>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Lactate_Dehydrogenase_Activity">
+		<rdfs:label>Lactate Dehydrogenase Activity</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Lactate_Dehydrogenase_Activity"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Lactate_Dehydrogenase_Activity"/>
+		<rdf:type rdf:resource="&wiki;Category-3AAssayMethods"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-01-31T15:11:10</swivt:wikiPageModificationDate>
+		<property:Subclass_Of rdf:resource="http://www.bioassayontology.org/bao#BAO_0000167"/>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Gerloff2009_A3">
+		<rdfs:label>Gerloff2009 A3</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Gerloff2009_A3"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Gerloff2009_A3"/>
+		<rdf:type rdf:resource="&wiki;Category-3AAssays"/>
+		<rdf:type rdf:resource="&wiki;Category-3AStudies"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:For_Cell_line rdf:resource="&wiki;Caco-2D2_cell"/>
+		<property:Has_Assay_Method rdf:resource="&wiki;Fpg-2Dmodified_Comet_Assay"/>
+		<property:Has_Assay_Type rdf:resource="&wiki;DNA_Damage_Assay"/>
+		<property:Has_Endpoint rdf:resource="&wiki;DNA_in_Tail"/>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">11</property:Has_Identifier>
+		<property:Has_Source rdf:resource="&wiki;Gerloff2009"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-02-01T06:36:49</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Fpg-2Dmodified_Comet_Assay">
+		<rdfs:label>Fpg-modified Comet Assay</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Fpg-modified_Comet_Assay"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Fpg-modified_Comet_Assay"/>
+		<rdf:type rdf:resource="&wiki;Category-3AAssayMethods"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-01-31T16:44:37</swivt:wikiPageModificationDate>
+		<property:Subclass_Of rdf:resource="http://www.bioassayontology.org/bao#BAO_0000127"/>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;LDH_Release">
+		<rdfs:label>LDH Release</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;LDH_Release"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/LDH_Release"/>
+		<rdf:type rdf:resource="&wiki;Category-3ALDH_Release"/>
+		<rdf:type rdf:resource="&wiki;Category-3AEndpoints"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LDH Release</property:Description>
+		<property:Has_Assay_Type rdf:resource="&wiki;Cell_Membrane_Integrity_Assay"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-01-31T21:12:28</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Gerloff2009_A1_M1">
+		<rdfs:label>Gerloff2009 A1 M1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Gerloff2009_A1_M1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Gerloff2009_A1_M1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Assay rdf:resource="&wiki;Gerloff2009_A1"/>
+		<property:Has_Dose rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20</property:Has_Dose>
+		<property:Has_Dose_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ug/cm^2</property:Has_Dose_Units>
+		<property:Has_Endpoint rdf:resource="&wiki;LDH_Release"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">%</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Gerloff2009_NM7"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-01-31T21:17:02</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Gerloff2009_A1_M2">
+		<rdfs:label>Gerloff2009 A1 M2</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Gerloff2009_A1_M2"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Gerloff2009_A1_M2"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Assay rdf:resource="&wiki;Gerloff2009_A1"/>
+		<property:Has_Dose rdf:datatype="http://www.w3.org/2001/XMLSchema#double">80</property:Has_Dose>
+		<property:Has_Dose_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ug/cm^2</property:Has_Dose_Units>
+		<property:Has_Endpoint rdf:resource="&wiki;LDH_Release"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">%</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Gerloff2009_NM7"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-01-31T21:16:56</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Gerloff2009_A1_M3">
+		<rdfs:label>Gerloff2009 A1 M3</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Gerloff2009_A1_M3"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Gerloff2009_A1_M3"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Assay rdf:resource="&wiki;Gerloff2009_A1"/>
+		<property:Has_Dose rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20</property:Has_Dose>
+		<property:Has_Dose_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ug/cm^2</property:Has_Dose_Units>
+		<property:Has_Endpoint rdf:resource="&wiki;LDH_Release"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">%</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Gerloff2009_NM2"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-01-31T21:16:46</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Gerloff2009_A1_M4">
+		<rdfs:label>Gerloff2009 A1 M4</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Gerloff2009_A1_M4"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Gerloff2009_A1_M4"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Assay rdf:resource="&wiki;Gerloff2009_A1"/>
+		<property:Has_Dose rdf:datatype="http://www.w3.org/2001/XMLSchema#double">80</property:Has_Dose>
+		<property:Has_Dose_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ug/cm^2</property:Has_Dose_Units>
+		<property:Has_Endpoint rdf:resource="&wiki;LDH_Release"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">42</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">%</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Gerloff2009_NM2"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-01-31T21:17:49</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Gerloff2009_A1_M5">
+		<rdfs:label>Gerloff2009 A1 M5</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Gerloff2009_A1_M5"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Gerloff2009_A1_M5"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Assay rdf:resource="&wiki;Gerloff2009_A1"/>
+		<property:Has_Dose rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20</property:Has_Dose>
+		<property:Has_Dose_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ug/cm^2</property:Has_Dose_Units>
+		<property:Has_Endpoint rdf:resource="&wiki;LDH_Release"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">%</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Gerloff2009_NM6"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-01-31T21:18:27</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Gerloff2009_A1_M6">
+		<rdfs:label>Gerloff2009 A1 M6</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Gerloff2009_A1_M6"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Gerloff2009_A1_M6"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Assay rdf:resource="&wiki;Gerloff2009_A1"/>
+		<property:Has_Dose rdf:datatype="http://www.w3.org/2001/XMLSchema#double">80</property:Has_Dose>
+		<property:Has_Dose_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ug/cm^2</property:Has_Dose_Units>
+		<property:Has_Endpoint rdf:resource="&wiki;LDH_Release"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">%</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Gerloff2009_NM6"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-01-31T21:18:38</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Gerloff2009_A1_M7">
+		<rdfs:label>Gerloff2009 A1 M7</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Gerloff2009_A1_M7"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Gerloff2009_A1_M7"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Assay rdf:resource="&wiki;Gerloff2009_A1"/>
+		<property:Has_Dose rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20</property:Has_Dose>
+		<property:Has_Dose_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ug/cm^2</property:Has_Dose_Units>
+		<property:Has_Endpoint rdf:resource="&wiki;LDH_Release"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">35</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">%</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Gerloff2009_NM4"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-01-31T21:20:39</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Gerloff2009_A1_M8">
+		<rdfs:label>Gerloff2009 A1 M8</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Gerloff2009_A1_M8"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Gerloff2009_A1_M8"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Assay rdf:resource="&wiki;Gerloff2009_A1"/>
+		<property:Has_Dose rdf:datatype="http://www.w3.org/2001/XMLSchema#double">80</property:Has_Dose>
+		<property:Has_Dose_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ug/cm^2</property:Has_Dose_Units>
+		<property:Has_Endpoint rdf:resource="&wiki;LDH_Release"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">70</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">%</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Gerloff2009_NM4"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-01-31T21:20:51</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Gerloff2009_A1_M9">
+		<rdfs:label>Gerloff2009 A1 M9</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Gerloff2009_A1_M9"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Gerloff2009_A1_M9"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Assay rdf:resource="&wiki;Gerloff2009_A1"/>
+		<property:Has_Dose rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20</property:Has_Dose>
+		<property:Has_Dose_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ug/cm^2</property:Has_Dose_Units>
+		<property:Has_Endpoint rdf:resource="&wiki;LDH_Release"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">%</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Gerloff2009_NM5"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-01-31T21:21:51</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Gerloff2009_A1_M10">
+		<rdfs:label>Gerloff2009 A1 M10</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Gerloff2009_A1_M10"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Gerloff2009_A1_M10"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Assay rdf:resource="&wiki;Gerloff2009_A1"/>
+		<property:Has_Dose rdf:datatype="http://www.w3.org/2001/XMLSchema#double">80</property:Has_Dose>
+		<property:Has_Dose_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ug/cm^2</property:Has_Dose_Units>
+		<property:Has_Endpoint rdf:resource="&wiki;LDH_Release"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">%</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Gerloff2009_NM5"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-01-31T21:22:03</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Gerloff2009_A2_M1">
+		<rdfs:label>Gerloff2009 A2 M1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Gerloff2009_A2_M1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Gerloff2009_A2_M1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Assay rdf:resource="&wiki;Gerloff2009_A2"/>
+		<property:Has_Dose rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20</property:Has_Dose>
+		<property:Has_Dose_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ug/cm^2</property:Has_Dose_Units>
+		<property:Has_Endpoint rdf:resource="&wiki;Metabolic_Activity"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">90</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">%</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Gerloff2009_NM7"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-01-31T21:25:35</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Gerloff2009_A2_M2">
+		<rdfs:label>Gerloff2009 A2 M2</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Gerloff2009_A2_M2"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Gerloff2009_A2_M2"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Assay rdf:resource="&wiki;Gerloff2009_A2"/>
+		<property:Has_Dose rdf:datatype="http://www.w3.org/2001/XMLSchema#double">80</property:Has_Dose>
+		<property:Has_Dose_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ug/cm^2</property:Has_Dose_Units>
+		<property:Has_Endpoint rdf:resource="&wiki;Metabolic_Activity"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">55</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">%</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Gerloff2009_NM7"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-01-31T21:25:51</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Gerloff2009_A2_M3">
+		<rdfs:label>Gerloff2009 A2 M3</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Gerloff2009_A2_M3"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Gerloff2009_A2_M3"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Assay rdf:resource="&wiki;Gerloff2009_A2"/>
+		<property:Has_Dose rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20</property:Has_Dose>
+		<property:Has_Dose_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ug/cm^2</property:Has_Dose_Units>
+		<property:Has_Endpoint rdf:resource="&wiki;Metabolic_Activity"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">90</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">%</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Gerloff2009_NM2"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-01-31T21:26:23</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Gerloff2009_A2_M4">
+		<rdfs:label>Gerloff2009 A2 M4</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Gerloff2009_A2_M4"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Gerloff2009_A2_M4"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Assay rdf:resource="&wiki;Gerloff2009_A2"/>
+		<property:Has_Dose rdf:datatype="http://www.w3.org/2001/XMLSchema#double">80</property:Has_Dose>
+		<property:Has_Dose_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ug/cm^2</property:Has_Dose_Units>
+		<property:Has_Endpoint rdf:resource="&wiki;Metabolic_Activity"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">60</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">%</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Gerloff2009_NM2"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-01-31T21:26:42</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Gerloff2009_A2_M5">
+		<rdfs:label>Gerloff2009 A2 M5</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Gerloff2009_A2_M5"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Gerloff2009_A2_M5"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Assay rdf:resource="&wiki;Gerloff2009_A2"/>
+		<property:Has_Dose rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20</property:Has_Dose>
+		<property:Has_Dose_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ug/cm^2</property:Has_Dose_Units>
+		<property:Has_Endpoint rdf:resource="&wiki;Metabolic_Activity"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">120</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">%</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Gerloff2009_NM6"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-01-31T21:27:14</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Gerloff2009_A2_M6">
+		<rdfs:label>Gerloff2009 A2 M6</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Gerloff2009_A2_M6"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Gerloff2009_A2_M6"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Assay rdf:resource="&wiki;Gerloff2009_A2"/>
+		<property:Has_Dose rdf:datatype="http://www.w3.org/2001/XMLSchema#double">80</property:Has_Dose>
+		<property:Has_Dose_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ug/cm^2</property:Has_Dose_Units>
+		<property:Has_Endpoint rdf:resource="&wiki;Metabolic_Activity"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">135</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">%</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Gerloff2009_NM6"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-01-31T21:27:26</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Gerloff2009_A2_M7">
+		<rdfs:label>Gerloff2009 A2 M7</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Gerloff2009_A2_M7"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Gerloff2009_A2_M7"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Assay rdf:resource="&wiki;Gerloff2009_A2"/>
+		<property:Has_Dose rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20</property:Has_Dose>
+		<property:Has_Dose_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ug/cm^2</property:Has_Dose_Units>
+		<property:Has_Endpoint rdf:resource="&wiki;Metabolic_Activity"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">%</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Gerloff2009_NM4"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-01-31T21:27:50</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Gerloff2009_A2_M8">
+		<rdfs:label>Gerloff2009 A2 M8</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Gerloff2009_A2_M8"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Gerloff2009_A2_M8"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Assay rdf:resource="&wiki;Gerloff2009_A2"/>
+		<property:Has_Dose rdf:datatype="http://www.w3.org/2001/XMLSchema#double">80</property:Has_Dose>
+		<property:Has_Dose_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ug/cm^2</property:Has_Dose_Units>
+		<property:Has_Endpoint rdf:resource="&wiki;Metabolic_Activity"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">%</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Gerloff2009_NM4"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-01-31T21:28:01</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Gerloff2009_A2_M9">
+		<rdfs:label>Gerloff2009 A2 M9</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Gerloff2009_A2_M9"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Gerloff2009_A2_M9"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Assay rdf:resource="&wiki;Gerloff2009_A2"/>
+		<property:Has_Dose rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20</property:Has_Dose>
+		<property:Has_Dose_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ug/cm^2</property:Has_Dose_Units>
+		<property:Has_Endpoint rdf:resource="&wiki;Metabolic_Activity"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">80</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">%</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Gerloff2009_NM5"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-01-31T21:28:26</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Gerloff2009_A2_M10">
+		<rdfs:label>Gerloff2009 A2 M10</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Gerloff2009_A2_M10"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Gerloff2009_A2_M10"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Assay rdf:resource="&wiki;Gerloff2009_A2"/>
+		<property:Has_Dose rdf:datatype="http://www.w3.org/2001/XMLSchema#double">80</property:Has_Dose>
+		<property:Has_Dose_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ug/cm^2</property:Has_Dose_Units>
+		<property:Has_Endpoint rdf:resource="&wiki;Metabolic_Activity"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">%</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Gerloff2009_NM5"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-01-31T21:28:39</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Cellular_Uptake_Assay">
+		<rdfs:label>Cellular Uptake Assay</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Cellular_Uptake_Assay"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Cellular_Uptake_Assay"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Cell_Membrane_Integrity_Assay">
+		<rdfs:label>Cell Membrane Integrity Assay</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Cell_Membrane_Integrity_Assay"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Cell_Membrane_Integrity_Assay"/>
+		<rdf:type rdf:resource="&wiki;Category-3AAssayTypes"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-01-31T21:32:57</swivt:wikiPageModificationDate>
+		<property:Subclass_Of rdf:resource="http://www.bioassayontology.org/bao#BAO_0003009"/>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Cellular_Uptake_Assay">
+		<rdfs:label>Cellular Uptake Assay</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Cellular_Uptake_Assay"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Cellular_Uptake_Assay"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;DNA_Damage_Assay">
+		<rdfs:label>DNA Damage Assay</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;DNA_Damage_Assay"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/DNA_Damage_Assay"/>
+		<rdf:type rdf:resource="&wiki;Category-3AAssayTypes"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-01-31T21:34:23</swivt:wikiPageModificationDate>
+		<property:Subclass_Of rdf:resource="http://www.bioassayontology.org/bao#BAO_0002167"/>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Metabolic_Activity_Assay">
+		<rdfs:label>Metabolic Activity Assay</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Metabolic_Activity_Assay"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Metabolic_Activity_Assay"/>
+		<rdf:type rdf:resource="&wiki;Category-3AAssayTypes"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-01-31T21:34:35</swivt:wikiPageModificationDate>
+		<property:Subclass_Of rdf:resource="http://www.bioassayontology.org/bao#BAO_0003009"/>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Gerloff2009_A3_M1">
+		<rdfs:label>Gerloff2009 A3 M1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Gerloff2009_A3_M1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Gerloff2009_A3_M1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Assay rdf:resource="&wiki;Gerloff2009_A3"/>
+		<property:Has_Dose rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20</property:Has_Dose>
+		<property:Has_Dose_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ug/cm^2</property:Has_Dose_Units>
+		<property:Has_Endpoint rdf:resource="&wiki;DNA_in_Tail"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">%</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Gerloff2009_NM7"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-02-01T06:38:22</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Gerloff2009_A3_C1">
+		<rdfs:label>Gerloff2009 A3 C1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Gerloff2009_A3_C1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Gerloff2009_A3_C1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:For_Measurement rdf:resource="&wiki;Gerloff2009_A3_M1"/>
+		<property:For_Measurement rdf:resource="&wiki;Gerloff2009_A3_M3"/>
+		<property:For_Measurement rdf:resource="&wiki;Gerloff2009_A3_M5"/>
+		<property:For_Measurement rdf:resource="&wiki;Gerloff2009_A3_M7"/>
+		<property:For_Measurement rdf:resource="&wiki;Gerloff2009_A3_M9"/>
+		<property:For_Measurement rdf:resource="&wiki;Gerloff2009_A3_M11"/>
+		<property:Has_Endpoint rdf:resource="&wiki;FPG_Content"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</property:Has_Endpoint_Value>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-02-01T06:43:09</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;FPG_Content">
+		<rdfs:label>FPG Content</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;FPG_Content"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/FPG_Content"/>
+		<rdf:type rdf:resource="&wiki;Category-3AFPG_Content"/>
+		<rdf:type rdf:resource="&wiki;Category-3AEndpoints"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-02-01T06:43:23</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Gerloff2009_A3_C2">
+		<rdfs:label>Gerloff2009 A3 C2</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Gerloff2009_A3_C2"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Gerloff2009_A3_C2"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:For_Measurement rdf:resource="&wiki;Gerloff2009_A3_M2"/>
+		<property:For_Measurement rdf:resource="&wiki;Gerloff2009_A3_M4"/>
+		<property:For_Measurement rdf:resource="&wiki;Gerloff2009_A3_M6"/>
+		<property:For_Measurement rdf:resource="&wiki;Gerloff2009_A3_M8"/>
+		<property:For_Measurement rdf:resource="&wiki;Gerloff2009_A3_M10"/>
+		<property:For_Measurement rdf:resource="&wiki;Gerloff2009_A3_M12"/>
+		<property:Has_Endpoint rdf:resource="&wiki;FPG_Content"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">100</property:Has_Endpoint_Value>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-02-01T06:44:24</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Gerloff2009_A3_M2">
+		<rdfs:label>Gerloff2009 A3 M2</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Gerloff2009_A3_M2"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Gerloff2009_A3_M2"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Assay rdf:resource="&wiki;Gerloff2009_A3"/>
+		<property:Has_Dose rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20</property:Has_Dose>
+		<property:Has_Dose_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ug/cm^2</property:Has_Dose_Units>
+		<property:Has_Endpoint rdf:resource="&wiki;DNA_in_Tail"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">%</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Gerloff2009_NM7"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-02-01T06:45:38</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;DNA_in_Tail">
+		<rdfs:label>DNA in Tail</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;DNA_in_Tail"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/DNA_in_Tail"/>
+		<rdf:type rdf:resource="&wiki;Category-3ADNA_in_Tail"/>
+		<rdf:type rdf:resource="&wiki;Category-3AEndpoints"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-02-01T06:46:32</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Gerloff2009_A3_M3">
+		<rdfs:label>Gerloff2009 A3 M3</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Gerloff2009_A3_M3"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Gerloff2009_A3_M3"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Assay rdf:resource="&wiki;Gerloff2009_A3"/>
+		<property:Has_Dose rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20</property:Has_Dose>
+		<property:Has_Dose_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ug/cm^2</property:Has_Dose_Units>
+		<property:Has_Endpoint rdf:resource="&wiki;DNA_in_Tail"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">%</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Gerloff2009_NM2"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-02-01T07:01:43</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Gerloff2009_A3_M4">
+		<rdfs:label>Gerloff2009 A3 M4</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Gerloff2009_A3_M4"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Gerloff2009_A3_M4"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Assay rdf:resource="&wiki;Gerloff2009_A3"/>
+		<property:Has_Dose rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20</property:Has_Dose>
+		<property:Has_Dose_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ug/cm^2</property:Has_Dose_Units>
+		<property:Has_Endpoint rdf:resource="&wiki;DNA_in_Tail"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">%</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Gerloff2009_NM2"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-02-01T07:01:55</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Gerloff2009_A3_M5">
+		<rdfs:label>Gerloff2009 A3 M5</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Gerloff2009_A3_M5"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Gerloff2009_A3_M5"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Assay rdf:resource="&wiki;Gerloff2009_A3"/>
+		<property:Has_Dose rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20</property:Has_Dose>
+		<property:Has_Dose_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ug/cm^2</property:Has_Dose_Units>
+		<property:Has_Endpoint rdf:resource="&wiki;DNA_in_Tail"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">%</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Gerloff2009_NM2"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-02-01T07:02:58</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Gerloff2009_A3_M6">
+		<rdfs:label>Gerloff2009 A3 M6</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Gerloff2009_A3_M6"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Gerloff2009_A3_M6"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Assay rdf:resource="&wiki;Gerloff2009_A3"/>
+		<property:Has_Dose rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20</property:Has_Dose>
+		<property:Has_Dose_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ug/cm^2</property:Has_Dose_Units>
+		<property:Has_Endpoint rdf:resource="&wiki;DNA_in_Tail"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">%</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Gerloff2009_NM2"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-02-01T07:03:10</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Gerloff2009_A3_M7">
+		<rdfs:label>Gerloff2009 A3 M7</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Gerloff2009_A3_M7"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Gerloff2009_A3_M7"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Assay rdf:resource="&wiki;Gerloff2009_A3"/>
+		<property:Has_Dose rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20</property:Has_Dose>
+		<property:Has_Dose_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ug/cm^2</property:Has_Dose_Units>
+		<property:Has_Endpoint rdf:resource="&wiki;DNA_in_Tail"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">%</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Gerloff2009_NM6"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-02-01T07:03:57</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Gerloff2009_A3_M8">
+		<rdfs:label>Gerloff2009 A3 M8</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Gerloff2009_A3_M8"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Gerloff2009_A3_M8"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Assay rdf:resource="&wiki;Gerloff2009_A3"/>
+		<property:Has_Dose rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20</property:Has_Dose>
+		<property:Has_Dose_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ug/cm^2</property:Has_Dose_Units>
+		<property:Has_Endpoint rdf:resource="&wiki;DNA_in_Tail"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">%</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Gerloff2009_NM6"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-02-01T07:04:09</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Gerloff2009_A3_M9">
+		<rdfs:label>Gerloff2009 A3 M9</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Gerloff2009_A3_M9"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Gerloff2009_A3_M9"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Assay rdf:resource="&wiki;Gerloff2009_A3"/>
+		<property:Has_Dose rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20</property:Has_Dose>
+		<property:Has_Dose_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ug/cm^2</property:Has_Dose_Units>
+		<property:Has_Endpoint rdf:resource="&wiki;DNA_in_Tail"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">%</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Gerloff2009_NM4"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-02-01T07:05:05</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Gerloff2009_A3_M10">
+		<rdfs:label>Gerloff2009 A3 M10</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Gerloff2009_A3_M10"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Gerloff2009_A3_M10"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Assay rdf:resource="&wiki;Gerloff2009_A3"/>
+		<property:Has_Dose rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20</property:Has_Dose>
+		<property:Has_Dose_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ug/cm^2</property:Has_Dose_Units>
+		<property:Has_Endpoint rdf:resource="&wiki;DNA_in_Tail"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">%</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Gerloff2009_NM4"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-02-01T07:05:16</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Gerloff2009_A3_M11">
+		<rdfs:label>Gerloff2009 A3 M11</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Gerloff2009_A3_M11"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Gerloff2009_A3_M11"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Assay rdf:resource="&wiki;Gerloff2009_A3"/>
+		<property:Has_Dose rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20</property:Has_Dose>
+		<property:Has_Dose_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ug/cm^2</property:Has_Dose_Units>
+		<property:Has_Endpoint rdf:resource="&wiki;DNA_in_Tail"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">%</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Gerloff2009_NM5"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-02-01T07:05:54</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Gerloff2009_A3_M12">
+		<rdfs:label>Gerloff2009 A3 M12</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Gerloff2009_A3_M12"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Gerloff2009_A3_M12"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Assay rdf:resource="&wiki;Gerloff2009_A3"/>
+		<property:Has_Dose rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20</property:Has_Dose>
+		<property:Has_Dose_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ug/cm^2</property:Has_Dose_Units>
+		<property:Has_Endpoint rdf:resource="&wiki;DNA_in_Tail"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">%</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Gerloff2009_NM5"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-02-01T07:06:10</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<owl:DatatypeProperty rdf:about="&property;Assays_extracted">
+		<rdfs:label>Assays extracted</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Property:Assays_extracted"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Property:Assays_extracted"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">102</swivt:wikiNamespace>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-02-01T07:41:06</swivt:wikiPageModificationDate>
+	</owl:DatatypeProperty>
 	<owl:DatatypeProperty rdf:about="&swivt;creationDate" />
 	<owl:ObjectProperty rdf:about="&swivt;page" />
 	<owl:DatatypeProperty rdf:about="&swivt;wikiNamespace" />
@@ -18558,5 +19370,12 @@
 	<owl:Class rdf:about="&wiki;Category-3AConcentration_in_cell" />
 	<owl:Class rdf:about="&wiki;Category-3AConcentration_in_culture_medium" />
 	<owl:Class rdf:about="&wiki;Category-3ATime" />
+	<owl:Class rdf:about="&wiki;Category-3ABET" />
+	<owl:Class rdf:about="&wiki;Category-3ASurface_Area" />
+	<owl:Class rdf:about="&wiki;Category-3ACell_Membrane_Integrity" />
+	<owl:Class rdf:about="&wiki;Category-3AMetabolic_Activity" />
+	<owl:Class rdf:about="&wiki;Category-3ALDH_Release" />
+	<owl:Class rdf:about="&wiki;Category-3AFPG_Content" />
+	<owl:Class rdf:about="&wiki;Category-3ADNA_in_Tail" />
 	<!-- Created by Semantic MediaWiki, http://semantic-mediawiki.org/ -->
 </rdf:RDF>
