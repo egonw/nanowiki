@@ -18,7 +18,7 @@
 	xmlns:property="&property;">
 
 	<owl:Ontology rdf:about="">
-		<swivt:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-09-20T21:23:28+02:00</swivt:creationDate>
+		<swivt:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-11-20T19:19:56+01:00</swivt:creationDate>
 		<owl:imports rdf:resource="http://semantic-mediawiki.org/swivt/1.0"/>
 	</owl:Ontology>
 	<swivt:Subject rdf:about="&wiki;Main_Page">
@@ -588,7 +588,7 @@
 		<swivt:page rdf:resource="&wikiurl;Category:Studies"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Category:Studies"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</swivt:wikiNamespace>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-09-29T04:36:36</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-11-16T19:00:47</swivt:wikiPageModificationDate>
 	</owl:Class>
 	<swivt:Subject rdf:about="&wiki;InVitro2010Fourches2">
 		<rdfs:label>InVitro2010Fourches2</rdfs:label>
@@ -5270,7 +5270,7 @@
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
 		<property:Has_Endpoint rdf:resource="&wiki;Percentage_Non-2DViable_Cells"/>
 		<property:Has_Entities rdf:resource="&wiki;MetalOxides"/>
-		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">23</property:Has_Identifier>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">25</property:Has_Identifier>
 		<property:Has_Object_Count rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5</property:Has_Object_Count>
 		<property:Has_Source rdf:resource="&wiki;Berg2009"/>
 		<property:Has_Study_Type rdf:resource="&wiki;Descriptive"/>
@@ -15467,7 +15467,7 @@
 		<swivt:page rdf:resource="&wikiurl;TODO"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/TODO"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-11T20:38:38</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-11T21:06:13</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Berg2009_A1">
 		<rdfs:label>Berg2009 A1</rdfs:label>
@@ -20899,7 +20899,7 @@
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COD1517078</property:Has_Label>
 		<property:Has_Source rdf:resource="&wiki;Jones2014"/>
 		<property:Has_homepage rdf:resource="http://www.crystallography.net/cod/1517078.html"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-09-20T18:15:00</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-09-20T18:15:13</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;COD_1517077">
 		<rdfs:label>COD 1517077</rdfs:label>
@@ -20931,7 +20931,7 @@
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COD1518678</property:Has_Label>
 		<property:Has_Source rdf:resource="&wiki;Jones2014"/>
 		<property:Has_homepage rdf:resource="http://www.crystallography.net/cod/1518678.html"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-09-20T18:15:00</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-09-20T18:23:59</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;COD_1518677_M1">
 		<rdfs:label>COD 1518677 M1</rdfs:label>
@@ -21094,6 +21094,478 @@
 		<property:Has_Entity rdf:resource="&wiki;Yashima2006_M1"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-09-20T19:11:01</swivt:wikiPageModificationDate>
 	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;ArrayExpress">
+		<rdfs:label>ArrayExpress</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;ArrayExpress"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/ArrayExpress"/>
+		<rdf:type rdf:resource="&wiki;Category-3ABundles"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Purpose rdf:datatype="http://www.w3.org/2001/XMLSchema#string">List of materials used in microarray studies.</property:Has_Purpose>
+		<property:Has_Status rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Draft</property:Has_Status>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-11-16T17:48:06</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Kim2012b">
+		<rdfs:label>Kim2012b</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Kim2012b"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Kim2012b"/>
+		<rdf:type rdf:resource="&wiki;Category-3APapers"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<owl:sameAs rdf:resource="http://dx.doi.org/10.1038/gt.2011.95"/>
+		<property:Has_DOI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1038/gt.2011.95</property:Has_DOI>
+		<property:Has_Journal rdf:resource="&wiki;Gene_Therapy"/>
+		<property:Has_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2012</property:Has_Year>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-11-16T17:54:34</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Gene_Therapy">
+		<rdfs:label>Gene Therapy</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Gene_Therapy"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Gene_Therapy"/>
+		<rdf:type rdf:resource="&wiki;Category-3AJournals"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-11-16T17:55:05</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;E-2DGEOD-2D20677-2DM1">
+		<rdfs:label>E-GEOD-20677-M1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;E-GEOD-20677-M1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/E-GEOD-20677-M1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
+		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Bundle rdf:resource="&wiki;ArrayExpress"/>
+		<property:Has_Chemical_Coating rdf:resource="&wiki;OligonucleotideCoating"/>
+		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Au</property:Has_Chemical_Composition>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">406</property:Has_Identifier>
+		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AU-NP oligonucleotide</property:Has_Label>
+		<property:Has_Source rdf:resource="&wiki;Kim2012b"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-11-16T18:41:27</swivt:wikiPageModificationDate>
+		<property:Used_in_Study rdf:resource="&wiki;E-2DGEOD-2D20677"/>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;OligonucleotideCoating">
+		<rdfs:label>OligonucleotideCoating</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;OligonucleotideCoating"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/OligonucleotideCoating"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoatings"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-11-16T17:58:48</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;E-2DGEOD-2D20677-2DM1-2DM1">
+		<rdfs:label>E-GEOD-20677-M1-M1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;E-GEOD-20677-M1-M1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/E-GEOD-20677-M1-M1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Primary_Particle_Size"/>
+		<property:Has_Endpoint_Error rdf:datatype="http://www.w3.org/2001/XMLSchema#double">11</property:Has_Endpoint_Error>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;E-2DGEOD-2D20677-2DM1"/>
+		<property:Has_Method rdf:resource="&wiki;TEM"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-11-16T18:07:29</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;MicroArray">
+		<rdfs:label>MicroArray</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;MicroArray"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/MicroArray"/>
+		<rdf:type rdf:resource="&wiki;Category-3AAssayTypes"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-11-16T18:16:56</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;E-2DGEOD-2D20677">
+		<rdfs:label>E-GEOD-20677</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;E-GEOD-20677"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/E-GEOD-20677"/>
+		<rdf:type rdf:resource="&wiki;Category-3AAssays"/>
+		<rdf:type rdf:resource="&wiki;Category-3AStudies"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:For_Cell_line rdf:resource="&wiki;293t/17_cell"/>
+		<property:Has_Assay_Type rdf:resource="&wiki;Transcriptional_Response_Profiling_Assay"/>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">12</property:Has_Identifier>
+		<property:Has_Source rdf:resource="&wiki;Fede2014"/>
+		<property:Has_homepage rdf:resource="https://www.ebi.ac.uk/arrayexpress/experiments/E-GEOD-20677/"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-11-20T10:38:37</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;E-2DGEOD-2D53700">
+		<rdfs:label>E-GEOD-53700</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;E-GEOD-53700"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/E-GEOD-53700"/>
+		<rdf:type rdf:resource="&wiki;Category-3AAssays"/>
+		<rdf:type rdf:resource="&wiki;Category-3AStudies"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:For_Cell_line rdf:resource="&wiki;A549"/>
+		<property:Has_Assay_Type rdf:resource="&wiki;Transcriptional_Response_Profiling_Assay"/>
+		<property:Has_Endpoint rdf:resource="&wiki;Raw_Activity"/>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">15</property:Has_Identifier>
+		<property:Has_Source rdf:resource="&wiki;Fede2014"/>
+		<property:Has_homepage rdf:resource="https://www.ebi.ac.uk/arrayexpress/experiments/E-GEOD-53700/"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-11-20T12:56:29</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;E-2DGEOD-2D53700-2DM1">
+		<rdfs:label>E-GEOD-53700-M1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;E-GEOD-53700-M1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/E-GEOD-53700-M1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
+		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Bundle rdf:resource="&wiki;ArrayExpress"/>
+		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SiO2</property:Has_Chemical_Composition>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">407</property:Has_Identifier>
+		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ludox® AS30</property:Has_Label>
+		<property:Has_Source rdf:resource="&wiki;Fede2014"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-11-16T19:03:26</swivt:wikiPageModificationDate>
+		<property:Used_in_Study rdf:resource="&wiki;E-2DGEOD-2D53700"/>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;E-2DGEOD-2D53700-2DM1-2DM1">
+		<rdfs:label>E-GEOD-53700-M1-M1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;E-GEOD-53700-M1-M1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/E-GEOD-53700-M1-M1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Primary_Particle_Size"/>
+		<property:Has_Endpoint_Error rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3</property:Has_Endpoint_Error>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;E-2DGEOD-2D53700-2DM1"/>
+		<property:Has_Method rdf:resource="&wiki;TEM"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-11-16T18:59:28</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;E-2DGEOD-2D53700-2DM1-2DM2">
+		<rdfs:label>E-GEOD-53700-M1-M2</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;E-GEOD-53700-M1-M2"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/E-GEOD-53700-M1-M2"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Primary_Particle_Size"/>
+		<property:Has_Endpoint_Error rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4</property:Has_Endpoint_Error>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;E-2DGEOD-2D53700-2DM1"/>
+		<property:Has_Method rdf:resource="&wiki;DLS"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-11-16T19:00:04</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Fede2014">
+		<rdfs:label>Fede2014</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Fede2014"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Fede2014"/>
+		<rdf:type rdf:resource="&wiki;Category-3APapers"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<owl:sameAs rdf:resource="http://dx.doi.org/10.3390/ijerph110908867"/>
+		<property:Has_DOI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.3390/ijerph110908867</property:Has_DOI>
+		<property:Has_Journal rdf:resource="&wiki;Int._J._Environ._Res._Public_Health"/>
+		<property:Has_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2014</property:Has_Year>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-11-16T19:03:11</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Int._J._Environ._Res._Public_Health">
+		<rdfs:label>Int. J. Environ. Res. Public Health</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Int._J._Environ._Res._Public_Health"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Int._J._Environ._Res._Public_Health"/>
+		<rdf:type rdf:resource="&wiki;Category-3AJournals"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-11-16T19:03:40</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;E-2DGEOD-2D53700-2DM2">
+		<rdfs:label>E-GEOD-53700-M2</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;E-GEOD-53700-M2"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/E-GEOD-53700-M2"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
+		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Bundle rdf:resource="&wiki;ArrayExpress"/>
+		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SiO2</property:Has_Chemical_Composition>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">408</property:Has_Identifier>
+		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ludox® SM30</property:Has_Label>
+		<property:Has_Source rdf:resource="&wiki;Fede2014"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-11-16T19:09:27</swivt:wikiPageModificationDate>
+		<property:Used_in_Study rdf:resource="&wiki;E-2DGEOD-2D53700"/>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;E-2DGEOD-2D53700-2DM2-2DM1">
+		<rdfs:label>E-GEOD-53700-M2-M1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;E-GEOD-53700-M2-M1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/E-GEOD-53700-M2-M1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Primary_Particle_Size"/>
+		<property:Has_Endpoint_Error rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3</property:Has_Endpoint_Error>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;E-2DGEOD-2D53700-2DM2"/>
+		<property:Has_Method rdf:resource="&wiki;TEM"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-11-16T19:09:56</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;E-2DGEOD-2D53700-2DM2-2DM2">
+		<rdfs:label>E-GEOD-53700-M2-M2</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;E-GEOD-53700-M2-M2"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/E-GEOD-53700-M2-M2"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Primary_Particle_Size"/>
+		<property:Has_Endpoint_Error rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4</property:Has_Endpoint_Error>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;E-2DGEOD-2D53700-2DM2"/>
+		<property:Has_Method rdf:resource="&wiki;DLS"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-11-16T19:10:17</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;E-2DGEOD-2D63552">
+		<rdfs:label>E-GEOD-63552</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;E-GEOD-63552"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/E-GEOD-63552"/>
+		<rdf:type rdf:resource="&wiki;Category-3AAssays"/>
+		<rdf:type rdf:resource="&wiki;Category-3AStudies"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:For_Cell_line rdf:resource="&wiki;BEAS-2D2B"/>
+		<property:Has_Assay_Type rdf:resource="&wiki;Transcriptional_Response_Profiling_Assay"/>
+		<property:Has_Endpoint rdf:resource="&wiki;Raw_Activity"/>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">13</property:Has_Identifier>
+		<property:Has_Source rdf:resource="&wiki;Nymark2015"/>
+		<property:Has_homepage rdf:resource="https://www.ebi.ac.uk/arrayexpress/experiments/E-GEOD-63552/"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-11-20T12:02:17</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Nymark2015">
+		<rdfs:label>Nymark2015</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Nymark2015"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Nymark2015"/>
+		<rdf:type rdf:resource="&wiki;Category-3APapers"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<owl:sameAs rdf:resource="http://dx.doi.org/10.3109/17435390.2015.1017022"/>
+		<property:Has_DOI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.3109/17435390.2015.1017022</property:Has_DOI>
+		<property:Has_Journal rdf:resource="&wiki;Nanotoxicology"/>
+		<property:Has_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2015</property:Has_Year>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-11-20T09:17:32</swivt:wikiPageModificationDate>
+		<property:Substances_extracted rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yes</property:Substances_extracted>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;E-2DGEOD-2D63559">
+		<rdfs:label>E-GEOD-63559</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;E-GEOD-63559"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/E-GEOD-63559"/>
+		<rdf:type rdf:resource="&wiki;Category-3AAssays"/>
+		<rdf:type rdf:resource="&wiki;Category-3AStudies"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:For_Cell_line rdf:resource="&wiki;BEAS-2D2B"/>
+		<property:Has_Assay_Type rdf:resource="&wiki;Transcriptional_Response_Profiling_Assay"/>
+		<property:Has_Endpoint rdf:resource="&wiki;Raw_Activity"/>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">14</property:Has_Identifier>
+		<property:Has_Source rdf:resource="&wiki;Nymark2015"/>
+		<property:Has_homepage rdf:resource="https://www.ebi.ac.uk/arrayexpress/experiments/E-GEOD-63559/"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-11-20T10:54:19</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Nymark2015-2DM1">
+		<rdfs:label>Nymark2015-M1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Nymark2015-M1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Nymark2015-M1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMulti-2Dwalled_Carbon_Nanotubes"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
+		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Bundle rdf:resource="&wiki;ArrayExpress"/>
+		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C</property:Has_Chemical_Composition>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">409</property:Has_Identifier>
+		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mitsui-7</property:Has_Label>
+		<property:Has_NM_Type rdf:resource="&wiki;Multi-2Dwalled_Carbon_Nanotube"/>
+		<property:Has_Source rdf:resource="&wiki;Nymark2015"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-11-20T13:01:02</swivt:wikiPageModificationDate>
+		<property:Used_in_Study rdf:resource="&wiki;E-2DGEOD-2D63559"/>
+		<property:Used_in_Study rdf:resource="&wiki;E-2DGEOD-2D63552"/>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Nymark2015-2DM2">
+		<rdfs:label>Nymark2015-M2</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Nymark2015-M2"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Nymark2015-M2"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
+		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Bundle rdf:resource="&wiki;ArrayExpress"/>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">410</property:Has_Identifier>
+		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Asbestos</property:Has_Label>
+		<property:Has_Source rdf:resource="&wiki;Nymark2015"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-11-20T12:59:50</swivt:wikiPageModificationDate>
+		<property:Used_in_Study rdf:resource="&wiki;E-2DGEOD-2D63559"/>
+		<property:Used_in_Study rdf:resource="&wiki;E-2DGEOD-2D63552"/>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Nymark2015-2DM3">
+		<rdfs:label>Nymark2015-M3</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Nymark2015-M3"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Nymark2015-M3"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
+		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Bundle rdf:resource="&wiki;ArrayExpress"/>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">411</property:Has_Identifier>
+		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glass wool</property:Has_Label>
+		<property:Has_Source rdf:resource="&wiki;Nymark2015"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-11-20T12:59:59</swivt:wikiPageModificationDate>
+		<property:Used_in_Study rdf:resource="&wiki;E-2DGEOD-2D63559"/>
+		<property:Used_in_Study rdf:resource="&wiki;E-2DGEOD-2D63552"/>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Transcriptional_Response_Profiling_Assay">
+		<rdfs:label>Transcriptional Response Profiling Assay</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Transcriptional_Response_Profiling_Assay"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Transcriptional_Response_Profiling_Assay"/>
+		<rdf:type rdf:resource="&wiki;Category-3AAssayTypes"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<owl:sameAs rdf:resource="http://www.bioassayontology.org/bao#BAO_0002995"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-11-20T10:03:24</swivt:wikiPageModificationDate>
+		<property:Original_URI rdf:resource="http://www.bioassayontology.org/bao#BAO_0002995"/>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;293t/17_cell">
+		<rdfs:label>293t/17 cell</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;293t/17_cell"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/293t/17_cell"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACell_Lines"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<owl:sameAs rdf:resource="http://purl.obolibrary.org/obo/CLO_0001235"/>
+		<property:Has_Species rdf:resource="&wiki;Human"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-11-20T11:02:37</swivt:wikiPageModificationDate>
+		<property:Original_URI rdf:resource="http://purl.obolibrary.org/obo/CLO_0001235"/>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Raw_Activity">
+		<rdfs:label>Raw Activity</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Raw_Activity"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Raw_Activity"/>
+		<rdf:type rdf:resource="&wiki;Category-3ARaw_Activity"/>
+		<rdf:type rdf:resource="&wiki;Category-3AEndpoints"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<owl:sameAs rdf:resource="http://www.bioassayontology.org/bao#BAO_0000583"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-11-20T12:01:16</swivt:wikiPageModificationDate>
+		<property:Original_URI rdf:resource="http://www.bioassayontology.org/bao#BAO_0000583"/>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;A549">
+		<rdfs:label>A549</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;A549"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/A549"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACell_Lines"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<owl:sameAs rdf:resource="http://purl.obolibrary.org/obo/CLO_0001601"/>
+		<property:Has_Species rdf:resource="&wiki;Human"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-11-20T12:56:05</swivt:wikiPageModificationDate>
+		<property:Original_URI rdf:resource="http://purl.obolibrary.org/obo/CLO_0001601"/>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;E-2DGEOD-2D63559-2DM1">
+		<rdfs:label>E-GEOD-63559-M1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;E-GEOD-63559-M1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/E-GEOD-63559-M1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMulti-2Dwalled_Carbon_Nanotubes"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
+		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Bundle rdf:resource="&wiki;ArrayExpress"/>
+		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C</property:Has_Chemical_Composition>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">409</property:Has_Identifier>
+		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mitsui-7</property:Has_Label>
+		<property:Has_NM_Type rdf:resource="&wiki;Multi-2Dwalled_Carbon_Nanotube"/>
+		<property:Has_Source rdf:resource="&wiki;Nymark2015"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-11-20T13:01:02</swivt:wikiPageModificationDate>
+		<property:Used_in_Study rdf:resource="&wiki;E-2DGEOD-2D63559"/>
+		<property:Used_in_Study rdf:resource="&wiki;E-2DGEOD-2D63552"/>
+		<owl:sameAs rdf:resource="&wiki;Nymark2015-2DM1"/>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;E-2DGEOD-2D63559-2DM2">
+		<rdfs:label>E-GEOD-63559-M2</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;E-GEOD-63559-M2"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/E-GEOD-63559-M2"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
+		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Bundle rdf:resource="&wiki;ArrayExpress"/>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">410</property:Has_Identifier>
+		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Asbestos</property:Has_Label>
+		<property:Has_Source rdf:resource="&wiki;Nymark2015"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-11-20T12:59:50</swivt:wikiPageModificationDate>
+		<property:Used_in_Study rdf:resource="&wiki;E-2DGEOD-2D63559"/>
+		<property:Used_in_Study rdf:resource="&wiki;E-2DGEOD-2D63552"/>
+		<owl:sameAs rdf:resource="&wiki;Nymark2015-2DM2"/>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;E-2DGEOD-2D63559-2DM3">
+		<rdfs:label>E-GEOD-63559-M3</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;E-GEOD-63559-M3"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/E-GEOD-63559-M3"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
+		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Bundle rdf:resource="&wiki;ArrayExpress"/>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">411</property:Has_Identifier>
+		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glass wool</property:Has_Label>
+		<property:Has_Source rdf:resource="&wiki;Nymark2015"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-11-20T12:59:59</swivt:wikiPageModificationDate>
+		<property:Used_in_Study rdf:resource="&wiki;E-2DGEOD-2D63559"/>
+		<property:Used_in_Study rdf:resource="&wiki;E-2DGEOD-2D63552"/>
+		<owl:sameAs rdf:resource="&wiki;Nymark2015-2DM3"/>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Nymark2015-2DM1-2DM1">
+		<rdfs:label>Nymark2015-M1-M1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Nymark2015-M1-M1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Nymark2015-M1-M1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Diameter"/>
+		<property:Has_Endpoint_Error rdf:datatype="http://www.w3.org/2001/XMLSchema#double">28</property:Has_Endpoint_Error>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">74</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Nymark2015-2DM1"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-11-20T16:48:00</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Nymark2015-2DM1-2DM2">
+		<rdfs:label>Nymark2015-M1-M2</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Nymark2015-M1-M2"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Nymark2015-M1-M2"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Average_Length"/>
+		<property:Has_Endpoint_Error rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.7</property:Has_Endpoint_Error>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5.7</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">μm</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Nymark2015-2DM1"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-11-20T16:48:31</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Nymark2015-2DM2-2DM2">
+		<rdfs:label>Nymark2015-M2-M2</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Nymark2015-M2-M2"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Nymark2015-M2-M2"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Average_Length"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4.6</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">μm</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Nymark2015-2DM2"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-11-20T16:50:19</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Nymark2015-2DM2-2DM1">
+		<rdfs:label>Nymark2015-M2-M1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Nymark2015-M2-M1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Nymark2015-M2-M1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Diameter"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">180</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Nymark2015-2DM2"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-11-20T16:50:27</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Nymark2015-2DM3-2DM1">
+		<rdfs:label>Nymark2015-M3-M1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Nymark2015-M3-M1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Nymark2015-M3-M1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Diameter"/>
+		<property:Has_Endpoint_Error rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5</property:Has_Endpoint_Error>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.1</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">μm</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Nymark2015-2DM3"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-11-20T17:04:53</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Nymark2015-2DM3-2DM2">
+		<rdfs:label>Nymark2015-M3-M2</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Nymark2015-M3-M2"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Nymark2015-M3-M2"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Average_Length"/>
+		<property:Has_Endpoint_Error rdf:datatype="http://www.w3.org/2001/XMLSchema#double">18</property:Has_Endpoint_Error>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">μm</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Nymark2015-2DM3"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-11-20T17:05:23</swivt:wikiPageModificationDate>
+	</swivt:Subject>
 	<owl:DatatypeProperty rdf:about="&swivt;creationDate" />
 	<owl:ObjectProperty rdf:about="&swivt;page" />
 	<owl:DatatypeProperty rdf:about="&swivt;wikiNamespace" />
@@ -21131,5 +21603,6 @@
 	<owl:Class rdf:about="&wiki;Category-3ADNA_in_Tail" />
 	<owl:Class rdf:about="&wiki;Category-3ABoiling_Point" />
 	<owl:Class rdf:about="&wiki;Category-3AMelting_Point" />
+	<owl:Class rdf:about="&wiki;Category-3ARaw_Activity" />
 	<!-- Created by Semantic MediaWiki, http://semantic-mediawiki.org/ -->
 </rdf:RDF>
