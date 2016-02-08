@@ -18,7 +18,7 @@
 	xmlns:property="&property;">
 
 	<owl:Ontology rdf:about="">
-		<swivt:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-11-20T19:19:56+01:00</swivt:creationDate>
+		<swivt:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T23:09:13+01:00</swivt:creationDate>
 		<owl:imports rdf:resource="http://semantic-mediawiki.org/swivt/1.0"/>
 	</owl:Ontology>
 	<swivt:Subject rdf:about="&wiki;Main_Page">
@@ -26,7 +26,7 @@
 		<swivt:page rdf:resource="&wikiurl;Main_Page"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Main_Page"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-09-20T13:22:32</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-09-20T14:15:24</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;TestNM">
 		<rdfs:label>TestNM</rdfs:label>
@@ -147,7 +147,7 @@
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Property:Has_NM_Type"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">102</swivt:wikiNamespace>
 		<owl:equivalentProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-04T13:40:44</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T10:49:43</swivt:wikiPageModificationDate>
 		<property:Original_URI rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
 	</owl:ObjectProperty>
 	<swivt:Subject rdf:about="&wiki;Cytotox2011Puzyn01">
@@ -2903,9 +2903,11 @@
 		<swivt:page rdf:resource="&wikiurl;HOMO"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/HOMO"/>
 		<rdf:type rdf:resource="&wiki;Category-3ADescriptors"/>
+		<rdf:type rdf:resource="&wiki;Category-3AHOMO"/>
+		<rdf:type rdf:resource="&wiki;Category-3AEndpoints"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
 		<owl:sameAs rdf:resource="http://semanticscience.org/resource/CHEMINF_000291"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-13T09:11:37</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T13:52:51</swivt:wikiPageModificationDate>
 		<property:Original_URI rdf:resource="http://semanticscience.org/resource/CHEMINF_000291"/>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;LUMO">
@@ -2913,9 +2915,11 @@
 		<swivt:page rdf:resource="&wikiurl;LUMO"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/LUMO"/>
 		<rdf:type rdf:resource="&wiki;Category-3ADescriptors"/>
+		<rdf:type rdf:resource="&wiki;Category-3ALUMO"/>
+		<rdf:type rdf:resource="&wiki;Category-3AEndpoints"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
 		<owl:sameAs rdf:resource="http://semanticscience.org/resource/CHEMINF_000292"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-13T09:11:53</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T13:55:53</swivt:wikiPageModificationDate>
 		<property:Original_URI rdf:resource="http://semanticscience.org/resource/CHEMINF_000292"/>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Puzyn2011_R3">
@@ -2951,13 +2955,14 @@
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-13T09:28:29</swivt:wikiPageModificationDate>
 		<owl:sameAs rdf:resource="&wiki;Correlates_With"/>
 	</swivt:Subject>
-	<swivt:Subject rdf:about="&wiki;Does_Not_Correlate_With">
-		<rdfs:label>Does Not Correlate With</rdfs:label>
-		<swivt:page rdf:resource="&wikiurl;Does_Not_Correlate_With"/>
-		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Does_Not_Correlate_With"/>
+	<swivt:Subject rdf:about="&wiki;DoesNotCorrelateWith">
+		<rdfs:label>DoesNotCorrelateWith</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;DoesNotCorrelateWith"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/DoesNotCorrelateWith"/>
 		<rdf:type rdf:resource="&wiki;Category-3ARelations"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-13T09:28:49</swivt:wikiPageModificationDate>
+		<owl:sameAs rdf:resource="&wiki;Does_Not_Correlate_With"/>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;NegativelyCorrelatesWith">
 		<rdfs:label>NegativelyCorrelatesWith</rdfs:label>
@@ -3936,8 +3941,9 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">91</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ag</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;Metal"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Ag]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Harper2011"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-12T13:13:17</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T13:18:49</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Harper2011InVivoTox"/>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Harper2011_2">
@@ -3953,8 +3959,9 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">92</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ag</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;Metal"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Ag]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Harper2011"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-12T13:13:32</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T13:18:38</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Harper2011InVivoTox"/>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Harper2011_3">
@@ -3970,8 +3977,9 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">93</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ag</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;Metal"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Ag]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Harper2011"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-12T13:13:46</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T13:18:29</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Harper2011InVivoTox"/>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;MEEECoating">
@@ -4059,8 +4067,9 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">95</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ag</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;Metal"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Ag]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Harper2011"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-12T13:14:01</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T13:18:23</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Harper2011InVivoTox"/>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Harper2011_5">
@@ -4076,8 +4085,9 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">100</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ag</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;Metal"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Ag]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Harper2011"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-12T13:14:30</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T13:31:40</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Harper2011InVivoTox"/>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Harper2011_6">
@@ -4093,8 +4103,9 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">96</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ag</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;Metal"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Ag]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Harper2011"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-12T13:14:45</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T13:18:12</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Harper2011InVivoTox"/>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Harper2011_7">
@@ -4110,8 +4121,9 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">97</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ag</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;Metal"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Ag]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Harper2011"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-12T13:14:58</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T13:15:13</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Harper2011InVivoTox"/>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Harper2011_8">
@@ -4127,8 +4139,9 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">98</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ag</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;Metal"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Ag]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Harper2011"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-12T13:15:17</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T13:15:06</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Harper2011InVivoTox"/>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Harper2011_9">
@@ -4144,8 +4157,9 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">99</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ag</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;Metal"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Ag]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Harper2011"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-12T13:15:32</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T13:14:56</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;Harper2011InVivoTox"/>
 	</swivt:Subject>
 	<owl:Class rdf:about="&wiki;Category-3AAlloys">
@@ -14585,8 +14599,9 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">355</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NM-300K</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;Metal"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Ag]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;JRC2011"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-08T22:31:00</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T13:11:39</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;JRC2011_NM-2D300_DIS">
 		<rdfs:label>JRC2011 NM-300 DIS</rdfs:label>
@@ -14600,8 +14615,9 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">356</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NM-300 DIS</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;Metal"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Ag]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;JRC2011"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-08T22:31:28</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T13:11:12</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;JRC2011_NM-2D300K_DIS">
 		<rdfs:label>JRC2011 NM-300K DIS</rdfs:label>
@@ -14615,8 +14631,9 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">357</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NM-300K DIS</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;Metal"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Ag]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;JRC2011"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-08T22:31:44</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T13:11:25</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;JRC2011_NM-2D400">
 		<rdfs:label>JRC2011 NM-400</rdfs:label>
@@ -14631,7 +14648,7 @@
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NM-400</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;Multi-2Dwalled_Carbon_Nanotube"/>
 		<property:Has_Source rdf:resource="&wiki;JRC2011"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-09-20T13:03:31</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-11-20T18:23:49</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;JRC2011_NM-2D401">
 		<rdfs:label>JRC2011 NM-401</rdfs:label>
@@ -18177,7 +18194,7 @@
 		<property:Has_Entities rdf:resource="&wiki;MetalOxides"/>
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8</property:Has_Identifier>
 		<property:Has_Source rdf:resource="&wiki;Limbach2005"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-12T15:17:44</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T21:16:41</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Limbach2005_NM4">
 		<rdfs:label>Limbach2005 NM4</rdfs:label>
@@ -19365,6 +19382,7 @@
 		<property:Has_NM_Type rdf:resource="&wiki;MetalOxide"/>
 		<property:Has_PubChem_SID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24866353</property:Has_PubChem_SID>
 		<property:Has_homepage rdf:resource="http://www.sigmaaldrich.com/catalog/product/aldrich/420816"/>
+		<property:Has_homepage rdf:resource="https://pubchem.ncbi.nlm.nih.gov/substance/24866353"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-09-20T14:10:24</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<owl:DatatypeProperty rdf:about="&property;Has_CAS">
@@ -19414,6 +19432,7 @@
 		<property:Has_NM_Type rdf:resource="&wiki;MetalOxide"/>
 		<property:Has_PubChem_SID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24866384</property:Has_PubChem_SID>
 		<property:Has_homepage rdf:resource="http://www.sigmaaldrich.com/catalog/product/aldrich/421553"/>
+		<property:Has_homepage rdf:resource="https://pubchem.ncbi.nlm.nih.gov/substance/24866384"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-09-20T14:10:33</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Aldrich_748161">
@@ -19519,7 +19538,8 @@
 		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
 		<property:Has_Endpoint rdf:resource="&wiki;Melting_Point"/>
-		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Celsius</property:Has_Endpoint_Value_Units>
+		<property:Has_Endpoint_Value_Min rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1600</property:Has_Endpoint_Value_Min>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">°C</property:Has_Endpoint_Value_Units>
 		<property:Has_Entity rdf:resource="&wiki;Aldrich_421553"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-03T16:53:50</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -19561,7 +19581,7 @@
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
 		<property:Has_Endpoint rdf:resource="&wiki;Melting_Point"/>
 		<property:Has_Endpoint_Value_Min rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1600</property:Has_Endpoint_Value_Min>
-		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Celsius</property:Has_Endpoint_Value_Units>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">°C</property:Has_Endpoint_Value_Units>
 		<property:Has_Entity rdf:resource="&wiki;Aldrich_718483"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-03T16:56:05</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -20234,8 +20254,9 @@
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JRCNM03300a</property:Has_Label>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MN-330</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;Metal"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Au]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;JRC2014"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-09-20T12:58:17</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T13:10:43</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;JRCNM03301a">
 		<rdfs:label>JRCNM03301a</rdfs:label>
@@ -20251,8 +20272,9 @@
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JRCNM03301a</property:Has_Label>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NM-330 DIS</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;Metal"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Au]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;JRC2014"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-09-20T12:58:52</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T13:10:10</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Multi-2Dwalled_Carbon_Nanotube">
 		<rdfs:label>Multi-walled Carbon Nanotube</rdfs:label>
@@ -20280,7 +20302,7 @@
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NM-400</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;Multi-2Dwalled_Carbon_Nanotube"/>
 		<property:Has_Source rdf:resource="&wiki;JRC2014"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-09-20T13:02:56</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-11-20T18:24:24</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<owl:Class rdf:about="&wiki;Category-3AMulti-2Dwalled_Carbon_Nanotubes">
 		<rdfs:label>Multi-walled Carbon Nanotubes</rdfs:label>
@@ -20305,7 +20327,7 @@
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NM-401</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;Multi-2Dwalled_Carbon_Nanotube"/>
 		<property:Has_Source rdf:resource="&wiki;JRC2014"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-09-20T13:16:14</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-11-20T18:23:57</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;JRCNM04002a">
 		<rdfs:label>JRCNM04002a</rdfs:label>
@@ -20323,7 +20345,7 @@
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NM-402</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;Multi-2Dwalled_Carbon_Nanotube"/>
 		<property:Has_Source rdf:resource="&wiki;JRC2014"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-09-20T13:16:33</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-11-20T18:23:58</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;JRCNM04003a">
 		<rdfs:label>JRCNM04003a</rdfs:label>
@@ -21137,7 +21159,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">406</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AU-NP oligonucleotide</property:Has_Label>
 		<property:Has_Source rdf:resource="&wiki;Kim2012b"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-11-16T18:41:27</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-11-16T18:41:43</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;E-2DGEOD-2D20677"/>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;OligonucleotideCoating">
@@ -21211,7 +21233,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">407</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ludox® AS30</property:Has_Label>
 		<property:Has_Source rdf:resource="&wiki;Fede2014"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-11-16T19:03:26</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-11-16T19:05:10</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;E-2DGEOD-2D53700"/>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;E-2DGEOD-2D53700-2DM1-2DM1">
@@ -21274,7 +21296,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">408</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ludox® SM30</property:Has_Label>
 		<property:Has_Source rdf:resource="&wiki;Fede2014"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-11-16T19:09:27</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-11-20T09:34:38</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;E-2DGEOD-2D53700"/>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;E-2DGEOD-2D53700-2DM2-2DM1">
@@ -21362,7 +21384,7 @@
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mitsui-7</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;Multi-2Dwalled_Carbon_Nanotube"/>
 		<property:Has_Source rdf:resource="&wiki;Nymark2015"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-11-20T13:01:02</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-11-20T16:47:29</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;E-2DGEOD-2D63559"/>
 		<property:Used_in_Study rdf:resource="&wiki;E-2DGEOD-2D63552"/>
 	</swivt:Subject>
@@ -21377,7 +21399,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">410</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Asbestos</property:Has_Label>
 		<property:Has_Source rdf:resource="&wiki;Nymark2015"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-11-20T12:59:50</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-11-20T13:00:55</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;E-2DGEOD-2D63559"/>
 		<property:Used_in_Study rdf:resource="&wiki;E-2DGEOD-2D63552"/>
 	</swivt:Subject>
@@ -21392,7 +21414,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">411</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glass wool</property:Has_Label>
 		<property:Has_Source rdf:resource="&wiki;Nymark2015"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-11-20T12:59:59</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-11-20T13:00:46</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;E-2DGEOD-2D63559"/>
 		<property:Used_in_Study rdf:resource="&wiki;E-2DGEOD-2D63552"/>
 	</swivt:Subject>
@@ -21453,7 +21475,7 @@
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mitsui-7</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;Multi-2Dwalled_Carbon_Nanotube"/>
 		<property:Has_Source rdf:resource="&wiki;Nymark2015"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-11-20T13:01:02</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-11-20T16:47:29</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;E-2DGEOD-2D63559"/>
 		<property:Used_in_Study rdf:resource="&wiki;E-2DGEOD-2D63552"/>
 		<owl:sameAs rdf:resource="&wiki;Nymark2015-2DM1"/>
@@ -21469,7 +21491,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">410</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Asbestos</property:Has_Label>
 		<property:Has_Source rdf:resource="&wiki;Nymark2015"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-11-20T12:59:50</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-11-20T13:00:55</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;E-2DGEOD-2D63559"/>
 		<property:Used_in_Study rdf:resource="&wiki;E-2DGEOD-2D63552"/>
 		<owl:sameAs rdf:resource="&wiki;Nymark2015-2DM2"/>
@@ -21485,7 +21507,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">411</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glass wool</property:Has_Label>
 		<property:Has_Source rdf:resource="&wiki;Nymark2015"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-11-20T12:59:59</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-11-20T13:00:46</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;E-2DGEOD-2D63559"/>
 		<property:Used_in_Study rdf:resource="&wiki;E-2DGEOD-2D63552"/>
 		<owl:sameAs rdf:resource="&wiki;Nymark2015-2DM3"/>
@@ -21566,6 +21588,904 @@
 		<property:Has_Entity rdf:resource="&wiki;Nymark2015-2DM3"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-11-20T17:05:23</swivt:wikiPageModificationDate>
 	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;MarcheseRobinson-2DC60">
+		<rdfs:label>MarcheseRobinson-C60</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;MarcheseRobinson-C60"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/MarcheseRobinson-C60"/>
+		<rdf:type rdf:resource="&wiki;Category-3AFullerenes"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
+		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Close_match rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID123591"/>
+		<property:Has_CAS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">99685-96-8</property:Has_CAS>
+		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C60</property:Has_Chemical_Composition>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">412</property:Has_Identifier>
+		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C60</property:Has_Label>
+		<property:Has_NM_Type rdf:resource="&wiki;Fullerene"/>
+		<property:Has_PubChem_CID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">123591</property:Has_PubChem_CID>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C12=C3C4=C5C6=C1C7=C8C9=C1C%10=C%11C(=C29)C3=C2C3=C4C4=C5C5=C9C6=C7C6=C7C8=C1C1=C8C%10=C%10C%11=C2C2=C3C3=C4C4=C5C5=C%11C%12=C(C6=C95)C7=C1C1=C%12C5=C%11C4=C3C3=C5C(=C81)C%10=C23</property:Has_SMILES>
+		<property:Has_Source rdf:resource="&wiki;MarcheseRobinson2015"/>
+		<property:Has_homepage rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/123591"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T13:05:39</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Fullerene">
+		<rdfs:label>Fullerene</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Fullerene"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Fullerene"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMaterialTypes"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T10:47:24</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<owl:Class rdf:about="&wiki;Category-3AFullerenes">
+		<rdfs:label>Fullerenes</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Category:Fullerenes"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Category:Fullerenes"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</swivt:wikiNamespace>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T10:59:01</swivt:wikiPageModificationDate>
+	</owl:Class>
+	<owl:DatatypeProperty rdf:about="&property;Has_PubChem_CID">
+		<rdfs:label>Has PubChem CID</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Property:Has_PubChem_CID"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Property:Has_PubChem_CID"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">102</swivt:wikiNamespace>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T11:08:57</swivt:wikiPageModificationDate>
+	</owl:DatatypeProperty>
+	<swivt:Subject rdf:about="&wiki;MarcheseRobinson2015">
+		<rdfs:label>MarcheseRobinson2015</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;MarcheseRobinson2015"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/MarcheseRobinson2015"/>
+		<rdf:type rdf:resource="&wiki;Category-3APapers"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<owl:sameAs rdf:resource="http://dx.doi.org/10.6084/m9.figshare.2056104.v2"/>
+		<property:Has_DOI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.6084/m9.figshare.2056104.v2</property:Has_DOI>
+		<property:Has_Journal rdf:resource="&wiki;Figshare"/>
+		<property:Has_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2015</property:Has_Year>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T11:14:43</swivt:wikiPageModificationDate>
+		<property:Substances_extracted rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yes</property:Substances_extracted>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Figshare">
+		<rdfs:label>Figshare</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Figshare"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Figshare"/>
+		<rdf:type rdf:resource="&wiki;Category-3AJournals"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T11:15:19</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Aldrich_572500">
+		<rdfs:label>Aldrich 572500</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Aldrich_572500"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Aldrich_572500"/>
+		<rdf:type rdf:resource="&wiki;Category-3AFullerenes"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
+		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Aldrich rdf:datatype="http://www.w3.org/2001/XMLSchema#string">572500</property:Has_Aldrich>
+		<property:Has_Bundle rdf:resource="&wiki;Sigma-2DAldrich_Products"/>
+		<property:Has_CAS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">99685-96-8</property:Has_CAS>
+		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C60</property:Has_Chemical_Composition>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">413</property:Has_Identifier>
+		<property:Has_NM_Type rdf:resource="&wiki;Fullerene"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">c12c3c4c5c1c1c6c7c2c2c8c3c3c9c4c4c%10c5c5c1c1c6c6c%11c7c2c2c7c8c3c3c8c9c4c4c9c%10c5c5c1c1c6c6c%11c2c2c7c3c3c8c4c4c9c5c1c1c6c2c3c41</property:Has_SMILES>
+		<property:Has_homepage rdf:resource="http://www.sigmaaldrich.com/catalog/product/aldrich/572500"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T13:56:39</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Aldrich_572500_M1">
+		<rdfs:label>Aldrich 572500 M1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Aldrich_572500_M1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Aldrich_572500_M1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Melting_Point"/>
+		<property:Has_Endpoint_Value_Min rdf:datatype="http://www.w3.org/2001/XMLSchema#double">280</property:Has_Endpoint_Value_Min>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">°C</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Aldrich_572500"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T13:44:47</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Aldrich_572500_M2">
+		<rdfs:label>Aldrich 572500 M2</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Aldrich_572500_M2"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Aldrich_572500_M2"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;HOMO"/>
+		<property:Has_Endpoint_Value_Max rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.2</property:Has_Endpoint_Value_Max>
+		<property:Has_Endpoint_Value_Min rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.1</property:Has_Endpoint_Value_Min>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eV</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Aldrich_572500"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T13:53:49</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Aldrich_379646">
+		<rdfs:label>Aldrich 379646</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Aldrich_379646"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Aldrich_379646"/>
+		<rdf:type rdf:resource="&wiki;Category-3AFullerenes"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
+		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Aldrich rdf:datatype="http://www.w3.org/2001/XMLSchema#string">379646</property:Has_Aldrich>
+		<property:Has_Bundle rdf:resource="&wiki;Sigma-2DAldrich_Products"/>
+		<property:Has_CAS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">99685-96-8</property:Has_CAS>
+		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C60</property:Has_Chemical_Composition>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">414</property:Has_Identifier>
+		<property:Has_NM_Type rdf:resource="&wiki;Fullerene"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">c12c3c4c5c1c1c6c7c2c2c8c3c3c9c4c4c%10c5c5c1c1c6c6c%11c7c2c2c7c8c3c3c8c9c4c4c9c%10c5c5c1c1c6c6c%11c2c2c7c3c3c8c4c4c9c5c1c1c6c2c3c41</property:Has_SMILES>
+		<property:Has_homepage rdf:resource="http://www.sigmaaldrich.com/catalog/product/aldrich/379646"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T13:57:04</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Aldrich_379646_M2">
+		<rdfs:label>Aldrich 379646 M2</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Aldrich_379646_M2"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Aldrich_379646_M2"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;HOMO"/>
+		<property:Has_Endpoint_Value_Max rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.2</property:Has_Endpoint_Value_Max>
+		<property:Has_Endpoint_Value_Min rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.1</property:Has_Endpoint_Value_Min>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eV</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Aldrich_379646"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T13:57:26</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Aldrich_379646_M3">
+		<rdfs:label>Aldrich 379646 M3</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Aldrich_379646_M3"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Aldrich_379646_M3"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;LUMO"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4.5</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eV</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Aldrich_379646"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T13:57:51</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Aldrich_379646_M1">
+		<rdfs:label>Aldrich 379646 M1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Aldrich_379646_M1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Aldrich_379646_M1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Melting_Point"/>
+		<property:Has_Endpoint_Value_Min rdf:datatype="http://www.w3.org/2001/XMLSchema#double">280</property:Has_Endpoint_Value_Min>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">°C</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Aldrich_379646"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T13:58:21</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Aldrich_482951">
+		<rdfs:label>Aldrich 482951</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Aldrich_482951"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Aldrich_482951"/>
+		<rdf:type rdf:resource="&wiki;Category-3AFullerenes"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
+		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Aldrich rdf:datatype="http://www.w3.org/2001/XMLSchema#string">482951</property:Has_Aldrich>
+		<property:Has_Bundle rdf:resource="&wiki;Sigma-2DAldrich_Products"/>
+		<property:Has_CAS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">142136-39-8</property:Has_CAS>
+		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C76</property:Has_Chemical_Composition>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">415</property:Has_Identifier>
+		<property:Has_NM_Type rdf:resource="&wiki;Fullerene"/>
+		<property:Has_homepage rdf:resource="http://www.sigmaaldrich.com/catalog/product/aldrich/482951"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T19:43:55</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Aldrich_482951_M1">
+		<rdfs:label>Aldrich 482951 M1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Aldrich_482951_M1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Aldrich_482951_M1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Melting_Point"/>
+		<property:Has_Endpoint_Value_Min rdf:datatype="http://www.w3.org/2001/XMLSchema#double">350</property:Has_Endpoint_Value_Min>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">°C</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Aldrich_482951"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T20:08:09</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Chithrani_Au1">
+		<rdfs:label>Chithrani Au1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Chithrani_Au1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Chithrani_Au1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMetals"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
+		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Au</property:Has_Chemical_Composition>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">416</property:Has_Identifier>
+		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Au S14</property:Has_Label>
+		<property:Has_NM_Type rdf:resource="&wiki;Metal"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Au]</property:Has_SMILES>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T20:43:10</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Chithrani_Au2">
+		<rdfs:label>Chithrani Au2</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Chithrani_Au2"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Chithrani_Au2"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMetals"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
+		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Au</property:Has_Chemical_Composition>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">417</property:Has_Identifier>
+		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Au S30</property:Has_Label>
+		<property:Has_NM_Type rdf:resource="&wiki;Metal"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Au]</property:Has_SMILES>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T20:43:35</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Chithrani_Au3">
+		<rdfs:label>Chithrani Au3</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Chithrani_Au3"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Chithrani_Au3"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMetals"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
+		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Au</property:Has_Chemical_Composition>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">418</property:Has_Identifier>
+		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Au S50</property:Has_Label>
+		<property:Has_NM_Type rdf:resource="&wiki;Metal"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Au]</property:Has_SMILES>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T20:43:45</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Chithrani_Au4">
+		<rdfs:label>Chithrani Au4</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Chithrani_Au4"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Chithrani_Au4"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMetals"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
+		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Au</property:Has_Chemical_Composition>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">419</property:Has_Identifier>
+		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Au S74</property:Has_Label>
+		<property:Has_NM_Type rdf:resource="&wiki;Metal"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Au]</property:Has_SMILES>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T20:44:01</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Chithrani_Au5">
+		<rdfs:label>Chithrani Au5</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Chithrani_Au5"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Chithrani_Au5"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMetals"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
+		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Au</property:Has_Chemical_Composition>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">420</property:Has_Identifier>
+		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Au S100</property:Has_Label>
+		<property:Has_NM_Type rdf:resource="&wiki;Metal"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Au]</property:Has_SMILES>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T20:44:15</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Chithrani_Au6">
+		<rdfs:label>Chithrani Au6</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Chithrani_Au6"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Chithrani_Au6"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMetals"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
+		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Au</property:Has_Chemical_Composition>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">421</property:Has_Identifier>
+		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Au R40</property:Has_Label>
+		<property:Has_NM_Type rdf:resource="&wiki;Metal"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Au]</property:Has_SMILES>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T20:44:40</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Chithrani_Au7">
+		<rdfs:label>Chithrani Au7</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Chithrani_Au7"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Chithrani_Au7"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMetals"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
+		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Au</property:Has_Chemical_Composition>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">422</property:Has_Identifier>
+		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Au R74</property:Has_Label>
+		<property:Has_NM_Type rdf:resource="&wiki;Metal"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Au]</property:Has_SMILES>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T20:44:54</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Chithrani2006">
+		<rdfs:label>Chithrani2006</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Chithrani2006"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Chithrani2006"/>
+		<rdf:type rdf:resource="&wiki;Category-3APapers"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<owl:sameAs rdf:resource="http://dx.doi.org/10.1021/nl052396o"/>
+		<property:Has_DOI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1021/nl052396o</property:Has_DOI>
+		<property:Has_Journal rdf:resource="&wiki;Nano_Letters"/>
+		<property:Has_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2006</property:Has_Year>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T20:46:33</swivt:wikiPageModificationDate>
+		<property:Substances_extracted rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yes</property:Substances_extracted>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;HeLa">
+		<rdfs:label>HeLa</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;HeLa"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/HeLa"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACell_Lines"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<owl:sameAs rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001185"/>
+		<property:Has_Species rdf:resource="&wiki;Human"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T20:55:55</swivt:wikiPageModificationDate>
+		<property:Original_URI rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001185"/>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Chithrani2006_A1">
+		<rdfs:label>Chithrani2006 A1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Chithrani2006_A1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Chithrani2006_A1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AAssays"/>
+		<rdf:type rdf:resource="&wiki;Category-3AStudies"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:For_Cell_line rdf:resource="&wiki;HeLa"/>
+		<property:Has_Assay_Method rdf:resource="&wiki;ICP-2DAES"/>
+		<property:Has_Assay_Type rdf:resource="&wiki;Cellular_Uptake_Assay"/>
+		<property:Has_Entities rdf:resource="&wiki;Metals"/>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">16</property:Has_Identifier>
+		<property:Has_Source rdf:resource="&wiki;Chithrani2006"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T21:17:19</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;ICP-2DAES">
+		<rdfs:label>ICP-AES</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;ICP-AES"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/ICP-AES"/>
+		<rdf:type rdf:resource="&wiki;Category-3AAssayMethods"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<owl:sameAs rdf:resource="http://purl.obolibrary.org/obo/ERO_0001675"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T21:01:10</swivt:wikiPageModificationDate>
+		<property:Original_URI rdf:resource="http://purl.obolibrary.org/obo/ERO_0001675"/>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Chithrani_Au1_M1">
+		<rdfs:label>Chithrani Au1 M1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Chithrani_Au1_M1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Chithrani_Au1_M1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Particle_Size"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Chithrani_Au1"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T21:03:08</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Particles_Per_Cell">
+		<rdfs:label>Particles Per Cell</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Particles_Per_Cell"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Particles_Per_Cell"/>
+		<rdf:type rdf:resource="&wiki;Category-3AParticles_Per_Cell"/>
+		<rdf:type rdf:resource="&wiki;Category-3AEndpoints"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Particles Per Cell</property:Description>
+		<property:Has_Assay_Type rdf:resource="&wiki;Cellular_Uptake_Assay"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T21:05:57</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Chithrani_Au1_M2">
+		<rdfs:label>Chithrani Au1 M2</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Chithrani_Au1_M2"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Chithrani_Au1_M2"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Assay rdf:resource="&wiki;Chithrani2006_A1"/>
+		<property:Has_Endpoint rdf:resource="&wiki;Particles_Per_Cell"/>
+		<property:Has_Endpoint_Error rdf:datatype="http://www.w3.org/2001/XMLSchema#double">500</property:Has_Endpoint_Error>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3000</property:Has_Endpoint_Value>
+		<property:Has_Entity rdf:resource="&wiki;Chithrani_Au1"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T21:07:38</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Chithrani_Au2_M1">
+		<rdfs:label>Chithrani Au2 M1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Chithrani_Au2_M1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Chithrani_Au2_M1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Particle_Size"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Chithrani_Au2"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T21:09:22</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Chithrani_Au3_M1">
+		<rdfs:label>Chithrani Au3 M1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Chithrani_Au3_M1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Chithrani_Au3_M1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Particle_Size"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">50</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Chithrani_Au3"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T21:09:33</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Chithrani_Au4_M1">
+		<rdfs:label>Chithrani Au4 M1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Chithrani_Au4_M1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Chithrani_Au4_M1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Particle_Size"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">74</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Chithrani_Au4"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T21:09:49</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Chithrani_Au5_M1">
+		<rdfs:label>Chithrani Au5 M1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Chithrani_Au5_M1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Chithrani_Au5_M1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Particle_Size"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">100</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Chithrani_Au5"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T21:10:10</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Chithrani_Au6_M1">
+		<rdfs:label>Chithrani Au6 M1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Chithrani_Au6_M1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Chithrani_Au6_M1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Diameter"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Chithrani_Au6"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T21:11:39</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Chithrani_Au7_M1">
+		<rdfs:label>Chithrani Au7 M1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Chithrani_Au7_M1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Chithrani_Au7_M1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Diameter"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Chithrani_Au7"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T21:11:49</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Chithrani_Au6_M3">
+		<rdfs:label>Chithrani Au6 M3</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Chithrani_Au6_M3"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Chithrani_Au6_M3"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Average_Length"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Chithrani_Au6"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T21:12:36</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Chithrani_Au7_M3">
+		<rdfs:label>Chithrani Au7 M3</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Chithrani_Au7_M3"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Chithrani_Au7_M3"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Average_Length"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">74</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Chithrani_Au7"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T21:12:57</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Chithrani_Au2_M2">
+		<rdfs:label>Chithrani Au2 M2</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Chithrani_Au2_M2"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Chithrani_Au2_M2"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Assay rdf:resource="&wiki;Chithrani2006_A1"/>
+		<property:Has_Endpoint rdf:resource="&wiki;Particles_Per_Cell"/>
+		<property:Has_Endpoint_Error rdf:datatype="http://www.w3.org/2001/XMLSchema#double">500</property:Has_Endpoint_Error>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4500</property:Has_Endpoint_Value>
+		<property:Has_Entity rdf:resource="&wiki;Chithrani_Au2"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T21:31:54</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Chithrani_Au3_M2">
+		<rdfs:label>Chithrani Au3 M2</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Chithrani_Au3_M2"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Chithrani_Au3_M2"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Assay rdf:resource="&wiki;Chithrani2006_A1"/>
+		<property:Has_Endpoint rdf:resource="&wiki;Particles_Per_Cell"/>
+		<property:Has_Endpoint_Error rdf:datatype="http://www.w3.org/2001/XMLSchema#double">800</property:Has_Endpoint_Error>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6000</property:Has_Endpoint_Value>
+		<property:Has_Entity rdf:resource="&wiki;Chithrani_Au3"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T21:14:44</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Chithrani_Au4_M2">
+		<rdfs:label>Chithrani Au4 M2</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Chithrani_Au4_M2"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Chithrani_Au4_M2"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Assay rdf:resource="&wiki;Chithrani2006_A1"/>
+		<property:Has_Endpoint rdf:resource="&wiki;Particles_Per_Cell"/>
+		<property:Has_Endpoint_Error rdf:datatype="http://www.w3.org/2001/XMLSchema#double">500</property:Has_Endpoint_Error>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4000</property:Has_Endpoint_Value>
+		<property:Has_Entity rdf:resource="&wiki;Chithrani_Au4"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T21:15:07</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Chithrani_Au5_M2">
+		<rdfs:label>Chithrani Au5 M2</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Chithrani_Au5_M2"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Chithrani_Au5_M2"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Assay rdf:resource="&wiki;Chithrani2006_A1"/>
+		<property:Has_Endpoint rdf:resource="&wiki;Particles_Per_Cell"/>
+		<property:Has_Endpoint_Error rdf:datatype="http://www.w3.org/2001/XMLSchema#double">500</property:Has_Endpoint_Error>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1800</property:Has_Endpoint_Value>
+		<property:Has_Entity rdf:resource="&wiki;Chithrani_Au5"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T21:15:28</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Chithrani2006_A2">
+		<rdfs:label>Chithrani2006 A2</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Chithrani2006_A2"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Chithrani2006_A2"/>
+		<rdf:type rdf:resource="&wiki;Category-3AAssays"/>
+		<rdf:type rdf:resource="&wiki;Category-3AStudies"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:For_Cell_line rdf:resource="&wiki;HeLa"/>
+		<property:Has_Assay_Method rdf:resource="&wiki;ICP-2DAES"/>
+		<property:Has_Assay_Type rdf:resource="&wiki;Cellular_Uptake_Assay"/>
+		<property:Has_Entities rdf:resource="&wiki;Metals"/>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">17</property:Has_Identifier>
+		<property:Has_Source rdf:resource="&wiki;Chithrani2006"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T21:25:30</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Chithrani2006_T1">
+		<rdfs:label>Chithrani2006 T1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Chithrani2006_T1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Chithrani2006_T1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:For_Measurement rdf:resource="&wiki;Chithrani_Au1_M3"/>
+		<property:For_Measurement rdf:resource="&wiki;Chithrani_Au3_M3"/>
+		<property:For_Measurement rdf:resource="&wiki;Chithrani_Au4_M3"/>
+		<property:Has_Endpoint rdf:resource="&wiki;Incubation_time"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</property:Has_Endpoint_Value>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T21:28:47</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Incubation_time">
+		<rdfs:label>Incubation time</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Incubation_time"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Incubation_time"/>
+		<rdf:type rdf:resource="&wiki;Category-3AIncubation_time"/>
+		<rdf:type rdf:resource="&wiki;Category-3AEndpoints"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T21:27:46</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Chithrani_Au1_M3">
+		<rdfs:label>Chithrani Au1 M3</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Chithrani_Au1_M3"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Chithrani_Au1_M3"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Assay rdf:resource="&wiki;Chithrani2006_A2"/>
+		<property:Has_Endpoint rdf:resource="&wiki;Particles_Per_Cell"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1100</property:Has_Endpoint_Value>
+		<property:Has_Entity rdf:resource="&wiki;Chithrani_Au1"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T21:29:35</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Chithrani_Au3_M3">
+		<rdfs:label>Chithrani Au3 M3</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Chithrani_Au3_M3"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Chithrani_Au3_M3"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Assay rdf:resource="&wiki;Chithrani2006_A2"/>
+		<property:Has_Endpoint rdf:resource="&wiki;Particles_Per_Cell"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1500</property:Has_Endpoint_Value>
+		<property:Has_Entity rdf:resource="&wiki;Chithrani_Au3"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T21:35:51</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Chithrani_Au4_M3">
+		<rdfs:label>Chithrani Au4 M3</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Chithrani_Au4_M3"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Chithrani_Au4_M3"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Assay rdf:resource="&wiki;Chithrani2006_A2"/>
+		<property:Has_Endpoint rdf:resource="&wiki;Particles_Per_Cell"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">800</property:Has_Endpoint_Value>
+		<property:Has_Entity rdf:resource="&wiki;Chithrani_Au4"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T21:36:08</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Chithrani2006_T2">
+		<rdfs:label>Chithrani2006 T2</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Chithrani2006_T2"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Chithrani2006_T2"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:For_Measurement rdf:resource="&wiki;Chithrani_Au1_M4"/>
+		<property:For_Measurement rdf:resource="&wiki;Chithrani_Au3_M4"/>
+		<property:For_Measurement rdf:resource="&wiki;Chithrani_Au4_M4"/>
+		<property:Has_Endpoint rdf:resource="&wiki;Incubation_time"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.5</property:Has_Endpoint_Value>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T21:36:46</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Chithrani_Au1_M4">
+		<rdfs:label>Chithrani Au1 M4</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Chithrani_Au1_M4"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Chithrani_Au1_M4"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Assay rdf:resource="&wiki;Chithrani2006_A2"/>
+		<property:Has_Endpoint rdf:resource="&wiki;Particles_Per_Cell"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2600</property:Has_Endpoint_Value>
+		<property:Has_Entity rdf:resource="&wiki;Chithrani_Au1"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T21:37:20</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Chithrani_Au3_M4">
+		<rdfs:label>Chithrani Au3 M4</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Chithrani_Au3_M4"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Chithrani_Au3_M4"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Assay rdf:resource="&wiki;Chithrani2006_A2"/>
+		<property:Has_Endpoint rdf:resource="&wiki;Particles_Per_Cell"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3500</property:Has_Endpoint_Value>
+		<property:Has_Entity rdf:resource="&wiki;Chithrani_Au3"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T21:37:38</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Chithrani_Au4_M4">
+		<rdfs:label>Chithrani Au4 M4</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Chithrani_Au4_M4"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Chithrani_Au4_M4"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Assay rdf:resource="&wiki;Chithrani2006_A2"/>
+		<property:Has_Endpoint rdf:resource="&wiki;Particles_Per_Cell"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1800</property:Has_Endpoint_Value>
+		<property:Has_Entity rdf:resource="&wiki;Chithrani_Au4"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T21:37:55</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Chithrani2006_T3">
+		<rdfs:label>Chithrani2006 T3</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Chithrani2006_T3"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Chithrani2006_T3"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:For_Measurement rdf:resource="&wiki;Chithrani_Au1_M5"/>
+		<property:For_Measurement rdf:resource="&wiki;Chithrani_Au3_M5"/>
+		<property:For_Measurement rdf:resource="&wiki;Chithrani_Au4_M5"/>
+		<property:Has_Endpoint rdf:resource="&wiki;Incubation_time"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</property:Has_Endpoint_Value>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T21:39:41</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Chithrani_Au1_M5">
+		<rdfs:label>Chithrani Au1 M5</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Chithrani_Au1_M5"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Chithrani_Au1_M5"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Assay rdf:resource="&wiki;Chithrani2006_A2"/>
+		<property:Has_Endpoint rdf:resource="&wiki;Particles_Per_Cell"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3400</property:Has_Endpoint_Value>
+		<property:Has_Entity rdf:resource="&wiki;Chithrani_Au1"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T21:40:16</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Chithrani_Au3_M5">
+		<rdfs:label>Chithrani Au3 M5</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Chithrani_Au3_M5"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Chithrani_Au3_M5"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Assay rdf:resource="&wiki;Chithrani2006_A2"/>
+		<property:Has_Endpoint rdf:resource="&wiki;Particles_Per_Cell"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4800</property:Has_Endpoint_Value>
+		<property:Has_Entity rdf:resource="&wiki;Chithrani_Au3"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T21:40:44</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Chithrani_Au4_M5">
+		<rdfs:label>Chithrani Au4 M5</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Chithrani_Au4_M5"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Chithrani_Au4_M5"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Assay rdf:resource="&wiki;Chithrani2006_A2"/>
+		<property:Has_Endpoint rdf:resource="&wiki;Particles_Per_Cell"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2400</property:Has_Endpoint_Value>
+		<property:Has_Entity rdf:resource="&wiki;Chithrani_Au4"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T21:41:02</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Chithrani2006_T4">
+		<rdfs:label>Chithrani2006 T4</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Chithrani2006_T4"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Chithrani2006_T4"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:For_Measurement rdf:resource="&wiki;Chithrani_Au1_M6"/>
+		<property:For_Measurement rdf:resource="&wiki;Chithrani_Au3_M6"/>
+		<property:For_Measurement rdf:resource="&wiki;Chithrani_Au4_M6"/>
+		<property:Has_Endpoint rdf:resource="&wiki;Incubation_time"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5.5</property:Has_Endpoint_Value>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T21:41:42</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Chithrani_Au1_M6">
+		<rdfs:label>Chithrani Au1 M6</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Chithrani_Au1_M6"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Chithrani_Au1_M6"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Assay rdf:resource="&wiki;Chithrani2006_A2"/>
+		<property:Has_Endpoint rdf:resource="&wiki;Particles_Per_Cell"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3800</property:Has_Endpoint_Value>
+		<property:Has_Entity rdf:resource="&wiki;Chithrani_Au1"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T21:42:08</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Chithrani_Au3_M6">
+		<rdfs:label>Chithrani Au3 M6</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Chithrani_Au3_M6"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Chithrani_Au3_M6"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Assay rdf:resource="&wiki;Chithrani2006_A2"/>
+		<property:Has_Endpoint rdf:resource="&wiki;Particles_Per_Cell"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5700</property:Has_Endpoint_Value>
+		<property:Has_Entity rdf:resource="&wiki;Chithrani_Au3"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T21:42:31</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Chithrani_Au4_M6">
+		<rdfs:label>Chithrani Au4 M6</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Chithrani_Au4_M6"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Chithrani_Au4_M6"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Assay rdf:resource="&wiki;Chithrani2006_A2"/>
+		<property:Has_Endpoint rdf:resource="&wiki;Particles_Per_Cell"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2900</property:Has_Endpoint_Value>
+		<property:Has_Entity rdf:resource="&wiki;Chithrani_Au4"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T21:43:04</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Chang2010">
+		<rdfs:label>Chang2010</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Chang2010"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Chang2010"/>
+		<rdf:type rdf:resource="&wiki;Category-3APapers"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<owl:sameAs rdf:resource="http://dx.doi.org/10.1016/j.toxlet.2010.11.016"/>
+		<property:Has_DOI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1016/j.toxlet.2010.11.016</property:Has_DOI>
+		<property:Has_Journal rdf:resource="&wiki;Toxicology_Letters"/>
+		<property:Has_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010</property:Has_Year>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T21:50:06</swivt:wikiPageModificationDate>
+		<property:Substances_extracted rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yes</property:Substances_extracted>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Chang2010_mGO">
+		<rdfs:label>Chang2010 mGO</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Chang2010_mGO"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Chang2010_mGO"/>
+		<rdf:type rdf:resource="&wiki;Category-3AGrapheneOxides"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
+		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO</property:Has_Chemical_Composition>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">423</property:Has_Identifier>
+		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">m-GO</property:Has_Label>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T21:51:39</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<owl:Class rdf:about="&wiki;Category-3AGrapheneOxides">
+		<rdfs:label>GrapheneOxides</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Category:GrapheneOxides"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Category:GrapheneOxides"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</swivt:wikiNamespace>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T21:52:10</swivt:wikiPageModificationDate>
+	</owl:Class>
+	<swivt:Subject rdf:about="&wiki;GrapheneOxide">
+		<rdfs:label>GrapheneOxide</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;GrapheneOxide"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/GrapheneOxide"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMaterialTypes"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T21:53:11</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Thickness">
+		<rdfs:label>Thickness</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Thickness"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Thickness"/>
+		<rdf:type rdf:resource="&wiki;Category-3AThickness"/>
+		<rdf:type rdf:resource="&wiki;Category-3AEndpoints"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T21:54:55</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Chang2010_mGO_M1">
+		<rdfs:label>Chang2010 mGO M1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Chang2010_mGO_M1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Chang2010_mGO_M1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Thickness"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.9</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Chang2010_mGO"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T21:56:42</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Chang2010_lGO">
+		<rdfs:label>Chang2010 lGO</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Chang2010_lGO"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Chang2010_lGO"/>
+		<rdf:type rdf:resource="&wiki;Category-3AGrapheneOxides"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
+		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO</property:Has_Chemical_Composition>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">424</property:Has_Identifier>
+		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">l-GO</property:Has_Label>
+		<property:Has_NM_Type rdf:resource="&wiki;GrapheneOxide"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T22:00:24</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Chang2010_sGO">
+		<rdfs:label>Chang2010 sGO</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Chang2010_sGO"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Chang2010_sGO"/>
+		<rdf:type rdf:resource="&wiki;Category-3AGrapheneOxides"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
+		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO</property:Has_Chemical_Composition>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">425</property:Has_Identifier>
+		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">s-GO</property:Has_Label>
+		<property:Has_NM_Type rdf:resource="&wiki;GrapheneOxide"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T21:57:41</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Chang2010_sGO_M1">
+		<rdfs:label>Chang2010 sGO M1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Chang2010_sGO_M1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Chang2010_sGO_M1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Thickness"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.9</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Chang2010_sGO"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T21:58:49</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Chang2010_lGO_M1">
+		<rdfs:label>Chang2010 lGO M1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Chang2010_lGO_M1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Chang2010_lGO_M1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Thickness"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.9</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Chang2010_lGO"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T22:00:44</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Chang2010_lGO_M2">
+		<rdfs:label>Chang2010 lGO M2</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Chang2010_lGO_M2"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Chang2010_lGO_M2"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Particle_Size"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">780</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Chang2010_lGO"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T22:01:59</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Chang2010_mGO_M2">
+		<rdfs:label>Chang2010 mGO M2</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Chang2010_mGO_M2"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Chang2010_mGO_M2"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Particle_Size"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">430</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Chang2010_mGO"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T22:02:45</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Chang2010_sGO_M2">
+		<rdfs:label>Chang2010 sGO M2</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Chang2010_sGO_M2"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Chang2010_sGO_M2"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Particle_Size"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">160</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Chang2010_sGO"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T22:03:12</swivt:wikiPageModificationDate>
+	</swivt:Subject>
 	<owl:DatatypeProperty rdf:about="&swivt;creationDate" />
 	<owl:ObjectProperty rdf:about="&swivt;page" />
 	<owl:DatatypeProperty rdf:about="&swivt;wikiNamespace" />
@@ -21577,6 +22497,8 @@
 	<owl:Class rdf:about="&wiki;Category-3APercentage_Non-2DViable_Cells" />
 	<owl:Class rdf:about="&wiki;Category-3ACellular_uptake" />
 	<owl:Class rdf:about="&wiki;Category-3AROS_Concentration" />
+	<owl:Class rdf:about="&wiki;Category-3AHOMO" />
+	<owl:Class rdf:about="&wiki;Category-3ALUMO" />
 	<owl:Class rdf:about="&wiki;Category-3ADNA_Damage" />
 	<owl:Class rdf:about="&wiki;Category-3ALog_GI50" />
 	<owl:Class rdf:about="&wiki;Category-3AAggregation" />
@@ -21604,5 +22526,8 @@
 	<owl:Class rdf:about="&wiki;Category-3ABoiling_Point" />
 	<owl:Class rdf:about="&wiki;Category-3AMelting_Point" />
 	<owl:Class rdf:about="&wiki;Category-3ARaw_Activity" />
+	<owl:Class rdf:about="&wiki;Category-3AParticles_Per_Cell" />
+	<owl:Class rdf:about="&wiki;Category-3AIncubation_time" />
+	<owl:Class rdf:about="&wiki;Category-3AThickness" />
 	<!-- Created by Semantic MediaWiki, http://semantic-mediawiki.org/ -->
 </rdf:RDF>

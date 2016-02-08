@@ -1650,6 +1650,43 @@ You can browse this data via one of the following categories:
 * [[Git Repository]]
 * [[Backup and Restore]] of the data</text>
     </revision>
+    <revision>
+      <id>4383</id>
+      <timestamp>2016-02-08T14:30:45Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>/* Nanomaterial Database */</comment>
+      <text xml:space="preserve">Egon's Lab Notebook.
+
+* [[TODO]]
+
+== Nanomaterial Database ==
+
+Database containing QSAR studies from literature with assay data from cell line experiments.
+You can browse this data via one of the following categories:
+
+* [[:Category:Chemical_Entities|Chemical Entities]] ({{#ask: [[Category:Chemical_Entities]] | format=count}}),
+** [[:Category:Materials|Materials]] ({{#ask: [[Category:Materials]] | format=count}}),
+*** [[:Category:MetalOxides|Metal oxides]] ({{#ask: [[Category:MetalOxides]] | format=count}}), [[:Category:Metals|Metals]] ({{#ask: [[Category:Metals]] | format=count}}), [[:Category:Alloys|Alloys]] ({{#ask: [[Category:Alloys]] | format=count}}), [[:Category:Nanoclays|Nanoclays]] ({{#ask: [[Category:Nanoclays]] | format=count}}), [[:Category:Multi-walled_Carbon_Nanotubes|Multi-walled Carbon Nanotube]] ({{#ask: [[Category:Multi-walled_Carbon_Nanotubes]] | format=count}}), [[:Category:CarbonNanotubes|CarbonNanotubes]] ({{#ask: [[Category:CarbonNanotubes]] | format=count}}), [[:Category:Fullerenes|Fullerenes]] ({{#ask: [[Category:Fullerenes]] | format=count}})
+*** [[:Category:Coatings|Coatings]] ({{#ask: [[Category:Coatings]] | format=count}}), [[:Category:Coating_Parts|Coating Parts]] ({{#ask: [[Category:Coating_Parts]] | format=count}})
+** [[:Category:Bundles|Bundles]] ({{#ask: [[Category:Bundles]] | format=count}}),
+* [[:Category:Studies|Studies]] ({{#ask: [[Category:Studies]] | format=count}}), [[:Category:Measurements|Measurements]] ({{#ask: [[Category:Measurements]] | format=count}}), [[:Category:Methods|Methods]] ({{#ask: [[Category:Methods]] | format=count}})
+** [[:Category:NanoMaterials|NanoMaterials]] ({{#ask: [[Category:Studies]] [[Has Entities::!Compounds]] | format=count}}), of which Metal oxides ({{#ask: [[Category:Studies]] [[Has Entities::MetalOxides]] | format=count}}),
+* [[:Category:Papers|Papers]] ({{#ask: [[Category:Papers]] | format=count}}) , [[:Category:PapersToRead|To Read]] ({{#ask: [[Category:PapersToRead]] | format=count}}) from {{#ask: [[Category:Journals]] | format=count}} [[:Category:Journals|Journals]] 
+* [[:Category:Descriptors|Descriptors]] ({{#ask: [[Category:Descriptors]] | format=count}}),
+* [[:Category:Endpoints|Endpoints]] ({{#ask: [[Category:Endpoints]] | format=count}}), [[:Category:Assays|Assays]] ({{#ask: [[Category:Assays]] | format=count}}), [[:Category:AssayTypes|Assay Types]] ({{#ask: [[Category:AssayTypes]] | format=count}}), [[:Category:AssayMethods|Assay Methods]] ({{#ask: [[Category:AssayMethods]] | format=count}})
+* [[:Category:Relationships|Relationships]] ({{#ask: [[Category:Relationships]] | format=count}}),
+* [[:Category:Toxicity|Toxicity]] ({{#ask: [[Category:Toxicity]] | format=count}}),
+* [[:Category:Cell Lines|Cell lines]] ({{#ask: [[Category:Cell Lines]] | format=count}}).
+
+== Admin ==
+
+* [[Installation]]
+* [[Git Repository]]
+* [[Backup and Restore]] of the data</text>
+    </revision>
   </page>
   <page>
     <title>MediaWiki:Smw uri blacklist</title>
@@ -11647,6 +11684,126 @@ Just the DOIs:
 [[Category:Endpoints]]__NOEDITSECTION____NOTOC__
 &lt;/includeonly&gt;</text>
     </revision>
+    <revision>
+      <id>4372</id>
+      <timestamp>2016-02-08T13:42:15Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">&lt;noinclude&gt;
+&lt;pre&gt;
+{{Endpoint
+|Description=
+|Has Assay Type=
+}}
+&lt;/pre&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: right; table-layout:fixed; word-wrap: break-word;&quot;
+! colspan=2 style=&quot;text-align: center; font-size: 125%&quot; | {{{Name|{{PAGENAME}} }}}
+|-
+! colspan=2 style=&quot;text-align: center;background-color: #ddd;&quot; | Description
+|-
+{{#if:{{{Description|}}}|
+{{!}}-
+{{!}} Description
+{{!}} {{{Description}}} 
+}}
+{{#if:{{{Has Assay Type|}}}|
+{{!}}-
+{{!}} Assay Type
+{{!}} [[{{{Has Assay Type}}}]]
+}}
+|}
+&lt;br&gt;
+{{#if:{{{Description|}}} |
+{{#set:
+|Description={{{Description|}}}
+}}
+| }}
+{{#if:{{{Has Assay Type|}}} |
+{{#set:
+|Has Assay Type={{{Has Assay Type|}}}
+}}
+| }}
+== Relationships ==
+{{#ask: [[Category:Relationships]] [[Has End point::{{PAGENAME}}]]
+| ? Has Descriptor
+| ? Has Relation
+| ? Has End point
+}}
+== Measurements ==
+{{#ask: [[Category:Measurements]] [[Has Endpoint::{{PAGENAME}}]]
+| ? Has Entity
+| ? Has Endpoint Value
+| ? Has Endpoint Min
+| ? Has Endpoint Max
+| ? Has Endpoint Value Units
+}}
+[[Category:{{PAGENAME}}]]__NOEDITSECTION____NOTOC__
+[[Category:Endpoints]]__NOEDITSECTION____NOTOC__
+&lt;/includeonly&gt;</text>
+    </revision>
+    <revision>
+      <id>4373</id>
+      <timestamp>2016-02-08T13:42:37Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">&lt;noinclude&gt;
+&lt;pre&gt;
+{{Endpoint
+|Description=
+|Has Assay Type=
+}}
+&lt;/pre&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: right; table-layout:fixed; word-wrap: break-word;&quot;
+! colspan=2 style=&quot;text-align: center; font-size: 125%&quot; | {{{Name|{{PAGENAME}} }}}
+|-
+! colspan=2 style=&quot;text-align: center;background-color: #ddd;&quot; | Description
+|-
+{{#if:{{{Description|}}}|
+{{!}}-
+{{!}} Description
+{{!}} {{{Description}}} 
+}}
+{{#if:{{{Has Assay Type|}}}|
+{{!}}-
+{{!}} Assay Type
+{{!}} [[{{{Has Assay Type}}}]]
+}}
+|}
+&lt;br&gt;
+{{#if:{{{Description|}}} |
+{{#set:
+|Description={{{Description|}}}
+}}
+| }}
+{{#if:{{{Has Assay Type|}}} |
+{{#set:
+|Has Assay Type={{{Has Assay Type|}}}
+}}
+| }}
+== Relationships ==
+{{#ask: [[Category:Relationships]] [[Has End point::{{PAGENAME}}]]
+| ? Has Descriptor
+| ? Has Relation
+| ? Has End point
+}}
+== Measurements ==
+{{#ask: [[Category:Measurements]] [[Has Endpoint::{{PAGENAME}}]]
+| ? Has Entity
+| ? Has Endpoint Value
+| ? Has Endpoint Value Min
+| ? Has Endpoint Value Max
+| ? Has Endpoint Value Units
+}}
+[[Category:{{PAGENAME}}]]__NOEDITSECTION____NOTOC__
+[[Category:Endpoints]]__NOEDITSECTION____NOTOC__
+&lt;/includeonly&gt;</text>
+    </revision>
   </page>
   <page>
     <title>Cytotoxicity</title>
@@ -14244,6 +14401,55 @@ The allowed value for this property is:
 * [[Allows value::PolymerCore]]
 * [[Allows value::Nanoclay]]
 * [[Allows value::Multi-walled Carbon Nanotube]]
+
+{{#set: |Equivalent URI=http://www.w3.org/2000/01/rdf-schema#subClassOf }}
+{{#set: |Original URI=http://www.w3.org/2000/01/rdf-schema#subClassOf }}</text>
+    </revision>
+    <revision>
+      <id>4342</id>
+      <timestamp>2016-02-08T10:49:43Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">This is a property of type [[Has type::Page]].
+
+The allowed value for this property is:
+* [[Allows value::Metal]]
+* [[Allows value::MetalOxide]]
+* [[Allows value::CarbonNanotube]]
+* [[Allows value::CarbonNanoparticle]]
+* [[Allows value::Alloy]]
+* [[Allows value::Graphene]]
+* [[Allows value::PolymerCore]]
+* [[Allows value::Nanoclay]]
+* [[Allows value::Multi-walled Carbon Nanotube]]
+* [[Allows value::Fullerene]]
+
+{{#set: |Equivalent URI=http://www.w3.org/2000/01/rdf-schema#subClassOf }}
+{{#set: |Original URI=http://www.w3.org/2000/01/rdf-schema#subClassOf }}</text>
+    </revision>
+    <revision>
+      <id>4457</id>
+      <timestamp>2016-02-08T21:52:50Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">This is a property of type [[Has type::Page]].
+
+The allowed value for this property is:
+* [[Allows value::Metal]]
+* [[Allows value::MetalOxide]]
+* [[Allows value::CarbonNanotube]]
+* [[Allows value::CarbonNanoparticle]]
+* [[Allows value::Alloy]]
+* [[Allows value::Graphene]]
+* [[Allows value::GrapheneOxide]]
+* [[Allows value::PolymerCore]]
+* [[Allows value::Nanoclay]]
+* [[Allows value::Multi-walled Carbon Nanotube]]
+* [[Allows value::Fullerene]]
 
 {{#set: |Equivalent URI=http://www.w3.org/2000/01/rdf-schema#subClassOf }}
 {{#set: |Original URI=http://www.w3.org/2000/01/rdf-schema#subClassOf }}</text>
@@ -17937,6 +18143,20 @@ The allowed value for this property is:
 * [[Allows value::Regression]]
 * [[Allows value::Descriptive]]</text>
     </revision>
+    <revision>
+      <id>4259</id>
+      <timestamp>2015-11-16T18:20:56Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">This is a property of type [[Has type::Page]].
+
+The allowed value for this property is:
+* [[Allows value::Classification]]
+* [[Allows value::Regression]]
+* [[Allows value::Descriptive]]
+* [[Allows value::MicroArray]]</text>
+    </revision>
   </page>
   <page>
     <title>Regression</title>
@@ -18409,6 +18629,108 @@ The allowed value for this property is:
 == Descriptive ==
 
 {{#ask: [[Category:Studies]] [[Has Study Type::Descriptive]] [[Has Entities::!Compounds]]
+| ? Has Identifier
+| ? Has Entities
+| ? Has Endpoint
+| ? Has Study Type
+| ? Has Object Count
+}}</text>
+    </revision>
+    <revision>
+      <id>4269</id>
+      <timestamp>2015-11-16T19:00:47Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">List of (QSAR) studies.
+
+== Regression ==
+
+{{#ask: [[Category:Studies]] [[Has Study Type::Regression]] [[Has Entities::!Compounds]]
+| ? Has Identifier
+| ? Has Entities
+| ? Has Endpoint
+| ? Has Object Count
+| ? Has R2
+| ? Has Q2
+| ? Has RMSEP
+}}
+
+== Classification ==
+
+{{#ask: [[Category:Studies]] [[Has Study Type::Classification]] [[Has Entities::!Compounds]]
+| ? Has Identifier
+| ? Has Entities
+| ? Has Endpoint
+| ? Has Study Type
+| ? Has Object Count
+| ? Has EA
+}}
+
+== Descriptive ==
+
+{{#ask: [[Category:Studies]] [[Has Study Type::Descriptive]] [[Has Entities::!Compounds]]
+| ? Has Identifier
+| ? Has Entities
+| ? Has Endpoint
+| ? Has Study Type
+| ? Has Object Count
+}}
+
+== MicroArray ==
+
+{{#ask: [[Category:Studies]] [[Has Study Type::MicroArray]] [[Has Entities::!Compounds]]
+| ? Has Identifier
+| ? Has Entities
+| ? Has Endpoint
+| ? Has Study Type
+| ? Has Object Count
+}}</text>
+    </revision>
+    <revision>
+      <id>4270</id>
+      <timestamp>2015-11-16T19:01:45Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">List of (QSAR) studies.
+
+== Regression ==
+
+{{#ask: [[Category:Studies]] [[Has Study Type::Regression]] [[Has Entities::!Compounds]]
+| ? Has Identifier
+| ? Has Entities
+| ? Has Endpoint
+| ? Has Object Count
+| ? Has R2
+| ? Has Q2
+| ? Has RMSEP
+}}
+
+== Classification ==
+
+{{#ask: [[Category:Studies]] [[Has Study Type::Classification]] [[Has Entities::!Compounds]]
+| ? Has Identifier
+| ? Has Entities
+| ? Has Endpoint
+| ? Has Study Type
+| ? Has Object Count
+| ? Has EA
+}}
+
+== Descriptive ==
+
+{{#ask: [[Category:Studies]] [[Has Study Type::Descriptive]] [[Has Entities::!Compounds]]
+| ? Has Identifier
+| ? Has Entities
+| ? Has Endpoint
+| ? Has Study Type
+| ? Has Object Count
+}}
+
+== MicroArray ==
+
+{{#ask: [[Category:Studies]] [[Has Study Type::MicroArray]]
 | ? Has Identifier
 | ? Has Entities
 | ? Has Endpoint
@@ -25751,6 +26073,31 @@ Coated gold particles.</text>
  |limit=250
 }}</text>
     </revision>
+    <revision>
+      <id>4459</id>
+      <timestamp>2016-02-08T21:53:27Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{MaterialType
+|Has Label=Metal
+|Has URI=
+}}
+
+{{#ask: [[Category:Metals]]
+ | ? Has Label #
+ | ? Has Size #
+ | ? Has NM Type #
+ | ? Has Zeta potential #
+ |format = template
+ |template = NMsFrontTemplate
+ |introtemplate = NMsFrontHeader
+ |outrotemplate = NMsFrontFooter
+ |offset=0
+ |limit=250
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Category:Metals</title>
@@ -26152,6 +26499,31 @@ Coated gold particles.</text>
       <text xml:space="preserve">* navigation
 ** mainpage|mainpage-description
 ** :Category:Materials|Materials
+** :Category:Studies|Studies
+** :Category:Papers|Papers
+** :Category:Descriptors|Descriptors
+** :Category:Endpoints|Endpoints
+** :Category:Cell Lines|Cell lines
+** :Category:Relationships|Relationships
+** recentchanges-url|recentchanges
+** randompage-url|randompage
+** helppage|help
+** Special:SPARQLEndpoint|SPARQL
+* SEARCH
+* TOOLBOX
+* LANGUAGES</text>
+    </revision>
+    <revision>
+      <id>4338</id>
+      <timestamp>2016-02-06T13:00:54Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">* navigation
+** mainpage|mainpage-description
+** :Category:Materials|Materials
+** :Category:Bundles|Bundles
 ** :Category:Studies|Studies
 ** :Category:Papers|Papers
 ** :Category:Descriptors|Descriptors
@@ -36196,6 +36568,18 @@ The allowed value for this property is:
 |CHEMINF=000291
 }}</text>
     </revision>
+    <revision>
+      <id>4375</id>
+      <timestamp>2016-02-08T13:52:51Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Descriptor
+|CHEMINF=000291
+}}
+{{Endpoint}}</text>
+    </revision>
   </page>
   <page>
     <title>LUMO</title>
@@ -36210,6 +36594,18 @@ The allowed value for this property is:
       <text xml:space="preserve">{{Descriptor
 |CHEMINF=000292
 }}</text>
+    </revision>
+    <revision>
+      <id>4377</id>
+      <timestamp>2016-02-08T13:55:53Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Descriptor
+|CHEMINF=000292
+}}
+{{Endpoint}}</text>
     </revision>
   </page>
   <page>
@@ -38816,6 +39212,25 @@ COOH in the 7 position. See also [[L-Arginine-7-COOH]].</text>
 
 {{#set:|Used in Study=Harper2011InVivoTox}}</text>
     </revision>
+    <revision>
+      <id>4367</id>
+      <timestamp>2016-02-08T13:18:49Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=Ag
+|Has Identifier=91
+|Has Chemical Composition=Ag
+|Has SMILES=[Ag]
+|Has Chemical Coating=MEEECoating
+|Has NM Type=Metal
+|Has Source=Harper2011
+}}
+
+{{#set:|Used in Study=Harper2011InVivoTox}}</text>
+    </revision>
   </page>
   <page>
     <title>Harper2011 2</title>
@@ -38884,6 +39299,25 @@ COOH in the 7 position. See also [[L-Arginine-7-COOH]].</text>
 |Has Label=Ag
 |Has Identifier=92
 |Has Chemical Composition=Ag
+|Has Chemical Coating=MEEECoating
+|Has NM Type=Metal
+|Has Source=Harper2011
+}}
+
+{{#set:|Used in Study=Harper2011InVivoTox}}</text>
+    </revision>
+    <revision>
+      <id>4366</id>
+      <timestamp>2016-02-08T13:18:38Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=Ag
+|Has Identifier=92
+|Has Chemical Composition=Ag
+|Has SMILES=[Ag]
 |Has Chemical Coating=MEEECoating
 |Has NM Type=Metal
 |Has Source=Harper2011
@@ -39022,6 +39456,27 @@ Size is the core size.
 |Has Label=Ag
 |Has Identifier=93
 |Has Chemical Composition=Ag
+|Has Chemical Coating=TMATCoating
+|Has NM Type=Metal
+|Has Source=Harper2011
+}}
+
+Size is the core size.
+
+{{#set:|Used in Study=Harper2011InVivoTox}}</text>
+    </revision>
+    <revision>
+      <id>4365</id>
+      <timestamp>2016-02-08T13:18:29Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=Ag
+|Has Identifier=93
+|Has Chemical Composition=Ag
+|Has SMILES=[Ag]
 |Has Chemical Coating=TMATCoating
 |Has NM Type=Metal
 |Has Source=Harper2011
@@ -39235,6 +39690,25 @@ Size is the core size.
 
 {{#set:|Used in Study=Harper2011InVivoTox}}</text>
     </revision>
+    <revision>
+      <id>4364</id>
+      <timestamp>2016-02-08T13:18:23Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=Ag
+|Has Identifier=95
+|Has Chemical Composition=Ag
+|Has SMILES=[Ag]
+|Has Chemical Coating=MEECoating
+|Has NM Type=Metal
+|Has Source=Harper2011
+}}
+
+{{#set:|Used in Study=Harper2011InVivoTox}}</text>
+    </revision>
   </page>
   <page>
     <title>Harper2011 5</title>
@@ -39330,6 +39804,25 @@ Size is the core size.
 
 {{#set:|Used in Study=Harper2011InVivoTox}}</text>
     </revision>
+    <revision>
+      <id>4368</id>
+      <timestamp>2016-02-08T13:31:40Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=Ag
+|Has Identifier=100
+|Has Chemical Composition=Ag
+|Has SMILES=[Ag]
+|Has Chemical Coating=MEECoating
+|Has NM Type=Metal
+|Has Source=Harper2011
+}}
+
+{{#set:|Used in Study=Harper2011InVivoTox}}</text>
+    </revision>
   </page>
   <page>
     <title>Harper2011 6</title>
@@ -39413,6 +39906,27 @@ Size is the core size.
 
 {{#set:|Used in Study=Harper2011InVivoTox}}</text>
     </revision>
+    <revision>
+      <id>4363</id>
+      <timestamp>2016-02-08T13:18:12Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=Ag
+|Has Identifier=96
+|Has Chemical Composition=Ag
+|Has SMILES=[Ag]
+|Has Chemical Coating=TMATCoating
+|Has NM Type=Metal
+|Has Source=Harper2011
+}}
+
+Size is the core size.
+
+{{#set:|Used in Study=Harper2011InVivoTox}}</text>
+    </revision>
   </page>
   <page>
     <title>Harper2011 7</title>
@@ -39469,6 +39983,27 @@ Size is the core size.
 |Has Label=Ag
 |Has Identifier=97
 |Has Chemical Composition=Ag
+|Has Chemical Coating=TMATCoating
+|Has NM Type=Metal
+|Has Source=Harper2011
+}}
+
+Size is the core size.
+
+{{#set:|Used in Study=Harper2011InVivoTox}}</text>
+    </revision>
+    <revision>
+      <id>4362</id>
+      <timestamp>2016-02-08T13:15:13Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=Ag
+|Has Identifier=97
+|Has Chemical Composition=Ag
+|Has SMILES=[Ag]
 |Has Chemical Coating=TMATCoating
 |Has NM Type=Metal
 |Has Source=Harper2011
@@ -39543,6 +40078,27 @@ Size is the core size.
 
 {{#set:|Used in Study=Harper2011InVivoTox}}</text>
     </revision>
+    <revision>
+      <id>4361</id>
+      <timestamp>2016-02-08T13:15:06Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=Ag
+|Has Identifier=98
+|Has Chemical Composition=Ag
+|Has SMILES=[Ag]
+|Has Chemical Coating=MESCoating
+|Has NM Type=Metal
+|Has Source=Harper2011
+}}
+
+Size is the core size.
+
+{{#set:|Used in Study=Harper2011InVivoTox}}</text>
+    </revision>
   </page>
   <page>
     <title>Harper2011 9</title>
@@ -39599,6 +40155,27 @@ Size is the core size.
 |Has Label=Ag
 |Has Identifier=99
 |Has Chemical Composition=Ag
+|Has Chemical Coating=MESCoating
+|Has NM Type=Metal
+|Has Source=Harper2011
+}}
+
+Size is the core size.
+
+{{#set:|Used in Study=Harper2011InVivoTox}}</text>
+    </revision>
+    <revision>
+      <id>4360</id>
+      <timestamp>2016-02-08T13:14:56Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Label=Ag
+|Has Identifier=99
+|Has Chemical Composition=Ag
+|Has SMILES=[Ag]
 |Has Chemical Coating=MESCoating
 |Has NM Type=Metal
 |Has Source=Harper2011
@@ -47876,6 +48453,912 @@ This paper is purely theoretical and does not have experimental data; therefore,
 [[Category:Chemical_Entities]]__NOEDITSECTION____NOTOC__
 &lt;/includeonly&gt;</text>
     </revision>
+    <revision>
+      <id>4343</id>
+      <timestamp>2016-02-08T10:50:55Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">&lt;noinclude&gt;
+&lt;pre&gt;
+{{Material
+|Has Identifier=
+|Has Label=
+|Has Source=
+|Has Bundle=
+|Has Chemical Composition=
+|Has Chemical Component=
+|Has Chemical Coating=
+|Image=
+|Has NM Type=
+|Has CAS=
+|Has Aldrich=
+|Has PubChem CID=
+|Has PubChem SID=
+|Has JRC ID=
+|Has COD ID=
+}}
+&lt;/pre&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: right; table-layout:fixed; word-wrap: break-word;&quot;
+! colspan=2 style=&quot;text-align: center;background-color: #ddd;&quot; | Material
+|-
+! colspan=2 style=&quot;text-align: center; font-size: 125%&quot; | {{{Name|{{PAGENAME}}}}}
+{{#if:{{{Image|}}}|
+{{!}}-
+{{!}} Image
+{{!}} {{{Image}}}
+}}
+|-
+{{#if:{{{Has Label|}}}|
+{{!}}-
+{{!}} Label
+{{!}} {{{Has Label}}} 
+}}
+|-
+{{#if:{{{Has Source|}}}|
+{{!}}-
+{{!}} Source
+{{!}} [[{{{Has Source}}}]]
+}}
+|-
+{{#if:{{{Has Bundle|}}}|
+{{!}}-
+{{!}} Bundle
+{{!}} [[{{{Has Bundle}}}]]
+}}
+|-
+{{#if:{{{Has Identifier|}}}|
+{{!}}-
+{{!}} Identifier
+{{!}} {{{Has Identifier}}} 
+}}
+|-
+{{#if:{{{Has Chemical Composition|}}}|
+{{!}}-
+{{!}} Chemical Composition
+{{!}} {{{Has Chemical Composition}}} 
+}}
+|-
+{{#if:{{{Has Chemical Component|}}}|
+{{!}}-
+{{!}} Chemical Component
+{{!}} {{{Has Chemical Component}}} 
+}}
+|-
+{{#if:{{{Has Chemical Coating|}}}|
+{{!}}-
+{{!}} Chemical Coating
+{{!}} {{{Has Chemical Coating}}} 
+}}
+|-
+{{#if:{{{Has CAS|}}}|
+{{!}}-
+{{!}} CAS regno
+{{!}} {{{Has CAS}}} 
+}}
+|-
+{{#if:{{{Has Aldrich|}}}|
+{{!}}-
+{{!}} Aldrich Product
+{{!}} [http://www.sigmaaldrich.com/catalog/product/aldrich/{{{Has Aldrich}}} {{{Has Aldrich}}}]
+}}
+|-
+{{#if:{{{Has PubChem SID|}}}|
+{{!}}-
+{{!}} PubChem SID
+{{!}} [https://pubchem.ncbi.nlm.nih.gov/substance/{{{Has PubChem SID}}} {{{Has PubChem SID}}}]
+}}
+|-
+{{#if:{{{Has PubChem CID|}}}|
+{{!}}-
+{{!}} PubChem CID
+{{!}} [https://pubchem.ncbi.nlm.nih.gov/compound/{{{Has PubChem CID}}} {{{Has PubChem CID}}}]
+}}
+|-
+{{#if:{{{Has COD ID|}}}|
+{{!}}-
+{{!}} COD ID
+{{!}} [http://www.crystallography.net/cod/{{{Has COD ID}}}.html {{{Has COD ID}}}]
+}}
+|-
+{{#if:{{{Has JRC ID|}}}|
+{{!}}-
+{{!}} JRC ID
+{{!}} {{{Has JRC ID}}}
+}}
+|-
+! colspan=2 style=&quot;text-align: center;background-color: #ddd;&quot; | Properties
+{{#if:{{{Has NM Type|}}}|
+{{!}}-
+{{!}} Type
+{{!}} {{{Has NM Type}}} 
+}}
+|}
+&lt;br&gt;
+= Measurements =
+{{#ask: [[Category:Measurements]] [[Has Entity::{{PAGENAME}}]]
+| ?Has Dose #
+| ?Has Endpoint
+| ?Has Endpoint Value
+| ?Has Endpoint Error
+| ?Has Endpoint Value Min
+| ?Has Endpoint Value Max
+| ?Has Endpoint Value Units
+| ?Has Assay
+| ?Has Method
+| sort=Has Endpoint
+| order=ascending
+| height=250
+| width=600
+}}
+{{#ask: [[Category:Measurements]] [[Has Entity::{{PAGENAME}}]]
+| ?Has Dose #
+| ?Has Endpoint
+| ?Has Endpoint Class
+| ?Has Method
+| sort=Has Endpoint Class
+| order=ascending
+| height=250
+| width=600
+}}
+{{#if:{{{Has Label|}}} |
+{{#set:
+|Has Label={{{Has Label|}}}
+}}
+| }}
+{{#if:{{{Has Source|}}} |
+{{#set:
+|Has Source={{{Has Source|}}}
+}}
+| }}
+{{#if:{{{Has Bundle|}}} |
+{{#set:
+|Has Bundle={{{Has Bundle|}}}
+}}
+| }}
+{{#if:{{{Has Identifier|}}} |
+{{#set:
+|Has Identifier={{{Has Identifier|}}}
+}}
+| }}
+{{#if:{{{Has Chemical Composition|}}} |
+{{#set:
+|Has Chemical Composition={{{Has Chemical Composition|}}}
+}}
+| }}
+{{#if:{{{Has Chemical Coating|}}} |
+{{#set:
+|Has Chemical Coating={{{Has Chemical Coating|}}}
+}}
+| }}
+{{#if:{{{Has Chemical Component|}}} |
+{{#set:
+|Has Chemical Component={{{Has Chemical Component|}}}
+}}
+| }}
+{{#if:{{{Has CAS|}}} |
+{{#set:
+|Has CAS={{{Has CAS|}}}
+}}
+| }}
+{{#if:{{{Has Aldrich|}}} |
+{{#set:|Has Aldrich={{{Has Aldrich|}}}}}
+{{#set:|Has homepage=http://www.sigmaaldrich.com/catalog/product/aldrich/{{{Has Aldrich|}}}}}
+| }}
+{{#if:{{{Has PubChem SID|}}} |
+{{#set:|Has PubChem SID={{{Has PubChem SID|}}}}}
+{{#set:|Close match=http://rdf.ncbi.nlm.nih.gov/pubchem/substance/SID{{{Has PubChem SID|}}}}}
+| }}
+{{#if:{{{Has PubChem CID|}}} |
+{{#set:|Has PubChem CID={{{Has PubChem CID|}}}}}
+{{#set:|Close match=http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID{{{Has PubChem CID|}}}}}
+| }}
+{{#if:{{{Has COD ID|}}} |
+{{#set:|Has COD ID={{{Has COD ID|}}}}}
+{{#set:|Has homepage=http://www.crystallography.net/cod/{{{Has COD ID|}}}.html}}
+| }}
+{{#if:{{{Has JRC ID|}}} |
+{{#set:|Has JRC ID={{{Has JRC ID|}}}}}
+| }}
+{{#if:{{{Has NM Type|}}} |
+{{#set:
+|Has NM Type={{{Has NM Type|}}}
+}}
+[[Category:{{{Has NM Type|}}}s]]
+| }}
+[[Category:Materials]]__NOEDITSECTION____NOTOC__
+[[Category:Chemical_Entities]]__NOEDITSECTION____NOTOC__
+&lt;/includeonly&gt;</text>
+    </revision>
+    <revision>
+      <id>4346</id>
+      <timestamp>2016-02-08T11:12:28Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">&lt;noinclude&gt;
+&lt;pre&gt;
+{{Material
+|Has Identifier=
+|Has Label=
+|Has Source=
+|Has Bundle=
+|Has Chemical Composition=
+|Has Chemical Component=
+|Has Chemical Coating=
+|Image=
+|Has NM Type=
+|Has CAS=
+|Has Aldrich=
+|Has PubChem CID=
+|Has PubChem SID=
+|Has JRC ID=
+|Has COD ID=
+}}
+&lt;/pre&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: right; table-layout:fixed; word-wrap: break-word;&quot;
+! colspan=2 style=&quot;text-align: center;background-color: #ddd;&quot; | Material
+|-
+! colspan=2 style=&quot;text-align: center; font-size: 125%&quot; | {{{Name|{{PAGENAME}}}}}
+{{#if:{{{Image|}}}|
+{{!}}-
+{{!}} Image
+{{!}} {{{Image}}}
+}}
+|-
+{{#if:{{{Has Label|}}}|
+{{!}}-
+{{!}} Label
+{{!}} {{{Has Label}}} 
+}}
+|-
+{{#if:{{{Has Source|}}}|
+{{!}}-
+{{!}} Source
+{{!}} [[{{{Has Source}}}]]
+}}
+|-
+{{#if:{{{Has Bundle|}}}|
+{{!}}-
+{{!}} Bundle
+{{!}} [[{{{Has Bundle}}}]]
+}}
+|-
+{{#if:{{{Has Identifier|}}}|
+{{!}}-
+{{!}} Identifier
+{{!}} {{{Has Identifier}}} 
+}}
+|-
+{{#if:{{{Has Chemical Composition|}}}|
+{{!}}-
+{{!}} Chemical Composition
+{{!}} {{{Has Chemical Composition}}} 
+}}
+|-
+{{#if:{{{Has Chemical Component|}}}|
+{{!}}-
+{{!}} Chemical Component
+{{!}} {{{Has Chemical Component}}} 
+}}
+|-
+{{#if:{{{Has Chemical Coating|}}}|
+{{!}}-
+{{!}} Chemical Coating
+{{!}} {{{Has Chemical Coating}}} 
+}}
+|-
+{{#if:{{{Has CAS|}}}|
+{{!}}-
+{{!}} CAS regno
+{{!}} {{{Has CAS}}} 
+}}
+|-
+{{#if:{{{Has Aldrich|}}}|
+{{!}}-
+{{!}} Aldrich Product
+{{!}} [http://www.sigmaaldrich.com/catalog/product/aldrich/{{{Has Aldrich}}} {{{Has Aldrich}}}]
+}}
+|-
+{{#if:{{{Has PubChem SID|}}}|
+{{!}}-
+{{!}} PubChem SID
+{{!}} [https://pubchem.ncbi.nlm.nih.gov/substance/{{{Has PubChem SID}}} {{{Has PubChem SID}}}]
+}}
+|-
+{{#if:{{{Has PubChem CID|}}}|
+{{!}}-
+{{!}} PubChem CID
+{{!}} [https://pubchem.ncbi.nlm.nih.gov/compound/{{{Has PubChem CID}}} {{{Has PubChem CID}}}]
+}}
+|-
+{{#if:{{{Has COD ID|}}}|
+{{!}}-
+{{!}} COD ID
+{{!}} [http://www.crystallography.net/cod/{{{Has COD ID}}}.html {{{Has COD ID}}}]
+}}
+|-
+{{#if:{{{Has JRC ID|}}}|
+{{!}}-
+{{!}} JRC ID
+{{!}} {{{Has JRC ID}}}
+}}
+|-
+! colspan=2 style=&quot;text-align: center;background-color: #ddd;&quot; | Properties
+{{#if:{{{Has NM Type|}}}|
+{{!}}-
+{{!}} Type
+{{!}} {{{Has NM Type}}} 
+}}
+|}
+&lt;br&gt;
+= Measurements =
+{{#ask: [[Category:Measurements]] [[Has Entity::{{PAGENAME}}]]
+| ?Has Dose #
+| ?Has Endpoint
+| ?Has Endpoint Value
+| ?Has Endpoint Error
+| ?Has Endpoint Value Min
+| ?Has Endpoint Value Max
+| ?Has Endpoint Value Units
+| ?Has Assay
+| ?Has Method
+| sort=Has Endpoint
+| order=ascending
+| height=250
+| width=600
+}}
+{{#ask: [[Category:Measurements]] [[Has Entity::{{PAGENAME}}]]
+| ?Has Dose #
+| ?Has Endpoint
+| ?Has Endpoint Class
+| ?Has Method
+| sort=Has Endpoint Class
+| order=ascending
+| height=250
+| width=600
+}}
+{{#if:{{{Has Label|}}} |
+{{#set:
+|Has Label={{{Has Label|}}}
+}}
+| }}
+{{#if:{{{Has Source|}}} |
+{{#set:
+|Has Source={{{Has Source|}}}
+}}
+| }}
+{{#if:{{{Has Bundle|}}} |
+{{#set:
+|Has Bundle={{{Has Bundle|}}}
+}}
+| }}
+{{#if:{{{Has Identifier|}}} |
+{{#set:
+|Has Identifier={{{Has Identifier|}}}
+}}
+| }}
+{{#if:{{{Has Chemical Composition|}}} |
+{{#set:
+|Has Chemical Composition={{{Has Chemical Composition|}}}
+}}
+| }}
+{{#if:{{{Has Chemical Coating|}}} |
+{{#set:
+|Has Chemical Coating={{{Has Chemical Coating|}}}
+}}
+| }}
+{{#if:{{{Has Chemical Component|}}} |
+{{#set:
+|Has Chemical Component={{{Has Chemical Component|}}}
+}}
+| }}
+{{#if:{{{Has CAS|}}} |
+{{#set:
+|Has CAS={{{Has CAS|}}}
+}}
+| }}
+{{#if:{{{Has Aldrich|}}} |
+{{#set:|Has Aldrich={{{Has Aldrich|}}}}}
+{{#set:|Has homepage=http://www.sigmaaldrich.com/catalog/product/aldrich/{{{Has Aldrich|}}}}}
+| }}
+{{#if:{{{Has PubChem SID|}}} |
+{{#set:|Has PubChem SID={{{Has PubChem SID|}}}}}
+{{#set:|Close match=http://rdf.ncbi.nlm.nih.gov/pubchem/substance/SID{{{Has PubChem SID|}}}}}
+{{#set:|Has homepage=https://pubchem.ncbi.nlm.nih.gov/substance/{{{Has PubChem SID|}}}}}
+| }}
+{{#if:{{{Has PubChem CID|}}} |
+{{#set:|Has PubChem CID={{{Has PubChem CID|}}}}}
+{{#set:|Close match=http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID{{{Has PubChem CID|}}}}}
+{{#set:|Has homepage=https://pubchem.ncbi.nlm.nih.gov/compound/{{{Has PubChem CID|}}}}}
+| }}
+{{#if:{{{Has COD ID|}}} |
+{{#set:|Has COD ID={{{Has COD ID|}}}}}
+{{#set:|Has homepage=http://www.crystallography.net/cod/{{{Has COD ID|}}}.html}}
+| }}
+{{#if:{{{Has JRC ID|}}} |
+{{#set:|Has JRC ID={{{Has JRC ID|}}}}}
+| }}
+{{#if:{{{Has NM Type|}}} |
+{{#set:
+|Has NM Type={{{Has NM Type|}}}
+}}
+[[Category:{{{Has NM Type|}}}s]]
+| }}
+[[Category:Materials]]__NOEDITSECTION____NOTOC__
+[[Category:Chemical_Entities]]__NOEDITSECTION____NOTOC__
+&lt;/includeonly&gt;</text>
+    </revision>
+    <revision>
+      <id>4350</id>
+      <timestamp>2016-02-08T12:58:21Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">&lt;noinclude&gt;
+&lt;pre&gt;
+{{Material
+|Has Identifier=
+|Has Label=
+|Has Source=
+|Has Bundle=
+|Has Chemical Composition=
+|Has Chemical Component=
+|Has SMILES=
+|Has Chemical Coating=
+|Image=
+|Has NM Type=
+|Has CAS=
+|Has Aldrich=
+|Has PubChem CID=
+|Has PubChem SID=
+|Has JRC ID=
+|Has COD ID=
+}}
+&lt;/pre&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: right; table-layout:fixed; word-wrap: break-word;&quot;
+! colspan=2 style=&quot;text-align: center;background-color: #ddd;&quot; | Material
+|-
+! colspan=2 style=&quot;text-align: center; font-size: 125%&quot; | {{{Name|{{PAGENAME}}}}}
+{{#if:{{{Image|}}}|
+{{!}}-
+{{!}} Image
+{{!}} {{{Image}}}
+}}
+|-
+{{#if:{{{Has Label|}}}|
+{{!}}-
+{{!}} Label
+{{!}} {{{Has Label}}} 
+}}
+|-
+{{#if:{{{Has Source|}}}|
+{{!}}-
+{{!}} Source
+{{!}} [[{{{Has Source}}}]]
+}}
+|-
+{{#if:{{{Has Bundle|}}}|
+{{!}}-
+{{!}} Bundle
+{{!}} [[{{{Has Bundle}}}]]
+}}
+|-
+{{#if:{{{Has Identifier|}}}|
+{{!}}-
+{{!}} Identifier
+{{!}} {{{Has Identifier}}} 
+}}
+|-
+{{#if:{{{Has Chemical Composition|}}}|
+{{!}}-
+{{!}} Chemical Composition
+{{!}} {{{Has Chemical Composition}}} 
+}}
+|-
+{{#if:{{{Has SMILES|}}}|
+{{!}}-
+{{!}} SMILES
+{{!}} {{{Has SMILES}}} 
+}}
+|-
+{{#if:{{{Has Chemical Component|}}}|
+{{!}}-
+{{!}} Chemical Component
+{{!}} {{{Has Chemical Component}}} 
+}}
+|-
+{{#if:{{{Has Chemical Coating|}}}|
+{{!}}-
+{{!}} Chemical Coating
+{{!}} {{{Has Chemical Coating}}} 
+}}
+|-
+{{#if:{{{Has CAS|}}}|
+{{!}}-
+{{!}} CAS regno
+{{!}} {{{Has CAS}}} 
+}}
+|-
+{{#if:{{{Has Aldrich|}}}|
+{{!}}-
+{{!}} Aldrich Product
+{{!}} [http://www.sigmaaldrich.com/catalog/product/aldrich/{{{Has Aldrich}}} {{{Has Aldrich}}}]
+}}
+|-
+{{#if:{{{Has PubChem SID|}}}|
+{{!}}-
+{{!}} PubChem SID
+{{!}} [https://pubchem.ncbi.nlm.nih.gov/substance/{{{Has PubChem SID}}} {{{Has PubChem SID}}}]
+}}
+|-
+{{#if:{{{Has PubChem CID|}}}|
+{{!}}-
+{{!}} PubChem CID
+{{!}} [https://pubchem.ncbi.nlm.nih.gov/compound/{{{Has PubChem CID}}} {{{Has PubChem CID}}}]
+}}
+|-
+{{#if:{{{Has COD ID|}}}|
+{{!}}-
+{{!}} COD ID
+{{!}} [http://www.crystallography.net/cod/{{{Has COD ID}}}.html {{{Has COD ID}}}]
+}}
+|-
+{{#if:{{{Has JRC ID|}}}|
+{{!}}-
+{{!}} JRC ID
+{{!}} {{{Has JRC ID}}}
+}}
+|-
+! colspan=2 style=&quot;text-align: center;background-color: #ddd;&quot; | Properties
+{{#if:{{{Has NM Type|}}}|
+{{!}}-
+{{!}} Type
+{{!}} {{{Has NM Type}}} 
+}}
+|}
+&lt;br&gt;
+= Measurements =
+{{#ask: [[Category:Measurements]] [[Has Entity::{{PAGENAME}}]]
+| ?Has Dose #
+| ?Has Endpoint
+| ?Has Endpoint Value
+| ?Has Endpoint Error
+| ?Has Endpoint Value Min
+| ?Has Endpoint Value Max
+| ?Has Endpoint Value Units
+| ?Has Assay
+| ?Has Method
+| sort=Has Endpoint
+| order=ascending
+| height=250
+| width=600
+}}
+{{#ask: [[Category:Measurements]] [[Has Entity::{{PAGENAME}}]]
+| ?Has Dose #
+| ?Has Endpoint
+| ?Has Endpoint Class
+| ?Has Method
+| sort=Has Endpoint Class
+| order=ascending
+| height=250
+| width=600
+}}
+{{#if:{{{Has Label|}}} |
+{{#set:
+|Has Label={{{Has Label|}}}
+}}
+| }}
+{{#if:{{{Has Source|}}} |
+{{#set:
+|Has Source={{{Has Source|}}}
+}}
+| }}
+{{#if:{{{Has Bundle|}}} |
+{{#set:
+|Has Bundle={{{Has Bundle|}}}
+}}
+| }}
+{{#if:{{{Has Identifier|}}} |
+{{#set:
+|Has Identifier={{{Has Identifier|}}}
+}}
+| }}
+{{#if:{{{Has Chemical Composition|}}} |
+{{#set:
+|Has Chemical Composition={{{Has Chemical Composition|}}}
+}}
+| }}
+{{#if:{{{SMILES|}}} |
+{{#set:
+|Has SMILES={{{SMILES|}}}
+}}
+| }}
+{{#if:{{{Has Chemical Coating|}}} |
+{{#set:
+|Has Chemical Coating={{{Has Chemical Coating|}}}
+}}
+| }}
+{{#if:{{{Has Chemical Component|}}} |
+{{#set:
+|Has Chemical Component={{{Has Chemical Component|}}}
+}}
+| }}
+{{#if:{{{Has CAS|}}} |
+{{#set:
+|Has CAS={{{Has CAS|}}}
+}}
+| }}
+{{#if:{{{Has Aldrich|}}} |
+{{#set:|Has Aldrich={{{Has Aldrich|}}}}}
+{{#set:|Has homepage=http://www.sigmaaldrich.com/catalog/product/aldrich/{{{Has Aldrich|}}}}}
+| }}
+{{#if:{{{Has PubChem SID|}}} |
+{{#set:|Has PubChem SID={{{Has PubChem SID|}}}}}
+{{#set:|Close match=http://rdf.ncbi.nlm.nih.gov/pubchem/substance/SID{{{Has PubChem SID|}}}}}
+{{#set:|Has homepage=https://pubchem.ncbi.nlm.nih.gov/substance/{{{Has PubChem SID|}}}}}
+| }}
+{{#if:{{{Has PubChem CID|}}} |
+{{#set:|Has PubChem CID={{{Has PubChem CID|}}}}}
+{{#set:|Close match=http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID{{{Has PubChem CID|}}}}}
+{{#set:|Has homepage=https://pubchem.ncbi.nlm.nih.gov/compound/{{{Has PubChem CID|}}}}}
+| }}
+{{#if:{{{Has COD ID|}}} |
+{{#set:|Has COD ID={{{Has COD ID|}}}}}
+{{#set:|Has homepage=http://www.crystallography.net/cod/{{{Has COD ID|}}}.html}}
+| }}
+{{#if:{{{Has JRC ID|}}} |
+{{#set:|Has JRC ID={{{Has JRC ID|}}}}}
+| }}
+{{#if:{{{Has NM Type|}}} |
+{{#set:
+|Has NM Type={{{Has NM Type|}}}
+}}
+[[Category:{{{Has NM Type|}}}s]]
+| }}
+[[Category:Materials]]__NOEDITSECTION____NOTOC__
+[[Category:Chemical_Entities]]__NOEDITSECTION____NOTOC__
+&lt;/includeonly&gt;</text>
+    </revision>
+    <revision>
+      <id>4351</id>
+      <timestamp>2016-02-08T13:00:01Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">&lt;noinclude&gt;
+&lt;pre&gt;
+{{Material
+|Has Identifier=
+|Has Label=
+|Has Source=
+|Has Bundle=
+|Has Chemical Composition=
+|Has Chemical Component=
+|Has SMILES=
+|Has Chemical Coating=
+|Image=
+|Has NM Type=
+|Has CAS=
+|Has Aldrich=
+|Has PubChem CID=
+|Has PubChem SID=
+|Has JRC ID=
+|Has COD ID=
+}}
+&lt;/pre&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: right; table-layout:fixed; word-wrap: break-word;&quot;
+! colspan=2 style=&quot;text-align: center;background-color: #ddd;&quot; | Material
+|-
+! colspan=2 style=&quot;text-align: center; font-size: 125%&quot; | {{{Name|{{PAGENAME}}}}}
+{{#if:{{{Image|}}}|
+{{!}}-
+{{!}} Image
+{{!}} {{{Image}}}
+}}
+|-
+{{#if:{{{Has Label|}}}|
+{{!}}-
+{{!}} Label
+{{!}} {{{Has Label}}} 
+}}
+|-
+{{#if:{{{Has Source|}}}|
+{{!}}-
+{{!}} Source
+{{!}} [[{{{Has Source}}}]]
+}}
+|-
+{{#if:{{{Has Bundle|}}}|
+{{!}}-
+{{!}} Bundle
+{{!}} [[{{{Has Bundle}}}]]
+}}
+|-
+{{#if:{{{Has Identifier|}}}|
+{{!}}-
+{{!}} Identifier
+{{!}} {{{Has Identifier}}} 
+}}
+|-
+{{#if:{{{Has Chemical Composition|}}}|
+{{!}}-
+{{!}} Chemical Composition
+{{!}} {{{Has Chemical Composition}}} 
+}}
+|-
+{{#if:{{{Has SMILES|}}}|
+{{!}}-
+{{!}} SMILES
+{{!}} {{{Has SMILES}}} 
+}}
+|-
+{{#if:{{{Has Chemical Component|}}}|
+{{!}}-
+{{!}} Chemical Component
+{{!}} {{{Has Chemical Component}}} 
+}}
+|-
+{{#if:{{{Has Chemical Coating|}}}|
+{{!}}-
+{{!}} Chemical Coating
+{{!}} {{{Has Chemical Coating}}} 
+}}
+|-
+{{#if:{{{Has CAS|}}}|
+{{!}}-
+{{!}} CAS regno
+{{!}} {{{Has CAS}}} 
+}}
+|-
+{{#if:{{{Has Aldrich|}}}|
+{{!}}-
+{{!}} Aldrich Product
+{{!}} [http://www.sigmaaldrich.com/catalog/product/aldrich/{{{Has Aldrich}}} {{{Has Aldrich}}}]
+}}
+|-
+{{#if:{{{Has PubChem SID|}}}|
+{{!}}-
+{{!}} PubChem SID
+{{!}} [https://pubchem.ncbi.nlm.nih.gov/substance/{{{Has PubChem SID}}} {{{Has PubChem SID}}}]
+}}
+|-
+{{#if:{{{Has PubChem CID|}}}|
+{{!}}-
+{{!}} PubChem CID
+{{!}} [https://pubchem.ncbi.nlm.nih.gov/compound/{{{Has PubChem CID}}} {{{Has PubChem CID}}}]
+}}
+|-
+{{#if:{{{Has COD ID|}}}|
+{{!}}-
+{{!}} COD ID
+{{!}} [http://www.crystallography.net/cod/{{{Has COD ID}}}.html {{{Has COD ID}}}]
+}}
+|-
+{{#if:{{{Has JRC ID|}}}|
+{{!}}-
+{{!}} JRC ID
+{{!}} {{{Has JRC ID}}}
+}}
+|-
+! colspan=2 style=&quot;text-align: center;background-color: #ddd;&quot; | Properties
+{{#if:{{{Has NM Type|}}}|
+{{!}}-
+{{!}} Type
+{{!}} {{{Has NM Type}}} 
+}}
+|}
+&lt;br&gt;
+= Measurements =
+{{#ask: [[Category:Measurements]] [[Has Entity::{{PAGENAME}}]]
+| ?Has Dose #
+| ?Has Endpoint
+| ?Has Endpoint Value
+| ?Has Endpoint Error
+| ?Has Endpoint Value Min
+| ?Has Endpoint Value Max
+| ?Has Endpoint Value Units
+| ?Has Assay
+| ?Has Method
+| sort=Has Endpoint
+| order=ascending
+| height=250
+| width=600
+}}
+{{#ask: [[Category:Measurements]] [[Has Entity::{{PAGENAME}}]]
+| ?Has Dose #
+| ?Has Endpoint
+| ?Has Endpoint Class
+| ?Has Method
+| sort=Has Endpoint Class
+| order=ascending
+| height=250
+| width=600
+}}
+{{#if:{{{Has Label|}}} |
+{{#set:
+|Has Label={{{Has Label|}}}
+}}
+| }}
+{{#if:{{{Has Source|}}} |
+{{#set:
+|Has Source={{{Has Source|}}}
+}}
+| }}
+{{#if:{{{Has Bundle|}}} |
+{{#set:
+|Has Bundle={{{Has Bundle|}}}
+}}
+| }}
+{{#if:{{{Has Identifier|}}} |
+{{#set:
+|Has Identifier={{{Has Identifier|}}}
+}}
+| }}
+{{#if:{{{Has Chemical Composition|}}} |
+{{#set:
+|Has Chemical Composition={{{Has Chemical Composition|}}}
+}}
+| }}
+{{#if:{{{Has SMILES|}}} |
+{{#set:
+|Has SMILES={{{Has SMILES|}}}
+}}
+| }}
+{{#if:{{{Has Chemical Coating|}}} |
+{{#set:
+|Has Chemical Coating={{{Has Chemical Coating|}}}
+}}
+| }}
+{{#if:{{{Has Chemical Component|}}} |
+{{#set:
+|Has Chemical Component={{{Has Chemical Component|}}}
+}}
+| }}
+{{#if:{{{Has CAS|}}} |
+{{#set:
+|Has CAS={{{Has CAS|}}}
+}}
+| }}
+{{#if:{{{Has Aldrich|}}} |
+{{#set:|Has Aldrich={{{Has Aldrich|}}}}}
+{{#set:|Has homepage=http://www.sigmaaldrich.com/catalog/product/aldrich/{{{Has Aldrich|}}}}}
+| }}
+{{#if:{{{Has PubChem SID|}}} |
+{{#set:|Has PubChem SID={{{Has PubChem SID|}}}}}
+{{#set:|Close match=http://rdf.ncbi.nlm.nih.gov/pubchem/substance/SID{{{Has PubChem SID|}}}}}
+{{#set:|Has homepage=https://pubchem.ncbi.nlm.nih.gov/substance/{{{Has PubChem SID|}}}}}
+| }}
+{{#if:{{{Has PubChem CID|}}} |
+{{#set:|Has PubChem CID={{{Has PubChem CID|}}}}}
+{{#set:|Close match=http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID{{{Has PubChem CID|}}}}}
+{{#set:|Has homepage=https://pubchem.ncbi.nlm.nih.gov/compound/{{{Has PubChem CID|}}}}}
+| }}
+{{#if:{{{Has COD ID|}}} |
+{{#set:|Has COD ID={{{Has COD ID|}}}}}
+{{#set:|Has homepage=http://www.crystallography.net/cod/{{{Has COD ID|}}}.html}}
+| }}
+{{#if:{{{Has JRC ID|}}} |
+{{#set:|Has JRC ID={{{Has JRC ID|}}}}}
+| }}
+{{#if:{{{Has NM Type|}}} |
+{{#set:
+|Has NM Type={{{Has NM Type|}}}
+}}
+[[Category:{{{Has NM Type|}}}s]]
+| }}
+[[Category:Materials]]__NOEDITSECTION____NOTOC__
+[[Category:Chemical_Entities]]__NOEDITSECTION____NOTOC__
+&lt;/includeonly&gt;</text>
+    </revision>
   </page>
   <page>
     <title>Category:Chemical Entities</title>
@@ -52627,6 +54110,21 @@ CdSe quantum dots studied for dot size, surface charge, and functionalization.</
       <text xml:space="preserve">{{Study
 |Has Source=Berg2009
 |Has Identifier=23
+|Has Entities=MetalOxides
+|Has Endpoint=Percentage Non-Viable Cells
+|Has Study Type=Descriptive
+|Has Object Count=5
+}}</text>
+    </revision>
+    <revision>
+      <id>4257</id>
+      <timestamp>2015-11-16T18:18:19Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Study
+|Has Source=Berg2009
+|Has Identifier=25
 |Has Entities=MetalOxides
 |Has Endpoint=Percentage Non-Viable Cells
 |Has Study Type=Descriptive
@@ -76835,6 +78333,22 @@ Propidium iodide uptake assay design method.
 |Has Source=JRC2011
 }}</text>
     </revision>
+    <revision>
+      <id>4359</id>
+      <timestamp>2016-02-08T13:11:39Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=355
+|Has Label=NM-300K
+|Has Chemical Composition=Ag
+|Has NM Type=Metal
+|Has Source=JRC2011
+|Has SMILES=[Ag]
+}}</text>
+    </revision>
   </page>
   <page>
     <title>JRC2011 NM-300 DIS</title>
@@ -76855,6 +78369,38 @@ Propidium iodide uptake assay design method.
 |Has Source=JRC2011
 }}</text>
     </revision>
+    <revision>
+      <id>4356</id>
+      <timestamp>2016-02-08T13:11:05Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=356
+|Has Label=NM-300 DIS
+|Has Chemical Composition=Ag
+|Has NM Type=Metal
+|Has Source=JRC2011
+|Has SMILES=[Au]
+}}</text>
+    </revision>
+    <revision>
+      <id>4357</id>
+      <timestamp>2016-02-08T13:11:12Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=356
+|Has Label=NM-300 DIS
+|Has Chemical Composition=Ag
+|Has NM Type=Metal
+|Has Source=JRC2011
+|Has SMILES=[Ag]
+}}</text>
+    </revision>
   </page>
   <page>
     <title>JRC2011 NM-300K DIS</title>
@@ -76873,6 +78419,38 @@ Propidium iodide uptake assay design method.
 |Has Chemical Composition=Ag
 |Has NM Type=Metal
 |Has Source=JRC2011
+}}</text>
+    </revision>
+    <revision>
+      <id>4355</id>
+      <timestamp>2016-02-08T13:10:57Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=357
+|Has Label=NM-300K DIS
+|Has Chemical Composition=Ag
+|Has NM Type=Metal
+|Has Source=JRC2011
+|Has SMILES=[Au]
+}}</text>
+    </revision>
+    <revision>
+      <id>4358</id>
+      <timestamp>2016-02-08T13:11:25Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=357
+|Has Label=NM-300K DIS
+|Has Chemical Composition=Ag
+|Has NM Type=Metal
+|Has Source=JRC2011
+|Has SMILES=[Ag]
 }}</text>
     </revision>
   </page>
@@ -76901,6 +78479,38 @@ Propidium iodide uptake assay design method.
       <contributor>
         <ip>127.0.0.1</ip>
       </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=358
+|Has Label=NM-400
+|Has Chemical Composition=C
+|Has NM Type=Multi-walled Carbon Nanotube
+|Has Source=JRC2011
+}}</text>
+    </revision>
+    <revision>
+      <id>4330</id>
+      <timestamp>2015-11-20T18:23:09Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=358
+|Has Label=NM-400
+|Has Chemical Composition=[C]
+|Has NM Type=Multi-walled Carbon Nanotube
+|Has Source=JRC2011
+}}</text>
+    </revision>
+    <revision>
+      <id>4334</id>
+      <timestamp>2015-11-20T18:23:49Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <comment>Reverted edits by [[Special:Contributions/Egonw|Egonw]] ([[User talk:Egonw|Talk]]) to last revision by [[User:127.0.0.1|127.0.0.1]]</comment>
       <text xml:space="preserve">{{Material
 |Has Identifier=358
 |Has Label=NM-400
@@ -78370,6 +79980,16 @@ Propidium iodide uptake assay design method.
         <id>2</id>
       </contributor>
       <text xml:space="preserve">* look up endpoint of [[Liu2011Cytotox]]</text>
+    </revision>
+    <revision>
+      <id>4329</id>
+      <timestamp>2015-11-20T18:18:13Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Blanked the page</comment>
+      <text xml:space="preserve" />
     </revision>
   </page>
   <page>
@@ -83307,6 +84927,63 @@ Figure 3A.</text>
 
 Figure 3A.</text>
     </revision>
+    <revision>
+      <id>4397</id>
+      <timestamp>2016-02-08T21:01:57Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Assay
+|Has Source=Limbach2005
+|Has Identifier=8
+|Has Entities=MetalOxides
+|Has Endpoint=
+|For Cell line=MRC-9 cell
+|Has Assay Type=Cellular uptake assay
+|Has Assay Method=ICP-AES
+}}
+
+Figure 1.</text>
+    </revision>
+    <revision>
+      <id>4418</id>
+      <timestamp>2016-02-08T21:16:41Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Assay
+|Has Source=Limbach2005
+|Has Identifier=8
+|Has Entities=MetalOxides
+|Has Endpoint=
+|For Cell line=MRC-9 cell
+|Has Assay Type=Cellular uptake assay
+|Has Assay Method=
+}}
+
+Figure 1.</text>
+    </revision>
+    <revision>
+      <id>4419</id>
+      <timestamp>2016-02-08T21:16:59Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Assay
+|Has Source=Limbach2005
+|Has Identifier=8
+|Has Entities=MetalOxides
+|Has Endpoint=
+|For Cell line=MRC-9 cell
+|Has Assay Type=Cellular uptake assay
+|Has Assay Method=
+}}
+
+Figure 3A.</text>
+    </revision>
   </page>
   <page>
     <title>Limbach2005 NM4</title>
@@ -87078,6 +88755,20 @@ Colloidal SiO2 in 40 wt. % suspension in H2O.</text>
 |Has Endpoint=Melting Point
 }}</text>
     </revision>
+    <revision>
+      <id>4370</id>
+      <timestamp>2016-02-08T13:41:35Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Aldrich 421553
+|Has Endpoint Value Min=1600
+|Has Endpoint Value Units=°C
+|Has Endpoint=Melting Point
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Aldrich 718483</title>
@@ -87162,6 +88853,20 @@ Colloidal SiO2 in 40 wt. % suspension in H2O.</text>
 |Has Entity=Aldrich 718483
 |Has Endpoint Value Min=1600
 |Has Endpoint Value Units=Celsius
+|Has Endpoint=Melting Point
+}}</text>
+    </revision>
+    <revision>
+      <id>4371</id>
+      <timestamp>2016-02-08T13:41:47Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Aldrich 718483
+|Has Endpoint Value Min=1600
+|Has Endpoint Value Units=°C
 |Has Endpoint=Melting Point
 }}</text>
     </revision>
@@ -88966,6 +90671,25 @@ Formerly, known as [[JRC2011 NM-330]].
 
 {{#set:|Has Label=MN-330}}</text>
     </revision>
+    <revision>
+      <id>4354</id>
+      <timestamp>2016-02-08T13:10:43Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=390
+|Has Label=JRCNM03300a
+|Has Chemical Composition=Au
+|Has NM Type=Metal
+|Has Source=JRC2014
+|Has Bundle=JRC Representative Nanomaterials
+|Has SMILES=[Au]
+}}
+
+{{#set:|Has Label=MN-330}}</text>
+    </revision>
   </page>
   <page>
     <title>JRCNM03301a</title>
@@ -88981,6 +90705,25 @@ Formerly, known as [[JRC2011 NM-330]].
 |Has Identifier=391
 |Has Label=JRCNM03301a
 |Has Chemical Composition=Au
+|Has NM Type=Metal
+|Has Source=JRC2014
+|Has Bundle=JRC Representative Nanomaterials
+}}
+
+{{#set:|Has Label=NM-330 DIS}}</text>
+    </revision>
+    <revision>
+      <id>4353</id>
+      <timestamp>2016-02-08T13:10:10Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=391
+|Has Label=JRCNM03301a
+|Has Chemical Composition=Au
+|Has SMILES=[Au]
 |Has NM Type=Metal
 |Has Source=JRC2014
 |Has Bundle=JRC Representative Nanomaterials
@@ -89042,6 +90785,50 @@ Formerly, known as [[JRC2011 NM-400]].
 {{#set:|Formerly=[[JRC2011 NM-400]]}}
 {{#set:|Has Label=NM-400}}</text>
     </revision>
+    <revision>
+      <id>4331</id>
+      <timestamp>2015-11-20T18:23:18Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=393
+|Has Label=JRCNM04000a
+|Has Chemical Composition=[C]
+|Has NM Type=Multi-walled Carbon Nanotube
+|Has Source=JRC2014
+|Has Bundle=JRC Representative Nanomaterials
+}}
+
+Formerly, known as [[JRC2011 NM-400]].
+
+{{#set:|Formerly=[[JRC2011 NM-400]]}}
+{{#set:|Has Label=NM-400}}</text>
+    </revision>
+    <revision>
+      <id>4337</id>
+      <timestamp>2015-11-20T18:24:24Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <comment>Reverted edits by [[Special:Contributions/Egonw|Egonw]] ([[User talk:Egonw|Talk]]) to last revision by [[User:127.0.0.1|127.0.0.1]]</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=393
+|Has Label=JRCNM04000a
+|Has Chemical Composition=C
+|Has NM Type=Multi-walled Carbon Nanotube
+|Has Source=JRC2014
+|Has Bundle=JRC Representative Nanomaterials
+}}
+
+Formerly, known as [[JRC2011 NM-400]].
+
+{{#set:|Formerly=[[JRC2011 NM-400]]}}
+{{#set:|Has Label=NM-400}}</text>
+    </revision>
   </page>
   <page>
     <title>Category:Multi-walled Carbon Nanotubes</title>
@@ -89088,6 +90875,50 @@ Formerly, known as [[JRC2011 NM-401]].
 {{#set:|Formerly=[[JRC2011 NM-401]]}}
 {{#set:|Has Label=NM-401}}</text>
     </revision>
+    <revision>
+      <id>4332</id>
+      <timestamp>2015-11-20T18:23:25Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=394
+|Has Label=JRCNM04001a
+|Has Chemical Composition=[C]
+|Has NM Type=Multi-walled Carbon Nanotube
+|Has Source=JRC2014
+|Has Bundle=JRC Representative Nanomaterials
+}}
+
+Formerly, known as [[JRC2011 NM-401]].
+
+{{#set:|Formerly=[[JRC2011 NM-401]]}}
+{{#set:|Has Label=NM-401}}</text>
+    </revision>
+    <revision>
+      <id>4335</id>
+      <timestamp>2015-11-20T18:23:57Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <comment>Reverted edits by [[Special:Contributions/Egonw|Egonw]] ([[User talk:Egonw|Talk]]) to last revision by [[User:127.0.0.1|127.0.0.1]]</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=394
+|Has Label=JRCNM04001a
+|Has Chemical Composition=C
+|Has NM Type=Multi-walled Carbon Nanotube
+|Has Source=JRC2014
+|Has Bundle=JRC Representative Nanomaterials
+}}
+
+Formerly, known as [[JRC2011 NM-401]].
+
+{{#set:|Formerly=[[JRC2011 NM-401]]}}
+{{#set:|Has Label=NM-401}}</text>
+    </revision>
   </page>
   <page>
     <title>JRCNM04002a</title>
@@ -89099,6 +90930,50 @@ Formerly, known as [[JRC2011 NM-401]].
         <ip>127.0.0.1</ip>
       </contributor>
       <comment>Created page with &quot;{{Material |Has Identifier=395 |Has Label=JRCNM04002a |Has Chemical Composition=C |Has NM Type=Multi-walled Carbon Nanotube |Has Source=JRC2014 |Has Bundle=JRC Representative Nan…&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=395
+|Has Label=JRCNM04002a
+|Has Chemical Composition=C
+|Has NM Type=Multi-walled Carbon Nanotube
+|Has Source=JRC2014
+|Has Bundle=JRC Representative Nanomaterials
+}}
+
+Formerly, known as [[JRC2011 NM-402]].
+
+{{#set:|Formerly=[[JRC2011 NM-402]]}}
+{{#set:|Has Label=NM-402}}</text>
+    </revision>
+    <revision>
+      <id>4333</id>
+      <timestamp>2015-11-20T18:23:31Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=395
+|Has Label=JRCNM04002a
+|Has Chemical Composition=[C]
+|Has NM Type=Multi-walled Carbon Nanotube
+|Has Source=JRC2014
+|Has Bundle=JRC Representative Nanomaterials
+}}
+
+Formerly, known as [[JRC2011 NM-402]].
+
+{{#set:|Formerly=[[JRC2011 NM-402]]}}
+{{#set:|Has Label=NM-402}}</text>
+    </revision>
+    <revision>
+      <id>4336</id>
+      <timestamp>2015-11-20T18:23:58Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <comment>Reverted edits by [[Special:Contributions/Egonw|Egonw]] ([[User talk:Egonw|Talk]]) to last revision by [[User:127.0.0.1|127.0.0.1]]</comment>
       <text xml:space="preserve">{{Material
 |Has Identifier=395
 |Has Label=JRCNM04002a
@@ -90471,6 +92346,3133 @@ More information can be found at this website: http://www.crystallography.net/</
 |Has Entity=Yashima2006 M1
 |Has Endpoint Value=11
 |Has Endpoint Error=2
+|Has Endpoint Value Units=nm
+|Has Endpoint=Particle Size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>ArrayExpress</title>
+    <id>1826</id>
+    <revision>
+      <id>4249</id>
+      <timestamp>2015-11-16T17:48:06Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Bundle |Has Label=ArrayExpress |Has Purpose=List of materials used in microarray studies. |Has Status=Draft }}  More information can be found at this website: https://www.ebi.a…&quot;</comment>
+      <text xml:space="preserve">{{Bundle
+|Has Label=ArrayExpress
+|Has Purpose=List of materials used in microarray studies.
+|Has Status=Draft
+}}
+
+More information can be found at this website: https://www.ebi.ac.uk/arrayexpress/</text>
+    </revision>
+  </page>
+  <page>
+    <title>Kim2012b</title>
+    <id>1827</id>
+    <revision>
+      <id>4250</id>
+      <timestamp>2015-11-16T17:54:34Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Paper |Has Year=2012 |Has Journal=Gene Therapy |Has DOI=10.1038/gt.2011.95 }}&quot;</comment>
+      <text xml:space="preserve">{{Paper
+|Has Year=2012
+|Has Journal=Gene Therapy
+|Has DOI=10.1038/gt.2011.95
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Gene Therapy</title>
+    <id>1828</id>
+    <revision>
+      <id>4251</id>
+      <timestamp>2015-11-16T17:55:05Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Journal}}&quot;</comment>
+      <text xml:space="preserve">{{Journal}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>E-GEOD-20677-M1</title>
+    <id>1829</id>
+    <revision>
+      <id>4252</id>
+      <timestamp>2015-11-16T17:57:53Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=406 |Has Label=AU-NP oligonucleotide |Has Source=Kim2012b |Has Bundle=ArrayExpress |Has Chemical Composition= }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=406
+|Has Label=AU-NP oligonucleotide
+|Has Source=Kim2012b
+|Has Bundle=ArrayExpress
+|Has Chemical Composition=
+}}</text>
+    </revision>
+    <revision>
+      <id>4254</id>
+      <timestamp>2015-11-16T18:03:03Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=406
+|Has Label=AU-NP oligonucleotide
+|Has Source=Kim2012b
+|Has Bundle=ArrayExpress
+|Has Chemical Composition=Au
+|Has Chemical Coating=OligonucleotideCoating
+}}</text>
+    </revision>
+    <revision>
+      <id>4260</id>
+      <timestamp>2015-11-16T18:41:27Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=406
+|Has Label=AU-NP oligonucleotide
+|Has Source=Kim2012b
+|Has Bundle=ArrayExpress
+|Has Chemical Composition=Au
+|Has Chemical Coating=OligonucleotideCoating
+}}
+
+{{#set:|Used in Study=E-GEOD-20677-M1}}</text>
+    </revision>
+    <revision>
+      <id>4261</id>
+      <timestamp>2015-11-16T18:41:43Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=406
+|Has Label=AU-NP oligonucleotide
+|Has Source=Kim2012b
+|Has Bundle=ArrayExpress
+|Has Chemical Composition=Au
+|Has Chemical Coating=OligonucleotideCoating
+}}
+
+{{#set:|Used in Study=E-GEOD-20677}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>OligonucleotideCoating</title>
+    <id>1830</id>
+    <revision>
+      <id>4253</id>
+      <timestamp>2015-11-16T17:58:48Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Coating}}&quot;</comment>
+      <text xml:space="preserve">{{Coating}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>E-GEOD-20677-M1-M1</title>
+    <id>1831</id>
+    <revision>
+      <id>4255</id>
+      <timestamp>2015-11-16T18:07:29Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=E-GEOD-20677-M1 |Has Endpoint Value=13 |Has Endpoint Error=11 |Has Endpoint Value Units=nm |Has Endpoint=Primary Particle Size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=E-GEOD-20677-M1
+|Has Endpoint Value=13
+|Has Endpoint Error=11
+|Has Endpoint Value Units=nm
+|Has Endpoint=Primary Particle Size
+}}</text>
+    </revision>
+    <revision>
+      <id>4264</id>
+      <timestamp>2015-11-16T18:54:17Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=E-GEOD-20677-M1
+|Has Endpoint Value=13
+|Has Endpoint Error=11
+|Has Endpoint Value Units=nm
+|Has Endpoint=Primary Particle Size
+|Has Method=TEM
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>MicroArray</title>
+    <id>1832</id>
+    <revision>
+      <id>4256</id>
+      <timestamp>2015-11-16T18:16:56Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{#ask: [[Has Study Type::MicroArray]] | ? Has Study Type | ? Has Object Count }}&quot;</comment>
+      <text xml:space="preserve">{{#ask: [[Has Study Type::MicroArray]]
+| ? Has Study Type
+| ? Has Object Count
+}}</text>
+    </revision>
+    <revision>
+      <id>4287</id>
+      <timestamp>2015-11-20T09:56:34Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{AssayType}}
+
+{{#ask: [[Has Study Type::MicroArray]]
+| ? Has Study Type
+| ? Has Object Count
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>E-GEOD-20677</title>
+    <id>1833</id>
+    <revision>
+      <id>4258</id>
+      <timestamp>2015-11-16T18:20:16Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Study |Has Source=E-GEOD-20677 |Has Identifier=26 |Has Study Type=MicroArray }}&quot;</comment>
+      <text xml:space="preserve">{{Study
+|Has Source=E-GEOD-20677
+|Has Identifier=26
+|Has Study Type=MicroArray
+}}</text>
+    </revision>
+    <revision>
+      <id>4262</id>
+      <timestamp>2015-11-16T18:42:32Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Study
+|Has Identifier=26
+|Has Study Type=MicroArray
+}}</text>
+    </revision>
+    <revision>
+      <id>4263</id>
+      <timestamp>2015-11-16T18:48:39Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Study
+|Has Identifier=26
+|Has Study Type=MicroArray
+}}
+
+{{#set:|Has homepage=https://www.ebi.ac.uk/arrayexpress/experiments/E-GEOD-20677/}}</text>
+    </revision>
+    <revision>
+      <id>4275</id>
+      <timestamp>2015-11-16T19:04:43Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Study
+|Has Identifier=26
+|Has Study Type=MicroArray
+|Has Source=Fede2014
+}}
+
+{{#set:|Has homepage=https://www.ebi.ac.uk/arrayexpress/experiments/E-GEOD-20677/}}</text>
+    </revision>
+    <revision>
+      <id>4289</id>
+      <timestamp>2015-11-20T10:34:01Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Assay
+|Has Identifier=12
+|Has Assay Type=Transcriptional Response Profiling Assay
+|Has Source=Fede2014
+|Has Endpoint=Percentage Non-Viable Cells
+|For Cell line=
+|Has Entities=
+}}
+
+{{#set:|Has homepage=https://www.ebi.ac.uk/arrayexpress/experiments/E-GEOD-20677/}}</text>
+    </revision>
+    <revision>
+      <id>4290</id>
+      <timestamp>2015-11-20T10:38:37Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Assay
+|Has Identifier=12
+|Has Assay Type=Transcriptional Response Profiling Assay
+|Has Source=Fede2014
+|Has Endpoint=
+|For Cell line=
+|Has Entities=
+}}
+
+{{#set:|Has homepage=https://www.ebi.ac.uk/arrayexpress/experiments/E-GEOD-20677/}}</text>
+    </revision>
+    <revision>
+      <id>4300</id>
+      <timestamp>2015-11-20T11:03:28Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Assay
+|Has Identifier=12
+|Has Assay Type=Transcriptional Response Profiling Assay
+|Has Source=Fede2014
+|Has Endpoint=
+|For Cell line=293t/17 cell
+|Has Entities=
+}}
+
+{{#set:|Has homepage=https://www.ebi.ac.uk/arrayexpress/experiments/E-GEOD-20677/}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>E-GEOD-53700</title>
+    <id>1834</id>
+    <revision>
+      <id>4265</id>
+      <timestamp>2015-11-16T18:57:52Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Study |Has Identifier=27 |Has Study Type=MicroArray }}  {{#set:|Has homepage=https://www.ebi.ac.uk/arrayexpress/experiments/E-GEOD-53700/}}&quot;</comment>
+      <text xml:space="preserve">{{Study
+|Has Identifier=27
+|Has Study Type=MicroArray
+}}
+
+{{#set:|Has homepage=https://www.ebi.ac.uk/arrayexpress/experiments/E-GEOD-53700/}}</text>
+    </revision>
+    <revision>
+      <id>4274</id>
+      <timestamp>2015-11-16T19:04:33Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Study
+|Has Identifier=27
+|Has Study Type=MicroArray
+|Has Source=Fede2014
+}}
+
+{{#set:|Has homepage=https://www.ebi.ac.uk/arrayexpress/experiments/E-GEOD-53700/}}</text>
+    </revision>
+    <revision>
+      <id>4291</id>
+      <timestamp>2015-11-20T10:39:17Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Study
+|Has Identifier=13
+|Has Study Type=MicroArray
+|Has Source=Fede2014
+|Has Assay Type=Transcriptional Response Profiling Assay
+|Has Endpoint=
+|For Cell line=
+|Has Entities=
+}}
+
+{{#set:|Has homepage=https://www.ebi.ac.uk/arrayexpress/experiments/E-GEOD-53700/}}</text>
+    </revision>
+    <revision>
+      <id>4297</id>
+      <timestamp>2015-11-20T10:41:36Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Assay
+|Has Identifier=13
+|Has Study Type=MicroArray
+|Has Source=Fede2014
+|Has Assay Type=Transcriptional Response Profiling Assay
+|Has Endpoint=
+|For Cell line=
+|Has Entities=
+}}
+
+{{#set:|Has homepage=https://www.ebi.ac.uk/arrayexpress/experiments/E-GEOD-53700/}}</text>
+    </revision>
+    <revision>
+      <id>4306</id>
+      <timestamp>2015-11-20T12:56:29Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Assay
+|Has Identifier=13
+|Has Study Type=MicroArray
+|Has Source=Fede2014
+|Has Assay Type=Transcriptional Response Profiling Assay
+|Has Endpoint=Raw Activity
+|For Cell line=A549
+|Has Entities=
+}}
+
+{{#set:|Has homepage=https://www.ebi.ac.uk/arrayexpress/experiments/E-GEOD-53700/}}</text>
+    </revision>
+    <revision>
+      <id>4307</id>
+      <timestamp>2015-11-20T12:56:59Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Assay
+|Has Identifier=15
+|Has Study Type=MicroArray
+|Has Source=Fede2014
+|Has Assay Type=Transcriptional Response Profiling Assay
+|Has Endpoint=Raw Activity
+|For Cell line=A549
+|Has Entities=
+}}
+
+{{#set:|Has homepage=https://www.ebi.ac.uk/arrayexpress/experiments/E-GEOD-53700/}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>E-GEOD-53700-M1</title>
+    <id>1835</id>
+    <revision>
+      <id>4266</id>
+      <timestamp>2015-11-16T18:58:45Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=407 |Has Label=Ludox® AS30 |Has Source= |Has Bundle=ArrayExpress |Has Chemical Composition=SiO2 }}  {{#set:|Used in Study=E-GEOD-53700}}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=407
+|Has Label=Ludox® AS30
+|Has Source=
+|Has Bundle=ArrayExpress
+|Has Chemical Composition=SiO2
+}}
+
+{{#set:|Used in Study=E-GEOD-53700}}</text>
+    </revision>
+    <revision>
+      <id>4272</id>
+      <timestamp>2015-11-16T19:03:26Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=407
+|Has Label=Ludox® AS30
+|Has Source=Jede2014
+|Has Bundle=ArrayExpress
+|Has Chemical Composition=SiO2
+}}
+
+{{#set:|Used in Study=E-GEOD-53700}}</text>
+    </revision>
+    <revision>
+      <id>4276</id>
+      <timestamp>2015-11-16T19:05:10Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=407
+|Has Label=Ludox® AS30
+|Has Source=Jede2014
+|Has Bundle=ArrayExpress
+|Has Chemical Composition=SiO2
+|Has Source=Fede2014
+}}
+
+{{#set:|Used in Study=E-GEOD-53700}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>E-GEOD-53700-M1-M1</title>
+    <id>1836</id>
+    <revision>
+      <id>4267</id>
+      <timestamp>2015-11-16T18:59:28Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=E-GEOD-53700-M1 |Has Endpoint Value=18 |Has Endpoint Error=3 |Has Endpoint Value Units=nm |Has Endpoint=Primary Particle Size |Has Method=TEM }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=E-GEOD-53700-M1
+|Has Endpoint Value=18
+|Has Endpoint Error=3
+|Has Endpoint Value Units=nm
+|Has Endpoint=Primary Particle Size
+|Has Method=TEM
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>E-GEOD-53700-M1-M2</title>
+    <id>1837</id>
+    <revision>
+      <id>4268</id>
+      <timestamp>2015-11-16T19:00:04Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=E-GEOD-53700-M1 |Has Endpoint Value=20 |Has Endpoint Error=4 |Has Endpoint Value Units=nm |Has Endpoint=Primary Particle Size |Has Method=DLS }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=E-GEOD-53700-M1
+|Has Endpoint Value=20
+|Has Endpoint Error=4
+|Has Endpoint Value Units=nm
+|Has Endpoint=Primary Particle Size
+|Has Method=DLS
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Fede2014</title>
+    <id>1838</id>
+    <revision>
+      <id>4271</id>
+      <timestamp>2015-11-16T19:03:11Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Paper |Has Year=2014 |Has Journal=Int. J. Environ. Res. Public Health |Has DOI=10.3390/ijerph110908867 }}&quot;</comment>
+      <text xml:space="preserve">{{Paper
+|Has Year=2014
+|Has Journal=Int. J. Environ. Res. Public Health
+|Has DOI=10.3390/ijerph110908867
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Int. J. Environ. Res. Public Health</title>
+    <id>1839</id>
+    <revision>
+      <id>4273</id>
+      <timestamp>2015-11-16T19:03:40Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Journal}}&quot;</comment>
+      <text xml:space="preserve">{{Journal}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>E-GEOD-53700-M2</title>
+    <id>1840</id>
+    <revision>
+      <id>4277</id>
+      <timestamp>2015-11-16T19:09:27Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=408 |Has Label=Ludox® SM30 |Has Source=Jede2014 |Has Bundle=ArrayExpress |Has Chemical Composition=SiO2 }}  {{#set:|Used in Study=E-GEOD-53700}}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=408
+|Has Label=Ludox® SM30
+|Has Source=Jede2014
+|Has Bundle=ArrayExpress
+|Has Chemical Composition=SiO2
+}}
+
+{{#set:|Used in Study=E-GEOD-53700}}</text>
+    </revision>
+    <revision>
+      <id>4283</id>
+      <timestamp>2015-11-20T09:34:38Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=408
+|Has Label=Ludox® SM30
+|Has Source=Fede2014
+|Has Bundle=ArrayExpress
+|Has Chemical Composition=SiO2
+}}
+
+{{#set:|Used in Study=E-GEOD-53700}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>E-GEOD-53700-M2-M1</title>
+    <id>1841</id>
+    <revision>
+      <id>4278</id>
+      <timestamp>2015-11-16T19:09:56Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=E-GEOD-53700-M2 |Has Endpoint Value=9 |Has Endpoint Error=3 |Has Endpoint Value Units=nm |Has Endpoint=Primary Particle Size |Has Method=TEM }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=E-GEOD-53700-M2
+|Has Endpoint Value=9
+|Has Endpoint Error=3
+|Has Endpoint Value Units=nm
+|Has Endpoint=Primary Particle Size
+|Has Method=TEM
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>E-GEOD-53700-M2-M2</title>
+    <id>1842</id>
+    <revision>
+      <id>4279</id>
+      <timestamp>2015-11-16T19:10:17Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=E-GEOD-53700-M2 |Has Endpoint Value=14 |Has Endpoint Error=4 |Has Endpoint Value Units=nm |Has Endpoint=Primary Particle Size |Has Method=DLS }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=E-GEOD-53700-M2
+|Has Endpoint Value=14
+|Has Endpoint Error=4
+|Has Endpoint Value Units=nm
+|Has Endpoint=Primary Particle Size
+|Has Method=DLS
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>E-GEOD-63552</title>
+    <id>1843</id>
+    <revision>
+      <id>4280</id>
+      <timestamp>2015-11-16T19:36:58Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Study |Has Identifier=28 |Has Study Type=MicroArray |Has Source= }}  {{#set:|Has homepage=https://www.ebi.ac.uk/arrayexpress/experiments/E-GEOD-63552/}}&quot;</comment>
+      <text xml:space="preserve">{{Study
+|Has Identifier=28
+|Has Study Type=MicroArray
+|Has Source=
+}}
+
+{{#set:|Has homepage=https://www.ebi.ac.uk/arrayexpress/experiments/E-GEOD-63552/}}</text>
+    </revision>
+    <revision>
+      <id>4292</id>
+      <timestamp>2015-11-20T10:39:23Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Study
+|Has Identifier=28
+|Has Study Type=MicroArray
+|Has Source=
+|Has Assay Type=Transcriptional Response Profiling Assay
+|Has Endpoint=
+|For Cell line=
+|Has Entities=
+}}
+
+{{#set:|Has homepage=https://www.ebi.ac.uk/arrayexpress/experiments/E-GEOD-63552/}}</text>
+    </revision>
+    <revision>
+      <id>4294</id>
+      <timestamp>2015-11-20T10:39:36Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Assay
+|Has Identifier=28
+|Has Study Type=MicroArray
+|Has Source=
+|Has Assay Type=Transcriptional Response Profiling Assay
+|Has Endpoint=
+|For Cell line=
+|Has Entities=
+}}
+
+{{#set:|Has homepage=https://www.ebi.ac.uk/arrayexpress/experiments/E-GEOD-63552/}}</text>
+    </revision>
+    <revision>
+      <id>4295</id>
+      <timestamp>2015-11-20T10:40:19Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Assay
+|Has Identifier=13
+|Has Study Type=MicroArray
+|Has Source=
+|Has Assay Type=Transcriptional Response Profiling Assay
+|Has Endpoint=
+|For Cell line=
+|Has Entities=
+}}
+
+{{#set:|Has homepage=https://www.ebi.ac.uk/arrayexpress/experiments/E-GEOD-63552/}}</text>
+    </revision>
+    <revision>
+      <id>4302</id>
+      <timestamp>2015-11-20T12:02:17Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Assay
+|Has Identifier=13
+|Has Study Type=MicroArray
+|Has Source=
+|Has Assay Type=Transcriptional Response Profiling Assay
+|Has Endpoint=Raw Activity
+|For Cell line=BEAS-2B
+|Has Entities=
+}}
+
+{{#set:|Has homepage=https://www.ebi.ac.uk/arrayexpress/experiments/E-GEOD-63552/}}</text>
+    </revision>
+    <revision>
+      <id>4303</id>
+      <timestamp>2015-11-20T12:02:38Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Assay
+|Has Identifier=13
+|Has Study Type=MicroArray
+|Has Source=Nymark2015
+|Has Assay Type=Transcriptional Response Profiling Assay
+|Has Endpoint=Raw Activity
+|For Cell line=BEAS-2B
+|Has Entities=
+}}
+
+{{#set:|Has homepage=https://www.ebi.ac.uk/arrayexpress/experiments/E-GEOD-63552/}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Nymark2015</title>
+    <id>1844</id>
+    <revision>
+      <id>4281</id>
+      <timestamp>2015-11-20T09:17:32Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Paper |Has Year=2015 |Has DOI= 10.3109/17435390.2015.1017022 |Has Journal=Nanotoxicology }}  == Abstract ==  Understanding toxicity pathways of engineered nanomaterials (ENM) h…&quot;</comment>
+      <text xml:space="preserve">{{Paper
+|Has Year=2015
+|Has DOI= 10.3109/17435390.2015.1017022
+|Has Journal=Nanotoxicology
+}}
+
+== Abstract ==
+
+Understanding toxicity pathways of engineered nanomaterials (ENM) has recently been brought forward as a key step in twenty-first century ENM risk assessment. Molecular mechanisms linked to phenotypic end points is a step towards the development of toxicity tests based on key events, which may allow for grouping of ENM according to their modes of action. This study identified molecular mechanisms underlying mitochondrial dysfunction in human bronchial epithelial BEAS 2B cells following exposure to one of the most studied multi-walled carbon nanotubes (Mitsui MWCNT-7). Asbestos was used as a positive control and a non-carcinogenic glass wool material was included as a negative fibre control. Decreased mitochondrial membrane potential (MMP↓) was observed for MWCNTs at a biologically relevant dose (0.25 μg/cm2) and for asbestos at 2 μg/cm2, but not for glass wool. Extensive temporal transcriptomic and microRNA expression analyses identified a 330-gene signature (including 26 genes with known mitochondrial function) related to MWCNT- and asbestos-induced MMP↓. Forty-nine of the MMP↓-associated genes showed highly similar expression patterns over time (six time points) and the majority was found to be regulated by two transcription factors strongly involved in mitochondrial homeostasis, APP and NRF1. In addition, four miRNAs were correlated with MMP↓ and one of them, miR-1275, was found to negatively correlate with a large part of the MMP↓-associated genes. Cellular processes such as gluconeogenesis, mitochondrial LC-fatty acid β-oxidation and spindle microtubule function were enriched among the MMP↓-associated genes and miRNAs. These results are expected to be useful in the identification of key events in ENM-related toxicity pathways for the development of molecular screening techniques.</text>
+    </revision>
+    <revision>
+      <id>4328</id>
+      <timestamp>2015-11-20T18:17:40Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Paper
+|Has Year=2015
+|Has DOI= 10.3109/17435390.2015.1017022
+|Has Journal=Nanotoxicology
+|Substances extracted=Yes
+}}
+
+== Abstract ==
+
+Understanding toxicity pathways of engineered nanomaterials (ENM) has recently been brought forward as a key step in twenty-first century ENM risk assessment. Molecular mechanisms linked to phenotypic end points is a step towards the development of toxicity tests based on key events, which may allow for grouping of ENM according to their modes of action. This study identified molecular mechanisms underlying mitochondrial dysfunction in human bronchial epithelial BEAS 2B cells following exposure to one of the most studied multi-walled carbon nanotubes (Mitsui MWCNT-7). Asbestos was used as a positive control and a non-carcinogenic glass wool material was included as a negative fibre control. Decreased mitochondrial membrane potential (MMP↓) was observed for MWCNTs at a biologically relevant dose (0.25 μg/cm2) and for asbestos at 2 μg/cm2, but not for glass wool. Extensive temporal transcriptomic and microRNA expression analyses identified a 330-gene signature (including 26 genes with known mitochondrial function) related to MWCNT- and asbestos-induced MMP↓. Forty-nine of the MMP↓-associated genes showed highly similar expression patterns over time (six time points) and the majority was found to be regulated by two transcription factors strongly involved in mitochondrial homeostasis, APP and NRF1. In addition, four miRNAs were correlated with MMP↓ and one of them, miR-1275, was found to negatively correlate with a large part of the MMP↓-associated genes. Cellular processes such as gluconeogenesis, mitochondrial LC-fatty acid β-oxidation and spindle microtubule function were enriched among the MMP↓-associated genes and miRNAs. These results are expected to be useful in the identification of key events in ENM-related toxicity pathways for the development of molecular screening techniques.</text>
+    </revision>
+  </page>
+  <page>
+    <title>E-GEOD-63559</title>
+    <id>1845</id>
+    <revision>
+      <id>4282</id>
+      <timestamp>2015-11-20T09:33:54Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Study |Has Identifier=28 |Has Study Type=MicroArray |Has Source=Nymark2015 }}  {{#set:|Has homepage=https://www.ebi.ac.uk/arrayexpress/experiments/E-GEOD-63559/}}&quot;</comment>
+      <text xml:space="preserve">{{Study
+|Has Identifier=28
+|Has Study Type=MicroArray
+|Has Source=Nymark2015
+}}
+
+{{#set:|Has homepage=https://www.ebi.ac.uk/arrayexpress/experiments/E-GEOD-63559/}}</text>
+    </revision>
+    <revision>
+      <id>4293</id>
+      <timestamp>2015-11-20T10:39:30Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Assay
+|Has Identifier=28
+|Has Study Type=MicroArray
+|Has Source=Nymark2015
+|Has Assay Type=Transcriptional Response Profiling Assay
+|Has Endpoint=
+|For Cell line=
+|Has Entities=
+}}
+
+{{#set:|Has homepage=https://www.ebi.ac.uk/arrayexpress/experiments/E-GEOD-63559/}}</text>
+    </revision>
+    <revision>
+      <id>4296</id>
+      <timestamp>2015-11-20T10:40:24Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Assay
+|Has Identifier=14
+|Has Study Type=MicroArray
+|Has Source=Nymark2015
+|Has Assay Type=Transcriptional Response Profiling Assay
+|Has Endpoint=
+|For Cell line=
+|Has Entities=
+}}
+
+{{#set:|Has homepage=https://www.ebi.ac.uk/arrayexpress/experiments/E-GEOD-63559/}}</text>
+    </revision>
+    <revision>
+      <id>4298</id>
+      <timestamp>2015-11-20T10:54:19Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Assay
+|Has Identifier=14
+|Has Study Type=MicroArray
+|Has Source=Nymark2015
+|Has Assay Type=Transcriptional Response Profiling Assay
+|Has Endpoint=
+|For Cell line=BEAS-2B
+|Has Entities=
+}}
+
+{{#set:|Has homepage=https://www.ebi.ac.uk/arrayexpress/experiments/E-GEOD-63559/}}</text>
+    </revision>
+    <revision>
+      <id>4304</id>
+      <timestamp>2015-11-20T12:05:28Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Assay
+|Has Identifier=14
+|Has Study Type=MicroArray
+|Has Source=Nymark2015
+|Has Assay Type=Transcriptional Response Profiling Assay
+|Has Endpoint=Raw Activity
+|For Cell line=BEAS-2B
+|Has Entities=
+}}
+
+{{#set:|Has homepage=https://www.ebi.ac.uk/arrayexpress/experiments/E-GEOD-63559/}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Nymark2015-M1</title>
+    <id>1846</id>
+    <revision>
+      <id>4284</id>
+      <timestamp>2015-11-20T09:47:01Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=409 |Has Label=Mitsui-7 |Has Source=Nymark2015 |Has Bundle=ArrayExpress |Has Chemical Composition=C | }}  {{#set:|Used in Study=E-GEOD-63559}}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=409
+|Has Label=Mitsui-7
+|Has Source=Nymark2015
+|Has Bundle=ArrayExpress
+|Has Chemical Composition=C
+|
+}}
+
+{{#set:|Used in Study=E-GEOD-63559}}</text>
+    </revision>
+    <revision>
+      <id>4308</id>
+      <timestamp>2015-11-20T12:59:24Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <comment>moved [[E-GEOD-63559-M1]] to [[Nymark2015-M1]]</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=409
+|Has Label=Mitsui-7
+|Has Source=Nymark2015
+|Has Bundle=ArrayExpress
+|Has Chemical Composition=C
+|
+}}
+
+{{#set:|Used in Study=E-GEOD-63559}}</text>
+    </revision>
+    <revision>
+      <id>4316</id>
+      <timestamp>2015-11-20T13:01:02Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=409
+|Has Label=Mitsui-7
+|Has Source=Nymark2015
+|Has Bundle=ArrayExpress
+|Has Chemical Composition=C
+|
+}}
+
+{{#set:|Used in Study=E-GEOD-63559}}
+{{#set:|Used in Study=E-GEOD-63552}}</text>
+    </revision>
+    <revision>
+      <id>4317</id>
+      <timestamp>2015-11-20T16:47:29Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=409
+|Has Label=Mitsui-7
+|Has Source=Nymark2015
+|Has Bundle=ArrayExpress
+|Has Chemical Composition=C
+|Has NM Type=Multi-walled Carbon Nanotube
+}}
+
+{{#set:|Used in Study=E-GEOD-63559}}
+{{#set:|Used in Study=E-GEOD-63552}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Nymark2015-M2</title>
+    <id>1847</id>
+    <revision>
+      <id>4285</id>
+      <timestamp>2015-11-20T09:50:35Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=410 |Has Label=Asbestos |Has Source=Nymark2015 |Has Bundle=ArrayExpress }}  {{#set:|Used in Study=E-GEOD-63559}}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=410
+|Has Label=Asbestos
+|Has Source=Nymark2015
+|Has Bundle=ArrayExpress
+}}
+
+{{#set:|Used in Study=E-GEOD-63559}}</text>
+    </revision>
+    <revision>
+      <id>4310</id>
+      <timestamp>2015-11-20T12:59:50Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <comment>moved [[E-GEOD-63559-M2]] to [[Nymark2015-M2]]</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=410
+|Has Label=Asbestos
+|Has Source=Nymark2015
+|Has Bundle=ArrayExpress
+}}
+
+{{#set:|Used in Study=E-GEOD-63559}}</text>
+    </revision>
+    <revision>
+      <id>4315</id>
+      <timestamp>2015-11-20T13:00:55Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=410
+|Has Label=Asbestos
+|Has Source=Nymark2015
+|Has Bundle=ArrayExpress
+}}
+
+{{#set:|Used in Study=E-GEOD-63559}}
+{{#set:|Used in Study=E-GEOD-63552}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Nymark2015-M3</title>
+    <id>1848</id>
+    <revision>
+      <id>4286</id>
+      <timestamp>2015-11-20T09:51:00Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=411 |Has Label=Glass wool |Has Source=Nymark2015 |Has Bundle=ArrayExpress }}  {{#set:|Used in Study=E-GEOD-63559}}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=411
+|Has Label=Glass wool
+|Has Source=Nymark2015
+|Has Bundle=ArrayExpress
+}}
+
+{{#set:|Used in Study=E-GEOD-63559}}</text>
+    </revision>
+    <revision>
+      <id>4312</id>
+      <timestamp>2015-11-20T12:59:59Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <comment>moved [[E-GEOD-63559-M3]] to [[Nymark2015-M3]]</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=411
+|Has Label=Glass wool
+|Has Source=Nymark2015
+|Has Bundle=ArrayExpress
+}}
+
+{{#set:|Used in Study=E-GEOD-63559}}</text>
+    </revision>
+    <revision>
+      <id>4314</id>
+      <timestamp>2015-11-20T13:00:46Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=411
+|Has Label=Glass wool
+|Has Source=Nymark2015
+|Has Bundle=ArrayExpress
+}}
+
+{{#set:|Used in Study=E-GEOD-63559}}
+{{#set:|Used in Study=E-GEOD-63552}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Transcriptional Response Profiling Assay</title>
+    <id>1849</id>
+    <revision>
+      <id>4288</id>
+      <timestamp>2015-11-20T10:03:24Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{AssayType}}  {{#set:Original URI=http://www.bioassayontology.org/bao#BAO_0002995}} {{#set:Equivalent URI=http://www.bioassayontology.org/bao#BAO_0002995}} {{#set:Has type=URL}}&quot;</comment>
+      <text xml:space="preserve">{{AssayType}}
+
+{{#set:Original URI=http://www.bioassayontology.org/bao#BAO_0002995}}
+{{#set:Equivalent URI=http://www.bioassayontology.org/bao#BAO_0002995}}
+{{#set:Has type=URL}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>293t/17 cell</title>
+    <id>1850</id>
+    <revision>
+      <id>4299</id>
+      <timestamp>2015-11-20T11:02:37Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{CellLine |Has Species=Human }}  {{#set:Original URI=http://purl.obolibrary.org/obo/CLO_0001235}} {{#set:Equivalent URI=http://purl.obolibrary.org/obo/CLO_0001235}} {{#set:Has t…&quot;</comment>
+      <text xml:space="preserve">{{CellLine
+|Has Species=Human
+}}
+
+{{#set:Original URI=http://purl.obolibrary.org/obo/CLO_0001235}}
+{{#set:Equivalent URI=http://purl.obolibrary.org/obo/CLO_0001235}}
+{{#set:Has type=URL}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Raw Activity</title>
+    <id>1851</id>
+    <revision>
+      <id>4301</id>
+      <timestamp>2015-11-20T12:01:16Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Endpoint}}  {{#set:Original URI=http://www.bioassayontology.org/bao#BAO_0000583}} {{#set:Equivalent URI=http://www.bioassayontology.org/bao#BAO_0000583}} {{#set:Has type=URL}}&quot;</comment>
+      <text xml:space="preserve">{{Endpoint}}
+
+{{#set:Original URI=http://www.bioassayontology.org/bao#BAO_0000583}}
+{{#set:Equivalent URI=http://www.bioassayontology.org/bao#BAO_0000583}}
+{{#set:Has type=URL}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>A549</title>
+    <id>1852</id>
+    <revision>
+      <id>4305</id>
+      <timestamp>2015-11-20T12:56:05Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{CellLine |Has Species=Human }}  {{#set:Original URI=http://purl.obolibrary.org/obo/CLO_0001601}} {{#set:Equivalent URI=http://purl.obolibrary.org/obo/CLO_0001601}} {{#set:Has t…&quot;</comment>
+      <text xml:space="preserve">{{CellLine
+|Has Species=Human
+}}
+
+{{#set:Original URI=http://purl.obolibrary.org/obo/CLO_0001601}}
+{{#set:Equivalent URI=http://purl.obolibrary.org/obo/CLO_0001601}}
+{{#set:Has type=URL}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>E-GEOD-63559-M1</title>
+    <id>1853</id>
+    <revision>
+      <id>4309</id>
+      <timestamp>2015-11-20T12:59:24Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>moved [[E-GEOD-63559-M1]] to [[Nymark2015-M1]]</comment>
+      <text xml:space="preserve">#REDIRECT [[Nymark2015-M1]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>E-GEOD-63559-M2</title>
+    <id>1854</id>
+    <revision>
+      <id>4311</id>
+      <timestamp>2015-11-20T12:59:50Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>moved [[E-GEOD-63559-M2]] to [[Nymark2015-M2]]</comment>
+      <text xml:space="preserve">#REDIRECT [[Nymark2015-M2]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>E-GEOD-63559-M3</title>
+    <id>1855</id>
+    <revision>
+      <id>4313</id>
+      <timestamp>2015-11-20T12:59:59Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>moved [[E-GEOD-63559-M3]] to [[Nymark2015-M3]]</comment>
+      <text xml:space="preserve">#REDIRECT [[Nymark2015-M3]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Nymark2015-M1-M1</title>
+    <id>1856</id>
+    <revision>
+      <id>4318</id>
+      <timestamp>2015-11-20T16:48:00Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Nymark2015-M1 |Has Endpoint Value=180 |Has Endpoint Value Units=nm |Has Endpoint=Diameter }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Nymark2015-M1
+|Has Endpoint Value=180
+|Has Endpoint Value Units=nm
+|Has Endpoint=Diameter
+}}</text>
+    </revision>
+    <revision>
+      <id>4322</id>
+      <timestamp>2015-11-20T16:51:20Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Nymark2015-M1
+|Has Endpoint Value=74
+|Has Endpoint Error=28
+|Has Endpoint Value Units=nm
+|Has Endpoint=Diameter
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Nymark2015-M1-M2</title>
+    <id>1857</id>
+    <revision>
+      <id>4319</id>
+      <timestamp>2015-11-20T16:48:31Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Nymark2015-M1 |Has Endpoint Value=4.6 |Has Endpoint Value Units=μm |Has Endpoint=Average Length }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Nymark2015-M1
+|Has Endpoint Value=4.6
+|Has Endpoint Value Units=μm
+|Has Endpoint=Average Length
+}}</text>
+    </revision>
+    <revision>
+      <id>4323</id>
+      <timestamp>2015-11-20T16:51:44Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Nymark2015-M1
+|Has Endpoint Value=5.7
+|Has Endpoint Error=3.7
+|Has Endpoint Value Units=μm
+|Has Endpoint=Average Length
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Nymark2015-M2-M2</title>
+    <id>1858</id>
+    <revision>
+      <id>4320</id>
+      <timestamp>2015-11-20T16:50:19Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Nymark2015-M1 |Has Endpoint Value=4.6 |Has Endpoint Value Units=μm |Has Endpoint=Average Length }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Nymark2015-M1
+|Has Endpoint Value=4.6
+|Has Endpoint Value Units=μm
+|Has Endpoint=Average Length
+}}</text>
+    </revision>
+    <revision>
+      <id>4324</id>
+      <timestamp>2015-11-20T16:55:32Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Nymark2015-M2
+|Has Endpoint Value=4.6
+|Has Endpoint Value Units=μm
+|Has Endpoint=Average Length
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Nymark2015-M2-M1</title>
+    <id>1859</id>
+    <revision>
+      <id>4321</id>
+      <timestamp>2015-11-20T16:50:27Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Nymark2015-M1 |Has Endpoint Value=180 |Has Endpoint Value Units=nm |Has Endpoint=Diameter }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Nymark2015-M1
+|Has Endpoint Value=180
+|Has Endpoint Value Units=nm
+|Has Endpoint=Diameter
+}}</text>
+    </revision>
+    <revision>
+      <id>4325</id>
+      <timestamp>2015-11-20T16:55:37Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Nymark2015-M2
+|Has Endpoint Value=180
+|Has Endpoint Value Units=nm
+|Has Endpoint=Diameter
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Nymark2015-M3-M1</title>
+    <id>1860</id>
+    <revision>
+      <id>4326</id>
+      <timestamp>2015-11-20T17:04:53Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Nymark2015-M3 |Has Endpoint Value=1.1 |Has Endpoint Error=0.5 |Has Endpoint Value Units=μm |Has Endpoint=Diameter }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Nymark2015-M3
+|Has Endpoint Value=1.1
+|Has Endpoint Error=0.5
+|Has Endpoint Value Units=μm
+|Has Endpoint=Diameter
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Nymark2015-M3-M2</title>
+    <id>1861</id>
+    <revision>
+      <id>4327</id>
+      <timestamp>2015-11-20T17:05:23Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Nymark2015-M3 |Has Endpoint Value=21 |Has Endpoint Error=18 |Has Endpoint Value Units=μm |Has Endpoint=Average Length }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Nymark2015-M3
+|Has Endpoint Value=21
+|Has Endpoint Error=18
+|Has Endpoint Value Units=μm
+|Has Endpoint=Average Length
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>MarcheseRobinson-C60</title>
+    <id>1862</id>
+    <revision>
+      <id>4339</id>
+      <timestamp>2016-02-08T10:44:11Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=412 |Has Label=Fullerene |Has Source=MarcheseRobinson2015 }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=412
+|Has Label=Fullerene
+|Has Source=MarcheseRobinson2015
+}}</text>
+    </revision>
+    <revision>
+      <id>4341</id>
+      <timestamp>2016-02-08T10:48:56Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=412
+|Has Label=C60
+|Has Source=MarcheseRobinson2015
+|Has Chemical Composition=C60
+|Has NM Type=Fullerene
+|Has PubChem CID=123591
+}}</text>
+    </revision>
+    <revision>
+      <id>4349</id>
+      <timestamp>2016-02-08T12:52:04Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=412
+|Has Label=C60
+|Has Source=MarcheseRobinson2015
+|Has Chemical Composition=C60
+|Has NM Type=Fullerene
+|Has PubChem CID=123591
+|Has SMILES=C12=C3C4=C5C6=C1C7=C8C9=C1C%10=C%11C(=C29)C3=C2C3=C4C4=C5C5=C9C6=C7C6=C7C8=C1C1=C8C%10=C%10C%11=C2C2=C3C3=C4C4=C5C5=C%11C%12=C(C6=C95)C7=C1C1=C%12C5=C%11C4=C3C3=C5C(=C81)C%10=C23
+}}</text>
+    </revision>
+    <revision>
+      <id>4352</id>
+      <timestamp>2016-02-08T13:05:39Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=412
+|Has Label=C60
+|Has Source=MarcheseRobinson2015
+|Has Chemical Composition=C60
+|Has NM Type=Fullerene
+|Has PubChem CID=123591
+|Has CAS=99685-96-8
+|Has SMILES=C12=C3C4=C5C6=C1C7=C8C9=C1C%10=C%11C(=C29)C3=C2C3=C4C4=C5C5=C9C6=C7C6=C7C8=C1C1=C8C%10=C%10C%11=C2C2=C3C3=C4C4=C5C5=C%11C%12=C(C6=C95)C7=C1C1=C%12C5=C%11C4=C3C3=C5C(=C81)C%10=C23
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Fullerene</title>
+    <id>1863</id>
+    <revision>
+      <id>4340</id>
+      <timestamp>2016-02-08T10:47:24Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{MaterialType |Has Label=Fullerene |Has URI= }}  Fullerenes are C60-derived materials.  {{#ask: [[Category:Fullerenes]]  | ? Has Identifier #  | ? Has Label #  | ? Has Chemical …&quot;</comment>
+      <text xml:space="preserve">{{MaterialType
+|Has Label=Fullerene
+|Has URI=
+}}
+
+Fullerenes are C60-derived materials.
+
+{{#ask: [[Category:Fullerenes]]
+ | ? Has Identifier #
+ | ? Has Label #
+ | ? Has Chemical Composition #
+ | ? Has Coating #
+ |format = template
+ |template = NMsFrontTemplate
+ |introtemplate = NMsFrontHeader
+ |outrotemplate = NMsFrontFooter
+ |sort = Has Identifier
+ |offset=0
+ |limit=250
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Category:Fullerenes</title>
+    <id>1864</id>
+    <revision>
+      <id>4344</id>
+      <timestamp>2016-02-08T10:59:01Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{#ask: [[Category:Fullerenes]]  | ? Has Identifier #  | ? Has Label #  | ? Has Size #  | ? Has Zeta potential #  |offset=0  |limit=10  |sort=Has Identifier }}&quot;</comment>
+      <text xml:space="preserve">{{#ask: [[Category:Fullerenes]]
+ | ? Has Identifier #
+ | ? Has Label #
+ | ? Has Size #
+ | ? Has Zeta potential #
+ |offset=0
+ |limit=10
+ |sort=Has Identifier
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Has PubChem CID</title>
+    <id>1865</id>
+    <revision>
+      <id>4345</id>
+      <timestamp>2016-02-08T11:08:57Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;This is a property of type [[Has type::String]].&quot;</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::String]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>MarcheseRobinson2015</title>
+    <id>1866</id>
+    <revision>
+      <id>4347</id>
+      <timestamp>2016-02-08T11:14:43Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Paper |Has Year=2015 |Has DOI=10.6084/m9.figshare.2056104.v2 |Has Journal=Figshare |Substances extracted=Yes }}&quot;</comment>
+      <text xml:space="preserve">{{Paper
+|Has Year=2015
+|Has DOI=10.6084/m9.figshare.2056104.v2
+|Has Journal=Figshare
+|Substances extracted=Yes
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Figshare</title>
+    <id>1867</id>
+    <revision>
+      <id>4348</id>
+      <timestamp>2016-02-08T11:15:19Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Journal}}&quot;</comment>
+      <text xml:space="preserve">{{Journal}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Aldrich 572500</title>
+    <id>1868</id>
+    <revision>
+      <id>4369</id>
+      <timestamp>2016-02-08T13:36:05Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=413 |Has Label=LUDOX® HS-40 colloidal silica |Has Chemical Composition=C60 |Has SMILES=c12c3c4c5c1c1c6c7c2c2c8c3c3c9c4c4c%10c5c5c1c1c6c6c%11c7c2c2c7c8…&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=413
+|Has Label=LUDOX® HS-40 colloidal silica
+|Has Chemical Composition=C60
+|Has SMILES=c12c3c4c5c1c1c6c7c2c2c8c3c3c9c4c4c%10c5c5c1c1c6c6c%11c7c2c2c7c8c3c3c8c9c4c4c9c%10c5c5c1c1c6c6c%11c2c2c7c3c3c8c4c4c9c5c1c1c6c2c3c41
+|Has NM Type=Fullerene
+|Has CAS=99685-96-8
+|Has Aldrich=572500
+|Has PubChem SID=
+|Has Bundle=Sigma-Aldrich Products
+}}</text>
+    </revision>
+    <revision>
+      <id>4378</id>
+      <timestamp>2016-02-08T13:56:39Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=413
+|Has Label=
+|Has Chemical Composition=C60
+|Has SMILES=c12c3c4c5c1c1c6c7c2c2c8c3c3c9c4c4c%10c5c5c1c1c6c6c%11c7c2c2c7c8c3c3c8c9c4c4c9c%10c5c5c1c1c6c6c%11c2c2c7c3c3c8c4c4c9c5c1c1c6c2c3c41
+|Has NM Type=Fullerene
+|Has CAS=99685-96-8
+|Has Aldrich=572500
+|Has PubChem SID=
+|Has Bundle=Sigma-Aldrich Products
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Aldrich 572500 M1</title>
+    <id>1869</id>
+    <revision>
+      <id>4374</id>
+      <timestamp>2016-02-08T13:44:47Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Aldrich 572500 |Has Endpoint Value Min=280 |Has Endpoint Value Units=°C |Has Endpoint=Melting Point }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Aldrich 572500
+|Has Endpoint Value Min=280
+|Has Endpoint Value Units=°C
+|Has Endpoint=Melting Point
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Aldrich 572500 M2</title>
+    <id>1870</id>
+    <revision>
+      <id>4376</id>
+      <timestamp>2016-02-08T13:53:49Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Aldrich 572500 |Has Endpoint Value Min=6.1 |Has Endpoint Value Max=6.2 |Has Endpoint Value Units=eV |Has Endpoint=HOMO }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Aldrich 572500
+|Has Endpoint Value Min=6.1
+|Has Endpoint Value Max=6.2
+|Has Endpoint Value Units=eV
+|Has Endpoint=HOMO
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Aldrich 379646</title>
+    <id>1871</id>
+    <revision>
+      <id>4379</id>
+      <timestamp>2016-02-08T13:57:04Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=414 |Has Label= |Has Chemical Composition=C60 |Has SMILES=c12c3c4c5c1c1c6c7c2c2c8c3c3c9c4c4c%10c5c5c1c1c6c6c%11c7c2c2c7c8c3c3c8c9c4c4c9c%10c5c5c1c1c6c6…&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=414
+|Has Label=
+|Has Chemical Composition=C60
+|Has SMILES=c12c3c4c5c1c1c6c7c2c2c8c3c3c9c4c4c%10c5c5c1c1c6c6c%11c7c2c2c7c8c3c3c8c9c4c4c9c%10c5c5c1c1c6c6c%11c2c2c7c3c3c8c4c4c9c5c1c1c6c2c3c41
+|Has NM Type=Fullerene
+|Has CAS=99685-96-8
+|Has Aldrich=379646
+|Has PubChem SID=
+|Has Bundle=Sigma-Aldrich Products
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Aldrich 379646 M2</title>
+    <id>1872</id>
+    <revision>
+      <id>4380</id>
+      <timestamp>2016-02-08T13:57:26Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Aldrich 379646 |Has Endpoint Value Min=6.1 |Has Endpoint Value Max=6.2 |Has Endpoint Value Units=eV |Has Endpoint=HOMO }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Aldrich 379646
+|Has Endpoint Value Min=6.1
+|Has Endpoint Value Max=6.2
+|Has Endpoint Value Units=eV
+|Has Endpoint=HOMO
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Aldrich 379646 M3</title>
+    <id>1873</id>
+    <revision>
+      <id>4381</id>
+      <timestamp>2016-02-08T13:57:51Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Aldrich 379646 |Has Endpoint Value=4.5 |Has Endpoint Value Units=eV |Has Endpoint=LUMO }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Aldrich 379646
+|Has Endpoint Value=4.5
+|Has Endpoint Value Units=eV
+|Has Endpoint=LUMO
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Aldrich 379646 M1</title>
+    <id>1874</id>
+    <revision>
+      <id>4382</id>
+      <timestamp>2016-02-08T13:58:21Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Aldrich 379646 |Has Endpoint Value Min=280 |Has Endpoint Value Units=°C |Has Endpoint=Melting Point }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Aldrich 379646
+|Has Endpoint Value Min=280
+|Has Endpoint Value Units=°C
+|Has Endpoint=Melting Point
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Aldrich 482951</title>
+    <id>1875</id>
+    <revision>
+      <id>4384</id>
+      <timestamp>2016-02-08T19:43:55Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=415 |Has Label= |Has Chemical Composition=C76 |Has SMILES= |Has NM Type=Fullerene |Has CAS=142136-39-8 |Has Aldrich=482951 |Has PubChem SID= |Has Bundl…&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=415
+|Has Label=
+|Has Chemical Composition=C76
+|Has SMILES=
+|Has NM Type=Fullerene
+|Has CAS=142136-39-8
+|Has Aldrich=482951
+|Has PubChem SID=
+|Has Bundle=Sigma-Aldrich Products
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Aldrich 482951 M1</title>
+    <id>1876</id>
+    <revision>
+      <id>4385</id>
+      <timestamp>2016-02-08T20:08:09Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Aldrich 482951 |Has Endpoint Value Min=350 |Has Endpoint Value Units=°C |Has Endpoint=Melting Point }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Aldrich 482951
+|Has Endpoint Value Min=350
+|Has Endpoint Value Units=°C
+|Has Endpoint=Melting Point
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Chithrani Au1</title>
+    <id>1877</id>
+    <revision>
+      <id>4386</id>
+      <timestamp>2016-02-08T20:43:10Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=416 |Has Label=Au S14 |Has Chemical Composition=Au |Has SMILES=[Au] |Has NM Type=Metal }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=416
+|Has Label=Au S14
+|Has Chemical Composition=Au
+|Has SMILES=[Au]
+|Has NM Type=Metal
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Chithrani Au2</title>
+    <id>1878</id>
+    <revision>
+      <id>4387</id>
+      <timestamp>2016-02-08T20:43:35Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=417 |Has Label=Au S30 |Has Chemical Composition=Au |Has SMILES=[Au] |Has NM Type=Metal }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=417
+|Has Label=Au S30
+|Has Chemical Composition=Au
+|Has SMILES=[Au]
+|Has NM Type=Metal
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Chithrani Au3</title>
+    <id>1879</id>
+    <revision>
+      <id>4388</id>
+      <timestamp>2016-02-08T20:43:45Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=418 |Has Label=Au S50 |Has Chemical Composition=Au |Has SMILES=[Au] |Has NM Type=Metal }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=418
+|Has Label=Au S50
+|Has Chemical Composition=Au
+|Has SMILES=[Au]
+|Has NM Type=Metal
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Chithrani Au4</title>
+    <id>1880</id>
+    <revision>
+      <id>4389</id>
+      <timestamp>2016-02-08T20:44:01Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=419 |Has Label=Au S74 |Has Chemical Composition=Au |Has SMILES=[Au] |Has NM Type=Metal }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=419
+|Has Label=Au S74
+|Has Chemical Composition=Au
+|Has SMILES=[Au]
+|Has NM Type=Metal
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Chithrani Au5</title>
+    <id>1881</id>
+    <revision>
+      <id>4390</id>
+      <timestamp>2016-02-08T20:44:15Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=420 |Has Label=Au S100 |Has Chemical Composition=Au |Has SMILES=[Au] |Has NM Type=Metal }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=420
+|Has Label=Au S100
+|Has Chemical Composition=Au
+|Has SMILES=[Au]
+|Has NM Type=Metal
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Chithrani Au6</title>
+    <id>1882</id>
+    <revision>
+      <id>4391</id>
+      <timestamp>2016-02-08T20:44:40Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=421 |Has Label=Au R40 |Has Chemical Composition=Au |Has SMILES=[Au] |Has NM Type=Metal }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=421
+|Has Label=Au R40
+|Has Chemical Composition=Au
+|Has SMILES=[Au]
+|Has NM Type=Metal
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Chithrani Au7</title>
+    <id>1883</id>
+    <revision>
+      <id>4392</id>
+      <timestamp>2016-02-08T20:44:54Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=422 |Has Label=Au R74 |Has Chemical Composition=Au |Has SMILES=[Au] |Has NM Type=Metal }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=422
+|Has Label=Au R74
+|Has Chemical Composition=Au
+|Has SMILES=[Au]
+|Has NM Type=Metal
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Chithrani2006</title>
+    <id>1884</id>
+    <revision>
+      <id>4393</id>
+      <timestamp>2016-02-08T20:46:33Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Paper |Has Year=2006 |Has DOI=10.1021/nl052396o |Has Journal=Nano Letters |Substances extracted=Yes |Relationships extracted= }}&quot;</comment>
+      <text xml:space="preserve">{{Paper
+|Has Year=2006
+|Has DOI=10.1021/nl052396o
+|Has Journal=Nano Letters
+|Substances extracted=Yes
+|Relationships extracted=
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>HeLa</title>
+    <id>1885</id>
+    <revision>
+      <id>4394</id>
+      <timestamp>2016-02-08T20:55:55Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{CellLine |Has Species=Human }}  {{#set:Original URI=http://www.ebi.ac.uk/efo/EFO_0001185}} {{#set:Equivalent URI=http://www.ebi.ac.uk/efo/EFO_0001185}} {{#set:Has type=URL}}&quot;</comment>
+      <text xml:space="preserve">{{CellLine
+|Has Species=Human
+}}
+
+{{#set:Original URI=http://www.ebi.ac.uk/efo/EFO_0001185}}
+{{#set:Equivalent URI=http://www.ebi.ac.uk/efo/EFO_0001185}}
+{{#set:Has type=URL}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Chithrani2006 A1</title>
+    <id>1886</id>
+    <revision>
+      <id>4395</id>
+      <timestamp>2016-02-08T20:56:57Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Assay |Has Source=Chithrani2006 |Has Identifier=16 |Has Entities=Metals |Has Endpoint= |For Cell line=HeLa |Has Assay Type=Cellular uptake assay |Has Assay Method= }}&quot;</comment>
+      <text xml:space="preserve">{{Assay
+|Has Source=Chithrani2006
+|Has Identifier=16
+|Has Entities=Metals
+|Has Endpoint=
+|For Cell line=HeLa
+|Has Assay Type=Cellular uptake assay
+|Has Assay Method=
+}}</text>
+    </revision>
+    <revision>
+      <id>4420</id>
+      <timestamp>2016-02-08T21:17:19Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Assay
+|Has Source=Chithrani2006
+|Has Identifier=16
+|Has Entities=Metals
+|Has Endpoint=
+|For Cell line=HeLa
+|Has Assay Type=Cellular uptake assay
+|Has Assay Method=ICP-AES
+}}</text>
+    </revision>
+    <revision>
+      <id>4421</id>
+      <timestamp>2016-02-08T21:24:41Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Assay
+|Has Source=Chithrani2006
+|Has Identifier=16
+|Has Entities=Metals
+|Has Endpoint=
+|For Cell line=HeLa
+|Has Assay Type=Cellular uptake assay
+|Has Assay Method=ICP-AES
+}}
+
+Figure 1.</text>
+    </revision>
+  </page>
+  <page>
+    <title>ICP-AES</title>
+    <id>1887</id>
+    <revision>
+      <id>4396</id>
+      <timestamp>2016-02-08T21:01:10Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{AssayMethod}}  {{#set:Original URI=http://purl.obolibrary.org/obo/ERO_0001675}} {{#set:Equivalent URI=http://purl.obolibrary.org/obo/ERO_0001675}} {{#set:Has type=URL}}&quot;</comment>
+      <text xml:space="preserve">{{AssayMethod}}
+
+{{#set:Original URI=http://purl.obolibrary.org/obo/ERO_0001675}}
+{{#set:Equivalent URI=http://purl.obolibrary.org/obo/ERO_0001675}}
+{{#set:Has type=URL}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Chithrani Au1 M1</title>
+    <id>1888</id>
+    <revision>
+      <id>4398</id>
+      <timestamp>2016-02-08T21:03:08Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Chithrani Au1 |Has Endpoint Value=14 |Has Endpoint Value Units=nm |Has Endpoint=Particle Size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Chithrani Au1
+|Has Endpoint Value=14
+|Has Endpoint Value Units=nm
+|Has Endpoint=Particle Size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Particles Per Cell</title>
+    <id>1889</id>
+    <revision>
+      <id>4399</id>
+      <timestamp>2016-02-08T21:05:57Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Endpoint |Description=Particles Per Cell |Has Assay Type=Cellular Uptake Assay }}  Number of particles taken up by a cell.&quot;</comment>
+      <text xml:space="preserve">{{Endpoint
+|Description=Particles Per Cell
+|Has Assay Type=Cellular Uptake Assay
+}}
+
+Number of particles taken up by a cell.</text>
+    </revision>
+  </page>
+  <page>
+    <title>Chithrani Au1 M2</title>
+    <id>1890</id>
+    <revision>
+      <id>4400</id>
+      <timestamp>2016-02-08T21:07:13Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Chithrani Au1 |Has Endpoint Value=3000 |Has Endpoint Error=500 |Has Endpoint=Particles Per Cell }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Chithrani Au1
+|Has Endpoint Value=3000
+|Has Endpoint Error=500
+|Has Endpoint=Particles Per Cell
+}}</text>
+    </revision>
+    <revision>
+      <id>4401</id>
+      <timestamp>2016-02-08T21:07:38Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Chithrani Au1
+|Has Endpoint Value=3000
+|Has Endpoint Error=500
+|Has Endpoint=Particles Per Cell
+|Has Assay=Chithrani A1
+}}</text>
+    </revision>
+    <revision>
+      <id>4402</id>
+      <timestamp>2016-02-08T21:07:58Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Chithrani Au1
+|Has Endpoint Value=3000
+|Has Endpoint Error=500
+|Has Endpoint=Particles Per Cell
+|Has Assay=Chithrani2006 A1
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Chithrani Au2 M1</title>
+    <id>1891</id>
+    <revision>
+      <id>4403</id>
+      <timestamp>2016-02-08T21:09:22Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Chithrani Au2 |Has Endpoint Value=30 |Has Endpoint Value Units=nm |Has Endpoint=Particle Size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Chithrani Au2
+|Has Endpoint Value=30
+|Has Endpoint Value Units=nm
+|Has Endpoint=Particle Size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Chithrani Au3 M1</title>
+    <id>1892</id>
+    <revision>
+      <id>4404</id>
+      <timestamp>2016-02-08T21:09:33Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Chithrani Au3 |Has Endpoint Value=50 |Has Endpoint Value Units=nm |Has Endpoint=Particle Size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Chithrani Au3
+|Has Endpoint Value=50
+|Has Endpoint Value Units=nm
+|Has Endpoint=Particle Size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Chithrani Au4 M1</title>
+    <id>1893</id>
+    <revision>
+      <id>4405</id>
+      <timestamp>2016-02-08T21:09:49Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Chithrani Au4 |Has Endpoint Value=74 |Has Endpoint Value Units=nm |Has Endpoint=Particle Size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Chithrani Au4
+|Has Endpoint Value=74
+|Has Endpoint Value Units=nm
+|Has Endpoint=Particle Size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Chithrani Au5 M1</title>
+    <id>1894</id>
+    <revision>
+      <id>4406</id>
+      <timestamp>2016-02-08T21:10:10Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Chithrani Au5 |Has Endpoint Value=100 |Has Endpoint Value Units=nm |Has Endpoint=Particle Size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Chithrani Au5
+|Has Endpoint Value=100
+|Has Endpoint Value Units=nm
+|Has Endpoint=Particle Size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Chithrani Au6 M1</title>
+    <id>1895</id>
+    <revision>
+      <id>4407</id>
+      <timestamp>2016-02-08T21:11:39Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Chithrani Au6 |Has Endpoint Value=14 |Has Endpoint Value Units=nm |Has Endpoint=Diameter&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Chithrani Au6
+|Has Endpoint Value=14
+|Has Endpoint Value Units=nm
+|Has Endpoint=Diameter</text>
+    </revision>
+    <revision>
+      <id>4410</id>
+      <timestamp>2016-02-08T21:12:09Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Chithrani Au6
+|Has Endpoint Value=14
+|Has Endpoint Value Units=nm
+|Has Endpoint=Diameter
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Chithrani Au7 M1</title>
+    <id>1896</id>
+    <revision>
+      <id>4408</id>
+      <timestamp>2016-02-08T21:11:49Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Chithrani Au7 |Has Endpoint Value=14 |Has Endpoint Value Units=nm |Has Endpoint=Diameter&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Chithrani Au7
+|Has Endpoint Value=14
+|Has Endpoint Value Units=nm
+|Has Endpoint=Diameter</text>
+    </revision>
+    <revision>
+      <id>4409</id>
+      <timestamp>2016-02-08T21:11:59Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Chithrani Au7
+|Has Endpoint Value=14
+|Has Endpoint Value Units=nm
+|Has Endpoint=Diameter
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Chithrani Au6 M3</title>
+    <id>1897</id>
+    <revision>
+      <id>4411</id>
+      <timestamp>2016-02-08T21:12:36Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Chithrani Au6 |Has Endpoint Value=40 |Has Endpoint Value Units=nm |Has Endpoint=Average Length&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Chithrani Au6
+|Has Endpoint Value=40
+|Has Endpoint Value Units=nm
+|Has Endpoint=Average Length</text>
+    </revision>
+    <revision>
+      <id>4412</id>
+      <timestamp>2016-02-08T21:12:44Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Chithrani Au6
+|Has Endpoint Value=40
+|Has Endpoint Value Units=nm
+|Has Endpoint=Average Length
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Chithrani Au7 M3</title>
+    <id>1898</id>
+    <revision>
+      <id>4413</id>
+      <timestamp>2016-02-08T21:12:57Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Chithrani Au7 |Has Endpoint Value=74 |Has Endpoint Value Units=nm |Has Endpoint=Average Length }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Chithrani Au7
+|Has Endpoint Value=74
+|Has Endpoint Value Units=nm
+|Has Endpoint=Average Length
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Chithrani Au2 M2</title>
+    <id>1899</id>
+    <revision>
+      <id>4414</id>
+      <timestamp>2016-02-08T21:14:23Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Chithrani Au2 |Has Endpoint Value=4500 |Has Endpoint Error=500 |Has Endpoint=Particles Per Cell |Has Assay=Chithrani2006 A1 }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Chithrani Au2
+|Has Endpoint Value=4500
+|Has Endpoint Error=500
+|Has Endpoint=Particles Per Cell
+|Has Assay=Chithrani2006 A1
+}}</text>
+    </revision>
+    <revision>
+      <id>4429</id>
+      <timestamp>2016-02-08T21:31:23Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Chithrani Au3
+|Has Endpoint Value=4500
+|Has Endpoint Error=500
+|Has Endpoint=Particles Per Cell
+|Has Assay=Chithrani2006 A1
+}}</text>
+    </revision>
+    <revision>
+      <id>4430</id>
+      <timestamp>2016-02-08T21:31:40Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <comment>moved [[Chithrani Au2 M2]] to [[Chithrani Au3 M3]]</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Chithrani Au3
+|Has Endpoint Value=4500
+|Has Endpoint Error=500
+|Has Endpoint=Particles Per Cell
+|Has Assay=Chithrani2006 A1
+}}</text>
+    </revision>
+    <revision>
+      <id>4432</id>
+      <timestamp>2016-02-08T21:31:54Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <comment>moved [[Chithrani Au3 M3]] to [[Chithrani Au2 M2]] over redirect</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Chithrani Au3
+|Has Endpoint Value=4500
+|Has Endpoint Error=500
+|Has Endpoint=Particles Per Cell
+|Has Assay=Chithrani2006 A1
+}}</text>
+    </revision>
+    <revision>
+      <id>4434</id>
+      <timestamp>2016-02-08T21:32:07Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Chithrani Au2
+|Has Endpoint Value=4500
+|Has Endpoint Error=500
+|Has Endpoint=Particles Per Cell
+|Has Assay=Chithrani2006 A1
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Chithrani Au3 M2</title>
+    <id>1900</id>
+    <revision>
+      <id>4415</id>
+      <timestamp>2016-02-08T21:14:44Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Chithrani Au3 |Has Endpoint Value=6000 |Has Endpoint Error=800 |Has Endpoint=Particles Per Cell |Has Assay=Chithrani2006 A1 }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Chithrani Au3
+|Has Endpoint Value=6000
+|Has Endpoint Error=800
+|Has Endpoint=Particles Per Cell
+|Has Assay=Chithrani2006 A1
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Chithrani Au4 M2</title>
+    <id>1901</id>
+    <revision>
+      <id>4416</id>
+      <timestamp>2016-02-08T21:15:07Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Chithrani Au4 |Has Endpoint Value=4000 |Has Endpoint Error=500 |Has Endpoint=Particles Per Cell |Has Assay=Chithrani2006 A1 }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Chithrani Au4
+|Has Endpoint Value=4000
+|Has Endpoint Error=500
+|Has Endpoint=Particles Per Cell
+|Has Assay=Chithrani2006 A1
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Chithrani Au5 M2</title>
+    <id>1902</id>
+    <revision>
+      <id>4417</id>
+      <timestamp>2016-02-08T21:15:28Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Chithrani Au5 |Has Endpoint Value=1800 |Has Endpoint Error=500 |Has Endpoint=Particles Per Cell |Has Assay=Chithrani2006 A1 }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Chithrani Au5
+|Has Endpoint Value=1800
+|Has Endpoint Error=500
+|Has Endpoint=Particles Per Cell
+|Has Assay=Chithrani2006 A1
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Chithrani2006 A2</title>
+    <id>1903</id>
+    <revision>
+      <id>4422</id>
+      <timestamp>2016-02-08T21:25:30Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Assay |Has Source=Chithrani2006 |Has Identifier=17 |Has Entities=Metals |Has Endpoint= |For Cell line=HeLa |Has Assay Type=Cellular uptake assay |Has Assay Method=ICP-AES }}  F…&quot;</comment>
+      <text xml:space="preserve">{{Assay
+|Has Source=Chithrani2006
+|Has Identifier=17
+|Has Entities=Metals
+|Has Endpoint=
+|For Cell line=HeLa
+|Has Assay Type=Cellular uptake assay
+|Has Assay Method=ICP-AES
+}}
+
+Figure 3A.</text>
+    </revision>
+  </page>
+  <page>
+    <title>Chithrani2006 T1</title>
+    <id>1904</id>
+    <revision>
+      <id>4423</id>
+      <timestamp>2016-02-08T21:27:35Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Endpoint=Incubation time |Has Endpoint Value=1 |Has Endpoint Unit=hour }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Endpoint=Incubation time
+|Has Endpoint Value=1
+|Has Endpoint Unit=hour
+}}</text>
+    </revision>
+    <revision>
+      <id>4425</id>
+      <timestamp>2016-02-08T21:28:47Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Endpoint=Incubation time
+|Has Endpoint Value=1
+|Has Endpoint Unit=hour
+}}
+
+{{#set:
+For Measurement=Chithrani Au1 M3|
+}}</text>
+    </revision>
+    <revision>
+      <id>4440</id>
+      <timestamp>2016-02-08T21:36:27Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Endpoint=Incubation time
+|Has Endpoint Value=1
+|Has Endpoint Unit=hour
+}}
+
+{{#set:
+For Measurement=Chithrani Au1 M3|
+For Measurement=Chithrani Au3 M3|
+For Measurement=Chithrani Au4 M3|
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Incubation time</title>
+    <id>1905</id>
+    <revision>
+      <id>4424</id>
+      <timestamp>2016-02-08T21:27:46Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Endpoint}}&quot;</comment>
+      <text xml:space="preserve">{{Endpoint}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Chithrani Au1 M3</title>
+    <id>1906</id>
+    <revision>
+      <id>4426</id>
+      <timestamp>2016-02-08T21:29:35Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Chithrani Au1 |Has Endpoint Value=1100 |Has Endpoint=Particles Per Cell |Has Assay=Chithrani2006 A2 }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Chithrani Au1
+|Has Endpoint Value=1100
+|Has Endpoint=Particles Per Cell
+|Has Assay=Chithrani2006 A2
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Chithrani Au3 M3</title>
+    <id>1911</id>
+    <revision>
+      <id>4438</id>
+      <timestamp>2016-02-08T21:35:51Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Chithrani Au3 |Has Endpoint Value=1500 |Has Endpoint=Particles Per Cell |Has Assay=Chithrani2006 A2 }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Chithrani Au3
+|Has Endpoint Value=1500
+|Has Endpoint=Particles Per Cell
+|Has Assay=Chithrani2006 A2
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Chithrani Au4 M3</title>
+    <id>1912</id>
+    <revision>
+      <id>4439</id>
+      <timestamp>2016-02-08T21:36:08Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Chithrani Au3 |Has Endpoint Value=800 |Has Endpoint=Particles Per Cell |Has Assay=Chithrani2006 A2 }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Chithrani Au3
+|Has Endpoint Value=800
+|Has Endpoint=Particles Per Cell
+|Has Assay=Chithrani2006 A2
+}}</text>
+    </revision>
+    <revision>
+      <id>4445</id>
+      <timestamp>2016-02-08T21:38:21Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Chithrani Au4
+|Has Endpoint Value=800
+|Has Endpoint=Particles Per Cell
+|Has Assay=Chithrani2006 A2
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Chithrani2006 T2</title>
+    <id>1913</id>
+    <revision>
+      <id>4441</id>
+      <timestamp>2016-02-08T21:36:46Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Endpoint=Incubation time |Has Endpoint Value=2.5 |Has Endpoint Unit=hour }}  {{#set: For Measurement=Chithrani Au1 M4| For Measurement=Chithrani Au3 M4| For Me…&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Endpoint=Incubation time
+|Has Endpoint Value=2.5
+|Has Endpoint Unit=hour
+}}
+
+{{#set:
+For Measurement=Chithrani Au1 M4|
+For Measurement=Chithrani Au3 M4|
+For Measurement=Chithrani Au4 M4|
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Chithrani Au1 M4</title>
+    <id>1914</id>
+    <revision>
+      <id>4442</id>
+      <timestamp>2016-02-08T21:37:20Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Chithrani Au1 |Has Endpoint Value=2600 |Has Endpoint=Particles Per Cell |Has Assay=Chithrani2006 A2 }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Chithrani Au1
+|Has Endpoint Value=2600
+|Has Endpoint=Particles Per Cell
+|Has Assay=Chithrani2006 A2
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Chithrani Au3 M4</title>
+    <id>1915</id>
+    <revision>
+      <id>4443</id>
+      <timestamp>2016-02-08T21:37:38Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Chithrani Au3 |Has Endpoint Value=3500 |Has Endpoint=Particles Per Cell |Has Assay=Chithrani2006 A2 }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Chithrani Au3
+|Has Endpoint Value=3500
+|Has Endpoint=Particles Per Cell
+|Has Assay=Chithrani2006 A2
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Chithrani Au4 M4</title>
+    <id>1916</id>
+    <revision>
+      <id>4444</id>
+      <timestamp>2016-02-08T21:37:55Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Chithrani Au4 |Has Endpoint Value=1800 |Has Endpoint=Particles Per Cell |Has Assay=Chithrani2006 A2 }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Chithrani Au4
+|Has Endpoint Value=1800
+|Has Endpoint=Particles Per Cell
+|Has Assay=Chithrani2006 A2
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Chithrani2006 T3</title>
+    <id>1917</id>
+    <revision>
+      <id>4446</id>
+      <timestamp>2016-02-08T21:39:41Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Endpoint=Incubation time |Has Endpoint Value=4 |Has Endpoint Unit=hour }}  {{#set: For Measurement=Chithrani Au1 M5| For Measurement=Chithrani Au3 M5| For Meas…&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Endpoint=Incubation time
+|Has Endpoint Value=4
+|Has Endpoint Unit=hour
+}}
+
+{{#set:
+For Measurement=Chithrani Au1 M5|
+For Measurement=Chithrani Au3 M5|
+For Measurement=Chithrani Au4 M5|
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Chithrani Au1 M5</title>
+    <id>1918</id>
+    <revision>
+      <id>4447</id>
+      <timestamp>2016-02-08T21:40:16Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Chithrani Au1 |Has Endpoint Value=3400 |Has Endpoint=Particles Per Cell |Has Assay=Chithrani2006 A2 }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Chithrani Au1
+|Has Endpoint Value=3400
+|Has Endpoint=Particles Per Cell
+|Has Assay=Chithrani2006 A2
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Chithrani Au3 M5</title>
+    <id>1919</id>
+    <revision>
+      <id>4448</id>
+      <timestamp>2016-02-08T21:40:44Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Chithrani Au3 |Has Endpoint Value=4800 |Has Endpoint=Particles Per Cell |Has Assay=Chithrani2006 A2 }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Chithrani Au3
+|Has Endpoint Value=4800
+|Has Endpoint=Particles Per Cell
+|Has Assay=Chithrani2006 A2
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Chithrani Au4 M5</title>
+    <id>1920</id>
+    <revision>
+      <id>4449</id>
+      <timestamp>2016-02-08T21:41:02Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Chithrani Au4 |Has Endpoint Value=2400 |Has Endpoint=Particles Per Cell |Has Assay=Chithrani2006 A2 }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Chithrani Au4
+|Has Endpoint Value=2400
+|Has Endpoint=Particles Per Cell
+|Has Assay=Chithrani2006 A2
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Chithrani2006 T4</title>
+    <id>1921</id>
+    <revision>
+      <id>4450</id>
+      <timestamp>2016-02-08T21:41:42Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Endpoint=Incubation time |Has Endpoint Value=5.5 |Has Endpoint Unit=hour }}  {{#set: For Measurement=Chithrani Au1 M6| For Measurement=Chithrani Au3 M6| For Me…&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Endpoint=Incubation time
+|Has Endpoint Value=5.5
+|Has Endpoint Unit=hour
+}}
+
+{{#set:
+For Measurement=Chithrani Au1 M6|
+For Measurement=Chithrani Au3 M6|
+For Measurement=Chithrani Au4 M6|
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Chithrani Au1 M6</title>
+    <id>1922</id>
+    <revision>
+      <id>4451</id>
+      <timestamp>2016-02-08T21:42:08Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Chithrani Au1 |Has Endpoint Value=3800 |Has Endpoint=Particles Per Cell |Has Assay=Chithrani2006 A2 }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Chithrani Au1
+|Has Endpoint Value=3800
+|Has Endpoint=Particles Per Cell
+|Has Assay=Chithrani2006 A2
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Chithrani Au3 M6</title>
+    <id>1923</id>
+    <revision>
+      <id>4452</id>
+      <timestamp>2016-02-08T21:42:31Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Chithrani Au3 |Has Endpoint Value=5700 |Has Endpoint=Particles Per Cell |Has Assay=Chithrani2006 A2 }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Chithrani Au3
+|Has Endpoint Value=5700
+|Has Endpoint=Particles Per Cell
+|Has Assay=Chithrani2006 A2
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Chithrani Au4 M6</title>
+    <id>1924</id>
+    <revision>
+      <id>4453</id>
+      <timestamp>2016-02-08T21:43:04Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Chithrani Au4 |Has Endpoint Value=2900 |Has Endpoint=Particles Per Cell |Has Assay=Chithrani2006 A2 }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Chithrani Au4
+|Has Endpoint Value=2900
+|Has Endpoint=Particles Per Cell
+|Has Assay=Chithrani2006 A2
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Chang2010</title>
+    <id>1925</id>
+    <revision>
+      <id>4454</id>
+      <timestamp>2016-02-08T21:50:06Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Paper |Has Year=2010 |Has DOI=10.1016/j.toxlet.2010.11.016 |Has Journal=Toxicology Letters |Substances extracted=Yes }}&quot;</comment>
+      <text xml:space="preserve">{{Paper
+|Has Year=2010
+|Has DOI=10.1016/j.toxlet.2010.11.016
+|Has Journal=Toxicology Letters
+|Substances extracted=Yes
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Chang2010 mGO</title>
+    <id>1926</id>
+    <revision>
+      <id>4455</id>
+      <timestamp>2016-02-08T21:51:39Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=423 |Has Label=m-GO |Has Chemical Composition=CO |Has SMILES= |Has NM Type=GrapheneOxide }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=423
+|Has Label=m-GO
+|Has Chemical Composition=CO
+|Has SMILES=
+|Has NM Type=GrapheneOxide
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Category:GrapheneOxides</title>
+    <id>1927</id>
+    <revision>
+      <id>4456</id>
+      <timestamp>2016-02-08T21:52:10Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;A list of nanomaterials:  {{#ask: [[Category:GrapheneOxides]]  | ? Has Label #  | ? Has Size #  | ? Has NM Type #  | ? Has Zeta potential #  |offset=0  |limit=250 }}&quot;</comment>
+      <text xml:space="preserve">A list of nanomaterials:
+
+{{#ask: [[Category:GrapheneOxides]]
+ | ? Has Label #
+ | ? Has Size #
+ | ? Has NM Type #
+ | ? Has Zeta potential #
+ |offset=0
+ |limit=250
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>GrapheneOxide</title>
+    <id>1928</id>
+    <revision>
+      <id>4458</id>
+      <timestamp>2016-02-08T21:53:11Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{MaterialType |Has Label=GrapheneOxide |Has URI= }}  {{#ask: [[Category:GrapheneOxides]]  | ? Has Label #  | ? Has Size #  | ? Has NM Type #  | ? Has Zeta potential #  |format =…&quot;</comment>
+      <text xml:space="preserve">{{MaterialType
+|Has Label=GrapheneOxide
+|Has URI=
+}}
+
+{{#ask: [[Category:GrapheneOxides]]
+ | ? Has Label #
+ | ? Has Size #
+ | ? Has NM Type #
+ | ? Has Zeta potential #
+ |format = template
+ |template = NMsFrontTemplate
+ |introtemplate = NMsFrontHeader
+ |outrotemplate = NMsFrontFooter
+ |offset=0
+ |limit=250
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Thickness</title>
+    <id>1929</id>
+    <revision>
+      <id>4460</id>
+      <timestamp>2016-02-08T21:54:55Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Endpoint}}&quot;</comment>
+      <text xml:space="preserve">{{Endpoint}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Chang2010 mGO M1</title>
+    <id>1930</id>
+    <revision>
+      <id>4461</id>
+      <timestamp>2016-02-08T21:56:42Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Chang2010 mGO |Has Endpoint Value=0.9 |Has Endpoint Value Units=nm |Has Endpoint=Thickness }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Chang2010 mGO
+|Has Endpoint Value=0.9
+|Has Endpoint Value Units=nm
+|Has Endpoint=Thickness
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Chang2010 lGO</title>
+    <id>1931</id>
+    <revision>
+      <id>4462</id>
+      <timestamp>2016-02-08T21:57:17Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=424 |Has Label=I-GO |Has Chemical Composition=CO |Has SMILES= |Has NM Type=GrapheneOxide }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=424
+|Has Label=I-GO
+|Has Chemical Composition=CO
+|Has SMILES=
+|Has NM Type=GrapheneOxide
+}}</text>
+    </revision>
+    <revision>
+      <id>4466</id>
+      <timestamp>2016-02-08T22:00:24Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <comment>moved [[Chang2010 IGO]] to [[Chang2010 lGO]]</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=424
+|Has Label=I-GO
+|Has Chemical Composition=CO
+|Has SMILES=
+|Has NM Type=GrapheneOxide
+}}</text>
+    </revision>
+    <revision>
+      <id>4474</id>
+      <timestamp>2016-02-08T22:04:02Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=424
+|Has Label=l-GO
+|Has Chemical Composition=CO
+|Has SMILES=
+|Has NM Type=GrapheneOxide
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Chang2010 sGO</title>
+    <id>1932</id>
+    <revision>
+      <id>4463</id>
+      <timestamp>2016-02-08T21:57:41Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=425 |Has Label=s-GO |Has Chemical Composition=CO |Has SMILES= |Has NM Type=GrapheneOxide }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=425
+|Has Label=s-GO
+|Has Chemical Composition=CO
+|Has SMILES=
+|Has NM Type=GrapheneOxide
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Chang2010 sGO M1</title>
+    <id>1933</id>
+    <revision>
+      <id>4464</id>
+      <timestamp>2016-02-08T21:58:49Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Chang2010 sGO |Has Endpoint Value=0.9 |Has Endpoint Value Units=nm |Has Endpoint=Thickness }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Chang2010 sGO
+|Has Endpoint Value=0.9
+|Has Endpoint Value Units=nm
+|Has Endpoint=Thickness
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Chang2010 lGO M1</title>
+    <id>1934</id>
+    <revision>
+      <id>4465</id>
+      <timestamp>2016-02-08T21:59:00Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Chang2010 IGO |Has Endpoint Value=0.9 |Has Endpoint Value Units=nm |Has Endpoint=Thickness }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Chang2010 IGO
+|Has Endpoint Value=0.9
+|Has Endpoint Value Units=nm
+|Has Endpoint=Thickness
+}}</text>
+    </revision>
+    <revision>
+      <id>4468</id>
+      <timestamp>2016-02-08T22:00:44Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <comment>moved [[Chang2010 IGO M1]] to [[Chang2010 lGO M1]]</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Chang2010 IGO
+|Has Endpoint Value=0.9
+|Has Endpoint Value Units=nm
+|Has Endpoint=Thickness
+}}</text>
+    </revision>
+    <revision>
+      <id>4470</id>
+      <timestamp>2016-02-08T22:01:05Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Chang2010 lGO
+|Has Endpoint Value=0.9
+|Has Endpoint Value Units=nm
+|Has Endpoint=Thickness
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Chang2010 lGO M2</title>
+    <id>1937</id>
+    <revision>
+      <id>4471</id>
+      <timestamp>2016-02-08T22:01:59Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Chang2010 lGO |Has Endpoint Value=780 |Has Endpoint Value Error=410 |Has Endpoint Value Units=nm |Has Endpoint=Particle Size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Chang2010 lGO
+|Has Endpoint Value=780
+|Has Endpoint Value Error=410
+|Has Endpoint Value Units=nm
+|Has Endpoint=Particle Size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Chang2010 mGO M2</title>
+    <id>1938</id>
+    <revision>
+      <id>4472</id>
+      <timestamp>2016-02-08T22:02:45Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Chang2010 mGO |Has Endpoint Value=430 |Has Endpoint Value Error=300 |Has Endpoint Value Units=nm |Has Endpoint=Particle Size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Chang2010 mGO
+|Has Endpoint Value=430
+|Has Endpoint Value Error=300
+|Has Endpoint Value Units=nm
+|Has Endpoint=Particle Size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Chang2010 sGO M2</title>
+    <id>1939</id>
+    <revision>
+      <id>4473</id>
+      <timestamp>2016-02-08T22:03:12Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Chang2010 sGO |Has Endpoint Value=160 |Has Endpoint Value Error=90 |Has Endpoint Value Units=nm |Has Endpoint=Particle Size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Chang2010 sGO
+|Has Endpoint Value=160
+|Has Endpoint Value Error=90
 |Has Endpoint Value Units=nm
 |Has Endpoint=Particle Size
 }}</text>
