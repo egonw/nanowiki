@@ -18,7 +18,7 @@
 	xmlns:property="&property;">
 
 	<owl:Ontology rdf:about="">
-		<swivt:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T23:09:13+01:00</swivt:creationDate>
+		<swivt:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-14T17:05:34+01:00</swivt:creationDate>
 		<owl:imports rdf:resource="http://semantic-mediawiki.org/swivt/1.0"/>
 	</owl:Ontology>
 	<swivt:Subject rdf:about="&wiki;Main_Page">
@@ -3135,7 +3135,7 @@
 		<rdf:type rdf:resource="&wiki;Category-3ACoating_Parts"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
 		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[H]N[H]</property:Has_SMILES>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-28T12:26:08</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-03T15:16:23</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;CLIO-2DNH2">
 		<rdfs:label>CLIO-NH2</rdfs:label>
@@ -4025,7 +4025,7 @@
 		<rdf:type rdf:resource="&wiki;Category-3ACoating_Parts"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
 		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCCS(=O)(=O)[O-].[Na+]</property:Has_SMILES>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-01-29T13:36:00</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-02-01T13:09:07</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;MESCoating">
 		<rdfs:label>MESCoating</rdfs:label>
@@ -5471,6 +5471,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">154</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CB</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;CarbonNanoparticle"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Gerloff2009"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-12T10:09:58</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -7331,6 +7332,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">213</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;CarbonNanotube"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Zhou2008"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T15:28:00</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -7346,6 +7348,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">214</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;CarbonNanotube"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Zhou2008"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T15:28:08</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -7361,6 +7364,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">215</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;CarbonNanotube"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Zhou2008"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T15:28:25</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -7376,6 +7380,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">216</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;CarbonNanotube"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Zhou2008"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T15:28:33</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -7391,6 +7396,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">217</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;CarbonNanotube"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Zhou2008"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T15:28:42</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -7406,6 +7412,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">218</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;CarbonNanotube"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Zhou2008"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T15:28:52</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -7421,6 +7428,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">219</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;CarbonNanotube"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Zhou2008"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T15:29:03</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -7436,6 +7444,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">220</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;CarbonNanotube"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Zhou2008"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T15:29:14</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -7451,6 +7460,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">221</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;CarbonNanotube"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Zhou2008"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T15:29:55</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -7466,6 +7476,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">222</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;CarbonNanotube"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Zhou2008"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T15:30:06</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -7481,6 +7492,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">223</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;CarbonNanotube"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Zhou2008"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T15:31:49</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -7496,6 +7508,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">224</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;CarbonNanotube"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Zhou2008"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T15:31:59</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -7511,6 +7524,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">225</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;CarbonNanotube"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Zhou2008"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T15:32:13</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -7526,6 +7540,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">226</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;CarbonNanotube"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Zhou2008"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T15:32:31</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -7541,6 +7556,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">227</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;CarbonNanotube"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Zhou2008"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T15:32:42</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -7556,6 +7572,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">228</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;CarbonNanotube"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Zhou2008"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T15:32:55</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -7571,6 +7588,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">229</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;CarbonNanotube"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Zhou2008"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T15:34:10</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -7586,6 +7604,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">230</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;CarbonNanotube"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Zhou2008"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T15:33:24</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -7601,6 +7620,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">231</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;CarbonNanotube"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Zhou2008"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T15:34:37</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -7616,6 +7636,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">232</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;CarbonNanotube"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Zhou2008"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T15:34:49</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -7631,6 +7652,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">233</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;CarbonNanotube"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Zhou2008"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T15:34:58</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -7646,6 +7668,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">234</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;CarbonNanotube"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Zhou2008"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T15:35:09</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -7661,6 +7684,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">235</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">27</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;CarbonNanotube"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Zhou2008"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T15:36:05</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -7676,6 +7700,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">236</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">28</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;CarbonNanotube"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Zhou2008"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T15:36:17</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -7691,6 +7716,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">237</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">29</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;CarbonNanotube"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Zhou2008"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T15:37:02</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -7706,6 +7732,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">238</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;CarbonNanotube"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Zhou2008"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T15:37:31</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -7721,6 +7748,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">239</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">31</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;CarbonNanotube"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Zhou2008"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T15:37:46</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -7736,6 +7764,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">240</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">32</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;CarbonNanotube"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Zhou2008"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T15:37:59</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -7751,6 +7780,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">241</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">33</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;CarbonNanotube"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Zhou2008"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T15:39:08</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -7766,6 +7796,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">242</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">34</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;CarbonNanotube"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Zhou2008"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T15:39:18</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -7781,6 +7812,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">243</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">35</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;CarbonNanotube"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Zhou2008"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T15:41:25</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -7796,6 +7828,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">244</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">36</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;CarbonNanotube"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Zhou2008"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T15:43:48</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -7811,6 +7844,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">245</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">37</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;CarbonNanotube"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Zhou2008"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T15:43:59</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -7826,6 +7860,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">246</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">38</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;CarbonNanotube"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Zhou2008"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T15:44:09</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -7841,6 +7876,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">247</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">39</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;CarbonNanotube"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Zhou2008"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T15:44:20</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -7856,6 +7892,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">248</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;CarbonNanotube"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Zhou2008"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T15:44:31</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -7871,6 +7908,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">249</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">41</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;CarbonNanotube"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Zhou2008"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T15:44:42</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -7886,6 +7924,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">250</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">42</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;CarbonNanotube"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Zhou2008"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T15:44:51</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -7901,6 +7940,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">251</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">43</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;CarbonNanotube"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Zhou2008"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T15:45:01</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -7916,6 +7956,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">252</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;CarbonNanotube"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Zhou2008"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T15:49:36</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -7931,6 +7972,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">253</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">45</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;CarbonNanotube"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Zhou2008"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T15:49:46</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -7946,6 +7988,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">254</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">46</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;CarbonNanotube"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Zhou2008"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T15:49:56</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -7961,6 +8004,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">255</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">47</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;CarbonNanotube"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Zhou2008"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T15:50:06</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -7976,6 +8020,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">256</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">48</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;CarbonNanotube"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Zhou2008"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T15:50:16</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -7991,6 +8036,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">257</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;CarbonNanotube"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Zhou2008"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T15:50:28</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -8006,6 +8052,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">258</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">50</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;CarbonNanotube"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Zhou2008"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T15:50:38</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -8021,6 +8068,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">259</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">51</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;CarbonNanotube"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Zhou2008"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T15:50:48</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -8036,6 +8084,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">260</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">52</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;CarbonNanotube"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Zhou2008"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T15:51:07</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -8051,6 +8100,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">261</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">53</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;CarbonNanotube"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Zhou2008"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T15:51:18</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -8066,6 +8116,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">262</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">54</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;CarbonNanotube"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Zhou2008"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T15:51:54</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -8081,6 +8132,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">263</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">55</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;CarbonNanotube"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Zhou2008"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T15:52:04</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -8096,6 +8148,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">264</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">56</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;CarbonNanotube"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Zhou2008"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T15:52:15</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -8111,6 +8164,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">265</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">57</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;CarbonNanotube"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Zhou2008"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T15:52:24</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -8126,6 +8180,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">266</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">58</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;CarbonNanotube"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Zhou2008"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T15:52:35</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -8141,6 +8196,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">267</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">59</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;CarbonNanotube"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Zhou2008"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T15:52:46</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -8156,6 +8212,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">268</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">60</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;CarbonNanotube"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Zhou2008"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T15:53:00</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -8171,6 +8228,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">269</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">61</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;CarbonNanotube"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Zhou2008"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T15:53:11</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -8186,6 +8244,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">270</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">62</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;CarbonNanotube"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Zhou2008"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T15:53:22</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -8201,6 +8260,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">271</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">63</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;CarbonNanotube"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Zhou2008"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T15:53:33</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -8216,6 +8276,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">272</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">64</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;CarbonNanotube"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Zhou2008"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T15:53:44</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -8231,6 +8292,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">273</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">65</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;CarbonNanotube"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Zhou2008"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T15:53:54</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -8246,6 +8308,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">274</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">66</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;CarbonNanotube"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Zhou2008"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T15:54:04</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -8261,6 +8324,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">275</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">67</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;CarbonNanotube"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Zhou2008"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T15:54:16</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -8276,6 +8340,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">276</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">68</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;CarbonNanotube"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Zhou2008"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T15:54:26</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -8291,6 +8356,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">277</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">69</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;CarbonNanotube"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Zhou2008"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T15:54:37</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -8306,6 +8372,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">278</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">70</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;CarbonNanotube"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Zhou2008"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T15:54:52</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -8321,6 +8388,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">279</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">71</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;CarbonNanotube"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Zhou2008"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T15:55:49</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -8336,6 +8404,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">280</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">72</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;CarbonNanotube"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Zhou2008"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T15:56:03</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -8351,6 +8420,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">281</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">73</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;CarbonNanotube"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Zhou2008"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T15:56:15</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -8366,6 +8436,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">282</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">74</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;CarbonNanotube"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Zhou2008"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T15:56:26</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -8381,6 +8452,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">283</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">75</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;CarbonNanotube"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Zhou2008"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T15:57:13</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -8396,6 +8468,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">284</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">76</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;CarbonNanotube"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Zhou2008"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T15:57:23</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -8411,6 +8484,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">285</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">77</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;CarbonNanotube"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Zhou2008"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T15:57:34</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -8426,6 +8500,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">286</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">78</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;CarbonNanotube"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Zhou2008"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T15:57:44</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -8441,6 +8516,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">287</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">79</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;CarbonNanotube"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Zhou2008"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T15:57:54</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -8456,6 +8532,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">288</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">80</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;CarbonNanotube"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Zhou2008"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T15:58:07</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -8471,6 +8548,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">289</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">81</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;CarbonNanotube"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Zhou2008"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T15:58:17</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -8486,6 +8564,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">290</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">82</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;CarbonNanotube"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Zhou2008"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T15:58:34</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -8501,6 +8580,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">291</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">83</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;CarbonNanotube"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Zhou2008"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T15:58:46</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -8516,6 +8596,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">292</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">84</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;CarbonNanotube"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Zhou2008"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T15:58:59</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -14647,6 +14728,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">358</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NM-400</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;Multi-2Dwalled_Carbon_Nanotube"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;JRC2011"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-11-20T18:23:49</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -14662,6 +14744,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">359</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NM-401</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;CarbonNanotube"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;JRC2011"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-08T22:33:21</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -14677,6 +14760,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">360</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NM-402</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;CarbonNanotube"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;JRC2011"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-08T22:33:33</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -14692,6 +14776,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">361</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NM-403</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;CarbonNanotube"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;JRC2011"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-08T22:33:48</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -15575,7 +15660,7 @@
 		<property:Has_Endpoint rdf:resource="&wiki;Zeta_Potential"/>
 		<property:Has_Endpoint_Value_Max rdf:datatype="http://www.w3.org/2001/XMLSchema#double">45</property:Has_Endpoint_Value_Max>
 		<property:Has_Endpoint_Value_Min rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-60</property:Has_Endpoint_Value_Min>
-		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Endpoint_Value_Units>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Endpoint_Value_Units>
 		<property:Has_Entity rdf:resource="&wiki;Berg2009_NM1"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-11T12:35:23</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -15588,7 +15673,7 @@
 		<property:Has_Endpoint rdf:resource="&wiki;Zeta_Potential"/>
 		<property:Has_Endpoint_Value_Max rdf:datatype="http://www.w3.org/2001/XMLSchema#double">48</property:Has_Endpoint_Value_Max>
 		<property:Has_Endpoint_Value_Min rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-35</property:Has_Endpoint_Value_Min>
-		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Endpoint_Value_Units>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Endpoint_Value_Units>
 		<property:Has_Entity rdf:resource="&wiki;Berg2009_NM2"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-11T12:36:10</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -15601,7 +15686,7 @@
 		<property:Has_Endpoint rdf:resource="&wiki;Zeta_Potential"/>
 		<property:Has_Endpoint_Value_Max rdf:datatype="http://www.w3.org/2001/XMLSchema#double">55</property:Has_Endpoint_Value_Max>
 		<property:Has_Endpoint_Value_Min rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-45</property:Has_Endpoint_Value_Min>
-		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Endpoint_Value_Units>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Endpoint_Value_Units>
 		<property:Has_Entity rdf:resource="&wiki;Berg2009_NM3"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-11T12:36:48</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -15614,7 +15699,7 @@
 		<property:Has_Endpoint rdf:resource="&wiki;Zeta_Potential"/>
 		<property:Has_Endpoint_Value_Max rdf:datatype="http://www.w3.org/2001/XMLSchema#double">35</property:Has_Endpoint_Value_Max>
 		<property:Has_Endpoint_Value_Min rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-20</property:Has_Endpoint_Value_Min>
-		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Endpoint_Value_Units>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Endpoint_Value_Units>
 		<property:Has_Entity rdf:resource="&wiki;Berg2009_NM4"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-11T12:38:38</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -15627,7 +15712,7 @@
 		<property:Has_Endpoint rdf:resource="&wiki;Zeta_Potential"/>
 		<property:Has_Endpoint_Value_Max rdf:datatype="http://www.w3.org/2001/XMLSchema#double">38</property:Has_Endpoint_Value_Max>
 		<property:Has_Endpoint_Value_Min rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-50</property:Has_Endpoint_Value_Min>
-		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Endpoint_Value_Units>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Endpoint_Value_Units>
 		<property:Has_Entity rdf:resource="&wiki;Berg2009_NM5"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-11T12:38:07</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -19937,13 +20022,16 @@
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
 		<property:Formerly rdf:resource="&wiki;JRC2011_NM-2D103"/>
 		<property:Has_Bundle rdf:resource="&wiki;JRC_Representative_Nanomaterials"/>
+		<property:Has_Chemical_Coating rdf:resource="&wiki;Dimethicone_Coating"/>
+		<property:Has_Chemical_Coating rdf:resource="&wiki;AluminumOxide_Coating"/>
 		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TiO2</property:Has_Chemical_Composition>
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">373</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JRCNM01003a</property:Has_Label>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NM-103</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;MetalOxide"/>
 		<property:Has_Source rdf:resource="&wiki;JRC2014"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-09-20T12:07:12</swivt:wikiPageModificationDate>
+		<property:Has_Source rdf:resource="&wiki;JRC2014b"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-13T19:14:16</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;JRCNM01004a">
 		<rdfs:label>JRCNM01004a</rdfs:label>
@@ -19955,13 +20043,16 @@
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
 		<property:Formerly rdf:resource="&wiki;JRC2011_NM-2D104"/>
 		<property:Has_Bundle rdf:resource="&wiki;JRC_Representative_Nanomaterials"/>
+		<property:Has_Chemical_Coating rdf:resource="&wiki;Dimethicone_Coating"/>
+		<property:Has_Chemical_Coating rdf:resource="&wiki;AluminumOxide_Coating"/>
 		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TiO2</property:Has_Chemical_Composition>
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">374</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JRCNM01004a</property:Has_Label>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NM-104</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;MetalOxide"/>
 		<property:Has_Source rdf:resource="&wiki;JRC2014"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-09-20T12:11:04</swivt:wikiPageModificationDate>
+		<property:Has_Source rdf:resource="&wiki;JRC2014b"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-13T19:28:01</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;JRCNM01005a">
 		<rdfs:label>JRCNM01005a</rdfs:label>
@@ -20301,6 +20392,7 @@
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JRCNM04000a</property:Has_Label>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NM-400</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;Multi-2Dwalled_Carbon_Nanotube"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;JRC2014"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-11-20T18:24:24</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -20326,6 +20418,7 @@
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JRCNM04001a</property:Has_Label>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NM-401</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;Multi-2Dwalled_Carbon_Nanotube"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;JRC2014"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-11-20T18:23:57</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -20344,6 +20437,7 @@
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JRCNM04002a</property:Has_Label>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NM-402</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;Multi-2Dwalled_Carbon_Nanotube"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;JRC2014"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-11-20T18:23:58</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -20362,6 +20456,7 @@
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JRCNM04003a</property:Has_Label>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NM-403</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;Multi-2Dwalled_Carbon_Nanotube"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;JRC2014"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-09-20T13:16:50</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -20378,6 +20473,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">397</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JRCNM04006a</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;Multi-2Dwalled_Carbon_Nanotube"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;JRC2014"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-09-20T13:17:10</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -21383,10 +21479,12 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">409</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mitsui-7</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;Multi-2Dwalled_Carbon_Nanotube"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Nymark2015"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-11-20T16:47:29</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-11T17:11:03</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;E-2DGEOD-2D63559"/>
 		<property:Used_in_Study rdf:resource="&wiki;E-2DGEOD-2D63552"/>
+		<property:Used_in_Study rdf:resource="&wiki;Nymark2015_A1"/>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Nymark2015-2DM2">
 		<rdfs:label>Nymark2015-M2</rdfs:label>
@@ -21402,6 +21500,7 @@
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-11-20T13:00:55</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;E-2DGEOD-2D63559"/>
 		<property:Used_in_Study rdf:resource="&wiki;E-2DGEOD-2D63552"/>
+		<property:Used_in_Study rdf:resource="&wiki;Nymark2015_A1"/>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Nymark2015-2DM3">
 		<rdfs:label>Nymark2015-M3</rdfs:label>
@@ -21417,6 +21516,7 @@
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-11-20T13:00:46</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;E-2DGEOD-2D63559"/>
 		<property:Used_in_Study rdf:resource="&wiki;E-2DGEOD-2D63552"/>
+		<property:Used_in_Study rdf:resource="&wiki;Nymark2015_A1"/>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Transcriptional_Response_Profiling_Assay">
 		<rdfs:label>Transcriptional Response Profiling Assay</rdfs:label>
@@ -21474,10 +21574,12 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">409</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mitsui-7</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;Multi-2Dwalled_Carbon_Nanotube"/>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[C]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;Nymark2015"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-11-20T16:47:29</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-11T17:11:03</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;E-2DGEOD-2D63559"/>
 		<property:Used_in_Study rdf:resource="&wiki;E-2DGEOD-2D63552"/>
+		<property:Used_in_Study rdf:resource="&wiki;Nymark2015_A1"/>
 		<owl:sameAs rdf:resource="&wiki;Nymark2015-2DM1"/>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;E-2DGEOD-2D63559-2DM2">
@@ -21494,6 +21596,7 @@
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-11-20T13:00:55</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;E-2DGEOD-2D63559"/>
 		<property:Used_in_Study rdf:resource="&wiki;E-2DGEOD-2D63552"/>
+		<property:Used_in_Study rdf:resource="&wiki;Nymark2015_A1"/>
 		<owl:sameAs rdf:resource="&wiki;Nymark2015-2DM2"/>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;E-2DGEOD-2D63559-2DM3">
@@ -21510,6 +21613,7 @@
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-11-20T13:00:46</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;E-2DGEOD-2D63559"/>
 		<property:Used_in_Study rdf:resource="&wiki;E-2DGEOD-2D63552"/>
+		<property:Used_in_Study rdf:resource="&wiki;Nymark2015_A1"/>
 		<owl:sameAs rdf:resource="&wiki;Nymark2015-2DM3"/>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Nymark2015-2DM1-2DM1">
@@ -22360,6 +22464,8 @@
 		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO</property:Has_Chemical_Composition>
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">423</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">m-GO</property:Has_Label>
+		<property:Has_NM_Type rdf:resource="&wiki;GrapheneOxide"/>
+		<property:Has_Source rdf:resource="&wiki;Chang2010"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T21:51:39</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<owl:Class rdf:about="&wiki;Category-3AGrapheneOxides">
@@ -22410,7 +22516,8 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">424</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">l-GO</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;GrapheneOxide"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T22:00:24</swivt:wikiPageModificationDate>
+		<property:Has_Source rdf:resource="&wiki;Chang2010"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T22:04:02</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Chang2010_sGO">
 		<rdfs:label>Chang2010 sGO</rdfs:label>
@@ -22424,6 +22531,7 @@
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">425</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">s-GO</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;GrapheneOxide"/>
+		<property:Has_Source rdf:resource="&wiki;Chang2010"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T21:57:41</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Chang2010_sGO_M1">
@@ -22486,6 +22594,570 @@
 		<property:Has_Entity rdf:resource="&wiki;Chang2010_sGO"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T22:03:12</swivt:wikiPageModificationDate>
 	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;JRC2014b">
+		<rdfs:label>JRC2014b</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;JRC2014b"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/JRC2014b"/>
+		<rdf:type rdf:resource="&wiki;Category-3APapers"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<owl:sameAs rdf:resource="http://dx.doi.org/10.2788/79554"/>
+		<property:Has_DOI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.2788/79554</property:Has_DOI>
+		<property:Has_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2014</property:Has_Year>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-13T19:11:38</swivt:wikiPageModificationDate>
+		<property:Substances_extracted rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yes</property:Substances_extracted>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Dimethicone_Coating">
+		<rdfs:label>Dimethicone Coating</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Dimethicone_Coating"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Dimethicone_Coating"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoatings"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical rdf:resource="&wiki;Dimethicone"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-13T19:14:06</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Dimethicone">
+		<rdfs:label>Dimethicone</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Dimethicone"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Dimethicone"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoating_Parts"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[O][Si](C)(C)[O]</property:Has_SMILES>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-13T19:15:17</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;AluminumOxide">
+		<rdfs:label>AluminumOxide</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;AluminumOxide"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/AluminumOxide"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;AluminumOxide">
+		<rdfs:label>AluminumOxide</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;AluminumOxide"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/AluminumOxide"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;AluminumOxide_Coating">
+		<rdfs:label>AluminumOxide Coating</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;AluminumOxide_Coating"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/AluminumOxide_Coating"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoatings"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical rdf:resource="&wiki;AluminumOxide"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-13T19:26:14</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;E-2DGEOD-2D39330">
+		<rdfs:label>E-GEOD-39330</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;E-GEOD-39330"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/E-GEOD-39330"/>
+		<rdf:type rdf:resource="&wiki;Category-3AAssays"/>
+		<rdf:type rdf:resource="&wiki;Category-3AStudies"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:For_Cell_line rdf:resource="&wiki;HMDM"/>
+		<property:Has_Assay_Type rdf:resource="&wiki;Transcriptional_Response_Profiling_Assay"/>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">18</property:Has_Identifier>
+		<property:Has_homepage rdf:resource="https://www.ebi.ac.uk/arrayexpress/experiments/E-GEOD-39330/"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-13T20:47:56</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;E-2DGEOD-2D39330-2DM1">
+		<rdfs:label>E-GEOD-39330-M1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;E-GEOD-39330-M1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/E-GEOD-39330-M1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
+		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Bundle rdf:resource="&wiki;ArrayExpress"/>
+		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZnO</property:Has_Chemical_Composition>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">426</property:Has_Identifier>
+		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZnO-1</property:Has_Label>
+		<property:Has_Source rdf:resource="&wiki;Tuomela2013"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-13T22:39:16</swivt:wikiPageModificationDate>
+		<property:Used_in_Study rdf:resource="&wiki;E-2DGEOD-2D39330"/>
+		<property:Used_in_Study rdf:resource="&wiki;E-2DGEOD-2D39330-2D2"/>
+		<property:Used_in_Study rdf:resource="&wiki;E-2DGEOD-2D39316"/>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;E-2DGEOD-2D39330-2DM1-2DM1">
+		<rdfs:label>E-GEOD-39330-M1-M1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;E-GEOD-39330-M1-M1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/E-GEOD-39330-M1-M1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Primary_Particle_Size"/>
+		<property:Has_Endpoint_Error rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.07</property:Has_Endpoint_Error>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14.7</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;E-2DGEOD-2D39330-2DM1"/>
+		<property:Has_Method rdf:resource="&wiki;TEM"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-13T21:30:02</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;E-2DGEOD-2D39330-2DM1-2DM2">
+		<rdfs:label>E-GEOD-39330-M1-M2</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;E-GEOD-39330-M1-M2"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/E-GEOD-39330-M1-M2"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Hydrodynamic_size"/>
+		<property:Has_Endpoint_Error rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3</property:Has_Endpoint_Error>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">159</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;E-2DGEOD-2D39330-2DM1"/>
+		<property:Has_Method rdf:resource="&wiki;DLS"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-13T21:31:58</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;PLOS_ONE">
+		<rdfs:label>PLOS ONE</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;PLOS_ONE"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/PLOS_ONE"/>
+		<rdf:type rdf:resource="&wiki;Category-3AJournals"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-13T21:33:27</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Tuomela2013">
+		<rdfs:label>Tuomela2013</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Tuomela2013"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Tuomela2013"/>
+		<rdf:type rdf:resource="&wiki;Category-3APapers"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<owl:sameAs rdf:resource="http://dx.doi.org/10.1371/journal.pone.0068415"/>
+		<property:Has_DOI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1371/journal.pone.0068415</property:Has_DOI>
+		<property:Has_Journal rdf:resource="&wiki;PLOS_ONE"/>
+		<property:Has_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2013</property:Has_Year>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-13T21:33:34</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;E-2DGEOD-2D39330-2DM1-2DM3">
+		<rdfs:label>E-GEOD-39330-M1-M3</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;E-GEOD-39330-M1-M3"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/E-GEOD-39330-M1-M3"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Zeta_Potential"/>
+		<property:Has_Endpoint_Error rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.1</property:Has_Endpoint_Error>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-17.3</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;E-2DGEOD-2D39330-2DM1"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-13T22:34:05</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;E-2DGEOD-2D39330-2D2">
+		<rdfs:label>E-GEOD-39330-2</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;E-GEOD-39330-2"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/E-GEOD-39330-2"/>
+		<rdf:type rdf:resource="&wiki;Category-3AAssays"/>
+		<rdf:type rdf:resource="&wiki;Category-3AStudies"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:For_Cell_line rdf:resource="&wiki;MDDC"/>
+		<property:Has_Assay_Type rdf:resource="&wiki;Transcriptional_Response_Profiling_Assay"/>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">19</property:Has_Identifier>
+		<property:Has_homepage rdf:resource="https://www.ebi.ac.uk/arrayexpress/experiments/E-GEOD-39330/"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-13T22:38:58</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;MDDC">
+		<rdfs:label>MDDC</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;MDDC"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/MDDC"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACell_Lines"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Species rdf:resource="&wiki;Human"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-13T22:59:23</swivt:wikiPageModificationDate>
+		<property:Subclass_Of rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;HMDM">
+		<rdfs:label>HMDM</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;HMDM"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/HMDM"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACell_Lines"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Species rdf:resource="&wiki;Human"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-13T22:59:46</swivt:wikiPageModificationDate>
+		<property:Subclass_Of rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;E-2DGEOD-2D39316">
+		<rdfs:label>E-GEOD-39316</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;E-GEOD-39316"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/E-GEOD-39316"/>
+		<rdf:type rdf:resource="&wiki;Category-3AAssays"/>
+		<rdf:type rdf:resource="&wiki;Category-3AStudies"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:For_Cell_line rdf:resource="&wiki;MDDC"/>
+		<property:Has_Assay_Type rdf:resource="&wiki;Transcriptional_Response_Profiling_Assay"/>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20</property:Has_Identifier>
+		<property:Has_homepage rdf:resource="https://www.ebi.ac.uk/arrayexpress/experiments/E-GEOD-39316/"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-14T10:26:32</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;E-2DGEOD-2D39316-2DM1">
+		<rdfs:label>E-GEOD-39316-M1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;E-GEOD-39316-M1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/E-GEOD-39316-M1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
+		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Bundle rdf:resource="&wiki;ArrayExpress"/>
+		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TiO2</property:Has_Chemical_Composition>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">427</property:Has_Identifier>
+		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TiO2</property:Has_Label>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O=[Ti]=O</property:Has_SMILES>
+		<property:Has_Source rdf:resource="&wiki;Tuomela2013"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-14T10:28:44</swivt:wikiPageModificationDate>
+		<property:Used_in_Study rdf:resource="&wiki;E-2DGEOD-2D39316"/>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;E-2DGEOD-2D39316-2DM1-2DM2">
+		<rdfs:label>E-GEOD-39316-M1-M2</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;E-GEOD-39316-M1-M2"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/E-GEOD-39316-M1-M2"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Hydrodynamic_size"/>
+		<property:Has_Endpoint_Error rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2</property:Has_Endpoint_Error>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">297</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;E-2DGEOD-2D39316-2DM1"/>
+		<property:Has_Method rdf:resource="&wiki;DLS"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-14T10:29:39</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;E-2DGEOD-2D39316-2DM1-2DM1">
+		<rdfs:label>E-GEOD-39316-M1-M1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;E-GEOD-39316-M1-M1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/E-GEOD-39316-M1-M1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Primary_Particle_Size"/>
+		<property:Has_Endpoint_Error rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.9</property:Has_Endpoint_Error>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">31.3</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;E-2DGEOD-2D39316-2DM1"/>
+		<property:Has_Method rdf:resource="&wiki;TEM"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-14T10:30:15</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;E-2DGEOD-2D39316-2DM1-2DM3">
+		<rdfs:label>E-GEOD-39316-M1-M3</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;E-GEOD-39316-M1-M3"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/E-GEOD-39316-M1-M3"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Zeta_Potential"/>
+		<property:Has_Endpoint_Error rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.1</property:Has_Endpoint_Error>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-12.2</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;E-2DGEOD-2D39316-2DM1"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-14T10:31:11</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;HEAC">
+		<rdfs:label>HEAC</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;HEAC"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/HEAC"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACell_Lines"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Species rdf:resource="&wiki;Human"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-14T10:39:03</swivt:wikiPageModificationDate>
+		<property:Subclass_Of rdf:resource="http://purl.obolibrary.org/obo/CL_0002544"/>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;E-2DGEOD-2D17676">
+		<rdfs:label>E-GEOD-17676</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;E-GEOD-17676"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/E-GEOD-17676"/>
+		<rdf:type rdf:resource="&wiki;Category-3AAssays"/>
+		<rdf:type rdf:resource="&wiki;Category-3AStudies"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:For_Cell_line rdf:resource="&wiki;HEAC"/>
+		<property:Has_Assay_Type rdf:resource="&wiki;Transcriptional_Response_Profiling_Assay"/>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">21</property:Has_Identifier>
+		<property:Has_Source rdf:resource="&wiki;Peng2010"/>
+		<property:Has_homepage rdf:resource="https://www.ebi.ac.uk/arrayexpress/experiments/E-GEOD-17676/"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-14T10:39:21</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Peng2010">
+		<rdfs:label>Peng2010</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Peng2010"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Peng2010"/>
+		<rdf:type rdf:resource="&wiki;Category-3APapers"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<owl:sameAs rdf:resource="http://dx.doi.org/10.1021/nl903043z"/>
+		<property:Has_DOI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1021/nl903043z</property:Has_DOI>
+		<property:Has_Journal rdf:resource="&wiki;Nano_Letters"/>
+		<property:Has_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010</property:Has_Year>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-14T10:42:00</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;E-2DGEOD-2D17676-2DM1">
+		<rdfs:label>E-GEOD-17676-M1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;E-GEOD-17676-M1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/E-GEOD-17676-M1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
+		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Bundle rdf:resource="&wiki;ArrayExpress"/>
+		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TiO</property:Has_Chemical_Composition>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">428</property:Has_Identifier>
+		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TiO2</property:Has_Label>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O=[Ti]=O</property:Has_SMILES>
+		<property:Has_Source rdf:resource="&wiki;Peng2010"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-14T10:47:05</swivt:wikiPageModificationDate>
+		<property:Used_in_Study rdf:resource="&wiki;E-2DGEOD-2D17676"/>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;E-2DGEOD-2D17676-2DM2">
+		<rdfs:label>E-GEOD-17676-M2</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;E-GEOD-17676-M2"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/E-GEOD-17676-M2"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
+		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Bundle rdf:resource="&wiki;ArrayExpress"/>
+		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TiO</property:Has_Chemical_Composition>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">429</property:Has_Identifier>
+		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TiO2</property:Has_Label>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O=[Ti]=O</property:Has_SMILES>
+		<property:Has_Source rdf:resource="&wiki;Peng2010"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-14T10:47:14</swivt:wikiPageModificationDate>
+		<property:Used_in_Study rdf:resource="&wiki;E-2DGEOD-2D17676"/>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;E-2DGEOD-2D17676-2DM1-2DM1">
+		<rdfs:label>E-GEOD-17676-M1-M1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;E-GEOD-17676-M1-M1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/E-GEOD-17676-M1-M1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Particle_Size"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">100</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;E-2DGEOD-2D17676-2DM1"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-14T10:51:53</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;E-2DGEOD-2D17676-2DM2-2DM1">
+		<rdfs:label>E-GEOD-17676-M2-M1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;E-GEOD-17676-M2-M1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/E-GEOD-17676-M2-M1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Particle_Size"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;E-2DGEOD-2D17676-2DM2"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-14T10:52:23</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Nymark2015-2DM1-2DM3">
+		<rdfs:label>Nymark2015-M1-M3</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Nymark2015-M1-M3"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Nymark2015-M1-M3"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Specific_Surface_Area"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">m^2/g</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Nymark2015-2DM1"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-14T12:28:08</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Nymark2015-2DM2-2DM3">
+		<rdfs:label>Nymark2015-M2-M3</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Nymark2015-M2-M3"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Nymark2015-M2-M3"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Specific_Surface_Area"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.3</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">m^2/g</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Nymark2015-2DM2"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-14T12:48:11</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Nymark2015-2DM3-2DM3">
+		<rdfs:label>Nymark2015-M3-M3</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Nymark2015-M3-M3"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Nymark2015-M3-M3"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Specific_Surface_Area"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.07</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">m^2/g</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Nymark2015-2DM3"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-14T12:48:45</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;IC50">
+		<rdfs:label>IC50</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;IC50"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/IC50"/>
+		<rdf:type rdf:resource="&wiki;Category-3AIC50"/>
+		<rdf:type rdf:resource="&wiki;Category-3AEndpoints"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IC_50</property:Description>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-14T12:57:28</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Trypan_Blue_Cell_Staining">
+		<rdfs:label>Trypan Blue Cell Staining</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Trypan_Blue_Cell_Staining"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Trypan_Blue_Cell_Staining"/>
+		<rdf:type rdf:resource="&wiki;Category-3AAssayMethods"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<owl:sameAs rdf:resource="http://www.bioassayontology.org/bao#BAO_0002461"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-14T13:12:33</swivt:wikiPageModificationDate>
+		<property:Original_URI rdf:resource="http://www.bioassayontology.org/bao#BAO_0002461"/>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Nymark2015_A1">
+		<rdfs:label>Nymark2015 A1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Nymark2015_A1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Nymark2015_A1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AAssays"/>
+		<rdf:type rdf:resource="&wiki;Category-3AStudies"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:For_Cell_line rdf:resource="&wiki;BEAS-2D2B"/>
+		<property:Has_Assay_Method rdf:resource="&wiki;Trypan_Blue_Cell_Staining"/>
+		<property:Has_Assay_Type rdf:resource="&wiki;Cell_Viability_Assay"/>
+		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">22</property:Has_Identifier>
+		<property:Has_Source rdf:resource="&wiki;Nymark2015"/>
+		<property:Has_homepage rdf:resource="https://www.ebi.ac.uk/arrayexpress/experiments/E-GEOD-17676/"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-14T13:13:35</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Nymark2015-2DM3-2DM4">
+		<rdfs:label>Nymark2015-M3-M4</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Nymark2015-M3-M4"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Nymark2015-M3-M4"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Assay rdf:resource="&wiki;Nymark2015_A1"/>
+		<property:Has_Endpoint rdf:resource="&wiki;IC50"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">90</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">μg/cm^2</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Nymark2015-2DM3"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-14T13:36:20</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Nymark2015-2DC1">
+		<rdfs:label>Nymark2015-C1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Nymark2015-C1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Nymark2015-C1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:For_Measurement rdf:resource="&wiki;Nymark2015-2DM1-2DM4"/>
+		<property:For_Measurement rdf:resource="&wiki;Nymark2015-2DM2-2DM4"/>
+		<property:For_Measurement rdf:resource="&wiki;Nymark2015-2DM3-2DM4"/>
+		<property:Has_Endpoint rdf:resource="&wiki;Incubation_Time"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</property:Has_Endpoint_Value>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-14T13:35:49</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Nymark2015-2DC2">
+		<rdfs:label>Nymark2015-C2</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Nymark2015-C2"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Nymark2015-C2"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:For_Measurement rdf:resource="&wiki;Nymark2015-2DM1-2DM5"/>
+		<property:For_Measurement rdf:resource="&wiki;Nymark2015-2DM2-2DM5"/>
+		<property:For_Measurement rdf:resource="&wiki;Nymark2015-2DM3-2DM5"/>
+		<property:Has_Endpoint rdf:resource="&wiki;Incubation_Time"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24</property:Has_Endpoint_Value>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-14T13:37:17</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Nymark2015-2DC3">
+		<rdfs:label>Nymark2015-C3</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Nymark2015-C3"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Nymark2015-C3"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:For_Measurement rdf:resource="&wiki;Nymark2015-2DM1-2DM6"/>
+		<property:For_Measurement rdf:resource="&wiki;Nymark2015-2DM2-2DM6"/>
+		<property:For_Measurement rdf:resource="&wiki;Nymark2015-2DM3-2DM6"/>
+		<property:Has_Endpoint rdf:resource="&wiki;Incubation_Time"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">48</property:Has_Endpoint_Value>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-14T13:37:29</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Nymark2015-2DM2-2DM4">
+		<rdfs:label>Nymark2015-M2-M4</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Nymark2015-M2-M4"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Nymark2015-M2-M4"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Assay rdf:resource="&wiki;Nymark2015_A1"/>
+		<property:Has_Endpoint rdf:resource="&wiki;IC50"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">45</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">μg/cm^2</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Nymark2015-2DM2"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-14T13:38:05</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Nymark2015-2DM1-2DM4">
+		<rdfs:label>Nymark2015-M1-M4</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Nymark2015-M1-M4"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Nymark2015-M1-M4"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Assay rdf:resource="&wiki;Nymark2015_A1"/>
+		<property:Has_Endpoint rdf:resource="&wiki;IC50"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">128</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">μg/cm^2</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Nymark2015-2DM1"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-14T13:38:38</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Nymark2015-2DM1-2DM5">
+		<rdfs:label>Nymark2015-M1-M5</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Nymark2015-M1-M5"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Nymark2015-M1-M5"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Assay rdf:resource="&wiki;Nymark2015_A1"/>
+		<property:Has_Endpoint rdf:resource="&wiki;IC50"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">33</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">μg/cm^2</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Nymark2015-2DM1"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-14T13:38:53</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Nymark2015-2DM1-2DM6">
+		<rdfs:label>Nymark2015-M1-M6</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Nymark2015-M1-M6"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Nymark2015-M1-M6"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Assay rdf:resource="&wiki;Nymark2015_A1"/>
+		<property:Has_Endpoint rdf:resource="&wiki;IC50"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">27</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">μg/cm^2</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Nymark2015-2DM1"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-14T13:39:02</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Nymark2015-2DM2-2DM5">
+		<rdfs:label>Nymark2015-M2-M5</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Nymark2015-M2-M5"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Nymark2015-M2-M5"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Assay rdf:resource="&wiki;Nymark2015_A1"/>
+		<property:Has_Endpoint rdf:resource="&wiki;IC50"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">μg/cm^2</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Nymark2015-2DM2"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-14T13:39:32</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Nymark2015-2DM2-2DM6">
+		<rdfs:label>Nymark2015-M2-M6</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Nymark2015-M2-M6"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Nymark2015-M2-M6"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Assay rdf:resource="&wiki;Nymark2015_A1"/>
+		<property:Has_Endpoint rdf:resource="&wiki;IC50"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">μg/cm^2</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Nymark2015-2DM2"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-14T13:39:43</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Nymark2015-2DM3-2DM5">
+		<rdfs:label>Nymark2015-M3-M5</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Nymark2015-M3-M5"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Nymark2015-M3-M5"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Assay rdf:resource="&wiki;Nymark2015_A1"/>
+		<property:Has_Endpoint rdf:resource="&wiki;IC50"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">48</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">μg/cm^2</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Nymark2015-2DM3"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-14T13:40:13</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Nymark2015-2DM3-2DM6">
+		<rdfs:label>Nymark2015-M3-M6</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Nymark2015-M3-M6"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Nymark2015-M3-M6"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Assay rdf:resource="&wiki;Nymark2015_A1"/>
+		<property:Has_Endpoint rdf:resource="&wiki;IC50"/>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">66</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">μg/cm^2</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;Nymark2015-2DM3"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-14T13:41:13</swivt:wikiPageModificationDate>
+	</swivt:Subject>
 	<owl:DatatypeProperty rdf:about="&swivt;creationDate" />
 	<owl:ObjectProperty rdf:about="&swivt;page" />
 	<owl:DatatypeProperty rdf:about="&swivt;wikiNamespace" />
@@ -22529,5 +23201,6 @@
 	<owl:Class rdf:about="&wiki;Category-3AParticles_Per_Cell" />
 	<owl:Class rdf:about="&wiki;Category-3AIncubation_time" />
 	<owl:Class rdf:about="&wiki;Category-3AThickness" />
+	<owl:Class rdf:about="&wiki;Category-3AIC50" />
 	<!-- Created by Semantic MediaWiki, http://semantic-mediawiki.org/ -->
 </rdf:RDF>

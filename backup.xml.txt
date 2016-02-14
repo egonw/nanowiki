@@ -37481,6 +37481,55 @@ carcinogenicity.
 [[Category:Coating_Parts]]__NOEDITSECTION____NOTOC__
 &lt;/includeonly&gt;</text>
     </revision>
+    <revision>
+      <id>4571</id>
+      <timestamp>2016-02-13T19:23:52Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">&lt;noinclude&gt;
+&lt;pre&gt;
+{{CoatingPart
+|Has Chemical Composition=
+|SMILES=
+}}
+&lt;/pre&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: right; table-layout:fixed; word-wrap: break-word;&quot;
+! colspan=2 style=&quot;text-align: center; font-size: 125%&quot; | {{{Name|{{PAGENAME}} }}}
+|-
+{{#if:{{{Has Chemical Composition|}}}|
+{{!}}-
+{{!}} Chemical Composition
+{{!}} {{{Has Chemical Composition}}} 
+}}
+|-
+{{#if:{{{SMILES|}}}|
+{{!}}-
+{{!}} SMILES
+{{!}} {{{SMILES}}} 
+}}
+|}
+&lt;br&gt;
+{{#if:{{{Has Chemical Composition|}}} |
+{{#set:
+|Has Chemical Composition={{{Has Chemical Composition|}}}
+}}
+| }}
+{{#if:{{{SMILES|}}} |
+{{#set:
+|Has SMILES={{{SMILES|}}}
+}}
+| }}
+= Coatings =
+{{#ask: [[Category:Coatings]] [[Has Chemical::{{PAGENAME}}]]
+| ? Has Chemical
+}}
+
+[[Category:Coating_Parts]]__NOEDITSECTION____NOTOC__
+&lt;/includeonly&gt;</text>
+    </revision>
   </page>
   <page>
     <title>COOH</title>
@@ -55222,6 +55271,22 @@ CdSe quantum dots studied for dot size, surface charge, and functionalization.</
 |Has Source=Gerloff2009
 }}</text>
     </revision>
+    <revision>
+      <id>4476</id>
+      <timestamp>2016-02-11T17:17:05Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=154
+|Has Label=CB
+|Has Chemical Composition=C
+|Has SMILES=[C]
+|Has NM Type=CarbonNanoparticle
+|Has Source=Gerloff2009
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Gerloff2009 NM6</title>
@@ -60946,6 +61011,22 @@ Paper with data on coated carbon nanotubes. However, sadly, the biological data 
 |Has NM Type=CarbonNanotube
 }}</text>
     </revision>
+    <revision>
+      <id>4486</id>
+      <timestamp>2016-02-11T17:18:45Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=213
+|Has Label=5
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has SMILES=[C]
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Zhou2008 M2</title>
@@ -60975,6 +61056,22 @@ Paper with data on coated carbon nanotubes. However, sadly, the biological data 
 |Has Label=6
 |Has Source=Zhou2008
 |Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+    <revision>
+      <id>4487</id>
+      <timestamp>2016-02-11T17:18:50Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=214
+|Has Label=6
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has SMILES=[C]
 |Has NM Type=CarbonNanotube
 }}</text>
     </revision>
@@ -61010,6 +61107,22 @@ Paper with data on coated carbon nanotubes. However, sadly, the biological data 
 |Has NM Type=CarbonNanotube
 }}</text>
     </revision>
+    <revision>
+      <id>4488</id>
+      <timestamp>2016-02-11T17:18:56Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=215
+|Has Label=7
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has SMILES=[C]
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Zhou2008 M4</title>
@@ -61039,6 +61152,22 @@ Paper with data on coated carbon nanotubes. However, sadly, the biological data 
 |Has Label=8
 |Has Source=Zhou2008
 |Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+    <revision>
+      <id>4489</id>
+      <timestamp>2016-02-11T17:19:02Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=216
+|Has Label=8
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has SMILES=[C]
 |Has NM Type=CarbonNanotube
 }}</text>
     </revision>
@@ -61074,6 +61203,22 @@ Paper with data on coated carbon nanotubes. However, sadly, the biological data 
 |Has NM Type=CarbonNanotube
 }}</text>
     </revision>
+    <revision>
+      <id>4490</id>
+      <timestamp>2016-02-11T17:19:07Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=217
+|Has Label=9
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has SMILES=[C]
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Zhou2008 M6</title>
@@ -61103,6 +61248,22 @@ Paper with data on coated carbon nanotubes. However, sadly, the biological data 
 |Has Label=10
 |Has Source=Zhou2008
 |Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+    <revision>
+      <id>4491</id>
+      <timestamp>2016-02-11T17:19:13Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=218
+|Has Label=10
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has SMILES=[C]
 |Has NM Type=CarbonNanotube
 }}</text>
     </revision>
@@ -61138,6 +61299,22 @@ Paper with data on coated carbon nanotubes. However, sadly, the biological data 
 |Has NM Type=CarbonNanotube
 }}</text>
     </revision>
+    <revision>
+      <id>4492</id>
+      <timestamp>2016-02-11T17:19:18Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=219
+|Has Label=11
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has SMILES=[C]
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Zhou2008 M8</title>
@@ -61170,6 +61347,22 @@ Paper with data on coated carbon nanotubes. However, sadly, the biological data 
 |Has NM Type=CarbonNanotube
 }}</text>
     </revision>
+    <revision>
+      <id>4493</id>
+      <timestamp>2016-02-11T17:19:24Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=220
+|Has Label=12
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has SMILES=[C]
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Zhou2008 M9</title>
@@ -61186,6 +61379,22 @@ Paper with data on coated carbon nanotubes. However, sadly, the biological data 
 |Has Label=13
 |Has Source=Zhou2008
 |Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+    <revision>
+      <id>4494</id>
+      <timestamp>2016-02-11T17:19:29Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=221
+|Has Label=13
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has SMILES=[C]
 |Has NM Type=CarbonNanotube
 }}</text>
     </revision>
@@ -61208,6 +61417,22 @@ Paper with data on coated carbon nanotubes. However, sadly, the biological data 
 |Has NM Type=CarbonNanotube
 }}</text>
     </revision>
+    <revision>
+      <id>4495</id>
+      <timestamp>2016-02-11T17:19:48Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=222
+|Has Label=14
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has SMILES=[C]
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Zhou2008 M11</title>
@@ -61224,6 +61449,22 @@ Paper with data on coated carbon nanotubes. However, sadly, the biological data 
 |Has Label=15
 |Has Source=Zhou2008
 |Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+    <revision>
+      <id>4496</id>
+      <timestamp>2016-02-11T17:19:54Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=223
+|Has Label=15
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has SMILES=[C]
 |Has NM Type=CarbonNanotube
 }}</text>
     </revision>
@@ -61246,6 +61487,22 @@ Paper with data on coated carbon nanotubes. However, sadly, the biological data 
 |Has NM Type=CarbonNanotube
 }}</text>
     </revision>
+    <revision>
+      <id>4497</id>
+      <timestamp>2016-02-11T17:20:00Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=224
+|Has Label=16
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has SMILES=[C]
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Zhou2008 M13</title>
@@ -61262,6 +61519,22 @@ Paper with data on coated carbon nanotubes. However, sadly, the biological data 
 |Has Label=17
 |Has Source=Zhou2008
 |Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+    <revision>
+      <id>4498</id>
+      <timestamp>2016-02-11T17:20:05Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=225
+|Has Label=17
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has SMILES=[C]
 |Has NM Type=CarbonNanotube
 }}</text>
     </revision>
@@ -61284,6 +61557,22 @@ Paper with data on coated carbon nanotubes. However, sadly, the biological data 
 |Has NM Type=CarbonNanotube
 }}</text>
     </revision>
+    <revision>
+      <id>4499</id>
+      <timestamp>2016-02-11T17:20:11Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=226
+|Has Label=18
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has SMILES=[C]
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Zhou2008 M15</title>
@@ -61303,6 +61592,22 @@ Paper with data on coated carbon nanotubes. However, sadly, the biological data 
 |Has NM Type=CarbonNanotube
 }}</text>
     </revision>
+    <revision>
+      <id>4477</id>
+      <timestamp>2016-02-11T17:17:44Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=227
+|Has Label=19
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has SMILES=[C]
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Zhou2008 M16</title>
@@ -61319,6 +61624,22 @@ Paper with data on coated carbon nanotubes. However, sadly, the biological data 
 |Has Label=20
 |Has Source=Zhou2008
 |Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+    <revision>
+      <id>4478</id>
+      <timestamp>2016-02-11T17:17:50Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=228
+|Has Label=20
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has SMILES=[C]
 |Has NM Type=CarbonNanotube
 }}</text>
     </revision>
@@ -61355,6 +61676,22 @@ Paper with data on coated carbon nanotubes. However, sadly, the biological data 
 |Has NM Type=CarbonNanotube
 }}</text>
     </revision>
+    <revision>
+      <id>4479</id>
+      <timestamp>2016-02-11T17:18:00Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=229
+|Has Label=21
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has SMILES=[C]
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Zhou2008 M18</title>
@@ -61371,6 +61708,22 @@ Paper with data on coated carbon nanotubes. However, sadly, the biological data 
 |Has Label=22
 |Has Source=Zhou2008
 |Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+    <revision>
+      <id>4480</id>
+      <timestamp>2016-02-11T17:18:07Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=230
+|Has Label=22
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has SMILES=[C]
 |Has NM Type=CarbonNanotube
 }}</text>
     </revision>
@@ -61393,6 +61746,22 @@ Paper with data on coated carbon nanotubes. However, sadly, the biological data 
 |Has NM Type=CarbonNanotube
 }}</text>
     </revision>
+    <revision>
+      <id>4481</id>
+      <timestamp>2016-02-11T17:18:13Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=231
+|Has Label=23
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has SMILES=[C]
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Zhou2008 M20</title>
@@ -61409,6 +61778,22 @@ Paper with data on coated carbon nanotubes. However, sadly, the biological data 
 |Has Label=24
 |Has Source=Zhou2008
 |Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+    <revision>
+      <id>4482</id>
+      <timestamp>2016-02-11T17:18:19Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=232
+|Has Label=24
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has SMILES=[C]
 |Has NM Type=CarbonNanotube
 }}</text>
     </revision>
@@ -61431,6 +61816,22 @@ Paper with data on coated carbon nanotubes. However, sadly, the biological data 
 |Has NM Type=CarbonNanotube
 }}</text>
     </revision>
+    <revision>
+      <id>4483</id>
+      <timestamp>2016-02-11T17:18:29Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=233
+|Has Label=25
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has SMILES=[C]
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Zhou2008 M22</title>
@@ -61447,6 +61848,22 @@ Paper with data on coated carbon nanotubes. However, sadly, the biological data 
 |Has Label=26
 |Has Source=Zhou2008
 |Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+    <revision>
+      <id>4560</id>
+      <timestamp>2016-02-11T17:31:15Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=234
+|Has Label=26
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has SMILES=[C]
 |Has NM Type=CarbonNanotube
 }}</text>
     </revision>
@@ -61469,6 +61886,22 @@ Paper with data on coated carbon nanotubes. However, sadly, the biological data 
 |Has NM Type=CarbonNanotube
 }}</text>
     </revision>
+    <revision>
+      <id>4484</id>
+      <timestamp>2016-02-11T17:18:34Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=235
+|Has Label=27
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has SMILES=[C]
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Zhou2008 M24</title>
@@ -61485,6 +61918,22 @@ Paper with data on coated carbon nanotubes. However, sadly, the biological data 
 |Has Label=28
 |Has Source=Zhou2008
 |Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+    <revision>
+      <id>4485</id>
+      <timestamp>2016-02-11T17:18:40Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=236
+|Has Label=28
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has SMILES=[C]
 |Has NM Type=CarbonNanotube
 }}</text>
     </revision>
@@ -61521,6 +61970,22 @@ Paper with data on coated carbon nanotubes. However, sadly, the biological data 
 |Has NM Type=CarbonNanotube
 }}</text>
     </revision>
+    <revision>
+      <id>4561</id>
+      <timestamp>2016-02-11T17:31:25Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=237
+|Has Label=29
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has SMILES=[C]
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Zhou2008 M26</title>
@@ -61537,6 +62002,22 @@ Paper with data on coated carbon nanotubes. However, sadly, the biological data 
 |Has Label=30
 |Has Source=Zhou2008
 |Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+    <revision>
+      <id>4562</id>
+      <timestamp>2016-02-11T17:31:34Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=238
+|Has Label=30
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has SMILES=[C]
 |Has NM Type=CarbonNanotube
 }}</text>
     </revision>
@@ -61559,6 +62040,22 @@ Paper with data on coated carbon nanotubes. However, sadly, the biological data 
 |Has NM Type=CarbonNanotube
 }}</text>
     </revision>
+    <revision>
+      <id>4563</id>
+      <timestamp>2016-02-11T17:31:40Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=239
+|Has Label=31
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has SMILES=[C]
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Zhou2008 M28</title>
@@ -61575,6 +62072,22 @@ Paper with data on coated carbon nanotubes. However, sadly, the biological data 
 |Has Label=32
 |Has Source=Zhou2008
 |Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+    <revision>
+      <id>4564</id>
+      <timestamp>2016-02-11T17:31:46Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=240
+|Has Label=32
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has SMILES=[C]
 |Has NM Type=CarbonNanotube
 }}</text>
     </revision>
@@ -61597,6 +62110,22 @@ Paper with data on coated carbon nanotubes. However, sadly, the biological data 
 |Has NM Type=CarbonNanotube
 }}</text>
     </revision>
+    <revision>
+      <id>4565</id>
+      <timestamp>2016-02-11T17:31:52Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=241
+|Has Label=33
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has SMILES=[C]
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Zhou2008 M30</title>
@@ -61613,6 +62142,22 @@ Paper with data on coated carbon nanotubes. However, sadly, the biological data 
 |Has Label=34
 |Has Source=Zhou2008
 |Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+    <revision>
+      <id>4559</id>
+      <timestamp>2016-02-11T17:30:13Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=242
+|Has Label=34
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has SMILES=[C]
 |Has NM Type=CarbonNanotube
 }}</text>
     </revision>
@@ -61635,6 +62180,22 @@ Paper with data on coated carbon nanotubes. However, sadly, the biological data 
 |Has NM Type=CarbonNanotube
 }}</text>
     </revision>
+    <revision>
+      <id>4558</id>
+      <timestamp>2016-02-11T17:30:07Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=243
+|Has Label=35
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has SMILES=[C]
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Zhou2008 M32</title>
@@ -61651,6 +62212,22 @@ Paper with data on coated carbon nanotubes. However, sadly, the biological data 
 |Has Label=36
 |Has Source=Zhou2008
 |Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+    <revision>
+      <id>4557</id>
+      <timestamp>2016-02-11T17:30:02Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=244
+|Has Label=36
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has SMILES=[C]
 |Has NM Type=CarbonNanotube
 }}</text>
     </revision>
@@ -61673,6 +62250,22 @@ Paper with data on coated carbon nanotubes. However, sadly, the biological data 
 |Has NM Type=CarbonNanotube
 }}</text>
     </revision>
+    <revision>
+      <id>4556</id>
+      <timestamp>2016-02-11T17:29:57Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=245
+|Has Label=37
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has SMILES=[C]
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Zhou2008 M34</title>
@@ -61689,6 +62282,22 @@ Paper with data on coated carbon nanotubes. However, sadly, the biological data 
 |Has Label=38
 |Has Source=Zhou2008
 |Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+    <revision>
+      <id>4555</id>
+      <timestamp>2016-02-11T17:29:52Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=246
+|Has Label=38
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has SMILES=[C]
 |Has NM Type=CarbonNanotube
 }}</text>
     </revision>
@@ -61711,6 +62320,22 @@ Paper with data on coated carbon nanotubes. However, sadly, the biological data 
 |Has NM Type=CarbonNanotube
 }}</text>
     </revision>
+    <revision>
+      <id>4554</id>
+      <timestamp>2016-02-11T17:29:46Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=247
+|Has Label=39
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has SMILES=[C]
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Zhou2008 M36</title>
@@ -61727,6 +62352,22 @@ Paper with data on coated carbon nanotubes. However, sadly, the biological data 
 |Has Label=40
 |Has Source=Zhou2008
 |Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+    <revision>
+      <id>4553</id>
+      <timestamp>2016-02-11T17:29:41Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=248
+|Has Label=40
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has SMILES=[C]
 |Has NM Type=CarbonNanotube
 }}</text>
     </revision>
@@ -61749,6 +62390,22 @@ Paper with data on coated carbon nanotubes. However, sadly, the biological data 
 |Has NM Type=CarbonNanotube
 }}</text>
     </revision>
+    <revision>
+      <id>4552</id>
+      <timestamp>2016-02-11T17:29:36Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=249
+|Has Label=41
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has SMILES=[C]
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Zhou2008 M38</title>
@@ -61765,6 +62422,22 @@ Paper with data on coated carbon nanotubes. However, sadly, the biological data 
 |Has Label=42
 |Has Source=Zhou2008
 |Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+    <revision>
+      <id>4551</id>
+      <timestamp>2016-02-11T17:29:31Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=250
+|Has Label=42
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has SMILES=[C]
 |Has NM Type=CarbonNanotube
 }}</text>
     </revision>
@@ -61787,6 +62460,22 @@ Paper with data on coated carbon nanotubes. However, sadly, the biological data 
 |Has NM Type=CarbonNanotube
 }}</text>
     </revision>
+    <revision>
+      <id>4550</id>
+      <timestamp>2016-02-11T17:29:25Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=251
+|Has Label=43
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has SMILES=[C]
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Zhou2008 M40</title>
@@ -61803,6 +62492,22 @@ Paper with data on coated carbon nanotubes. However, sadly, the biological data 
 |Has Label=44
 |Has Source=Zhou2008
 |Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+    <revision>
+      <id>4549</id>
+      <timestamp>2016-02-11T17:29:04Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=252
+|Has Label=44
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has SMILES=[C]
 |Has NM Type=CarbonNanotube
 }}</text>
     </revision>
@@ -61825,6 +62530,22 @@ Paper with data on coated carbon nanotubes. However, sadly, the biological data 
 |Has NM Type=CarbonNanotube
 }}</text>
     </revision>
+    <revision>
+      <id>4548</id>
+      <timestamp>2016-02-11T17:28:58Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=253
+|Has Label=45
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has SMILES=[C]
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Zhou2008 M42</title>
@@ -61841,6 +62562,22 @@ Paper with data on coated carbon nanotubes. However, sadly, the biological data 
 |Has Label=46
 |Has Source=Zhou2008
 |Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+    <revision>
+      <id>4547</id>
+      <timestamp>2016-02-11T17:28:52Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=254
+|Has Label=46
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has SMILES=[C]
 |Has NM Type=CarbonNanotube
 }}</text>
     </revision>
@@ -61863,6 +62600,22 @@ Paper with data on coated carbon nanotubes. However, sadly, the biological data 
 |Has NM Type=CarbonNanotube
 }}</text>
     </revision>
+    <revision>
+      <id>4546</id>
+      <timestamp>2016-02-11T17:28:47Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=255
+|Has Label=47
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has SMILES=[C]
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Zhou2008 M44</title>
@@ -61879,6 +62632,22 @@ Paper with data on coated carbon nanotubes. However, sadly, the biological data 
 |Has Label=48
 |Has Source=Zhou2008
 |Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+    <revision>
+      <id>4545</id>
+      <timestamp>2016-02-11T17:28:42Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=256
+|Has Label=48
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has SMILES=[C]
 |Has NM Type=CarbonNanotube
 }}</text>
     </revision>
@@ -61901,6 +62670,22 @@ Paper with data on coated carbon nanotubes. However, sadly, the biological data 
 |Has NM Type=CarbonNanotube
 }}</text>
     </revision>
+    <revision>
+      <id>4544</id>
+      <timestamp>2016-02-11T17:28:37Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=257
+|Has Label=49
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has SMILES=[C]
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Zhou2008 M46</title>
@@ -61917,6 +62702,22 @@ Paper with data on coated carbon nanotubes. However, sadly, the biological data 
 |Has Label=50
 |Has Source=Zhou2008
 |Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+    <revision>
+      <id>4543</id>
+      <timestamp>2016-02-11T17:28:31Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=258
+|Has Label=50
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has SMILES=[C]
 |Has NM Type=CarbonNanotube
 }}</text>
     </revision>
@@ -61939,6 +62740,22 @@ Paper with data on coated carbon nanotubes. However, sadly, the biological data 
 |Has NM Type=CarbonNanotube
 }}</text>
     </revision>
+    <revision>
+      <id>4542</id>
+      <timestamp>2016-02-11T17:28:26Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=259
+|Has Label=51
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has SMILES=[C]
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Zhou2008 M48</title>
@@ -61955,6 +62772,22 @@ Paper with data on coated carbon nanotubes. However, sadly, the biological data 
 |Has Label=52
 |Has Source=Zhou2008
 |Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+    <revision>
+      <id>4541</id>
+      <timestamp>2016-02-11T17:28:21Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=260
+|Has Label=52
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has SMILES=[C]
 |Has NM Type=CarbonNanotube
 }}</text>
     </revision>
@@ -61977,6 +62810,22 @@ Paper with data on coated carbon nanotubes. However, sadly, the biological data 
 |Has NM Type=CarbonNanotube
 }}</text>
     </revision>
+    <revision>
+      <id>4540</id>
+      <timestamp>2016-02-11T17:28:17Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=261
+|Has Label=53
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has SMILES=[C]
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Zhou2008 M50</title>
@@ -61993,6 +62842,22 @@ Paper with data on coated carbon nanotubes. However, sadly, the biological data 
 |Has Label=54
 |Has Source=Zhou2008
 |Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+    <revision>
+      <id>4539</id>
+      <timestamp>2016-02-11T17:27:56Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=262
+|Has Label=54
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has SMILES=[C]
 |Has NM Type=CarbonNanotube
 }}</text>
     </revision>
@@ -62015,6 +62880,22 @@ Paper with data on coated carbon nanotubes. However, sadly, the biological data 
 |Has NM Type=CarbonNanotube
 }}</text>
     </revision>
+    <revision>
+      <id>4538</id>
+      <timestamp>2016-02-11T17:27:51Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=263
+|Has Label=55
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has SMILES=[C]
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Zhou2008 M52</title>
@@ -62031,6 +62912,22 @@ Paper with data on coated carbon nanotubes. However, sadly, the biological data 
 |Has Label=56
 |Has Source=Zhou2008
 |Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+    <revision>
+      <id>4537</id>
+      <timestamp>2016-02-11T17:27:45Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=264
+|Has Label=56
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has SMILES=[C]
 |Has NM Type=CarbonNanotube
 }}</text>
     </revision>
@@ -62053,6 +62950,22 @@ Paper with data on coated carbon nanotubes. However, sadly, the biological data 
 |Has NM Type=CarbonNanotube
 }}</text>
     </revision>
+    <revision>
+      <id>4536</id>
+      <timestamp>2016-02-11T17:27:40Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=265
+|Has Label=57
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has SMILES=[C]
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Zhou2008 M54</title>
@@ -62069,6 +62982,22 @@ Paper with data on coated carbon nanotubes. However, sadly, the biological data 
 |Has Label=58
 |Has Source=Zhou2008
 |Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+    <revision>
+      <id>4535</id>
+      <timestamp>2016-02-11T17:27:34Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=266
+|Has Label=58
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has SMILES=[C]
 |Has NM Type=CarbonNanotube
 }}</text>
     </revision>
@@ -62091,6 +63020,22 @@ Paper with data on coated carbon nanotubes. However, sadly, the biological data 
 |Has NM Type=CarbonNanotube
 }}</text>
     </revision>
+    <revision>
+      <id>4534</id>
+      <timestamp>2016-02-11T17:27:30Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=267
+|Has Label=59
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has SMILES=[C]
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Zhou2008 M56</title>
@@ -62107,6 +63052,22 @@ Paper with data on coated carbon nanotubes. However, sadly, the biological data 
 |Has Label=60
 |Has Source=Zhou2008
 |Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+    <revision>
+      <id>4533</id>
+      <timestamp>2016-02-11T17:27:24Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=268
+|Has Label=60
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has SMILES=[C]
 |Has NM Type=CarbonNanotube
 }}</text>
     </revision>
@@ -62129,6 +63090,22 @@ Paper with data on coated carbon nanotubes. However, sadly, the biological data 
 |Has NM Type=CarbonNanotube
 }}</text>
     </revision>
+    <revision>
+      <id>4532</id>
+      <timestamp>2016-02-11T17:27:18Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=269
+|Has Label=61
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has SMILES=[C]
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Zhou2008 M58</title>
@@ -62145,6 +63122,22 @@ Paper with data on coated carbon nanotubes. However, sadly, the biological data 
 |Has Label=62
 |Has Source=Zhou2008
 |Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+    <revision>
+      <id>4531</id>
+      <timestamp>2016-02-11T17:27:14Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=270
+|Has Label=62
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has SMILES=[C]
 |Has NM Type=CarbonNanotube
 }}</text>
     </revision>
@@ -62167,6 +63160,22 @@ Paper with data on coated carbon nanotubes. However, sadly, the biological data 
 |Has NM Type=CarbonNanotube
 }}</text>
     </revision>
+    <revision>
+      <id>4530</id>
+      <timestamp>2016-02-11T17:27:06Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=271
+|Has Label=63
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has SMILES=[C]
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Zhou2008 M60</title>
@@ -62183,6 +63192,22 @@ Paper with data on coated carbon nanotubes. However, sadly, the biological data 
 |Has Label=64
 |Has Source=Zhou2008
 |Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+    <revision>
+      <id>4529</id>
+      <timestamp>2016-02-11T17:26:43Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=272
+|Has Label=64
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has SMILES=[C]
 |Has NM Type=CarbonNanotube
 }}</text>
     </revision>
@@ -62205,6 +63230,22 @@ Paper with data on coated carbon nanotubes. However, sadly, the biological data 
 |Has NM Type=CarbonNanotube
 }}</text>
     </revision>
+    <revision>
+      <id>4528</id>
+      <timestamp>2016-02-11T17:26:37Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=273
+|Has Label=65
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has SMILES=[C]
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Zhou2008 M62</title>
@@ -62221,6 +63262,22 @@ Paper with data on coated carbon nanotubes. However, sadly, the biological data 
 |Has Label=66
 |Has Source=Zhou2008
 |Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+    <revision>
+      <id>4527</id>
+      <timestamp>2016-02-11T17:26:32Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=274
+|Has Label=66
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has SMILES=[C]
 |Has NM Type=CarbonNanotube
 }}</text>
     </revision>
@@ -62243,6 +63300,22 @@ Paper with data on coated carbon nanotubes. However, sadly, the biological data 
 |Has NM Type=CarbonNanotube
 }}</text>
     </revision>
+    <revision>
+      <id>4526</id>
+      <timestamp>2016-02-11T17:26:26Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=275
+|Has Label=67
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has SMILES=[C]
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Zhou2008 M64</title>
@@ -62259,6 +63332,22 @@ Paper with data on coated carbon nanotubes. However, sadly, the biological data 
 |Has Label=68
 |Has Source=Zhou2008
 |Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+    <revision>
+      <id>4525</id>
+      <timestamp>2016-02-11T17:26:21Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=276
+|Has Label=68
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has SMILES=[C]
 |Has NM Type=CarbonNanotube
 }}</text>
     </revision>
@@ -62281,6 +63370,22 @@ Paper with data on coated carbon nanotubes. However, sadly, the biological data 
 |Has NM Type=CarbonNanotube
 }}</text>
     </revision>
+    <revision>
+      <id>4524</id>
+      <timestamp>2016-02-11T17:26:16Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=277
+|Has Label=69
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has SMILES=[C]
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Zhou2008 M66</title>
@@ -62297,6 +63402,22 @@ Paper with data on coated carbon nanotubes. However, sadly, the biological data 
 |Has Label=70
 |Has Source=Zhou2008
 |Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+    <revision>
+      <id>4523</id>
+      <timestamp>2016-02-11T17:26:11Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=278
+|Has Label=70
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has SMILES=[C]
 |Has NM Type=CarbonNanotube
 }}</text>
     </revision>
@@ -62319,6 +63440,22 @@ Paper with data on coated carbon nanotubes. However, sadly, the biological data 
 |Has NM Type=CarbonNanotube
 }}</text>
     </revision>
+    <revision>
+      <id>4522</id>
+      <timestamp>2016-02-11T17:26:06Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=279
+|Has Label=71
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has SMILES=[C]
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Zhou2008 M68</title>
@@ -62335,6 +63472,22 @@ Paper with data on coated carbon nanotubes. However, sadly, the biological data 
 |Has Label=72
 |Has Source=Zhou2008
 |Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+    <revision>
+      <id>4521</id>
+      <timestamp>2016-02-11T17:26:02Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=280
+|Has Label=72
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has SMILES=[C]
 |Has NM Type=CarbonNanotube
 }}</text>
     </revision>
@@ -62357,6 +63510,22 @@ Paper with data on coated carbon nanotubes. However, sadly, the biological data 
 |Has NM Type=CarbonNanotube
 }}</text>
     </revision>
+    <revision>
+      <id>4520</id>
+      <timestamp>2016-02-11T17:25:57Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=281
+|Has Label=73
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has SMILES=[C]
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Zhou2008 M70</title>
@@ -62373,6 +63542,22 @@ Paper with data on coated carbon nanotubes. However, sadly, the biological data 
 |Has Label=74
 |Has Source=Zhou2008
 |Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+    <revision>
+      <id>4519</id>
+      <timestamp>2016-02-11T17:25:36Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=282
+|Has Label=74
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has SMILES=[C]
 |Has NM Type=CarbonNanotube
 }}</text>
     </revision>
@@ -62395,6 +63580,22 @@ Paper with data on coated carbon nanotubes. However, sadly, the biological data 
 |Has NM Type=CarbonNanotube
 }}</text>
     </revision>
+    <revision>
+      <id>4518</id>
+      <timestamp>2016-02-11T17:25:30Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=283
+|Has Label=75
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has SMILES=[C]
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Zhou2008 M72</title>
@@ -62411,6 +63612,22 @@ Paper with data on coated carbon nanotubes. However, sadly, the biological data 
 |Has Label=76
 |Has Source=Zhou2008
 |Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+    <revision>
+      <id>4517</id>
+      <timestamp>2016-02-11T17:25:25Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=284
+|Has Label=76
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has SMILES=[C]
 |Has NM Type=CarbonNanotube
 }}</text>
     </revision>
@@ -62433,6 +63650,22 @@ Paper with data on coated carbon nanotubes. However, sadly, the biological data 
 |Has NM Type=CarbonNanotube
 }}</text>
     </revision>
+    <revision>
+      <id>4516</id>
+      <timestamp>2016-02-11T17:25:20Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=285
+|Has Label=77
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has SMILES=[C]
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Zhou2008 M74</title>
@@ -62449,6 +63682,22 @@ Paper with data on coated carbon nanotubes. However, sadly, the biological data 
 |Has Label=78
 |Has Source=Zhou2008
 |Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+    <revision>
+      <id>4515</id>
+      <timestamp>2016-02-11T17:25:15Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=286
+|Has Label=78
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has SMILES=[C]
 |Has NM Type=CarbonNanotube
 }}</text>
     </revision>
@@ -62471,6 +63720,22 @@ Paper with data on coated carbon nanotubes. However, sadly, the biological data 
 |Has NM Type=CarbonNanotube
 }}</text>
     </revision>
+    <revision>
+      <id>4514</id>
+      <timestamp>2016-02-11T17:25:09Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=287
+|Has Label=79
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has SMILES=[C]
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Zhou2008 M76</title>
@@ -62487,6 +63752,22 @@ Paper with data on coated carbon nanotubes. However, sadly, the biological data 
 |Has Label=80
 |Has Source=Zhou2008
 |Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+    <revision>
+      <id>4513</id>
+      <timestamp>2016-02-11T17:25:03Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=288
+|Has Label=80
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has SMILES=[C]
 |Has NM Type=CarbonNanotube
 }}</text>
     </revision>
@@ -62509,6 +63790,22 @@ Paper with data on coated carbon nanotubes. However, sadly, the biological data 
 |Has NM Type=CarbonNanotube
 }}</text>
     </revision>
+    <revision>
+      <id>4512</id>
+      <timestamp>2016-02-11T17:24:57Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=289
+|Has Label=81
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has SMILES=[C]
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Zhou2008 M78</title>
@@ -62525,6 +63822,22 @@ Paper with data on coated carbon nanotubes. However, sadly, the biological data 
 |Has Label=82
 |Has Source=Zhou2008
 |Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+    <revision>
+      <id>4511</id>
+      <timestamp>2016-02-11T17:24:52Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=290
+|Has Label=82
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has SMILES=[C]
 |Has NM Type=CarbonNanotube
 }}</text>
     </revision>
@@ -62547,6 +63860,22 @@ Paper with data on coated carbon nanotubes. However, sadly, the biological data 
 |Has NM Type=CarbonNanotube
 }}</text>
     </revision>
+    <revision>
+      <id>4510</id>
+      <timestamp>2016-02-11T17:24:46Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=291
+|Has Label=83
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has SMILES=[C]
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Zhou2008 M80</title>
@@ -62563,6 +63892,22 @@ Paper with data on coated carbon nanotubes. However, sadly, the biological data 
 |Has Label=84
 |Has Source=Zhou2008
 |Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+}}</text>
+    </revision>
+    <revision>
+      <id>4509</id>
+      <timestamp>2016-02-11T17:24:42Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=292
+|Has Label=84
+|Has Source=Zhou2008
+|Has Chemical Composition=C
+|Has SMILES=[C]
 |Has NM Type=CarbonNanotube
 }}</text>
     </revision>
@@ -78519,6 +79864,22 @@ Propidium iodide uptake assay design method.
 |Has Source=JRC2011
 }}</text>
     </revision>
+    <revision>
+      <id>4508</id>
+      <timestamp>2016-02-11T17:24:18Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=358
+|Has Label=NM-400
+|Has Chemical Composition=C
+|Has SMILES=[C]
+|Has NM Type=Multi-walled Carbon Nanotube
+|Has Source=JRC2011
+}}</text>
+    </revision>
   </page>
   <page>
     <title>JRC2011 NM-401</title>
@@ -78535,6 +79896,22 @@ Propidium iodide uptake assay design method.
 |Has Identifier=359
 |Has Label=NM-401
 |Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+|Has Source=JRC2011
+}}</text>
+    </revision>
+    <revision>
+      <id>4507</id>
+      <timestamp>2016-02-11T17:24:11Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=359
+|Has Label=NM-401
+|Has Chemical Composition=C
+|Has SMILES=[C]
 |Has NM Type=CarbonNanotube
 |Has Source=JRC2011
 }}</text>
@@ -78559,6 +79936,22 @@ Propidium iodide uptake assay design method.
 |Has Source=JRC2011
 }}</text>
     </revision>
+    <revision>
+      <id>4506</id>
+      <timestamp>2016-02-11T17:24:04Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=360
+|Has Label=NM-402
+|Has Chemical Composition=C
+|Has SMILES=[C]
+|Has NM Type=CarbonNanotube
+|Has Source=JRC2011
+}}</text>
+    </revision>
   </page>
   <page>
     <title>JRC2011 NM-403</title>
@@ -78575,6 +79968,22 @@ Propidium iodide uptake assay design method.
 |Has Identifier=361
 |Has Label=NM-403
 |Has Chemical Composition=C
+|Has NM Type=CarbonNanotube
+|Has Source=JRC2011
+}}</text>
+    </revision>
+    <revision>
+      <id>4505</id>
+      <timestamp>2016-02-11T17:23:56Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=361
+|Has Label=NM-403
+|Has Chemical Composition=C
+|Has SMILES=[C]
 |Has NM Type=CarbonNanotube
 |Has Source=JRC2011
 }}</text>
@@ -80219,6 +81628,21 @@ Propidium iodide uptake assay design method.
 |Has Endpoint Value Units=nm
 }}</text>
     </revision>
+    <revision>
+      <id>4586</id>
+      <timestamp>2016-02-13T22:33:04Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Berg2009 NM1
+|Has Endpoint=Zeta Potential
+|Has Endpoint Value Min=-60
+|Has Endpoint Value Max=45
+|Has Endpoint Value Units=mV
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Berg2009 NM2 M2</title>
@@ -80239,6 +81663,21 @@ Propidium iodide uptake assay design method.
 |Has Endpoint Value Units=nm
 }}</text>
     </revision>
+    <revision>
+      <id>4590</id>
+      <timestamp>2016-02-13T22:33:54Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Berg2009 NM2
+|Has Endpoint=Zeta Potential
+|Has Endpoint Value Min=-35
+|Has Endpoint Value Max=48
+|Has Endpoint Value Units=mV
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Berg2009 NM3 M2</title>
@@ -80257,6 +81696,21 @@ Propidium iodide uptake assay design method.
 |Has Endpoint Value Min=-45
 |Has Endpoint Value Max=55
 |Has Endpoint Value Units=nm
+}}</text>
+    </revision>
+    <revision>
+      <id>4589</id>
+      <timestamp>2016-02-13T22:33:43Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Berg2009 NM3
+|Has Endpoint=Zeta Potential
+|Has Endpoint Value Min=-45
+|Has Endpoint Value Max=55
+|Has Endpoint Value Units=mV
 }}</text>
     </revision>
   </page>
@@ -80294,6 +81748,21 @@ Propidium iodide uptake assay design method.
 |Has Endpoint Value Units=nm
 }}</text>
     </revision>
+    <revision>
+      <id>4588</id>
+      <timestamp>2016-02-13T22:33:35Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Berg2009 NM4
+|Has Endpoint=Zeta Potential
+|Has Endpoint Value Min=-20
+|Has Endpoint Value Max=35
+|Has Endpoint Value Units=mV
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Berg2009 NM5 M2</title>
@@ -80312,6 +81781,21 @@ Propidium iodide uptake assay design method.
 |Has Endpoint Value Min=-50
 |Has Endpoint Value Max=38
 |Has Endpoint Value Units=nm
+}}</text>
+    </revision>
+    <revision>
+      <id>4587</id>
+      <timestamp>2016-02-13T22:33:28Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Berg2009 NM5
+|Has Endpoint=Zeta Potential
+|Has Endpoint Value Min=-50
+|Has Endpoint Value Max=38
+|Has Endpoint Value Units=mV
 }}</text>
     </revision>
   </page>
@@ -90178,6 +91662,76 @@ Formerly, known as [[JRC2011 NM-103]].
 {{#set:|Formerly=[[JRC2011 NM-103]]}}
 {{#set:|Has Label=NM-103}}</text>
     </revision>
+    <revision>
+      <id>4567</id>
+      <timestamp>2016-02-13T19:13:29Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=373
+|Has Label=JRCNM01003a
+|Has Chemical Composition=TiO2
+|Has NM Type=MetalOxide
+|Has Source=JRC2014
+|Has Bundle=JRC Representative Nanomaterials
+|Has Chemical Coating=Dimethicone
+}}
+
+Formerly, known as [[JRC2011 NM-103]].
+
+{{#set:|Formerly=[[JRC2011 NM-103]]}}
+{{#set:|Has Label=NM-103}}
+{{#set:|Has Source=JRC2014b}}</text>
+    </revision>
+    <revision>
+      <id>4569</id>
+      <timestamp>2016-02-13T19:14:16Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=373
+|Has Label=JRCNM01003a
+|Has Chemical Composition=TiO2
+|Has NM Type=MetalOxide
+|Has Source=JRC2014
+|Has Bundle=JRC Representative Nanomaterials
+|Has Chemical Coating=Dimethicone Coating
+}}
+
+Formerly, known as [[JRC2011 NM-103]].
+
+{{#set:|Formerly=[[JRC2011 NM-103]]}}
+{{#set:|Has Label=NM-103}}
+{{#set:|Has Source=JRC2014b}}</text>
+    </revision>
+    <revision>
+      <id>4575</id>
+      <timestamp>2016-02-13T19:26:02Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=373
+|Has Label=JRCNM01003a
+|Has Chemical Composition=TiO2
+|Has NM Type=MetalOxide
+|Has Source=JRC2014
+|Has Bundle=JRC Representative Nanomaterials
+|Has Chemical Coating=Dimethicone Coating
+}}
+
+Formerly, known as [[JRC2011 NM-103]].
+
+{{#set:|Formerly=[[JRC2011 NM-103]]}}
+{{#set:|Has Label=NM-103}}
+{{#set:|Has Source=JRC2014b}}
+{{#set:|Has Chemical Coating=AluminumOxide Coating}}</text>
+    </revision>
   </page>
   <page>
     <title>JRCNM01004a</title>
@@ -90202,6 +91756,53 @@ Formerly, known as [[JRC2011 NM-104]].
 
 {{#set:|Formerly=[[JRC2011 NM-104]]}}
 {{#set:|Has Label=NM-104}}</text>
+    </revision>
+    <revision>
+      <id>4577</id>
+      <timestamp>2016-02-13T19:28:01Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=374
+|Has Label=JRCNM01004a
+|Has Chemical Composition=TiO2
+|Has NM Type=MetalOxide
+|Has Source=JRC2014
+|Has Bundle=JRC Representative Nanomaterials
+}}
+
+Formerly, known as [[JRC2011 NM-104]].
+
+{{#set:|Formerly=[[JRC2011 NM-104]]}}
+{{#set:|Has Label=NM-104}}
+{{#set:|Has Source=JRC2014b}}
+{{#set:|Has Chemical Coating=AluminumOxide Coating}}</text>
+    </revision>
+    <revision>
+      <id>4578</id>
+      <timestamp>2016-02-13T19:28:49Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=374
+|Has Label=JRCNM01004a
+|Has Chemical Composition=TiO2
+|Has NM Type=MetalOxide
+|Has Source=JRC2014
+|Has Bundle=JRC Representative Nanomaterials
+|Has Chemical Coating=Dimethicone Coating
+}}
+
+Formerly, known as [[JRC2011 NM-104]].
+
+{{#set:|Formerly=[[JRC2011 NM-104]]}}
+{{#set:|Has Label=NM-104}}
+{{#set:|Has Source=JRC2014b}}
+{{#set:|Has Chemical Coating=AluminumOxide Coating}}</text>
     </revision>
   </page>
   <page>
@@ -90829,6 +92430,28 @@ Formerly, known as [[JRC2011 NM-400]].
 {{#set:|Formerly=[[JRC2011 NM-400]]}}
 {{#set:|Has Label=NM-400}}</text>
     </revision>
+    <revision>
+      <id>4504</id>
+      <timestamp>2016-02-11T17:23:49Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=393
+|Has Label=JRCNM04000a
+|Has Chemical Composition=C
+|Has SMILES=[C]
+|Has NM Type=Multi-walled Carbon Nanotube
+|Has Source=JRC2014
+|Has Bundle=JRC Representative Nanomaterials
+}}
+
+Formerly, known as [[JRC2011 NM-400]].
+
+{{#set:|Formerly=[[JRC2011 NM-400]]}}
+{{#set:|Has Label=NM-400}}</text>
+    </revision>
   </page>
   <page>
     <title>Category:Multi-walled Carbon Nanotubes</title>
@@ -90919,6 +92542,28 @@ Formerly, known as [[JRC2011 NM-401]].
 {{#set:|Formerly=[[JRC2011 NM-401]]}}
 {{#set:|Has Label=NM-401}}</text>
     </revision>
+    <revision>
+      <id>4503</id>
+      <timestamp>2016-02-11T17:23:44Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=394
+|Has Label=JRCNM04001a
+|Has Chemical Composition=C
+|Has SMILES=[C]
+|Has NM Type=Multi-walled Carbon Nanotube
+|Has Source=JRC2014
+|Has Bundle=JRC Representative Nanomaterials
+}}
+
+Formerly, known as [[JRC2011 NM-401]].
+
+{{#set:|Formerly=[[JRC2011 NM-401]]}}
+{{#set:|Has Label=NM-401}}</text>
+    </revision>
   </page>
   <page>
     <title>JRCNM04002a</title>
@@ -90988,6 +92633,28 @@ Formerly, known as [[JRC2011 NM-402]].
 {{#set:|Formerly=[[JRC2011 NM-402]]}}
 {{#set:|Has Label=NM-402}}</text>
     </revision>
+    <revision>
+      <id>4502</id>
+      <timestamp>2016-02-11T17:23:38Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=395
+|Has Label=JRCNM04002a
+|Has Chemical Composition=C
+|Has SMILES=[C]
+|Has NM Type=Multi-walled Carbon Nanotube
+|Has Source=JRC2014
+|Has Bundle=JRC Representative Nanomaterials
+}}
+
+Formerly, known as [[JRC2011 NM-402]].
+
+{{#set:|Formerly=[[JRC2011 NM-402]]}}
+{{#set:|Has Label=NM-402}}</text>
+    </revision>
   </page>
   <page>
     <title>JRCNM04003a</title>
@@ -91013,6 +92680,28 @@ Formerly, known as [[JRC2011 NM-403]].
 {{#set:|Formerly=[[JRC2011 NM-403]]}}
 {{#set:|Has Label=NM-403}}</text>
     </revision>
+    <revision>
+      <id>4501</id>
+      <timestamp>2016-02-11T17:23:32Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=396
+|Has Label=JRCNM04003a
+|Has Chemical Composition=C
+|Has SMILES=[C]
+|Has NM Type=Multi-walled Carbon Nanotube
+|Has Source=JRC2014
+|Has Bundle=JRC Representative Nanomaterials
+}}
+
+Formerly, known as [[JRC2011 NM-403]].
+
+{{#set:|Formerly=[[JRC2011 NM-403]]}}
+{{#set:|Has Label=NM-403}}</text>
+    </revision>
   </page>
   <page>
     <title>JRCNM04006a</title>
@@ -91028,6 +92717,23 @@ Formerly, known as [[JRC2011 NM-403]].
 |Has Identifier=397
 |Has Label=JRCNM04006a
 |Has Chemical Composition=C
+|Has NM Type=Multi-walled Carbon Nanotube
+|Has Source=JRC2014
+|Has Bundle=JRC Representative Nanomaterials
+}}</text>
+    </revision>
+    <revision>
+      <id>4500</id>
+      <timestamp>2016-02-11T17:23:25Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=397
+|Has Label=JRCNM04006a
+|Has Chemical Composition=C
+|Has SMILES=[C]
 |Has NM Type=Multi-walled Carbon Nanotube
 |Has Source=JRC2014
 |Has Bundle=JRC Representative Nanomaterials
@@ -93289,6 +94995,47 @@ Understanding toxicity pathways of engineered nanomaterials (ENM) has recently b
 {{#set:|Used in Study=E-GEOD-63559}}
 {{#set:|Used in Study=E-GEOD-63552}}</text>
     </revision>
+    <revision>
+      <id>4475</id>
+      <timestamp>2016-02-11T17:11:03Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=409
+|Has Label=Mitsui-7
+|Has Source=Nymark2015
+|Has Bundle=ArrayExpress
+|Has Chemical Composition=C
+|Has SMILES=[C]
+|Has NM Type=Multi-walled Carbon Nanotube
+}}
+
+{{#set:|Used in Study=E-GEOD-63559}}
+{{#set:|Used in Study=E-GEOD-63552}}</text>
+    </revision>
+    <revision>
+      <id>4637</id>
+      <timestamp>2016-02-14T13:42:38Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=409
+|Has Label=Mitsui-7
+|Has Source=Nymark2015
+|Has Bundle=ArrayExpress
+|Has Chemical Composition=C
+|Has SMILES=[C]
+|Has NM Type=Multi-walled Carbon Nanotube
+}}
+
+{{#set:|Used in Study=E-GEOD-63559}}
+{{#set:|Used in Study=E-GEOD-63552}}
+{{#set:|Used in Study=Nymark2015 A1}}</text>
+    </revision>
   </page>
   <page>
     <title>Nymark2015-M2</title>
@@ -93344,6 +95091,24 @@ Understanding toxicity pathways of engineered nanomaterials (ENM) has recently b
 {{#set:|Used in Study=E-GEOD-63559}}
 {{#set:|Used in Study=E-GEOD-63552}}</text>
     </revision>
+    <revision>
+      <id>4638</id>
+      <timestamp>2016-02-14T13:42:43Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=410
+|Has Label=Asbestos
+|Has Source=Nymark2015
+|Has Bundle=ArrayExpress
+}}
+
+{{#set:|Used in Study=E-GEOD-63559}}
+{{#set:|Used in Study=E-GEOD-63552}}
+{{#set:|Used in Study=Nymark2015 A1}}</text>
+    </revision>
   </page>
   <page>
     <title>Nymark2015-M3</title>
@@ -93398,6 +95163,24 @@ Understanding toxicity pathways of engineered nanomaterials (ENM) has recently b
 
 {{#set:|Used in Study=E-GEOD-63559}}
 {{#set:|Used in Study=E-GEOD-63552}}</text>
+    </revision>
+    <revision>
+      <id>4639</id>
+      <timestamp>2016-02-14T13:42:47Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=411
+|Has Label=Glass wool
+|Has Source=Nymark2015
+|Has Bundle=ArrayExpress
+}}
+
+{{#set:|Used in Study=E-GEOD-63559}}
+{{#set:|Used in Study=E-GEOD-63552}}
+{{#set:|Used in Study=Nymark2015 A1}}</text>
     </revision>
   </page>
   <page>
@@ -95191,6 +96974,22 @@ For Measurement=Chithrani Au4 M6|
 |Has NM Type=GrapheneOxide
 }}</text>
     </revision>
+    <revision>
+      <id>4610</id>
+      <timestamp>2016-02-14T10:50:27Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=423
+|Has Label=m-GO
+|Has Chemical Composition=CO
+|Has SMILES=
+|Has NM Type=GrapheneOxide
+|Has Source=Chang2010
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Category:GrapheneOxides</title>
@@ -95329,6 +97128,22 @@ For Measurement=Chithrani Au4 M6|
 |Has NM Type=GrapheneOxide
 }}</text>
     </revision>
+    <revision>
+      <id>4611</id>
+      <timestamp>2016-02-14T10:50:36Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=424
+|Has Label=l-GO
+|Has Chemical Composition=CO
+|Has SMILES=
+|Has NM Type=GrapheneOxide
+|Has Source=Chang2010
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Chang2010 sGO</title>
@@ -95347,6 +97162,22 @@ For Measurement=Chithrani Au4 M6|
 |Has Chemical Composition=CO
 |Has SMILES=
 |Has NM Type=GrapheneOxide
+}}</text>
+    </revision>
+    <revision>
+      <id>4612</id>
+      <timestamp>2016-02-14T10:50:42Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=425
+|Has Label=s-GO
+|Has Chemical Composition=CO
+|Has SMILES=
+|Has NM Type=GrapheneOxide
+|Has Source=Chang2010
 }}</text>
     </revision>
   </page>
@@ -95475,6 +97306,1113 @@ For Measurement=Chithrani Au4 M6|
 |Has Endpoint Value Error=90
 |Has Endpoint Value Units=nm
 |Has Endpoint=Particle Size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>JRC2014b</title>
+    <id>1940</id>
+    <revision>
+      <id>4566</id>
+      <timestamp>2016-02-13T19:11:38Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Paper |Has Year=2014 |Substances extracted=Yes |Has URL=http://publications.jrc.ec.europa.eu/repository/handle/JRC86291 |Has DOI=10.2788/79554 }}&quot;</comment>
+      <text xml:space="preserve">{{Paper
+|Has Year=2014
+|Substances extracted=Yes
+|Has URL=http://publications.jrc.ec.europa.eu/repository/handle/JRC86291
+|Has DOI=10.2788/79554
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Dimethicone Coating</title>
+    <id>1941</id>
+    <revision>
+      <id>4568</id>
+      <timestamp>2016-02-13T19:14:06Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Coating}}  {{#set:|Has Chemical=Dimethicone}}&quot;</comment>
+      <text xml:space="preserve">{{Coating}}
+
+{{#set:|Has Chemical=Dimethicone}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Dimethicone</title>
+    <id>1942</id>
+    <revision>
+      <id>4570</id>
+      <timestamp>2016-02-13T19:15:17Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{CoatingPart |SMILES=[O][Si](C)(C)[O] }}&quot;</comment>
+      <text xml:space="preserve">{{CoatingPart
+|SMILES=[O][Si](C)(C)[O]
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>AluminumOxide</title>
+    <id>1943</id>
+    <revision>
+      <id>4572</id>
+      <timestamp>2016-02-13T19:25:02Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{CoatingPart |Has Chemical Composition=Al2O3 }}&quot;</comment>
+      <text xml:space="preserve">{{CoatingPart
+|Has Chemical Composition=Al2O3
+}}</text>
+    </revision>
+    <revision>
+      <id>4573</id>
+      <timestamp>2016-02-13T19:25:39Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <comment>moved [[AluminumAOxide]] to [[AluminumOxide]]:&amp;#32;Typo</comment>
+      <text xml:space="preserve">{{CoatingPart
+|Has Chemical Composition=Al2O3
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>AluminumAOxide</title>
+    <id>1944</id>
+    <revision>
+      <id>4574</id>
+      <timestamp>2016-02-13T19:25:39Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>moved [[AluminumAOxide]] to [[AluminumOxide]]:&amp;#32;Typo</comment>
+      <text xml:space="preserve">#REDIRECT [[AluminumOxide]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>AluminumOxide Coating</title>
+    <id>1945</id>
+    <revision>
+      <id>4576</id>
+      <timestamp>2016-02-13T19:26:14Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Coating}}  {{#set:|Has Chemical=AluminumOxide}}&quot;</comment>
+      <text xml:space="preserve">{{Coating}}
+
+{{#set:|Has Chemical=AluminumOxide}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>E-GEOD-39330</title>
+    <id>1946</id>
+    <revision>
+      <id>4579</id>
+      <timestamp>2016-02-13T20:47:56Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Assay |Has Identifier=18 |Has Assay Type=Transcriptional Response Profiling Assay |Has Source= |Has Endpoint= |For Cell line= |Has Entities= }}  {{#set:|Has homepage=https://ww…&quot;</comment>
+      <text xml:space="preserve">{{Assay
+|Has Identifier=18
+|Has Assay Type=Transcriptional Response Profiling Assay
+|Has Source=
+|Has Endpoint=
+|For Cell line=
+|Has Entities=
+}}
+
+{{#set:|Has homepage=https://www.ebi.ac.uk/arrayexpress/experiments/E-GEOD-39330/}}</text>
+    </revision>
+    <revision>
+      <id>4592</id>
+      <timestamp>2016-02-13T22:38:34Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Assay
+|Has Identifier=18
+|Has Assay Type=Transcriptional Response Profiling Assay
+|Has Source=
+|Has Endpoint=
+|For Cell line=HMDM
+|Has Entities=
+}}
+
+{{#set:|Has homepage=https://www.ebi.ac.uk/arrayexpress/experiments/E-GEOD-39330/}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>E-GEOD-39330-M1</title>
+    <id>1947</id>
+    <revision>
+      <id>4580</id>
+      <timestamp>2016-02-13T21:29:28Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=426 |Has Label=ZnO-1 |Has Source= |Has Bundle=ArrayExpress |Has Chemical Composition=ZnO }}  {{#set:|Used in Study=E-GEOD-39330}}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=426
+|Has Label=ZnO-1
+|Has Source=
+|Has Bundle=ArrayExpress
+|Has Chemical Composition=ZnO
+}}
+
+{{#set:|Used in Study=E-GEOD-39330}}</text>
+    </revision>
+    <revision>
+      <id>4585</id>
+      <timestamp>2016-02-13T21:33:49Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=426
+|Has Label=ZnO-1
+|Has Source=Tuomela2013
+|Has Bundle=ArrayExpress
+|Has Chemical Composition=ZnO
+}}
+
+{{#set:|Used in Study=E-GEOD-39330}}</text>
+    </revision>
+    <revision>
+      <id>4594</id>
+      <timestamp>2016-02-13T22:39:16Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=426
+|Has Label=ZnO-1
+|Has Source=Tuomela2013
+|Has Bundle=ArrayExpress
+|Has Chemical Composition=ZnO
+}}
+
+{{#set:|Used in Study=E-GEOD-39330}}
+{{#set:|Used in Study=E-GEOD-39330-2}}</text>
+    </revision>
+    <revision>
+      <id>4598</id>
+      <timestamp>2016-02-14T10:27:11Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=426
+|Has Label=ZnO-1
+|Has Source=Tuomela2013
+|Has Bundle=ArrayExpress
+|Has Chemical Composition=ZnO
+}}
+
+{{#set:|Used in Study=E-GEOD-39330}}
+{{#set:|Used in Study=E-GEOD-39330-2}}
+{{#set:|Used in Study=E-GEOD-39316}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>E-GEOD-39330-M1-M1</title>
+    <id>1948</id>
+    <revision>
+      <id>4581</id>
+      <timestamp>2016-02-13T21:30:02Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=E-GEOD-39330-M1 |Has Endpoint Value=14.7 |Has Endpoint Error=1.07 |Has Endpoint Value Units=nm |Has Endpoint=Primary Particle Size |Has Method=TEM }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=E-GEOD-39330-M1
+|Has Endpoint Value=14.7
+|Has Endpoint Error=1.07
+|Has Endpoint Value Units=nm
+|Has Endpoint=Primary Particle Size
+|Has Method=TEM
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>E-GEOD-39330-M1-M2</title>
+    <id>1949</id>
+    <revision>
+      <id>4582</id>
+      <timestamp>2016-02-13T21:31:58Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=E-GEOD-39330-M1 |Has Endpoint Value=159 |Has Endpoint Error=3 |Has Endpoint Value Units=nm |Has Endpoint=Hydrodynamic size |Has Method=DLS }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=E-GEOD-39330-M1
+|Has Endpoint Value=159
+|Has Endpoint Error=3
+|Has Endpoint Value Units=nm
+|Has Endpoint=Hydrodynamic size
+|Has Method=DLS
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>PLOS ONE</title>
+    <id>1950</id>
+    <revision>
+      <id>4583</id>
+      <timestamp>2016-02-13T21:33:27Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Journal}}&quot;</comment>
+      <text xml:space="preserve">{{Journal}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Tuomela2013</title>
+    <id>1951</id>
+    <revision>
+      <id>4584</id>
+      <timestamp>2016-02-13T21:33:34Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Paper |Has Year=2013 |Has Journal=PLOS ONE |Has DOI=10.1371/journal.pone.0068415 }}&quot;</comment>
+      <text xml:space="preserve">{{Paper
+|Has Year=2013
+|Has Journal=PLOS ONE
+|Has DOI=10.1371/journal.pone.0068415
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>E-GEOD-39330-M1-M3</title>
+    <id>1952</id>
+    <revision>
+      <id>4591</id>
+      <timestamp>2016-02-13T22:34:05Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=E-GEOD-39330-M1 |Has Endpoint Value=-17.3 |Has Endpoint Error=0.1 |Has Endpoint Value Units=mV |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=E-GEOD-39330-M1
+|Has Endpoint Value=-17.3
+|Has Endpoint Error=0.1
+|Has Endpoint Value Units=mV
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>E-GEOD-39330-2</title>
+    <id>1953</id>
+    <revision>
+      <id>4593</id>
+      <timestamp>2016-02-13T22:38:58Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Assay |Has Identifier=19 |Has Assay Type=Transcriptional Response Profiling Assay |Has Source= |Has Endpoint= |For Cell line=MDDC |Has Entities= }}  {{#set:|Has homepage=https:…&quot;</comment>
+      <text xml:space="preserve">{{Assay
+|Has Identifier=19
+|Has Assay Type=Transcriptional Response Profiling Assay
+|Has Source=
+|Has Endpoint=
+|For Cell line=MDDC
+|Has Entities=
+}}
+
+{{#set:|Has homepage=https://www.ebi.ac.uk/arrayexpress/experiments/E-GEOD-39330/}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>MDDC</title>
+    <id>1954</id>
+    <revision>
+      <id>4595</id>
+      <timestamp>2016-02-13T22:59:23Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{CellLine |Has Species=Human }}  monocyte-derived dendritic cells  {{#set:Subclass Of=http://purl.obolibrary.org/obo/CL_0000000}} {{#set:Has type=URL}}&quot;</comment>
+      <text xml:space="preserve">{{CellLine
+|Has Species=Human
+}}
+
+monocyte-derived dendritic cells
+
+{{#set:Subclass Of=http://purl.obolibrary.org/obo/CL_0000000}}
+{{#set:Has type=URL}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>HMDM</title>
+    <id>1955</id>
+    <revision>
+      <id>4596</id>
+      <timestamp>2016-02-13T22:59:46Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{CellLine |Has Species=Human }}  human monocyte-derived macrophages  {{#set:Subclass Of=http://purl.obolibrary.org/obo/CL_0000000}} {{#set:Has type=URL}}&quot;</comment>
+      <text xml:space="preserve">{{CellLine
+|Has Species=Human
+}}
+
+human monocyte-derived macrophages
+
+{{#set:Subclass Of=http://purl.obolibrary.org/obo/CL_0000000}}
+{{#set:Has type=URL}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>E-GEOD-39316</title>
+    <id>1956</id>
+    <revision>
+      <id>4597</id>
+      <timestamp>2016-02-14T10:26:32Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Assay |Has Identifier=20 |Has Assay Type=Transcriptional Response Profiling Assay |Has Source= |Has Endpoint= |For Cell line=MDDC |Has Entities= }}  {{#set:|Has homepage=https:…&quot;</comment>
+      <text xml:space="preserve">{{Assay
+|Has Identifier=20
+|Has Assay Type=Transcriptional Response Profiling Assay
+|Has Source=
+|Has Endpoint=
+|For Cell line=MDDC
+|Has Entities=
+}}
+
+{{#set:|Has homepage=https://www.ebi.ac.uk/arrayexpress/experiments/E-GEOD-39316/}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>E-GEOD-39316-M1</title>
+    <id>1957</id>
+    <revision>
+      <id>4599</id>
+      <timestamp>2016-02-14T10:28:44Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=427 |Has Label=TiO2 |Has Source=Tuomela2013 |Has Bundle=ArrayExpress |Has Chemical Composition=ZnO |Has SMILES=O=[Ti]=O }}  {{#set:|Used in Study=E-GEO…&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=427
+|Has Label=TiO2
+|Has Source=Tuomela2013
+|Has Bundle=ArrayExpress
+|Has Chemical Composition=ZnO
+|Has SMILES=O=[Ti]=O
+}}
+
+{{#set:|Used in Study=E-GEOD-39316}}</text>
+    </revision>
+    <revision>
+      <id>4609</id>
+      <timestamp>2016-02-14T10:48:48Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=427
+|Has Label=TiO2
+|Has Source=Tuomela2013
+|Has Bundle=ArrayExpress
+|Has Chemical Composition=TiO2
+|Has SMILES=O=[Ti]=O
+}}
+
+{{#set:|Used in Study=E-GEOD-39316}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>E-GEOD-39316-M1-M2</title>
+    <id>1958</id>
+    <revision>
+      <id>4600</id>
+      <timestamp>2016-02-14T10:29:39Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=E-GEOD-39316-M1 |Has Endpoint Value=297 |Has Endpoint Error=2 |Has Endpoint Value Units=nm |Has Endpoint=Hydrodynamic size |Has Method=DLS }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=E-GEOD-39316-M1
+|Has Endpoint Value=297
+|Has Endpoint Error=2
+|Has Endpoint Value Units=nm
+|Has Endpoint=Hydrodynamic size
+|Has Method=DLS
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>E-GEOD-39316-M1-M1</title>
+    <id>1959</id>
+    <revision>
+      <id>4601</id>
+      <timestamp>2016-02-14T10:30:15Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=E-GEOD-39316-M1 |Has Endpoint Value=31.3 |Has Endpoint Error=3.9 |Has Endpoint Value Units=nm |Has Endpoint=Primary Particle Size |Has Method=TEM }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=E-GEOD-39316-M1
+|Has Endpoint Value=31.3
+|Has Endpoint Error=3.9
+|Has Endpoint Value Units=nm
+|Has Endpoint=Primary Particle Size
+|Has Method=TEM
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>E-GEOD-39316-M1-M3</title>
+    <id>1960</id>
+    <revision>
+      <id>4602</id>
+      <timestamp>2016-02-14T10:31:11Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=E-GEOD-39316-M1 |Has Endpoint Value=-12.2 |Has Endpoint Error=0.1 |Has Endpoint Value Units=mV |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=E-GEOD-39316-M1
+|Has Endpoint Value=-12.2
+|Has Endpoint Error=0.1
+|Has Endpoint Value Units=mV
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>HEAC</title>
+    <id>1961</id>
+    <revision>
+      <id>4603</id>
+      <timestamp>2016-02-14T10:39:03Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{CellLine |Has Species=Human }}  Human Aortic Endothelial Cells  {{#set:Subclass Of=http://purl.obolibrary.org/obo/CL_0002544}} {{#set:Has type=URL}}&quot;</comment>
+      <text xml:space="preserve">{{CellLine
+|Has Species=Human
+}}
+
+Human Aortic Endothelial Cells
+
+{{#set:Subclass Of=http://purl.obolibrary.org/obo/CL_0002544}}
+{{#set:Has type=URL}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>E-GEOD-17676</title>
+    <id>1962</id>
+    <revision>
+      <id>4604</id>
+      <timestamp>2016-02-14T10:39:21Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Assay |Has Identifier=21 |Has Assay Type=Transcriptional Response Profiling Assay |Has Source= |Has Endpoint= |For Cell line=HEAC |Has Entities= }}  {{#set:|Has homepage=https:…&quot;</comment>
+      <text xml:space="preserve">{{Assay
+|Has Identifier=21
+|Has Assay Type=Transcriptional Response Profiling Assay
+|Has Source=
+|Has Endpoint=
+|For Cell line=HEAC
+|Has Entities=
+}}
+
+{{#set:|Has homepage=https://www.ebi.ac.uk/arrayexpress/experiments/E-GEOD-17676/}}</text>
+    </revision>
+    <revision>
+      <id>4606</id>
+      <timestamp>2016-02-14T10:45:54Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Assay
+|Has Identifier=21
+|Has Assay Type=Transcriptional Response Profiling Assay
+|Has Source=Peng2010
+|Has Endpoint=
+|For Cell line=HEAC
+|Has Entities=
+}}
+
+{{#set:|Has homepage=https://www.ebi.ac.uk/arrayexpress/experiments/E-GEOD-17676/}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Peng2010</title>
+    <id>1963</id>
+    <revision>
+      <id>4605</id>
+      <timestamp>2016-02-14T10:42:00Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Paper |Has Year=2010 |Has Journal=Nano Letters |Has DOI=10.1021/nl903043z }}&quot;</comment>
+      <text xml:space="preserve">{{Paper
+|Has Year=2010
+|Has Journal=Nano Letters
+|Has DOI=10.1021/nl903043z
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>E-GEOD-17676-M1</title>
+    <id>1964</id>
+    <revision>
+      <id>4607</id>
+      <timestamp>2016-02-14T10:47:05Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=428 |Has Label=TiO2 |Has Source=Peng2010 |Has Bundle=ArrayExpress |Has Chemical Composition=TiO |Has SMILES=O=[Ti]=O }}  {{#set:|Used in Study=E-GEOD-1…&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=428
+|Has Label=TiO2
+|Has Source=Peng2010
+|Has Bundle=ArrayExpress
+|Has Chemical Composition=TiO
+|Has SMILES=O=[Ti]=O
+}}
+
+{{#set:|Used in Study=E-GEOD-17676}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>E-GEOD-17676-M2</title>
+    <id>1965</id>
+    <revision>
+      <id>4608</id>
+      <timestamp>2016-02-14T10:47:14Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=429 |Has Label=TiO2 |Has Source=Peng2010 |Has Bundle=ArrayExpress |Has Chemical Composition=TiO |Has SMILES=O=[Ti]=O }}  {{#set:|Used in Study=E-GEOD-1…&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=429
+|Has Label=TiO2
+|Has Source=Peng2010
+|Has Bundle=ArrayExpress
+|Has Chemical Composition=TiO
+|Has SMILES=O=[Ti]=O
+}}
+
+{{#set:|Used in Study=E-GEOD-17676}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>E-GEOD-17676-M1-M1</title>
+    <id>1966</id>
+    <revision>
+      <id>4613</id>
+      <timestamp>2016-02-14T10:51:53Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=E-GEOD-17676-M1 |Has Endpoint Value=100 |Has Endpoint Value Units=nm |Has Endpoint=Particle Size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=E-GEOD-17676-M1
+|Has Endpoint Value=100
+|Has Endpoint Value Units=nm
+|Has Endpoint=Particle Size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>E-GEOD-17676-M2-M1</title>
+    <id>1967</id>
+    <revision>
+      <id>4614</id>
+      <timestamp>2016-02-14T10:52:23Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=E-GEOD-17676-M2 |Has Endpoint Value=30 |Has Endpoint Value Units=nm |Has Endpoint=Particle Size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=E-GEOD-17676-M2
+|Has Endpoint Value=30
+|Has Endpoint Value Units=nm
+|Has Endpoint=Particle Size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Nymark2015-M1-M3</title>
+    <id>1968</id>
+    <revision>
+      <id>4615</id>
+      <timestamp>2016-02-14T12:28:08Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Nymark2015-M1 |Has Endpoint Value=22 |Has Endpoint Error= |Has Endpoint Value Units=m^2/g |Has Endpoint=Specific Surface Area }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Nymark2015-M1
+|Has Endpoint Value=22
+|Has Endpoint Error=
+|Has Endpoint Value Units=m^2/g
+|Has Endpoint=Specific Surface Area
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Nymark2015-M2-M3</title>
+    <id>1969</id>
+    <revision>
+      <id>4616</id>
+      <timestamp>2016-02-14T12:48:11Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Nymark2015-M2 |Has Endpoint Value=8.3 |Has Endpoint Error= |Has Endpoint Value Units=m^2/g |Has Endpoint=Specific Surface Area }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Nymark2015-M2
+|Has Endpoint Value=8.3
+|Has Endpoint Error=
+|Has Endpoint Value Units=m^2/g
+|Has Endpoint=Specific Surface Area
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Nymark2015-M3-M3</title>
+    <id>1970</id>
+    <revision>
+      <id>4617</id>
+      <timestamp>2016-02-14T12:48:45Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Nymark2015-M2 |Has Endpoint Value=1.07 |Has Endpoint Error= |Has Endpoint Value Units=m^2/g |Has Endpoint=Specific Surface Area }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Nymark2015-M2
+|Has Endpoint Value=1.07
+|Has Endpoint Error=
+|Has Endpoint Value Units=m^2/g
+|Has Endpoint=Specific Surface Area
+}}</text>
+    </revision>
+    <revision>
+      <id>4622</id>
+      <timestamp>2016-02-14T13:31:11Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Nymark2015-M3
+|Has Endpoint Value=1.07
+|Has Endpoint Error=
+|Has Endpoint Value Units=m^2/g
+|Has Endpoint=Specific Surface Area
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>IC50</title>
+    <id>1971</id>
+    <revision>
+      <id>4618</id>
+      <timestamp>2016-02-14T12:57:28Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Endpoint |Description=IC_50 |Has Assay Type=Trypan Blue Exclusion Assay }}&quot;</comment>
+      <text xml:space="preserve">{{Endpoint
+|Description=IC_50
+|Has Assay Type=Trypan Blue Exclusion Assay
+}}</text>
+    </revision>
+    <revision>
+      <id>4619</id>
+      <timestamp>2016-02-14T12:59:27Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Endpoint
+|Description=IC_50
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Trypan Blue Cell Staining</title>
+    <id>1972</id>
+    <revision>
+      <id>4620</id>
+      <timestamp>2016-02-14T13:12:33Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{AssayMethod}}  {{#set:Original URI=http://www.bioassayontology.org/bao#BAO_0002461}} {{#set:Equivalent URI=http://www.bioassayontology.org/bao#BAO_0002461}} {{#set:Has type=URL…&quot;</comment>
+      <text xml:space="preserve">{{AssayMethod}}
+
+{{#set:Original URI=http://www.bioassayontology.org/bao#BAO_0002461}}
+{{#set:Equivalent URI=http://www.bioassayontology.org/bao#BAO_0002461}}
+{{#set:Has type=URL}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Nymark2015 A1</title>
+    <id>1973</id>
+    <revision>
+      <id>4621</id>
+      <timestamp>2016-02-14T13:13:35Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Assay |Has Identifier=22 |Has Assay Type=Cell Viability Assay |Has Assay Method=Trypan Blue Cell Staining |Has Source=Nymark2015 |Has Endpoint= |For Cell line=BEAS-2B |Has Enti…&quot;</comment>
+      <text xml:space="preserve">{{Assay
+|Has Identifier=22
+|Has Assay Type=Cell Viability Assay
+|Has Assay Method=Trypan Blue Cell Staining
+|Has Source=Nymark2015
+|Has Endpoint=
+|For Cell line=BEAS-2B
+|Has Entities=
+}}
+
+{{#set:|Has homepage=https://www.ebi.ac.uk/arrayexpress/experiments/E-GEOD-17676/}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Nymark2015-M3-M4</title>
+    <id>1974</id>
+    <revision>
+      <id>4623</id>
+      <timestamp>2016-02-14T13:33:57Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Nymark2015-M3 |Has Endpoint Value=90 |Has Endpoint Error= |Has Endpoint=IC50 |Has Assay=Nymark2015 A1 }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Nymark2015-M3
+|Has Endpoint Value=90
+|Has Endpoint Error=
+|Has Endpoint=IC50
+|Has Assay=Nymark2015 A1
+}}</text>
+    </revision>
+    <revision>
+      <id>4625</id>
+      <timestamp>2016-02-14T13:36:20Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Nymark2015-M3
+|Has Endpoint Value=90
+|Has Endpoint Error=
+|Has Endpoint Units=μg/cm^2
+|Has Endpoint=IC50
+|Has Assay=Nymark2015 A1
+}}</text>
+    </revision>
+    <revision>
+      <id>4626</id>
+      <timestamp>2016-02-14T13:36:43Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Nymark2015-M3
+|Has Endpoint Value=90
+|Has Endpoint Error=
+|Has Endpoint Value Units=μg/cm^2
+|Has Endpoint=IC50
+|Has Assay=Nymark2015 A1
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Nymark2015-C1</title>
+    <id>1975</id>
+    <revision>
+      <id>4624</id>
+      <timestamp>2016-02-14T13:35:49Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Endpoint Value=4 |Has Endpoint Units=h |Has Endpoint=Incubation Time }}  {{#set:For Measurement=Nymark2015-M1-M4}} {{#set:For Measurement=Nymark2015-M2-M4}} {{…&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Endpoint Value=4
+|Has Endpoint Units=h
+|Has Endpoint=Incubation Time
+}}
+
+{{#set:For Measurement=Nymark2015-M1-M4}}
+{{#set:For Measurement=Nymark2015-M2-M4}}
+{{#set:For Measurement=Nymark2015-M3-M4}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Nymark2015-C2</title>
+    <id>1976</id>
+    <revision>
+      <id>4627</id>
+      <timestamp>2016-02-14T13:37:17Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Endpoint Value=24 |Has Endpoint Units=h |Has Endpoint=Incubation Time }}  {{#set:For Measurement=Nymark2015-M1-M5}} {{#set:For Measurement=Nymark2015-M2-M5}} {…&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Endpoint Value=24
+|Has Endpoint Units=h
+|Has Endpoint=Incubation Time
+}}
+
+{{#set:For Measurement=Nymark2015-M1-M5}}
+{{#set:For Measurement=Nymark2015-M2-M5}}
+{{#set:For Measurement=Nymark2015-M3-M5}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Nymark2015-C3</title>
+    <id>1977</id>
+    <revision>
+      <id>4628</id>
+      <timestamp>2016-02-14T13:37:29Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Endpoint Value=48 |Has Endpoint Units=h |Has Endpoint=Incubation Time }}  {{#set:For Measurement=Nymark2015-M1-M6}} {{#set:For Measurement=Nymark2015-M2-M6}} {…&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Endpoint Value=48
+|Has Endpoint Units=h
+|Has Endpoint=Incubation Time
+}}
+
+{{#set:For Measurement=Nymark2015-M1-M6}}
+{{#set:For Measurement=Nymark2015-M2-M6}}
+{{#set:For Measurement=Nymark2015-M3-M6}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Nymark2015-M2-M4</title>
+    <id>1978</id>
+    <revision>
+      <id>4629</id>
+      <timestamp>2016-02-14T13:38:05Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Nymark2015-M2 |Has Endpoint Value=45 |Has Endpoint Error= |Has Endpoint Value Units=μg/cm^2 |Has Endpoint=IC50 |Has Assay=Nymark2015 A1 }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Nymark2015-M2
+|Has Endpoint Value=45
+|Has Endpoint Error=
+|Has Endpoint Value Units=μg/cm^2
+|Has Endpoint=IC50
+|Has Assay=Nymark2015 A1
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Nymark2015-M1-M4</title>
+    <id>1979</id>
+    <revision>
+      <id>4630</id>
+      <timestamp>2016-02-14T13:38:38Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Nymark2015-M1 |Has Endpoint Value=128 |Has Endpoint Error= |Has Endpoint Value Units=μg/cm^2 |Has Endpoint=IC50 |Has Assay=Nymark2015 A1 }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Nymark2015-M1
+|Has Endpoint Value=128
+|Has Endpoint Error=
+|Has Endpoint Value Units=μg/cm^2
+|Has Endpoint=IC50
+|Has Assay=Nymark2015 A1
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Nymark2015-M1-M5</title>
+    <id>1980</id>
+    <revision>
+      <id>4631</id>
+      <timestamp>2016-02-14T13:38:53Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Nymark2015-M1 |Has Endpoint Value=33 |Has Endpoint Error= |Has Endpoint Value Units=μg/cm^2 |Has Endpoint=IC50 |Has Assay=Nymark2015 A1 }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Nymark2015-M1
+|Has Endpoint Value=33
+|Has Endpoint Error=
+|Has Endpoint Value Units=μg/cm^2
+|Has Endpoint=IC50
+|Has Assay=Nymark2015 A1
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Nymark2015-M1-M6</title>
+    <id>1981</id>
+    <revision>
+      <id>4632</id>
+      <timestamp>2016-02-14T13:39:02Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Nymark2015-M1 |Has Endpoint Value=27 |Has Endpoint Error= |Has Endpoint Value Units=μg/cm^2 |Has Endpoint=IC50 |Has Assay=Nymark2015 A1 }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Nymark2015-M1
+|Has Endpoint Value=27
+|Has Endpoint Error=
+|Has Endpoint Value Units=μg/cm^2
+|Has Endpoint=IC50
+|Has Assay=Nymark2015 A1
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Nymark2015-M2-M5</title>
+    <id>1982</id>
+    <revision>
+      <id>4633</id>
+      <timestamp>2016-02-14T13:39:32Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Nymark2015-M2 |Has Endpoint Value=16 |Has Endpoint Error= |Has Endpoint Value Units=μg/cm^2 |Has Endpoint=IC50 |Has Assay=Nymark2015 A1 }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Nymark2015-M2
+|Has Endpoint Value=16
+|Has Endpoint Error=
+|Has Endpoint Value Units=μg/cm^2
+|Has Endpoint=IC50
+|Has Assay=Nymark2015 A1
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Nymark2015-M2-M6</title>
+    <id>1983</id>
+    <revision>
+      <id>4634</id>
+      <timestamp>2016-02-14T13:39:43Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Nymark2015-M2 |Has Endpoint Value=9 |Has Endpoint Error= |Has Endpoint Value Units=μg/cm^2 |Has Endpoint=IC50 |Has Assay=Nymark2015 A1 }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Nymark2015-M2
+|Has Endpoint Value=9
+|Has Endpoint Error=
+|Has Endpoint Value Units=μg/cm^2
+|Has Endpoint=IC50
+|Has Assay=Nymark2015 A1
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Nymark2015-M3-M5</title>
+    <id>1984</id>
+    <revision>
+      <id>4635</id>
+      <timestamp>2016-02-14T13:40:13Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Nymark2015-M3 |Has Endpoint Value=48 |Has Endpoint Error= |Has Endpoint Value Units=μg/cm^2 |Has Endpoint=IC50 |Has Assay=Nymark2015 A1 }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Nymark2015-M3
+|Has Endpoint Value=48
+|Has Endpoint Error=
+|Has Endpoint Value Units=μg/cm^2
+|Has Endpoint=IC50
+|Has Assay=Nymark2015 A1
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Nymark2015-M3-M6</title>
+    <id>1985</id>
+    <revision>
+      <id>4636</id>
+      <timestamp>2016-02-14T13:41:13Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Nymark2015-M3 |Has Endpoint Value=66 |Has Endpoint Error= |Has Endpoint Value Units=μg/cm^2 |Has Endpoint=IC50 |Has Assay=Nymark2015 A1 }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Nymark2015-M3
+|Has Endpoint Value=66
+|Has Endpoint Error=
+|Has Endpoint Value Units=μg/cm^2
+|Has Endpoint=IC50
+|Has Assay=Nymark2015 A1
 }}</text>
     </revision>
   </page>
