@@ -35,21 +35,6 @@
     <title>Main Page</title>
     <id>1</id>
     <revision>
-      <id>1</id>
-      <timestamp>2012-02-01T06:12:44Z</timestamp>
-      <contributor>
-        <ip>MediaWiki default</ip>
-      </contributor>
-      <text xml:space="preserve">'''MediaWiki has been successfully installed.'''
-
-Consult the [http://meta.wikimedia.org/wiki/Help:Contents User's Guide] for information on using the wiki software.
-
-== Getting started ==
-* [http://www.mediawiki.org/wiki/Manual:Configuration_settings Configuration settings list]
-* [http://www.mediawiki.org/wiki/Manual:FAQ MediaWiki FAQ]
-* [https://lists.wikimedia.org/mailman/listinfo/mediawiki-announce MediaWiki release mailing list]</text>
-    </revision>
-    <revision>
       <id>2</id>
       <timestamp>2011-04-29T10:04:12Z</timestamp>
       <contributor>
@@ -765,6 +750,21 @@ You can browse this data via one of the following categories:
 * see ~/var/Projects/hg/kirepos/projects/nanotoxwiki/README
 ** cd ~/var/Projects/hg/kirepos/projects/nanotoxwiki
 ** mysqldump -u root -p wikidb --default-character-set=latin1 &gt; backup.sql.txt</text>
+    </revision>
+    <revision>
+      <id>1</id>
+      <timestamp>2012-02-01T06:12:44Z</timestamp>
+      <contributor>
+        <ip>MediaWiki default</ip>
+      </contributor>
+      <text xml:space="preserve">'''MediaWiki has been successfully installed.'''
+
+Consult the [http://meta.wikimedia.org/wiki/Help:Contents User's Guide] for information on using the wiki software.
+
+== Getting started ==
+* [http://www.mediawiki.org/wiki/Manual:Configuration_settings Configuration settings list]
+* [http://www.mediawiki.org/wiki/Manual:FAQ MediaWiki FAQ]
+* [https://lists.wikimedia.org/mailman/listinfo/mediawiki-announce MediaWiki release mailing list]</text>
     </revision>
     <revision>
       <id>1385</id>
@@ -20338,6 +20338,17 @@ The CHEMINF field does the same but then for the CHEMINF ontology.
       </contributor>
       <text xml:space="preserve">{{Descriptor}}
 {{Endpoint}}
+
+[[Category:Endpoints]]</text>
+    </revision>
+    <revision>
+      <id>5023</id>
+      <timestamp>2016-10-31T11:07:17Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Descriptor}}
+{{Endpoint|Has URI=http://purl.bioontology.org/ontology/npo#NPO_1302}}
 
 [[Category:Endpoints]]</text>
     </revision>
@@ -56131,6 +56142,15 @@ CdSe quantum dots studied for dot size, surface charge, and functionalization.</
       <text xml:space="preserve">{{Descriptor}}
 {{Endpoint}}</text>
     </revision>
+    <revision>
+      <id>5030</id>
+      <timestamp>2016-10-31T11:39:29Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Descriptor}}
+{{Endpoint|Has URI=http://purl.bioontology.org/ontology/npo#NPO_1814}}</text>
+    </revision>
   </page>
   <page>
     <title>Template:Condition</title>
@@ -57101,6 +57121,17 @@ CdSe quantum dots studied for dot size, surface charge, and functionalization.</
       <comment>Created page with &quot;{{Endpoint |Description=The pH at which the zeta potential of the material is zero. }}&quot;</comment>
       <text xml:space="preserve">{{Endpoint
 |Description=The pH at which the zeta potential of the material is zero.
+}}</text>
+    </revision>
+    <revision>
+      <id>5037</id>
+      <timestamp>2016-10-31T12:16:14Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Endpoint
+|Description=The pH at which the zeta potential of the material is zero.
+|Has URI=http://purl.bioontology.org/ontology/npo#NPO_1204
 }}</text>
     </revision>
   </page>
@@ -61315,6 +61346,20 @@ Size measured with DLS.
 [[Category:Endpoints]]
 [[Category:Particle Size]]</text>
     </revision>
+    <revision>
+      <id>5028</id>
+      <timestamp>2016-10-31T11:19:49Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Descriptor}}
+{{Endpoint|Has URI=http://purl.bioontology.org/ontology/npo#NPO_1914}}
+
+Size measured with DLS.
+
+[[Category:Endpoints]]
+[[Category:Particle Size]]</text>
+    </revision>
   </page>
   <page>
     <title>Rancan2012</title>
@@ -61579,6 +61624,30 @@ Size measured with DLS.
       </contributor>
       <text xml:space="preserve">{{Descriptor
 }}
+
+[[Category:Endpoints]]
+[[Category:Particle Size]]</text>
+    </revision>
+    <revision>
+      <id>5026</id>
+      <timestamp>2016-10-31T11:18:40Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Descriptor}}
+{{Endpoint|Has URI=http://purl.bioontology.org/ontology/npo#NPO_1539}
+
+[[Category:Endpoints]]
+[[Category:Particle Size]]</text>
+    </revision>
+    <revision>
+      <id>5027</id>
+      <timestamp>2016-10-31T11:18:48Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Descriptor}}
+{{Endpoint|Has URI=http://purl.bioontology.org/ontology/npo#NPO_1539}}
 
 [[Category:Endpoints]]
 [[Category:Particle Size]]</text>
@@ -73050,6 +73119,21 @@ Size of the particle itself, which is typically much smaller than the hydrodynam
 
 [[Category:Particle Size]]</text>
     </revision>
+    <revision>
+      <id>5024</id>
+      <timestamp>2016-10-31T11:12:17Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Endpoint
+|Has Assay Type=Physicochemical Characterization
+|Has URI=http://purl.bioontology.org/ontology/npo#NPO_1694
+}}
+
+Size of the particle itself, which is typically much smaller than the hydrodynamic particle size.
+
+[[Category:Particle Size]]</text>
+    </revision>
   </page>
   <page>
     <title>Zhang2013 M24 M1</title>
@@ -83695,6 +83779,16 @@ Propidium iodide uptake assay design method.
 
 [[Category:Particle Size]]</text>
     </revision>
+    <revision>
+      <id>5031</id>
+      <timestamp>2016-10-31T11:50:34Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Endpoint|Has URI=http://purl.bioontology.org/ontology/npo#NPO_1694}}
+
+[[Category:Particle Size]]</text>
+    </revision>
   </page>
   <page>
     <title>JRC2011 NM-103 M1</title>
@@ -91196,6 +91290,19 @@ Surface area according to Brunauer, Emmett and Teller.
 [[Category:BET]]
 [[Category:Surface Area]]</text>
     </revision>
+    <revision>
+      <id>5038</id>
+      <timestamp>2016-10-31T12:21:25Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Endpoint|Has URI=http://purl.bioontology.org/ontology/npo#NPO_1235}}
+
+Surface area according to Brunauer, Emmett and Teller.
+
+[[Category:BET]]
+[[Category:Surface Area]]</text>
+    </revision>
   </page>
   <page>
     <title>Gerloff2009 NM1 BET</title>
@@ -93735,6 +93842,16 @@ Colloidal SiO2 in 40 wt. % suspension in H2O.</text>
       </contributor>
       <comment>Created page with &quot;{{Endpoint }}&quot;</comment>
       <text xml:space="preserve">{{Endpoint
+}}</text>
+    </revision>
+    <revision>
+      <id>5029</id>
+      <timestamp>2016-10-31T11:30:39Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Endpoint
+|Has URI=http://purl.enanomapper.org/onto/ENM_9000100
 }}</text>
     </revision>
   </page>
@@ -96952,6 +97069,17 @@ Formerly, known as [[JRC2011 NM-600]].
 
 [[Category:Particle Size]]</text>
     </revision>
+    <revision>
+      <id>5034</id>
+      <timestamp>2016-10-31T12:06:23Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Descriptor}}
+{{Endpoint|Has URI=http://purl.enanomapper.org/onto/ENM_9000127}}
+
+[[Category:Particle Size]]</text>
+    </revision>
   </page>
   <page>
     <title>JRCNM01000a M3</title>
@@ -96981,6 +97109,17 @@ Formerly, known as [[JRC2011 NM-600]].
       </contributor>
       <comment>Created page with &quot;{{Descriptor}}  [[Category:Particle Size]]&quot;</comment>
       <text xml:space="preserve">{{Descriptor}}
+
+[[Category:Particle Size]]</text>
+    </revision>
+    <revision>
+      <id>5033</id>
+      <timestamp>2016-10-31T12:06:15Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Descriptor}}
+{{Endpoint|Has URI=http://purl.enanomapper.org/onto/ENM_9000112}}
 
 [[Category:Particle Size]]</text>
     </revision>
@@ -97069,6 +97208,18 @@ Formerly, known as [[JRC2011 NM-600]].
 
 [[Category:Particle Size]]</text>
     </revision>
+    <revision>
+      <id>5036</id>
+      <timestamp>2016-10-31T12:06:39Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Descriptor}}
+{{Endpoint|Has URI=http://purl.enanomapper.org/onto/ENM_9000195}}
+
+
+[[Category:Particle Size]]</text>
+    </revision>
   </page>
   <page>
     <title>Particle Size Distribution: D77</title>
@@ -97084,6 +97235,18 @@ Formerly, known as [[JRC2011 NM-600]].
 
 [[Category:Particle Size]]</text>
     </revision>
+    <revision>
+      <id>5035</id>
+      <timestamp>2016-10-31T12:06:30Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Descriptor}}
+{{Endpoint|Has URI=http://purl.enanomapper.org/onto/ENM_9000177}}
+
+
+[[Category:Particle Size]]</text>
+    </revision>
   </page>
   <page>
     <title>Particle Size Distribution: D11</title>
@@ -97096,6 +97259,17 @@ Formerly, known as [[JRC2011 NM-600]].
       </contributor>
       <comment>Created page with &quot;{{Descriptor}}  [[Category:Particle Size]]&quot;</comment>
       <text xml:space="preserve">{{Descriptor}}
+
+[[Category:Particle Size]]</text>
+    </revision>
+    <revision>
+      <id>5032</id>
+      <timestamp>2016-10-31T12:05:39Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Descriptor}}
+{{Endpoint|Has URI=http://purl.enanomapper.org/onto/ENM_9000111}}
 
 [[Category:Particle Size]]</text>
     </revision>
@@ -105127,6 +105301,14 @@ After filtering out particles with a length of more then 50 nm.</text>
       </contributor>
       <comment>Created page with &quot;{{Endpoint}}&quot;</comment>
       <text xml:space="preserve">{{Endpoint}}</text>
+    </revision>
+    <revision>
+      <id>5025</id>
+      <timestamp>2016-10-31T11:16:23Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Endpoint|Has URI=http://purl.obolibrary.org/obo/PATO_0000921}}</text>
     </revision>
   </page>
   <page>
