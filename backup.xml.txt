@@ -35,6 +35,21 @@
     <title>Main Page</title>
     <id>1</id>
     <revision>
+      <id>1</id>
+      <timestamp>2012-02-01T06:12:44Z</timestamp>
+      <contributor>
+        <ip>MediaWiki default</ip>
+      </contributor>
+      <text xml:space="preserve">'''MediaWiki has been successfully installed.'''
+
+Consult the [http://meta.wikimedia.org/wiki/Help:Contents User's Guide] for information on using the wiki software.
+
+== Getting started ==
+* [http://www.mediawiki.org/wiki/Manual:Configuration_settings Configuration settings list]
+* [http://www.mediawiki.org/wiki/Manual:FAQ MediaWiki FAQ]
+* [https://lists.wikimedia.org/mailman/listinfo/mediawiki-announce MediaWiki release mailing list]</text>
+    </revision>
+    <revision>
       <id>2</id>
       <timestamp>2011-04-29T10:04:12Z</timestamp>
       <contributor>
@@ -750,21 +765,6 @@ You can browse this data via one of the following categories:
 * see ~/var/Projects/hg/kirepos/projects/nanotoxwiki/README
 ** cd ~/var/Projects/hg/kirepos/projects/nanotoxwiki
 ** mysqldump -u root -p wikidb --default-character-set=latin1 &gt; backup.sql.txt</text>
-    </revision>
-    <revision>
-      <id>1</id>
-      <timestamp>2012-02-01T06:12:44Z</timestamp>
-      <contributor>
-        <ip>MediaWiki default</ip>
-      </contributor>
-      <text xml:space="preserve">'''MediaWiki has been successfully installed.'''
-
-Consult the [http://meta.wikimedia.org/wiki/Help:Contents User's Guide] for information on using the wiki software.
-
-== Getting started ==
-* [http://www.mediawiki.org/wiki/Manual:Configuration_settings Configuration settings list]
-* [http://www.mediawiki.org/wiki/Manual:FAQ MediaWiki FAQ]
-* [https://lists.wikimedia.org/mailman/listinfo/mediawiki-announce MediaWiki release mailing list]</text>
     </revision>
     <revision>
       <id>1385</id>
@@ -1661,6 +1661,46 @@ You can browse this data via one of the following categories:
       <text xml:space="preserve">Egon's Lab Notebook.
 
 * [[TODO]]
+
+== Nanomaterial Database ==
+
+Database containing QSAR studies from literature with assay data from cell line experiments.
+You can browse this data via one of the following categories:
+
+* [[:Category:Chemical_Entities|Chemical Entities]] ({{#ask: [[Category:Chemical_Entities]] | format=count}}),
+** [[:Category:Materials|Materials]] ({{#ask: [[Category:Materials]] | format=count}}),
+*** [[:Category:MetalOxides|Metal oxides]] ({{#ask: [[Category:MetalOxides]] | format=count}}), [[:Category:Metals|Metals]] ({{#ask: [[Category:Metals]] | format=count}}), [[:Category:Alloys|Alloys]] ({{#ask: [[Category:Alloys]] | format=count}}), [[:Category:Nanoclays|Nanoclays]] ({{#ask: [[Category:Nanoclays]] | format=count}}), [[:Category:Multi-walled_Carbon_Nanotubes|Multi-walled Carbon Nanotube]] ({{#ask: [[Category:Multi-walled_Carbon_Nanotubes]] | format=count}}), [[:Category:CarbonNanotubes|CarbonNanotubes]] ({{#ask: [[Category:CarbonNanotubes]] | format=count}}), [[:Category:Fullerenes|Fullerenes]] ({{#ask: [[Category:Fullerenes]] | format=count}})
+*** [[:Category:Coatings|Coatings]] ({{#ask: [[Category:Coatings]] | format=count}}), [[:Category:Coating_Parts|Coating Parts]] ({{#ask: [[Category:Coating_Parts]] | format=count}})
+** [[:Category:Bundles|Bundles]] ({{#ask: [[Category:Bundles]] | format=count}}),
+* [[:Category:Studies|Studies]] ({{#ask: [[Category:Studies]] | format=count}}), [[:Category:Measurements|Measurements]] ({{#ask: [[Category:Measurements]] | format=count}}), [[:Category:Methods|Methods]] ({{#ask: [[Category:Methods]] | format=count}})
+** [[:Category:NanoMaterials|NanoMaterials]] ({{#ask: [[Category:Studies]] [[Has Entities::!Compounds]] | format=count}}), of which Metal oxides ({{#ask: [[Category:Studies]] [[Has Entities::MetalOxides]] | format=count}}),
+* [[:Category:Papers|Papers]] ({{#ask: [[Category:Papers]] | format=count}}) , [[:Category:PapersToRead|To Read]] ({{#ask: [[Category:PapersToRead]] | format=count}}) from {{#ask: [[Category:Journals]] | format=count}} [[:Category:Journals|Journals]] 
+* [[:Category:Descriptors|Descriptors]] ({{#ask: [[Category:Descriptors]] | format=count}}),
+* [[:Category:Endpoints|Endpoints]] ({{#ask: [[Category:Endpoints]] | format=count}}), [[:Category:Assays|Assays]] ({{#ask: [[Category:Assays]] | format=count}}), [[:Category:AssayTypes|Assay Types]] ({{#ask: [[Category:AssayTypes]] | format=count}}), [[:Category:AssayMethods|Assay Methods]] ({{#ask: [[Category:AssayMethods]] | format=count}})
+* [[:Category:Relationships|Relationships]] ({{#ask: [[Category:Relationships]] | format=count}}),
+* [[:Category:Toxicity|Toxicity]] ({{#ask: [[Category:Toxicity]] | format=count}}),
+* [[:Category:Cell Lines|Cell lines]] ({{#ask: [[Category:Cell Lines]] | format=count}}).
+
+== Admin ==
+
+* [[Installation]]
+* [[Git Repository]]
+* [[Backup and Restore]] of the data</text>
+    </revision>
+    <revision>
+      <id>5039</id>
+      <timestamp>2016-10-31T19:38:59Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">Egon's Lab Notebook.
+
+* [[TODO]]
+
+Releases
+
+* [https://dx.doi.org/10.6084/m9.figshare.4141593.v1 NanoWiki 4]
+* NanoWiki 3
 
 == Nanomaterial Database ==
 
@@ -95845,6 +95885,30 @@ Formerly, known as [[JRC2011 NM-103]].
 {{#set:|Has Source=JRC2014b}}
 {{#set:|Has Chemical Coating=AluminumOxide Coating}}</text>
     </revision>
+    <revision>
+      <id>5040</id>
+      <timestamp>2018-09-11T20:52:59Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=373
+|Has Label=JRCNM01003a
+|Has Chemical Composition=TiO2
+|Has NM Type=MetalOxide
+|Has Source=JRC2014
+|Has Bundle=JRC Representative Nanomaterials
+|Has Chemical Coating=Dimethicone Coating
+}}
+
+Formerly, known as [[JRC2011 NM-103]].
+
+{{#set:|Formerly=[[JRC2011 NM-103]]}}
+{{#set:|Has Label=NM-103}}
+{{#set:|Has Source=JRC2014b}}
+{{#set:|Has Chemical Coating=AluminumOxide Coating}}
+{{#set:|Has Specific NM Type=[[ENM_9000083]]}}</text>
+    </revision>
   </page>
   <page>
     <title>JRCNM01004a</title>
@@ -95916,6 +95980,30 @@ Formerly, known as [[JRC2011 NM-104]].
 {{#set:|Has Label=NM-104}}
 {{#set:|Has Source=JRC2014b}}
 {{#set:|Has Chemical Coating=AluminumOxide Coating}}</text>
+    </revision>
+    <revision>
+      <id>5041</id>
+      <timestamp>2018-09-11T20:53:14Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=374
+|Has Label=JRCNM01004a
+|Has Chemical Composition=TiO2
+|Has NM Type=MetalOxide
+|Has Source=JRC2014
+|Has Bundle=JRC Representative Nanomaterials
+|Has Chemical Coating=Dimethicone Coating
+}}
+
+Formerly, known as [[JRC2011 NM-104]].
+
+{{#set:|Formerly=[[JRC2011 NM-104]]}}
+{{#set:|Has Label=NM-104}}
+{{#set:|Has Source=JRC2014b}}
+{{#set:|Has Chemical Coating=AluminumOxide Coating}}
+{{#set:|Has Specific NM Type=[[ENM_9000084]]}}</text>
     </revision>
   </page>
   <page>
@@ -96029,6 +96117,23 @@ Formerly, known as [[JRC2011 NM-110]].
 |Has Bundle=JRC Representative Nanomaterials
 }}</text>
     </revision>
+    <revision>
+      <id>5051</id>
+      <timestamp>2018-09-11T20:58:12Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=377
+|Has Label=JRCNM62001a
+|Has Chemical Composition=TiO2
+|Has NM Type=MetalOxide
+|Has Source=JRC2014
+|Has Bundle=JRC Representative Nanomaterials
+}}
+
+{{#set:|Has Specific NM Type=[[ENM_9000095]]}}</text>
+    </revision>
   </page>
   <page>
     <title>JRCNM62002a</title>
@@ -96049,6 +96154,23 @@ Formerly, known as [[JRC2011 NM-110]].
 |Has Bundle=JRC Representative Nanomaterials
 }}</text>
     </revision>
+    <revision>
+      <id>5050</id>
+      <timestamp>2018-09-11T20:57:56Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=378
+|Has Label=JRCNM62002a
+|Has Chemical Composition=TiO2
+|Has NM Type=MetalOxide
+|Has Source=JRC2014
+|Has Bundle=JRC Representative Nanomaterials
+}}
+
+{{#set:|Has Specific NM Type=[[ENM_9000096]]}}</text>
+    </revision>
   </page>
   <page>
     <title>JRCNM10201a</title>
@@ -96068,6 +96190,23 @@ Formerly, known as [[JRC2011 NM-110]].
 |Has Source=JRC2014
 |Has Bundle=JRC Representative Nanomaterials
 }}</text>
+    </revision>
+    <revision>
+      <id>5053</id>
+      <timestamp>2018-09-11T20:58:48Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=379
+|Has Label=JRCNM10201a
+|Has Chemical Composition=TiO2
+|Has NM Type=MetalOxide
+|Has Source=JRC2014
+|Has Bundle=JRC Representative Nanomaterials
+}}
+
+{{#set:|Has Specific NM Type=[[ENM_9000094]]}}</text>
     </revision>
   </page>
   <page>
@@ -96184,6 +96323,28 @@ Formerly, known as [[JRC2011 NM-111]].
 {{#set:|Formerly=[[JRC2011 NM-111]]}}
 {{#set:|Has Label=NM-111}}</text>
     </revision>
+    <revision>
+      <id>5044</id>
+      <timestamp>2018-09-11T20:54:55Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=381
+|Has Label=JRCNM01101a
+|Has Chemical Composition=ZnO
+|Has Chemical Coating=Triethoxycaprylsilane Coating
+|Has NM Type=MetalOxide
+|Has Source=JRC2014
+|Has Bundle=JRC Representative Nanomaterials
+}}
+
+Formerly, known as [[JRC2011 NM-111]].
+
+{{#set:|Formerly=[[JRC2011 NM-111]]}}
+{{#set:|Has Label=NM-111}}
+{{#set:|Has Specific NM Type=[[ENM_9000086]]}}</text>
+    </revision>
   </page>
   <page>
     <title>JRCNM02000a</title>
@@ -96208,6 +96369,27 @@ Formerly, known as [[JRC2011 NM-200]].
 
 {{#set:|Formerly=[[JRC2011 NM-200]]}}
 {{#set:|Has Label=NM-200}}</text>
+    </revision>
+    <revision>
+      <id>5045</id>
+      <timestamp>2018-09-11T20:55:23Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=382
+|Has Label=JRCNM02000a
+|Has Chemical Composition=SiO2
+|Has NM Type=MetalOxide
+|Has Source=JRC2014
+|Has Bundle=JRC Representative Nanomaterials
+}}
+
+Formerly, known as [[JRC2011 NM-200]].
+
+{{#set:|Formerly=[[JRC2011 NM-200]]}}
+{{#set:|Has Label=NM-200}}
+{{#set:|Has Specific NM Type=[[ENM_9000087]]}}</text>
     </revision>
   </page>
   <page>
@@ -96234,6 +96416,27 @@ Formerly, known as [[JRC2011 NM-201]].
 {{#set:|Formerly=[[JRC2011 NM-201]]}}
 {{#set:|Has Label=NM-201}}</text>
     </revision>
+    <revision>
+      <id>5046</id>
+      <timestamp>2018-09-11T20:55:37Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=383
+|Has Label=JRCNM02001a
+|Has Chemical Composition=SiO2
+|Has NM Type=MetalOxide
+|Has Source=JRC2014
+|Has Bundle=JRC Representative Nanomaterials
+}}
+
+Formerly, known as [[JRC2011 NM-201]].
+
+{{#set:|Formerly=[[JRC2011 NM-201]]}}
+{{#set:|Has Label=NM-201}}
+{{#set:|Has Specific NM Type=[[ENM_9000088]]}}</text>
+    </revision>
   </page>
   <page>
     <title>JRCNM02002a</title>
@@ -96258,6 +96461,27 @@ Formerly, known as [[JRC2011 NM-202]].
 
 {{#set:|Formerly=[[JRC2011 NM-202]]}}
 {{#set:|Has Label=NM-202}}</text>
+    </revision>
+    <revision>
+      <id>5047</id>
+      <timestamp>2018-09-11T20:55:55Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=384
+|Has Label=JRCNM02002a
+|Has Chemical Composition=SiO2
+|Has NM Type=MetalOxide
+|Has Source=JRC2014
+|Has Bundle=JRC Representative Nanomaterials
+}}
+
+Formerly, known as [[JRC2011 NM-202]].
+
+{{#set:|Formerly=[[JRC2011 NM-202]]}}
+{{#set:|Has Label=NM-202}}
+{{#set:|Has Specific NM Type=[[ENM_9000089]]}}</text>
     </revision>
   </page>
   <page>
@@ -96304,6 +96528,27 @@ Formerly, known as [[JRC2011 NM-203]].
 {{#set:|Formerly=[[JRC2011 NM-203]]}}
 {{#set:|Has Label=NM-203}}</text>
     </revision>
+    <revision>
+      <id>5048</id>
+      <timestamp>2018-09-11T20:56:29Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=392
+|Has Label=JRCNM02003a
+|Has Chemical Composition=SiO2
+|Has NM Type=MetalOxide
+|Has Source=JRC2014
+|Has Bundle=JRC Representative Nanomaterials
+}}
+
+Formerly, known as [[JRC2011 NM-203]].
+
+{{#set:|Formerly=[[JRC2011 NM-203]]}}
+{{#set:|Has Label=NM-203}}
+{{#set:|Has Specific NM Type=[[ENM_9000090]]}}</text>
+    </revision>
   </page>
   <page>
     <title>JRCNM02004a</title>
@@ -96329,6 +96574,48 @@ Formerly, known as [[JRC2011 NM-204]].
 {{#set:|Formerly=[[JRC2011 NM-204]]}}
 {{#set:|Has Label=NM-204}}</text>
     </revision>
+    <revision>
+      <id>5049</id>
+      <timestamp>2018-09-11T20:56:47Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=385
+|Has Label=JRCNM02004a
+|Has Chemical Composition=SiO2
+|Has NM Type=MetalOxide
+|Has Source=JRC2014
+|Has Bundle=JRC Representative Nanomaterials
+}}
+
+Formerly, known as [[JRC2011 NM-204]].
+
+{{#set:|Formerly=[[JRC2011 NM-204]]}}
+{{#set:|Has Label=NM-204}}
+{{#set:|Has Specific NM Type=[[ENM_9000092]]}}</text>
+    </revision>
+    <revision>
+      <id>5059</id>
+      <timestamp>2018-09-11T21:01:58Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=385
+|Has Label=JRCNM02004a
+|Has Chemical Composition=SiO2
+|Has NM Type=MetalOxide
+|Has Source=JRC2014
+|Has Bundle=JRC Representative Nanomaterials
+}}
+
+Formerly, known as [[JRC2011 NM-204]].
+
+{{#set:|Formerly=[[JRC2011 NM-204]]}}
+{{#set:|Has Label=NM-204}}
+{{#set:|Has Specific NM Type=[[ENM_9000091]]}}</text>
+    </revision>
   </page>
   <page>
     <title>JRCNM02004b</title>
@@ -96349,6 +96636,23 @@ Formerly, known as [[JRC2011 NM-204]].
 |Has Bundle=JRC Representative Nanomaterials
 }}</text>
     </revision>
+    <revision>
+      <id>5054</id>
+      <timestamp>2018-09-11T21:00:07Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=386
+|Has Label=JRCNM02004b
+|Has Chemical Composition=SiO2
+|Has NM Type=MetalOxide
+|Has Source=JRC2014
+|Has Bundle=JRC Representative Nanomaterials
+}}
+
+{{#set:|Has Specific NM Type=[[ENM_9000092]]}}</text>
+    </revision>
   </page>
   <page>
     <title>JRCNM10404</title>
@@ -96368,6 +96672,23 @@ Formerly, known as [[JRC2011 NM-204]].
 |Has Source=JRC2014
 |Has Bundle=JRC Representative Nanomaterials
 }}</text>
+    </revision>
+    <revision>
+      <id>5052</id>
+      <timestamp>2018-09-11T20:58:32Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=387
+|Has Label=JRCNM10404
+|Has Chemical Composition=SiO2
+|Has NM Type=MetalOxide
+|Has Source=JRC2014
+|Has Bundle=JRC Representative Nanomaterials
+}}
+
+{{#set:|Has Specific NM Type=[[ENM_9000093]]}}</text>
     </revision>
   </page>
   <page>
@@ -96394,6 +96715,27 @@ Formerly, known as [[JRC2011 NM-211]].
 {{#set:|Formerly=[[JRC2011 NM-211]]}}
 {{#set:|Has Label=NM-211}}</text>
     </revision>
+    <revision>
+      <id>5055</id>
+      <timestamp>2018-09-11T21:00:27Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=388
+|Has Label=JRCNM02101a
+|Has Chemical Composition=CeO2
+|Has NM Type=MetalOxide
+|Has Source=JRC2014
+|Has Bundle=JRC Representative Nanomaterials
+}}
+
+Formerly, known as [[JRC2011 NM-211]].
+
+{{#set:|Formerly=[[JRC2011 NM-211]]}}
+{{#set:|Has Label=NM-211}}
+{{#set:|Has Specific NM Type=[[ENM_9000237]]}}</text>
+    </revision>
   </page>
   <page>
     <title>JRCNM02102a</title>
@@ -96418,6 +96760,27 @@ Formerly, known as [[JRC2011 NM-212]].
 
 {{#set:|Formerly=[[JRC2011 NM-212]]}}
 {{#set:|Has Label=NM-212}}</text>
+    </revision>
+    <revision>
+      <id>5056</id>
+      <timestamp>2018-09-11T21:00:43Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=389
+|Has Label=JRCNM02102a
+|Has Chemical Composition=CeO2
+|Has NM Type=MetalOxide
+|Has Source=JRC2014
+|Has Bundle=JRC Representative Nanomaterials
+}}
+
+Formerly, known as [[JRC2011 NM-212]].
+
+{{#set:|Formerly=[[JRC2011 NM-212]]}}
+{{#set:|Has Label=NM-212}}
+{{#set:|Has Specific NM Type=[[ENM_9000238]]}}</text>
     </revision>
   </page>
   <page>
@@ -96498,6 +96861,25 @@ Formerly, known as [[JRC2011 NM-330]].
 
 {{#set:|Has Label=NM-330}}</text>
     </revision>
+    <revision>
+      <id>5057</id>
+      <timestamp>2018-09-11T21:01:02Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=390
+|Has Label=JRCNM03300a
+|Has Chemical Composition=Au
+|Has NM Type=Metal
+|Has Source=JRC2014
+|Has Bundle=JRC Representative Nanomaterials
+|Has SMILES=[Au]
+}}
+
+{{#set:|Has Label=NM-330}}
+{{#set:|Has Specific NM Type=[[ENM_9000097]]}}</text>
+    </revision>
   </page>
   <page>
     <title>JRCNM03301a</title>
@@ -96538,6 +96920,25 @@ Formerly, known as [[JRC2011 NM-330]].
 }}
 
 {{#set:|Has Label=NM-330 DIS}}</text>
+    </revision>
+    <revision>
+      <id>5058</id>
+      <timestamp>2018-09-11T21:01:16Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=391
+|Has Label=JRCNM03301a
+|Has Chemical Composition=Au
+|Has SMILES=[Au]
+|Has NM Type=Metal
+|Has Source=JRC2014
+|Has Bundle=JRC Representative Nanomaterials
+}}
+
+{{#set:|Has Label=NM-330 DIS}}
+{{#set:|Has Specific NM Type=[[ENM_9000098]]}}</text>
     </revision>
   </page>
   <page>
@@ -106311,6 +106712,2030 @@ More information can be found at this website: http://www.ncbi.nlm.nih.gov/geo/<
 
 {{#set: |Equivalent URI=http://purl.enanomapper.org/onto/ENM_9000081 }}
 {{#set: |Original URI=http://purl.enanomapper.org/onto/ENM_9000081 }}</text>
+    </revision>
+  </page>
+  <page>
+    <title>ENM 9000083</title>
+    <id>2108</id>
+    <revision>
+      <id>5042</id>
+      <timestamp>2018-09-11T20:53:50Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{MaterialType |Has Label=JRCNM01003a |Has URI=http://purl.enanomapper.org/onto/ENM_9000083 }}  {{#set: |Equivalent URI=http://purl.enanomapper.org/onto/ENM_9000083 }} {{#set: |O…&quot;</comment>
+      <text xml:space="preserve">{{MaterialType
+|Has Label=JRCNM01003a
+|Has URI=http://purl.enanomapper.org/onto/ENM_9000083
+}}
+
+{{#set: |Equivalent URI=http://purl.enanomapper.org/onto/ENM_9000083 }}
+{{#set: |Original URI=http://purl.enanomapper.org/onto/ENM_9000083 }}</text>
+    </revision>
+  </page>
+  <page>
+    <title>ENM 9000084</title>
+    <id>2109</id>
+    <revision>
+      <id>5043</id>
+      <timestamp>2018-09-11T20:54:07Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{MaterialType |Has Label=JRCNM01004a |Has URI=http://purl.enanomapper.org/onto/ENM_9000084 }}  {{#set: |Equivalent URI=http://purl.enanomapper.org/onto/ENM_9000084 }} {{#set: |O…&quot;</comment>
+      <text xml:space="preserve">{{MaterialType
+|Has Label=JRCNM01004a
+|Has URI=http://purl.enanomapper.org/onto/ENM_9000084
+}}
+
+{{#set: |Equivalent URI=http://purl.enanomapper.org/onto/ENM_9000084 }}
+{{#set: |Original URI=http://purl.enanomapper.org/onto/ENM_9000084 }}</text>
+    </revision>
+  </page>
+  <page>
+    <title>ENM 9000086</title>
+    <id>2110</id>
+    <revision>
+      <id>5060</id>
+      <timestamp>2018-09-11T21:03:05Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{MaterialType |Has Label=JRCNM01101a |Has URI=http://purl.enanomapper.org/onto/ENM_9000086 }}  {{#set: |Equivalent URI=http://purl.enanomapper.org/onto/ENM_9000086 }} {{#set: |O…&quot;</comment>
+      <text xml:space="preserve">{{MaterialType
+|Has Label=JRCNM01101a
+|Has URI=http://purl.enanomapper.org/onto/ENM_9000086
+}}
+
+{{#set: |Equivalent URI=http://purl.enanomapper.org/onto/ENM_9000086 }}
+{{#set: |Original URI=http://purl.enanomapper.org/onto/ENM_9000086 }}</text>
+    </revision>
+  </page>
+  <page>
+    <title>ENM 9000238</title>
+    <id>2111</id>
+    <revision>
+      <id>5061</id>
+      <timestamp>2018-09-11T21:03:49Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{MaterialType |Has Label=JRCNM02102a |Has URI=http://purl.enanomapper.org/onto/ENM_9000238 }}  {{#set: |Equivalent URI=http://purl.enanomapper.org/onto/ENM_9000238 }} {{#set: |O…&quot;</comment>
+      <text xml:space="preserve">{{MaterialType
+|Has Label=JRCNM02102a
+|Has URI=http://purl.enanomapper.org/onto/ENM_9000238
+}}
+
+{{#set: |Equivalent URI=http://purl.enanomapper.org/onto/ENM_9000238 }}
+{{#set: |Original URI=http://purl.enanomapper.org/onto/ENM_9000238 }}</text>
+    </revision>
+  </page>
+  <page>
+    <title>ENM 9000237</title>
+    <id>2112</id>
+    <revision>
+      <id>5062</id>
+      <timestamp>2018-09-11T21:04:02Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{MaterialType |Has Label=JRCNM02101a |Has URI=http://purl.enanomapper.org/onto/ENM_9000237 }}  {{#set: |Equivalent URI=http://purl.enanomapper.org/onto/ENM_9000237 }} {{#set: |O…&quot;</comment>
+      <text xml:space="preserve">{{MaterialType
+|Has Label=JRCNM02101a
+|Has URI=http://purl.enanomapper.org/onto/ENM_9000237
+}}
+
+{{#set: |Equivalent URI=http://purl.enanomapper.org/onto/ENM_9000237 }}
+{{#set: |Original URI=http://purl.enanomapper.org/onto/ENM_9000237 }}</text>
+    </revision>
+  </page>
+  <page>
+    <title>ENM 9000098</title>
+    <id>2113</id>
+    <revision>
+      <id>5063</id>
+      <timestamp>2018-09-11T21:04:17Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{MaterialType |Has Label=JRCNM03301a |Has URI=http://purl.enanomapper.org/onto/ENM_9000098 }}  {{#set: |Equivalent URI=http://purl.enanomapper.org/onto/ENM_9000098 }} {{#set: |O…&quot;</comment>
+      <text xml:space="preserve">{{MaterialType
+|Has Label=JRCNM03301a
+|Has URI=http://purl.enanomapper.org/onto/ENM_9000098
+}}
+
+{{#set: |Equivalent URI=http://purl.enanomapper.org/onto/ENM_9000098 }}
+{{#set: |Original URI=http://purl.enanomapper.org/onto/ENM_9000098 }}</text>
+    </revision>
+  </page>
+  <page>
+    <title>ENM 9000097</title>
+    <id>2114</id>
+    <revision>
+      <id>5064</id>
+      <timestamp>2018-09-11T21:04:29Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{MaterialType |Has Label=JRCNM03300a |Has URI=http://purl.enanomapper.org/onto/ENM_9000097 }}  {{#set: |Equivalent URI=http://purl.enanomapper.org/onto/ENM_9000097 }} {{#set: |O…&quot;</comment>
+      <text xml:space="preserve">{{MaterialType
+|Has Label=JRCNM03300a
+|Has URI=http://purl.enanomapper.org/onto/ENM_9000097
+}}
+
+{{#set: |Equivalent URI=http://purl.enanomapper.org/onto/ENM_9000097 }}
+{{#set: |Original URI=http://purl.enanomapper.org/onto/ENM_9000097 }}</text>
+    </revision>
+  </page>
+  <page>
+    <title>ENM 9000096</title>
+    <id>2115</id>
+    <revision>
+      <id>5065</id>
+      <timestamp>2018-09-11T21:04:45Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{MaterialType |Has Label=JRCNM62002a |Has URI=http://purl.enanomapper.org/onto/ENM_9000096 }}  {{#set: |Equivalent URI=http://purl.enanomapper.org/onto/ENM_9000096 }} {{#set: |O…&quot;</comment>
+      <text xml:space="preserve">{{MaterialType
+|Has Label=JRCNM62002a
+|Has URI=http://purl.enanomapper.org/onto/ENM_9000096
+}}
+
+{{#set: |Equivalent URI=http://purl.enanomapper.org/onto/ENM_9000096 }}
+{{#set: |Original URI=http://purl.enanomapper.org/onto/ENM_9000096 }}</text>
+    </revision>
+  </page>
+  <page>
+    <title>ENM 9000095</title>
+    <id>2116</id>
+    <revision>
+      <id>5066</id>
+      <timestamp>2018-09-11T21:04:59Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{MaterialType |Has Label=JRCNM62001a |Has URI=http://purl.enanomapper.org/onto/ENM_9000095 }}  {{#set: |Equivalent URI=http://purl.enanomapper.org/onto/ENM_9000095 }} {{#set: |O…&quot;</comment>
+      <text xml:space="preserve">{{MaterialType
+|Has Label=JRCNM62001a
+|Has URI=http://purl.enanomapper.org/onto/ENM_9000095
+}}
+
+{{#set: |Equivalent URI=http://purl.enanomapper.org/onto/ENM_9000095 }}
+{{#set: |Original URI=http://purl.enanomapper.org/onto/ENM_9000095 }}</text>
+    </revision>
+  </page>
+  <page>
+    <title>ENM 9000094</title>
+    <id>2117</id>
+    <revision>
+      <id>5067</id>
+      <timestamp>2018-09-11T21:05:11Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{MaterialType |Has Label=JRCNM10201a |Has URI=http://purl.enanomapper.org/onto/ENM_9000094 }}  {{#set: |Equivalent URI=http://purl.enanomapper.org/onto/ENM_9000094 }} {{#set: |O…&quot;</comment>
+      <text xml:space="preserve">{{MaterialType
+|Has Label=JRCNM10201a
+|Has URI=http://purl.enanomapper.org/onto/ENM_9000094
+}}
+
+{{#set: |Equivalent URI=http://purl.enanomapper.org/onto/ENM_9000094 }}
+{{#set: |Original URI=http://purl.enanomapper.org/onto/ENM_9000094 }}</text>
+    </revision>
+  </page>
+  <page>
+    <title>ENM 9000093</title>
+    <id>2118</id>
+    <revision>
+      <id>5068</id>
+      <timestamp>2018-09-11T21:05:25Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{MaterialType |Has Label=JRCNM10404 |Has URI=http://purl.enanomapper.org/onto/ENM_9000093 }}  {{#set: |Equivalent URI=http://purl.enanomapper.org/onto/ENM_9000093 }} {{#set: |Or…&quot;</comment>
+      <text xml:space="preserve">{{MaterialType
+|Has Label=JRCNM10404
+|Has URI=http://purl.enanomapper.org/onto/ENM_9000093
+}}
+
+{{#set: |Equivalent URI=http://purl.enanomapper.org/onto/ENM_9000093 }}
+{{#set: |Original URI=http://purl.enanomapper.org/onto/ENM_9000093 }}</text>
+    </revision>
+  </page>
+  <page>
+    <title>ENM 9000092</title>
+    <id>2119</id>
+    <revision>
+      <id>5069</id>
+      <timestamp>2018-09-11T21:05:39Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{MaterialType |Has Label=JRCNM02004b |Has URI=http://purl.enanomapper.org/onto/ENM_9000092 }}  {{#set: |Equivalent URI=http://purl.enanomapper.org/onto/ENM_9000092 }} {{#set: |O…&quot;</comment>
+      <text xml:space="preserve">{{MaterialType
+|Has Label=JRCNM02004b
+|Has URI=http://purl.enanomapper.org/onto/ENM_9000092
+}}
+
+{{#set: |Equivalent URI=http://purl.enanomapper.org/onto/ENM_9000092 }}
+{{#set: |Original URI=http://purl.enanomapper.org/onto/ENM_9000092 }}</text>
+    </revision>
+  </page>
+  <page>
+    <title>ENM 9000091</title>
+    <id>2120</id>
+    <revision>
+      <id>5070</id>
+      <timestamp>2018-09-11T21:05:52Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{MaterialType |Has Label=JRCNM02004a |Has URI=http://purl.enanomapper.org/onto/ENM_9000091 }}  {{#set: |Equivalent URI=http://purl.enanomapper.org/onto/ENM_9000091 }} {{#set: |O…&quot;</comment>
+      <text xml:space="preserve">{{MaterialType
+|Has Label=JRCNM02004a
+|Has URI=http://purl.enanomapper.org/onto/ENM_9000091
+}}
+
+{{#set: |Equivalent URI=http://purl.enanomapper.org/onto/ENM_9000091 }}
+{{#set: |Original URI=http://purl.enanomapper.org/onto/ENM_9000091 }}</text>
+    </revision>
+  </page>
+  <page>
+    <title>ENM 9000090</title>
+    <id>2121</id>
+    <revision>
+      <id>5071</id>
+      <timestamp>2018-09-11T21:06:05Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{MaterialType |Has Label=JRCNM02003a |Has URI=http://purl.enanomapper.org/onto/ENM_9000090 }}  {{#set: |Equivalent URI=http://purl.enanomapper.org/onto/ENM_9000090 }} {{#set: |O…&quot;</comment>
+      <text xml:space="preserve">{{MaterialType
+|Has Label=JRCNM02003a
+|Has URI=http://purl.enanomapper.org/onto/ENM_9000090
+}}
+
+{{#set: |Equivalent URI=http://purl.enanomapper.org/onto/ENM_9000090 }}
+{{#set: |Original URI=http://purl.enanomapper.org/onto/ENM_9000090 }}</text>
+    </revision>
+  </page>
+  <page>
+    <title>ENM 9000089</title>
+    <id>2122</id>
+    <revision>
+      <id>5072</id>
+      <timestamp>2018-09-11T21:06:21Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{MaterialType |Has Label=JRCNM02002a |Has URI=http://purl.enanomapper.org/onto/ENM_9000089 }}  {{#set: |Equivalent URI=http://purl.enanomapper.org/onto/ENM_9000089 }} {{#set: |O…&quot;</comment>
+      <text xml:space="preserve">{{MaterialType
+|Has Label=JRCNM02002a
+|Has URI=http://purl.enanomapper.org/onto/ENM_9000089
+}}
+
+{{#set: |Equivalent URI=http://purl.enanomapper.org/onto/ENM_9000089 }}
+{{#set: |Original URI=http://purl.enanomapper.org/onto/ENM_9000089 }}</text>
+    </revision>
+  </page>
+  <page>
+    <title>ENM 9000088</title>
+    <id>2123</id>
+    <revision>
+      <id>5073</id>
+      <timestamp>2018-09-11T21:06:50Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{MaterialType |Has Label=JRCNM02001a |Has URI=http://purl.enanomapper.org/onto/ENM_9000088 }}  {{#set: |Equivalent URI=http://purl.enanomapper.org/onto/ENM_9000088 }} {{#set: |O…&quot;</comment>
+      <text xml:space="preserve">{{MaterialType
+|Has Label=JRCNM02001a
+|Has URI=http://purl.enanomapper.org/onto/ENM_9000088
+}}
+
+{{#set: |Equivalent URI=http://purl.enanomapper.org/onto/ENM_9000088 }}
+{{#set: |Original URI=http://purl.enanomapper.org/onto/ENM_9000088 }}</text>
+    </revision>
+  </page>
+  <page>
+    <title>ENM 9000087</title>
+    <id>2124</id>
+    <revision>
+      <id>5074</id>
+      <timestamp>2018-09-11T21:07:04Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{MaterialType |Has Label=JRCNM02000a |Has URI=http://purl.enanomapper.org/onto/ENM_9000087 }}  {{#set: |Equivalent URI=http://purl.enanomapper.org/onto/ENM_9000087 }} {{#set: |O…&quot;</comment>
+      <text xml:space="preserve">{{MaterialType
+|Has Label=JRCNM02000a
+|Has URI=http://purl.enanomapper.org/onto/ENM_9000087
+}}
+
+{{#set: |Equivalent URI=http://purl.enanomapper.org/onto/ENM_9000087 }}
+{{#set: |Original URI=http://purl.enanomapper.org/onto/ENM_9000087 }}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lin2013</title>
+    <id>2125</id>
+    <revision>
+      <id>5075</id>
+      <timestamp>2018-09-11T21:17:47Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Paper |Has Year=2013 |Has DOI=10.1002/smll.201202128 |Has Journal=Small |Substances extracted=Yes }}&quot;</comment>
+      <text xml:space="preserve">{{Paper
+|Has Year=2013
+|Has DOI=10.1002/smll.201202128
+|Has Journal=Small
+|Substances extracted=Yes
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lin2013 01</title>
+    <id>2126</id>
+    <revision>
+      <id>5076</id>
+      <timestamp>2018-09-11T21:22:53Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=448 |Has Label=Al2O3 |Has Chemical Composition=Al2O3 |Has NM Type=MetalOxide |Has Source=Lin2013 }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=448
+|Has Label=Al2O3
+|Has Chemical Composition=Al2O3
+|Has NM Type=MetalOxide
+|Has Source=Lin2013
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lin2013 02</title>
+    <id>2127</id>
+    <revision>
+      <id>5077</id>
+      <timestamp>2018-09-11T21:23:16Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=449 |Has Label=CeO2 |Has Chemical Composition=CeO2 |Has NM Type=MetalOxide |Has Source=Lin2013 }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=449
+|Has Label=CeO2
+|Has Chemical Composition=CeO2
+|Has NM Type=MetalOxide
+|Has Source=Lin2013
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lin2013 03</title>
+    <id>2128</id>
+    <revision>
+      <id>5078</id>
+      <timestamp>2018-09-11T21:23:36Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=450 |Has Label=CoO |Has Chemical Composition=CoO |Has NM Type=MetalOxide |Has Source=Lin2013 }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=450
+|Has Label=CoO
+|Has Chemical Composition=CoO
+|Has NM Type=MetalOxide
+|Has Source=Lin2013
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lin2013 04</title>
+    <id>2129</id>
+    <revision>
+      <id>5079</id>
+      <timestamp>2018-09-11T21:23:58Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=451 |Has Label=Co3O4 |Has Chemical Composition=Co3O4 |Has NM Type=MetalOxide |Has Source=Lin2013 }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=451
+|Has Label=Co3O4
+|Has Chemical Composition=Co3O4
+|Has NM Type=MetalOxide
+|Has Source=Lin2013
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lin2013 05</title>
+    <id>2130</id>
+    <revision>
+      <id>5080</id>
+      <timestamp>2018-09-11T21:24:31Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=452 |Has Label=Cr2O3 |Has Chemical Composition=Cr2O3 |Has NM Type=MetalOxide |Has Source=Lin2013 }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=452
+|Has Label=Cr2O3
+|Has Chemical Composition=Cr2O3
+|Has NM Type=MetalOxide
+|Has Source=Lin2013
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lin2013 06</title>
+    <id>2131</id>
+    <revision>
+      <id>5081</id>
+      <timestamp>2018-09-11T21:24:54Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=453 |Has Label=CuO |Has Chemical Composition=CuO |Has NM Type=MetalOxide |Has Source=Lin2013 }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=453
+|Has Label=CuO
+|Has Chemical Composition=CuO
+|Has NM Type=MetalOxide
+|Has Source=Lin2013
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lin2013 07</title>
+    <id>2132</id>
+    <revision>
+      <id>5082</id>
+      <timestamp>2018-09-11T21:25:13Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=453 |Has Label=Fe2O3 |Has Chemical Composition=Fe2O3 |Has NM Type=MetalOxide |Has Source=Lin2013 }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=453
+|Has Label=Fe2O3
+|Has Chemical Composition=Fe2O3
+|Has NM Type=MetalOxide
+|Has Source=Lin2013
+}}</text>
+    </revision>
+    <revision>
+      <id>5084</id>
+      <timestamp>2018-09-11T21:26:01Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=454
+|Has Label=Fe2O3
+|Has Chemical Composition=Fe2O3
+|Has NM Type=MetalOxide
+|Has Source=Lin2013
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lin2013 08</title>
+    <id>2133</id>
+    <revision>
+      <id>5083</id>
+      <timestamp>2018-09-11T21:25:36Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=454 |Has Label=Fe3O4 |Has Chemical Composition=Fe3O4 |Has NM Type=MetalOxide |Has Source=Lin2013 }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=454
+|Has Label=Fe3O4
+|Has Chemical Composition=Fe3O4
+|Has NM Type=MetalOxide
+|Has Source=Lin2013
+}}</text>
+    </revision>
+    <revision>
+      <id>5085</id>
+      <timestamp>2018-09-11T21:26:06Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=455
+|Has Label=Fe3O4
+|Has Chemical Composition=Fe3O4
+|Has NM Type=MetalOxide
+|Has Source=Lin2013
+}}</text>
+    </revision>
+    <revision>
+      <id>5086</id>
+      <timestamp>2018-09-11T21:26:37Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=456
+|Has Label=Gd2O3
+|Has Chemical Composition=Gd2O3
+|Has NM Type=MetalOxide
+|Has Source=Lin2013
+}}</text>
+    </revision>
+    <revision>
+      <id>5087</id>
+      <timestamp>2018-09-11T21:26:52Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Undo revision 5086 by [[Special:Contributions/127.0.0.1|127.0.0.1]] ([[User talk:127.0.0.1|Talk]])</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=455
+|Has Label=Fe3O4
+|Has Chemical Composition=Fe3O4
+|Has NM Type=MetalOxide
+|Has Source=Lin2013
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lin2013 09</title>
+    <id>2134</id>
+    <revision>
+      <id>5088</id>
+      <timestamp>2018-09-11T21:27:00Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=456 |Has Label=Gd2O3 |Has Chemical Composition=Gd2O3 |Has NM Type=MetalOxide |Has Source=Lin2013 }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=456
+|Has Label=Gd2O3
+|Has Chemical Composition=Gd2O3
+|Has NM Type=MetalOxide
+|Has Source=Lin2013
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lin2013 10</title>
+    <id>2135</id>
+    <revision>
+      <id>5089</id>
+      <timestamp>2018-09-11T21:27:13Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=457 |Has Label=HfO2 |Has Chemical Composition=HfO2 |Has NM Type=MetalOxide |Has Source=Lin2013 }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=457
+|Has Label=HfO2
+|Has Chemical Composition=HfO2
+|Has NM Type=MetalOxide
+|Has Source=Lin2013
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lin2013 11</title>
+    <id>2136</id>
+    <revision>
+      <id>5090</id>
+      <timestamp>2018-09-11T21:27:32Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=458 |Has Label=In2O3 |Has Chemical Composition=In2O3 |Has NM Type=MetalOxide |Has Source=Lin2013 }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=458
+|Has Label=In2O3
+|Has Chemical Composition=In2O3
+|Has NM Type=MetalOxide
+|Has Source=Lin2013
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lin2013 12</title>
+    <id>2137</id>
+    <revision>
+      <id>5091</id>
+      <timestamp>2018-09-11T21:28:20Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=459 |Has Label=La2O3 |Has Chemical Composition=La2O3 |Has NM Type=MetalOxide |Has Source=Lin2013 }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=459
+|Has Label=La2O3
+|Has Chemical Composition=La2O3
+|Has NM Type=MetalOxide
+|Has Source=Lin2013
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lin2013 13</title>
+    <id>2138</id>
+    <revision>
+      <id>5092</id>
+      <timestamp>2018-09-11T21:28:35Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=460 |Has Label=Mn2O3 |Has Chemical Composition=Mn2O3 |Has NM Type=MetalOxide |Has Source=Lin2013 }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=460
+|Has Label=Mn2O3
+|Has Chemical Composition=Mn2O3
+|Has NM Type=MetalOxide
+|Has Source=Lin2013
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lin2013 14</title>
+    <id>2139</id>
+    <revision>
+      <id>5093</id>
+      <timestamp>2018-09-11T21:29:02Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=461 |Has Label=NiO |Has Chemical Composition=NiO |Has NM Type=MetalOxide |Has Source=Lin2013 }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=461
+|Has Label=NiO
+|Has Chemical Composition=NiO
+|Has NM Type=MetalOxide
+|Has Source=Lin2013
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lin2013 15</title>
+    <id>2140</id>
+    <revision>
+      <id>5094</id>
+      <timestamp>2018-09-11T21:29:16Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=462 |Has Label=Ni2O3 |Has Chemical Composition=Ni2O3 |Has NM Type=MetalOxide |Has Source=Lin2013 }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=462
+|Has Label=Ni2O3
+|Has Chemical Composition=Ni2O3
+|Has NM Type=MetalOxide
+|Has Source=Lin2013
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lin2013 16</title>
+    <id>2141</id>
+    <revision>
+      <id>5095</id>
+      <timestamp>2018-09-11T21:29:42Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=463 |Has Label=Sb2O3 |Has Chemical Composition=Sb2O3 |Has NM Type=MetalOxide |Has Source=Lin2013 }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=463
+|Has Label=Sb2O3
+|Has Chemical Composition=Sb2O3
+|Has NM Type=MetalOxide
+|Has Source=Lin2013
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lin2013 17</title>
+    <id>2142</id>
+    <revision>
+      <id>5096</id>
+      <timestamp>2018-09-11T21:29:56Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=464 |Has Label=SiO2 |Has Chemical Composition=SiO2 |Has NM Type=MetalOxide |Has Source=Lin2013 }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=464
+|Has Label=SiO2
+|Has Chemical Composition=SiO2
+|Has NM Type=MetalOxide
+|Has Source=Lin2013
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lin2013 18</title>
+    <id>2143</id>
+    <revision>
+      <id>5097</id>
+      <timestamp>2018-09-11T21:30:10Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=465 |Has Label=SnO2 |Has Chemical Composition=SnO2 |Has NM Type=MetalOxide |Has Source=Lin2013 }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=465
+|Has Label=SnO2
+|Has Chemical Composition=SnO2
+|Has NM Type=MetalOxide
+|Has Source=Lin2013
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lin2013 19</title>
+    <id>2144</id>
+    <revision>
+      <id>5098</id>
+      <timestamp>2018-09-11T21:30:34Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=466 |Has Label=TiO2 |Has Chemical Composition=TiO2 |Has NM Type=MetalOxide |Has Source=Lin2013 }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=466
+|Has Label=TiO2
+|Has Chemical Composition=TiO2
+|Has NM Type=MetalOxide
+|Has Source=Lin2013
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lin2013 20</title>
+    <id>2145</id>
+    <revision>
+      <id>5099</id>
+      <timestamp>2018-09-11T21:31:04Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=467 |Has Label=WO2 |Has Chemical Composition=WO2 |Has NM Type=MetalOxide |Has Source=Lin2013 }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=467
+|Has Label=WO2
+|Has Chemical Composition=WO2
+|Has NM Type=MetalOxide
+|Has Source=Lin2013
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lin2013 21</title>
+    <id>2146</id>
+    <revision>
+      <id>5100</id>
+      <timestamp>2018-09-11T21:31:19Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=468 |Has Label=Y2O3 |Has Chemical Composition=Y2O3 |Has NM Type=MetalOxide |Has Source=Lin2013 }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=468
+|Has Label=Y2O3
+|Has Chemical Composition=Y2O3
+|Has NM Type=MetalOxide
+|Has Source=Lin2013
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lin2013 22</title>
+    <id>2147</id>
+    <revision>
+      <id>5101</id>
+      <timestamp>2018-09-11T21:31:32Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=469 |Has Label=Yb2O3 |Has Chemical Composition=Yb2O3 |Has NM Type=MetalOxide |Has Source=Lin2013 }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=469
+|Has Label=Yb2O3
+|Has Chemical Composition=Yb2O3
+|Has NM Type=MetalOxide
+|Has Source=Lin2013
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lin2013 23</title>
+    <id>2148</id>
+    <revision>
+      <id>5102</id>
+      <timestamp>2018-09-11T21:31:45Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=470 |Has Label=ZnO |Has Chemical Composition=ZnO |Has NM Type=MetalOxide |Has Source=Lin2013 }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=470
+|Has Label=ZnO
+|Has Chemical Composition=ZnO
+|Has NM Type=MetalOxide
+|Has Source=Lin2013
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lin2013 24</title>
+    <id>2149</id>
+    <revision>
+      <id>5103</id>
+      <timestamp>2018-09-11T21:31:57Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Material |Has Identifier=471 |Has Label=ZrO2 |Has Chemical Composition=ZrO2 |Has NM Type=MetalOxide |Has Source=Lin2013 }}&quot;</comment>
+      <text xml:space="preserve">{{Material
+|Has Identifier=471
+|Has Label=ZrO2
+|Has Chemical Composition=ZrO2
+|Has NM Type=MetalOxide
+|Has Source=Lin2013
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lin2013 01 Size</title>
+    <id>2150</id>
+    <revision>
+      <id>5104</id>
+      <timestamp>2018-09-11T21:34:26Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Lin2013 01 |Has Endpoint Value=14.7 |Has Endpoint Error=5.2 |Has Endpoint Value Units=nm |Has Endpoint=Particle Size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Lin2013 01
+|Has Endpoint Value=14.7
+|Has Endpoint Error=5.2
+|Has Endpoint Value Units=nm
+|Has Endpoint=Particle Size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lin2013 02 Size</title>
+    <id>2151</id>
+    <revision>
+      <id>5105</id>
+      <timestamp>2018-09-11T21:34:48Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Lin2013 02 |Has Endpoint Value=12.8 |Has Endpoint Error=3.4 |Has Endpoint Value Units=nm |Has Endpoint=Particle Size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Lin2013 02
+|Has Endpoint Value=12.8
+|Has Endpoint Error=3.4
+|Has Endpoint Value Units=nm
+|Has Endpoint=Particle Size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lin2013 03 Size</title>
+    <id>2152</id>
+    <revision>
+      <id>5106</id>
+      <timestamp>2018-09-11T21:35:05Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Lin2013 03 |Has Endpoint Value=18.3 |Has Endpoint Error=6.8 |Has Endpoint Value Units=nm |Has Endpoint=Particle Size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Lin2013 03
+|Has Endpoint Value=18.3
+|Has Endpoint Error=6.8
+|Has Endpoint Value Units=nm
+|Has Endpoint=Particle Size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lin2013 04 Size</title>
+    <id>2153</id>
+    <revision>
+      <id>5107</id>
+      <timestamp>2018-09-11T21:35:22Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Lin2013 04 |Has Endpoint Value=10.0 |Has Endpoint Error=2.4 |Has Endpoint Value Units=nm |Has Endpoint=Particle Size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Lin2013 04
+|Has Endpoint Value=10.0
+|Has Endpoint Error=2.4
+|Has Endpoint Value Units=nm
+|Has Endpoint=Particle Size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lin2013 05 Size</title>
+    <id>2154</id>
+    <revision>
+      <id>5108</id>
+      <timestamp>2018-09-11T21:35:37Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Lin2013 05 |Has Endpoint Value=71.8 |Has Endpoint Error=16.2 |Has Endpoint Value Units=nm |Has Endpoint=Particle Size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Lin2013 05
+|Has Endpoint Value=71.8
+|Has Endpoint Error=16.2
+|Has Endpoint Value Units=nm
+|Has Endpoint=Particle Size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lin2013 06 Size</title>
+    <id>2155</id>
+    <revision>
+      <id>5109</id>
+      <timestamp>2018-09-11T21:35:58Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Lin2013 06 |Has Endpoint Value=193.0 |Has Endpoint Error=90.0 |Has Endpoint Value Units=nm |Has Endpoint=Particle Size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Lin2013 06
+|Has Endpoint Value=193.0
+|Has Endpoint Error=90.0
+|Has Endpoint Value Units=nm
+|Has Endpoint=Particle Size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lin2013 07 Size</title>
+    <id>2156</id>
+    <revision>
+      <id>5110</id>
+      <timestamp>2018-09-11T21:36:12Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Lin2013 07 |Has Endpoint Value=12.3 |Has Endpoint Error=2.9 |Has Endpoint Value Units=nm |Has Endpoint=Particle Size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Lin2013 07
+|Has Endpoint Value=12.3
+|Has Endpoint Error=2.9
+|Has Endpoint Value Units=nm
+|Has Endpoint=Particle Size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lin2013 08 Size</title>
+    <id>2157</id>
+    <revision>
+      <id>5111</id>
+      <timestamp>2018-09-11T21:36:39Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Lin2013 08 |Has Endpoint Value=12.0 |Has Endpoint Error=3.2 |Has Endpoint Value Units=nm |Has Endpoint=Particle Size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Lin2013 08
+|Has Endpoint Value=12.0
+|Has Endpoint Error=3.2
+|Has Endpoint Value Units=nm
+|Has Endpoint=Particle Size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lin2013 09 Size</title>
+    <id>2158</id>
+    <revision>
+      <id>5112</id>
+      <timestamp>2018-09-11T21:36:58Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Lin2013 09 |Has Endpoint Value=43.8 |Has Endpoint Error=15.8 |Has Endpoint Value Units=nm |Has Endpoint=Particle Size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Lin2013 09
+|Has Endpoint Value=43.8
+|Has Endpoint Error=15.8
+|Has Endpoint Value Units=nm
+|Has Endpoint=Particle Size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lin2013 10 Size</title>
+    <id>2159</id>
+    <revision>
+      <id>5113</id>
+      <timestamp>2018-09-11T21:37:16Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Lin2013 10 |Has Endpoint Value=28.4 |Has Endpoint Error=7.3 |Has Endpoint Value Units=nm |Has Endpoint=Particle Size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Lin2013 10
+|Has Endpoint Value=28.4
+|Has Endpoint Error=7.3
+|Has Endpoint Value Units=nm
+|Has Endpoint=Particle Size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lin2013 11 Size</title>
+    <id>2160</id>
+    <revision>
+      <id>5114</id>
+      <timestamp>2018-09-11T21:37:36Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Lin2013 11 |Has Endpoint Value=59.6 |Has Endpoint Error=19.0 |Has Endpoint Value Units=nm |Has Endpoint=Particle Size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Lin2013 11
+|Has Endpoint Value=59.6
+|Has Endpoint Error=19.0
+|Has Endpoint Value Units=nm
+|Has Endpoint=Particle Size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lin2013 12 Size</title>
+    <id>2161</id>
+    <revision>
+      <id>5115</id>
+      <timestamp>2018-09-11T21:37:50Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Lin2013 12 |Has Endpoint Value=24.6 |Has Endpoint Error=5.3 |Has Endpoint Value Units=nm |Has Endpoint=Particle Size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Lin2013 12
+|Has Endpoint Value=24.6
+|Has Endpoint Error=5.3
+|Has Endpoint Value Units=nm
+|Has Endpoint=Particle Size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lin2013 13 Size</title>
+    <id>2162</id>
+    <revision>
+      <id>5116</id>
+      <timestamp>2018-09-11T21:38:07Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Lin2013 13 |Has Endpoint Value=51.5 |Has Endpoint Error=7.3 |Has Endpoint Value Units=nm |Has Endpoint=Particle Size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Lin2013 13
+|Has Endpoint Value=51.5
+|Has Endpoint Error=7.3
+|Has Endpoint Value Units=nm
+|Has Endpoint=Particle Size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lin2013 14 Size</title>
+    <id>2163</id>
+    <revision>
+      <id>5117</id>
+      <timestamp>2018-09-11T21:38:24Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Lin2013 14 |Has Endpoint Value=13.1 |Has Endpoint Error=5.9 |Has Endpoint Value Units=nm |Has Endpoint=Particle Size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Lin2013 14
+|Has Endpoint Value=13.1
+|Has Endpoint Error=5.9
+|Has Endpoint Value Units=nm
+|Has Endpoint=Particle Size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lin2013 15 Size</title>
+    <id>2164</id>
+    <revision>
+      <id>5118</id>
+      <timestamp>2018-09-11T21:38:41Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Lin2013 15 |Has Endpoint Value=140.6 |Has Endpoint Error=52.5 |Has Endpoint Value Units=nm |Has Endpoint=Particle Size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Lin2013 15
+|Has Endpoint Value=140.6
+|Has Endpoint Error=52.5
+|Has Endpoint Value Units=nm
+|Has Endpoint=Particle Size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lin2013 16 Size</title>
+    <id>2165</id>
+    <revision>
+      <id>5119</id>
+      <timestamp>2018-09-11T21:38:54Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Lin2013 16 |Has Endpoint Value=11.8 |Has Endpoint Error=3.3 |Has Endpoint Value Units=nm |Has Endpoint=Particle Size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Lin2013 16
+|Has Endpoint Value=11.8
+|Has Endpoint Error=3.3
+|Has Endpoint Value Units=nm
+|Has Endpoint=Particle Size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lin2013 17 Size</title>
+    <id>2166</id>
+    <revision>
+      <id>5120</id>
+      <timestamp>2018-09-11T21:39:13Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Lin2013 17 |Has Endpoint Value=13.5 |Has Endpoint Error=4.2 |Has Endpoint Value Units=nm |Has Endpoint=Particle Size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Lin2013 17
+|Has Endpoint Value=13.5
+|Has Endpoint Error=4.2
+|Has Endpoint Value Units=nm
+|Has Endpoint=Particle Size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lin2013 18 Size</title>
+    <id>2167</id>
+    <revision>
+      <id>5121</id>
+      <timestamp>2018-09-11T21:39:33Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Lin2013 18 |Has Endpoint Value=62.4 |Has Endpoint Error=13.2 |Has Endpoint Value Units=nm |Has Endpoint=Particle Size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Lin2013 18
+|Has Endpoint Value=62.4
+|Has Endpoint Error=13.2
+|Has Endpoint Value Units=nm
+|Has Endpoint=Particle Size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lin2013 19 Size</title>
+    <id>2168</id>
+    <revision>
+      <id>5122</id>
+      <timestamp>2018-09-11T21:39:49Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Lin2013 19 |Has Endpoint Value=12.6 |Has Endpoint Error=4.3 |Has Endpoint Value Units=nm |Has Endpoint=Particle Size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Lin2013 19
+|Has Endpoint Value=12.6
+|Has Endpoint Error=4.3
+|Has Endpoint Value Units=nm
+|Has Endpoint=Particle Size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lin2013 20 Size</title>
+    <id>2169</id>
+    <revision>
+      <id>5123</id>
+      <timestamp>2018-09-11T21:40:14Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Lin2013 20 |Has Endpoint Value=16.6 |Has Endpoint Error=4.3 |Has Endpoint Value Units=nm |Has Endpoint=Particle Size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Lin2013 20
+|Has Endpoint Value=16.6
+|Has Endpoint Error=4.3
+|Has Endpoint Value Units=nm
+|Has Endpoint=Particle Size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lin2013 21 Size</title>
+    <id>2170</id>
+    <revision>
+      <id>5124</id>
+      <timestamp>2018-09-11T21:40:29Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Lin2013 21 |Has Endpoint Value=32.7 |Has Endpoint Error=8.1 |Has Endpoint Value Units=nm |Has Endpoint=Particle Size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Lin2013 21
+|Has Endpoint Value=32.7
+|Has Endpoint Error=8.1
+|Has Endpoint Value Units=nm
+|Has Endpoint=Particle Size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lin2013 22 Size</title>
+    <id>2171</id>
+    <revision>
+      <id>5125</id>
+      <timestamp>2018-09-11T21:40:46Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Lin2013 22 |Has Endpoint Value=61.7 |Has Endpoint Error=11.3 |Has Endpoint Value Units=nm |Has Endpoint=Particle Size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Lin2013 22
+|Has Endpoint Value=61.7
+|Has Endpoint Error=11.3
+|Has Endpoint Value Units=nm
+|Has Endpoint=Particle Size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lin2013 23 Size</title>
+    <id>2172</id>
+    <revision>
+      <id>5126</id>
+      <timestamp>2018-09-11T21:41:01Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Lin2013 22 |Has Endpoint Value=22.6 |Has Endpoint Error=5.1 |Has Endpoint Value Units=nm |Has Endpoint=Particle Size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Lin2013 22
+|Has Endpoint Value=22.6
+|Has Endpoint Error=5.1
+|Has Endpoint Value Units=nm
+|Has Endpoint=Particle Size
+}}</text>
+    </revision>
+    <revision>
+      <id>5128</id>
+      <timestamp>2018-09-11T21:41:28Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Lin2013 23
+|Has Endpoint Value=22.6
+|Has Endpoint Error=5.1
+|Has Endpoint Value Units=nm
+|Has Endpoint=Particle Size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lin2013 24 Size</title>
+    <id>2173</id>
+    <revision>
+      <id>5127</id>
+      <timestamp>2018-09-11T21:41:18Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Lin2013 24 |Has Endpoint Value=40.1 |Has Endpoint Error=12.6 |Has Endpoint Value Units=nm |Has Endpoint=Particle Size }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Lin2013 24
+|Has Endpoint Value=40.1
+|Has Endpoint Error=12.6
+|Has Endpoint Value Units=nm
+|Has Endpoint=Particle Size
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lin2013 24 Zp</title>
+    <id>2174</id>
+    <revision>
+      <id>5129</id>
+      <timestamp>2018-09-11T21:43:40Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Lin2013 24 |Has Endpoint Value=-19.7 |Has Endpoint Error=3.6 |Has Endpoint Value Units=mV |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Lin2013 24
+|Has Endpoint Value=-19.7
+|Has Endpoint Error=3.6
+|Has Endpoint Value Units=mV
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lin2013 23 Zp</title>
+    <id>2175</id>
+    <revision>
+      <id>5130</id>
+      <timestamp>2018-09-11T21:43:58Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Lin2013 23 |Has Endpoint Value=-27.0 |Has Endpoint Error=1.1 |Has Endpoint Value Units=mV |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Lin2013 23
+|Has Endpoint Value=-27.0
+|Has Endpoint Error=1.1
+|Has Endpoint Value Units=mV
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lin2013 22 Zp</title>
+    <id>2176</id>
+    <revision>
+      <id>5131</id>
+      <timestamp>2018-09-11T21:44:12Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Lin2013 22 |Has Endpoint Value=-29.7 |Has Endpoint Error=0.5 |Has Endpoint Value Units=mV |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Lin2013 22
+|Has Endpoint Value=-29.7
+|Has Endpoint Error=0.5
+|Has Endpoint Value Units=mV
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lin2013 21 Zp</title>
+    <id>2177</id>
+    <revision>
+      <id>5132</id>
+      <timestamp>2018-09-11T21:44:25Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Lin2013 21 |Has Endpoint Value=-27.6 |Has Endpoint Error=0.4 |Has Endpoint Value Units=mV |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Lin2013 21
+|Has Endpoint Value=-27.6
+|Has Endpoint Error=0.4
+|Has Endpoint Value Units=mV
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lin2013 20 Zp</title>
+    <id>2178</id>
+    <revision>
+      <id>5133</id>
+      <timestamp>2018-09-11T21:44:45Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Lin2013 20 |Has Endpoint Value=-23.3 |Has Endpoint Error=1.1 |Has Endpoint Value Units=mV |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Lin2013 20
+|Has Endpoint Value=-23.3
+|Has Endpoint Error=1.1
+|Has Endpoint Value Units=mV
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lin2013 19 Zp</title>
+    <id>2179</id>
+    <revision>
+      <id>5134</id>
+      <timestamp>2018-09-11T21:45:01Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Lin2013 19 |Has Endpoint Value=-31.5 |Has Endpoint Error=1.4 |Has Endpoint Value Units=mV |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Lin2013 19
+|Has Endpoint Value=-31.5
+|Has Endpoint Error=1.4
+|Has Endpoint Value Units=mV
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lin2013 18 Zp</title>
+    <id>2180</id>
+    <revision>
+      <id>5135</id>
+      <timestamp>2018-09-11T21:45:20Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Lin2013 18 |Has Endpoint Value=-26.4 |Has Endpoint Error=0.3 |Has Endpoint Value Units=mV |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Lin2013 18
+|Has Endpoint Value=-26.4
+|Has Endpoint Error=0.3
+|Has Endpoint Value Units=mV
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lin2013 17 Zp</title>
+    <id>2181</id>
+    <revision>
+      <id>5136</id>
+      <timestamp>2018-09-11T21:45:36Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Lin2013 17 |Has Endpoint Value=-16.8 |Has Endpoint Error=2.0 |Has Endpoint Value Units=mV |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Lin2013 17
+|Has Endpoint Value=-16.8
+|Has Endpoint Error=2.0
+|Has Endpoint Value Units=mV
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lin2013 16 Zp</title>
+    <id>2182</id>
+    <revision>
+      <id>5137</id>
+      <timestamp>2018-09-11T21:45:50Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Lin2013 16 |Has Endpoint Value=-25.8 |Has Endpoint Error=0.9 |Has Endpoint Value Units=mV |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Lin2013 16
+|Has Endpoint Value=-25.8
+|Has Endpoint Error=0.9
+|Has Endpoint Value Units=mV
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lin2013 15 Zp</title>
+    <id>2183</id>
+    <revision>
+      <id>5138</id>
+      <timestamp>2018-09-11T21:46:03Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Lin2013 15 |Has Endpoint Value=-24.4 |Has Endpoint Error=2.2 |Has Endpoint Value Units=mV |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Lin2013 15
+|Has Endpoint Value=-24.4
+|Has Endpoint Error=2.2
+|Has Endpoint Value Units=mV
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lin2013 14 Zp</title>
+    <id>2184</id>
+    <revision>
+      <id>5139</id>
+      <timestamp>2018-09-11T21:46:20Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Lin2013 14 |Has Endpoint Value=-23.1 |Has Endpoint Error=2.0 |Has Endpoint Value Units=mV |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Lin2013 14
+|Has Endpoint Value=-23.1
+|Has Endpoint Error=2.0
+|Has Endpoint Value Units=mV
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lin2013 13 Zp</title>
+    <id>2185</id>
+    <revision>
+      <id>5140</id>
+      <timestamp>2018-09-11T21:46:34Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Lin2013 13 |Has Endpoint Value=-30.9 |Has Endpoint Error=0.4 |Has Endpoint Value Units=mV |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Lin2013 13
+|Has Endpoint Value=-30.9
+|Has Endpoint Error=0.4
+|Has Endpoint Value Units=mV
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lin2013 12 Zp</title>
+    <id>2186</id>
+    <revision>
+      <id>5141</id>
+      <timestamp>2018-09-11T21:46:55Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Lin2013 12 |Has Endpoint Value=-27.8 |Has Endpoint Error=0.6 |Has Endpoint Value Units=mV |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Lin2013 12
+|Has Endpoint Value=-27.8
+|Has Endpoint Error=0.6
+|Has Endpoint Value Units=mV
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lin2013 11 Zp</title>
+    <id>2187</id>
+    <revision>
+      <id>5142</id>
+      <timestamp>2018-09-11T21:47:08Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Lin2013 11 |Has Endpoint Value=-35.5 |Has Endpoint Error=2.4 |Has Endpoint Value Units=mV |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Lin2013 11
+|Has Endpoint Value=-35.5
+|Has Endpoint Error=2.4
+|Has Endpoint Value Units=mV
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lin2013 10 Zp</title>
+    <id>2188</id>
+    <revision>
+      <id>5143</id>
+      <timestamp>2018-09-11T21:47:30Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Lin2013 10 |Has Endpoint Value=-24.3 |Has Endpoint Error=2.1 |Has Endpoint Value Units=mV |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Lin2013 10
+|Has Endpoint Value=-24.3
+|Has Endpoint Error=2.1
+|Has Endpoint Value Units=mV
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lin2013 09 Zp</title>
+    <id>2189</id>
+    <revision>
+      <id>5144</id>
+      <timestamp>2018-09-11T21:47:47Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Lin2013 09 |Has Endpoint Value=-34.7 |Has Endpoint Error=0.7 |Has Endpoint Value Units=mV |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Lin2013 09
+|Has Endpoint Value=-34.7
+|Has Endpoint Error=0.7
+|Has Endpoint Value Units=mV
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lin2013 08 Zp</title>
+    <id>2190</id>
+    <revision>
+      <id>5145</id>
+      <timestamp>2018-09-11T21:48:07Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Lin2013 08 |Has Endpoint Value=-27.0 |Has Endpoint Error=2.3 |Has Endpoint Value Units=mV |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Lin2013 08
+|Has Endpoint Value=-27.0
+|Has Endpoint Error=2.3
+|Has Endpoint Value Units=mV
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lin2013 07 Zp</title>
+    <id>2191</id>
+    <revision>
+      <id>5146</id>
+      <timestamp>2018-09-11T21:48:24Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Lin2013 07 |Has Endpoint Value=-24.1 |Has Endpoint Error=2.0 |Has Endpoint Value Units=mV |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Lin2013 07
+|Has Endpoint Value=-24.1
+|Has Endpoint Error=2.0
+|Has Endpoint Value Units=mV
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lin2013 06 Zp</title>
+    <id>2192</id>
+    <revision>
+      <id>5147</id>
+      <timestamp>2018-09-11T21:48:40Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Lin2013 06 |Has Endpoint Value=-26.9 |Has Endpoint Error=0.8 |Has Endpoint Value Units=mV |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Lin2013 06
+|Has Endpoint Value=-26.9
+|Has Endpoint Error=0.8
+|Has Endpoint Value Units=mV
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lin2013 05 Zp</title>
+    <id>2193</id>
+    <revision>
+      <id>5148</id>
+      <timestamp>2018-09-11T21:48:55Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Lin2013 05 |Has Endpoint Value=-26.2 |Has Endpoint Error=3.1 |Has Endpoint Value Units=mV |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Lin2013 05
+|Has Endpoint Value=-26.2
+|Has Endpoint Error=3.1
+|Has Endpoint Value Units=mV
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lin2013 04 Zp</title>
+    <id>2194</id>
+    <revision>
+      <id>5149</id>
+      <timestamp>2018-09-11T21:49:08Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Lin2013 04 |Has Endpoint Value=-29.0 |Has Endpoint Error=2.2 |Has Endpoint Value Units=mV |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Lin2013 04
+|Has Endpoint Value=-29.0
+|Has Endpoint Error=2.2
+|Has Endpoint Value Units=mV
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lin2013 03 Zp</title>
+    <id>2195</id>
+    <revision>
+      <id>5150</id>
+      <timestamp>2018-09-11T21:49:24Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Lin2013 03 |Has Endpoint Value=-25.5 |Has Endpoint Error=1.3 |Has Endpoint Value Units=mV |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Lin2013 03
+|Has Endpoint Value=-25.5
+|Has Endpoint Error=1.3
+|Has Endpoint Value Units=mV
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lin2013 02 Zp</title>
+    <id>2196</id>
+    <revision>
+      <id>5151</id>
+      <timestamp>2018-09-11T21:49:39Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Lin2013 02 |Has Endpoint Value=-28.9 |Has Endpoint Error=3.3 |Has Endpoint Value Units=mV |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Lin2013 02
+|Has Endpoint Value=-28.9
+|Has Endpoint Error=3.3
+|Has Endpoint Value Units=mV
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lin2013 01 Zp</title>
+    <id>2197</id>
+    <revision>
+      <id>5152</id>
+      <timestamp>2018-09-11T21:49:51Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Lin2013 01 |Has Endpoint Value=-24.0 |Has Endpoint Error=0.5 |Has Endpoint Value Units=mV |Has Endpoint=Zeta Potential }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Lin2013 01
+|Has Endpoint Value=-24.0
+|Has Endpoint Error=0.5
+|Has Endpoint Value Units=mV
+|Has Endpoint=Zeta Potential
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lin2013 01 A1</title>
+    <id>2198</id>
+    <revision>
+      <id>5153</id>
+      <timestamp>2018-09-11T21:57:10Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Lin2013 01 |Has Endpoint Value=1.25 |Has Endpoint Value Units=nmol/mg*min |Has Endpoint=Enzyme activity }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Lin2013 01
+|Has Endpoint Value=1.25
+|Has Endpoint Value Units=nmol/mg*min
+|Has Endpoint=Enzyme activity
+}}</text>
+    </revision>
+    <revision>
+      <id>5156</id>
+      <timestamp>2018-09-11T22:00:24Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Assay
+|Has Source=Lin2013
+|Has Identifier=31
+|Has Entities=MetalOxides
+|Has Endpoint=Enzyme activity
+|For Cell line=
+|Has Assay Type=
+|Has Assay Method=
+}}
+
+Figure 3A.</text>
+    </revision>
+  </page>
+  <page>
+    <title>Enzyme activity</title>
+    <id>2199</id>
+    <revision>
+      <id>5154</id>
+      <timestamp>2018-09-11T21:57:23Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Endpoint}}&quot;</comment>
+      <text xml:space="preserve">{{Endpoint}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lin2013 01 A1 M1</title>
+    <id>2200</id>
+    <revision>
+      <id>5155</id>
+      <timestamp>2018-09-11T21:59:13Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Lin2013 01 |Has Endpoint Value=1.25 |Has Endpoint Value Units=nmol/mg*min |Has Endpoint=Enzyme activity }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Lin2013 01
+|Has Endpoint Value=1.25
+|Has Endpoint Value Units=nmol/mg*min
+|Has Endpoint=Enzyme activity
+}}</text>
+    </revision>
+    <revision>
+      <id>5157</id>
+      <timestamp>2018-09-11T22:01:24Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Lin2013 01
+|Has Endpoint Value=1.25
+|Has Endpoint Value Units=nmol/mg*min
+|Has Endpoint=Enzyme activity
+|Has Assay=Lin2013 01 A1
+}}</text>
+    </revision>
+    <revision>
+      <id>5158</id>
+      <timestamp>2018-09-11T22:03:04Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Lin2013 01
+|Has Endpoint Value=1.18
+|Has Endpoint Value Units=nmol/mg*min
+|Has Endpoint=Enzyme activity
+|Has Assay=Lin2013 01 A1
+}}
+
+Control: 1.25 nmol/mg*min</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lin2013 02 A1 M1</title>
+    <id>2201</id>
+    <revision>
+      <id>5159</id>
+      <timestamp>2018-09-11T22:03:44Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Lin2013 02 |Has Endpoint Value=1.1 |Has Endpoint Value Units=nmol/mg*min |Has Endpoint=Enzyme activity |Has Assay=Lin2013 01 A1 }}  Control: 1.25 nmol/m…&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Lin2013 02
+|Has Endpoint Value=1.1
+|Has Endpoint Value Units=nmol/mg*min
+|Has Endpoint=Enzyme activity
+|Has Assay=Lin2013 01 A1
+}}
+
+Control: 1.25 nmol/mg*min</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lin2013 06 A1 M1</title>
+    <id>2202</id>
+    <revision>
+      <id>5160</id>
+      <timestamp>2018-09-11T22:04:26Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Lin2013 06 |Has Endpoint Value=0.63 |Has Endpoint Value Units=nmol/mg*min |Has Endpoint=Enzyme activity |Has Assay=Lin2013 01 A1 }}  Control: 1.25 nmol/…&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Lin2013 06
+|Has Endpoint Value=0.63
+|Has Endpoint Value Units=nmol/mg*min
+|Has Endpoint=Enzyme activity
+|Has Assay=Lin2013 01 A1
+}}
+
+Control: 1.25 nmol/mg*min</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lin2013 05 A1 M1</title>
+    <id>2203</id>
+    <revision>
+      <id>5161</id>
+      <timestamp>2018-09-11T22:04:49Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Lin2013 05 |Has Endpoint Value=0.7 |Has Endpoint Value Units=nmol/mg*min |Has Endpoint=Enzyme activity |Has Assay=Lin2013 01 A1 }}  Control: 1.25 nmol/m…&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Lin2013 05
+|Has Endpoint Value=0.7
+|Has Endpoint Value Units=nmol/mg*min
+|Has Endpoint=Enzyme activity
+|Has Assay=Lin2013 01 A1
+}}
+
+Control: 1.25 nmol/mg*min</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lin2013 23 A1 M1</title>
+    <id>2204</id>
+    <revision>
+      <id>5162</id>
+      <timestamp>2018-09-11T22:05:12Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Lin2013 23 |Has Endpoint Value=0.72 |Has Endpoint Value Units=nmol/mg*min |Has Endpoint=Enzyme activity |Has Assay=Lin2013 01 A1 }}  Control: 1.25 nmol/…&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Lin2013 23
+|Has Endpoint Value=0.72
+|Has Endpoint Value Units=nmol/mg*min
+|Has Endpoint=Enzyme activity
+|Has Assay=Lin2013 01 A1
+}}
+
+Control: 1.25 nmol/mg*min</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lin2013 14 A1 M1</title>
+    <id>2205</id>
+    <revision>
+      <id>5163</id>
+      <timestamp>2018-09-11T22:05:38Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Lin2013 14 |Has Endpoint Value=0.81 |Has Endpoint Value Units=nmol/mg*min |Has Endpoint=Enzyme activity |Has Assay=Lin2013 01 A1 }}  Control: 1.25 nmol/…&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Lin2013 14
+|Has Endpoint Value=0.81
+|Has Endpoint Value Units=nmol/mg*min
+|Has Endpoint=Enzyme activity
+|Has Assay=Lin2013 01 A1
+}}
+
+Control: 1.25 nmol/mg*min</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lin2013 19 A1 M1</title>
+    <id>2206</id>
+    <revision>
+      <id>5164</id>
+      <timestamp>2018-09-11T22:06:18Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Lin2013 19 |Has Endpoint Value=1.18 |Has Endpoint Value Units=nmol/mg*min |Has Endpoint=Enzyme activity |Has Assay=Lin2013 01 A1 }}  Control: 1.25 nmol/…&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Lin2013 19
+|Has Endpoint Value=1.18
+|Has Endpoint Value Units=nmol/mg*min
+|Has Endpoint=Enzyme activity
+|Has Assay=Lin2013 01 A1
+}}
+
+Control: 1.25 nmol/mg*min</text>
+    </revision>
+  </page>
+  <page>
+    <title>Lin2013 07 A1 M1</title>
+    <id>2207</id>
+    <revision>
+      <id>5165</id>
+      <timestamp>2018-09-11T22:07:03Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=Lin2013 07 |Has Endpoint Value=1.16 |Has Endpoint Value Units=nmol/mg*min |Has Endpoint=Enzyme activity |Has Assay=Lin2013 01 A1 }}  Control: 1.25 nmol/…&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Lin2013 07
+|Has Endpoint Value=1.16
+|Has Endpoint Value Units=nmol/mg*min
+|Has Endpoint=Enzyme activity
+|Has Assay=Lin2013 01 A1
+}}
+
+Control: 1.25 nmol/mg*min</text>
     </revision>
   </page>
 </mediawiki>
