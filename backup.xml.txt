@@ -35,21 +35,6 @@
     <title>Main Page</title>
     <id>1</id>
     <revision>
-      <id>1</id>
-      <timestamp>2012-02-01T06:12:44Z</timestamp>
-      <contributor>
-        <ip>MediaWiki default</ip>
-      </contributor>
-      <text xml:space="preserve">'''MediaWiki has been successfully installed.'''
-
-Consult the [http://meta.wikimedia.org/wiki/Help:Contents User's Guide] for information on using the wiki software.
-
-== Getting started ==
-* [http://www.mediawiki.org/wiki/Manual:Configuration_settings Configuration settings list]
-* [http://www.mediawiki.org/wiki/Manual:FAQ MediaWiki FAQ]
-* [https://lists.wikimedia.org/mailman/listinfo/mediawiki-announce MediaWiki release mailing list]</text>
-    </revision>
-    <revision>
       <id>2</id>
       <timestamp>2011-04-29T10:04:12Z</timestamp>
       <contributor>
@@ -765,6 +750,21 @@ You can browse this data via one of the following categories:
 * see ~/var/Projects/hg/kirepos/projects/nanotoxwiki/README
 ** cd ~/var/Projects/hg/kirepos/projects/nanotoxwiki
 ** mysqldump -u root -p wikidb --default-character-set=latin1 &gt; backup.sql.txt</text>
+    </revision>
+    <revision>
+      <id>1</id>
+      <timestamp>2012-02-01T06:12:44Z</timestamp>
+      <contributor>
+        <ip>MediaWiki default</ip>
+      </contributor>
+      <text xml:space="preserve">'''MediaWiki has been successfully installed.'''
+
+Consult the [http://meta.wikimedia.org/wiki/Help:Contents User's Guide] for information on using the wiki software.
+
+== Getting started ==
+* [http://www.mediawiki.org/wiki/Manual:Configuration_settings Configuration settings list]
+* [http://www.mediawiki.org/wiki/Manual:FAQ MediaWiki FAQ]
+* [https://lists.wikimedia.org/mailman/listinfo/mediawiki-announce MediaWiki release mailing list]</text>
     </revision>
     <revision>
       <id>1385</id>
@@ -12358,6 +12358,322 @@ Just the DOIs:
 [[Category:Endpoints]]__NOEDITSECTION____NOTOC__
 &lt;/includeonly&gt;</text>
     </revision>
+    <revision>
+      <id>5166</id>
+      <timestamp>2018-09-12T17:32:53Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">&lt;noinclude&gt;
+&lt;pre&gt;
+{{Endpoint
+|Description=
+|Has Assay Type=
+|Has URI=
+}}
+&lt;/pre&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: right; table-layout:fixed; word-wrap: break-word;&quot;
+! colspan=2 style=&quot;text-align: center; font-size: 125%&quot; | {{{Name|{{PAGENAME}} }}}
+|-
+! colspan=2 style=&quot;text-align: center;background-color: #ddd;&quot; | Description
+|-
+{{#if:{{{Description|}}}|
+{{!}}-
+{{!}} Description
+{{!}} {{{Description}}} 
+}}
+{{#if:{{{Has Assay Type|}}}|
+{{!}}-
+{{!}} Assay Type
+{{!}} [[{{{Has Assay Type}}}]]
+}}
+{{#if:{{{Has Assay Type|}}}|
+{{!}}-
+{{!}} Assay Type
+{{!}} [[{{{Has Assay Type}}}]]
+}}
+|}
+&lt;br&gt;
+{{#if:{{{Description|}}} |
+{{#set:
+|Description={{{Description|}}}
+}}
+| }}
+{{#if:{{{Has Assay Type|}}} |
+{{#set:
+|Has Assay Type={{{Has Assay Type|}}}
+}}
+| }}
+== Relationships ==
+{{#ask: [[Category:Relationships]] [[Has End point::{{PAGENAME}}]]
+| ? Has Descriptor
+| ? Has Relation
+| ? Has End point
+}}
+== Measurements ==
+{{#ask: [[Category:Measurements]] [[Has Endpoint::{{PAGENAME}}]]
+| ? Has Entity
+| ? Has Endpoint Value
+| ? Has Endpoint Error
+| ? Has Endpoint Value Min
+| ? Has Endpoint Value Max
+| ? Has Endpoint Value Units
+}}
+{{#if:{{{Has URI|}}} |
+{{#set:
+|Equivalent URI={{{Has URI|}}}
+}}
+{{#set:
+|Original URI={{{Has URI|}}}
+}}
+| }}
+[[Category:{{PAGENAME}}]]__NOEDITSECTION____NOTOC__
+[[Category:Endpoints]]__NOEDITSECTION____NOTOC__
+&lt;/includeonly&gt;</text>
+    </revision>
+    <revision>
+      <id>5174</id>
+      <timestamp>2020-02-22T14:02:24Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">&lt;noinclude&gt;
+&lt;pre&gt;
+{{Endpoint
+|Description=
+|Has Assay Type=
+|Has Category=
+|Has URI=
+}}
+&lt;/pre&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: right; table-layout:fixed; word-wrap: break-word;&quot;
+! colspan=2 style=&quot;text-align: center; font-size: 125%&quot; | {{{Name|{{PAGENAME}} }}}
+|-
+! colspan=2 style=&quot;text-align: center;background-color: #ddd;&quot; | Description
+|-
+{{#if:{{{Description|}}}|
+{{!}}-
+{{!}} Description
+{{!}} {{{Description}}} 
+}}
+{{#if:{{{Has Assay Type|}}}|
+{{!}}-
+{{!}} Assay Type
+{{!}} [[{{{Has Assay Type}}}]]
+}}
+{{#if:{{{Has Assay Type|}}}|
+{{!}}-
+{{!}} Assay Type
+{{!}} [[{{{Has Assay Type}}}]]
+}}
+{{#if:{{{Has Category|}}}|
+{{!}}-
+{{!}} Category
+{{!}} [[{{{Has Category}}}]]
+}}
+{{#if:{{{Has Category|}}}|
+{{!}}-
+{{!}} Category
+{{!}} [[{{{Has Category}}}]]
+}}
+|}
+&lt;br&gt;
+{{#if:{{{Description|}}} |
+{{#set:
+|Description={{{Description|}}}
+}}
+| }}
+{{#if:{{{Has Assay Type|}}} |
+{{#set:
+|Has Assay Type={{{Has Assay Type|}}}
+}}
+| }}
+== Relationships ==
+{{#ask: [[Category:Relationships]] [[Has End point::{{PAGENAME}}]]
+| ? Has Descriptor
+| ? Has Relation
+| ? Has End point
+}}
+== Measurements ==
+{{#ask: [[Category:Measurements]] [[Has Endpoint::{{PAGENAME}}]]
+| ? Has Entity
+| ? Has Endpoint Value
+| ? Has Endpoint Error
+| ? Has Endpoint Value Min
+| ? Has Endpoint Value Max
+| ? Has Endpoint Value Units
+}}
+{{#if:{{{Has URI|}}} |
+{{#set:
+|Equivalent URI={{{Has URI|}}}
+}}
+{{#set:
+|Original URI={{{Has URI|}}}
+}}
+| }}
+[[Category:{{PAGENAME}}]]__NOEDITSECTION____NOTOC__
+[[Category:Endpoints]]__NOEDITSECTION____NOTOC__
+&lt;/includeonly&gt;</text>
+    </revision>
+    <revision>
+      <id>5176</id>
+      <timestamp>2020-02-22T14:03:52Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Removed duplicates</comment>
+      <text xml:space="preserve">&lt;noinclude&gt;
+&lt;pre&gt;
+{{Endpoint
+|Description=
+|Has Assay Type=
+|Has Category=
+|Has URI=
+}}
+&lt;/pre&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: right; table-layout:fixed; word-wrap: break-word;&quot;
+! colspan=2 style=&quot;text-align: center; font-size: 125%&quot; | {{{Name|{{PAGENAME}} }}}
+|-
+! colspan=2 style=&quot;text-align: center;background-color: #ddd;&quot; | Description
+|-
+{{#if:{{{Description|}}}|
+{{!}}-
+{{!}} Description
+{{!}} {{{Description}}} 
+}}
+{{#if:{{{Has Assay Type|}}}|
+{{!}}-
+{{!}} Assay Type
+{{!}} [[{{{Has Assay Type}}}]]
+}}
+{{#if:{{{Has Category|}}}|
+{{!}}-
+{{!}} Category
+{{!}} [[{{{Has Category}}}]]
+}}
+|}
+&lt;br&gt;
+{{#if:{{{Description|}}} |
+{{#set:
+|Description={{{Description|}}}
+}}
+| }}
+{{#if:{{{Has Assay Type|}}} |
+{{#set:
+|Has Assay Type={{{Has Assay Type|}}}
+}}
+| }}
+== Relationships ==
+{{#ask: [[Category:Relationships]] [[Has End point::{{PAGENAME}}]]
+| ? Has Descriptor
+| ? Has Relation
+| ? Has End point
+}}
+== Measurements ==
+{{#ask: [[Category:Measurements]] [[Has Endpoint::{{PAGENAME}}]]
+| ? Has Entity
+| ? Has Endpoint Value
+| ? Has Endpoint Error
+| ? Has Endpoint Value Min
+| ? Has Endpoint Value Max
+| ? Has Endpoint Value Units
+}}
+{{#if:{{{Has URI|}}} |
+{{#set:
+|Equivalent URI={{{Has URI|}}}
+}}
+{{#set:
+|Original URI={{{Has URI|}}}
+}}
+| }}
+[[Category:{{PAGENAME}}]]__NOEDITSECTION____NOTOC__
+[[Category:Endpoints]]__NOEDITSECTION____NOTOC__
+&lt;/includeonly&gt;</text>
+    </revision>
+    <revision>
+      <id>5182</id>
+      <timestamp>2020-02-22T14:24:55Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">&lt;noinclude&gt;
+&lt;pre&gt;
+{{Endpoint
+|Description=
+|Has Assay Type=
+|Has Category=
+|Has URI=
+}}
+&lt;/pre&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: right; table-layout:fixed; word-wrap: break-word;&quot;
+! colspan=2 style=&quot;text-align: center; font-size: 125%&quot; | {{{Name|{{PAGENAME}} }}}
+|-
+! colspan=2 style=&quot;text-align: center;background-color: #ddd;&quot; | Description
+|-
+{{#if:{{{Description|}}}|
+{{!}}-
+{{!}} Description
+{{!}} {{{Description}}} 
+}}
+{{#if:{{{Has Assay Type|}}}|
+{{!}}-
+{{!}} Assay Type
+{{!}} [[{{{Has Assay Type}}}]]
+}}
+{{#if:{{{Has Category|}}}|
+{{!}}-
+{{!}} Category
+{{!}} [[{{{Has Category}}}]]
+}}
+|}
+&lt;br&gt;
+{{#if:{{{Description|}}} |
+{{#set:
+|Description={{{Description|}}}
+}}
+| }}
+{{#if:{{{Has Assay Type|}}} |
+{{#set:
+|Has Assay Type={{{Has Assay Type|}}}
+}}
+| }}
+== Relationships ==
+{{#ask: [[Category:Relationships]] [[Has End point::{{PAGENAME}}]]
+| ? Has Descriptor
+| ? Has Relation
+| ? Has End point
+}}
+== Measurements ==
+{{#ask: [[Category:Measurements]] [[Has Endpoint::{{PAGENAME}}]]
+| ? Has Entity
+| ? Has Endpoint Value
+| ? Has Endpoint Error
+| ? Has Endpoint Value Min
+| ? Has Endpoint Value Max
+| ? Has Endpoint Value Units
+}}
+{{#if:{{{Has URI|}}} |
+{{#set:
+|Equivalent URI={{{Has URI|}}}
+}}
+{{#set:
+|Original URI={{{Has URI|}}}
+}}
+| }}
+{{#if:{{{Has Category|}}} |
+{{#set:
+|Has Category={{{Has Category|}}}
+}}
+| }}
+[[Category:{{PAGENAME}}]]__NOEDITSECTION____NOTOC__
+[[Category:Endpoints]]__NOEDITSECTION____NOTOC__
+&lt;/includeonly&gt;</text>
+    </revision>
   </page>
   <page>
     <title>Cytotoxicity</title>
@@ -12665,6 +12981,44 @@ bacterial viability by 50%).
 
 [[Category:Toxicity]]</text>
     </revision>
+    <revision>
+      <id>5254</id>
+      <timestamp>2020-02-22T16:45:01Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Endpoint
+|Description=General cytotoxicity.
+|Has Category=Cytotoxicity
+|Has Assay Type=Cytotoxicity Assay
+}}
+
+The cytotoxicity of the nanoparticles was expressed in terms of the logarithmic
+values of molar 1/EC50 (the effective concentration of a given oxide that reduces
+bacterial viability by 50%).
+
+[[Category:Toxicity]]</text>
+    </revision>
+    <revision>
+      <id>5255</id>
+      <timestamp>2020-02-22T16:45:28Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Endpoint
+|Description=General cytotoxicity.
+|Has Category=Cytotoxicity Category
+|Has Assay Type=Cytotoxicity Assay
+}}
+
+The cytotoxicity of the nanoparticles was expressed in terms of the logarithmic
+values of molar 1/EC50 (the effective concentration of a given oxide that reduces
+bacterial viability by 50%).
+
+[[Category:Toxicity]]</text>
+    </revision>
   </page>
   <page>
     <title>Category:Endpoints</title>
@@ -12735,6 +13089,126 @@ bacterial viability by 50%).
 {{#ask: [[Category:Endpoints]]
 | ? Has Assay Type
 | ? Equivalent URI
+| order=ascending
+| limit=250
+}}</text>
+    </revision>
+    <revision>
+      <id>5167</id>
+      <timestamp>2020-02-22T12:40:58Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">Endpoints used in QSAR studies described in this database.
+
+{{#ask: [[Category:Endpoints]]
+| ? Has Assay Type
+| ? Equivalent URI
+| ? Top Category
+| order=ascending
+| limit=250
+}}</text>
+    </revision>
+    <revision>
+      <id>5168</id>
+      <timestamp>2020-02-22T12:41:17Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">Endpoints used in QSAR studies described in this database.
+
+{{#ask: [[Category:Endpoints]]
+| ? Has Assay Type
+| ? Top Category
+| ? Equivalent URI
+| order=ascending
+| limit=250
+}}</text>
+    </revision>
+    <revision>
+      <id>5172</id>
+      <timestamp>2020-02-22T12:54:32Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">Endpoints used in QSAR studies described in this database.
+
+{{#ask: [[Category:Endpoints]]
+| ? Has Assay Type
+| ? Has Category
+| ? Equivalent URI
+| order=ascending
+| limit=250
+}}</text>
+    </revision>
+    <revision>
+      <id>5186</id>
+      <timestamp>2020-02-22T14:33:26Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">Endpoints used in QSAR studies described in this database.
+
+{{#ask: [[Category:Endpoints]]
+| ? Has Assay Type
+| ? Has Category
+| ? Has Category / ? Has TOP Category
+| ? Equivalent URI
+| order=ascending
+| limit=250
+}}</text>
+    </revision>
+    <revision>
+      <id>5187</id>
+      <timestamp>2020-02-22T14:52:17Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">Endpoints used in QSAR studies described in this database.
+
+{{#ask: [[Category:Endpoints]]
+| ? Has Assay Type
+| ? Has Category
+| ? Has Category.Has TOP Category
+| ? Equivalent URI
+| order=ascending
+| limit=250
+}}</text>
+    </revision>
+    <revision>
+      <id>5188</id>
+      <timestamp>2020-02-22T14:52:55Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">Endpoints used in QSAR studies described in this database.
+
+{{#ask: [[Category:Endpoints]]
+| ?Has Assay Type
+| ?Has Category
+| ?Has Category.Has TOP Category
+| ?Equivalent URI
+| order=ascending
+| limit=250
+}}</text>
+    </revision>
+    <revision>
+      <id>5189</id>
+      <timestamp>2020-02-22T14:55:14Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Okay, property chains don't work yet</comment>
+      <text xml:space="preserve">Endpoints used in QSAR studies described in this database.
+
+{{#ask: [[Category:Endpoints]]
+| ?Has Assay Type
+| ?Has Category
+| ?Equivalent URI
 | order=ascending
 | limit=250
 }}</text>
@@ -14800,6 +15274,25 @@ Higher value indicates higher toxicity.</text>
       </contributor>
       <text xml:space="preserve">{{Endpoint
 |Description=Log 1/EC_50
+|Has Assay Type=Cell Viability Assay
+}}
+
+The cytotoxicity of the nanoparticles was expressed in terms of the logarithmic
+values of molar 1/EC50 (the effective concentration of a given oxide that reduces
+bacterial viability by 50%).
+
+Higher value indicates higher toxicity.</text>
+    </revision>
+    <revision>
+      <id>5231</id>
+      <timestamp>2020-02-22T15:50:51Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Endpoint
+|Description=Log 1/EC_50
+|Has Category=Cell Viability
 |Has Assay Type=Cell Viability Assay
 }}
 
@@ -19124,6 +19617,19 @@ The allowed value for this property is:
 |Has Assay Type=Cell Growth Assay
 }}</text>
     </revision>
+    <revision>
+      <id>5238</id>
+      <timestamp>2020-02-22T15:55:42Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Endpoint
+|Description=GI_50
+|Has Category=Cell Viability
+|Has Assay Type=Cell Growth Assay
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Category:GI50</title>
@@ -20392,6 +20898,20 @@ The CHEMINF field does the same but then for the CHEMINF ontology.
 
 [[Category:Endpoints]]</text>
     </revision>
+    <revision>
+      <id>5223</id>
+      <timestamp>2020-02-22T15:33:24Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Descriptor}}
+{{Endpoint
+|Has Category=Nanomaterial Zeta potential
+|Has URI=http://purl.bioontology.org/ontology/npo#NPO_1302}}
+
+[[Category:Endpoints]]</text>
+    </revision>
   </page>
   <page>
     <title>Classification</title>
@@ -21203,6 +21723,21 @@ Small molecule study.</text>
       </contributor>
       <text xml:space="preserve">{{Endpoint
 |Description=-log(GI_50)
+|Has Assay Type=Cell Growth Assay
+}}
+
+[[Category:GI50]]</text>
+    </revision>
+    <revision>
+      <id>5236</id>
+      <timestamp>2020-02-22T15:55:30Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Endpoint
+|Description=-log(GI_50)
+|Has Category=Cell Viability
 |Has Assay Type=Cell Growth Assay
 }}
 
@@ -22270,6 +22805,24 @@ How many cells are still viable after a given amount of time.
       </contributor>
       <text xml:space="preserve">{{Endpoint
 |Description=Percentage Non-viable Cells
+|Has Assay Type=Cell Viability Assay
+}}
+
+How many cells are still viable after a given amount of time.
+
+
+[[Category:Cytotoxicity]]</text>
+    </revision>
+    <revision>
+      <id>5230</id>
+      <timestamp>2020-02-22T15:50:15Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Endpoint
+|Description=Percentage Non-viable Cells
+|Has Category=Cell Viability
 |Has Assay Type=Cell Viability Assay
 }}
 
@@ -27506,6 +28059,19 @@ Coated gold particles.</text>
       <comment>Created page with &quot;{{Endpoint |Description=Cellular uptake |Has Assay Type=In Vitro }}&quot;</comment>
       <text xml:space="preserve">{{Endpoint
 |Description=Cellular uptake
+|Has Assay Type=In Vitro
+}}</text>
+    </revision>
+    <revision>
+      <id>5258</id>
+      <timestamp>2020-02-22T16:58:13Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Endpoint
+|Description=Cellular uptake
+|Has Category=Additional toxicological information
 |Has Assay Type=In Vitro
 }}</text>
     </revision>
@@ -35974,6 +36540,19 @@ The allowed value for this property is:
 |Has Assay Type=Oxidative Stress Assay
 }}</text>
     </revision>
+    <revision>
+      <id>5262</id>
+      <timestamp>2020-02-22T17:00:44Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Endpoint
+|Description=ROS Concentration
+|Has Category=Additional toxicological information
+|Has Assay Type=Oxidative Stress Assay
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Surface Modification Class</title>
@@ -37574,6 +38153,20 @@ The allowed value for this property is:
 }}
 {{Endpoint}}</text>
     </revision>
+    <revision>
+      <id>5266</id>
+      <timestamp>2020-02-22T17:03:01Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Descriptor
+|CHEMINF=000291
+}}
+{{Endpoint
+|Has Category=Additional toxicological information
+}}</text>
+    </revision>
   </page>
   <page>
     <title>LUMO</title>
@@ -37600,6 +38193,20 @@ The allowed value for this property is:
 |CHEMINF=000292
 }}
 {{Endpoint}}</text>
+    </revision>
+    <revision>
+      <id>5267</id>
+      <timestamp>2020-02-22T17:03:15Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Descriptor
+|CHEMINF=000292
+}}
+{{Endpoint
+|Has Category=Additional toxicological information
+}}</text>
     </revision>
   </page>
   <page>
@@ -37862,6 +38469,19 @@ carcinogenicity.
       </contributor>
       <text xml:space="preserve">{{Endpoint
 |Description=DNA Damage
+|Has Assay Type=Genotoxicity Assay
+}}</text>
+    </revision>
+    <revision>
+      <id>5232</id>
+      <timestamp>2020-02-22T15:52:13Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Endpoint
+|Description=DNA Damage
+|Has Category=Genetic toxicity in vitro
 |Has Assay Type=Genotoxicity Assay
 }}</text>
     </revision>
@@ -41962,6 +42582,21 @@ The allowed value for this property is:
 
 [[Category:Particle Size]]</text>
     </revision>
+    <revision>
+      <id>5203</id>
+      <timestamp>2020-02-22T15:16:49Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Descriptor}}
+{{Endpoint
+|Has Category=Particle size distribution (Granulometry)/Fibre length and diameter distribution
+|Has URI=http://purl.bioontology.org/ontology/npo#NPO_1694
+}}
+
+[[Category:Particle Size]]</text>
+    </revision>
   </page>
   <page>
     <title>Field2011 R2</title>
@@ -42031,6 +42666,19 @@ The allowed value for this property is:
       </contributor>
       <text xml:space="preserve">{{Endpoint
 |Description=Log GI_50
+|Has Assay Type=Cell Growth Assay
+}}</text>
+    </revision>
+    <revision>
+      <id>5237</id>
+      <timestamp>2020-02-22T15:55:37Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Endpoint
+|Description=Log GI_50
+|Has Category=Cell Viability
 |Has Assay Type=Cell Growth Assay
 }}</text>
     </revision>
@@ -53504,6 +54152,19 @@ Check the [http://www.mediawiki.org/wiki/Extension:RDFIO general instructions].
 |Has Assay Type=Toxicity Assay
 }}</text>
     </revision>
+    <revision>
+      <id>5261</id>
+      <timestamp>2020-02-22T16:58:57Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Endpoint
+|Description=Particle toxicity
+|Has Category=Additional toxicological information
+|Has Assay Type=Toxicity Assay
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Nagy2012</title>
@@ -56159,6 +56820,19 @@ CdSe quantum dots studied for dot size, surface charge, and functionalization.</
 |Has URI=http://purl.bioontology.org/ontology/npo#NPO_1967 
 }}</text>
     </revision>
+    <revision>
+      <id>5175</id>
+      <timestamp>2020-02-22T14:03:21Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <text xml:space="preserve">{{Endpoint
+|Description=Particle aggregation
+|Has Category=Nanomaterial agglomeration/aggregation
+|Has Assay Type=In Vitro
+|Has URI=http://purl.bioontology.org/ontology/npo#NPO_1967 
+}}</text>
+    </revision>
   </page>
   <page>
     <title>PH</title>
@@ -56190,6 +56864,18 @@ CdSe quantum dots studied for dot size, surface charge, and functionalization.</
       </contributor>
       <text xml:space="preserve">{{Descriptor}}
 {{Endpoint|Has URI=http://purl.bioontology.org/ontology/npo#NPO_1814}}</text>
+    </revision>
+    <revision>
+      <id>5220</id>
+      <timestamp>2020-02-22T15:31:56Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Descriptor}}
+{{Endpoint
+|Has Category=PH Category
+|Has URI=http://purl.bioontology.org/ontology/npo#NPO_1814}}</text>
     </revision>
   </page>
   <page>
@@ -57171,6 +57857,19 @@ CdSe quantum dots studied for dot size, surface charge, and functionalization.</
       </contributor>
       <text xml:space="preserve">{{Endpoint
 |Description=The pH at which the zeta potential of the material is zero.
+|Has URI=http://purl.bioontology.org/ontology/npo#NPO_1204
+}}</text>
+    </revision>
+    <revision>
+      <id>5264</id>
+      <timestamp>2020-02-22T17:01:27Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Endpoint
+|Description=The pH at which the zeta potential of the material is zero.
+|Has Category=Additional physico-chemical information
 |Has URI=http://purl.bioontology.org/ontology/npo#NPO_1204
 }}</text>
     </revision>
@@ -61400,6 +62099,23 @@ Size measured with DLS.
 [[Category:Endpoints]]
 [[Category:Particle Size]]</text>
     </revision>
+    <revision>
+      <id>5210</id>
+      <timestamp>2020-02-22T15:19:13Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Descriptor}}
+{{Endpoint
+|Has Category=Particle size distribution (Granulometry)/Fibre length and diameter distribution
+|Has URI=http://purl.bioontology.org/ontology/npo#NPO_1914}}
+
+Size measured with DLS.
+
+[[Category:Endpoints]]
+[[Category:Particle Size]]</text>
+    </revision>
   </page>
   <page>
     <title>Rancan2012</title>
@@ -61688,6 +62404,22 @@ Size measured with DLS.
       </contributor>
       <text xml:space="preserve">{{Descriptor}}
 {{Endpoint|Has URI=http://purl.bioontology.org/ontology/npo#NPO_1539}}
+
+[[Category:Endpoints]]
+[[Category:Particle Size]]</text>
+    </revision>
+    <revision>
+      <id>5201</id>
+      <timestamp>2020-02-22T15:16:16Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Descriptor}}
+{{Endpoint
+|Has Category=Particle size distribution (Granulometry)/Fibre length and diameter distribution
+|Has URI=http://purl.bioontology.org/ontology/npo#NPO_1539
+}}
 
 [[Category:Endpoints]]
 [[Category:Particle Size]]</text>
@@ -62620,6 +63352,20 @@ For Measurement=Rancan2012 M8 M3
       </contributor>
       <text xml:space="preserve">{{Descriptor}}
 {{Endpoint|Has URI=http://purl.bioontology.org/ontology/npo#NPO_1235}}
+
+[[Category:Endpoints]]</text>
+    </revision>
+    <revision>
+      <id>5216</id>
+      <timestamp>2020-02-22T15:29:36Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Descriptor}}
+{{Endpoint
+|Has Category=Nanomaterial specific surface area
+|Has URI=http://purl.bioontology.org/ontology/npo#NPO_1235}}
 
 [[Category:Endpoints]]</text>
     </revision>
@@ -73174,6 +73920,23 @@ Size of the particle itself, which is typically much smaller than the hydrodynam
 
 [[Category:Particle Size]]</text>
     </revision>
+    <revision>
+      <id>5218</id>
+      <timestamp>2020-02-22T15:30:17Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Endpoint
+|Has Assay Type=Physicochemical Characterization
+|Has Category=Particle size distribution (Granulometry)/Fibre length and diameter distribution
+|Has URI=http://purl.bioontology.org/ontology/npo#NPO_1694
+}}
+
+Size of the particle itself, which is typically much smaller than the hydrodynamic particle size.
+
+[[Category:Particle Size]]</text>
+    </revision>
   </page>
   <page>
     <title>Zhang2013 M24 M1</title>
@@ -77460,6 +78223,20 @@ As experimental evaluation of the safety of nanoparticles (NPs) is expensive and
 
 [[Category:Endpoints]]</text>
     </revision>
+    <revision>
+      <id>5217</id>
+      <timestamp>2020-02-22T15:29:44Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Descriptor}}
+{{Endpoint
+|Has Category=Nanomaterial specific surface area
+|Has URI=http://purl.bioontology.org/ontology/npo#NPO_1235}}
+
+[[Category:Endpoints]]</text>
+    </revision>
   </page>
   <page>
     <title>Antisari2013 M1 M1</title>
@@ -77688,6 +78465,19 @@ As experimental evaluation of the safety of nanoparticles (NPs) is expensive and
 |Has Endpoint=Shape
 }}</text>
     </revision>
+    <revision>
+      <id>5248</id>
+      <timestamp>2020-02-22T16:09:21Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Jeng2006 M2
+|Has Endpoint Value=Spherical 
+|Has Endpoint=Polymorphism
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Shape</title>
@@ -77712,6 +78502,21 @@ As experimental evaluation of the safety of nanoparticles (NPs) is expensive and
       </contributor>
       <text xml:space="preserve">{{Descriptor}}
 {{Endpoint|Has URI=http://purl.bioontology.org/ontology/npo#NPO_274 }}
+
+[[Category:Endpoints]]</text>
+    </revision>
+    <revision>
+      <id>5214</id>
+      <timestamp>2020-02-22T15:28:33Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Descriptor}}
+{{Endpoint
+|Has Category=Nanomaterial aspect ratio/shape	
+|Has URI=http://purl.bioontology.org/ontology/npo#NPO_274
+}}
 
 [[Category:Endpoints]]</text>
     </revision>
@@ -77746,6 +78551,19 @@ As experimental evaluation of the safety of nanoparticles (NPs) is expensive and
 |Has Endpoint=Shape
 }}</text>
     </revision>
+    <revision>
+      <id>5249</id>
+      <timestamp>2020-02-22T16:09:27Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Jeng2006 M2
+|Has Endpoint Value=Gamma phase 
+|Has Endpoint=Polymorphism
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Jeng2006 M4 M2</title>
@@ -77775,6 +78593,19 @@ As experimental evaluation of the safety of nanoparticles (NPs) is expensive and
 |Has Entity=Jeng2006 M4
 |Has Endpoint Value=Primarily gamma phase 
 |Has Endpoint=Shape
+}}</text>
+    </revision>
+    <revision>
+      <id>5250</id>
+      <timestamp>2020-02-22T16:09:33Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Jeng2006 M4
+|Has Endpoint Value=Primarily gamma phase 
+|Has Endpoint=Polymorphism
 }}</text>
     </revision>
   </page>
@@ -82116,6 +82947,23 @@ How many cells are still viable after a given amount of time.
 
 [[Category:Cytotoxicity]]</text>
     </revision>
+    <revision>
+      <id>5227</id>
+      <timestamp>2020-02-22T15:49:01Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Endpoint
+|Description=Percentage Viable Cells
+|Has Category=Cell Viability
+|Has Assay Type=Cell Viability Assay
+}}
+
+How many cells are still viable after a given amount of time.
+
+[[Category:Cytotoxicity]]</text>
+    </revision>
   </page>
   <page>
     <title>Field2011 Batch1 M3</title>
@@ -83829,6 +84677,20 @@ Propidium iodide uptake assay design method.
 
 [[Category:Particle Size]]</text>
     </revision>
+    <revision>
+      <id>5202</id>
+      <timestamp>2020-02-22T15:16:30Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Endpoint
+|Has Category=Particle size distribution (Granulometry)/Fibre length and diameter distribution
+|Has URI=http://purl.bioontology.org/ontology/npo#NPO_1694
+}}
+
+[[Category:Particle Size]]</text>
+    </revision>
   </page>
   <page>
     <title>JRC2011 NM-103 M1</title>
@@ -84724,6 +85586,19 @@ Propidium iodide uptake assay design method.
 
 [[Category:Particle Size]]</text>
     </revision>
+    <revision>
+      <id>5190</id>
+      <timestamp>2020-02-22T14:57:13Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Endpoint
+|Has Category=Particle size distribution (Granulometry)/Fibre length and diameter distribution
+}}
+
+[[Category:Particle Size]]</text>
+    </revision>
   </page>
   <page>
     <title>JRC2011 NM-402 M2</title>
@@ -84858,6 +85733,19 @@ Propidium iodide uptake assay design method.
 |Has Endpoint=Shape
 }}</text>
     </revision>
+    <revision>
+      <id>5252</id>
+      <timestamp>2020-02-22T16:09:59Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=JRC2011 NM-100
+|Has Endpoint Value=Anatase
+|Has Endpoint=Polymorphism
+}}</text>
+    </revision>
   </page>
   <page>
     <title>JRC2011 NM-101 M4</title>
@@ -84874,6 +85762,19 @@ Propidium iodide uptake assay design method.
 |Has Entity=JRC2011 NM-101
 |Has Endpoint Value=Anatase
 |Has Endpoint=Shape
+}}</text>
+    </revision>
+    <revision>
+      <id>5241</id>
+      <timestamp>2020-02-22T16:08:30Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=JRC2011 NM-101
+|Has Endpoint Value=Anatase
+|Has Endpoint=Polymorphism
 }}</text>
     </revision>
   </page>
@@ -84894,6 +85795,19 @@ Propidium iodide uptake assay design method.
 |Has Endpoint=Shape
 }}</text>
     </revision>
+    <revision>
+      <id>5242</id>
+      <timestamp>2020-02-22T16:08:41Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=JRC2011 NM-102
+|Has Endpoint Value=Anatase
+|Has Endpoint=Polymorphism
+}}</text>
+    </revision>
   </page>
   <page>
     <title>JRC2011 NM-103 M4</title>
@@ -84910,6 +85824,19 @@ Propidium iodide uptake assay design method.
 |Has Entity=JRC2011 NM-103
 |Has Endpoint Value=Rutile
 |Has Endpoint=Shape
+}}</text>
+    </revision>
+    <revision>
+      <id>5243</id>
+      <timestamp>2020-02-22T16:08:48Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=JRC2011 NM-103
+|Has Endpoint Value=Rutile
+|Has Endpoint=Polymorphism
 }}</text>
     </revision>
   </page>
@@ -84930,6 +85857,19 @@ Propidium iodide uptake assay design method.
 |Has Endpoint=Shape
 }}</text>
     </revision>
+    <revision>
+      <id>5244</id>
+      <timestamp>2020-02-22T16:08:56Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=JRC2011 NM-104
+|Has Endpoint Value=Rutile
+|Has Endpoint=Polymorphism
+}}</text>
+    </revision>
   </page>
   <page>
     <title>JRC2011 NM-105 M4</title>
@@ -84946,6 +85886,19 @@ Propidium iodide uptake assay design method.
 |Has Entity=JRC2011 NM-105
 |Has Endpoint Value=Rutile-Anatase
 |Has Endpoint=Shape
+}}</text>
+    </revision>
+    <revision>
+      <id>5245</id>
+      <timestamp>2020-02-22T16:09:02Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=JRC2011 NM-105
+|Has Endpoint Value=Rutile-Anatase
+|Has Endpoint=Polymorphism
 }}</text>
     </revision>
   </page>
@@ -91343,6 +92296,23 @@ Surface area according to Brunauer, Emmett and Teller.
 [[Category:BET]]
 [[Category:Surface Area]]</text>
     </revision>
+    <revision>
+      <id>5196</id>
+      <timestamp>2020-02-22T15:07:23Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Endpoint
+|Has Category=Nanomaterial specific surface area
+|Has URI=http://purl.bioontology.org/ontology/npo#NPO_1235
+}}
+
+Surface area according to Brunauer, Emmett and Teller.
+
+[[Category:BET]]
+[[Category:Surface Area]]</text>
+    </revision>
   </page>
   <page>
     <title>Gerloff2009 NM1 BET</title>
@@ -91744,6 +92714,19 @@ Surface area according to Brunauer, Emmett and Teller.
 |Has Assay Type=Cell Membrane Integrity Assay
 }}</text>
     </revision>
+    <revision>
+      <id>5235</id>
+      <timestamp>2020-02-22T15:55:24Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Endpoint
+|Description=Cel Membrane Integrity
+|Has Category=Cell Viability
+|Has Assay Type=Cell Membrane Integrity Assay
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Metabolic Activity</title>
@@ -91770,6 +92753,19 @@ Surface area according to Brunauer, Emmett and Teller.
       </contributor>
       <text xml:space="preserve">{{Endpoint
 |Description=Metabolic Activity
+|Has Assay Type=Metabolic Activity Assay
+}}</text>
+    </revision>
+    <revision>
+      <id>5257</id>
+      <timestamp>2020-02-22T16:49:48Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Endpoint
+|Description=Metabolic Activity
+|Has Category=Cell Viability
 |Has Assay Type=Metabolic Activity Assay
 }}</text>
     </revision>
@@ -91965,6 +92961,19 @@ The control had a DNA in tail of about 3%.</text>
       </contributor>
       <text xml:space="preserve">{{Endpoint
 |Description=LDH Release
+|Has Assay Type=Cell Membrane Integrity Assay
+}}</text>
+    </revision>
+    <revision>
+      <id>5234</id>
+      <timestamp>2020-02-22T15:55:16Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Endpoint
+|Description=LDH Release
+|Has Category=Cell Viability
 |Has Assay Type=Cell Membrane Integrity Assay
 }}</text>
     </revision>
@@ -93087,6 +94096,19 @@ The control had a DNA in tail of about 3%.</text>
 
 The amount of DNA in tail of a [[DNA Damage Assay]].</text>
     </revision>
+    <revision>
+      <id>5253</id>
+      <timestamp>2020-02-22T16:14:05Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Endpoint
+|Has Category=Genetic toxicity in vitro
+}}
+
+The amount of DNA in tail of a [[DNA Damage Assay]].</text>
+    </revision>
   </page>
   <page>
     <title>Gerloff2009 A3 M3</title>
@@ -93894,6 +94916,30 @@ Colloidal SiO2 in 40 wt. % suspension in H2O.</text>
 |Has URI=http://purl.enanomapper.org/onto/ENM_9000100
 }}</text>
     </revision>
+    <revision>
+      <id>5195</id>
+      <timestamp>2020-02-22T15:05:39Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Endpoint
+|Has URI=http://purl.enanomapper.org/onto/ENM_9000100
+|Has Category=Boiling Point Cat
+}}</text>
+    </revision>
+    <revision>
+      <id>5200</id>
+      <timestamp>2020-02-22T15:08:16Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Endpoint
+|Has URI=http://purl.enanomapper.org/onto/ENM_9000100
+|Has Category=Boiling Point Category
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Melting Point</title>
@@ -93906,6 +94952,17 @@ Colloidal SiO2 in 40 wt. % suspension in H2O.</text>
       </contributor>
       <comment>Created page with &quot;{{Endpoint }}&quot;</comment>
       <text xml:space="preserve">{{Endpoint
+}}</text>
+    </revision>
+    <revision>
+      <id>5225</id>
+      <timestamp>2020-02-22T15:34:08Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Endpoint
+|Has Category=Melting point/freezing point
 }}</text>
     </revision>
   </page>
@@ -97481,6 +98538,20 @@ Formerly, known as [[JRC2011 NM-600]].
 
 [[Category:Particle Size]]</text>
     </revision>
+    <revision>
+      <id>5206</id>
+      <timestamp>2020-02-22T15:17:18Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Descriptor}}
+{{Endpoint
+|Has Category=Particle size distribution (Granulometry)/Fibre length and diameter distribution
+|Has URI=http://purl.enanomapper.org/onto/ENM_9000127}}
+
+[[Category:Particle Size]]</text>
+    </revision>
   </page>
   <page>
     <title>JRCNM01000a M3</title>
@@ -97524,6 +98595,21 @@ Formerly, known as [[JRC2011 NM-600]].
 
 [[Category:Particle Size]]</text>
     </revision>
+    <revision>
+      <id>5205</id>
+      <timestamp>2020-02-22T15:17:10Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Descriptor}}
+{{Endpoint
+|Has Category=Particle size distribution (Granulometry)/Fibre length and diameter distribution
+|Has URI=http://purl.enanomapper.org/onto/ENM_9000112
+}}
+
+[[Category:Particle Size]]</text>
+    </revision>
   </page>
   <page>
     <title>JRCNM01000a M4</title>
@@ -97558,6 +98644,19 @@ Formerly, known as [[JRC2011 NM-600]].
 |Has Endpoint=Shape
 }}</text>
     </revision>
+    <revision>
+      <id>5246</id>
+      <timestamp>2020-02-22T16:09:09Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=JRCNM01000a
+|Has Endpoint Value=Anatase
+|Has Endpoint=Polymorphism
+}}</text>
+    </revision>
   </page>
   <page>
     <title>JRCNM01001a M1</title>
@@ -97573,6 +98672,19 @@ Formerly, known as [[JRC2011 NM-600]].
 |Has Entity=JRCNM01001a
 |Has Endpoint Value=Anatase
 |Has Endpoint=Shape
+}}</text>
+    </revision>
+    <revision>
+      <id>5247</id>
+      <timestamp>2020-02-22T16:09:15Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=JRCNM01001a
+|Has Endpoint Value=Anatase
+|Has Endpoint=Polymorphism
 }}</text>
     </revision>
   </page>
@@ -97621,6 +98733,21 @@ Formerly, known as [[JRC2011 NM-600]].
 
 [[Category:Particle Size]]</text>
     </revision>
+    <revision>
+      <id>5208</id>
+      <timestamp>2020-02-22T15:17:34Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Descriptor}}
+{{Endpoint
+|Has Category=Particle size distribution (Granulometry)/Fibre length and diameter distribution
+|Has URI=http://purl.enanomapper.org/onto/ENM_9000195}}
+
+
+[[Category:Particle Size]]</text>
+    </revision>
   </page>
   <page>
     <title>Particle Size Distribution: D77</title>
@@ -97648,6 +98775,21 @@ Formerly, known as [[JRC2011 NM-600]].
 
 [[Category:Particle Size]]</text>
     </revision>
+    <revision>
+      <id>5207</id>
+      <timestamp>2020-02-22T15:17:26Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Descriptor}}
+{{Endpoint
+|Has Category=Particle size distribution (Granulometry)/Fibre length and diameter distribution
+|Has URI=http://purl.enanomapper.org/onto/ENM_9000177}}
+
+
+[[Category:Particle Size]]</text>
+    </revision>
   </page>
   <page>
     <title>Particle Size Distribution: D11</title>
@@ -97671,6 +98813,21 @@ Formerly, known as [[JRC2011 NM-600]].
       </contributor>
       <text xml:space="preserve">{{Descriptor}}
 {{Endpoint|Has URI=http://purl.enanomapper.org/onto/ENM_9000111}}
+
+[[Category:Particle Size]]</text>
+    </revision>
+    <revision>
+      <id>5204</id>
+      <timestamp>2020-02-22T15:17:00Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Descriptor}}
+{{Endpoint
+|Has Category=Particle size distribution (Granulometry)/Fibre length and diameter distribution
+|Has URI=http://purl.enanomapper.org/onto/ENM_9000111
+}}
 
 [[Category:Particle Size]]</text>
     </revision>
@@ -100040,6 +101197,21 @@ Understanding toxicity pathways of engineered nanomaterials (ENM) has recently b
 {{#set:Equivalent URI=http://www.bioassayontology.org/bao#BAO_0000583}}
 {{#set:Has type=URL}}</text>
     </revision>
+    <revision>
+      <id>5260</id>
+      <timestamp>2020-02-22T16:58:46Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Endpoint
+|Has Category=Additional toxicological information
+}}
+
+{{#set:Original URI=http://www.bioassayontology.org/bao#BAO_0000583}}
+{{#set:Equivalent URI=http://www.bioassayontology.org/bao#BAO_0000583}}
+{{#set:Has type=URL}}</text>
+    </revision>
   </page>
   <page>
     <title>A549</title>
@@ -101082,6 +102254,21 @@ Figure 1.</text>
 
 Number of particles taken up by a cell.</text>
     </revision>
+    <revision>
+      <id>5259</id>
+      <timestamp>2020-02-22T16:58:31Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Endpoint
+|Description=Particles Per Cell
+|Has Category=Additional toxicological information
+|Has Assay Type=Cellular Uptake Assay
+}}
+
+Number of particles taken up by a cell.</text>
+    </revision>
   </page>
   <page>
     <title>Chithrani Au1 M2</title>
@@ -101993,6 +103180,17 @@ For Measurement=Chithrani Au4 M6|
       </contributor>
       <comment>Created page with &quot;{{Endpoint}}&quot;</comment>
       <text xml:space="preserve">{{Endpoint}}</text>
+    </revision>
+    <revision>
+      <id>5219</id>
+      <timestamp>2020-02-22T15:30:31Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Endpoint
+|Has Category=Particle size distribution (Granulometry)/Fibre length and diameter distribution
+}}</text>
     </revision>
   </page>
   <page>
@@ -104706,6 +105904,21 @@ In which they study the size dependency.</text>
 [[Category:Endpoints]]
 [[Category:Particle Size]]</text>
     </revision>
+    <revision>
+      <id>5222</id>
+      <timestamp>2020-02-22T15:32:27Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Descriptor}}
+{{Endpoint
+|Has Category=Particle size distribution (Granulometry)/Fibre length and diameter distribution
+}}
+
+[[Category:Endpoints]]
+[[Category:Particle Size]]</text>
+    </revision>
   </page>
   <page>
     <title>Geng2014-M1-Size</title>
@@ -105633,6 +106846,19 @@ After filtering out particles with a length of more then 50 nm.</text>
 |Has Endpoint=Shape
 }}</text>
     </revision>
+    <revision>
+      <id>5251</id>
+      <timestamp>2020-02-22T16:09:46Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Tilton2014 M2
+|Has Endpoint Value=Anatase
+|Has Endpoint=Polymorphism
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Tilton2014 M2 Surf</title>
@@ -105710,6 +106936,17 @@ After filtering out particles with a length of more then 50 nm.</text>
         <ip>127.0.0.1</ip>
       </contributor>
       <text xml:space="preserve">{{Endpoint|Has URI=http://purl.obolibrary.org/obo/PATO_0000921}}</text>
+    </revision>
+    <revision>
+      <id>5209</id>
+      <timestamp>2020-02-22T15:18:05Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Endpoint
+|Has Category=Particle size distribution (Granulometry)/Fibre length and diameter distribution
+|Has URI=http://purl.obolibrary.org/obo/PATO_0000921}}</text>
     </revision>
   </page>
   <page>
@@ -108736,6 +109973,696 @@ Control: 1.25 nmol/mg*min</text>
 }}
 
 Control: 1.25 nmol/mg*min</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Category</title>
+    <id>2209</id>
+    <revision>
+      <id>5170</id>
+      <timestamp>2020-02-22T12:53:48Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;&lt;noinclude&gt; &lt;pre&gt; {{Category |Has TOP Category= }} &lt;/pre&gt; &lt;/noinclude&gt;&lt;includeonly&gt; [[Category:Measurements]]__NOEDITSECTION____NOTOC__ &lt;/includeonly&gt;&quot;</comment>
+      <text xml:space="preserve">&lt;noinclude&gt;
+&lt;pre&gt;
+{{Category
+|Has TOP Category=
+}}
+&lt;/pre&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;
+[[Category:Measurements]]__NOEDITSECTION____NOTOC__
+&lt;/includeonly&gt;</text>
+    </revision>
+    <revision>
+      <id>5178</id>
+      <timestamp>2020-02-22T14:06:45Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">&lt;noinclude&gt;
+&lt;pre&gt;
+{{Category
+|Has TOP Category=
+}}
+&lt;/pre&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: right; table-layout:fixed; word-wrap: break-word;&quot;
+! colspan=2 style=&quot;text-align: center;background-color: #ddd;&quot; | Measurement
+|-
+! colspan=2 style=&quot;text-align: center; font-size: 125%&quot; | {{{Name|{{PAGENAME}} }}}
+|-
+{{#if:{{{Has TOP Category|}}}|
+{{!}}-
+{{!}} TOP Category
+{{!}} [[{{{Has TOP Category}}}]]
+}}
+|}
+&lt;br&gt;
+[[Category:Categories]]__NOEDITSECTION____NOTOC__
+&lt;/includeonly&gt;</text>
+    </revision>
+    <revision>
+      <id>5181</id>
+      <timestamp>2020-02-22T14:23:10Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">&lt;noinclude&gt;
+&lt;pre&gt;
+{{Category
+|Has TOP Category=
+}}
+&lt;/pre&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: right; table-layout:fixed; word-wrap: break-word;&quot;
+! colspan=2 style=&quot;text-align: center;background-color: #ddd;&quot; | Measurement
+|-
+! colspan=2 style=&quot;text-align: center; font-size: 125%&quot; | {{{Name|{{PAGENAME}} }}}
+|-
+{{#if:{{{Has TOP Category|}}}|
+{{!}}-
+{{!}} TOP Category
+{{!}} [[{{{Has TOP Category}}}]]
+}}
+|}
+&lt;br&gt;
+{{#if:{{{Has TOP Category|}}} |
+{{#set:
+|Has TOP Category={{{Has TOP Category|}}}
+}}
+[[Category:{{Has TOP Category}}]]__NOEDITSECTION____NOTOC__
+| }}
+[[Category:Categories]]__NOEDITSECTION____NOTOC__
+&lt;/includeonly&gt;</text>
+    </revision>
+    <revision>
+      <id>5183</id>
+      <timestamp>2020-02-22T14:27:28Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">&lt;noinclude&gt;
+&lt;pre&gt;
+{{Category
+|Has TOP Category=
+}}
+&lt;/pre&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: right; table-layout:fixed; word-wrap: break-word;&quot;
+! colspan=2 style=&quot;text-align: center;background-color: #ddd;&quot; | Measurement
+|-
+! colspan=2 style=&quot;text-align: center; font-size: 125%&quot; | {{{Name|{{PAGENAME}} }}}
+|-
+{{#if:{{{Has TOP Category|}}}|
+{{!}}-
+{{!}} TOP Category
+{{!}} [[{{{Has TOP Category}}}]]
+}}
+|}
+&lt;br&gt;
+{{#if:{{{Has TOP Category|}}} |
+{{#set:
+|Has TOP Category={{{Has TOP Category|}}}
+}}
+[[Category:{{{Has TOP Category|}}}]]__NOEDITSECTION____NOTOC__
+| }}
+[[Category:Categories]]__NOEDITSECTION____NOTOC__
+&lt;/includeonly&gt;</text>
+    </revision>
+    <revision>
+      <id>5184</id>
+      <timestamp>2020-02-22T14:29:03Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">&lt;noinclude&gt;
+&lt;pre&gt;
+{{Category
+|Has TOP Category=
+}}
+&lt;/pre&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: right; table-layout:fixed; word-wrap: break-word;&quot;
+! colspan=2 style=&quot;text-align: center;background-color: #ddd;&quot; | Measurement
+|-
+! colspan=2 style=&quot;text-align: center; font-size: 125%&quot; | {{{Name|{{PAGENAME}} }}}
+|-
+{{#if:{{{Has TOP Category|}}}|
+{{!}}-
+{{!}} TOP Category
+{{!}} [[{{{Has TOP Category}}}]]
+}}
+|}
+&lt;br&gt;
+{{#if:{{{Has TOP Category|}}} |
+{{#set:
+|Has TOP Category={{{Has TOP Category|}}}
+}}
+| }}
+[[Category:Categories]]__NOEDITSECTION____NOTOC__
+&lt;/includeonly&gt;</text>
+    </revision>
+    <revision>
+      <id>5192</id>
+      <timestamp>2020-02-22T15:02:18Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">&lt;noinclude&gt;
+&lt;pre&gt;
+{{Category
+|Has TOP Category=
+}}
+&lt;/pre&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: right; table-layout:fixed; word-wrap: break-word;&quot;
+! colspan=2 style=&quot;text-align: center;background-color: #ddd;&quot; | Measurement
+|-
+! colspan=2 style=&quot;text-align: center; font-size: 125%&quot; | {{{Name|{{PAGENAME}} }}}
+|-
+{{#if:{{{Has TOP Category|}}}|
+{{!}}-
+{{!}} TOP Category
+{{!}} [[{{{Has TOP Category}}}]]
+}}
+|}
+&lt;br&gt;
+== Relationships ==
+{{#ask: [[Category:Categories]] [[Has Category::{{PAGENAME}}]]
+| ? Has TOP Category
+}}
+{{#if:{{{Has TOP Category|}}} |
+{{#set:
+|Has TOP Category={{{Has TOP Category|}}}
+}}
+| }}
+[[Category:Categories]]__NOEDITSECTION____NOTOC__
+&lt;/includeonly&gt;</text>
+    </revision>
+    <revision>
+      <id>5193</id>
+      <timestamp>2020-02-22T15:02:46Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">&lt;noinclude&gt;
+&lt;pre&gt;
+{{Category
+|Has TOP Category=
+}}
+&lt;/pre&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: right; table-layout:fixed; word-wrap: break-word;&quot;
+! colspan=2 style=&quot;text-align: center;background-color: #ddd;&quot; | Measurement
+|-
+! colspan=2 style=&quot;text-align: center; font-size: 125%&quot; | {{{Name|{{PAGENAME}} }}}
+|-
+{{#if:{{{Has TOP Category|}}}|
+{{!}}-
+{{!}} TOP Category
+{{!}} [[{{{Has TOP Category}}}]]
+}}
+|}
+&lt;br&gt;
+== Endpoints ==
+{{#ask: [[Category:Categories]] [[Has Category::{{PAGENAME}}]]
+| ? Has TOP Category
+}}
+{{#if:{{{Has TOP Category|}}} |
+{{#set:
+|Has TOP Category={{{Has TOP Category|}}}
+}}
+| }}
+[[Category:Categories]]__NOEDITSECTION____NOTOC__
+&lt;/includeonly&gt;</text>
+    </revision>
+    <revision>
+      <id>5211</id>
+      <timestamp>2020-02-22T15:20:19Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">&lt;noinclude&gt;
+&lt;pre&gt;
+{{Category
+|Has TOP Category=
+}}
+&lt;/pre&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: right; table-layout:fixed; word-wrap: break-word;&quot;
+! colspan=2 style=&quot;text-align: center;background-color: #ddd;&quot; | Measurement
+|-
+! colspan=2 style=&quot;text-align: center; font-size: 125%&quot; | {{{Name|{{PAGENAME}} }}}
+|-
+{{#if:{{{Has TOP Category|}}}|
+{{!}}-
+{{!}} TOP Category
+{{!}} [[{{{Has TOP Category}}}]]
+}}
+|}
+&lt;br&gt;
+== Endpoints ==
+{{#ask: [[Category:Categories]] [[Has Category::{{PAGENAME}}]]
+| ? Has TOP Category
+}}
+{{#if:{{{Has TOP Category|}}} |
+{{#set:
+|Has TOP Category={{{Has TOP Category|}}}
+}}
+== Subcategories ==
+{{#ask: [[Category:Categories]] [[Has TOP Category::{{PAGENAME}}]]
+}}
+| }}
+[[Category:Categories]]__NOEDITSECTION____NOTOC__
+&lt;/includeonly&gt;</text>
+    </revision>
+    <revision>
+      <id>5212</id>
+      <timestamp>2020-02-22T15:22:14Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">&lt;noinclude&gt;
+&lt;pre&gt;
+{{Category
+|Has TOP Category=
+}}
+&lt;/pre&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: right; table-layout:fixed; word-wrap: break-word;&quot;
+! colspan=2 style=&quot;text-align: center;background-color: #ddd;&quot; | Measurement
+|-
+! colspan=2 style=&quot;text-align: center; font-size: 125%&quot; | {{{Name|{{PAGENAME}} }}}
+|-
+{{#if:{{{Has TOP Category|}}}|
+{{!}}-
+{{!}} TOP Category
+{{!}} [[{{{Has TOP Category}}}]]
+}}
+|}
+&lt;br&gt;
+== Endpoints ==
+{{#ask: [[Category:Endpoints]] [[Has Category::{{PAGENAME}}]]
+| ? Has TOP Category
+}}
+== Subcategories ==
+{{#ask: [[Category:Categories]] [[Has TOP Category::{{PAGENAME}}]]
+}}
+{{#if:{{{Has TOP Category|}}} |
+{{#set:
+|Has TOP Category={{{Has TOP Category|}}}
+}}
+| }}
+[[Category:Categories]]__NOEDITSECTION____NOTOC__
+&lt;/includeonly&gt;</text>
+    </revision>
+    <revision>
+      <id>5213</id>
+      <timestamp>2020-02-22T15:23:24Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">&lt;noinclude&gt;
+&lt;pre&gt;
+{{Category
+|Has TOP Category=
+}}
+&lt;/pre&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: right; table-layout:fixed; word-wrap: break-word;&quot;
+! colspan=2 style=&quot;text-align: center;background-color: #ddd;&quot; | Measurement
+|-
+! colspan=2 style=&quot;text-align: center; font-size: 125%&quot; | {{{Name|{{PAGENAME}} }}}
+|-
+{{#if:{{{Has TOP Category|}}}|
+{{!}}-
+{{!}} TOP Category
+{{!}} [[{{{Has TOP Category}}}]]
+}}
+|}
+&lt;br&gt;
+== Endpoints ==
+{{#ask: [[Category:Endpoints]] [[Has Category::{{PAGENAME}}]]
+}}
+== Subcategories ==
+{{#ask: [[Category:Categories]] [[Has TOP Category::{{PAGENAME}}]]
+}}
+{{#if:{{{Has TOP Category|}}} |
+{{#set:
+|Has TOP Category={{{Has TOP Category|}}}
+}}
+| }}
+[[Category:Categories]]__NOEDITSECTION____NOTOC__
+&lt;/includeonly&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Has Category</title>
+    <id>2211</id>
+    <revision>
+      <id>5173</id>
+      <timestamp>2020-02-22T12:54:45Z</timestamp>
+      <contributor>
+        <ip>127.0.0.1</ip>
+      </contributor>
+      <comment>Created page with &quot;This is a property of type [[Has type::Page]].&quot;</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Page]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Nanomaterial agglomeration/aggregation</title>
+    <id>2212</id>
+    <revision>
+      <id>5177</id>
+      <timestamp>2020-02-22T14:04:59Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Category |Has TOP Category=P-CHEM }}&quot;</comment>
+      <text xml:space="preserve">{{Category
+|Has TOP Category=P-CHEM
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>P-CHEM</title>
+    <id>2213</id>
+    <revision>
+      <id>5179</id>
+      <timestamp>2020-02-22T14:07:19Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Category }}&quot;</comment>
+      <text xml:space="preserve">{{Category
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Category:Categories</title>
+    <id>2214</id>
+    <revision>
+      <id>5180</id>
+      <timestamp>2020-02-22T14:21:05Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;OECT Harmonized Template (HT) categories.&quot;</comment>
+      <text xml:space="preserve">OECT Harmonized Template (HT) categories.</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Has TOP Category</title>
+    <id>2215</id>
+    <revision>
+      <id>5185</id>
+      <timestamp>2020-02-22T14:30:59Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;This is a property of type [[Has type::Page]].&quot;</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Page]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Particle size distribution (Granulometry)/Fibre length and diameter distribution</title>
+    <id>2216</id>
+    <revision>
+      <id>5191</id>
+      <timestamp>2020-02-22T15:00:28Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Category |Has TOP Category=P-CHEM }}&quot;</comment>
+      <text xml:space="preserve">{{Category
+|Has TOP Category=P-CHEM
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Boiling Point Category</title>
+    <id>2217</id>
+    <revision>
+      <id>5194</id>
+      <timestamp>2020-02-22T15:05:20Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Category |Has TOP Category=P-CHEM }}&quot;</comment>
+      <text xml:space="preserve">{{Category
+|Has TOP Category=P-CHEM
+}}</text>
+    </revision>
+    <revision>
+      <id>5198</id>
+      <timestamp>2020-02-22T15:08:00Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <comment>moved [[Boiling Point Cat]] to [[Boiling Point Category]]</comment>
+      <text xml:space="preserve">{{Category
+|Has TOP Category=P-CHEM
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Nanomaterial specific surface area</title>
+    <id>2218</id>
+    <revision>
+      <id>5197</id>
+      <timestamp>2020-02-22T15:07:39Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Category |Has TOP Category=P-CHEM }}&quot;</comment>
+      <text xml:space="preserve">{{Category
+|Has TOP Category=P-CHEM
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Boiling Point Cat</title>
+    <id>2219</id>
+    <revision>
+      <id>5199</id>
+      <timestamp>2020-02-22T15:08:00Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>moved [[Boiling Point Cat]] to [[Boiling Point Category]]</comment>
+      <text xml:space="preserve">#REDIRECT [[Boiling Point Category]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Nanomaterial aspect ratio/shape</title>
+    <id>2220</id>
+    <revision>
+      <id>5215</id>
+      <timestamp>2020-02-22T15:28:46Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Category |Has TOP Category=P-CHEM }}&quot;</comment>
+      <text xml:space="preserve">{{Category
+|Has TOP Category=P-CHEM
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>PH Category</title>
+    <id>2221</id>
+    <revision>
+      <id>5221</id>
+      <timestamp>2020-02-22T15:32:08Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Category |Has TOP Category=P-CHEM }}&quot;</comment>
+      <text xml:space="preserve">{{Category
+|Has TOP Category=P-CHEM
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Nanomaterial Zeta potential</title>
+    <id>2222</id>
+    <revision>
+      <id>5224</id>
+      <timestamp>2020-02-22T15:33:33Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Category |Has TOP Category=P-CHEM }}&quot;</comment>
+      <text xml:space="preserve">{{Category
+|Has TOP Category=P-CHEM
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Melting point/freezing point</title>
+    <id>2223</id>
+    <revision>
+      <id>5226</id>
+      <timestamp>2020-02-22T15:34:14Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Category |Has TOP Category=P-CHEM }}&quot;</comment>
+      <text xml:space="preserve">{{Category
+|Has TOP Category=P-CHEM
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Cell Viability</title>
+    <id>2224</id>
+    <revision>
+      <id>5228</id>
+      <timestamp>2020-02-22T15:49:12Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Category |Has TOP Category=TOX }}&quot;</comment>
+      <text xml:space="preserve">{{Category
+|Has TOP Category=TOX
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>TOX</title>
+    <id>2225</id>
+    <revision>
+      <id>5229</id>
+      <timestamp>2020-02-22T15:49:32Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Category }}&quot;</comment>
+      <text xml:space="preserve">{{Category
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Genetic toxicity in vitro</title>
+    <id>2226</id>
+    <revision>
+      <id>5233</id>
+      <timestamp>2020-02-22T15:53:19Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Category |Has TOP Category=TOX }}&quot;</comment>
+      <text xml:space="preserve">{{Category
+|Has TOP Category=TOX
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Nanomaterial crystalline phase</title>
+    <id>2227</id>
+    <revision>
+      <id>5239</id>
+      <timestamp>2020-02-22T16:00:06Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Category |Has TOP Category=P-CHEM }}&quot;</comment>
+      <text xml:space="preserve">{{Category
+|Has TOP Category=P-CHEM
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Polymorphism</title>
+    <id>2228</id>
+    <revision>
+      <id>5240</id>
+      <timestamp>2020-02-22T16:05:14Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Endpoint |Has Category=Nanomaterial crystalline phase }}&quot;</comment>
+      <text xml:space="preserve">{{Endpoint
+|Has Category=Nanomaterial crystalline phase
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Cytotoxicity Category</title>
+    <id>2229</id>
+    <revision>
+      <id>5256</id>
+      <timestamp>2020-02-22T16:45:38Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Category |Has TOP Category=TOX }}&quot;</comment>
+      <text xml:space="preserve">{{Category
+|Has TOP Category=TOX
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Additional toxicological information</title>
+    <id>2230</id>
+    <revision>
+      <id>5263</id>
+      <timestamp>2020-02-22T17:00:57Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Category |Has TOP Category=TOX }}&quot;</comment>
+      <text xml:space="preserve">{{Category
+|Has TOP Category=TOX
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Additional physico-chemical information</title>
+    <id>2231</id>
+    <revision>
+      <id>5265</id>
+      <timestamp>2020-02-22T17:01:42Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Category |Has TOP Category=P-CHEM }}&quot;</comment>
+      <text xml:space="preserve">{{Category
+|Has TOP Category=P-CHEM
+}}</text>
     </revision>
   </page>
 </mediawiki>
