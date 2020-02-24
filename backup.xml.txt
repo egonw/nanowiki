@@ -1769,6 +1769,48 @@ You can browse this data via one of the following categories:
 * [[Git Repository]]
 * [[Backup and Restore]] of the data</text>
     </revision>
+    <revision>
+      <id>5612</id>
+      <timestamp>2020-02-24T07:41:27Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">Egon's Lab Notebook.
+
+* [[TODO]]
+
+Releases
+
+* [https://doi.org/10.6084/m9.figshare.7075214.v1 NanoWiki 5]
+* [https://doi.org/10.6084/m9.figshare.4141593.v1 NanoWiki 4]
+* NanoWiki 3
+
+== Nanomaterial Database ==
+
+Database containing QSAR studies from literature with assay data from cell line experiments.
+You can browse this data via one of the following categories:
+
+* [[:Category:Chemical_Entities|Chemical Entities]] ({{#ask: [[Category:Chemical_Entities]] | format=count}}),
+** [[:Category:Materials|Materials]] ({{#ask: [[Category:Materials]] | format=count}}),
+*** [[:Category:MetalOxides|Metal oxides]] ({{#ask: [[Category:MetalOxides]] | format=count}}), [[:Category:Metals|Metals]] ({{#ask: [[Category:Metals]] | format=count}}), [[:Category:Alloys|Alloys]] ({{#ask: [[Category:Alloys]] | format=count}}), [[:Category:Nanoclays|Nanoclays]] ({{#ask: [[Category:Nanoclays]] | format=count}}), [[:Category:Multi-walled_Carbon_Nanotubes|Multi-walled Carbon Nanotube]] ({{#ask: [[Category:Multi-walled_Carbon_Nanotubes]] | format=count}}), [[:Category:CarbonNanotubes|CarbonNanotubes]] ({{#ask: [[Category:CarbonNanotubes]] | format=count}}), [[:Category:Fullerenes|Fullerenes]] ({{#ask: [[Category:Fullerenes]] | format=count}}), [[:Category:QuantumDots|Quantum dots]] ({{#ask: [[Category:QuantumDots]] | format=count}})
+*** [[:Category:Coatings|Coatings]] ({{#ask: [[Category:Coatings]] | format=count}}), [[:Category:Coating_Parts|Coating Parts]] ({{#ask: [[Category:Coating_Parts]] | format=count}})
+** [[:Category:Bundles|Bundles]] ({{#ask: [[Category:Bundles]] | format=count}}),
+* [[:Category:Studies|Studies]] ({{#ask: [[Category:Studies]] | format=count}}), [[:Category:Measurements|Measurements]] ({{#ask: [[Category:Measurements]] | format=count}}), [[:Category:Methods|Methods]] ({{#ask: [[Category:Methods]] | format=count}})
+** [[:Category:NanoMaterials|NanoMaterials]] ({{#ask: [[Category:Studies]] [[Has Entities::!Compounds]] | format=count}}), of which Metal oxides ({{#ask: [[Category:Studies]] [[Has Entities::MetalOxides]] | format=count}}),
+* [[:Category:Papers|Papers]] ({{#ask: [[Category:Papers]] | format=count}}) , [[:Category:PapersToRead|To Read]] ({{#ask: [[Category:PapersToRead]] | format=count}}) from {{#ask: [[Category:Journals]] | format=count}} [[:Category:Journals|Journals]] 
+* [[:Category:Descriptors|Descriptors]] ({{#ask: [[Category:Descriptors]] | format=count}}),
+* [[:Category:Endpoints|Endpoints]] ({{#ask: [[Category:Endpoints]] | format=count}}), [[:Category:Assays|Assays]] ({{#ask: [[Category:Assays]] | format=count}}), [[:Category:AssayTypes|Assay Types]] ({{#ask: [[Category:AssayTypes]] | format=count}}), [[:Category:AssayMethods|Assay Methods]] ({{#ask: [[Category:AssayMethods]] | format=count}})
+* [[:Category:Relationships|Relationships]] ({{#ask: [[Category:Relationships]] | format=count}}),
+* [[:Category:Toxicity|Toxicity]] ({{#ask: [[Category:Toxicity]] | format=count}}),
+* [[:Category:Cell Lines|Cell lines]] ({{#ask: [[Category:Cell Lines]] | format=count}}).
+
+== Admin ==
+
+* [[Installation]]
+* [[Git Repository]]
+* [[Backup and Restore]] of the data</text>
+    </revision>
   </page>
   <page>
     <title>MediaWiki:Smw uri blacklist</title>
@@ -15837,6 +15879,32 @@ The allowed value for this property is:
 {{#set: |Equivalent URI=http://www.w3.org/2000/01/rdf-schema#subClassOf }}
 {{#set: |Original URI=http://www.w3.org/2000/01/rdf-schema#subClassOf }}</text>
     </revision>
+    <revision>
+      <id>5604</id>
+      <timestamp>2020-02-24T07:33:18Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">This is a property of type [[Has type::Page]].
+
+The allowed value for this property is:
+* [[Allows value::Metal]]
+* [[Allows value::MetalOxide]]
+* [[Allows value::CarbonNanotube]]
+* [[Allows value::CarbonNanoparticle]]
+* [[Allows value::Alloy]]
+* [[Allows value::Graphene]]
+* [[Allows value::GrapheneOxide]]
+* [[Allows value::PolymerCore]]
+* [[Allows value::Nanoclay]]
+* [[Allows value::Multi-walled Carbon Nanotube]]
+* [[Allows value::Fullerene]]
+* [[Allows value::QuantumDot]]
+
+{{#set: |Equivalent URI=http://www.w3.org/2000/01/rdf-schema#subClassOf }}
+{{#set: |Original URI=http://www.w3.org/2000/01/rdf-schema#subClassOf }}</text>
+    </revision>
   </page>
   <page>
     <title>Cytotox2011Puzyn01</title>
@@ -16284,6 +16352,37 @@ Observed Value [[Has Endpoint Value::3.45]] at unknown dose.
 }}
 
 Metal Oxide are nanoparticles with a metal oxide core, possibly with a coating.
+
+{{#ask: [[Category:MetalOxides]]
+ | ? Has Identifier #
+ | ? Has Label #
+ | ? Has Chemical Composition #
+ | ? Has Coating #
+ |format = template
+ |template = NMsFrontTemplate
+ |introtemplate = NMsFrontHeader
+ |outrotemplate = NMsFrontFooter
+ |sort = Has Identifier
+ |offset=0
+ |limit=250
+}}
+
+{{#set: |Equivalent URI=http://egonw.github.com/resource/NM_000100 }}
+{{#set: |Original URI=http://egonw.github.com/resource/NM_000100 }}</text>
+    </revision>
+    <revision>
+      <id>5615</id>
+      <timestamp>2020-02-24T07:51:21Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{MaterialType
+|Has Label=Metal Oxide
+|Has URI=http://purl.bioontology.org/ontology/npo#NPO_1541
+}}
+
+Metal oxides are nanoparticles with a metal oxide core, possibly with a coating.
 
 {{#ask: [[Category:MetalOxides]]
  | ? Has Identifier #
@@ -26103,6 +26202,183 @@ How many cells are still viable after a given amount of time.
 {{#if:{{{Has Dose Units|}}} |
 {{#set:
 |Has Dose Units={{{Has Dose Units|}}}
+}}
+| }}
+{{#if:{{{Has Assay|}}} |
+{{#set:
+|Has Assay={{{Has Assay|}}}
+}}
+| }}
+{{#if:{{{Has Assay Type|}}} |
+{{#set:
+|Has Assay Type={{{Has Assay Type|}}}
+}}
+| }}
+{{#if:{{{Has Endpoint|}}} |
+{{#set:
+|Has Endpoint={{{Has Endpoint|}}}
+}}
+| }}
+{{#if:{{{Has Endpoint Value|}}} |
+{{#set:
+|Has Endpoint Value={{{Has Endpoint Value|}}}
+}}
+| }}
+{{#if:{{{Has Endpoint Value Min|}}} |
+{{#set:
+|Has Endpoint Value Min={{{Has Endpoint Value Min|}}}
+}}
+| }}
+{{#if:{{{Has Endpoint Value Max|}}} |
+{{#set:
+|Has Endpoint Value Max={{{Has Endpoint Value Max|}}}
+}}
+| }}
+{{#if:{{{Has Endpoint Error|}}} |
+{{#set:
+|Has Endpoint Error={{{Has Endpoint Error|}}}
+}}
+| }}
+{{#if:{{{Has Endpoint Value Units|}}} |
+{{#set:
+|Has Endpoint Value Units={{{Has Endpoint Value Units|}}}
+}}
+| }}
+{{#if:{{{Has Method|}}} |
+{{#set:
+|Has Method={{{Has Method|}}}
+}}
+| }}
+[[Category:Measurements]]__NOEDITSECTION____NOTOC__
+&lt;/includeonly&gt;</text>
+    </revision>
+    <revision>
+      <id>5602</id>
+      <timestamp>2020-02-24T07:23:13Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">&lt;noinclude&gt;
+&lt;pre&gt;
+{{Measurement
+|Has Entity=
+|For Measurement=
+|Has Dose=
+|Has Dose Units=
+|Has Time=
+|Has Time Units=
+|Has Assay=
+|Has Assay Type=
+|Has Endpoint=
+|Has Endpoint Error=
+|Has Endpoint Value=
+|Has Endpoint Value Min=
+|Has Endpoint Value Max=
+|Has Endpoint Value Units=
+|Has Study=
+|Has Method=
+}}
+&lt;/pre&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot; style=&quot;float: right; width: 24em; text-align: left; line-height: 1.5em; font-size: 90%; clear: right; table-layout:fixed; word-wrap: break-word;&quot;
+! colspan=2 style=&quot;text-align: center;background-color: #ddd;&quot; | Measurement
+|-
+! colspan=2 style=&quot;text-align: center; font-size: 125%&quot; | {{{Name|{{PAGENAME}} }}}
+|-
+{{#if:{{{Has Entity|}}}|
+{{!}}-
+{{!}} Entity
+{{!}} [[{{{Has Entity}}}]]
+}}
+{{#if:{{{For Measurement|}}}|
+{{!}}-
+{{!}} For Measurement
+{{!}} [[{{{For Measurement}}}]]
+}}
+{{#if:{{{Has Study|}}}|
+{{!}}-
+{{!}} Study
+{{!}} [[{{{Has Study}}}]]
+}}
+{{#if:{{{Has Dose|}}}|
+{{!}}-
+{{!}} Dose
+{{!}} {{{Has Dose}}} {{#if:{{{Has Dose Units|}}}|{{{Has Dose Units}}}}}
+}}
+{{#if:{{{Has Assay Type|}}}|
+{{!}}-
+{{!}} Assay Type
+{{!}} {{{Has Assay Type}}}
+}}
+{{#if:{{{Has Assay|}}}|
+{{!}}-
+{{!}} Assay
+{{!}} {{{Has Assay}}}
+}}
+{{#if:{{{Has Endpoint Value|}}}|
+{{!}}-
+{{!}} End point Value
+{{!}} {{{Has Endpoint Value}}} {{#if:{{{Has Endpoint Error|}}}|± {{{Has Endpoint Error}}}}} {{#if:{{{Has Endpoint Value Units|}}}|{{{Has Endpoint Value Units}}}}}
+}}
+{{#if:{{{Has Endpoint Value Min|}}}|
+{{!}}-
+{{!}} End point Value
+{{!}} {{{Has Endpoint Value Min}}} - {{#if:{{{Has Endpoint Value Max|}}}|{{{Has Endpoint Value Max}}}|NA}} {{#if:{{{Has Endpoint Value Units|}}}|{{{Has Endpoint Value Units}}}}}
+}}
+{{#if:{{{Has Endpoint|}}}|
+{{!}}-
+{{!}} End point
+{{!}} [[{{{Has Endpoint}}}]]
+}}
+|}
+&lt;br&gt;
+= Conditions =
+{{#ask: [[Category:Measurements]] [[For Measurement::{{PAGENAME}}]]
+| ?Has Endpoint
+| ?Has Endpoint Value
+| ?Has Endpoint Error
+| ?Has Endpoint Value Min
+| ?Has Endpoint Value Max
+| ?Has Endpoint Value Units
+| sort=Has Endpoint Value
+| order=ascending
+| height=250
+| width=600
+}}
+{{#if:{{{Has Study|}}} |
+{{#set:
+|Has Study={{{Has Study|}}}
+}}
+| }}
+{{#if:{{{Has Entity|}}} |
+{{#set:
+|Has Entity={{{Has Entity|}}}
+}}
+| }}
+{{#if:{{{For Measurement|}}} |
+{{#set:
+|For Measurement={{{For Measurement|}}}
+}}
+| }}
+{{#if:{{{Has Dose|}}} |
+{{#set:
+|Has Dose={{{Has Dose|}}}
+}}
+| }}
+{{#if:{{{Has Dose Units|}}} |
+{{#set:
+|Has Dose Units={{{Has Dose Units|}}}
+}}
+| }}
+{{#if:{{{Has Time|}}} |
+{{#set:
+|Has Time={{{Has Time|}}}
+}}
+| }}
+{{#if:{{{Has Time Units|}}} |
+{{#set:
+|Has Time Units={{{Has Time Units|}}}
 }}
 | }}
 {{#if:{{{Has Assay|}}} |
@@ -57036,6 +57312,31 @@ CdSe quantum dots studied for dot size, surface charge, and functionalization.</
  |limit=500
 }}</text>
     </revision>
+    <revision>
+      <id>5603</id>
+      <timestamp>2020-02-24T07:31:34Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">A list of materials:
+
+{{#ask: [[Category:Materials]]
+ | ? Has Identifier #
+ | ? Has Source #
+ | ? Has Bundle #
+ | ? Has Label #
+ | ? Has NM Type #
+ | ? Has Specific NM Type #
+ | ? Has Chemical Composition #
+ | ? Has Chemical Component #
+ | ? Has Chemical Coating #
+ |sort = Has Identifier
+ |order= descending
+ |offset=0
+ |limit=500
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Berg2009</title>
@@ -58223,6 +58524,19 @@ CdSe quantum dots studied for dot size, surface charge, and functionalization.</
       <text xml:space="preserve">{{Endpoint
 |Description=The pH at which the zeta potential of the material is zero.
 |Has Category=Additional physico-chemical information
+|Has URI=http://purl.bioontology.org/ontology/npo#NPO_1204
+}}</text>
+    </revision>
+    <revision>
+      <id>5599</id>
+      <timestamp>2020-02-24T07:11:36Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Endpoint
+|Description=The pH at which the zeta potential of the material is zero.
+|Has Category=Nanomaterial Zeta potential
 |Has URI=http://purl.bioontology.org/ontology/npo#NPO_1204
 }}</text>
     </revision>
@@ -68482,6 +68796,20 @@ Nanomaterial structure–activity relationships (nano-SARs) for metal oxide nano
       </contributor>
       <comment>Created page with &quot;{{Descriptor }}  [[Category:Endpoints]]&quot;</comment>
       <text xml:space="preserve">{{Descriptor
+}}
+
+[[Category:Endpoints]]</text>
+    </revision>
+    <revision>
+      <id>5601</id>
+      <timestamp>2020-02-24T07:20:55Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Descriptor}}
+{{Endpoint
+|Has Category=Cell Viability
 }}
 
 [[Category:Endpoints]]</text>
@@ -95429,6 +95757,20 @@ Colloidal SiO2 in 40 wt. % suspension in H2O.</text>
 |Has Endpoint=Boiling Point
 }}</text>
     </revision>
+    <revision>
+      <id>5598</id>
+      <timestamp>2020-02-24T07:10:07Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Aldrich 421553
+|Has Endpoint Value=2230
+|Has Endpoint Value Units=°C
+|Has Endpoint=Boiling Point
+}}</text>
+    </revision>
   </page>
   <page>
     <title>Aldrich 421553 M2</title>
@@ -95527,6 +95869,20 @@ Colloidal SiO2 in 40 wt. % suspension in H2O.</text>
 |Has Entity=Aldrich 718483
 |Has Endpoint Value=2230
 |Has Endpoint Value Units=Celsius
+|Has Endpoint=Boiling Point
+}}</text>
+    </revision>
+    <revision>
+      <id>5597</id>
+      <timestamp>2020-02-24T07:10:00Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=Aldrich 718483
+|Has Endpoint Value=2230
+|Has Endpoint Value Units=°C
 |Has Endpoint=Boiling Point
 }}</text>
     </revision>
@@ -95970,6 +96326,18 @@ Silica 39.5- 41.0%; Ratio 160-270 SiO2/Na2O; 40 wt. % suspension in H2O</text>
       <text xml:space="preserve">{{MaterialType
 |Has Label=Graphene
 |Has URI=
+}}</text>
+    </revision>
+    <revision>
+      <id>5614</id>
+      <timestamp>2020-02-24T07:50:32Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{MaterialType
+|Has Label=Graphene
+|Has URI=http://purl.obolibrary.org/obo/CHEBI_134404
 }}</text>
     </revision>
   </page>
@@ -105062,6 +105430,18 @@ Human Aortic Endothelial Cells
       </contributor>
       <text xml:space="preserve">{{Endpoint
 |Description=IC_50
+}}</text>
+    </revision>
+    <revision>
+      <id>5600</id>
+      <timestamp>2020-02-24T07:16:28Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Endpoint
+|Description=IC_50
+|Has Category=Cell Viability
 }}</text>
     </revision>
   </page>
@@ -114741,7 +115121,7 @@ More information can be found at this website: https://www.hsph.harvard.edu/nano
     </revision>
   </page>
   <page>
-    <title>Density</title>
+    <title>Effective Density</title>
     <id>2331</id>
     <revision>
       <id>5465</id>
@@ -114752,6 +115132,30 @@ More information can be found at this website: https://www.hsph.harvard.edu/nano
       </contributor>
       <comment>Created page with &quot;{{Endpoint }}&quot;</comment>
       <text xml:space="preserve">{{Endpoint
+}}</text>
+    </revision>
+    <revision>
+      <id>5592</id>
+      <timestamp>2020-02-24T07:08:01Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Endpoint
+|Has Category=Density Category
+}}</text>
+    </revision>
+    <revision>
+      <id>5593</id>
+      <timestamp>2020-02-24T07:08:42Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <comment>moved [[Density]] to [[Effective Density]]</comment>
+      <text xml:space="preserve">{{Endpoint
+|Has Category=Density Category
 }}</text>
     </revision>
   </page>
@@ -114788,6 +115192,23 @@ More information can be found at this website: https://www.hsph.harvard.edu/nano
 |Has Endpoint Error=0.0047
 |Has Endpoint Value Units=g/cm^3
 |Has Endpoint=Density
+|Has Method=Pycnometer
+|Has Source=To2019
+}}</text>
+    </revision>
+    <revision>
+      <id>5596</id>
+      <timestamp>2020-02-24T07:09:29Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=MGO-20NM-SC-B-1
+|Has Endpoint Value=3.1420
+|Has Endpoint Error=0.0047
+|Has Endpoint Value Units=g/cm^3
+|Has Endpoint=Effective Density
 |Has Method=Pycnometer
 |Has Source=To2019
 }}</text>
@@ -114956,6 +115377,23 @@ Inductively Coupled Plasma Mass Spectrometry</text>
 |Has Endpoint Error=0.0118
 |Has Endpoint Value Units=g/cm^3
 |Has Endpoint=Density
+|Has Method=Pycnometer
+|Has Source=To2019
+}}</text>
+    </revision>
+    <revision>
+      <id>5595</id>
+      <timestamp>2020-02-24T07:08:59Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=CdS-60NM-NS-B-1
+|Has Endpoint Value=5.1472
+|Has Endpoint Error=0.0118
+|Has Endpoint Value Units=g/cm^3
+|Has Endpoint=Effective Density
 |Has Method=Pycnometer
 |Has Source=To2019
 }}</text>
@@ -115374,6 +115812,24 @@ Inductively Coupled Plasma Mass Spectrometry</text>
 |Has Bundle=HSPH-NIEHS Reference ENM Repository
 }}</text>
     </revision>
+    <revision>
+      <id>5608</id>
+      <timestamp>2020-02-24T07:38:50Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=508
+|Has Label=ZnS-100NM-B-NS
+|Has Chemical Composition=ZnS
+|Has NM Type=QuantumDot
+|Has SMILES=
+|Has Bundle=HSPH-NIEHS Reference ENM Repository
+}}
+
+{{#set:|Has Specific NM Type=[[NPO_193]]}}</text>
+    </revision>
   </page>
   <page>
     <title>CDS-60NM-B-NS</title>
@@ -115394,6 +115850,24 @@ Inductively Coupled Plasma Mass Spectrometry</text>
 |Has SMILES=
 |Has Bundle=HSPH-NIEHS Reference ENM Repository
 }}</text>
+    </revision>
+    <revision>
+      <id>5605</id>
+      <timestamp>2020-02-24T07:33:47Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=509
+|Has Label=CDS-60NM-B-NS
+|Has Chemical Composition=CdS
+|Has NM Type=QuantumDot
+|Has SMILES=
+|Has Bundle=HSPH-NIEHS Reference ENM Repository
+}}
+
+{{#set:|Has Specific NM Type=[[NPO_160]]}}</text>
     </revision>
   </page>
   <page>
@@ -117208,6 +117682,154 @@ Inductively Coupled Plasma Mass Spectrometry</text>
 |Has NM Type=MetalOxide
 |Has SMILES=
 |Has Source=Choi2018
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Density</title>
+    <id>2440</id>
+    <revision>
+      <id>5594</id>
+      <timestamp>2020-02-24T07:08:42Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>moved [[Density]] to [[Effective Density]]</comment>
+      <text xml:space="preserve">#REDIRECT [[Effective Density]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>NPO 160</title>
+    <id>2441</id>
+    <revision>
+      <id>5606</id>
+      <timestamp>2020-02-24T07:35:02Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{MaterialType |Has Label=cadmium selenide quantum dot |Has URI=http://purl.bioontology.org/ontology/npo#NPO_160 }}  {{#set: |Equivalent URI=http://purl.bioontology.org/ontology/…&quot;</comment>
+      <text xml:space="preserve">{{MaterialType
+|Has Label=cadmium selenide quantum dot
+|Has URI=http://purl.bioontology.org/ontology/npo#NPO_160
+}}
+
+{{#set: |Equivalent URI=http://purl.bioontology.org/ontology/npo#NPO_160 }}
+{{#set: |Original URI=http://purl.bioontology.org/ontology/npo#NPO_160 }}</text>
+    </revision>
+  </page>
+  <page>
+    <title>QuantumDot</title>
+    <id>2442</id>
+    <revision>
+      <id>5607</id>
+      <timestamp>2020-02-24T07:37:27Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{MaterialType |Has Label=Quantum Dot |Has URI=http://purl.bioontology.org/ontology/npo#NPO_589 }}  Quantum dots are nanoparticles named after there chemical function.  {{#ask: […&quot;</comment>
+      <text xml:space="preserve">{{MaterialType
+|Has Label=Quantum Dot
+|Has URI=http://purl.bioontology.org/ontology/npo#NPO_589
+}}
+
+Quantum dots are nanoparticles named after there chemical function.
+
+{{#ask: [[Category:QuantumDots]]
+ | ? Has Identifier #
+ | ? Has Label #
+ | ? Has Chemical Composition #
+ | ? Has Coating #
+ |format = template
+ |template = NMsFrontTemplate
+ |introtemplate = NMsFrontHeader
+ |outrotemplate = NMsFrontFooter
+ |sort = Has Identifier
+ |offset=0
+ |limit=250
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>NPO 193</title>
+    <id>2443</id>
+    <revision>
+      <id>5609</id>
+      <timestamp>2020-02-24T07:39:10Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{MaterialType |Has Label=cadmium selenide quantum dot |Has URI=http://purl.bioontology.org/ontology/npo#NPO_193 }}  {{#set: |Equivalent URI=http://purl.bioontology.org/ontology/…&quot;</comment>
+      <text xml:space="preserve">{{MaterialType
+|Has Label=cadmium selenide quantum dot
+|Has URI=http://purl.bioontology.org/ontology/npo#NPO_193
+}}
+
+{{#set: |Equivalent URI=http://purl.bioontology.org/ontology/npo#NPO_193 }}
+{{#set: |Original URI=http://purl.bioontology.org/ontology/npo#NPO_193 }}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Category:QuantumDots</title>
+    <id>2444</id>
+    <revision>
+      <id>5610</id>
+      <timestamp>2020-02-24T07:40:29Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{#ask: [[Category:QuantumDot]]  | ? Has Identifier #  | ? Has Label  | ? Has NM Type  | ? Has Specific NM Type  |offset=0  |limit=250  |sort=Has Identifier }}&quot;</comment>
+      <text xml:space="preserve">{{#ask: [[Category:QuantumDot]]
+ | ? Has Identifier #
+ | ? Has Label
+ | ? Has NM Type
+ | ? Has Specific NM Type
+ |offset=0
+ |limit=250
+ |sort=Has Identifier
+}}</text>
+    </revision>
+    <revision>
+      <id>5611</id>
+      <timestamp>2020-02-24T07:40:45Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{#ask: [[Category:QuantumDots]]
+ | ? Has Identifier #
+ | ? Has Label #
+ | ? Has NM Type #
+ | ? Has Specific NM Type #
+ |offset=0
+ |limit=250
+ |sort=Has Identifier
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Category:Graphenes</title>
+    <id>2445</id>
+    <revision>
+      <id>5613</id>
+      <timestamp>2020-02-24T07:44:01Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{#ask: [[Category:Graphenes]]  | ? Has Identifier #  | ? Has Label #  | ? Has NM Type #  | ? Has Specific NM Type #  |offset=0  |limit=250  |sort=Has Identifier }}&quot;</comment>
+      <text xml:space="preserve">{{#ask: [[Category:Graphenes]]
+ | ? Has Identifier #
+ | ? Has Label #
+ | ? Has NM Type #
+ | ? Has Specific NM Type #
+ |offset=0
+ |limit=250
+ |sort=Has Identifier
 }}</text>
     </revision>
   </page>

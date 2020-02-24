@@ -18,7 +18,7 @@
 	xmlns:property="&property;">
 
 	<owl:Ontology rdf:about="">
-		<swivt:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-23T20:35:55+01:00</swivt:creationDate>
+		<swivt:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-24T09:14:16+01:00</swivt:creationDate>
 		<owl:imports rdf:resource="http://semantic-mediawiki.org/swivt/1.0"/>
 	</owl:Ontology>
 	<swivt:Subject rdf:about="&wiki;Main_Page">
@@ -26,7 +26,7 @@
 		<swivt:page rdf:resource="&wikiurl;Main_Page"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Main_Page"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-10-31T19:38:59</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-23T09:23:56</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;TestNM">
 		<rdfs:label>TestNM</rdfs:label>
@@ -149,7 +149,7 @@
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Property:Has_NM_Type"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">102</swivt:wikiNamespace>
 		<owl:equivalentProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T10:49:43</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-08T21:52:50</swivt:wikiPageModificationDate>
 		<property:Original_URI rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
 	</owl:ObjectProperty>
 	<swivt:Subject rdf:about="&wiki;Cytotox2011Puzyn01">
@@ -5277,7 +5277,7 @@
 		<swivt:page rdf:resource="&wikiurl;Category:Materials"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Category:Materials"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</swivt:wikiNamespace>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-09-20T11:57:53</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-23T14:09:13</swivt:wikiPageModificationDate>
 	</owl:Class>
 	<swivt:Subject rdf:about="&wiki;Berg2009">
 		<rdfs:label>Berg2009</rdfs:label>
@@ -5482,7 +5482,7 @@
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
 		<property:Description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The pH at which the zeta potential of the material is zero.</property:Description>
 		<owl:sameAs rdf:resource="http://purl.bioontology.org/ontology/npo#NPO_1204"/>
-		<property:Has_Category rdf:resource="&wiki;Additional_physico-2Dchemical_information"/>
+		<property:Has_Category rdf:resource="&wiki;Nanomaterial_Zeta_potential"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-22T17:01:27</swivt:wikiPageModificationDate>
 		<property:Original_URI rdf:resource="http://purl.bioontology.org/ontology/npo#NPO_1204"/>
 	</swivt:Subject>
@@ -9000,8 +9000,10 @@
 		<swivt:page rdf:resource="&wikiurl;Toxicity_Classifier"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Toxicity_Classifier"/>
 		<rdf:type rdf:resource="&wiki;Category-3ADescriptors"/>
+		<rdf:type rdf:resource="&wiki;Category-3AToxicity_Classifier"/>
 		<rdf:type rdf:resource="&wiki;Category-3AEndpoints"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Category rdf:resource="&wiki;Cell_Viability"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-02T16:05:54</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Liu2011_02_M1">
@@ -19808,7 +19810,7 @@
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
 		<property:Has_Endpoint rdf:resource="&wiki;Boiling_Point"/>
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2230</property:Has_Endpoint_Value>
-		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Celsius</property:Has_Endpoint_Value_Units>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">°C</property:Has_Endpoint_Value_Units>
 		<property:Has_Entity rdf:resource="&wiki;Aldrich_421553"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-03T16:53:32</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -19850,7 +19852,7 @@
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
 		<property:Has_Endpoint rdf:resource="&wiki;Boiling_Point"/>
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2230</property:Has_Endpoint_Value>
-		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Celsius</property:Has_Endpoint_Value_Units>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">°C</property:Has_Endpoint_Value_Units>
 		<property:Has_Entity rdf:resource="&wiki;Aldrich_718483"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-03T16:55:16</swivt:wikiPageModificationDate>
 	</swivt:Subject>
@@ -20061,7 +20063,9 @@
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Graphene"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterialTypes"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<owl:sameAs rdf:resource="http://purl.obolibrary.org/obo/CHEBI_134404"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-09-18T18:51:29</swivt:wikiPageModificationDate>
+		<property:Original_URI rdf:resource="http://purl.obolibrary.org/obo/CHEBI_134404"/>
 	</swivt:Subject>
 	<owl:Class rdf:about="&wiki;Category-3AMaterialTypes">
 		<rdfs:label>MaterialTypes</rdfs:label>
@@ -23241,6 +23245,7 @@
 		<rdf:type rdf:resource="&wiki;Category-3AEndpoints"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
 		<property:Description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IC_50</property:Description>
+		<property:Has_Category rdf:resource="&wiki;Cell_Viability"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-14T12:59:27</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Trypan_Blue_Cell_Staining">
@@ -27833,14 +27838,11 @@
 		<property:Has_Method rdf:resource="&wiki;TEM"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-23T16:46:43</swivt:wikiPageModificationDate>
 	</swivt:Subject>
-	<swivt:Subject rdf:about="&wiki;Density">
-		<rdfs:label>Density</rdfs:label>
-		<swivt:page rdf:resource="&wikiurl;Density"/>
-		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Density"/>
-		<rdf:type rdf:resource="&wiki;Category-3ADensity"/>
-		<rdf:type rdf:resource="&wiki;Category-3AEndpoints"/>
+	<swivt:Subject rdf:about="&wiki;Effective_Density">
+		<rdfs:label>Effective Density</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Effective_Density"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Effective_Density"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-23T16:48:36</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Density_Category">
 		<rdfs:label>Density Category</rdfs:label>
@@ -27857,7 +27859,7 @@
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/MGO-20NM-SC-B-1_M3"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
-		<property:Has_Endpoint rdf:resource="&wiki;Density"/>
+		<property:Has_Endpoint rdf:resource="&wiki;Effective_Density"/>
 		<property:Has_Endpoint_Error rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0047</property:Has_Endpoint_Error>
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3.1420</property:Has_Endpoint_Value>
 		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">g/cm^3</property:Has_Endpoint_Value_Units>
@@ -27948,7 +27950,7 @@
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/CdS-60NM-NS-B-1_M3"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
-		<property:Has_Endpoint rdf:resource="&wiki;Density"/>
+		<property:Has_Endpoint rdf:resource="&wiki;Effective_Density"/>
 		<property:Has_Endpoint_Error rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0118</property:Has_Endpoint_Error>
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5.1472</property:Has_Endpoint_Value>
 		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">g/cm^3</property:Has_Endpoint_Value_Units>
@@ -28193,7 +28195,7 @@
 		<rdfs:label>ZnS-100NM-B-NS</rdfs:label>
 		<swivt:page rdf:resource="&wikiurl;ZnS-100NM-B-NS"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/ZnS-100NM-B-NS"/>
-		<rdf:type rdf:resource="&wiki;Category-3AAlloys"/>
+		<rdf:type rdf:resource="&wiki;Category-3AQuantumDots"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -28201,14 +28203,15 @@
 		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZnS</property:Has_Chemical_Composition>
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">508</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZnS-100NM-B-NS</property:Has_Label>
-		<property:Has_NM_Type rdf:resource="&wiki;Alloy"/>
+		<property:Has_NM_Type rdf:resource="&wiki;QuantumDot"/>
+		<property:Has_Specific_NM_Type rdf:resource="&wiki;NPO_193"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-23T17:17:32</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;CDS-2D60NM-2DB-2DNS">
 		<rdfs:label>CDS-60NM-B-NS</rdfs:label>
 		<swivt:page rdf:resource="&wikiurl;CDS-60NM-B-NS"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/CDS-60NM-B-NS"/>
-		<rdf:type rdf:resource="&wiki;Category-3AAlloys"/>
+		<rdf:type rdf:resource="&wiki;Category-3AQuantumDots"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -28216,7 +28219,8 @@
 		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CdS</property:Has_Chemical_Composition>
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">509</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CDS-60NM-B-NS</property:Has_Label>
-		<property:Has_NM_Type rdf:resource="&wiki;Alloy"/>
+		<property:Has_NM_Type rdf:resource="&wiki;QuantumDot"/>
+		<property:Has_Specific_NM_Type rdf:resource="&wiki;NPO_160"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-23T17:17:57</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;WO3-2D15NM-2DJB20170929-2D1_M1">
@@ -29315,6 +29319,57 @@
 		<property:Has_Source rdf:resource="&wiki;Choi2018"/>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-23T19:34:25</swivt:wikiPageModificationDate>
 	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Density">
+		<rdfs:label>Density</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Density"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Density"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<owl:sameAs rdf:resource="&wiki;Effective_Density"/>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;NPO_160">
+		<rdfs:label>NPO 160</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;NPO_160"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/NPO_160"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMaterialTypes"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<owl:sameAs rdf:resource="http://purl.bioontology.org/ontology/npo#NPO_160"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-24T07:35:02</swivt:wikiPageModificationDate>
+		<property:Original_URI rdf:resource="http://purl.bioontology.org/ontology/npo#NPO_160"/>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;QuantumDot">
+		<rdfs:label>QuantumDot</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;QuantumDot"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/QuantumDot"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMaterialTypes"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<owl:sameAs rdf:resource="http://purl.bioontology.org/ontology/npo#NPO_589"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-24T07:37:27</swivt:wikiPageModificationDate>
+		<property:Original_URI rdf:resource="http://purl.bioontology.org/ontology/npo#NPO_589"/>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;NPO_193">
+		<rdfs:label>NPO 193</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;NPO_193"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/NPO_193"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMaterialTypes"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<owl:sameAs rdf:resource="http://purl.bioontology.org/ontology/npo#NPO_193"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-24T07:39:10</swivt:wikiPageModificationDate>
+		<property:Original_URI rdf:resource="http://purl.bioontology.org/ontology/npo#NPO_193"/>
+	</swivt:Subject>
+	<owl:Class rdf:about="&wiki;Category-3AQuantumDots">
+		<rdfs:label>QuantumDots</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Category:QuantumDots"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Category:QuantumDots"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</swivt:wikiNamespace>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-24T07:40:29</swivt:wikiPageModificationDate>
+	</owl:Class>
+	<owl:Class rdf:about="&wiki;Category-3AGraphenes">
+		<rdfs:label>Graphenes</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Category:Graphenes"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Category:Graphenes"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</swivt:wikiNamespace>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-24T07:44:01</swivt:wikiPageModificationDate>
+	</owl:Class>
 	<owl:DatatypeProperty rdf:about="&swivt;creationDate" />
 	<owl:ObjectProperty rdf:about="&swivt;page" />
 	<owl:DatatypeProperty rdf:about="&swivt;wikiNamespace" />
@@ -29338,6 +29393,7 @@
 	<owl:Class rdf:about="&wiki;Category-3ADiameter" />
 	<owl:Class rdf:about="&wiki;Category-3APurity" />
 	<owl:Class rdf:about="&wiki;Category-3ASurface_Area" />
+	<owl:Class rdf:about="&wiki;Category-3AToxicity_Classifier" />
 	<owl:Class rdf:about="&wiki;Category-3APrimary_Particle_Size" />
 	<owl:Class rdf:about="&wiki;Category-3ASpecific_Surface_Area" />
 	<owl:Class rdf:about="&wiki;Category-3AShape" />
@@ -29375,8 +29431,6 @@
 	<owl:Class rdf:about="&wiki;Category-3APolymorphism" />
 	<owl:Class rdf:about="&wiki;Category-3ATranscriptomics_responses" />
 	<owl:Class rdf:about="&wiki;Category-3AMetabolite_Abundance" />
-	<owl:Class rdf:about="&wiki;Category-3AGraphenes" />
-	<owl:Class rdf:about="&wiki;Category-3ADensity" />
 	<owl:Class rdf:about="&wiki;Category-3APycnometer" />
 	<owl:Class rdf:about="&wiki;Category-3AICP-2DMS" />
 	<!-- Created by Semantic MediaWiki, http://semantic-mediawiki.org/ -->
