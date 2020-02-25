@@ -112985,6 +112985,24 @@ poly(DL-lactic-co-glycolic acid)</text>
 
 {{#set:|Used in Study=MTBLS260}}</text>
     </revision>
+    <revision>
+      <id>5618</id>
+      <timestamp>2020-02-25T07:54:56Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=476
+|Has Bundle=MetaboLights
+|Has Label=AgNP
+|Has Chemical Composition=Ag
+|Has Chemical Coating=PVP Coating
+|Has NM Type=Metal
+}}
+
+{{#set:|Used in Study=MTBLS260}}</text>
+    </revision>
   </page>
   <page>
     <title>MTBLS721</title>
@@ -115310,6 +115328,23 @@ Inductively Coupled Plasma Mass Spectrometry</text>
 |Has Label=CdS-60NM-NS-B-1
 |Has Chemical Composition=CdS
 |Has NM Type=Alloy
+|Has SMILES=[Cd][S]
+|Has Bundle=HSPH-NIEHS Reference ENM Repository
+|Has Source=To2019
+}}</text>
+    </revision>
+    <revision>
+      <id>5623</id>
+      <timestamp>2020-02-25T08:26:40Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Material
+|Has Identifier=493
+|Has Label=CdS-60NM-NS-B-1
+|Has Chemical Composition=CdS
+|Has NM Type=QuantumDot
 |Has SMILES=[Cd][S]
 |Has Bundle=HSPH-NIEHS Reference ENM Repository
 |Has Source=To2019
@@ -117831,6 +117866,102 @@ Quantum dots are nanoparticles named after there chemical function.
  |limit=250
  |sort=Has Identifier
 }}</text>
+    </revision>
+  </page>
+  <page>
+    <title>PVP Coating</title>
+    <id>2446</id>
+    <revision>
+      <id>5616</id>
+      <timestamp>2020-02-25T07:54:04Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Coating}}  {{#set:|Has Chemical=PVP}}&quot;</comment>
+      <text xml:space="preserve">{{Coating}}
+
+{{#set:|Has Chemical=PVP}}</text>
+    </revision>
+    <revision>
+      <id>5619</id>
+      <timestamp>2020-02-25T08:09:37Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve">{{Coating}}
+
+{{#set:|Has Chemical=Polyvinylpyrrolidone}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>PVP</title>
+    <id>2447</id>
+    <revision>
+      <id>5617</id>
+      <timestamp>2020-02-25T07:54:52Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{CoatingPart |SMILES=C=CC1=CC=C(C=C1)O }}&quot;</comment>
+      <text xml:space="preserve">{{CoatingPart
+|SMILES=C=CC1=CC=C(C=C1)O
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Polyvinylpyrrolidone</title>
+    <id>2448</id>
+    <revision>
+      <id>5620</id>
+      <timestamp>2020-02-25T08:10:22Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{CoatingPart |SMILES=O=C1N(C=C)CCC1 }}&quot;</comment>
+      <text xml:space="preserve">{{CoatingPart
+|SMILES=O=C1N(C=C)CCC1
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>MTBLS260 M1 M1</title>
+    <id>2449</id>
+    <revision>
+      <id>5621</id>
+      <timestamp>2020-02-25T08:17:15Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Measurement |Has Entity=MTBLS260 M1 |Has Endpoint Value=28.3 |Has Endpoint Error=0.8 |Has Endpoint Value Units=nm |Has Endpoint=Diameter |Has Method=Fl-FFF }}&quot;</comment>
+      <text xml:space="preserve">{{Measurement
+|Has Entity=MTBLS260 M1
+|Has Endpoint Value=28.3
+|Has Endpoint Error=0.8
+|Has Endpoint Value Units=nm
+|Has Endpoint=Diameter
+|Has Method=Fl-FFF
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Fl-FFF</title>
+    <id>2450</id>
+    <revision>
+      <id>5622</id>
+      <timestamp>2020-02-25T08:18:49Z</timestamp>
+      <contributor>
+        <username>Egonw</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;{{Method}}  Flow field flow fractionation.&quot;</comment>
+      <text xml:space="preserve">{{Method}}
+
+Flow field flow fractionation.</text>
     </revision>
   </page>
 </mediawiki>

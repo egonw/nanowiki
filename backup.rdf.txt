@@ -18,7 +18,7 @@
 	xmlns:property="&property;">
 
 	<owl:Ontology rdf:about="">
-		<swivt:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-24T09:14:16+01:00</swivt:creationDate>
+		<swivt:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-25T09:28:00+01:00</swivt:creationDate>
 		<owl:imports rdf:resource="http://semantic-mediawiki.org/swivt/1.0"/>
 	</owl:Ontology>
 	<swivt:Subject rdf:about="&wiki;Main_Page">
@@ -11645,7 +11645,7 @@
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-16.8</property:Has_Endpoint_Value>
 		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Endpoint_Value_Units>
 		<property:Has_Entity rdf:resource="&wiki;Shaw51_51"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-30T16:17:55</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-29T18:42:49</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Shaw51_50_M1">
 		<rdfs:label>Shaw51 50 M1</rdfs:label>
@@ -11657,7 +11657,7 @@
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-16.8</property:Has_Endpoint_Value>
 		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Endpoint_Value_Units>
 		<property:Has_Entity rdf:resource="&wiki;Shaw51_50"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-30T16:19:29</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-29T18:42:41</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Shaw51_49_M1">
 		<rdfs:label>Shaw51 49 M1</rdfs:label>
@@ -11669,7 +11669,7 @@
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-11.3</property:Has_Endpoint_Value>
 		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Endpoint_Value_Units>
 		<property:Has_Entity rdf:resource="&wiki;Shaw51_49"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-30T16:19:15</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-29T18:42:18</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Shaw51_48_M1">
 		<rdfs:label>Shaw51 48 M1</rdfs:label>
@@ -11681,7 +11681,7 @@
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-37.0</property:Has_Endpoint_Value>
 		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Endpoint_Value_Units>
 		<property:Has_Entity rdf:resource="&wiki;Shaw51_48"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-30T16:19:56</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-29T18:42:10</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Shaw51_47_M1">
 		<rdfs:label>Shaw51 47 M1</rdfs:label>
@@ -11693,7 +11693,7 @@
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-9.23</property:Has_Endpoint_Value>
 		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Endpoint_Value_Units>
 		<property:Has_Entity rdf:resource="&wiki;Shaw51_47"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-30T16:20:28</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-29T18:41:43</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Shaw51_46_M1">
 		<rdfs:label>Shaw51 46 M1</rdfs:label>
@@ -11705,7 +11705,7 @@
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-14.5</property:Has_Endpoint_Value>
 		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Endpoint_Value_Units>
 		<property:Has_Entity rdf:resource="&wiki;Shaw51_46"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-30T16:20:53</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-29T18:41:35</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Shaw51_45_M1">
 		<rdfs:label>Shaw51 45 M1</rdfs:label>
@@ -11717,7 +11717,7 @@
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-13.6</property:Has_Endpoint_Value>
 		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Endpoint_Value_Units>
 		<property:Has_Entity rdf:resource="&wiki;Shaw51_45"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-30T16:21:17</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-29T18:41:27</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Shaw51_43_M1">
 		<rdfs:label>Shaw51 43 M1</rdfs:label>
@@ -11729,7 +11729,7 @@
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-6.75</property:Has_Endpoint_Value>
 		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Endpoint_Value_Units>
 		<property:Has_Entity rdf:resource="&wiki;Shaw51_43"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-30T16:22:48</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-29T18:41:15</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Shaw51_42_M1">
 		<rdfs:label>Shaw51 42 M1</rdfs:label>
@@ -11741,7 +11741,7 @@
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-7.7</property:Has_Endpoint_Value>
 		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Endpoint_Value_Units>
 		<property:Has_Entity rdf:resource="&wiki;Shaw51_42"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-30T16:23:14</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-29T18:41:08</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Shaw51_41_M1">
 		<rdfs:label>Shaw51 41 M1</rdfs:label>
@@ -11753,7 +11753,7 @@
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-10.8</property:Has_Endpoint_Value>
 		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Endpoint_Value_Units>
 		<property:Has_Entity rdf:resource="&wiki;Shaw51_41"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-30T16:23:55</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-29T18:41:01</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Shaw51_40_M1">
 		<rdfs:label>Shaw51 40 M1</rdfs:label>
@@ -11765,7 +11765,7 @@
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-6.54</property:Has_Endpoint_Value>
 		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Endpoint_Value_Units>
 		<property:Has_Entity rdf:resource="&wiki;Shaw51_40"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-30T16:24:46</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-29T18:40:54</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Shaw51_39_M1">
 		<rdfs:label>Shaw51 39 M1</rdfs:label>
@@ -11777,7 +11777,7 @@
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-6.47</property:Has_Endpoint_Value>
 		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Endpoint_Value_Units>
 		<property:Has_Entity rdf:resource="&wiki;Shaw51_39"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-30T16:25:18</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-29T18:40:46</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Shaw51_38_M1">
 		<rdfs:label>Shaw51 38 M1</rdfs:label>
@@ -11789,7 +11789,7 @@
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-4.70</property:Has_Endpoint_Value>
 		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Endpoint_Value_Units>
 		<property:Has_Entity rdf:resource="&wiki;Shaw51_38"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-30T16:25:40</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-29T18:40:38</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Shaw51_37_M1">
 		<rdfs:label>Shaw51 37 M1</rdfs:label>
@@ -11801,7 +11801,7 @@
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-16.1</property:Has_Endpoint_Value>
 		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Endpoint_Value_Units>
 		<property:Has_Entity rdf:resource="&wiki;Shaw51_37"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-30T16:34:18</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-29T18:40:30</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Shaw51_36_M1">
 		<rdfs:label>Shaw51 36 M1</rdfs:label>
@@ -11813,7 +11813,7 @@
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-15.6</property:Has_Endpoint_Value>
 		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Endpoint_Value_Units>
 		<property:Has_Entity rdf:resource="&wiki;Shaw51_36"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-30T16:36:45</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-29T18:40:24</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Shaw51_35_M1">
 		<rdfs:label>Shaw51 35 M1</rdfs:label>
@@ -11825,7 +11825,7 @@
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-12.1</property:Has_Endpoint_Value>
 		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Endpoint_Value_Units>
 		<property:Has_Entity rdf:resource="&wiki;Shaw51_35"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-30T16:37:03</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-29T18:40:17</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Shaw51_34_M1">
 		<rdfs:label>Shaw51 34 M1</rdfs:label>
@@ -11837,7 +11837,7 @@
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-4.3</property:Has_Endpoint_Value>
 		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Endpoint_Value_Units>
 		<property:Has_Entity rdf:resource="&wiki;Shaw51_34"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-30T16:37:22</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-29T18:40:10</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Shaw51_33_M1">
 		<rdfs:label>Shaw51 33 M1</rdfs:label>
@@ -11849,7 +11849,7 @@
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-7.15</property:Has_Endpoint_Value>
 		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Endpoint_Value_Units>
 		<property:Has_Entity rdf:resource="&wiki;Shaw51_33"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-30T16:37:44</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-29T18:40:04</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Shaw51_32_M1">
 		<rdfs:label>Shaw51 32 M1</rdfs:label>
@@ -11861,7 +11861,7 @@
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-4.22</property:Has_Endpoint_Value>
 		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Endpoint_Value_Units>
 		<property:Has_Entity rdf:resource="&wiki;Shaw51_32"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-30T16:38:06</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-29T18:39:57</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Shaw51_31_M1">
 		<rdfs:label>Shaw51 31 M1</rdfs:label>
@@ -11873,7 +11873,7 @@
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-12.3</property:Has_Endpoint_Value>
 		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Endpoint_Value_Units>
 		<property:Has_Entity rdf:resource="&wiki;Shaw51_31"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-30T16:38:27</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-29T18:39:50</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Shaw51_30_M1">
 		<rdfs:label>Shaw51 30 M1</rdfs:label>
@@ -11885,7 +11885,7 @@
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-6.05</property:Has_Endpoint_Value>
 		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Endpoint_Value_Units>
 		<property:Has_Entity rdf:resource="&wiki;Shaw51_30"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-30T16:38:55</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-29T18:39:43</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Shaw51_29_M1">
 		<rdfs:label>Shaw51 29 M1</rdfs:label>
@@ -11897,7 +11897,7 @@
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.25</property:Has_Endpoint_Value>
 		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Endpoint_Value_Units>
 		<property:Has_Entity rdf:resource="&wiki;Shaw51_29"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-30T16:39:59</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-29T18:39:35</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Shaw51_28_M1">
 		<rdfs:label>Shaw51 28 M1</rdfs:label>
@@ -11909,7 +11909,7 @@
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-7.57</property:Has_Endpoint_Value>
 		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Endpoint_Value_Units>
 		<property:Has_Entity rdf:resource="&wiki;Shaw51_28"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-30T16:40:21</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-29T18:39:28</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Shaw51_27_M1">
 		<rdfs:label>Shaw51 27 M1</rdfs:label>
@@ -11921,7 +11921,7 @@
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-3.77</property:Has_Endpoint_Value>
 		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Endpoint_Value_Units>
 		<property:Has_Entity rdf:resource="&wiki;Shaw51_27"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-30T16:40:44</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-29T18:39:21</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Shaw51_26_M1">
 		<rdfs:label>Shaw51 26 M1</rdfs:label>
@@ -11933,7 +11933,7 @@
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-12.0</property:Has_Endpoint_Value>
 		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Endpoint_Value_Units>
 		<property:Has_Entity rdf:resource="&wiki;Shaw51_26"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-30T16:41:06</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-29T18:39:13</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Shaw51_25_M1">
 		<rdfs:label>Shaw51 25 M1</rdfs:label>
@@ -11945,7 +11945,7 @@
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-0.877</property:Has_Endpoint_Value>
 		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Endpoint_Value_Units>
 		<property:Has_Entity rdf:resource="&wiki;Shaw51_25"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-30T16:41:29</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-29T18:39:06</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Shaw51_24_M1">
 		<rdfs:label>Shaw51 24 M1</rdfs:label>
@@ -11957,7 +11957,7 @@
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-18.4</property:Has_Endpoint_Value>
 		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Endpoint_Value_Units>
 		<property:Has_Entity rdf:resource="&wiki;Shaw51_24"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-30T16:41:51</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-29T18:38:59</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Shaw51_23_M1">
 		<rdfs:label>Shaw51 23 M1</rdfs:label>
@@ -11969,7 +11969,7 @@
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-6.11</property:Has_Endpoint_Value>
 		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Endpoint_Value_Units>
 		<property:Has_Entity rdf:resource="&wiki;Shaw51_23"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-30T16:42:14</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-29T18:38:52</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Shaw51_22_M1">
 		<rdfs:label>Shaw51 22 M1</rdfs:label>
@@ -11981,7 +11981,7 @@
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-21.9</property:Has_Endpoint_Value>
 		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Endpoint_Value_Units>
 		<property:Has_Entity rdf:resource="&wiki;Shaw51_22"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-10T08:37:26</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-29T18:38:44</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Shaw51_21_M1">
 		<rdfs:label>Shaw51 21 M1</rdfs:label>
@@ -11993,7 +11993,7 @@
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-9.23</property:Has_Endpoint_Value>
 		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Endpoint_Value_Units>
 		<property:Has_Entity rdf:resource="&wiki;Shaw51_21"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-30T16:42:58</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-29T18:38:36</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Shaw51_20_M1">
 		<rdfs:label>Shaw51 20 M1</rdfs:label>
@@ -12005,7 +12005,7 @@
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-9.34</property:Has_Endpoint_Value>
 		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Endpoint_Value_Units>
 		<property:Has_Entity rdf:resource="&wiki;Shaw51_20"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-30T16:43:22</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-29T18:38:28</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Shaw51_19_M1">
 		<rdfs:label>Shaw51 19 M1</rdfs:label>
@@ -12017,7 +12017,7 @@
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-3.61</property:Has_Endpoint_Value>
 		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Endpoint_Value_Units>
 		<property:Has_Entity rdf:resource="&wiki;Shaw51_19"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-30T16:43:44</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-29T18:38:20</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Shaw51_18_M1">
 		<rdfs:label>Shaw51 18 M1</rdfs:label>
@@ -12029,7 +12029,7 @@
 		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-9.08</property:Has_Endpoint_Value>
 		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mV</property:Has_Endpoint_Value_Units>
 		<property:Has_Entity rdf:resource="&wiki;Shaw51_18"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-30T16:44:06</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-29T18:38:12</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;Shaw51_17_M1">
 		<rdfs:label>Shaw51 17 M1</rdfs:label>
@@ -26841,11 +26841,12 @@
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
 		<property:Has_Bundle rdf:resource="&wiki;MetaboLights"/>
+		<property:Has_Chemical_Coating rdf:resource="&wiki;PVP_Coating"/>
 		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ag</property:Has_Chemical_Composition>
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">476</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AgNP</property:Has_Label>
 		<property:Has_NM_Type rdf:resource="&wiki;Metal"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-23T14:55:39</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-23T14:56:13</swivt:wikiPageModificationDate>
 		<property:Used_in_Study rdf:resource="&wiki;MTBLS260"/>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;MTBLS721">
@@ -27903,7 +27904,7 @@
 		<rdfs:label>CdS-60NM-NS-B-1</rdfs:label>
 		<swivt:page rdf:resource="&wikiurl;CdS-60NM-NS-B-1"/>
 		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/CdS-60NM-NS-B-1"/>
-		<rdf:type rdf:resource="&wiki;Category-3AAlloys"/>
+		<rdf:type rdf:resource="&wiki;Category-3AQuantumDots"/>
 		<rdf:type rdf:resource="&wiki;Category-3AMaterials"/>
 		<rdf:type rdf:resource="&wiki;Category-3AChemical_Entities"/>
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
@@ -27911,10 +27912,10 @@
 		<property:Has_Chemical_Composition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CdS</property:Has_Chemical_Composition>
 		<property:Has_Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#double">493</property:Has_Identifier>
 		<property:Has_Label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CdS-60NM-NS-B-1</property:Has_Label>
-		<property:Has_NM_Type rdf:resource="&wiki;Alloy"/>
+		<property:Has_NM_Type rdf:resource="&wiki;QuantumDot"/>
 		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Cd][S]</property:Has_SMILES>
 		<property:Has_Source rdf:resource="&wiki;To2019"/>
-		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-23T16:56:41</swivt:wikiPageModificationDate>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-23T17:21:38</swivt:wikiPageModificationDate>
 	</swivt:Subject>
 	<swivt:Subject rdf:about="&wiki;CdS-2D60NM-2DNS-2DB-2D1_M1">
 		<rdfs:label>CdS-60NM-NS-B-1 M1</rdfs:label>
@@ -29370,6 +29371,55 @@
 		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</swivt:wikiNamespace>
 		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-24T07:44:01</swivt:wikiPageModificationDate>
 	</owl:Class>
+	<swivt:Subject rdf:about="&wiki;PVP_Coating">
+		<rdfs:label>PVP Coating</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;PVP_Coating"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/PVP_Coating"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoatings"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Chemical rdf:resource="&wiki;Polyvinylpyrrolidone"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-25T07:54:04</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;PVP">
+		<rdfs:label>PVP</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;PVP"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/PVP"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoating_Parts"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C=CC1=CC=C(C=C1)O</property:Has_SMILES>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-25T07:54:52</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Polyvinylpyrrolidone">
+		<rdfs:label>Polyvinylpyrrolidone</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Polyvinylpyrrolidone"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Polyvinylpyrrolidone"/>
+		<rdf:type rdf:resource="&wiki;Category-3ACoating_Parts"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_SMILES rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O=C1N(C=C)CCC1</property:Has_SMILES>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-25T08:10:22</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;MTBLS260_M1_M1">
+		<rdfs:label>MTBLS260 M1 M1</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;MTBLS260_M1_M1"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/MTBLS260_M1_M1"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMeasurements"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_Endpoint rdf:resource="&wiki;Diameter"/>
+		<property:Has_Endpoint_Error rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.8</property:Has_Endpoint_Error>
+		<property:Has_Endpoint_Value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">28.3</property:Has_Endpoint_Value>
+		<property:Has_Endpoint_Value_Units rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm</property:Has_Endpoint_Value_Units>
+		<property:Has_Entity rdf:resource="&wiki;MTBLS260_M1"/>
+		<property:Has_Method rdf:resource="&wiki;Fl-2DFFF"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-25T08:17:15</swivt:wikiPageModificationDate>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Fl-2DFFF">
+		<rdfs:label>Fl-FFF</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Fl-FFF"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Fl-FFF"/>
+		<rdf:type rdf:resource="&wiki;Category-3AMethods"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-25T08:18:49</swivt:wikiPageModificationDate>
+	</swivt:Subject>
 	<owl:DatatypeProperty rdf:about="&swivt;creationDate" />
 	<owl:ObjectProperty rdf:about="&swivt;page" />
 	<owl:DatatypeProperty rdf:about="&swivt;wikiNamespace" />
