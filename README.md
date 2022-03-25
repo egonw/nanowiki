@@ -9,3 +9,9 @@ php /usr/share/mediawiki/maintenance/dumpBackup.php --conf /etc/mediawiki/LocalS
 export MW_INSTALL_PATH=/usr/share/mediawiki
 php /usr/local/share/mediawiki-extensions/SemanticMediaWiki/maintenance/SMW_dumpRDF.php --conf /etc/mediawiki/LocalSettings.php --aconf /etc/mediawiki/AdminSettings.php > backup.rdf.txt
 ```
+
+## Convert to Turtle
+
+```shell
+rapper -i rdfxml -o turtle backup.rdf.txt >backup.ttl.txt
+```
