@@ -12,7 +12,7 @@
       },
     "@id": "https://egonw.github.io/nanowiki/nanowiki378.html#material",
     "name": "JRCNM62002a",
-    "sameAs: "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/JRCNM62002a"
+    "sameAs": "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/JRCNM62002a"
   }
 </script>
 

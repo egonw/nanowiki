@@ -12,7 +12,7 @@
       },
     "@id": "https://egonw.github.io/nanowiki/nanowiki314.html#material",
     "name": "Zhang2013 M9",
-    "sameAs: "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Zhang2013_M9"
+    "sameAs": "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Zhang2013_M9"
   }
 </script>
 

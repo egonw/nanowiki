@@ -12,7 +12,7 @@
       },
     "@id": "https://egonw.github.io/nanowiki/nanowiki107.html#material",
     "name": "Field2011 Batch2",
-    "sameAs: "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Field2011_Batch2"
+    "sameAs": "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Field2011_Batch2"
   }
 </script>
 

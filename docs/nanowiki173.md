@@ -12,7 +12,7 @@
       },
     "@id": "https://egonw.github.io/nanowiki/nanowiki173.html#material",
     "name": "SimonDeckers2009 NM4",
-    "sameAs: "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/SimonDeckers2009_NM4"
+    "sameAs": "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/SimonDeckers2009_NM4"
   }
 </script>
 

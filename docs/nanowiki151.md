@@ -12,7 +12,7 @@
       },
     "@id": "https://egonw.github.io/nanowiki/nanowiki151.html#material",
     "name": "Gerloff2009 NM2",
-    "sameAs: "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Gerloff2009_NM2"
+    "sameAs": "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Gerloff2009_NM2"
   }
 </script>
 

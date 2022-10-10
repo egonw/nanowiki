@@ -12,7 +12,7 @@
       },
     "@id": "https://egonw.github.io/nanowiki/nanowiki71.html#material",
     "name": "Shaw51 41",
-    "sameAs: "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Shaw51_41"
+    "sameAs": "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Shaw51_41"
   }
 </script>
 

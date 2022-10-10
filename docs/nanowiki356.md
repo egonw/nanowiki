@@ -12,7 +12,7 @@
       },
     "@id": "https://egonw.github.io/nanowiki/nanowiki356.html#material",
     "name": "JRC2011 NM-300 DIS",
-    "sameAs: "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/JRC2011_NM-2D300_DIS"
+    "sameAs": "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/JRC2011_NM-2D300_DIS"
   }
 </script>
 

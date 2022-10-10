@@ -12,7 +12,7 @@
       },
     "@id": "https://egonw.github.io/nanowiki/nanowiki210.html#material",
     "name": "Rancan2012 M8",
-    "sameAs: "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Rancan2012_M8"
+    "sameAs": "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Rancan2012_M8"
   }
 </script>
 

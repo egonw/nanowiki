@@ -12,7 +12,7 @@
       },
     "@id": "https://egonw.github.io/nanowiki/nanowiki160.html#material",
     "name": "Gopalan2009 NM2",
-    "sameAs: "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Gopalan2009_NM2"
+    "sameAs": "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Gopalan2009_NM2"
   }
 </script>
 

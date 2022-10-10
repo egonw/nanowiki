@@ -12,7 +12,7 @@
       },
     "@id": "https://egonw.github.io/nanowiki/nanowiki165.html#material",
     "name": "Wang2009 NM2",
-    "sameAs: "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Wang2009_NM2"
+    "sameAs": "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Wang2009_NM2"
   }
 </script>
 

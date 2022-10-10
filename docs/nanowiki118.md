@@ -12,7 +12,7 @@
       },
     "@id": "https://egonw.github.io/nanowiki/nanowiki118.html#material",
     "name": "Jeng2006 M1",
-    "sameAs: "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Jeng2006_M1"
+    "sameAs": "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Jeng2006_M1"
   }
 </script>
 

@@ -12,7 +12,7 @@
       },
     "@id": "https://egonw.github.io/nanowiki/nanowiki445.html#material",
     "name": "GSE62253 AgPURE",
-    "sameAs: "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/GSE62253_AgPURE"
+    "sameAs": "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/GSE62253_AgPURE"
   }
 </script>
 

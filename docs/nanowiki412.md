@@ -12,7 +12,7 @@
       },
     "@id": "https://egonw.github.io/nanowiki/nanowiki412.html#material",
     "name": "MarcheseRobinson-C60",
-    "sameAs: "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/MarcheseRobinson-2DC60"
+    "sameAs": "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/MarcheseRobinson-2DC60"
   }
 </script>
 

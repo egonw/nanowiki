@@ -12,7 +12,7 @@
       },
     "@id": "https://egonw.github.io/nanowiki/nanowiki220.html#material",
     "name": "Zhou2008 M8",
-    "sameAs: "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Zhou2008_M8"
+    "sameAs": "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Zhou2008_M8"
   }
 </script>
 

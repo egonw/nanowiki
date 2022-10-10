@@ -12,7 +12,7 @@
       },
     "@id": "https://egonw.github.io/nanowiki/nanowiki190.html#material",
     "name": "Cho2012 NM3",
-    "sameAs: "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Cho2012_NM3"
+    "sameAs": "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Cho2012_NM3"
   }
 </script>
 

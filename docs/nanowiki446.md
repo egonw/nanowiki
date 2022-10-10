@@ -12,7 +12,7 @@
       },
     "@id": "https://egonw.github.io/nanowiki/nanowiki446.html#material",
     "name": "Gioria2016 5",
-    "sameAs: "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Gioria2016_5"
+    "sameAs": "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Gioria2016_5"
   }
 </script>
 

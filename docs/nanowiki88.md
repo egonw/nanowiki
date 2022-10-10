@@ -12,7 +12,7 @@
       },
     "@id": "https://egonw.github.io/nanowiki/nanowiki88.html#material",
     "name": "Liu2011 07",
-    "sameAs: "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Liu2011_07"
+    "sameAs": "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Liu2011_07"
   }
 </script>
 

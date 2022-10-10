@@ -12,7 +12,7 @@
       },
     "@id": "https://egonw.github.io/nanowiki/nanowiki294.html#material",
     "name": "Kim2011 NM2",
-    "sameAs: "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Kim2011_NM2"
+    "sameAs": "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Kim2011_NM2"
   }
 </script>
 

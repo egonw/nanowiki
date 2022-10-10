@@ -12,7 +12,7 @@
       },
     "@id": "https://egonw.github.io/nanowiki/nanowiki143.html#material",
     "name": "Shi2012 NM3",
-    "sameAs: "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Shi2012_NM3"
+    "sameAs": "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Shi2012_NM3"
   }
 </script>
 

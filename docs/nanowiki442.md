@@ -12,7 +12,7 @@
       },
     "@id": "https://egonw.github.io/nanowiki/nanowiki442.html#material",
     "name": "CHEMBL1741002",
-    "sameAs: "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/CHEMBL1741002"
+    "sameAs": "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/CHEMBL1741002"
   }
 </script>
 

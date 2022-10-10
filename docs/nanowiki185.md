@@ -12,7 +12,7 @@
       },
     "@id": "https://egonw.github.io/nanowiki/nanowiki185.html#material",
     "name": "Horie2009 NM8",
-    "sameAs: "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Horie2009_NM8"
+    "sameAs": "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Horie2009_NM8"
   }
 </script>
 

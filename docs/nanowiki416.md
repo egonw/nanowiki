@@ -12,7 +12,7 @@
       },
     "@id": "https://egonw.github.io/nanowiki/nanowiki416.html#material",
     "name": "Chithrani Au1",
-    "sameAs: "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Chithrani_Au1"
+    "sameAs": "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Chithrani_Au1"
   }
 </script>
 

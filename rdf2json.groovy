@@ -46,7 +46,7 @@ for (i in 0..(results.rowCount-1)) {
       },
     "@id": "https://egonw.github.io/nanowiki/nanowiki${identifier}.html#material",
     "name": "${label}",
-    "sameAs: "${substance}"
+    "sameAs": "${substance}"
   }
 """)
   ui.append(nmFile, "</script>\n\n")

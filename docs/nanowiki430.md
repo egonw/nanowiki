@@ -12,7 +12,7 @@
       },
     "@id": "https://egonw.github.io/nanowiki/nanowiki430.html#material",
     "name": "Prabhu2010 M1",
-    "sameAs: "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Prabhu2010_M1"
+    "sameAs": "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Prabhu2010_M1"
   }
 </script>
 

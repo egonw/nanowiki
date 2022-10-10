@@ -12,7 +12,7 @@
       },
     "@id": "https://egonw.github.io/nanowiki/nanowiki362.html#material",
     "name": "Limbach2005 NM4",
-    "sameAs: "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Limbach2005_NM4"
+    "sameAs": "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Limbach2005_NM4"
   }
 </script>
 

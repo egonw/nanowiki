@@ -12,7 +12,7 @@
       },
     "@id": "https://egonw.github.io/nanowiki/nanowiki435.html#material",
     "name": "Midander2009 M3",
-    "sameAs: "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Midander2009_M3"
+    "sameAs": "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Midander2009_M3"
   }
 </script>
 

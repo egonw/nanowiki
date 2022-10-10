@@ -12,7 +12,7 @@
       },
     "@id": "https://egonw.github.io/nanowiki/nanowiki345.html#material",
     "name": "JRC2011 NM-105",
-    "sameAs: "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/JRC2011_NM-2D105"
+    "sameAs": "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/JRC2011_NM-2D105"
   }
 </script>
 

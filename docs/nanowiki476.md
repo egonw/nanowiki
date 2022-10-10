@@ -12,7 +12,7 @@
       },
     "@id": "https://egonw.github.io/nanowiki/nanowiki476.html#material",
     "name": "MTBLS260 M1",
-    "sameAs: "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/MTBLS260_M1"
+    "sameAs": "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/MTBLS260_M1"
   }
 </script>
 

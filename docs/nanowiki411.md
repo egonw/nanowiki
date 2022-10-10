@@ -12,7 +12,7 @@
       },
     "@id": "https://egonw.github.io/nanowiki/nanowiki411.html#material",
     "name": "Nymark2015-M3",
-    "sameAs: "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Nymark2015-2DM3"
+    "sameAs": "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Nymark2015-2DM3"
   }
 </script>
 

@@ -12,7 +12,7 @@
       },
     "@id": "https://egonw.github.io/nanowiki/nanowiki304.html#material",
     "name": "Antisari2013 M5",
-    "sameAs: "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Antisari2013_M5"
+    "sameAs": "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Antisari2013_M5"
   }
 </script>
 

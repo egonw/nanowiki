@@ -12,7 +12,7 @@
       },
     "@id": "https://egonw.github.io/nanowiki/nanowiki427.html#material",
     "name": "E-GEOD-39316-M1",
-    "sameAs: "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/E-2DGEOD-2D39316-2DM1"
+    "sameAs": "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/E-2DGEOD-2D39316-2DM1"
   }
 </script>
 

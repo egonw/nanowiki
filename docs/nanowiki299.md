@@ -12,7 +12,7 @@
       },
     "@id": "https://egonw.github.io/nanowiki/nanowiki299.html#material",
     "name": "Lesniak2013 NM4",
-    "sameAs: "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Lesniak2013_NM4"
+    "sameAs": "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Lesniak2013_NM4"
   }
 </script>
 

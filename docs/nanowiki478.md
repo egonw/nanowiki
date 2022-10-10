@@ -12,7 +12,7 @@
       },
     "@id": "https://egonw.github.io/nanowiki/nanowiki478.html#material",
     "name": "MTBLS721 P2",
-    "sameAs: "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/MTBLS721_P2"
+    "sameAs": "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/MTBLS721_P2"
   }
 </script>
 

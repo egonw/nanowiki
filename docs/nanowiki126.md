@@ -12,7 +12,7 @@
       },
     "@id": "https://egonw.github.io/nanowiki/nanowiki126.html#material",
     "name": "Deshpande2005 M3",
-    "sameAs: "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Deshpande2005_M3"
+    "sameAs": "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Deshpande2005_M3"
   }
 </script>
 

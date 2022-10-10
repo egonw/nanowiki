@@ -12,7 +12,7 @@
       },
     "@id": "https://egonw.github.io/nanowiki/nanowiki415.html#material",
     "name": "Aldrich 482951",
-    "sameAs: "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Aldrich_482951"
+    "sameAs": "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Aldrich_482951"
   }
 </script>
 

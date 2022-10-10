@@ -12,7 +12,7 @@
       },
     "@id": "https://egonw.github.io/nanowiki/nanowiki507.html#material",
     "name": "V2O5-100NM-B-NS",
-    "sameAs: "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/V2O5-2D100NM-2DB-2DNS"
+    "sameAs": "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/V2O5-2D100NM-2DB-2DNS"
   }
 </script>
 

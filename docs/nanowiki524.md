@@ -12,7 +12,7 @@
       },
     "@id": "https://egonw.github.io/nanowiki/nanowiki524.html#material",
     "name": "Choi2018 M13",
-    "sameAs: "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Choi2018_M13"
+    "sameAs": "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Choi2018_M13"
   }
 </script>
 

@@ -12,7 +12,7 @@
       },
     "@id": "https://egonw.github.io/nanowiki/nanowiki499.html#material",
     "name": "FE2O3-100NM-JB20161128-1",
-    "sameAs: "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/FE2O3-2D100NM-2DJB20161128-2D1"
+    "sameAs": "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/FE2O3-2D100NM-2DJB20161128-2D1"
   }
 </script>
 

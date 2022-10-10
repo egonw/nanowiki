@@ -12,7 +12,7 @@
       },
     "@id": "https://egonw.github.io/nanowiki/nanowiki505.html#material",
     "name": "WO3-15NM-JB20170929-1",
-    "sameAs: "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/WO3-2D15NM-2DJB20170929-2D1"
+    "sameAs": "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/WO3-2D15NM-2DJB20170929-2D1"
   }
 </script>
 

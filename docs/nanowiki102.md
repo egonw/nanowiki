@@ -12,7 +12,7 @@
       },
     "@id": "https://egonw.github.io/nanowiki/nanowiki102.html#material",
     "name": "Jugan5 A25",
-    "sameAs: "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Jugan5_A25"
+    "sameAs": "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Jugan5_A25"
   }
 </script>
 

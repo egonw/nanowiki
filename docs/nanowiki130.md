@@ -12,7 +12,7 @@
       },
     "@id": "https://egonw.github.io/nanowiki/nanowiki130.html#material",
     "name": "Nagy2012 QD4",
-    "sameAs: "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Nagy2012_QD4"
+    "sameAs": "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Nagy2012_QD4"
   }
 </script>
 

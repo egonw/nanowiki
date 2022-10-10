@@ -12,7 +12,7 @@
       },
     "@id": "https://egonw.github.io/nanowiki/nanowiki98.html#material",
     "name": "Harper2011 8",
-    "sameAs: "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Harper2011_8"
+    "sameAs": "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Harper2011_8"
   }
 </script>
 

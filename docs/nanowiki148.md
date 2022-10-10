@@ -12,7 +12,7 @@
       },
     "@id": "https://egonw.github.io/nanowiki/nanowiki148.html#material",
     "name": "Berg2009 NM4",
-    "sameAs: "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Berg2009_NM4"
+    "sameAs": "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Berg2009_NM4"
   }
 </script>
 

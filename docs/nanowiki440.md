@@ -12,7 +12,7 @@
       },
     "@id": "https://egonw.github.io/nanowiki/nanowiki440.html#material",
     "name": "COD 1518680",
-    "sameAs: "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/COD_1518680"
+    "sameAs": "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/COD_1518680"
   }
 </script>
 

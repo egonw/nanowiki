@@ -12,7 +12,7 @@
       },
     "@id": "https://egonw.github.io/nanowiki/nanowiki472.html#material",
     "name": "Shinohara-C60",
-    "sameAs: "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Shinohara-2DC60"
+    "sameAs": "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Shinohara-2DC60"
   }
 </script>
 

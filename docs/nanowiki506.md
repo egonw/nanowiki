@@ -12,7 +12,7 @@
       },
     "@id": "https://egonw.github.io/nanowiki/nanowiki506.html#material",
     "name": "MGO-20NM-B-SC",
-    "sameAs: "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/MGO-2D20NM-2DB-2DSC"
+    "sameAs": "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/MGO-2D20NM-2DB-2DSC"
   }
 </script>
 

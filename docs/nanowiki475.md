@@ -12,7 +12,7 @@
       },
     "@id": "https://egonw.github.io/nanowiki/nanowiki475.html#material",
     "name": "HU 2017 E-NP-DT",
-    "sameAs: "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/HU_2017_E-2DNP-2DDT"
+    "sameAs": "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/HU_2017_E-2DNP-2DDT"
   }
 </script>
 
