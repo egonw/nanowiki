@@ -1,7 +1,7 @@
-# Chang2010 lGO
 <a name="material" />
-<script type="application/ld+json">
 
+# Chang2010 lGO
+<script type="application/ld+json">
   {
     "@context": "https://schema.org/",
     "@type": "ChemicalSubstance",

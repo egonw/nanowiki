@@ -1,7 +1,7 @@
-# Nagy2012 QD7
 <a name="material" />
-<script type="application/ld+json">
 
+# Nagy2012 QD7
+<script type="application/ld+json">
   {
     "@context": "https://schema.org/",
     "@type": "ChemicalSubstance",

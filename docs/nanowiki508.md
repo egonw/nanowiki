@@ -1,7 +1,7 @@
-# ZnS-100NM-B-NS
 <a name="material" />
-<script type="application/ld+json">
 
+# ZnS-100NM-B-NS
+<script type="application/ld+json">
   {
     "@context": "https://schema.org/",
     "@type": "ChemicalSubstance",

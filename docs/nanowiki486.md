@@ -1,7 +1,7 @@
-# GO-250NMX250NM-DP20170315-1
 <a name="material" />
-<script type="application/ld+json">
 
+# GO-250NMX250NM-DP20170315-1
+<script type="application/ld+json">
   {
     "@context": "https://schema.org/",
     "@type": "ChemicalSubstance",

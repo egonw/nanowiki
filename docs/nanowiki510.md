@@ -1,7 +1,7 @@
-# 1%AG-SIO2-JB20161109-1
 <a name="material" />
-<script type="application/ld+json">
 
+# 1%AG-SIO2-JB20161109-1
+<script type="application/ld+json">
   {
     "@context": "https://schema.org/",
     "@type": "ChemicalSubstance",

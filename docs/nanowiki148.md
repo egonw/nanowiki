@@ -1,7 +1,7 @@
-# Berg2009 NM4
 <a name="material" />
-<script type="application/ld+json">
 
+# Berg2009 NM4
+<script type="application/ld+json">
   {
     "@context": "https://schema.org/",
     "@type": "ChemicalSubstance",

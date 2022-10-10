@@ -1,7 +1,7 @@
-# Liu2011 03
 <a name="material" />
-<script type="application/ld+json">
 
+# Liu2011 03
+<script type="application/ld+json">
   {
     "@context": "https://schema.org/",
     "@type": "ChemicalSubstance",

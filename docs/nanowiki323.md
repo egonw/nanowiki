@@ -1,7 +1,7 @@
-# Zhang2013 M18
 <a name="material" />
-<script type="application/ld+json">
 
+# Zhang2013 M18
+<script type="application/ld+json">
   {
     "@context": "https://schema.org/",
     "@type": "ChemicalSubstance",

@@ -1,7 +1,7 @@
-# Harper2011 1
 <a name="material" />
-<script type="application/ld+json">
 
+# Harper2011 1
+<script type="application/ld+json">
   {
     "@context": "https://schema.org/",
     "@type": "ChemicalSubstance",

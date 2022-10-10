@@ -1,7 +1,7 @@
-# Rancan2012 M8
 <a name="material" />
-<script type="application/ld+json">
 
+# Rancan2012 M8
+<script type="application/ld+json">
   {
     "@context": "https://schema.org/",
     "@type": "ChemicalSubstance",

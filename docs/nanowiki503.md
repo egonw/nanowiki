@@ -1,7 +1,7 @@
-# ZNO-50NM-B-MT
 <a name="material" />
-<script type="application/ld+json">
 
+# ZNO-50NM-B-MT
+<script type="application/ld+json">
   {
     "@context": "https://schema.org/",
     "@type": "ChemicalSubstance",

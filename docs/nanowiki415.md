@@ -1,7 +1,7 @@
-# Aldrich 482951
 <a name="material" />
-<script type="application/ld+json">
 
+# Aldrich 482951
+<script type="application/ld+json">
   {
     "@context": "https://schema.org/",
     "@type": "ChemicalSubstance",

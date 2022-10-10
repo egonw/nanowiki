@@ -1,7 +1,7 @@
-# Gerloff2009 NM8
 <a name="material" />
-<script type="application/ld+json">
 
+# Gerloff2009 NM8
+<script type="application/ld+json">
   {
     "@context": "https://schema.org/",
     "@type": "ChemicalSubstance",

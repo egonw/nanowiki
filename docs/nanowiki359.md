@@ -1,7 +1,7 @@
-# JRC2011 NM-401
 <a name="material" />
-<script type="application/ld+json">
 
+# JRC2011 NM-401
+<script type="application/ld+json">
   {
     "@context": "https://schema.org/",
     "@type": "ChemicalSubstance",

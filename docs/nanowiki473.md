@@ -1,7 +1,7 @@
-# Hu2017 E-NP-DOX
 <a name="material" />
-<script type="application/ld+json">
 
+# Hu2017 E-NP-DOX
+<script type="application/ld+json">
   {
     "@context": "https://schema.org/",
     "@type": "ChemicalSubstance",

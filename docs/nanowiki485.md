@@ -1,7 +1,7 @@
-# NM300k
 <a name="material" />
-<script type="application/ld+json">
 
+# NM300k
+<script type="application/ld+json">
   {
     "@context": "https://schema.org/",
     "@type": "ChemicalSubstance",

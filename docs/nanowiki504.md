@@ -1,7 +1,7 @@
-# CUO-40NM-B-SA
 <a name="material" />
-<script type="application/ld+json">
 
+# CUO-40NM-B-SA
+<script type="application/ld+json">
   {
     "@context": "https://schema.org/",
     "@type": "ChemicalSubstance",

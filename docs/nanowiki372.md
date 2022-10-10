@@ -1,7 +1,7 @@
-# JRCNM01002a
 <a name="material" />
-<script type="application/ld+json">
 
+# JRCNM01002a
+<script type="application/ld+json">
   {
     "@context": "https://schema.org/",
     "@type": "ChemicalSubstance",

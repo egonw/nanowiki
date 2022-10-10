@@ -1,7 +1,7 @@
-# TIO2-P25-30NM-B-SC
 <a name="material" />
-<script type="application/ld+json">
 
+# TIO2-P25-30NM-B-SC
+<script type="application/ld+json">
   {
     "@context": "https://schema.org/",
     "@type": "ChemicalSubstance",

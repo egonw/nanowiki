@@ -1,7 +1,7 @@
-# CEO2-30NM-JB20161126-1
 <a name="material" />
-<script type="application/ld+json">
 
+# CEO2-30NM-JB20161126-1
+<script type="application/ld+json">
   {
     "@context": "https://schema.org/",
     "@type": "ChemicalSubstance",

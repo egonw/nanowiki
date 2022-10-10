@@ -1,7 +1,7 @@
-# JRC2011 NM-300K DIS
 <a name="material" />
-<script type="application/ld+json">
 
+# JRC2011 NM-300K DIS
+<script type="application/ld+json">
   {
     "@context": "https://schema.org/",
     "@type": "ChemicalSubstance",

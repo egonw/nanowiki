@@ -1,7 +1,7 @@
-# MTBLS721 R3
 <a name="material" />
-<script type="application/ld+json">
 
+# MTBLS721 R3
+<script type="application/ld+json">
   {
     "@context": "https://schema.org/",
     "@type": "ChemicalSubstance",

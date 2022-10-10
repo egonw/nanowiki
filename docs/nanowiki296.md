@@ -1,7 +1,7 @@
-# Lesniak2013 NM1
 <a name="material" />
-<script type="application/ld+json">
 
+# Lesniak2013 NM1
+<script type="application/ld+json">
   {
     "@context": "https://schema.org/",
     "@type": "ChemicalSubstance",

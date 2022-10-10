@@ -1,7 +1,7 @@
-# Limbach2005 NM3
 <a name="material" />
-<script type="application/ld+json">
 
+# Limbach2005 NM3
+<script type="application/ld+json">
   {
     "@context": "https://schema.org/",
     "@type": "ChemicalSubstance",

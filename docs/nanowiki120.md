@@ -1,7 +1,7 @@
-# Jeng2006 M3
 <a name="material" />
-<script type="application/ld+json">
 
+# Jeng2006 M3
+<script type="application/ld+json">
   {
     "@context": "https://schema.org/",
     "@type": "ChemicalSubstance",

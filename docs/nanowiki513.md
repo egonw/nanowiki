@@ -1,7 +1,7 @@
-# Choi2018 M2
 <a name="material" />
-<script type="application/ld+json">
 
+# Choi2018 M2
+<script type="application/ld+json">
   {
     "@context": "https://schema.org/",
     "@type": "ChemicalSubstance",

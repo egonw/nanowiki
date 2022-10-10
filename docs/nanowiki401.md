@@ -1,7 +1,7 @@
-# COD 1517078
 <a name="material" />
-<script type="application/ld+json">
 
+# COD 1517078
+<script type="application/ld+json">
   {
     "@context": "https://schema.org/",
     "@type": "ChemicalSubstance",

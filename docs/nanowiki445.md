@@ -1,7 +1,7 @@
-# GSE62253 AgPURE
 <a name="material" />
-<script type="application/ld+json">
 
+# GSE62253 AgPURE
+<script type="application/ld+json">
   {
     "@context": "https://schema.org/",
     "@type": "ChemicalSubstance",

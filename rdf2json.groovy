@@ -32,9 +32,9 @@ for (i in 0..(results.rowCount-1)) {
   nmFile = "/docs/nanowiki${identifier}.md"
   // println "NM file: $nmFile"
   ui.renewFile(nmFile)
+  ui.append(nmFile, "<a name=\"material\" />\n\n")
   ui.append(nmFile, "# ${label}\n")
-  ui.append(nmFile, "<a name=\"material\" />\n")
-  ui.append(nmFile, "<script type=\"application/ld+json\">\n")
+  ui.append(nmFile, "<script type=\"application/ld+json\">")
   ui.append(nmFile,"""
   {
     "@context": "https://schema.org/",

@@ -1,7 +1,7 @@
-# AG-20NM-JB20170316-1
 <a name="material" />
-<script type="application/ld+json">
 
+# AG-20NM-JB20170316-1
+<script type="application/ld+json">
   {
     "@context": "https://schema.org/",
     "@type": "ChemicalSubstance",

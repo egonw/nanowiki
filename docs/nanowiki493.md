@@ -1,7 +1,7 @@
-# CdS-60NM-NS-B-1
 <a name="material" />
-<script type="application/ld+json">
 
+# CdS-60NM-NS-B-1
+<script type="application/ld+json">
   {
     "@context": "https://schema.org/",
     "@type": "ChemicalSubstance",

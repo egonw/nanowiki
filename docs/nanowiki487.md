@@ -1,7 +1,7 @@
-# GO-400NMX400NM-DP20190115-1
 <a name="material" />
-<script type="application/ld+json">
 
+# GO-400NMX400NM-DP20190115-1
+<script type="application/ld+json">
   {
     "@context": "https://schema.org/",
     "@type": "ChemicalSubstance",

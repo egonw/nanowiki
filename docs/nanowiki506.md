@@ -1,7 +1,7 @@
-# MGO-20NM-B-SC
 <a name="material" />
-<script type="application/ld+json">
 
+# MGO-20NM-B-SC
+<script type="application/ld+json">
   {
     "@context": "https://schema.org/",
     "@type": "ChemicalSubstance",

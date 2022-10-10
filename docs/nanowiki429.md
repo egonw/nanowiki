@@ -1,7 +1,7 @@
-# E-GEOD-17676-M2
 <a name="material" />
-<script type="application/ld+json">
 
+# E-GEOD-17676-M2
+<script type="application/ld+json">
   {
     "@context": "https://schema.org/",
     "@type": "ChemicalSubstance",

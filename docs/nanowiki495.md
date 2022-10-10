@@ -1,7 +1,7 @@
-# SIO2-15NM-GP20160930-1
 <a name="material" />
-<script type="application/ld+json">
 
+# SIO2-15NM-GP20160930-1
+<script type="application/ld+json">
   {
     "@context": "https://schema.org/",
     "@type": "ChemicalSubstance",

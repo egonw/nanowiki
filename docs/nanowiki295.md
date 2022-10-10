@@ -1,7 +1,7 @@
-# Kim2011 NM3
 <a name="material" />
-<script type="application/ld+json">
 
+# Kim2011 NM3
+<script type="application/ld+json">
   {
     "@context": "https://schema.org/",
     "@type": "ChemicalSubstance",

@@ -1,7 +1,7 @@
-# Tilton2014 M2
 <a name="material" />
-<script type="application/ld+json">
 
+# Tilton2014 M2
+<script type="application/ld+json">
   {
     "@context": "https://schema.org/",
     "@type": "ChemicalSubstance",

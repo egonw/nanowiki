@@ -1,7 +1,7 @@
-# Midander2009 M1
 <a name="material" />
-<script type="application/ld+json">
 
+# Midander2009 M1
+<script type="application/ld+json">
   {
     "@context": "https://schema.org/",
     "@type": "ChemicalSubstance",

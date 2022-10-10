@@ -1,7 +1,7 @@
-# Gopalan2009 NM2
 <a name="material" />
-<script type="application/ld+json">
 
+# Gopalan2009 NM2
+<script type="application/ld+json">
   {
     "@context": "https://schema.org/",
     "@type": "ChemicalSubstance",

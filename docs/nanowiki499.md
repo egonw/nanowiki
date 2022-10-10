@@ -1,7 +1,7 @@
-# FE2O3-100NM-JB20161128-1
 <a name="material" />
-<script type="application/ld+json">
 
+# FE2O3-100NM-JB20161128-1
+<script type="application/ld+json">
   {
     "@context": "https://schema.org/",
     "@type": "ChemicalSubstance",

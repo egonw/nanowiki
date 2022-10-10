@@ -1,7 +1,7 @@
-# AL2O3-30NM-JB20161003-1
 <a name="material" />
-<script type="application/ld+json">
 
+# AL2O3-30NM-JB20161003-1
+<script type="application/ld+json">
   {
     "@context": "https://schema.org/",
     "@type": "ChemicalSubstance",

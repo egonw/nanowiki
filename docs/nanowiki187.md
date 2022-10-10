@@ -1,7 +1,7 @@
-# Horie2009 NM10
 <a name="material" />
-<script type="application/ld+json">
 
+# Horie2009 NM10
+<script type="application/ld+json">
   {
     "@context": "https://schema.org/",
     "@type": "ChemicalSubstance",

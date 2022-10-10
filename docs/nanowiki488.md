@@ -1,7 +1,7 @@
-# GO-1uMX1uM-DP20190115-1
 <a name="material" />
-<script type="application/ld+json">
 
+# GO-1uMX1uM-DP20190115-1
+<script type="application/ld+json">
   {
     "@context": "https://schema.org/",
     "@type": "ChemicalSubstance",

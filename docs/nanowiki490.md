@@ -1,7 +1,7 @@
-# G-140NMX140NM-DP20190615-1
 <a name="material" />
-<script type="application/ld+json">
 
+# G-140NMX140NM-DP20190615-1
+<script type="application/ld+json">
   {
     "@context": "https://schema.org/",
     "@type": "ChemicalSubstance",

@@ -1,7 +1,7 @@
-# Lin2013 07
 <a name="material" />
-<script type="application/ld+json">
 
+# Lin2013 07
+<script type="application/ld+json">
   {
     "@context": "https://schema.org/",
     "@type": "ChemicalSubstance",

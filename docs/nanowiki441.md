@@ -1,7 +1,7 @@
-# CHEMBL1741001
 <a name="material" />
-<script type="application/ld+json">
 
+# CHEMBL1741001
+<script type="application/ld+json">
   {
     "@context": "https://schema.org/",
     "@type": "ChemicalSubstance",

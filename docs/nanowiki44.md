@@ -1,7 +1,7 @@
-# Shaw51 14
 <a name="material" />
-<script type="application/ld+json">
 
+# Shaw51 14
+<script type="application/ld+json">
   {
     "@context": "https://schema.org/",
     "@type": "ChemicalSubstance",

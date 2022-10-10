@@ -1,7 +1,7 @@
-# Cho2012 NM2
 <a name="material" />
-<script type="application/ld+json">
 
+# Cho2012 NM2
+<script type="application/ld+json">
   {
     "@context": "https://schema.org/",
     "@type": "ChemicalSubstance",

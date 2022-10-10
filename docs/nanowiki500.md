@@ -1,7 +1,7 @@
-# TIO2-E171-100NM-B-F
 <a name="material" />
-<script type="application/ld+json">
 
+# TIO2-E171-100NM-B-F
+<script type="application/ld+json">
   {
     "@context": "https://schema.org/",
     "@type": "ChemicalSubstance",
