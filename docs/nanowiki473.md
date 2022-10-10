@@ -1,4 +1,5 @@
 # Hu2017 E-NP-DOX
+<a name="material" />
 <script type="application/ld+json">
 
   {
@@ -9,8 +10,9 @@
         "@type": "CreativeWork",
         "@id": "https://bioschemas.org/profiles/ChemicalSubstance/0.4-RELEASE/"
       },
+    "@id": "https://egonw.github.io/nanowiki/nanowiki473.html#material",
     "name": "Hu2017 E-NP-DOX",
-    "@id":"wiki:Hu2017_E-2DNP-2DDOX",
+    "sameAs: "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Hu2017_E-2DNP-2DDOX"
   }
 </script>
 

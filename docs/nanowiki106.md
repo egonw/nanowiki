@@ -1,4 +1,5 @@
 # Field2011 Batch1
+<a name="material" />
 <script type="application/ld+json">
 
   {
@@ -9,8 +10,9 @@
         "@type": "CreativeWork",
         "@id": "https://bioschemas.org/profiles/ChemicalSubstance/0.4-RELEASE/"
       },
+    "@id": "https://egonw.github.io/nanowiki/nanowiki106.html#material",
     "name": "Field2011 Batch1",
-    "@id":"wiki:Field2011_Batch1",
+    "sameAs: "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Field2011_Batch1"
   }
 </script>
 

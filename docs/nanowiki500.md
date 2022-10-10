@@ -1,4 +1,5 @@
 # TIO2-E171-100NM-B-F
+<a name="material" />
 <script type="application/ld+json">
 
   {
@@ -9,8 +10,9 @@
         "@type": "CreativeWork",
         "@id": "https://bioschemas.org/profiles/ChemicalSubstance/0.4-RELEASE/"
       },
+    "@id": "https://egonw.github.io/nanowiki/nanowiki500.html#material",
     "name": "TIO2-E171-100NM-B-F",
-    "@id":"wiki:TIO2-2DE171-2D100NM-2DB-2DF",
+    "sameAs: "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/TIO2-2DE171-2D100NM-2DB-2DF"
   }
 </script>
 

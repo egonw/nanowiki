@@ -1,4 +1,5 @@
 # Gerloff2009 NM8
+<a name="material" />
 <script type="application/ld+json">
 
   {
@@ -9,8 +10,9 @@
         "@type": "CreativeWork",
         "@id": "https://bioschemas.org/profiles/ChemicalSubstance/0.4-RELEASE/"
       },
+    "@id": "https://egonw.github.io/nanowiki/nanowiki157.html#material",
     "name": "Gerloff2009 NM8",
-    "@id":"wiki:Gerloff2009_NM8",
+    "sameAs: "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Gerloff2009_NM8"
   }
 </script>
 

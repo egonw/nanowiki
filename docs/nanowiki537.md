@@ -1,4 +1,5 @@
 # Choi2018 M26
+<a name="material" />
 <script type="application/ld+json">
 
   {
@@ -9,8 +10,9 @@
         "@type": "CreativeWork",
         "@id": "https://bioschemas.org/profiles/ChemicalSubstance/0.4-RELEASE/"
       },
+    "@id": "https://egonw.github.io/nanowiki/nanowiki537.html#material",
     "name": "Choi2018 M26",
-    "@id":"wiki:Choi2018_M26",
+    "sameAs: "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Choi2018_M26"
   }
 </script>
 

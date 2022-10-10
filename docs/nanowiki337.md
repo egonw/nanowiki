@@ -1,4 +1,5 @@
 # Docter2014 M4
+<a name="material" />
 <script type="application/ld+json">
 
   {
@@ -9,8 +10,9 @@
         "@type": "CreativeWork",
         "@id": "https://bioschemas.org/profiles/ChemicalSubstance/0.4-RELEASE/"
       },
+    "@id": "https://egonw.github.io/nanowiki/nanowiki337.html#material",
     "name": "Docter2014 M4",
-    "@id":"wiki:Docter2014_M4",
+    "sameAs: "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Docter2014_M4"
   }
 </script>
 

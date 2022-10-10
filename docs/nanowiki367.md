@@ -1,4 +1,5 @@
 # Aldrich 637238
+<a name="material" />
 <script type="application/ld+json">
 
   {
@@ -9,8 +10,9 @@
         "@type": "CreativeWork",
         "@id": "https://bioschemas.org/profiles/ChemicalSubstance/0.4-RELEASE/"
       },
+    "@id": "https://egonw.github.io/nanowiki/nanowiki367.html#material",
     "name": "Aldrich 637238",
-    "@id":"wiki:Aldrich_637238",
+    "sameAs: "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Aldrich_637238"
   }
 </script>
 

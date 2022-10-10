@@ -1,4 +1,5 @@
 # CHEMBL1741001
+<a name="material" />
 <script type="application/ld+json">
 
   {
@@ -9,8 +10,9 @@
         "@type": "CreativeWork",
         "@id": "https://bioschemas.org/profiles/ChemicalSubstance/0.4-RELEASE/"
       },
+    "@id": "https://egonw.github.io/nanowiki/nanowiki441.html#material",
     "name": "CHEMBL1741001",
-    "@id":"wiki:CHEMBL1741001",
+    "sameAs: "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/CHEMBL1741001"
   }
 </script>
 

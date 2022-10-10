@@ -1,4 +1,5 @@
 # TIO2-P25-30NM-B-SC
+<a name="material" />
 <script type="application/ld+json">
 
   {
@@ -9,8 +10,9 @@
         "@type": "CreativeWork",
         "@id": "https://bioschemas.org/profiles/ChemicalSubstance/0.4-RELEASE/"
       },
+    "@id": "https://egonw.github.io/nanowiki/nanowiki501.html#material",
     "name": "TIO2-P25-30NM-B-SC",
-    "@id":"wiki:TIO2-2DP25-2D30NM-2DB-2DSC",
+    "sameAs: "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/TIO2-2DP25-2D30NM-2DB-2DSC"
   }
 </script>
 

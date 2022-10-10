@@ -1,4 +1,5 @@
 # Chithrani Au3
+<a name="material" />
 <script type="application/ld+json">
 
   {
@@ -9,8 +10,9 @@
         "@type": "CreativeWork",
         "@id": "https://bioschemas.org/profiles/ChemicalSubstance/0.4-RELEASE/"
       },
+    "@id": "https://egonw.github.io/nanowiki/nanowiki418.html#material",
     "name": "Chithrani Au3",
-    "@id":"wiki:Chithrani_Au3",
+    "sameAs: "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Chithrani_Au3"
   }
 </script>
 

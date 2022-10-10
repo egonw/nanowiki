@@ -1,4 +1,5 @@
 # Limbach2005 NM4
+<a name="material" />
 <script type="application/ld+json">
 
   {
@@ -9,8 +10,9 @@
         "@type": "CreativeWork",
         "@id": "https://bioschemas.org/profiles/ChemicalSubstance/0.4-RELEASE/"
       },
+    "@id": "https://egonw.github.io/nanowiki/nanowiki362.html#material",
     "name": "Limbach2005 NM4",
-    "@id":"wiki:Limbach2005_NM4",
+    "sameAs: "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Limbach2005_NM4"
   }
 </script>
 

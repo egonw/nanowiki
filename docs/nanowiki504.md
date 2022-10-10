@@ -1,4 +1,5 @@
 # CUO-40NM-B-SA
+<a name="material" />
 <script type="application/ld+json">
 
   {
@@ -9,8 +10,9 @@
         "@type": "CreativeWork",
         "@id": "https://bioschemas.org/profiles/ChemicalSubstance/0.4-RELEASE/"
       },
+    "@id": "https://egonw.github.io/nanowiki/nanowiki504.html#material",
     "name": "CUO-40NM-B-SA",
-    "@id":"wiki:CUO-2D40NM-2DB-2DSA",
+    "sameAs: "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/CUO-2D40NM-2DB-2DSA"
   }
 </script>
 

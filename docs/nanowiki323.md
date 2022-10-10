@@ -1,4 +1,5 @@
 # Zhang2013 M18
+<a name="material" />
 <script type="application/ld+json">
 
   {
@@ -9,8 +10,9 @@
         "@type": "CreativeWork",
         "@id": "https://bioschemas.org/profiles/ChemicalSubstance/0.4-RELEASE/"
       },
+    "@id": "https://egonw.github.io/nanowiki/nanowiki323.html#material",
     "name": "Zhang2013 M18",
-    "@id":"wiki:Zhang2013_M18",
+    "sameAs: "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Zhang2013_M18"
   }
 </script>
 

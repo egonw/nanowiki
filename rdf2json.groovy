@@ -26,13 +26,14 @@ results = rdf.sparql(store, sparql)
 // println "results: " + results
 
 for (i in 0..(results.rowCount-1)) {
-  substance = results.get(i, "substance")
+  substance = results.get(i, "substance").replace("wiki:", "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/")
   identifier = results.get(i, "identifier")
   label = results.get(i, "label")
   nmFile = "/docs/nanowiki${identifier}.md"
   // println "NM file: $nmFile"
   ui.renewFile(nmFile)
   ui.append(nmFile, "# ${label}\n")
+  ui.append(nmFile, "<a name=\"material\" />\n")
   ui.append(nmFile, "<script type=\"application/ld+json\">\n")
   ui.append(nmFile,"""
   {
@@ -43,8 +44,9 @@ for (i in 0..(results.rowCount-1)) {
         "@type": "CreativeWork",
         "@id": "https://bioschemas.org/profiles/ChemicalSubstance/0.4-RELEASE/"
       },
+    "@id": "https://egonw.github.io/nanowiki/nanowiki${identifier}.html#material",
     "name": "${label}",
-    "@id":"${substance}",
+    "sameAs: "${substance}"
   }
 """)
   ui.append(nmFile, "</script>\n\n")

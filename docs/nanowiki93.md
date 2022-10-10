@@ -1,4 +1,5 @@
 # Harper2011 3
+<a name="material" />
 <script type="application/ld+json">
 
   {
@@ -9,8 +10,9 @@
         "@type": "CreativeWork",
         "@id": "https://bioschemas.org/profiles/ChemicalSubstance/0.4-RELEASE/"
       },
+    "@id": "https://egonw.github.io/nanowiki/nanowiki93.html#material",
     "name": "Harper2011 3",
-    "@id":"wiki:Harper2011_3",
+    "sameAs: "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Harper2011_3"
   }
 </script>
 

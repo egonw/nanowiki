@@ -1,4 +1,5 @@
 # JRC2011 NM-401
+<a name="material" />
 <script type="application/ld+json">
 
   {
@@ -9,8 +10,9 @@
         "@type": "CreativeWork",
         "@id": "https://bioschemas.org/profiles/ChemicalSubstance/0.4-RELEASE/"
       },
+    "@id": "https://egonw.github.io/nanowiki/nanowiki359.html#material",
     "name": "JRC2011 NM-401",
-    "@id":"wiki:JRC2011_NM-2D401",
+    "sameAs: "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/JRC2011_NM-2D401"
   }
 </script>
 

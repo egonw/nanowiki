@@ -1,4 +1,5 @@
 # Berg2009 NM5
+<a name="material" />
 <script type="application/ld+json">
 
   {
@@ -9,8 +10,9 @@
         "@type": "CreativeWork",
         "@id": "https://bioschemas.org/profiles/ChemicalSubstance/0.4-RELEASE/"
       },
+    "@id": "https://egonw.github.io/nanowiki/nanowiki149.html#material",
     "name": "Berg2009 NM5",
-    "@id":"wiki:Berg2009_NM5",
+    "sameAs: "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Berg2009_NM5"
   }
 </script>
 

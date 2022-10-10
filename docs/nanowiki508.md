@@ -1,4 +1,5 @@
 # ZnS-100NM-B-NS
+<a name="material" />
 <script type="application/ld+json">
 
   {
@@ -9,8 +10,9 @@
         "@type": "CreativeWork",
         "@id": "https://bioschemas.org/profiles/ChemicalSubstance/0.4-RELEASE/"
       },
+    "@id": "https://egonw.github.io/nanowiki/nanowiki508.html#material",
     "name": "ZnS-100NM-B-NS",
-    "@id":"wiki:ZnS-2D100NM-2DB-2DNS",
+    "sameAs: "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/ZnS-2D100NM-2DB-2DNS"
   }
 </script>
 

@@ -1,4 +1,5 @@
 # Nymark2015-M3
+<a name="material" />
 <script type="application/ld+json">
 
   {
@@ -9,8 +10,9 @@
         "@type": "CreativeWork",
         "@id": "https://bioschemas.org/profiles/ChemicalSubstance/0.4-RELEASE/"
       },
+    "@id": "https://egonw.github.io/nanowiki/nanowiki411.html#material",
     "name": "Nymark2015-M3",
-    "@id":"wiki:Nymark2015-2DM3",
+    "sameAs: "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Nymark2015-2DM3"
   }
 </script>
 

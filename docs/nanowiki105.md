@@ -1,4 +1,5 @@
 # Jugan5 R20
+<a name="material" />
 <script type="application/ld+json">
 
   {
@@ -9,8 +10,9 @@
         "@type": "CreativeWork",
         "@id": "https://bioschemas.org/profiles/ChemicalSubstance/0.4-RELEASE/"
       },
+    "@id": "https://egonw.github.io/nanowiki/nanowiki105.html#material",
     "name": "Jugan5 R20",
-    "@id":"wiki:Jugan5_R20",
+    "sameAs: "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Jugan5_R20"
   }
 </script>
 

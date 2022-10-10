@@ -1,4 +1,5 @@
 # Shinohara-C60
+<a name="material" />
 <script type="application/ld+json">
 
   {
@@ -9,8 +10,9 @@
         "@type": "CreativeWork",
         "@id": "https://bioschemas.org/profiles/ChemicalSubstance/0.4-RELEASE/"
       },
+    "@id": "https://egonw.github.io/nanowiki/nanowiki472.html#material",
     "name": "Shinohara-C60",
-    "@id":"wiki:Shinohara-2DC60",
+    "sameAs: "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Shinohara-2DC60"
   }
 </script>
 

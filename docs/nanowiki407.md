@@ -1,4 +1,5 @@
 # E-GEOD-53700-M1
+<a name="material" />
 <script type="application/ld+json">
 
   {
@@ -9,8 +10,9 @@
         "@type": "CreativeWork",
         "@id": "https://bioschemas.org/profiles/ChemicalSubstance/0.4-RELEASE/"
       },
+    "@id": "https://egonw.github.io/nanowiki/nanowiki407.html#material",
     "name": "E-GEOD-53700-M1",
-    "@id":"wiki:E-2DGEOD-2D53700-2DM1",
+    "sameAs: "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/E-2DGEOD-2D53700-2DM1"
   }
 </script>
 

@@ -1,4 +1,5 @@
 # Gioria2016 30
+<a name="material" />
 <script type="application/ld+json">
 
   {
@@ -9,8 +10,9 @@
         "@type": "CreativeWork",
         "@id": "https://bioschemas.org/profiles/ChemicalSubstance/0.4-RELEASE/"
       },
+    "@id": "https://egonw.github.io/nanowiki/nanowiki447.html#material",
     "name": "Gioria2016 30",
-    "@id":"wiki:Gioria2016_30",
+    "sameAs: "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Gioria2016_30"
   }
 </script>
 
