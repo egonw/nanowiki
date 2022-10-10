@@ -15,3 +15,9 @@ php /usr/local/share/mediawiki-extensions/SemanticMediaWiki/maintenance/SMW_dump
 ```shell
 rapper -i rdfxml -o turtle backup.rdf.txt >backup.ttl.txt
 ```
+
+## Convert to Markdown
+
+```shell
+roqet -q -r csv allMaterials.rq -D backup.ttl.txt > substances.uris
+```

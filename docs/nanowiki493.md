@@ -1,0 +1,16 @@
+# CdS-60NM-NS-B-1
+<script type="application/ld+json">
+
+  {
+    "@context": "https://schema.org/",
+    "@type": "ChemicalSubstance",
+    "http://purl.org/dc/terms/conformsTo":
+      {
+        "@type": "CreativeWork",
+        "@id": "https://bioschemas.org/profiles/ChemicalSubstance/0.4-RELEASE/"
+      },
+    "name": "CdS-60NM-NS-B-1",
+    "@id":"wiki:CdS-2D60NM-2DNS-2DB-2D1",
+  }
+</script>
+
