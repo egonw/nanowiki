@@ -46,13 +46,15 @@ for (i in 1..results.rowCount) {
   {
     "@context": "https://schema.org/",
     "@type": "ChemicalSubstance",
+    "@id": "https://egonw.github.io/nanowiki/nanowiki${identifier}.html#material",
     "http://purl.org/dc/terms/conformsTo":
       {
         "@type": "CreativeWork",
         "@id": "https://bioschemas.org/profiles/ChemicalSubstance/0.4-RELEASE/"
       },
-    "@id": "https://egonw.github.io/nanowiki/nanowiki${identifier}.html#material",
+    "identfier": "${identifier}",
     "name": "${label}",
+    "url": "https://egonw.github.io/nanowiki/nanowiki${identifier}.html#material",
     "sameAs": "${substance}"
   }
 """)
