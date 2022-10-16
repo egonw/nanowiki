@@ -60,7 +60,7 @@ for (i in 1..results.rowCount) {
 """)
   ui.append(nmFile, "</script>\n\n")
   ui.append(nmFile, "\n")
-  if (paper) ui.append(nmFile, "* Source: [${paperLabel}](${paper}.md)\n")
+  if (paper) ui.append(nmFile, "* Source: [${paperLabel}](article${paper}.md)\n")
 
   ui.append(nmFile, "\n\nSource: NanoWiki 6, doi:[10.6084/m9.figshare.11897205.v1](https://doi.org/10.6084/m9.figshare.11897205.v1)\n")
 }
