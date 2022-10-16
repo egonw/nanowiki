@@ -17,4 +17,4 @@
 </script>
 
 
-* Source: [Zhou2008](http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Zhou2008)
+* Source: [Zhou2008](Zhou2008.md)

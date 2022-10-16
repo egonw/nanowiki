@@ -17,4 +17,4 @@
 </script>
 
 
-* Source: [Cai2018](http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Cai2018)
+* Source: [Cai2018](Cai2018.md)

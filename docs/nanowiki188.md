@@ -17,4 +17,4 @@
 </script>
 
 
-* Source: [Cho2012](http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Cho2012)
+* Source: [Cho2012](Cho2012.md)

@@ -17,4 +17,4 @@
 </script>
 
 
-* Source: [Wang2009](http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Wang2009)
+* Source: [Wang2009](Wang2009.md)

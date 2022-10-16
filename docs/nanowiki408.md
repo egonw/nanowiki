@@ -17,4 +17,4 @@
 </script>
 
 
-* Source: [Fede2014](http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Fede2014)
+* Source: [Fede2014](Fede2014.md)

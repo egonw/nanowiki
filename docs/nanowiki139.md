@@ -17,4 +17,4 @@
 </script>
 
 
-* Source: [Kim2012](http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Kim2012)
+* Source: [Kim2012](Kim2012.md)

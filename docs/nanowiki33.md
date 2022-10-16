@@ -17,4 +17,4 @@
 </script>
 
 
-* Source: [Shaw2008](http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Shaw2008)
+* Source: [Shaw2008](Shaw2008.md)

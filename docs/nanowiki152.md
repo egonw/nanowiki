@@ -17,4 +17,4 @@
 </script>
 
 
-* Source: [Gerloff2009](http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Gerloff2009)
+* Source: [Gerloff2009](Gerloff2009.md)

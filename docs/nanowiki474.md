@@ -17,4 +17,4 @@
 </script>
 
 
-* Source: [Hu2017](http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Hu2017)
+* Source: [Hu2017](Hu2017.md)

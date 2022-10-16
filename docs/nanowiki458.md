@@ -17,4 +17,4 @@
 </script>
 
 
-* Source: [Lin2013](http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Lin2013)
+* Source: [Lin2013](Lin2013.md)

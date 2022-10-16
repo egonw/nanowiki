@@ -17,4 +17,4 @@
 </script>
 
 
-* Source: [Berg2009](http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Berg2009)
+* Source: [Berg2009](Berg2009.md)

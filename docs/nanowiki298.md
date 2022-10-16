@@ -17,4 +17,4 @@
 </script>
 
 
-* Source: [Lesniak2013](http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Lesniak2013)
+* Source: [Lesniak2013](Lesniak2013.md)

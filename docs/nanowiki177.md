@@ -17,4 +17,4 @@
 </script>
 
 
-* Source: [SimonDeckers2009](http://127.0.0.1/mediawiki/index.php/Special:URIResolver/SimonDeckers2009)
+* Source: [SimonDeckers2009](SimonDeckers2009.md)

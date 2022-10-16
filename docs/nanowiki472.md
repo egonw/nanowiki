@@ -17,4 +17,4 @@
 </script>
 
 
-* Source: [Shinohara2009](http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Shinohara2009)
+* Source: [Shinohara2009](Shinohara2009.md)

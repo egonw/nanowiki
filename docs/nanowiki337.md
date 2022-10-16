@@ -17,4 +17,4 @@
 </script>
 
 
-* Source: [Docter2014](http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Docter2014)
+* Source: [Docter2014](Docter2014.md)

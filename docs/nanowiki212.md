@@ -17,4 +17,4 @@
 </script>
 
 
-* Source: [Bhabra2009](http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Bhabra2009)
+* Source: [Bhabra2009](Bhabra2009.md)

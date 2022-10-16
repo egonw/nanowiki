@@ -17,4 +17,4 @@
 </script>
 
 
-* Source: [Midander2009](http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Midander2009)
+* Source: [Midander2009](Midander2009.md)

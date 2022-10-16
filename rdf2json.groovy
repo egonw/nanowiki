@@ -34,7 +34,7 @@ for (i in 1..results.rowCount) {
   paper = results.get(i, "paper")
   paperLabel = ""
   if (paper) {
-    paper = paper.replace("wiki:", "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/")
+    paper = paper.replace("wiki:", "")
     paperLabel = results.get(i, "paperLabel")
   }
   // println "NM file: $nmFile"
@@ -58,7 +58,7 @@ for (i in 1..results.rowCount) {
 """)
   ui.append(nmFile, "</script>\n\n")
   ui.append(nmFile, "\n")
-  if (paper) ui.append(nmFile, "* Source: [${paperLabel}](${paper})\n")
+  if (paper) ui.append(nmFile, "* Source: [${paperLabel}](${paper}.md)\n")
 }
 
 // Articles

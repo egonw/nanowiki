@@ -17,4 +17,4 @@
 </script>
 
 
-* Source: [Jones2014](http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Jones2014)
+* Source: [Jones2014](Jones2014.md)

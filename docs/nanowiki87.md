@@ -17,4 +17,4 @@
 </script>
 
 
-* Source: [Liu2011](http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Liu2011)
+* Source: [Liu2011](Liu2011.md)

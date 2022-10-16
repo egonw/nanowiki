@@ -17,4 +17,4 @@
 </script>
 
 
-* Source: [Harper2011](http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Harper2011)
+* Source: [Harper2011](Harper2011.md)

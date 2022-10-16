@@ -17,4 +17,4 @@
 </script>
 
 
-* Source: [Puzyn2011](http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Puzyn2011)
+* Source: [Puzyn2011](Puzyn2011.md)

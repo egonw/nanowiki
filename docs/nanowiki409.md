@@ -17,4 +17,4 @@
 </script>
 
 
-* Source: [Nymark2015](http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Nymark2015)
+* Source: [Nymark2015](Nymark2015.md)

@@ -17,4 +17,4 @@
 </script>
 
 
-* Source: [Gopalan2009](http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Gopalan2009)
+* Source: [Gopalan2009](Gopalan2009.md)

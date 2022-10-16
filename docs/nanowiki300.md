@@ -17,4 +17,4 @@
 </script>
 
 
-* Source: [Antisari2013](http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Antisari2013)
+* Source: [Antisari2013](Antisari2013.md)

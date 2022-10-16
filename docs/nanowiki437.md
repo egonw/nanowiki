@@ -17,4 +17,4 @@
 </script>
 
 
-* Source: [Geng2014](http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Geng2014)
+* Source: [Geng2014](Geng2014.md)

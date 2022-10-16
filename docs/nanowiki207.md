@@ -17,4 +17,4 @@
 </script>
 
 
-* Source: [Rancan2012](http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Rancan2012)
+* Source: [Rancan2012](Rancan2012.md)

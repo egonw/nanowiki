@@ -17,4 +17,4 @@
 </script>
 
 
-* Source: [Horie2009](http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Horie2009)
+* Source: [Horie2009](Horie2009.md)

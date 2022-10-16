@@ -17,4 +17,4 @@
 </script>
 
 
-* Source: [Tuomela2013](http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Tuomela2013)
+* Source: [Tuomela2013](Tuomela2013.md)
