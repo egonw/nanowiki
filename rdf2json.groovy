@@ -15,10 +15,11 @@ sparql = """
 PREFIX wiki: <http://127.0.0.1/mediawiki/index.php/Special:URIResolver/>
 prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
-SELECT DISTINCT ?substance ?label ?identifier WHERE {
+SELECT DISTINCT ?substance ?label ?identifier ?paper ?paperLabel WHERE {
   ?substance a wiki:Category-3AMaterials ;
     wiki:Property-3AHas_Identifier ?identifier ;
     rdfs:label ?label.
+  OPTIONAL { ?substance wiki:Property-3AHas_Source ?paper . ?paper rdfs:label ?paperLabel}
 }
 """
 
@@ -30,6 +31,12 @@ for (i in 1..results.rowCount) {
   identifier = results.get(i, "identifier")
   label = results.get(i, "label")
   nmFile = "/docs/nanowiki${identifier}.md"
+  paper = results.get(i, "paper")
+  paperLabel = ""
+  if (paper) {
+    paper = paper.replace("wiki:", "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/")
+    paperLabel = results.get(i, "paperLabel")
+  }
   // println "NM file: $nmFile"
   ui.renewFile(nmFile)
   ui.append(nmFile, "<a name=\"material\" />\n\n")
@@ -50,6 +57,8 @@ for (i in 1..results.rowCount) {
   }
 """)
   ui.append(nmFile, "</script>\n\n")
+  ui.append(nmFile, "\n")
+  if (paper) ui.append(nmFile, "* Source: [${paperLabel}](${paper})\n")
 }
 
 // Articles
