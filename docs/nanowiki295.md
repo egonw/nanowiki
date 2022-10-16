@@ -5,16 +5,21 @@
   {
     "@context": "https://schema.org/",
     "@type": "ChemicalSubstance",
+    "@id": "https://egonw.github.io/nanowiki/nanowiki295.html#material",
     "http://purl.org/dc/terms/conformsTo":
       {
         "@type": "CreativeWork",
         "@id": "https://bioschemas.org/profiles/ChemicalSubstance/0.4-RELEASE/"
       },
-    "@id": "https://egonw.github.io/nanowiki/nanowiki295.html#material",
+    "identfier": "295",
     "name": "Kim2011 NM3",
+    "url": "https://egonw.github.io/nanowiki/nanowiki295.html#material",
     "sameAs": "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Kim2011_NM3"
   }
 </script>
 
 
 * Source: [Kim2011](Kim2011.md)
+
+
+Source: NanoWiki 6, doi:[10.6084/m9.figshare.11897205.v1](https://doi.org/10.6084/m9.figshare.11897205.v1)

@@ -5,16 +5,21 @@
   {
     "@context": "https://schema.org/",
     "@type": "ChemicalSubstance",
+    "@id": "https://egonw.github.io/nanowiki/nanowiki427.html#material",
     "http://purl.org/dc/terms/conformsTo":
       {
         "@type": "CreativeWork",
         "@id": "https://bioschemas.org/profiles/ChemicalSubstance/0.4-RELEASE/"
       },
-    "@id": "https://egonw.github.io/nanowiki/nanowiki427.html#material",
+    "identfier": "427",
     "name": "E-GEOD-39316-M1",
+    "url": "https://egonw.github.io/nanowiki/nanowiki427.html#material",
     "sameAs": "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/E-2DGEOD-2D39316-2DM1"
   }
 </script>
 
 
 * Source: [Tuomela2013](Tuomela2013.md)
+
+
+Source: NanoWiki 6, doi:[10.6084/m9.figshare.11897205.v1](https://doi.org/10.6084/m9.figshare.11897205.v1)
