@@ -20,6 +20,8 @@
 
 
 * Source: [JRC2011](articleJRC2011.md)
+* Diameter: 10-30 nm
+* Average Length: 5-15 μm
 * Specific Surface Area: 300 m^2/g
 
 

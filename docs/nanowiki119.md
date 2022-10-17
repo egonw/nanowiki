@@ -21,7 +21,9 @@
 
 * Source: [Jeng2006](articleJeng2006.md)
 * Polymorphism: Gamma phase 
+* Particle Size: 1-39 nm
 * Polymorphism: Spherical 
+* Surface Area: 20-40 m^2/g
 
 
 Source: NanoWiki 6, doi:[10.6084/m9.figshare.11897205.v1](https://doi.org/10.6084/m9.figshare.11897205.v1)

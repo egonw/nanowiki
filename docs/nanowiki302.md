@@ -20,6 +20,8 @@
 
 
 * Source: [Antisari2013](articleAntisari2013.md)
+* Specific Surface Area:  m^2/g
+* Particle Size: 20-30 nm
 
 
 Source: NanoWiki 6, doi:[10.6084/m9.figshare.11897205.v1](https://doi.org/10.6084/m9.figshare.11897205.v1)

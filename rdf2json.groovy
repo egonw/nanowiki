@@ -67,12 +67,14 @@ for (i in 1..results.rowCount) {
 PREFIX wiki: <http://127.0.0.1/mediawiki/index.php/Special:URIResolver/>
 prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
-SELECT DISTINCT ?measurement ?endpoint ?value ?units WHERE {
+SELECT DISTINCT ?measurement ?endpoint ?value ?min ?max ?units WHERE {
   ?measurement a wiki:Category-3AMeasurements ;
     wiki:Property-3AHas_Endpoint / rdfs:label ?endpoint ;
-    wiki:Property-3AHas_Entity <${substance}> ;
-    wiki:Property-3AHas_Endpoint_Value ?value .
-  OPTIONAL {   ?measurement wiki:Property-3AHas_Endpoint_Value_Units ?units } 
+    wiki:Property-3AHas_Entity <${substance}> .
+  OPTIONAL { ?measurement wiki:Property-3AHas_Endpoint_Value ?value }
+  OPTIONAL { ?measurement wiki:Property-3AHas_Endpoint_Value_Min ?min ;
+                          wiki:Property-3AHas_Endpoint_Value_Max ?max }
+  OPTIONAL { ?measurement wiki:Property-3AHas_Endpoint_Value_Units ?units } 
 }
 """
   measurements = rdf.sparql(store, sparql)
@@ -80,7 +82,14 @@ SELECT DISTINCT ?measurement ?endpoint ?value ?units WHERE {
     for (j in 1..measurements.rowCount) {
       measurement = measurements.get(j, "measurement").replace("wiki:", "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/")
       endpoint = measurements.get(j, "endpoint")
-      value = measurements.get(j, "value")
+      value = ""
+      min = measurements.get(j, "min")
+      max = measurements.get(j, "max")
+      if (measurements.get(j, "value") != null) {
+        value = measurements.get(j, "value")
+      } else if (measurements.get(j, "min") != null) {
+        value = measurements.get(j, "min") + "-" + measurements.get(j, "max")
+      }
       units = ""
       if (measurements.get(j, "units") != null) units = measurements.get(j, "units")
       ui.append(nmFile, "* ${endpoint}: $value $units\n")

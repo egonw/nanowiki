@@ -21,6 +21,7 @@
 
 * Source: [Puzyn2011](articlePuzyn2011.md)
 * Log Reciprocal EC50: 3.45 
+* Particle Size: 15-90 nm
 * Log Reciprocal EC50: 3.45 
 
 

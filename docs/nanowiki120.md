@@ -20,6 +20,8 @@
 
 
 * Source: [Jeng2006](articleJeng2006.md)
+* Particle Size: 40-47 nm
+* Surface Area: 45-43 m^2/g
 
 
 Source: NanoWiki 6, doi:[10.6084/m9.figshare.11897205.v1](https://doi.org/10.6084/m9.figshare.11897205.v1)

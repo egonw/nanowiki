@@ -22,6 +22,7 @@
 * Source: [JRC2011](articleJRC2011.md)
 * Polymorphism: Anatase 
 * Specific Surface Area: 10 m^2/g
+* Primary Particle Size: 42-90 nm
 * Mean Particle Size: 267 nm
 
 

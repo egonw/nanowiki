@@ -20,6 +20,7 @@
 
 
 * Source: [Limbach2005](articleLimbach2005.md)
+* Particle Size: 250-500 nm
 * Concentration in cell: 27 ug/ml
 * Concentration in cell: 45 ug/ml
 * Concentration in cell: 5 ug/ml

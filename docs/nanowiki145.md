@@ -20,6 +20,7 @@
 
 
 * Source: [Berg2009](articleBerg2009.md)
+* Zeta Potential: -60-45 mV
 * Particle Size: 27 nm
 
 

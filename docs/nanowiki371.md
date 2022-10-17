@@ -23,6 +23,7 @@
 * Particle Size Distribution: D11: 10 nm
 * Particle Size Distribution: D77: 50 nm
 * Particle Size Distribution: D95: 100 nm
+* Primary Particle Size: 5-6 nm
 * Polymorphism: Anatase 
 
 

@@ -27,8 +27,10 @@
 * Zeta Potential: -13.3 mV
 * Zeta Potential: -11.8 mV
 * Zeta Potential: -10.64 mV
+* Average Length: 5-10 nm
 * Zeta Potential: -9.78 mV
 * Specific Surface Area: 513 m^2/g
+* Diameter: 20-30 nm
 
 
 Source: NanoWiki 6, doi:[10.6084/m9.figshare.11897205.v1](https://doi.org/10.6084/m9.figshare.11897205.v1)

@@ -20,6 +20,7 @@
 
 
 * Source: [Gerloff2009](articleGerloff2009.md)
+* Particle Size: 40-300 nm
 * BET: 10 m^2/g
 
 

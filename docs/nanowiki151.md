@@ -26,6 +26,7 @@
 * DNA in Tail: 8 %
 * BET: 50 m^2/g
 * DNA in Tail: 5 %
+* Particle Size: 20-80 nm
 * DNA in Tail: 6 %
 * LDH Release: 42 %
 * LDH Release: 15 %

@@ -19,6 +19,8 @@
 </script>
 
 
+* Surface Area: 175-225 m^2/g
+* Melting Point:  °C
 * Boiling Point: 2230 °C
 
 
