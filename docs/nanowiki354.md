@@ -21,6 +21,7 @@
 
 * Source: [JRC2011](articleJRC2011.md)
 * Specific Surface Area: 28 m^2/g
+* Primary Particle Size: 33 nm
 * Mean Particle Size: 28 nm
 
 

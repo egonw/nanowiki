@@ -20,6 +20,7 @@
 
 
 * Source: [JRC2011](articleJRC2011.md)
+* Primary Particle Size: 15 nm
 * Mean Particle Size: 15 nm
 
 

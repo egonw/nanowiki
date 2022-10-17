@@ -20,6 +20,7 @@
 
 
 * Source: [JRC2014](articleJRC2014.md)
+* Polymorphism: Anatase 
 * Particle Size Distribution: D12: 50 nm
 * Particle Size Distribution: D27: 100 nm
 * Specific Surface Area: 9 m^2/g

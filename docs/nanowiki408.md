@@ -20,6 +20,8 @@
 
 
 * Source: [Fede2014](articleFede2014.md)
+* Primary Particle Size: 14 nm
+* Primary Particle Size: 9 nm
 
 
 Source: NanoWiki 6, doi:[10.6084/m9.figshare.11897205.v1](https://doi.org/10.6084/m9.figshare.11897205.v1)

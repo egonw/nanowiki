@@ -21,6 +21,8 @@
 
 * Source: [To2019](articleTo2019.md)
 * Effective Density: 5.1472 g/cm^3
+* Primary Particle Size: 10.68 nm
+* Primary Particle Size: 13.5034 nm
 
 
 Source: NanoWiki 6, doi:[10.6084/m9.figshare.11897205.v1](https://doi.org/10.6084/m9.figshare.11897205.v1)

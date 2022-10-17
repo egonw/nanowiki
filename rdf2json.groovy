@@ -71,8 +71,8 @@ SELECT DISTINCT ?measurement ?endpoint ?value ?units WHERE {
   ?measurement a wiki:Category-3AMeasurements ;
     wiki:Property-3AHas_Endpoint / rdfs:label ?endpoint ;
     wiki:Property-3AHas_Entity <${substance}> ;
-    wiki:Property-3AHas_Endpoint_Value ?value ;
-    wiki:Property-3AHas_Endpoint_Value_Units ?units .
+    wiki:Property-3AHas_Endpoint_Value ?value .
+  OPTIONAL {   ?measurement wiki:Property-3AHas_Endpoint_Value_Units ?units } 
 }
 """
   measurements = rdf.sparql(store, sparql)
@@ -81,7 +81,8 @@ SELECT DISTINCT ?measurement ?endpoint ?value ?units WHERE {
       measurement = measurements.get(j, "measurement").replace("wiki:", "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/")
       endpoint = measurements.get(j, "endpoint")
       value = measurements.get(j, "value")
-      units = measurements.get(j, "units")
+      units = ""
+      if (measurements.get(j, "units") != null) units = measurements.get(j, "units")
       ui.append(nmFile, "* ${endpoint}: $value $units\n")
     }
   }

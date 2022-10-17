@@ -25,6 +25,7 @@
 * Zeta Potential: -11.6 mV
 * Zeta Potential: -30.3 mV
 * Specific Surface Area: 17.94 m^2/g
+* Polymorphism: Anatase 
 * Particle Size: 634 nm
 * Thickness: 10 nm
 * Particle Size: 1590 nm

@@ -21,6 +21,13 @@
 
 * Source: [Docter2014](articleDocter2014.md)
 * Zeta Potential: -58 mV
+* Primary Particle Size: 19.2 nm
+* Percentage Viable Cells: 96 
+* Percentage Viable Cells: 95 
+* Percentage Viable Cells: 95 
+* Percentage Viable Cells: 95 
+* Percentage Viable Cells: 98 
+* Percentage Viable Cells: 98 
 
 
 Source: NanoWiki 6, doi:[10.6084/m9.figshare.11897205.v1](https://doi.org/10.6084/m9.figshare.11897205.v1)

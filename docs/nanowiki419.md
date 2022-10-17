@@ -20,6 +20,11 @@
 
 
 * Source: [Chithrani2006](articleChithrani2006.md)
+* Particles Per Cell: 2900 
+* Particles Per Cell: 2400 
+* Particles Per Cell: 1800 
+* Particles Per Cell: 800 
+* Particles Per Cell: 4000 
 * Particle Size: 74 nm
 
 

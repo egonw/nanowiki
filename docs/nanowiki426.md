@@ -22,6 +22,7 @@
 * Source: [Tuomela2013](articleTuomela2013.md)
 * Zeta Potential: -17.3 mV
 * Hydrodynamic size: 159 nm
+* Primary Particle Size: 14.7 nm
 
 
 Source: NanoWiki 6, doi:[10.6084/m9.figshare.11897205.v1](https://doi.org/10.6084/m9.figshare.11897205.v1)

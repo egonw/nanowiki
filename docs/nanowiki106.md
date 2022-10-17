@@ -20,8 +20,16 @@
 
 
 * Source: [Field2011](articleField2011.md)
+* Percentage Viable Cells: 57 
 * Particle Size: 286 nm
+* Percentage Viable Cells: 69 
+* Percentage Viable Cells: 35 
+* Percentage Viable Cells: 90 
+* Percentage Viable Cells: 0 
+* Percentage Viable Cells: 45 
 * Zeta Potential: 52 mV
+* Percentage Viable Cells: 70 
+* Percentage Viable Cells: 95 
 
 
 Source: NanoWiki 6, doi:[10.6084/m9.figshare.11897205.v1](https://doi.org/10.6084/m9.figshare.11897205.v1)

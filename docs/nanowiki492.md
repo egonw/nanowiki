@@ -22,6 +22,8 @@
 * Source: [To2019](articleTo2019.md)
 * Purity: 99.26 %Mg
 * Effective Density: 3.1420 g/cm^3
+* Primary Particle Size: 23.8 nm
+* Primary Particle Size: 46.66 nm
 
 
 Source: NanoWiki 6, doi:[10.6084/m9.figshare.11897205.v1](https://doi.org/10.6084/m9.figshare.11897205.v1)

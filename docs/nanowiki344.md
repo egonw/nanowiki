@@ -20,7 +20,9 @@
 
 
 * Source: [JRC2011](articleJRC2011.md)
+* Polymorphism: Rutile 
 * Specific Surface Area: 60 m^2/g
+* Primary Particle Size: 20 nm
 * Mean Particle Size: 67 nm
 
 

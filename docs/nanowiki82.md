@@ -20,7 +20,16 @@
 
 
 * Source: [Liu2011](articleLiu2011.md)
+* Toxicity Classifier: Non-toxic 
+* Toxicity Classifier: Non-toxic 
+* Toxicity Classifier: Non-toxic 
+* Toxicity Classifier: Non-toxic 
+* Toxicity Classifier: Non-toxic 
+* Toxicity Classifier: Non-toxic 
 * Particle Size: 12 nm
+* Toxicity Classifier: Non-toxic 
+* Toxicity Classifier: Non-toxic 
+* Toxicity Classifier: Non-toxic 
 
 
 Source: NanoWiki 6, doi:[10.6084/m9.figshare.11897205.v1](https://doi.org/10.6084/m9.figshare.11897205.v1)

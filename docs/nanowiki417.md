@@ -20,6 +20,7 @@
 
 
 * Source: [Chithrani2006](articleChithrani2006.md)
+* Particles Per Cell: 4500 
 * Particle Size: 30 nm
 
 

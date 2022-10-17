@@ -20,6 +20,12 @@
 
 
 * Source: [Field2011](articleField2011.md)
+* Percentage Viable Cells: 88 
+* Percentage Viable Cells: 92 
+* Percentage Viable Cells: 100 
+* Percentage Viable Cells: 98 
+* Percentage Viable Cells: 98 
+* Percentage Viable Cells: 98 
 * Zeta Potential: 44 mV
 * Particle Size: 283 nm
 

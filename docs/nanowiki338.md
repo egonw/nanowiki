@@ -21,6 +21,7 @@
 
 * Source: [Docter2014](articleDocter2014.md)
 * Zeta Potential: -58 mV
+* Primary Particle Size: 27.2 nm
 
 
 Source: NanoWiki 6, doi:[10.6084/m9.figshare.11897205.v1](https://doi.org/10.6084/m9.figshare.11897205.v1)

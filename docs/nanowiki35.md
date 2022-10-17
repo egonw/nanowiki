@@ -20,6 +20,7 @@
 
 
 * Source: [Shaw2008](articleShaw2008.md)
+* Primary Particle Size: 27 nm
 * Zeta Potential: -3.34 mV
 
 

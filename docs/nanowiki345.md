@@ -20,7 +20,9 @@
 
 
 * Source: [JRC2011](articleJRC2011.md)
+* Polymorphism: Rutile-Anatase 
 * Specific Surface Area: 61 m^2/g
+* Primary Particle Size: 22 nm
 * Mean Particle Size: 95 nm
 
 
