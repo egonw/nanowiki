@@ -20,6 +20,12 @@
 
 
 * Source: [Nymark2015](articleNymark2015.md)
+* IC50: 66 μg/cm^2
+* IC50: 48 μg/cm^2
+* IC50: 90 μg/cm^2
+* Specific Surface Area: 1.07 m^2/g
+* Average Length: 21 μm
+* Diameter: 1.1 μm
 
 
 Source: NanoWiki 6, doi:[10.6084/m9.figshare.11897205.v1](https://doi.org/10.6084/m9.figshare.11897205.v1)

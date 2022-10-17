@@ -20,6 +20,15 @@
 
 
 * Source: [Gerloff2009](articleGerloff2009.md)
+* Metabolic Activity: 90 %
+* DNA in Tail: 3 %
+* Metabolic Activity: 60 %
+* DNA in Tail: 8 %
+* BET: 50 m^2/g
+* DNA in Tail: 5 %
+* DNA in Tail: 6 %
+* LDH Release: 42 %
+* LDH Release: 15 %
 
 
 Source: NanoWiki 6, doi:[10.6084/m9.figshare.11897205.v1](https://doi.org/10.6084/m9.figshare.11897205.v1)

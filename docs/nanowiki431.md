@@ -20,6 +20,9 @@
 
 
 * Source: [Prabhu2010](articlePrabhu2010.md)
+* Z-Average Diameter: 360 nm
+* Particle Size: 69.0 nm
+* LDH Release: 130 %
 
 
 Source: NanoWiki 6, doi:[10.6084/m9.figshare.11897205.v1](https://doi.org/10.6084/m9.figshare.11897205.v1)

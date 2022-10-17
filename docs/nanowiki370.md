@@ -20,6 +20,9 @@
 
 
 * Source: [JRC2014](articleJRC2014.md)
+* Particle Size Distribution: D12: 50 nm
+* Particle Size Distribution: D27: 100 nm
+* Specific Surface Area: 9 m^2/g
 
 
 Source: NanoWiki 6, doi:[10.6084/m9.figshare.11897205.v1](https://doi.org/10.6084/m9.figshare.11897205.v1)

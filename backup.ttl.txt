@@ -20423,6 +20423,7 @@ wiki:PercentageNonViableCells
     rdfs:label "PercentageNonViableCells" ;
     owl:sameAs wiki:Percentage_Non-2DViable_Cells .
 
+
 wiki:Percentage_Non-2DViable_Cells
     wiki:Property-3ADescription "Percentage Non-viable Cells"^^<http://www.w3.org/2001/XMLSchema#string> ;
     wiki:Property-3AHas_Assay_Type wiki:Cell_Viability_Assay ;
@@ -20874,18 +20875,6 @@ wiki:Prabhu2010_R2
     a wiki:Category-3ARelationships, swivt:Subject ;
     rdfs:isDefinedBy <http://localhost/mediawiki/index.php/Special:ExportRDF/Prabhu2010_R2> ;
     rdfs:label "Prabhu2010 R2" .
-
-wiki:Primary_Particle_Size
-    wiki:Property-3AHas_Assay_Type wiki:Physicochemical_Characterization ;
-    wiki:Property-3AHas_Category <http://127.0.0.1/mediawiki/index.php/Special:URIResolver/Particle_size_distribution_(Granulometry)/Fibre_length_and_diameter_distribution> ;
-    wiki:Property-3AOriginal_URI <http://purl.bioontology.org/ontology/npo#NPO_1694> ;
-    swivt:page <http://localhost/mediawiki/index.php/Primary_Particle_Size> ;
-    swivt:wikiNamespace 0 ;
-    swivt:wikiPageModificationDate "2020-02-22T15:30:17"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    a wiki:Category-3AEndpoints, wiki:Category-3AParticle_Size, wiki:Category-3APrimary_Particle_Size, swivt:Subject ;
-    rdfs:isDefinedBy <http://localhost/mediawiki/index.php/Special:ExportRDF/Primary_Particle_Size> ;
-    rdfs:label "Primary Particle Size" ;
-    owl:sameAs <http://purl.bioontology.org/ontology/npo#NPO_1694> .
 
 wiki:Property-3AAssays_extracted
     swivt:page <http://localhost/mediawiki/index.php/Property:Assays_extracted> ;

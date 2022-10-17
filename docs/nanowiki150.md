@@ -20,6 +20,7 @@
 
 
 * Source: [Gerloff2009](articleGerloff2009.md)
+* BET: 10 m^2/g
 
 
 Source: NanoWiki 6, doi:[10.6084/m9.figshare.11897205.v1](https://doi.org/10.6084/m9.figshare.11897205.v1)

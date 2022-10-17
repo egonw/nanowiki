@@ -62,6 +62,30 @@ for (i in 1..results.rowCount) {
   ui.append(nmFile, "\n")
   if (paper) ui.append(nmFile, "* Source: [${paperLabel}](article${paper}.md)\n")
 
+  // properties
+  sparql = """
+PREFIX wiki: <http://127.0.0.1/mediawiki/index.php/Special:URIResolver/>
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT DISTINCT ?measurement ?endpoint ?value ?units WHERE {
+  ?measurement a wiki:Category-3AMeasurements ;
+    wiki:Property-3AHas_Endpoint / rdfs:label ?endpoint ;
+    wiki:Property-3AHas_Entity <${substance}> ;
+    wiki:Property-3AHas_Endpoint_Value ?value ;
+    wiki:Property-3AHas_Endpoint_Value_Units ?units .
+}
+"""
+  measurements = rdf.sparql(store, sparql)
+  if (measurements.rowCount > 0) {
+    for (j in 1..measurements.rowCount) {
+      measurement = measurements.get(j, "measurement").replace("wiki:", "http://127.0.0.1/mediawiki/index.php/Special:URIResolver/")
+      endpoint = measurements.get(j, "endpoint")
+      value = measurements.get(j, "value")
+      units = measurements.get(j, "units")
+      ui.append(nmFile, "* ${endpoint}: $value $units\n")
+    }
+  }
+  
   ui.append(nmFile, "\n\nSource: NanoWiki 6, doi:[10.6084/m9.figshare.11897205.v1](https://doi.org/10.6084/m9.figshare.11897205.v1)\n")
 }
 

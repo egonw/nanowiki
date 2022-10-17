@@ -20,6 +20,13 @@
 
 
 * Source: [Limbach2005](articleLimbach2005.md)
+* Concentration in cell: 27 ug/ml
+* Concentration in cell: 45 ug/ml
+* Concentration in cell: 5 ug/ml
+* Concentration in cell: 27 ug/ml
+* Concentration in cell: 45 ug/ml
+* Concentration in culture medium: 1 ug/g
+* Concentration in culture medium: 1 ug/g
 
 
 Source: NanoWiki 6, doi:[10.6084/m9.figshare.11897205.v1](https://doi.org/10.6084/m9.figshare.11897205.v1)

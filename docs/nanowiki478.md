@@ -20,6 +20,11 @@
 
 
 * Source: [Cai2018](articleCai2018.md)
+* Surface Area: 17.9 m^2/g
+* Hydrodynamic size: 246 nm
+* Thickness: 23 nm
+* Diameter: 84 nm
+* Zeta Potential: -3.6 mV
 
 
 Source: NanoWiki 6, doi:[10.6084/m9.figshare.11897205.v1](https://doi.org/10.6084/m9.figshare.11897205.v1)

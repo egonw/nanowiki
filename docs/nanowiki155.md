@@ -20,6 +20,14 @@
 
 
 * Source: [Gerloff2009](articleGerloff2009.md)
+* Particle Size: 8 nm
+* BET: 600 m^2/g
+* DNA in Tail: 4 %
+* DNA in Tail: 2 %
+* Metabolic Activity: 135 %
+* Metabolic Activity: 120 %
+* LDH Release: 2 %
+* LDH Release: 1 %
 
 
 Source: NanoWiki 6, doi:[10.6084/m9.figshare.11897205.v1](https://doi.org/10.6084/m9.figshare.11897205.v1)

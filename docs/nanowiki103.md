@@ -20,6 +20,7 @@
 
 
 * Source: [Jugan2011](articleJugan2011.md)
+* Particle Size: 142 nm
 
 
 Source: NanoWiki 6, doi:[10.6084/m9.figshare.11897205.v1](https://doi.org/10.6084/m9.figshare.11897205.v1)

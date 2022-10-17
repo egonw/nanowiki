@@ -20,6 +20,9 @@
 
 
 * Source: [Lin2013](articleLin2013.md)
+* Zeta Potential: -31.5 mV
+* Particle Size: 12.6 nm
+* Enzyme activity: 1.18 nmol/mg*min
 
 
 Source: NanoWiki 6, doi:[10.6084/m9.figshare.11897205.v1](https://doi.org/10.6084/m9.figshare.11897205.v1)

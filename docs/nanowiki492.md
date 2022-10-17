@@ -20,6 +20,8 @@
 
 
 * Source: [To2019](articleTo2019.md)
+* Purity: 99.26 %Mg
+* Effective Density: 3.1420 g/cm^3
 
 
 Source: NanoWiki 6, doi:[10.6084/m9.figshare.11897205.v1](https://doi.org/10.6084/m9.figshare.11897205.v1)

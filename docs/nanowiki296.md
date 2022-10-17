@@ -20,6 +20,12 @@
 
 
 * Source: [Lesniak2013](articleLesniak2013.md)
+* Zeta Potential: -21 mV
+* Hydrodynamic size: 63 nm
+* Zeta Potential: -20 mV
+* Hydrodynamic size: 81 nm
+* Zeta Potential: -36 mV
+* Hydrodynamic size: 73 nm
 
 
 Source: NanoWiki 6, doi:[10.6084/m9.figshare.11897205.v1](https://doi.org/10.6084/m9.figshare.11897205.v1)

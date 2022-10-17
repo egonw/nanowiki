@@ -20,6 +20,7 @@
 
 
 * Source: [To2019](articleTo2019.md)
+* Effective Density: 5.1472 g/cm^3
 
 
 Source: NanoWiki 6, doi:[10.6084/m9.figshare.11897205.v1](https://doi.org/10.6084/m9.figshare.11897205.v1)

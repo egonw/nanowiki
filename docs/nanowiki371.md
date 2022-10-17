@@ -20,6 +20,9 @@
 
 
 * Source: [JRC2014](articleJRC2014.md)
+* Particle Size Distribution: D11: 10 nm
+* Particle Size Distribution: D77: 50 nm
+* Particle Size Distribution: D95: 100 nm
 
 
 Source: NanoWiki 6, doi:[10.6084/m9.figshare.11897205.v1](https://doi.org/10.6084/m9.figshare.11897205.v1)

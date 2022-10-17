@@ -20,6 +20,11 @@
 
 
 * Source: [Cai2018](articleCai2018.md)
+* Surface Area: 26.9 m^2/g
+* Hydrodynamic size: 578 nm
+* Average Length: 116 nm
+* Diameter: 20 nm
+* Zeta Potential: -8.5 mV
 
 
 Source: NanoWiki 6, doi:[10.6084/m9.figshare.11897205.v1](https://doi.org/10.6084/m9.figshare.11897205.v1)

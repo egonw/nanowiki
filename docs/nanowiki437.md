@@ -20,6 +20,10 @@
 
 
 * Source: [Geng2014](articleGeng2014.md)
+* Inner Diameter: 1.51 nm
+* Average Length: 13.39 nm
+* Average Length: 14.34 nm
+* Average Length: 13.34 nm
 
 
 Source: NanoWiki 6, doi:[10.6084/m9.figshare.11897205.v1](https://doi.org/10.6084/m9.figshare.11897205.v1)
